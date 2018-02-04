@@ -1,0 +1,419 @@
+1
+00:00:11,510 --> 00:00:14,405
+Thanks very much for having me, Mark.
+
+2
+00:00:14,405 --> 00:00:15,990
+So before coming to Georgia Tech,
+
+3
+00:00:15,990 --> 00:00:19,650
+I was at a place called the Regenstrief Institute which,
+
+4
+00:00:19,650 --> 00:00:22,410
+amongst informatics folks, is a pretty well-known place.
+
+5
+00:00:22,410 --> 00:00:27,100
+It's the home of one of the earliest physician order entry systems called Gopher.
+
+6
+00:00:27,100 --> 00:00:30,810
+Also the home base for LOINC which is well-known as well as OpenMRS,
+
+7
+00:00:30,810 --> 00:00:34,105
+a global open source medical records system.
+
+8
+00:00:34,105 --> 00:00:38,100
+Regenstrief Institute was a place
+
+9
+00:00:38,100 --> 00:00:41,607
+where I spent eight years focusing primarily on clinical decision support,
+
+10
+00:00:41,607 --> 00:00:44,700
+a lot of work about how we can design alerts that are more effective,
+
+11
+00:00:44,700 --> 00:00:48,450
+how we can create more influential designs
+
+12
+00:00:48,450 --> 00:00:52,545
+for driving behaviors and decision making amongst physicians.
+
+13
+00:00:52,545 --> 00:00:56,610
+Regenstrief Institute also is a place that has been a hub for
+
+14
+00:00:56,610 --> 00:01:00,240
+many years for I'm thinking broadly about the future of informatics,
+
+15
+00:01:00,240 --> 00:01:02,220
+and my time there was fantastic.
+
+16
+00:01:02,220 --> 00:01:05,160
+I was very excited to have a chance to come down to Georgia Tech
+
+17
+00:01:05,160 --> 00:01:08,490
+and take some of the work that we've done in the academic medical centers and
+
+18
+00:01:08,490 --> 00:01:25,460
+bring it to a technology-oriented institution like Georgia Tech.
+
+19
+00:01:25,460 --> 00:01:30,210
+Sure, so OHDSI is originally, let me start over there,
+
+20
+00:01:30,210 --> 00:01:36,880
+so OHDSI actually originally formed as something called OMOP back in 2008.
+
+21
+00:01:36,880 --> 00:01:39,660
+And that stands for the observational medical outcomes partnership.
+
+22
+00:01:39,660 --> 00:01:43,440
+OMOP itself was funded by the foundations
+
+23
+00:01:43,440 --> 00:01:47,337
+of the NIH which was kind of a collective of life sciences,
+
+24
+00:01:47,337 --> 00:01:49,590
+pharmaceutical companies that came together to say,
+
+25
+00:01:49,590 --> 00:01:52,092
+how can we understand observational health data
+
+26
+00:01:52,092 --> 00:01:55,290
+better and look at the research methods, in part,
+
+27
+00:01:55,290 --> 00:01:58,920
+to get ahead of what was called Mini-sentinel then Sentinel that was part of
+
+28
+00:01:58,920 --> 00:02:03,205
+an FDA initiative to use observational data to track drug safety.
+
+29
+00:02:03,205 --> 00:02:08,505
+The OMOP program was very successful in putting together a model of
+
+30
+00:02:08,505 --> 00:02:12,585
+clinical data, and it grew over a period of five years to
+
+31
+00:02:12,585 --> 00:02:16,620
+look at pharmacovigilance or drug safety in some very novel ways.
+
+32
+00:02:16,620 --> 00:02:18,585
+But at the end of the five year funding period,
+
+33
+00:02:18,585 --> 00:02:22,410
+the lead scientists said, we want to keep going and we want to answer
+
+34
+00:02:22,410 --> 00:02:26,520
+questions related to comparative effectiveness, related to data quality,
+
+35
+00:02:26,520 --> 00:02:29,940
+related to value-based care and other areas in healthcare research.
+
+36
+00:02:29,940 --> 00:02:32,880
+And so they banded together and converted OMOP into something called OHDSI,
+
+37
+00:02:32,880 --> 00:02:36,060
+which now has expanded to, as you mentioned,
+
+38
+00:02:36,060 --> 00:02:42,780
+a much larger set with data in the OMOP common data model on over 660 million patients.
+
+39
+00:02:42,780 --> 00:02:59,800
+There's participants in OHDSI from over 20 countries, So it's become quite large.
+
+40
+00:02:59,800 --> 00:03:03,440
+So converting data from a source system whatever it may be,
+
+41
+00:03:03,440 --> 00:03:06,980
+whether it's a Medicare claims document,
+
+42
+00:03:06,980 --> 00:03:11,030
+whether it's from an electronic medical records system into the OMOP common data model,
+
+43
+00:03:11,030 --> 00:03:15,440
+which is the standard, is a process we call ETL: Extract, Transform and Load.
+
+44
+00:03:15,440 --> 00:03:18,890
+And that's certainly used in other areas in addition to health care.
+
+45
+00:03:18,890 --> 00:03:21,915
+The reason it can be challenging is you have to really understand your data.
+
+46
+00:03:21,915 --> 00:03:23,870
+You have to understand the source data and
+
+47
+00:03:23,870 --> 00:03:26,585
+where different types of information are maintained.
+
+48
+00:03:26,585 --> 00:03:30,823
+You also have to understand the target common data model,
+
+49
+00:03:30,823 --> 00:03:33,675
+document and the format of how that works.
+
+50
+00:03:33,675 --> 00:03:37,385
+The most important thing around doing ETL or a transform
+
+51
+00:03:37,385 --> 00:03:41,375
+into the OMOP CDM is to have people understand the local data environment.
+
+52
+00:03:41,375 --> 00:03:43,490
+How it gets in there and, basically,
+
+53
+00:03:43,490 --> 00:03:47,355
+going through the process of mapping up codes can take some time.
+
+54
+00:03:47,355 --> 00:03:50,150
+The investment, though, is very worthwhile because once you've done it,
+
+55
+00:03:50,150 --> 00:03:55,580
+there's a lot of off the shelf capabilities that working at OMOP and OHDSI
+
+56
+00:03:55,580 --> 00:03:57,980
+brings you that are derived from the work of
+
+57
+00:03:57,980 --> 00:04:01,700
+people literally across the world using that same data model.
+
+58
+00:04:01,700 --> 00:04:03,545
+One of the other great things about
+
+59
+00:04:03,545 --> 00:04:07,040
+OMOP as a common data model in the OHDSI network is that
+
+60
+00:04:07,040 --> 00:04:14,150
+a researcher in California at Stanford can write code that will run on data in Japan,
+
+61
+00:04:14,150 --> 00:04:16,460
+in Australia, in the UK,
+
+62
+00:04:16,460 --> 00:04:17,980
+all with a common code base.
+
+63
+00:04:17,980 --> 00:04:20,480
+So it allows people to ask a question in
+
+64
+00:04:20,480 --> 00:04:24,885
+their local home environment and actually get results coming in from all over the world.
+
+65
+00:04:24,885 --> 00:04:27,740
+I think there's very few other ways that you can do something on
+
+66
+00:04:27,740 --> 00:04:32,709
+that scale globally than with OHDSI and OMOP.
+
+67
+00:04:40,709 --> 00:04:44,805
+I would agree with that.
+
+68
+00:04:44,805 --> 00:04:48,805
+I think there are so many nuances that have been, in fact,
+
+69
+00:04:48,805 --> 00:04:51,610
+proven out in many of the OHDSI research studies where we
+
+70
+00:04:51,610 --> 00:04:54,730
+look at the same question in different environments,
+
+71
+00:04:54,730 --> 00:04:56,495
+inpatient and outpatient environments,
+
+72
+00:04:56,495 --> 00:05:00,490
+EMR-based environments, claims-based data environments and,
+
+73
+00:05:00,490 --> 00:05:03,250
+indeed, there is a huge amount of
+
+74
+00:05:03,250 --> 00:05:07,815
+variation that's based on local factors that need to be brought into account.
+
+75
+00:05:07,815 --> 00:05:10,435
+And it's not that you want to hide those but you want to understand,
+
+76
+00:05:10,435 --> 00:05:13,450
+you want to recognize and you want to account for them where you can.
+
+77
+00:05:13,450 --> 00:05:14,710
+So I would agree very much.
+
+78
+00:05:14,710 --> 00:05:18,310
+A federated model allows that individual local nuance to be brought
+
+79
+00:05:18,310 --> 00:05:24,330
+to it and it's probably the most effective way to go about doing observational research.
+
+80
+00:05:32,680 --> 00:05:41,690
+Sure. We've just completed one study looking at a question that the FDA put
+
+81
+00:05:41,690 --> 00:05:45,600
+out on their website late last year
+
+82
+00:05:45,600 --> 00:05:49,075
+where they were looking at the question of the safety of a particular medication.
+
+83
+00:05:49,075 --> 00:05:51,630
+But it's a very rare adverse event they were curious about,
+
+84
+00:05:51,630 --> 00:05:53,240
+which something called angioedema.
+
+85
+00:05:53,240 --> 00:05:56,850
+You don't see it very much so if you want to study the risk of angioedema,
+
+86
+00:05:56,850 --> 00:06:01,010
+you're going to need millions and millions of patients to get at that question.
+
+87
+00:06:01,010 --> 00:06:02,745
+So with OHDSI, with a network that large,
+
+88
+00:06:02,745 --> 00:06:06,315
+you can actually ask a question of that across tens of millions,
+
+89
+00:06:06,315 --> 00:06:08,400
+even hundreds of millions of patients and be
+
+90
+00:06:08,400 --> 00:06:10,470
+able to generate information which, in this case,
+
+91
+00:06:10,470 --> 00:06:13,330
+we did and it'll be coming out in a journal currently in
+
+92
+00:06:13,330 --> 00:06:18,475
+press that did not show effect of that medication and the risk of angioedema.
+
+93
+00:06:18,475 --> 00:06:23,245
+Another great example of where we would use OHDSI in a research study is for looking at,
+
+94
+00:06:23,245 --> 00:06:27,985
+for example, the patterns of treatment across hundreds of millions of patients.
+
+95
+00:06:27,985 --> 00:06:30,185
+How are people being treated for hypertension?
+
+96
+00:06:30,185 --> 00:06:31,915
+How are people being treated for diabetes?
+
+97
+00:06:31,915 --> 00:06:34,680
+It may seem very intuitive that there's recommendations out for
+
+98
+00:06:34,680 --> 00:06:37,895
+the best process or pathway for treating hypertension.
+
+99
+00:06:37,895 --> 00:06:41,400
+But when you look at what's happening out in the real world it's very different.
+
+100
+00:06:41,400 --> 00:06:46,125
+So using the OHDSI framework allows you to look at these very large questions.
+
+101
+00:06:46,125 --> 00:06:49,750
+On a smaller scale, doing predictive models for individual patients,
+
+102
+00:06:49,750 --> 00:06:53,250
+the best way to generate an accurate predictive model for an individual patient is
+
+103
+00:06:53,250 --> 00:06:56,670
+to start with tens of millions of patients to begin with and hone in on.
+
+104
+00:06:56,670 --> 00:07:00,570
+So, generating predictive models around questions of safety,
+
+105
+00:07:00,570 --> 00:07:05,000
+questions of optimal treatment is another major use case OHDISI.

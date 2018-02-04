@@ -1,0 +1,243 @@
+1
+00:00:00,000 --> 00:00:04,850
+Does AM Health actually improve outcomes or lower costs?
+
+2
+00:00:04,850 --> 00:00:09,675
+A 2015 article, in the Journal of Medical Internet Research,
+
+3
+00:00:09,675 --> 00:00:15,280
+focused on AM Health as a tool to increase adherence in crying disease management.
+
+4
+00:00:15,280 --> 00:00:20,140
+The authors found 107 papers that met their criteria.
+
+5
+00:00:20,140 --> 00:00:25,230
+Of these, 41 more randomized clinical trials that measured the effects of
+
+6
+00:00:25,230 --> 00:00:30,640
+AM Health on disease specific clinical outcomes in conditions such as diabetes,
+
+7
+00:00:30,640 --> 00:00:33,875
+or chronic cardiovascular, or lung diseases.
+
+8
+00:00:33,875 --> 00:00:35,580
+16 of these studies,
+
+9
+00:00:35,580 --> 00:00:39,460
+around 40% reported significant improvements.
+
+10
+00:00:39,460 --> 00:00:42,420
+Based on this, the authors say quote,
+
+11
+00:00:42,420 --> 00:00:44,920
+"There is potential for AM Health tools to better
+
+12
+00:00:44,920 --> 00:00:47,930
+facilitate adherence to chronic disease management,
+
+13
+00:00:47,930 --> 00:00:52,050
+but the evidence supporting its current effectiveness is mixed."
+
+14
+00:00:52,050 --> 00:00:53,290
+You can see here,
+
+15
+00:00:53,290 --> 00:00:56,260
+in this graphic from that article that text messaging,
+
+16
+00:00:56,260 --> 00:01:01,450
+SMS, was the most commonly used tool in the primary platform.
+
+17
+00:01:01,450 --> 00:01:04,840
+It can facilitate patient provider communication,
+
+18
+00:01:04,840 --> 00:01:09,145
+medication reminders, and data collection and exchange,
+
+19
+00:01:09,145 --> 00:01:11,785
+on disease specific measurements.
+
+20
+00:01:11,785 --> 00:01:16,455
+As well as deliver patient education and motivation.
+
+21
+00:01:16,455 --> 00:01:20,635
+It has the advantage you're working on virtually all cell phones.
+
+22
+00:01:20,635 --> 00:01:23,465
+This can be particularly important in developing countries where
+
+23
+00:01:23,465 --> 00:01:27,130
+lower cost phones may be more common.
+
+24
+00:01:27,130 --> 00:01:30,430
+The next most common technology with smartphone apps,
+
+25
+00:01:30,430 --> 00:01:34,913
+often use to help diabetes patients remember to check symptoms,
+
+26
+00:01:34,913 --> 00:01:36,490
+maintain a food diary,
+
+27
+00:01:36,490 --> 00:01:39,280
+or connect to educators in real-time.
+
+28
+00:01:39,280 --> 00:01:45,690
+Next, where standalone wireless or Bluetooth compatible devices are those such as
+
+29
+00:01:45,690 --> 00:01:49,170
+a blood glucose meter that are connected to a phone for
+
+30
+00:01:49,170 --> 00:01:54,475
+automatic transfer of data for review by a healthcare provider.
+
+31
+00:01:54,475 --> 00:02:00,260
+In some systems, measurements that fall outside of the target range, trigger alerts.
+
+32
+00:02:00,260 --> 00:02:03,085
+Another issue is AM Health data quality.
+
+33
+00:02:03,085 --> 00:02:04,990
+A study in December,
+
+34
+00:02:04,990 --> 00:02:09,370
+2016 issue of the respected journal Health Affairs,
+
+35
+00:02:09,370 --> 00:02:16,660
+evaluated 137 patient facing AM Health apps that were highly rated by consumers,
+
+36
+00:02:16,660 --> 00:02:19,045
+and recommended by experts,
+
+37
+00:02:19,045 --> 00:02:21,040
+and that targeted high-need,
+
+38
+00:02:21,040 --> 00:02:26,340
+high-cost populations based on a long list of medical conditions.
+
+39
+00:02:26,340 --> 00:02:28,360
+The authors found that quote,
+
+40
+00:02:28,360 --> 00:02:33,595
+"Consumers ratings were poor indications of apps clinical utility or usability,
+
+41
+00:02:33,595 --> 00:02:36,820
+and that most apps did not respond appropriately
+
+42
+00:02:36,820 --> 00:02:39,875
+when a user entered potentially dangerous health information."
+
+43
+00:02:39,875 --> 00:02:42,970
+End quote. They further found that, quote,
+
+44
+00:02:42,970 --> 00:02:46,900
+"very few apps focused on providing guidance based on
+
+45
+00:02:46,900 --> 00:02:51,565
+user entered information or support through social networks,
+
+46
+00:02:51,565 --> 00:02:54,130
+or on rewarding behavior change.
+
+47
+00:02:54,130 --> 00:02:59,440
+Functionality is likely to be useful to relatively more engaged patients."
+
+48
+00:02:59,440 --> 00:03:02,185
+The authors also note that quote,
+
+49
+00:03:02,185 --> 00:03:05,410
+"data privacy and security will continue to be
+
+50
+00:03:05,410 --> 00:03:09,220
+major concerns in the dissemination of AM Health apps."
+
+51
+00:03:09,220 --> 00:03:12,060
+End quote. This is an interesting,
+
+52
+00:03:12,060 --> 00:03:15,595
+but unfortunately not yet openly available study.
+
+53
+00:03:15,595 --> 00:03:19,290
+Another aspect of AM Health data quality is
+
+54
+00:03:19,290 --> 00:03:23,340
+the ability of patients to properly operate in-home devices.
+
+55
+00:03:23,340 --> 00:03:26,645
+They may incorrectly wear blood pressure cuffs.
+
+56
+00:03:26,645 --> 00:03:28,930
+Patients may hold an item,
+
+57
+00:03:28,930 --> 00:03:32,125
+steadying themselves against a wall or other object,
+
+58
+00:03:32,125 --> 00:03:36,325
+or wear substantially different clothing as they weigh themselves.
+
+59
+00:03:36,325 --> 00:03:40,538
+These issues clearly point to the need for careful training,
+
+60
+00:03:40,538 --> 00:03:43,245
+and devices that to the extent possible,
+
+61
+00:03:43,245 --> 00:03:48,000
+can detect such situations and coax patients to use proper technique.

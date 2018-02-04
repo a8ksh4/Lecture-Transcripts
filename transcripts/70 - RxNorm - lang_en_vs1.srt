@@ -1,0 +1,51 @@
+1
+00:00:00,000 --> 00:00:04,560
+Pharmacy was an early target for health information technology.
+
+2
+00:00:04,560 --> 00:00:06,260
+In fact, I worked on one of
+
+3
+00:00:06,260 --> 00:00:11,085
+the first ambulatory pharmacy systems in the early to mid 1970s.
+
+4
+00:00:11,085 --> 00:00:16,080
+As a result, codes for medications were also an early development.
+
+5
+00:00:16,080 --> 00:00:19,775
+As the use of commercial pharmacy software grew,
+
+6
+00:00:19,775 --> 00:00:25,520
+companies created proprietary coding systems for the many aspects of medication
+
+7
+00:00:25,520 --> 00:00:27,620
+including clinical issues such as
+
+8
+00:00:27,620 --> 00:00:32,720
+drug drug interactions not covered by the simple NDC product codes.
+
+9
+00:00:32,720 --> 00:00:36,860
+Starting in 2001, the National Library of Medicine
+
+10
+00:00:36,860 --> 00:00:41,250
+created RxNorm to reconcile these commercial codes.
+
+11
+00:00:41,250 --> 00:00:46,010
+Each medication has a unique RxNorm RXCUI number
+
+12
+00:00:46,010 --> 00:00:51,440
+of up to eight digits that can be used to retrieve a great deal of information.
+
+13
+00:00:51,440 --> 00:00:55,090
+You will find references to RxNorm in fire resources.

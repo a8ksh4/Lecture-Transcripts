@@ -1,0 +1,963 @@
+1
+00:00:00,000 --> 00:00:02,320
+With Josh Mandel.
+
+2
+00:00:02,320 --> 00:00:05,470
+Josh, can you introduce yourself briefly?
+
+3
+00:00:05,470 --> 00:00:06,700
+Sure. So I'm Josh Mandel.
+
+4
+00:00:06,700 --> 00:00:09,265
+I'm a physician and a software developer.
+
+5
+00:00:09,265 --> 00:00:11,470
+And since I graduated from medical school,
+
+6
+00:00:11,470 --> 00:00:15,655
+I've been working on various projects in healthcare informatics with the goal of
+
+7
+00:00:15,655 --> 00:00:18,100
+making it easier for developers to build
+
+8
+00:00:18,100 --> 00:00:20,760
+new functionality that integrates into the healthcare system.
+
+9
+00:00:20,760 --> 00:00:26,860
+Sure.
+
+10
+00:00:26,860 --> 00:00:30,930
+So when the history goes back for me to about 2010,
+
+11
+00:00:30,930 --> 00:00:33,015
+I was graduating from medical school,
+
+12
+00:00:33,015 --> 00:00:34,170
+and as a medical student,
+
+13
+00:00:34,170 --> 00:00:37,320
+I had been very interested in making the computers do
+
+14
+00:00:37,320 --> 00:00:41,650
+more for me and for my classmates and for clinicians and patients.
+
+15
+00:00:41,650 --> 00:00:44,450
+And I had learned about this field of medical informatics.
+
+16
+00:00:44,450 --> 00:00:45,720
+So on my way out of medical school,
+
+17
+00:00:45,720 --> 00:00:48,510
+I was really excited to join a team that was just coming
+
+18
+00:00:48,510 --> 00:00:52,620
+together at Harvard Medical School on this new research project called SMART,
+
+19
+00:00:52,620 --> 00:00:54,630
+which was funded by a grant from
+
+20
+00:00:54,630 --> 00:00:57,507
+the federal government with the goal of building an app platform,
+
+21
+00:00:57,507 --> 00:01:01,800
+so building a way for developers to connect to the data inside of healthcare systems,
+
+22
+00:01:01,800 --> 00:01:05,160
+and present apps that doctors and other clinicians and patients could
+
+23
+00:01:05,160 --> 00:01:09,045
+use to make sense of the data and the medical records.
+
+24
+00:01:09,045 --> 00:01:11,820
+And when we started this project in 2010,
+
+25
+00:01:11,820 --> 00:01:13,770
+we really started from scratch.
+
+26
+00:01:13,770 --> 00:01:18,170
+We said, "What would a modern REST API look like for working with healthcare data?
+
+27
+00:01:18,170 --> 00:01:19,705
+What are the kinds of data we care about?"
+
+28
+00:01:19,705 --> 00:01:21,220
+And we made a list: medications,
+
+29
+00:01:21,220 --> 00:01:24,390
+problems at labs and allergies and so forth.
+
+30
+00:01:24,390 --> 00:01:25,920
+And we started asking, "Okay.
+
+31
+00:01:25,920 --> 00:01:27,495
+Well, what are the detailed data models?
+
+32
+00:01:27,495 --> 00:01:28,710
+What are the attributes of each of
+
+33
+00:01:28,710 --> 00:01:31,110
+these data types that we'd want to be able to work with?"
+
+34
+00:01:31,110 --> 00:01:34,950
+And, early on, we hosted some sample data that we put together,
+
+35
+00:01:34,950 --> 00:01:36,105
+working with a number of partners.
+
+36
+00:01:36,105 --> 00:01:37,935
+We integrated into a couple of
+
+37
+00:01:37,935 --> 00:01:40,080
+open source electronic health records systems to
+
+38
+00:01:40,080 --> 00:01:42,480
+give developers a picture of what this would look like,
+
+39
+00:01:42,480 --> 00:01:46,285
+and we held a competition asking for folks to build apps and share their ideas.
+
+40
+00:01:46,285 --> 00:01:48,855
+And we got great feedback from the developer community saying,
+
+41
+00:01:48,855 --> 00:01:51,879
+"We wish we had this kind of interface in the real world,
+
+42
+00:01:51,879 --> 00:01:54,000
+inside of real healthcare systems."
+
+43
+00:01:54,000 --> 00:01:58,530
+At the same time, when we had conversations with some of the health IT vendors that make
+
+44
+00:01:58,530 --> 00:02:00,720
+big electronic health records that are in production at some
+
+45
+00:02:00,720 --> 00:02:03,014
+of the major hospitals and health care centers,
+
+46
+00:02:03,014 --> 00:02:04,803
+the feedback that we got was,
+
+47
+00:02:04,803 --> 00:02:07,140
+"We're really excited about this technology,
+
+48
+00:02:07,140 --> 00:02:09,780
+but we're not going to go and implement a whole new set of
+
+49
+00:02:09,780 --> 00:02:13,015
+capabilities just to align with this research project at Harvard.
+
+50
+00:02:13,015 --> 00:02:16,590
+What we really need is a set of standards that we can agree on as
+
+51
+00:02:16,590 --> 00:02:20,595
+an industry to support these apps but also to support other use cases as well."
+
+52
+00:02:20,595 --> 00:02:24,615
+So that was about when I started getting involved in the standards development process,
+
+53
+00:02:24,615 --> 00:02:29,520
+and got involved with the development of what was then the very early days of FHIR,
+
+54
+00:02:29,520 --> 00:02:37,332
+the vast healthcare interoperability resources standard.
+
+55
+00:02:37,332 --> 00:02:39,380
+Sure.
+
+56
+00:02:39,380 --> 00:02:41,420
+So, early in the project,
+
+57
+00:02:41,420 --> 00:02:47,530
+we discussed a number of ways to improve access for developers to clinical data.
+
+58
+00:02:47,530 --> 00:02:51,475
+And we settled on a relatively small scope to begin with,
+
+59
+00:02:51,475 --> 00:02:54,620
+which was focused on building apps that could integrate with EHR and
+
+60
+00:02:54,620 --> 00:02:58,178
+mostly have access to read data from inside of the systems.
+
+61
+00:02:58,178 --> 00:03:00,590
+So data liberation, exposing what was in
+
+62
+00:03:00,590 --> 00:03:03,020
+those EHR systems and making sure that apps
+
+63
+00:03:03,020 --> 00:03:05,845
+could take advantage of those data and present a user interface.
+
+64
+00:03:05,845 --> 00:03:09,805
+And we were able to make a lot of progress by keeping the scope pretty narrow.
+
+65
+00:03:09,805 --> 00:03:12,260
+So the kinds of things that were left out of scope from the beginning
+
+66
+00:03:12,260 --> 00:03:16,220
+were being able to write complex data back into the EHR,
+
+67
+00:03:16,220 --> 00:03:19,310
+being able to integrate deeply with a clinical workflow
+
+68
+00:03:19,310 --> 00:03:23,500
+by restricting where and when an app gets presented.
+
+69
+00:03:23,500 --> 00:03:24,980
+We left out of scope
+
+70
+00:03:24,980 --> 00:03:27,185
+how multiple apps might run at the same time and
+
+71
+00:03:27,185 --> 00:03:30,770
+interact with one another through sort of real-time communications.
+
+72
+00:03:30,770 --> 00:03:32,210
+We left that all out of scope and said,
+
+73
+00:03:32,210 --> 00:03:35,270
+"Can we just solve the problem of putting one app at a time inside
+
+74
+00:03:35,270 --> 00:03:38,360
+of one EHR at a time with a consistent interface?"
+
+75
+00:03:38,360 --> 00:03:41,690
+And the exciting thing is because we were able to keep the scope pretty narrow,
+
+76
+00:03:41,690 --> 00:03:45,765
+we really focused on things that could be done without a lot of new research efforts,
+
+77
+00:03:45,765 --> 00:03:49,115
+things that could be built into the production systems in the real world.
+
+78
+00:03:49,115 --> 00:03:52,070
+We started to see uptake of this technology from some of
+
+79
+00:03:52,070 --> 00:03:55,600
+the biggest health technology vendors so that
+
+80
+00:03:55,600 --> 00:03:57,890
+now if you go to the healthcare trade show
+
+81
+00:03:57,890 --> 00:03:59,690
+and you look at some of the big vendor systems,
+
+82
+00:03:59,690 --> 00:04:05,510
+they are announcing support for and now they have support rolled out in production for
+
+83
+00:04:05,510 --> 00:04:08,660
+these capabilities inside of their health records that clinicians
+
+84
+00:04:08,660 --> 00:04:12,255
+use and also inside of their patient portals that patients use.
+
+85
+00:04:12,255 --> 00:04:15,110
+So we're really starting to see it become a reality for
+
+86
+00:04:15,110 --> 00:04:18,260
+these apps to get access to data and to be able
+
+87
+00:04:18,260 --> 00:04:21,440
+to display innovative user interfaces and make
+
+88
+00:04:21,440 --> 00:04:25,010
+recommendations for clinicians and for patients as well.
+
+89
+00:04:25,010 --> 00:04:29,075
+So we're at the point right now where our narrow scope has become a reality,
+
+90
+00:04:29,075 --> 00:04:31,640
+and it's very exciting to think about what comes next,
+
+91
+00:04:31,640 --> 00:04:33,950
+how we can begin to tackle some of those issues that we
+
+92
+00:04:33,950 --> 00:04:36,410
+left farther on the development queue.
+
+93
+00:04:36,410 --> 00:04:43,580
+Yeah, so one of
+
+94
+00:04:43,580 --> 00:04:46,190
+the great things about having a way to integrate apps with
+
+95
+00:04:46,190 --> 00:04:48,890
+the EHR is that apps can do practically anything,
+
+96
+00:04:48,890 --> 00:04:50,540
+anything you set your mind to and anything you can
+
+97
+00:04:50,540 --> 00:04:53,770
+display inside a window for a user to see.
+
+98
+00:04:53,770 --> 00:04:56,180
+But one of the challenges with apps is that you
+
+99
+00:04:56,180 --> 00:04:58,940
+have to know which app to run and when to run it.
+
+100
+00:04:58,940 --> 00:05:03,320
+And so, for example, if we have an application that helps clinicians make sense of
+
+101
+00:05:03,320 --> 00:05:07,907
+the bilirubin levels in a newborn infant and provide decision guidance,
+
+102
+00:05:07,907 --> 00:05:11,845
+such a child who needs phototherapy or other therapy or this level's normal.
+
+103
+00:05:11,845 --> 00:05:14,045
+If a clinician doesn't think to run the app,
+
+104
+00:05:14,045 --> 00:05:16,070
+they're not going to benefit from the advice.
+
+105
+00:05:16,070 --> 00:05:19,160
+So one of the big problems that we set out to solve was how
+
+106
+00:05:19,160 --> 00:05:22,900
+to recommend exactly the right app to the right user at the right time,
+
+107
+00:05:22,900 --> 00:05:25,910
+and even to look at kinds of integration
+
+108
+00:05:25,910 --> 00:05:28,850
+that might be a little bit less than launching a whole app,
+
+109
+00:05:28,850 --> 00:05:33,080
+but just integrating a snippet of advice or recommendations into the clinical workflow.
+
+110
+00:05:33,080 --> 00:05:35,970
+So the CDS Hooks project is really about that.
+
+111
+00:05:35,970 --> 00:05:39,800
+It's about watching what a clinician does while they're working with
+
+112
+00:05:39,800 --> 00:05:44,135
+the electronic health records system all day long and instrumenting that interaction,
+
+113
+00:05:44,135 --> 00:05:46,250
+looking for specific points in the interaction,
+
+114
+00:05:46,250 --> 00:05:51,140
+like opening a new patient chart or prescribing any medication or reviewing a set
+
+115
+00:05:51,140 --> 00:05:56,730
+of orders or lab tests that a clinician might be about to order.
+
+116
+00:05:56,730 --> 00:06:00,560
+We look for the specific points in the workflow, and we say,
+
+117
+00:06:00,560 --> 00:06:03,230
+"We're going to provide a way for external services to
+
+118
+00:06:03,230 --> 00:06:06,041
+offer their advice inline at those points."
+
+119
+00:06:06,041 --> 00:06:10,295
+And the advice could be as simple as a little bit of text for the user to read,
+
+120
+00:06:10,295 --> 00:06:15,335
+or it could be as rich as a link for them to click to launch a SMART app from
+
+121
+00:06:15,335 --> 00:06:16,580
+right inside the context of
+
+122
+00:06:16,580 --> 00:06:20,650
+their electronic health records system and really do a much more detailed workflow,
+
+123
+00:06:20,650 --> 00:06:27,256
+where they can provide some more inputs and get some advice that they can act on.
+
+124
+00:06:27,256 --> 00:06:31,430
+Sure.
+
+125
+00:06:31,430 --> 00:06:33,810
+So the Sync for Science initiative,
+
+126
+00:06:33,810 --> 00:06:38,285
+Sync for Science is a project that is focused on specific use case.
+
+127
+00:06:38,285 --> 00:06:40,820
+It says, "How can we help patients who
+
+128
+00:06:40,820 --> 00:06:43,500
+might want to share their medical records with researchers?"
+
+129
+00:06:43,500 --> 00:06:45,935
+Because the truth is that if you're doing a research study,
+
+130
+00:06:45,935 --> 00:06:49,295
+it's very easy to ask questions to your research participants.
+
+131
+00:06:49,295 --> 00:06:52,720
+You can create a form and collect structured data by asking.
+
+132
+00:06:52,720 --> 00:06:55,790
+But there's a rich history in the medical record that can be
+
+133
+00:06:55,790 --> 00:06:59,417
+very hard to obtain in a structured way.
+
+134
+00:06:59,417 --> 00:07:01,220
+It can be hard to obtain quickly or
+
+135
+00:07:01,220 --> 00:07:04,545
+automatically and without a lot of barriers in the way.
+
+136
+00:07:04,545 --> 00:07:06,650
+So, today, oftentimes, the way that a researcher
+
+137
+00:07:06,650 --> 00:07:08,855
+might get access to a medical record would be
+
+138
+00:07:08,855 --> 00:07:11,690
+either on paper by asking for
+
+139
+00:07:11,690 --> 00:07:14,930
+a medical record request and getting a stack of paper printed out,
+
+140
+00:07:14,930 --> 00:07:20,190
+or they might work with a hospital to develop a custom technology.
+
+141
+00:07:20,190 --> 00:07:22,430
+They might have to sit down and write special queries against
+
+142
+00:07:22,430 --> 00:07:25,385
+the raw database and try to pull out the fields they care about.
+
+143
+00:07:25,385 --> 00:07:28,250
+And both of those things are very slow and very expensive.
+
+144
+00:07:28,250 --> 00:07:29,555
+So in the Sync for Science project,
+
+145
+00:07:29,555 --> 00:07:31,245
+we've said, "How can we automate this?
+
+146
+00:07:31,245 --> 00:07:33,710
+How can we help patients share their data with researchers
+
+147
+00:07:33,710 --> 00:07:36,585
+in a way that gives full control to the patients,
+
+148
+00:07:36,585 --> 00:07:37,965
+but when a patient wants to,
+
+149
+00:07:37,965 --> 00:07:41,105
+they can automatically approve that kind of access?"
+
+150
+00:07:41,105 --> 00:07:44,690
+And it's a project that we've been running through Harvard Medical School.
+
+151
+00:07:44,690 --> 00:07:47,030
+There's a small technical team that's been helping to
+
+152
+00:07:47,030 --> 00:07:50,998
+develop a specification and some guidelines,
+
+153
+00:07:50,998 --> 00:07:54,105
+but we've been working very closely with the electronic health record community.
+
+154
+00:07:54,105 --> 00:07:58,490
+So we've been working with Epic and Cerner and Allscripts and eClinicalWorks,
+
+155
+00:07:58,490 --> 00:08:02,000
+working with each of these vendors to make sure they can build this technology into
+
+156
+00:08:02,000 --> 00:08:05,690
+their own patient portal products so that if I am
+
+157
+00:08:05,690 --> 00:08:10,115
+a patient at a hospital or clinic that uses a patient portal from one of those vendors,
+
+158
+00:08:10,115 --> 00:08:14,000
+I have a consistent way that I can approve an app to access my data.
+
+159
+00:08:14,000 --> 00:08:15,410
+And the cool thing is that under the hood,
+
+160
+00:08:15,410 --> 00:08:18,215
+we're using all those same standards that we've been talking about.
+
+161
+00:08:18,215 --> 00:08:21,680
+We're using the SMART on FHIR API to do that approval process.
+
+162
+00:08:21,680 --> 00:08:23,990
+There's an OAuth workflow using a standard set of
+
+163
+00:08:23,990 --> 00:08:28,125
+specifications to let a patient give access when they want to.
+
+164
+00:08:28,125 --> 00:08:30,860
+And then we're using the FHIR resource definitions
+
+165
+00:08:30,860 --> 00:08:33,590
+to be able to fetch specific kinds of data
+
+166
+00:08:33,590 --> 00:08:39,320
+like medications or allergy lists or lab results or immunizations and on down the list.
+
+167
+00:08:39,320 --> 00:08:42,635
+So it's been a really exciting project to see this technology
+
+168
+00:08:42,635 --> 00:08:46,910
+go from a set of use cases on paper or on our website
+
+169
+00:08:46,910 --> 00:08:51,140
+to now being implemented inside of patient portals from some of
+
+170
+00:08:51,140 --> 00:08:57,360
+the biggest electronic health record vendors in the country.
+
+171
+00:08:57,360 --> 00:09:04,445
+It's been a very interesting course for me over the last seven years,
+
+172
+00:09:04,445 --> 00:09:06,485
+which is to say, when I started,
+
+173
+00:09:06,485 --> 00:09:08,720
+I was pretty naive about the pace of progress and
+
+174
+00:09:08,720 --> 00:09:11,000
+I thought that things might move faster.
+
+175
+00:09:11,000 --> 00:09:13,063
+And the longer that I stayed involved,
+
+176
+00:09:13,063 --> 00:09:15,440
+and the more that I saw what it took to
+
+177
+00:09:15,440 --> 00:09:19,205
+really enable change inside of these organizations,
+
+178
+00:09:19,205 --> 00:09:21,080
+the more I've been surprised in
+
+179
+00:09:21,080 --> 00:09:23,970
+a positive way by how much we've been able to achieve in this time.
+
+180
+00:09:23,970 --> 00:09:28,235
+So the biggest leap that I saw us make was from talking about
+
+181
+00:09:28,235 --> 00:09:32,866
+this work as a research project as a cool idea about what the future could look like.
+
+182
+00:09:32,866 --> 00:09:37,550
+And if I go back and I look at the slides that I was presenting in 2010, 2011,
+
+183
+00:09:37,550 --> 00:09:42,710
+2012, they were really focused on this technology as a vision for the future,
+
+184
+00:09:42,710 --> 00:09:44,615
+but not as a reality.
+
+185
+00:09:44,615 --> 00:09:49,310
+And then if I look at what started to happen, 2013, 2014, 2015,
+
+186
+00:09:49,310 --> 00:09:52,168
+vendors started picking up this technology and saying,
+
+187
+00:09:52,168 --> 00:09:55,515
+"We can use this to solve real problems that our customers are asking for.
+
+188
+00:09:55,515 --> 00:09:59,420
+We can use this to extend the features that are electronic health records systems
+
+189
+00:09:59,420 --> 00:10:04,040
+have by really taking advantage of the wide market of app developers,
+
+190
+00:10:04,040 --> 00:10:06,890
+who have good ideas about how to work with clinical data."
+
+191
+00:10:06,890 --> 00:10:09,095
+So I would say that from where I sit right now,
+
+192
+00:10:09,095 --> 00:10:11,030
+I've been really positively surprised by
+
+193
+00:10:11,030 --> 00:10:13,200
+how quickly we've been able to make this progress.
+
+194
+00:10:13,200 --> 00:10:17,510
+And I think that a major factor in our progress has been keeping
+
+195
+00:10:17,510 --> 00:10:23,160
+the scope small enough to feel like it's not too far over the edge.
+
+196
+00:10:23,160 --> 00:10:25,820
+And so I'm talking to you right now from San Diego at
+
+197
+00:10:25,820 --> 00:10:28,115
+the end of a working group meeting
+
+198
+00:10:28,115 --> 00:10:31,260
+of the standards development organization, Health Level-7.
+
+199
+00:10:31,260 --> 00:10:32,540
+We've been here for a week,
+
+200
+00:10:32,540 --> 00:10:34,393
+working with folks across the world,
+
+201
+00:10:34,393 --> 00:10:37,400
+who are helping to define some of these health care standards.
+
+202
+00:10:37,400 --> 00:10:41,960
+And one of the big challenges working with a group like this is everyone is
+
+203
+00:10:41,960 --> 00:10:43,325
+really passionate and has
+
+204
+00:10:43,325 --> 00:10:47,165
+huge aspirations about what they'd like to accomplish in this space.
+
+205
+00:10:47,165 --> 00:10:50,300
+But there's always a very careful balancing act between what you would like to
+
+206
+00:10:50,300 --> 00:10:53,945
+see happen and what you can really make happen in a short time frame.
+
+207
+00:10:53,945 --> 00:10:57,500
+And I think a big factor in our success has been focusing on the sort
+
+208
+00:10:57,500 --> 00:11:04,277
+of short to medium term.
+
+209
+00:11:04,277 --> 00:11:07,030
+So predictions are so challenging.
+
+210
+00:11:07,030 --> 00:11:09,874
+When I think about the kinds of work that we've been doing,
+
+211
+00:11:09,874 --> 00:11:11,560
+it's been focused a lot on workflow.
+
+212
+00:11:11,560 --> 00:11:13,000
+It's been focused a lot on how do we put
+
+213
+00:11:13,000 --> 00:11:15,495
+the right app in front of the right user at the right time.
+
+214
+00:11:15,495 --> 00:11:19,995
+And I think that's incredibly important in today's install base,
+
+215
+00:11:19,995 --> 00:11:22,420
+where there's a certain way that EHRs look and feel,
+
+216
+00:11:22,420 --> 00:11:24,845
+and they have certain capabilities built in.
+
+217
+00:11:24,845 --> 00:11:28,420
+But, honestly, it's unrealistic to expect the base product to develop
+
+218
+00:11:28,420 --> 00:11:32,475
+these neat new sophisticated features in every possible direction.
+
+219
+00:11:32,475 --> 00:11:36,385
+So being able to open up that window and launch an app is really important.
+
+220
+00:11:36,385 --> 00:11:37,668
+I don't know if I'll predict,
+
+221
+00:11:37,668 --> 00:11:40,105
+but I'll say that I hope in 10 years,
+
+222
+00:11:40,105 --> 00:11:42,400
+this whole paradigm may be turned on its head,
+
+223
+00:11:42,400 --> 00:11:45,235
+which is to say, we won't necessarily be working with EHRs that look
+
+224
+00:11:45,235 --> 00:11:48,320
+and feel the way that today's systems do.
+
+225
+00:11:48,320 --> 00:11:50,800
+We may have very tailored systems that are focused
+
+226
+00:11:50,800 --> 00:11:53,435
+on the particular tasks that our user is trying to do,
+
+227
+00:11:53,435 --> 00:11:56,235
+and rather than launching an app from inside a system like that,
+
+228
+00:11:56,235 --> 00:12:01,010
+I think that the data will begin to become more of the central focus of the platform.
+
+229
+00:12:01,010 --> 00:12:03,415
+We're almost seeing an inversion of the control
+
+230
+00:12:03,415 --> 00:12:05,995
+so that rather than the EHR being the central focus,
+
+231
+00:12:05,995 --> 00:12:07,825
+the data will become the central focus,
+
+232
+00:12:07,825 --> 00:12:11,800
+and we'll be able to construct the kinds of workflows we need around those data.
+
+233
+00:12:11,800 --> 00:12:13,645
+That's a really abstract concept,
+
+234
+00:12:13,645 --> 00:12:16,075
+but to draw that home maybe a little bit better,
+
+235
+00:12:16,075 --> 00:12:18,340
+I would say that I hope in that time frame,
+
+236
+00:12:18,340 --> 00:12:21,520
+what we'll have is individual systems that
+
+237
+00:12:21,520 --> 00:12:24,663
+know how to take care of patients with specific diseases, for example,
+
+238
+00:12:24,663 --> 00:12:27,250
+and provide a really tailored workflow and experience for making
+
+239
+00:12:27,250 --> 00:12:30,010
+the right choices and incorporating patient preferences and
+
+240
+00:12:30,010 --> 00:12:36,154
+feedback from patients into that kind of workflow.
+
+241
+00:12:36,154 --> 00:12:40,000
+Thank you very much. It's been a pleasure.

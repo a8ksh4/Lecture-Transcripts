@@ -1,0 +1,287 @@
+1
+00:00:00,000 --> 00:00:03,150
+Arguably, one of the most attractive features of
+
+2
+00:00:03,150 --> 00:00:06,600
+FHIR for developers is its composibility.
+
+3
+00:00:06,600 --> 00:00:10,895
+Each FHIR resource is an independent object and can
+
+4
+00:00:10,895 --> 00:00:14,775
+be retrieved as needed using our appropriate FHIR API query.
+
+5
+00:00:14,775 --> 00:00:20,980
+This is distinctly different from earlier standards, such as CCDA,
+
+6
+00:00:20,980 --> 00:00:23,860
+where an entire clinical document must be
+
+7
+00:00:23,860 --> 00:00:28,210
+retrieved even though only a specific part of that document,
+
+8
+00:00:28,210 --> 00:00:31,730
+such as a patient's problem list, is of interest.
+
+9
+00:00:31,730 --> 00:00:38,660
+FHIRPath is a path-based navigation and extraction language, something like XPath.
+
+10
+00:00:38,660 --> 00:00:44,730
+XPath can be used to navigate through elements and attributes in an XML document.
+
+11
+00:00:44,730 --> 00:00:48,590
+FHIRPath does the same thing for FHIR.
+
+12
+00:00:48,590 --> 00:00:52,570
+For example, a simple FHIRPath script can navigate through and
+
+13
+00:00:52,570 --> 00:00:57,085
+retrieve specific sub-elements of a large FHIR bundle,
+
+14
+00:00:57,085 --> 00:00:59,740
+such as an entire patient record.
+
+15
+00:00:59,740 --> 00:01:02,350
+In other words, FHIRPath further extends
+
+16
+00:01:02,350 --> 00:01:07,390
+composibility to individual data types or even their values so
+
+17
+00:01:07,390 --> 00:01:11,145
+resources can be mined to more efficiently supported development
+
+18
+00:01:11,145 --> 00:01:16,180
+of specific capabilities in a FHIR app or for other purposes.
+
+19
+00:01:16,180 --> 00:01:19,424
+The technical details are available online,
+
+20
+00:01:19,424 --> 00:01:23,455
+but we can easily see how useful this could be through some examples.
+
+21
+00:01:23,455 --> 00:01:28,130
+To do that, we'll take advantage of David Hay's wonderful web tool, clinFHIR.
+
+22
+00:01:28,130 --> 00:01:32,985
+Using clinFHIR, as you can see here,
+
+23
+00:01:32,985 --> 00:01:35,760
+we create a new patient record based on
+
+24
+00:01:35,760 --> 00:01:40,080
+demographic data from the CCD of Josephine Vazquez,
+
+25
+00:01:40,080 --> 00:01:44,445
+a synthetic patient available to students in this course.
+
+26
+00:01:44,445 --> 00:01:48,880
+One of clinFHIR's many attractive features is the generation of
+
+27
+00:01:48,880 --> 00:01:51,580
+some sample data so that our new patient
+
+28
+00:01:51,580 --> 00:01:55,285
+begins with a reasonable facsimile of a medical record.
+
+29
+00:01:55,285 --> 00:01:59,405
+We've checked the generate samples box here to do that.
+
+30
+00:01:59,405 --> 00:02:05,178
+ClinFHIR indexes the resulting 72 FHIR resources by type,
+
+31
+00:02:05,178 --> 00:02:07,750
+as you can see here on the left.
+
+32
+00:02:07,750 --> 00:02:12,700
+The single patient resource has been selected and its contents are
+
+33
+00:02:12,700 --> 00:02:17,750
+displayed in a human-friendly tree view here on the right.
+
+34
+00:02:17,750 --> 00:02:23,586
+Note that the patient resource has been assigned the ID 299014.
+
+35
+00:02:23,586 --> 00:02:29,095
+A number that you know by now can be used to easily retrieve this resource or,
+
+36
+00:02:29,095 --> 00:02:32,327
+depending on the capabilities of an individual FHIR server,
+
+37
+00:02:32,327 --> 00:02:35,740
+just specify the other resources such as medications or
+
+38
+00:02:35,740 --> 00:02:40,820
+clinical observations are to be retrieved but only for this patient.
+
+39
+00:02:40,820 --> 00:02:46,790
+Of course, computer software would deal with this resource in XML or JSON.
+
+40
+00:02:46,790 --> 00:02:49,370
+It should be easy to see that the same data,
+
+41
+00:02:49,370 --> 00:02:51,605
+shown in the tree view on the right,
+
+42
+00:02:51,605 --> 00:02:55,673
+is also in the JSON on the left.
+
+43
+00:02:55,673 --> 00:02:59,850
+ClinFHIR's FHIRPath Expiration Tool makes it easy
+
+44
+00:02:59,850 --> 00:03:04,260
+to create a bundle containing our patients entire record,
+
+45
+00:03:04,260 --> 00:03:06,370
+as shown in the middle here.
+
+46
+00:03:06,370 --> 00:03:09,800
+This may be a simplistic representation of
+
+47
+00:03:09,800 --> 00:03:13,854
+a patient record but displayed in Microsoft Word,
+
+48
+00:03:13,854 --> 00:03:19,915
+this bundle occupies 96 pages and is 5401 words long.
+
+49
+00:03:19,915 --> 00:03:25,580
+We already know that we can use the FHIR API to retrieve a specified part of the bundle,
+
+50
+00:03:25,580 --> 00:03:28,740
+such as only the condition resources.
+
+51
+00:03:28,740 --> 00:03:33,905
+But suppose that we really only want to display the patient's medical problems,
+
+52
+00:03:33,905 --> 00:03:38,158
+that information is contained in those conditioned resources,
+
+53
+00:03:38,158 --> 00:03:42,440
+and it would certainly be passed through write some code to parse that out of them.
+
+54
+00:03:42,440 --> 00:03:45,610
+However, FHIRPath makes that much simpler,
+
+55
+00:03:45,610 --> 00:03:47,920
+as shown in the right of this graphic.
+
+56
+00:03:47,920 --> 00:03:50,684
+As you can see here, this script,
+
+57
+00:03:50,684 --> 00:03:54,470
+when run using clinFHIR's server side implementation of
+
+58
+00:03:54,470 --> 00:03:59,165
+the FHIRPath interpreter developed by Josh Mandel and Nikolai Russakoff,
+
+59
+00:03:59,165 --> 00:04:04,790
+produces exactly the text needed to display the patient's medical problems.
+
+60
+00:04:04,790 --> 00:04:06,275
+To give another example,
+
+61
+00:04:06,275 --> 00:04:10,445
+a FHIRPath's script could use the appropriate Lloyd code of
+
+62
+00:04:10,445 --> 00:04:16,775
+8867-4 to produce a list of the patient's heart rate measurements,
+
+63
+00:04:16,775 --> 00:04:19,130
+as shown just below the box where
+
+64
+00:04:19,130 --> 00:04:22,945
+the FHIRPath script that produced the list would be typed in.
+
+65
+00:04:22,945 --> 00:04:27,440
+I've intentionally obscured most of the script should you try writing it.
+
+66
+00:04:27,440 --> 00:04:32,465
+Capabilities such as these make app creation far easier and faster,
+
+67
+00:04:32,465 --> 00:04:36,970
+leading to more rapid innovation and more usable software tools.
+
+68
+00:04:36,970 --> 00:04:40,675
+For example, starting with this list of heart rate values,
+
+69
+00:04:40,675 --> 00:04:43,190
+it is a simple matter to create a graph of
+
+70
+00:04:43,190 --> 00:04:47,355
+Josephine's heart rate over time, as shown here.
+
+71
+00:04:47,355 --> 00:04:49,956
+If you think back to our discussion of VHRs,
+
+72
+00:04:49,956 --> 00:04:55,000
+you may remember that not all of them can do something as simple as produce this graph.

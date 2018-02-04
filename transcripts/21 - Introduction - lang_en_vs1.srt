@@ -1,0 +1,27 @@
+1
+00:00:00,000 --> 00:00:02,940
+In this lesson we will begin a discussion of
+
+2
+00:00:02,940 --> 00:00:08,275
+the key informatics tools needed to power a learning healthcare system.
+
+3
+00:00:08,275 --> 00:00:11,940
+These tools include electronic records for both providers and
+
+4
+00:00:11,940 --> 00:00:17,655
+patients as well as information sharing technologies to bind them together.
+
+5
+00:00:17,655 --> 00:00:20,160
+We will also discuss the challenges that we
+
+6
+00:00:20,160 --> 00:00:22,620
+still face in perfecting these systems to make
+
+7
+00:00:22,620 --> 00:00:27,460
+them both usable and useful in the real world of health care delivery.

@@ -1,0 +1,67 @@
+1
+00:00:00,000 --> 00:00:03,235
+As we just discussed, in many cases,
+
+2
+00:00:03,235 --> 00:00:06,540
+SMART apps launch within the context of
+
+3
+00:00:06,540 --> 00:00:10,500
+an existing EA chart charting session where the provider,
+
+4
+00:00:10,500 --> 00:00:12,890
+patient and encounter are clear.
+
+5
+00:00:12,890 --> 00:00:18,280
+In other contexts, SMART may need to use open ID connect,
+
+6
+00:00:18,280 --> 00:00:22,979
+a simple identity layer on top of the OAuth 2.0 Protocol.
+
+7
+00:00:22,979 --> 00:00:26,215
+It enable apps to verify the identity of the end user
+
+8
+00:00:26,215 --> 00:00:30,570
+based on the authentication performed by the authorization server,
+
+9
+00:00:30,570 --> 00:00:35,070
+and obtain basic profile information about the end user.
+
+10
+00:00:35,070 --> 00:00:37,300
+To use open ID connect,
+
+11
+00:00:37,300 --> 00:00:42,085
+the app asks for the open ID scope when it request authorization,
+
+12
+00:00:42,085 --> 00:00:46,000
+and it will have access to a user info endpoint that exposes
+
+13
+00:00:46,000 --> 00:00:50,510
+user information referred to an open ID as claims.
+
+14
+00:00:50,510 --> 00:00:54,160
+In SMART, these include the end user's name and
+
+15
+00:00:54,160 --> 00:00:58,045
+their unique national provider identifier, NPI.
+
+16
+00:00:58,045 --> 00:01:00,285
+A 10 digit number assigned by
+
+17
+00:01:00,285 --> 00:01:05,140
+CMS providers that uniquely identifies them across healthcare organizations.

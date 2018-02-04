@@ -1,0 +1,71 @@
+1
+00:00:00,000 --> 00:00:02,760
+AliveCor got started because of the invention
+
+2
+00:00:02,760 --> 00:00:05,825
+of a really brilliant doctor, Dr. Dave Albert.
+
+3
+00:00:05,825 --> 00:00:11,105
+His latest invention was a small device that is about the size of a stick of gum.
+
+4
+00:00:11,105 --> 00:00:13,530
+And this extraordinary device works with
+
+5
+00:00:13,530 --> 00:00:17,895
+your smartphone and allows you to analyze the EKG of your heart,
+
+6
+00:00:17,895 --> 00:00:22,985
+not a heart rate, not like you might get with a Fitbit or with a sports watch.
+
+7
+00:00:22,985 --> 00:00:26,940
+But the actual electrical rhythm of your heart which
+
+8
+00:00:26,940 --> 00:00:31,020
+is incredibly important to diagnose some of the more serious heart conditions.
+
+9
+00:00:31,020 --> 00:00:33,390
+Most people don't realize that heart disease is
+
+10
+00:00:33,390 --> 00:00:37,025
+the number one killer of men and women worldwide.
+
+11
+00:00:37,025 --> 00:00:41,395
+In fact, last year about 18 million people died from heart disease.
+
+12
+00:00:41,395 --> 00:00:45,235
+What's next for AliveCor is probably the most exciting part.
+
+13
+00:00:45,235 --> 00:00:49,260
+We are working on some extraordinary technologies using deep learning,
+
+14
+00:00:49,260 --> 00:00:54,390
+artificial intelligence that analyze the morphology of your personal EKG,
+
+15
+00:00:54,390 --> 00:01:00,275
+your heart, and detect things that previously were not available to human eyes.
+
+16
+00:01:00,275 --> 00:01:03,960
+The machines can see things about your health that were previously
+
+17
+00:01:03,960 --> 00:01:09,040
+undiscovered whether that be potassium levels or other measures of physiology.
+
+18
+00:01:09,040 --> 00:01:14,170
+We're just getting started on unlocking the secrets of your heart.

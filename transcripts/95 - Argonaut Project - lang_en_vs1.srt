@@ -1,0 +1,159 @@
+1
+00:00:00,000 --> 00:00:02,190
+Dr. John Halamka is
+
+2
+00:00:02,190 --> 00:00:08,100
+the Chief Information Officer of Beth Israel Deaconess Medical Center in Boston,
+
+3
+00:00:08,100 --> 00:00:11,580
+Chairman of the New England Health Care Exchange Network,
+
+4
+00:00:11,580 --> 00:00:15,630
+Co-Chair of ONC's HIT Standards Committee,
+
+5
+00:00:15,630 --> 00:00:18,810
+a full professor at Harvard Medical School,
+
+6
+00:00:18,810 --> 00:00:21,660
+a practicing emergency physician,
+
+7
+00:00:21,660 --> 00:00:24,300
+and an accomplished farmer.
+
+8
+00:00:24,300 --> 00:00:29,155
+In late 2014, he announced the Argonaut project,
+
+9
+00:00:29,155 --> 00:00:31,870
+a private collaboration in which each of
+
+10
+00:00:31,870 --> 00:00:35,095
+the participants agreed that all specifications and
+
+11
+00:00:35,095 --> 00:00:41,585
+artifacts developed would be openly available via an open content license.
+
+12
+00:00:41,585 --> 00:00:43,840
+Since the participants included many of
+
+13
+00:00:43,840 --> 00:00:48,108
+the largest health IT vendors and leading health care systems,
+
+14
+00:00:48,108 --> 00:00:51,365
+this was a very significant development.
+
+15
+00:00:51,365 --> 00:00:55,580
+The three initially proposed and now posted deliverables are,
+
+16
+00:00:55,580 --> 00:00:58,075
+FHIR Data Query Profiles,
+
+17
+00:00:58,075 --> 00:01:02,740
+a set of FHIR resources and accompanying profiles that enables
+
+18
+00:01:02,740 --> 00:01:05,650
+query/response of the discrete data elements
+
+19
+00:01:05,650 --> 00:01:09,320
+contained in the Meaningful Use Common Data Set.
+
+20
+00:01:09,320 --> 00:01:12,570
+FHIR Document Query Profile.
+
+21
+00:01:12,570 --> 00:01:15,150
+A FHIR resource and profile that enables
+
+22
+00:01:15,150 --> 00:01:20,970
+query/response of Cross-Enterprise Document Sharing XDS,
+
+23
+00:01:20,970 --> 00:01:23,340
+a specification for managing the sharing of
+
+24
+00:01:23,340 --> 00:01:26,790
+documents between healthcare provider organizations.
+
+25
+00:01:26,790 --> 00:01:32,200
+XDS is commonly used by health information exchanges to connect to EHRs.
+
+26
+00:01:32,200 --> 00:01:35,965
+Security Implementation Guide,
+
+27
+00:01:35,965 --> 00:01:41,630
+based on the SMART on FHIR OAuth 2 and OpenID Connect profiles.
+
+28
+00:01:41,630 --> 00:01:43,690
+These are the key tools for establishing
+
+29
+00:01:43,690 --> 00:01:47,665
+identity and access rights to data for SMART and FHIR apps.
+
+30
+00:01:47,665 --> 00:01:51,580
+We will discuss this in more detail in the next lesson.
+
+31
+00:01:51,580 --> 00:01:56,250
+Two newer deliverables are the Scheduling Implementation Guide.
+
+32
+00:01:56,250 --> 00:01:58,830
+This supports basic patient and provider
+
+33
+00:01:58,830 --> 00:02:02,130
+access to providers calendar and appointment requests,
+
+34
+00:02:02,130 --> 00:02:06,660
+including APIs and guidance for searching and publishing a provider schedule,
+
+35
+00:02:06,660 --> 00:02:11,070
+and requesting, canceling, or updating an appointment.
+
+36
+00:02:11,070 --> 00:02:13,280
+CDS Hooks Implementation Guide.
+
+37
+00:02:13,280 --> 00:02:15,915
+Argonaut is developing use cases,
+
+38
+00:02:15,915 --> 00:02:21,755
+providing guidance and publishing an implementation guide for deploying CDS Hooks.
+
+39
+00:02:21,755 --> 00:02:26,180
+Argonaut leverages the data access framework we mentioned earlier,
+
+40
+00:02:26,180 --> 00:02:30,020
+and it's compatible with prior interoperability efforts.

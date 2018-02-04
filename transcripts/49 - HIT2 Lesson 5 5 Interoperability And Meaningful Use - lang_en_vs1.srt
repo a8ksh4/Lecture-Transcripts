@@ -1,0 +1,123 @@
+1
+00:00:00,000 --> 00:00:02,400
+The meaningful use criteria promote
+
+2
+00:00:02,400 --> 00:00:06,975
+robust interoperability between the systems used by patients,
+
+3
+00:00:06,975 --> 00:00:09,990
+providers, and healthcare institutions.
+
+4
+00:00:09,990 --> 00:00:13,060
+Meaningful use stages progressively demand
+
+5
+00:00:13,060 --> 00:00:16,420
+compliance with this patient engagement framework,
+
+6
+00:00:16,420 --> 00:00:18,580
+or PEF, developed by
+
+7
+00:00:18,580 --> 00:00:23,760
+the HIMSS Foundation and the National eHealth Collaborative that are now merged.
+
+8
+00:00:23,760 --> 00:00:27,860
+You can see how the stages of meaningful use align with the PEF.
+
+9
+00:00:27,860 --> 00:00:30,565
+Stage one of meaningful use,
+
+10
+00:00:30,565 --> 00:00:32,835
+the Engage Me phase of the PEF,
+
+11
+00:00:32,835 --> 00:00:38,480
+specifies that patients can view and download their electronic health record.
+
+12
+00:00:38,480 --> 00:00:42,853
+Stage two, the Empower Me phase of the PEF,
+
+13
+00:00:42,853 --> 00:00:44,705
+is far more ambitious,
+
+14
+00:00:44,705 --> 00:00:48,530
+and specifies integration with the Health Information Exchange,
+
+15
+00:00:48,530 --> 00:00:51,425
+or HIE, our next topic,
+
+16
+00:00:51,425 --> 00:00:55,415
+as well as e-referral coordination among providers,
+
+17
+00:00:55,415 --> 00:00:58,895
+ambulatory and hospital records integration,
+
+18
+00:00:58,895 --> 00:01:02,338
+the addition of images and video to EHRs,
+
+19
+00:01:02,338 --> 00:01:08,010
+and the inclusion of data from commercial labs, radiology, and pharmacies.
+
+20
+00:01:08,010 --> 00:01:11,810
+We're currently quite far away from having all of this everywhere,
+
+21
+00:01:11,810 --> 00:01:16,460
+but each of these capabilities is available in at least some places.
+
+22
+00:01:16,460 --> 00:01:18,800
+Presumably because of Meaningful Use,
+
+23
+00:01:18,800 --> 00:01:24,605
+a New York study showed the reported rate of PHR use increased from 11 percent,
+
+24
+00:01:24,605 --> 00:01:29,100
+2012 to 17 percent, 2013.
+
+25
+00:01:29,100 --> 00:01:31,220
+More directly to the point,
+
+26
+00:01:31,220 --> 00:01:34,680
+the proportion of the PHRs provided by doctors or
+
+27
+00:01:34,680 --> 00:01:38,940
+healthcare organizations increased sharply from 50 percent,
+
+28
+00:01:38,940 --> 00:01:44,160
+2012 to 73 percent in 2013.
+
+29
+00:01:44,160 --> 00:01:49,840
+This research also showed that the mean age of PHR users was 47.2 years,
+
+30
+00:01:49,840 --> 00:01:52,480
+51 percent were female,
+
+31
+00:01:52,480 --> 00:01:56,000
+and 80 percent had a physician who used the HRs.

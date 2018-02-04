@@ -1,0 +1,219 @@
+1
+00:00:00,000 --> 00:00:07,810
+This simple example shows some key parts of an XML-formatted FHIR patient resource.
+
+2
+00:00:07,810 --> 00:00:15,550
+Local information such as its last update and its local resource ID,
+
+3
+00:00:15,550 --> 00:00:19,975
+an HTML presentation of the key information for human consumption,
+
+4
+00:00:19,975 --> 00:00:26,320
+or if the receiving system is not able to interpret the structured information,
+
+5
+00:00:26,320 --> 00:00:29,055
+any local extensions to the standard,
+
+6
+00:00:29,055 --> 00:00:33,855
+the standard-defined structured data content.
+
+7
+00:00:33,855 --> 00:00:40,850
+Here is an example of a JSON-formatted FHIR allergy intolerance resource.
+
+8
+00:00:40,850 --> 00:00:45,965
+The highlighted area contains the text for display for reasons we just discussed.
+
+9
+00:00:45,965 --> 00:00:53,505
+Here, I had removed that text so we can more easily focus on the structured information.
+
+10
+00:00:53,505 --> 00:00:59,510
+It begins by showing that this allergy problem is clinically active but is unconfirmed.
+
+11
+00:00:59,510 --> 00:01:02,450
+Patients often report allergies,
+
+12
+00:01:02,450 --> 00:01:04,290
+but that does not mean they experienced
+
+13
+00:01:04,290 --> 00:01:08,360
+an actual allergy as opposed to a medication side effect.
+
+14
+00:01:08,360 --> 00:01:10,900
+This allergy is for penicillin,
+
+15
+00:01:10,900 --> 00:01:12,665
+and according to the Mayo Clinic,
+
+16
+00:01:12,665 --> 00:01:16,795
+research has shown that penicillin allergies may be over-diagnosed,
+
+17
+00:01:16,795 --> 00:01:21,800
+and that patients may report a penicillin allergy that has never been confirmed.
+
+18
+00:01:21,800 --> 00:01:25,750
+A misdiagnosed penicillin allergy may result in the use of
+
+19
+00:01:25,750 --> 00:01:31,445
+less appropriate or more expensive and possibly more dangerous antibiotics.
+
+20
+00:01:31,445 --> 00:01:36,800
+Here, you see that this allergy is in the medication category.
+
+21
+00:01:36,800 --> 00:01:42,925
+Medication is one of four allowed values for an allergy intolerance category.
+
+22
+00:01:42,925 --> 00:01:45,250
+Here you see the entire value set,
+
+23
+00:01:45,250 --> 00:01:48,305
+the list of allowed values for this data element
+
+24
+00:01:48,305 --> 00:01:52,860
+taken from the relevant page on the HL7 FHIR site.
+
+25
+00:01:52,860 --> 00:01:57,580
+Food, environmental, and biologic allergies such as to
+
+26
+00:01:57,580 --> 00:02:04,060
+an X-ray contrast agent or a vaccination can also be documented using this resource.
+
+27
+00:02:04,060 --> 00:02:07,510
+Knowing that it is a medication allergy could be helpful to
+
+28
+00:02:07,510 --> 00:02:13,115
+software so that it knows to check on it when prescribing new medications.
+
+29
+00:02:13,115 --> 00:02:18,060
+Here you see a reference to an RxNorm code or RxCUI
+
+30
+00:02:18,060 --> 00:02:23,855
+7980 which is for penicillin G. Actually,
+
+31
+00:02:23,855 --> 00:02:29,920
+penicillin is a group of antibiotics and this is only one part of the penicillin group.
+
+32
+00:02:29,920 --> 00:02:32,925
+Patients allergic to one member of the group
+
+33
+00:02:32,925 --> 00:02:36,640
+are usually presumed to be allergic to the entire group.
+
+34
+00:02:36,640 --> 00:02:43,495
+So I think the RxCUI of 70618 might have been a better choice.
+
+35
+00:02:43,495 --> 00:02:46,500
+I'll leave it to you to verify that and find out what
+
+36
+00:02:46,500 --> 00:02:52,695
+this RxCUI is for with the RxNorm tool you used earlier.
+
+37
+00:02:52,695 --> 00:02:58,680
+Here, you see that the allergy manifests itself as hives,
+
+38
+00:02:58,680 --> 00:03:00,075
+an outbreak of swollen,
+
+39
+00:03:00,075 --> 00:03:04,525
+pale red bumps or plaques or wheals on the skin.
+
+40
+00:03:04,525 --> 00:03:08,920
+This should be the SNOMED CT code for hives.
+
+41
+00:03:08,920 --> 00:03:13,205
+I leave it to you to verify that with the browser you used earlier.
+
+42
+00:03:13,205 --> 00:03:16,645
+These references to RxNorm and SNOMED CT
+
+43
+00:03:16,645 --> 00:03:22,140
+illustrate an important characteristic of FHIR we mentioned earlier.
+
+44
+00:03:22,140 --> 00:03:25,515
+It builds upon existing standards via
+
+45
+00:03:25,515 --> 00:03:30,325
+terminology bindings that specify these relationships.
+
+46
+00:03:30,325 --> 00:03:35,270
+Here, you see all the terminology bindings for this one resource.
+
+47
+00:03:35,270 --> 00:03:38,865
+I provide a link to a page from the FHIR site listing
+
+48
+00:03:38,865 --> 00:03:43,460
+all the terminology bindings used in the standard.
+
+49
+00:03:43,460 --> 00:03:46,310
+Here is a simple example to show how FHIR
+
+50
+00:03:46,310 --> 00:03:50,820
+also rests on key elements from earlier HL7 standards.
+
+51
+00:03:50,820 --> 00:03:53,085
+As you see here at the top,
+
+52
+00:03:53,085 --> 00:03:58,200
+the marital status value set comes from HL7 v3.
+
+53
+00:03:58,200 --> 00:04:04,380
+If you go to the detailed description tab on the patient resource page on the FHIR site,
+
+54
+00:04:04,380 --> 00:04:08,380
+you will find this section for marital status.
+
+55
+00:04:08,380 --> 00:04:15,000
+Click here on the marital status codes link and you will get to the same table.

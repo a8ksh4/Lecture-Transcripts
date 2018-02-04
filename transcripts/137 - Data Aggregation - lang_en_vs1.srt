@@ -1,0 +1,87 @@
+1
+00:00:00,000 --> 00:00:06,685
+Obtaining and aggregating health data presents many domain specific challenges.
+
+2
+00:00:06,685 --> 00:00:09,520
+Think back to earlier in the course when we discussed
+
+3
+00:00:09,520 --> 00:00:13,720
+HIPAA and the protection of patient privacy as
+
+4
+00:00:13,720 --> 00:00:17,350
+well as obtaining patient permissions for the use of
+
+5
+00:00:17,350 --> 00:00:21,435
+their data unless it is fully de-Identified.
+
+6
+00:00:21,435 --> 00:00:23,935
+However, depending on the use case,
+
+7
+00:00:23,935 --> 00:00:29,310
+fool the identification can substantially reduce the value of the data.
+
+8
+00:00:29,310 --> 00:00:31,835
+Where genomic data is involved,
+
+9
+00:00:31,835 --> 00:00:37,920
+the identification may not be feasible if that data is to have any research value.
+
+10
+00:00:37,920 --> 00:00:40,535
+Even with patient permissions,
+
+11
+00:00:40,535 --> 00:00:43,505
+all the interoperability issues we discussed
+
+12
+00:00:43,505 --> 00:00:48,125
+earlier can be impediments to aggregating data for research.
+
+13
+00:00:48,125 --> 00:00:51,040
+These include the reluctance of hospitals and
+
+14
+00:00:51,040 --> 00:00:55,510
+other sources of clinical data to lose control of it.
+
+15
+00:00:55,510 --> 00:01:00,365
+Without semantic interoperability, and it is still rare,
+
+16
+00:01:00,365 --> 00:01:03,920
+data from multiple sources must often be normalized
+
+17
+00:01:03,920 --> 00:01:07,723
+to a standard model to be useful for analysis.
+
+18
+00:01:07,723 --> 00:01:10,310
+Earlier, John Duke discussed
+
+19
+00:01:10,310 --> 00:01:13,700
+the Federated Research Model and the use of
+
+20
+00:01:13,700 --> 00:01:17,236
+the Observational Medical Outcomes Partnership,
+
+21
+00:01:17,236 --> 00:01:22,785
+OMOP, data model across a research network to solve many of these issues.
+
+22
+00:01:22,785 --> 00:01:29,000
+We will talk with John about the tools to analyze data that is in the OMOP model.

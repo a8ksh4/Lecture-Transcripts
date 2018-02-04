@@ -1,0 +1,215 @@
+1
+00:00:00,000 --> 00:00:05,985
+Physician satisfaction with the EHR is an extremely important topic,
+
+2
+00:00:05,985 --> 00:00:09,420
+and one that will have widespread ramifications
+
+3
+00:00:09,420 --> 00:00:12,060
+for the effort to use Health Informatics as
+
+4
+00:00:12,060 --> 00:00:13,440
+a tool for establishing
+
+5
+00:00:13,440 --> 00:00:18,705
+a learning health care system and effectively using the new knowledge it creates.
+
+6
+00:00:18,705 --> 00:00:25,740
+In 2013, The Rand Corporation and the American Medical Association published what I
+
+7
+00:00:25,740 --> 00:00:27,880
+believe to be the best study today on
+
+8
+00:00:27,880 --> 00:00:33,690
+overall physician satisfaction including satisfaction with the EHRs.
+
+9
+00:00:33,690 --> 00:00:39,365
+The survey team selected 30 physician practices to achieve a good cross-section.
+
+10
+00:00:39,365 --> 00:00:42,720
+Each practice completed a structured questionnaire that included
+
+11
+00:00:42,720 --> 00:00:47,025
+questions about its electronic health record use and capabilities,
+
+12
+00:00:47,025 --> 00:00:50,505
+and participation in innovative payment models.
+
+13
+00:00:50,505 --> 00:00:53,700
+The survey team then visited these practice and conducted
+
+14
+00:00:53,700 --> 00:00:57,315
+semi structured interviews with 220 informants.
+
+15
+00:00:57,315 --> 00:01:05,040
+Finally, they surveyed 656 physicians in the 30 practices receiving 447 responses,
+
+16
+00:01:05,040 --> 00:01:09,160
+a 68 percent response rate.
+
+17
+00:01:09,160 --> 00:01:13,540
+Here are the results with respect to satisfaction with the practices EHR.
+
+18
+00:01:13,540 --> 00:01:17,340
+The majority of physicians believe the EHR
+
+19
+00:01:17,340 --> 00:01:22,600
+improves care quality but using it is inefficient of their time.
+
+20
+00:01:22,600 --> 00:01:25,460
+Interestingly, only 18 percent of
+
+21
+00:01:25,460 --> 00:01:30,335
+the physicians indicated they would revert to paper records if they could.
+
+22
+00:01:30,335 --> 00:01:34,800
+Disturbingly, according to the American Academy of Family Practice,
+
+23
+00:01:34,800 --> 00:01:39,360
+the AAFP, a strong advocate of the EHRs,
+
+24
+00:01:39,360 --> 00:01:43,050
+physician satisfaction with them is declining.
+
+25
+00:01:43,050 --> 00:01:48,365
+As our baseline in the AAFP 2010 survey,
+
+26
+00:01:48,365 --> 00:01:55,610
+61 percent of respondents said they were satisfied or very satisfied with the EHRs.
+
+27
+00:01:55,610 --> 00:02:02,300
+American EHR partners is a new effort supported by 20 professional societies including
+
+28
+00:02:02,300 --> 00:02:06,140
+the AAFP and the American College of Physicians
+
+29
+00:02:06,140 --> 00:02:09,860
+another large physician group that advocates for EHRs.
+
+30
+00:02:09,860 --> 00:02:16,280
+American EHR has been collecting data since the AAFP survey in 2010,
+
+31
+00:02:16,280 --> 00:02:20,660
+and it claims theirs is the only EHR survey that
+
+32
+00:02:20,660 --> 00:02:25,990
+charts satisfaction over time and allows for the benchmarking of data.
+
+33
+00:02:25,990 --> 00:02:34,155
+Today, American EHR says it has collected over 7500 responses using the same core survey.
+
+34
+00:02:34,155 --> 00:02:38,405
+They say this allows them to have comprehensive breakdowns by specialty,
+
+35
+00:02:38,405 --> 00:02:41,870
+practice size, EHR type and so on.
+
+36
+00:02:41,870 --> 00:02:49,330
+The American EHR partners 2014 online survey of 940 physicians found that
+
+37
+00:02:49,330 --> 00:02:53,770
+42 percent thought their EHR systems ability
+
+38
+00:02:53,770 --> 00:02:57,590
+to improve efficiency was difficult or very difficult.
+
+39
+00:02:57,590 --> 00:03:01,180
+72 percent thought their EHR system's ability
+
+40
+00:03:01,180 --> 00:03:05,770
+to decrease workload was difficult or very difficult.
+
+41
+00:03:05,770 --> 00:03:11,470
+54 percent found their EHR system increased their total operating costs,
+
+42
+00:03:11,470 --> 00:03:15,190
+and 43 percent said they had yet to overcome
+
+43
+00:03:15,190 --> 00:03:19,655
+the productivity challenges related to their EHR system.
+
+44
+00:03:19,655 --> 00:03:24,930
+However, over 36,000 physicians received invitations.
+
+45
+00:03:24,930 --> 00:03:28,765
+So the response rate was only two point six percent.
+
+46
+00:03:28,765 --> 00:03:30,770
+It is certainly possible that
+
+47
+00:03:30,770 --> 00:03:34,900
+dissatisfied physicians were more motivated to express those feelings,
+
+48
+00:03:34,900 --> 00:03:38,210
+a phenomenon known as response bias.
+
+49
+00:03:38,210 --> 00:03:41,750
+I asked the American EHR about this and they say that
+
+50
+00:03:41,750 --> 00:03:44,750
+the 2014 results are actually
+
+51
+00:03:44,750 --> 00:03:49,660
+consistent with results they've been continuing to receive since then.
+
+52
+00:03:49,660 --> 00:03:52,800
+In any case, it seems clear that physicians
+
+53
+00:03:52,800 --> 00:03:56,715
+find the use of an EHR inefficient and challenging.
+
+54
+00:03:56,715 --> 00:03:59,160
+We next turn to why this is the case.

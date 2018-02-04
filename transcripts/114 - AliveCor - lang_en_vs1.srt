@@ -1,0 +1,55 @@
+1
+00:00:00,000 --> 00:00:05,195
+We will now look at an example of mHealth that the FDA does regulate.
+
+2
+00:00:05,195 --> 00:00:11,685
+As shown here, a live course Kardia mobile device detects the electrocardiogram or
+
+3
+00:00:11,685 --> 00:00:14,750
+ECG heart trace and sends it to
+
+4
+00:00:14,750 --> 00:00:17,240
+the company's smartphone app using
+
+5
+00:00:17,240 --> 00:00:22,260
+inaudible ultrasonic signals after requesting access to the microphone.
+
+6
+00:00:22,260 --> 00:00:25,700
+The company says this communications approach reduces
+
+7
+00:00:25,700 --> 00:00:30,080
+battery consumption by around 92% versus Bluetooth,
+
+8
+00:00:30,080 --> 00:00:34,170
+and provides much higher data resolution.
+
+9
+00:00:34,170 --> 00:00:39,070
+However, it does require the device to be no more than a foot away from the phone.
+
+10
+00:00:39,070 --> 00:00:42,490
+A number of journal articles report on success in using
+
+11
+00:00:42,490 --> 00:00:48,640
+the AliveCor device and other competing devices to screen for atrial fibrillation,
+
+12
+00:00:48,640 --> 00:00:52,330
+the most common cardiac arrhythmia and one that can lead to
+
+13
+00:00:52,330 --> 00:00:57,280
+strokes if the condition is not identified and properly treated.
+
+14
+00:00:57,280 --> 00:01:03,000
+The company says it is working on an ECG band device for Apple's watch.

@@ -1,0 +1,243 @@
+1
+00:00:00,000 --> 00:00:04,620
+Open mHealth is a new nonprofit organization that promotes
+
+2
+00:00:04,620 --> 00:00:11,130
+greater access to mobile health data through an open standard and associated tools.
+
+3
+00:00:11,130 --> 00:00:15,720
+Similarly to FHIR, the open mHealth standard uses rest APIs
+
+4
+00:00:15,720 --> 00:00:20,100
+to access data package according to Json based Schemas.
+
+5
+00:00:20,100 --> 00:00:23,825
+Essentially, the equivalent of FHIR resources,
+
+6
+00:00:23,825 --> 00:00:28,820
+but with important differences because of the special challenges of mHealth data.
+
+7
+00:00:28,820 --> 00:00:33,990
+Here's an example of part of the open mHealth schema for blood glucose.
+
+8
+00:00:33,990 --> 00:00:38,160
+In FHIR, this would be an observation resource.
+
+9
+00:00:38,160 --> 00:00:41,465
+I have placed a part of one of those adjacent to it.
+
+10
+00:00:41,465 --> 00:00:46,620
+I used smart and FHIR's frame tool to create the sample resource.
+
+11
+00:00:46,620 --> 00:00:52,440
+The important point is that things included in Open mHealth but not in FHIR.
+
+12
+00:00:52,440 --> 00:00:55,270
+I've highlighted those in red here.
+
+13
+00:00:55,270 --> 00:01:00,510
+First, you see that the Open mHealth glucose reading can occur over time.
+
+14
+00:01:00,510 --> 00:01:02,980
+In this case, a four month period.
+
+15
+00:01:02,980 --> 00:01:06,020
+In clinical practice, it would be a point reading
+
+16
+00:01:06,020 --> 00:01:09,675
+usually when the patient is in the physician's office.
+
+17
+00:01:09,675 --> 00:01:13,760
+So, FHIR does not anticipate a situation like this.
+
+18
+00:01:13,760 --> 00:01:18,175
+As we said, mHealth data has special challenges.
+
+19
+00:01:18,175 --> 00:01:21,415
+And this illustrates one of them, volume.
+
+20
+00:01:21,415 --> 00:01:26,445
+A diabetes patient might document their blood glucose daily.
+
+21
+00:01:26,445 --> 00:01:29,940
+They see their physician every four months.
+
+22
+00:01:29,940 --> 00:01:34,145
+Does that physician want to see all 120 data points?
+
+23
+00:01:34,145 --> 00:01:35,795
+Almost certainly not.
+
+24
+00:01:35,795 --> 00:01:41,530
+So Open mHealth is indicated here might provide an average for the four month period.
+
+25
+00:01:41,530 --> 00:01:46,850
+For blood pressure, this might be the maximum and minimum over some time period.
+
+26
+00:01:46,850 --> 00:01:49,798
+Another mHealth challenge is data context,
+
+27
+00:01:49,798 --> 00:01:53,100
+when and how was data collected.
+
+28
+00:01:53,100 --> 00:01:56,380
+This should be clear in a physician's office,
+
+29
+00:01:56,380 --> 00:01:59,795
+but it may not be when the patient is at home.
+
+30
+00:01:59,795 --> 00:02:03,730
+Here, the Schema provides contextual information
+
+31
+00:02:03,730 --> 00:02:09,300
+showing that the patient takes their glucose reading upon waking and before eating.
+
+32
+00:02:09,300 --> 00:02:14,170
+Physicians usually do something similar when patients visit their office.
+
+33
+00:02:14,170 --> 00:02:18,464
+Calculated metrics illustrate another challenge,
+
+34
+00:02:18,464 --> 00:02:20,805
+the accuracy of mHealth data.
+
+35
+00:02:20,805 --> 00:02:23,660
+Step counts is a good example.
+
+36
+00:02:23,660 --> 00:02:26,060
+Fitbit provides a discussion of
+
+37
+00:02:26,060 --> 00:02:30,410
+their step count calculation approach that says in part quote,
+
+38
+00:02:30,410 --> 00:02:36,425
+"Fitbit trackers uses a 3-axis accelerometer to understand your motions.
+
+39
+00:02:36,425 --> 00:02:38,990
+By analyzing acceleration data,
+
+40
+00:02:38,990 --> 00:02:44,030
+our trackers provide detailed information about frequency, duration,
+
+41
+00:02:44,030 --> 00:02:48,890
+intensity and patterns of movement to determine your steps taken,
+
+42
+00:02:48,890 --> 00:02:54,285
+distance traveled, calories burn and sleep quality."
+
+43
+00:02:54,285 --> 00:02:58,670
+Of course, another device might receive different input from its sensors,
+
+44
+00:02:58,670 --> 00:03:01,955
+and might do the calculations somewhat differently.
+
+45
+00:03:01,955 --> 00:03:03,745
+To test the second point,
+
+46
+00:03:03,745 --> 00:03:08,155
+I have long had two activity tracking apps on my phone.
+
+47
+00:03:08,155 --> 00:03:11,120
+The numbers seem to vary by around 1 percent,
+
+48
+00:03:11,120 --> 00:03:14,755
+and the app with a higher number is not consistent.
+
+49
+00:03:14,755 --> 00:03:17,900
+My two apps are on the same phone,
+
+50
+00:03:17,900 --> 00:03:21,710
+so they presumably receive the same data from it.
+
+51
+00:03:21,710 --> 00:03:25,090
+This admittedly nonscientific comparison by
+
+52
+00:03:25,090 --> 00:03:29,560
+CNBC shows far greater differences in step counts
+
+53
+00:03:29,560 --> 00:03:32,275
+among nine wearable devices where
+
+54
+00:03:32,275 --> 00:03:37,565
+both a sensing technology and the calculation might be different.
+
+55
+00:03:37,565 --> 00:03:39,890
+I provide a link to an article from
+
+56
+00:03:39,890 --> 00:03:42,530
+The Journal of Personalized Medicine if you want
+
+57
+00:03:42,530 --> 00:03:46,620
+more details about the accuracy of mHealth data.
+
+58
+00:03:46,620 --> 00:03:52,705
+To better understand the rich possibilities of the standard and the in-house space,
+
+59
+00:03:52,705 --> 00:03:58,880
+I strongly suggest you spend time studying the Open mHealth schema library.
+
+60
+00:03:58,880 --> 00:04:00,590
+You can also further explore
+
+61
+00:04:00,590 --> 00:04:05,000
+the somewhat different perspectives of Open mHealth and FHIR.

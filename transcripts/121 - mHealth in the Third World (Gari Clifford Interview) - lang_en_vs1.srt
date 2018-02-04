@@ -1,0 +1,991 @@
+1
+00:00:00,000 --> 00:00:04,245
+I'm Gary Clifford, I'm the interim chair of biomedical informatics at
+
+2
+00:00:04,245 --> 00:00:11,790
+Emory School of Medicine.
+
+3
+00:00:11,790 --> 00:00:14,340
+I think it's a lot of things to a lot of different people.
+
+4
+00:00:14,340 --> 00:00:21,590
+My own thinking is that it's where biomedical engineering meets information theory.
+
+5
+00:00:21,590 --> 00:00:24,740
+It's all about how do we push information around and it can be anything from
+
+6
+00:00:24,740 --> 00:00:31,650
+genetics through to mHealth.
+
+7
+00:00:31,650 --> 00:00:33,490
+I mean, you can see where we're going.
+
+8
+00:00:33,490 --> 00:00:37,265
+We're going to the cloud infrastructures, distributed computing,
+
+9
+00:00:37,265 --> 00:00:39,800
+the volume of digital data and the velocity of
+
+10
+00:00:39,800 --> 00:00:43,790
+digital data is just increasing exponentially and
+
+11
+00:00:43,790 --> 00:00:51,550
+anybody not working in the digital domain is stuck firmly in the 1970s, 1980s.
+
+12
+00:00:51,550 --> 00:00:55,523
+So we're either going to go backwards or we're going to go forwards.
+
+13
+00:00:55,523 --> 00:00:58,700
+And I think we have to go forwards, don't we?
+
+14
+00:00:58,700 --> 00:01:00,800
+That's the place we need to be investing.
+
+15
+00:01:00,800 --> 00:01:08,690
+What excites me about it
+
+16
+00:01:08,690 --> 00:01:13,580
+is people are generating these data and they're generating
+
+17
+00:01:13,580 --> 00:01:19,650
+them on an enormous scale in a very natural way.
+
+18
+00:01:19,650 --> 00:01:23,180
+It's a natural instrument that we interact with and it
+
+19
+00:01:23,180 --> 00:01:27,139
+has all the qualities that we need in a device for capturing data.
+
+20
+00:01:27,139 --> 00:01:28,955
+It has this suite of senses,
+
+21
+00:01:28,955 --> 00:01:31,520
+it has direct connections to the Internet,
+
+22
+00:01:31,520 --> 00:01:34,355
+it identifies the individual very specifically,
+
+23
+00:01:34,355 --> 00:01:37,040
+which is one of our biggest problems in medicine,
+
+24
+00:01:37,040 --> 00:01:40,225
+is knowing whose data belongs to who.
+
+25
+00:01:40,225 --> 00:01:44,540
+And it has enormous computational power on it.
+
+26
+00:01:44,540 --> 00:01:46,940
+I remember when we first started looking at
+
+27
+00:01:46,940 --> 00:01:50,855
+using phones in medicine and thinking about its potential.
+
+28
+00:01:50,855 --> 00:01:55,690
+You could see where it was going and you could be frustrated by the current systems,
+
+29
+00:01:55,690 --> 00:01:58,060
+the very early smartphones,
+
+30
+00:01:58,060 --> 00:02:01,175
+but you could see where the computational power is going.
+
+31
+00:02:01,175 --> 00:02:04,985
+Now the phone in my pocket is about
+
+32
+00:02:04,985 --> 00:02:09,755
+five or six times as powerful as the PC that I wrote my PhD thesis on.
+
+33
+00:02:09,755 --> 00:02:13,250
+So, I'm eternally excited
+
+34
+00:02:13,250 --> 00:02:16,160
+about the idea of this distributed computing power that we have in
+
+35
+00:02:16,160 --> 00:02:19,940
+our pockets and the ability for it to push data into the cloud for us
+
+36
+00:02:19,940 --> 00:02:24,395
+to continually track the behaviors and the healthcare,
+
+37
+00:02:24,395 --> 00:02:26,980
+the health of an individual.
+
+38
+00:02:26,980 --> 00:02:35,590
+Unlike a medical device
+
+39
+00:02:35,590 --> 00:02:37,755
+that you put on an individual,
+
+40
+00:02:37,755 --> 00:02:41,675
+a phone isn't FDA approved for medicine.
+
+41
+00:02:41,675 --> 00:02:48,160
+So it's difficult to use it in any validated sense.
+
+42
+00:02:48,160 --> 00:02:49,720
+And the reason for that is very important.
+
+43
+00:02:49,720 --> 00:02:54,610
+The reason is that it's a heterogeneous collection of different platforms,
+
+44
+00:02:54,610 --> 00:02:56,260
+it's not one device.
+
+45
+00:02:56,260 --> 00:03:01,000
+When you have a medical device and you put it through FDA approval,
+
+46
+00:03:01,000 --> 00:03:04,300
+they certify that this particular device,
+
+47
+00:03:04,300 --> 00:03:08,693
+running this piece of embedded software will produce the following results,
+
+48
+00:03:08,693 --> 00:03:11,650
+and therefore it's safe under
+
+49
+00:03:11,650 --> 00:03:16,302
+these conditions and it should be used for the following types of medicine.
+
+50
+00:03:16,302 --> 00:03:18,670
+Now, we're talking about using
+
+51
+00:03:18,670 --> 00:03:24,865
+these enormous heterogeneous hardware platforms
+
+52
+00:03:24,865 --> 00:03:30,291
+running constantly evolving software and operating systems.
+
+53
+00:03:30,291 --> 00:03:33,400
+The idea that you could ever come up with
+
+54
+00:03:33,400 --> 00:03:43,340
+a close predictable software system that the FDA would approve is a long, long way off.
+
+55
+00:03:43,340 --> 00:03:50,560
+So what you have is this idea that either you have to tailor it to an individual,
+
+56
+00:03:50,560 --> 00:03:53,905
+or you have to aggregate across large populations.
+
+57
+00:03:53,905 --> 00:03:56,622
+At least that's where we are at the moment with mHealth.
+
+58
+00:03:56,622 --> 00:04:03,250
+So, I suppose the goal at the end of the rainbow that we're chasing is
+
+59
+00:04:03,250 --> 00:04:10,380
+how do you provide quality healthcare information from this type of platform?
+
+60
+00:04:10,380 --> 00:04:19,550
+I think there's two really good examples at the moment.
+
+61
+00:04:19,550 --> 00:04:24,680
+There's two areas where I feel mHealth has great potential.
+
+62
+00:04:24,680 --> 00:04:29,885
+One is in low to middle income countries where it's sort of a tabula rasa.
+
+63
+00:04:29,885 --> 00:04:33,320
+We have no digital health care system or very little and
+
+64
+00:04:33,320 --> 00:04:38,970
+it's often a highly distributed non-centralized health care system.
+
+65
+00:04:38,970 --> 00:04:43,250
+So having the ability to mediate data
+
+66
+00:04:43,250 --> 00:04:48,854
+personally is going to be an enormous leap frog effect in health care, potentially.
+
+67
+00:04:48,854 --> 00:04:53,360
+So, we have a project down in Guatemala at the moment.
+
+68
+00:04:53,360 --> 00:04:54,415
+I just came back yesterday,
+
+69
+00:04:54,415 --> 00:04:59,480
+in fact we're wrapping up an RCT down there, Randomized Control Trial,
+
+70
+00:04:59,480 --> 00:05:08,280
+looking at the potential to use a smartphone by illiterate lay midwives.
+
+71
+00:05:08,280 --> 00:05:12,020
+So these are essentially women who
+
+72
+00:05:12,020 --> 00:05:16,192
+move from village to village looking for, by word of mouth,
+
+73
+00:05:16,192 --> 00:05:26,206
+for pregnant mothers and offering them help in the move through pregnancy to childbirth.
+
+74
+00:05:26,206 --> 00:05:31,095
+We've taken a group of 50 midwives working with an NGO.
+
+75
+00:05:31,095 --> 00:05:34,185
+Of course you have to work with a local partner who
+
+76
+00:05:34,185 --> 00:05:38,150
+already delivers a standard of health care,
+
+77
+00:05:38,150 --> 00:05:42,605
+and we've provided training for a smartphone
+
+78
+00:05:42,605 --> 00:05:48,035
+with a low cost $17 ultrasound device that plugs into the smartphone,
+
+79
+00:05:48,035 --> 00:05:50,548
+and a blood pressure cuff.
+
+80
+00:05:50,548 --> 00:05:56,990
+They screen the women monthly and they're looking for preeclampsia, high blood pressure.
+
+81
+00:05:56,990 --> 00:05:59,870
+They're looking for abnormalities in
+
+82
+00:05:59,870 --> 00:06:04,825
+the heart rate variability that are indicative of interuterine growth restriction.
+
+83
+00:06:04,825 --> 00:06:10,001
+This is actually a machine learning algorithm that we developed to identify our UGR,
+
+84
+00:06:10,001 --> 00:06:13,760
+interuterine growth restriction and also to refer
+
+85
+00:06:13,760 --> 00:06:18,540
+the patient on in the event that any emergencies occur.
+
+86
+00:06:18,540 --> 00:06:22,995
+The app is built as a series of culturally appropriate pictograms.
+
+87
+00:06:22,995 --> 00:06:26,555
+So we work with an anthropologist who just turns out to be my wife,
+
+88
+00:06:26,555 --> 00:06:29,450
+who has helped us design
+
+89
+00:06:29,450 --> 00:06:34,430
+the culturally appropriate interface for the largely Kaqchikel speaking,
+
+90
+00:06:34,430 --> 00:06:36,545
+this is an indigenous Mayan language,
+
+91
+00:06:36,545 --> 00:06:44,150
+Kaqchikel speaking group of midwives and all of the support system,
+
+92
+00:06:44,150 --> 00:06:50,050
+all the help files are spoken in Kaqchikel and all the data is recorded in Kaqchikel.
+
+93
+00:06:50,050 --> 00:06:52,425
+There's no written language actually for this,
+
+94
+00:06:52,425 --> 00:06:55,190
+which makes IAB approval for it quite difficult,
+
+95
+00:06:55,190 --> 00:06:59,180
+but it's a fun system to build because you're basically
+
+96
+00:06:59,180 --> 00:07:04,050
+building a decision support system for an illiterate group.
+
+97
+00:07:04,050 --> 00:07:09,080
+The intervention comparison, so the other arm of the intervention
+
+98
+00:07:09,080 --> 00:07:11,900
+is simply the same pictograms printed on
+
+99
+00:07:11,900 --> 00:07:15,335
+a piece of card and then laminated so that it's waterproof,
+
+100
+00:07:15,335 --> 00:07:19,490
+and then we train another group of midwives to use,or
+
+101
+00:07:19,490 --> 00:07:21,530
+traditional birth attendants to use
+
+102
+00:07:21,530 --> 00:07:25,747
+that laminated cardboard as a decision support system.
+
+103
+00:07:25,747 --> 00:07:30,500
+So it directly testing is a technology based on a smartphone that
+
+104
+00:07:30,500 --> 00:07:36,470
+connects a decision support system straight through to a health care system.
+
+105
+00:07:36,470 --> 00:07:43,100
+More efficacious than a dumb phone or feature phone with the number
+
+106
+00:07:43,100 --> 00:07:50,111
+programmed into it and a cardboard with the same decision support mechanism in there.
+
+107
+00:07:50,111 --> 00:07:51,470
+I can't tell you the results of that,
+
+108
+00:07:51,470 --> 00:07:54,367
+because we're only just wrapping up the RCT at the moment,
+
+109
+00:07:54,367 --> 00:08:01,169
+but the informal numbers show that there's been a significant impact on the population.
+
+110
+00:08:01,169 --> 00:08:05,660
+The question of whether you can take people
+
+111
+00:08:05,660 --> 00:08:11,345
+with very little exposure to a smartphone system,
+
+112
+00:08:11,345 --> 00:08:14,780
+although they do use quite complex phones themselves,
+
+113
+00:08:14,780 --> 00:08:19,015
+and use that in a healthcare setting,
+
+114
+00:08:19,015 --> 00:08:25,796
+there are strong indications that that's entirely possible and in fairly large numbers.
+
+115
+00:08:25,796 --> 00:08:27,195
+So that's a pretty exciting one.
+
+116
+00:08:27,195 --> 00:08:28,760
+We have an enormous potential there.
+
+117
+00:08:28,760 --> 00:08:33,320
+We're connecting the phone directly through to an electronic medical record system,
+
+118
+00:08:33,320 --> 00:08:34,845
+which is an open source system.
+
+119
+00:08:34,845 --> 00:08:37,855
+The entire thing is built on open source technology
+
+120
+00:08:37,855 --> 00:08:42,113
+and the price point is extremely low for the entire system.
+
+121
+00:08:42,113 --> 00:08:43,970
+So that's got me really excited.
+
+122
+00:08:43,970 --> 00:08:49,352
+You know the idea that we can transform health care by providing these enablers,
+
+123
+00:08:49,352 --> 00:08:53,255
+but there's another layer to it that's really exciting I think.
+
+124
+00:08:53,255 --> 00:08:56,810
+When you take a smartphone system.
+
+125
+00:08:56,810 --> 00:08:59,900
+You don't just have to give information to a user,
+
+126
+00:08:59,900 --> 00:09:03,525
+you're capturing information from them at the same time.
+
+127
+00:09:03,525 --> 00:09:07,700
+So, these lay midwives have lots of
+
+128
+00:09:07,700 --> 00:09:09,830
+local cultural knowledge about
+
+129
+00:09:09,830 --> 00:09:14,495
+how receptive the mothers are going to be to certain treatments,
+
+130
+00:09:14,495 --> 00:09:20,680
+and even down to the points of different colors mean different things in medicine,
+
+131
+00:09:20,680 --> 00:09:23,005
+and there are hot colors and cold colors,
+
+132
+00:09:23,005 --> 00:09:30,050
+and some illnesses or medical conditions are hot and some are cold.
+
+133
+00:09:30,050 --> 00:09:31,945
+And if you use the wrong color,
+
+134
+00:09:31,945 --> 00:09:34,905
+then it no longer becomes trusted.
+
+135
+00:09:34,905 --> 00:09:38,335
+So, having the right cultural approach to something is very important,
+
+136
+00:09:38,335 --> 00:09:43,030
+and we can capture this information back from the midwives at the same time because they
+
+137
+00:09:43,030 --> 00:09:48,135
+can create logs of what does and doesn't work as they're moving through this process.
+
+138
+00:09:48,135 --> 00:09:51,760
+So it's a continual system that we built with the midwives.
+
+139
+00:09:51,760 --> 00:09:53,065
+We learnt from them,
+
+140
+00:09:53,065 --> 00:09:58,225
+we adapted to their own cultural practices,
+
+141
+00:09:58,225 --> 00:10:03,005
+and they became an inclusive part of the construction of this.
+
+142
+00:10:03,005 --> 00:10:05,875
+And so, I think that's where we're going with mHealth.
+
+143
+00:10:05,875 --> 00:10:11,935
+It's not this didactic patriarchal western medicine where we just say,
+
+144
+00:10:11,935 --> 00:10:13,795
+here's the drug, here's the app.
+
+145
+00:10:13,795 --> 00:10:19,240
+Now you give me your information back and I will give you the cure.
+
+146
+00:10:19,240 --> 00:10:23,110
+I think it's going to become an organic system where we're feeding information back,
+
+147
+00:10:23,110 --> 00:10:24,670
+and we are learning from the user.
+
+148
+00:10:24,670 --> 00:10:27,250
+It's also got the potential to create
+
+149
+00:10:27,250 --> 00:10:34,170
+a distributed system that allows users to pass information between each other.
+
+150
+00:10:34,170 --> 00:10:38,170
+So now you could have different midwives having social conversations through
+
+151
+00:10:38,170 --> 00:10:40,000
+the phone and exchanging
+
+152
+00:10:40,000 --> 00:10:42,475
+information about- I'm not saying we're doing this at the moment,
+
+153
+00:10:42,475 --> 00:10:44,155
+but this is the next step I think.
+
+154
+00:10:44,155 --> 00:10:47,040
+They can interface with each other,
+
+155
+00:10:47,040 --> 00:10:51,355
+exchange information from a support network,
+
+156
+00:10:51,355 --> 00:10:53,830
+and we can capture this information at the same time and
+
+157
+00:10:53,830 --> 00:10:56,800
+work out what's working, what's not working,
+
+158
+00:10:56,800 --> 00:11:02,230
+and even ask each other to diagnose problems when we don't have
+
+159
+00:11:02,230 --> 00:11:06,960
+the bandwidth for the centralized doctor
+
+160
+00:11:06,960 --> 00:11:12,490
+or nurse to provide the clinical information they need.
+
+161
+00:11:12,490 --> 00:11:17,125
+So I think there's an evolution to mHealth that is coming that is
+
+162
+00:11:17,125 --> 00:11:21,940
+somewhere between distributed computing and crowd sourcing that is going to
+
+163
+00:11:21,940 --> 00:11:25,720
+allow us to harness
+
+164
+00:11:25,720 --> 00:11:34,510
+the local knowledge of individuals and the wisdom of the crowd if you like.
+
+165
+00:11:35,810 --> 00:11:42,161
+Sure, this is just as exciting to me actually,
+
+166
+00:11:42,161 --> 00:11:45,580
+and it's a home grown project in that it's a
+
+167
+00:11:45,580 --> 00:11:53,200
+U.S. based project in Atlanta primarily,
+
+168
+00:11:53,200 --> 00:11:55,340
+but we're expanding it to the southeast.
+
+169
+00:11:55,340 --> 00:11:59,335
+We last year we got funding from the NSF to
+
+170
+00:11:59,335 --> 00:12:04,833
+realize a project that we've been hatching for a couple of years now.
+
+171
+00:12:04,833 --> 00:12:06,955
+About two years ago,
+
+172
+00:12:06,955 --> 00:12:10,480
+Dr. Herman Taylor is the head of the cardiovascular research institute at
+
+173
+00:12:10,480 --> 00:12:15,885
+Morehouse School of Medicine came to me and said that he wanted to expand and build
+
+174
+00:12:15,885 --> 00:12:21,565
+an e-cohort of
+
+175
+00:12:21,565 --> 00:12:29,880
+African American pre CBD cardiovascular disease subjects.
+
+176
+00:12:29,880 --> 00:12:35,890
+And he had run previous to this the Jackson heart study which is
+
+177
+00:12:35,890 --> 00:12:43,670
+the largest cardiovascular study of African American subjects anywhere in the world.
+
+178
+00:12:43,670 --> 00:12:48,190
+And this had been ongoing for 20 or so years,
+
+179
+00:12:48,190 --> 00:12:51,400
+looking at the evolution of cardiovascular disease.
+
+180
+00:12:51,400 --> 00:12:54,070
+And one of the things they had done as part of this
+
+181
+00:12:54,070 --> 00:12:56,390
+was to bring people from the community
+
+182
+00:12:56,390 --> 00:13:01,670
+in and train them in concepts around cardiovascular disease,
+
+183
+00:13:01,670 --> 00:13:07,870
+and they became part of the study group that was studying the population as well.
+
+184
+00:13:07,870 --> 00:13:10,525
+And this is as you probably know,
+
+185
+00:13:10,525 --> 00:13:16,840
+a difficult thing to do in disadvantaged communities in the United States.
+
+186
+00:13:16,840 --> 00:13:18,820
+So you know the more disadvantaged you are,
+
+187
+00:13:18,820 --> 00:13:20,560
+the more marginalized you are as a community,
+
+188
+00:13:20,560 --> 00:13:23,125
+the more likely you are to have health issues.
+
+189
+00:13:23,125 --> 00:13:26,605
+And in the United States as in many places,
+
+190
+00:13:26,605 --> 00:13:32,310
+these communities have often been unfairly experimented on.
+
+191
+00:13:32,310 --> 00:13:38,160
+You know we have the- that's a very modern euphemism for what's going on in the past.
+
+192
+00:13:38,160 --> 00:13:40,945
+So if you look at things like Tuskegee and
+
+193
+00:13:40,945 --> 00:13:46,480
+many other abhorrent things that have occurred in
+
+194
+00:13:46,480 --> 00:13:51,985
+the past where the establishment has experimented on disadvantaged populations,
+
+195
+00:13:51,985 --> 00:13:55,630
+you can see that there's an enormous distrust of
+
+196
+00:13:55,630 --> 00:13:59,860
+these populations for people like myself or anybody who
+
+197
+00:13:59,860 --> 00:14:03,760
+represents some figure role authority to
+
+198
+00:14:03,760 --> 00:14:08,820
+come in and ask people to give up their data and become part of a study.
+
+199
+00:14:08,820 --> 00:14:15,805
+So we we had talked about how we would do this with eHealth and mHealth in
+
+200
+00:14:15,805 --> 00:14:23,825
+a new population primarily looking at younger African Americans in Atlanta.
+
+201
+00:14:23,825 --> 00:14:29,860
+And we talked about how we could build an app ecosystem,
+
+202
+00:14:29,860 --> 00:14:34,345
+and an open source infrastructure that would not only
+
+203
+00:14:34,345 --> 00:14:41,680
+be available to the communities that we are hoping to monitor,
+
+204
+00:14:41,680 --> 00:14:45,160
+but we would actively involve them in learning how to
+
+205
+00:14:45,160 --> 00:14:50,380
+program and how to become part of the project to
+
+206
+00:14:50,380 --> 00:14:54,400
+empower them to be able to produce code for
+
+207
+00:14:54,400 --> 00:15:00,820
+themselves which would increase their economic situation.
+
+208
+00:15:00,820 --> 00:15:03,100
+They would also learn about health care at the same time,
+
+209
+00:15:03,100 --> 00:15:12,030
+so they would improve their understanding of their own bodies and their own healthcare,
+
+210
+00:15:12,030 --> 00:15:17,380
+and they would also be empowered to be
+
+211
+00:15:17,380 --> 00:15:19,960
+a part of an open source community and
+
+212
+00:15:19,960 --> 00:15:23,395
+an open source project and give back to their own communities.
+
+213
+00:15:23,395 --> 00:15:27,710
+So the idea was to bring these communities in and make them part of this project.
+
+214
+00:15:27,710 --> 00:15:32,710
+And we're just at the point now where we realize we've got the funding for this,
+
+215
+00:15:32,710 --> 00:15:35,505
+and we're working with the communities.
+
+216
+00:15:35,505 --> 00:15:40,410
+We've been to multiple community coalitions
+
+217
+00:15:40,410 --> 00:15:45,350
+to look at how we would sensitively recruit people into this.
+
+218
+00:15:45,350 --> 00:15:46,420
+And this weekend actually,
+
+219
+00:15:46,420 --> 00:15:49,870
+we're running an idea on why we're bringing in hundreds of
+
+220
+00:15:49,870 --> 00:15:57,057
+local potential participants in this to work with us on ideating around the app,
+
+221
+00:15:57,057 --> 00:15:58,795
+what they want it to look like.
+
+222
+00:15:58,795 --> 00:16:03,335
+We're actually collecting what they want the app to do.
+
+223
+00:16:03,335 --> 00:16:09,445
+We're collecting information on what geographic location,
+
+224
+00:16:09,445 --> 00:16:15,820
+activity, sleep movements, what restaurants they visit,
+
+225
+00:16:15,820 --> 00:16:18,840
+what pollution they're being exposed to.
+
+226
+00:16:18,840 --> 00:16:22,475
+There's no end of what you can pull from somebody's cell phone.
+
+227
+00:16:22,475 --> 00:16:26,875
+But the question is, will somebody give us this information?
+
+228
+00:16:26,875 --> 00:16:31,650
+And there's a cyber security issue around this.
+
+229
+00:16:31,650 --> 00:16:35,620
+How does somebody even trust you when you know pretty much.
+
+230
+00:16:35,620 --> 00:16:37,543
+The question isn't will I get hacked?
+
+231
+00:16:37,543 --> 00:16:41,320
+It is what will I do when I get hacked?
+
+232
+00:16:41,320 --> 00:16:43,960
+That's the question nowadays around security.
+
+233
+00:16:43,960 --> 00:16:51,295
+So, how do you get somebody to trust them to allow you to use this kind of system.
+
+234
+00:16:51,295 --> 00:16:53,585
+So, we're building this with the communities,
+
+235
+00:16:53,585 --> 00:16:54,935
+we're going to train them how to,
+
+236
+00:16:54,935 --> 00:16:58,085
+and we already are training them how to code on
+
+237
+00:16:58,085 --> 00:17:03,400
+this platform and become part of it to understand the language that we're coding in,
+
+238
+00:17:03,400 --> 00:17:07,330
+and what information we're actually asking people to give
+
+239
+00:17:07,330 --> 00:17:12,665
+us in order to do this kind of longitudinal study in cardiovascular disease.
+
+240
+00:17:12,665 --> 00:17:15,325
+So, this is something that's really exciting to me,
+
+241
+00:17:15,325 --> 00:17:20,920
+that it's a new way of doing research.
+
+242
+00:17:20,920 --> 00:17:24,740
+I think it takes participatory research right to its limit.
+
+243
+00:17:24,740 --> 00:17:27,190
+We actually want people to take the platform,
+
+244
+00:17:27,190 --> 00:17:28,585
+take ownership of it,
+
+245
+00:17:28,585 --> 00:17:30,310
+build companies out of it,
+
+246
+00:17:30,310 --> 00:17:35,470
+and change their health and economic status as a result of it.
+
+247
+00:17:35,470 --> 00:17:39,100
+That's pretty ambitious, but I think we have a great team around it,
+
+248
+00:17:39,100 --> 00:17:41,230
+and I'm excited to see where we can take it.

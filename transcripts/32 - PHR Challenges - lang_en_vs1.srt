@@ -1,0 +1,263 @@
+1
+00:00:00,000 --> 00:00:03,135
+Despite technical progress, adoption of
+
+2
+00:00:03,135 --> 00:00:06,710
+PHRs and other tools for patients remains an issue.
+
+3
+00:00:06,710 --> 00:00:11,200
+A recent paper suggests that current adoption is around 20% to 30% of
+
+4
+00:00:11,200 --> 00:00:17,250
+patients but forecasts say the majority of patients will use a PHR by 2020.
+
+5
+00:00:17,250 --> 00:00:22,870
+There are several challenges to adoption: getting the data to patients,
+
+6
+00:00:22,870 --> 00:00:28,575
+privacy concerns, patient engagement, and usability.
+
+7
+00:00:28,575 --> 00:00:30,910
+We will cover each of these at a high level.
+
+8
+00:00:30,910 --> 00:00:34,310
+For more, I refer you to a recent paper that discusses PHRs
+
+9
+00:00:34,310 --> 00:00:38,435
+and their challenges in some detail.
+
+10
+00:00:38,435 --> 00:00:42,180
+Once again, interoperability is a key issue.
+
+11
+00:00:42,180 --> 00:00:47,125
+Absent it, how does PHR data get into a patient's personal record?
+
+12
+00:00:47,125 --> 00:00:50,500
+This becomes even more problematic if they receive care from
+
+13
+00:00:50,500 --> 00:00:53,140
+several providers that we have learned patients with
+
+14
+00:00:53,140 --> 00:00:56,760
+multiple chronic diseases typically do.
+
+15
+00:00:56,760 --> 00:01:02,480
+The most common form of personal health record is a browser-based patient portal.
+
+16
+00:01:02,480 --> 00:01:06,500
+Enterprise software vendors often supply portals and automatically
+
+17
+00:01:06,500 --> 00:01:11,810
+populate them with data from their EHR and their other clinical systems.
+
+18
+00:01:11,810 --> 00:01:16,030
+Here is an example of a modern patient portal provided by
+
+19
+00:01:16,030 --> 00:01:20,340
+Marshfield Clinic Information Services (MCIS).
+
+20
+00:01:20,340 --> 00:01:24,503
+This company is a spin-out from the Marshfield Clinic,
+
+21
+00:01:24,503 --> 00:01:26,780
+one of the most highly regarded health systems in
+
+22
+00:01:26,780 --> 00:01:31,010
+the US and an advanced user of informatics.
+
+23
+00:01:31,010 --> 00:01:33,960
+Note that it brings together a patient's health record,
+
+24
+00:01:33,960 --> 00:01:36,785
+reminders of needed tests and procedures,
+
+25
+00:01:36,785 --> 00:01:41,900
+messaging, and even financial and administrative services.
+
+26
+00:01:41,900 --> 00:01:46,430
+One of the key goals of meaningful use is to ensure that patients have
+
+27
+00:01:46,430 --> 00:01:51,780
+electronic access to their records no matter where they receive their care.
+
+28
+00:01:51,780 --> 00:01:55,030
+In fact, meaningful use has a term for this: view,
+
+29
+00:01:55,030 --> 00:01:57,915
+download, and transmit or VDT.
+
+30
+00:01:57,915 --> 00:02:00,650
+And it's a key measure for providers.
+
+31
+00:02:00,650 --> 00:02:06,050
+In Stage Two, more than 50% of all unique patients seen during
+
+32
+00:02:06,050 --> 00:02:12,650
+each 90-day reporting period must have had timely access to the health information.
+
+33
+00:02:12,650 --> 00:02:17,300
+More than 5% must have actually used this capability.
+
+34
+00:02:17,300 --> 00:02:21,580
+The second measure seems designed to incent providers to
+
+35
+00:02:21,580 --> 00:02:26,350
+explain their VDT tool and encourage their patients to use it.
+
+36
+00:02:26,350 --> 00:02:30,820
+Some research suggests that this provider engagement is effective.
+
+37
+00:02:30,820 --> 00:02:33,340
+There are also meaningful use measures related to
+
+38
+00:02:33,340 --> 00:02:36,755
+sharing of health data at transitions of care.
+
+39
+00:02:36,755 --> 00:02:43,155
+Continuity of care document or CCD is an HL7-specified,
+
+40
+00:02:43,155 --> 00:02:49,380
+XML-formatted electronic patient summary and is one way to meet this requirement.
+
+41
+00:02:49,380 --> 00:02:53,239
+As you will see in the health fault exercise that follows,
+
+42
+00:02:53,239 --> 00:02:56,625
+it's also a way for a patient to easily load
+
+43
+00:02:56,625 --> 00:03:01,200
+all their EHR data from all their providers into a PHR.
+
+44
+00:03:01,200 --> 00:03:04,920
+The second challenge is patient concerns about
+
+45
+00:03:04,920 --> 00:03:09,895
+the loss of privacy if their health data is stored in the cloud.
+
+46
+00:03:09,895 --> 00:03:15,425
+In a 2008 Markle Foundation survey of 1,580 adults,
+
+47
+00:03:15,425 --> 00:03:23,040
+77% reported privacy concerns related to misuse of personal data by marketeers,
+
+48
+00:03:23,040 --> 00:03:27,470
+56% expressed concerns about misuse by employers,
+
+49
+00:03:27,470 --> 00:03:32,190
+and 53% had similar concerns about health insurers.
+
+50
+00:03:32,190 --> 00:03:37,610
+The Affordable Care Act provision outlawing the use of preexisting conditions to deny
+
+51
+00:03:37,610 --> 00:03:40,010
+health insurance may have alleviated
+
+52
+00:03:40,010 --> 00:03:44,185
+these concerns to some degree with respect to health insurers.
+
+53
+00:03:44,185 --> 00:03:47,700
+However, with data breaches increasingly common,
+
+54
+00:03:47,700 --> 00:03:49,545
+including in health care,
+
+55
+00:03:49,545 --> 00:03:53,550
+this issue is likely to remain a serious challenge.
+
+56
+00:03:53,550 --> 00:03:58,860
+Finally, there is the challenge of getting patients to use these tools.
+
+57
+00:03:58,860 --> 00:04:03,935
+Several studies have asked patients what functions they most want from a PHR.
+
+58
+00:04:03,935 --> 00:04:06,690
+Unsurprisingly, these include access to
+
+59
+00:04:06,690 --> 00:04:10,440
+their past medical history including immunizations, lab tests,
+
+60
+00:04:10,440 --> 00:04:14,385
+and medications, as well as access to their appointments,
+
+61
+00:04:14,385 --> 00:04:17,320
+and communication with their providers.
+
+62
+00:04:17,320 --> 00:04:21,635
+Patients often want to access their family member's records.
+
+63
+00:04:21,635 --> 00:04:24,685
+Age, lack of computer literacy,
+
+64
+00:04:24,685 --> 00:04:30,865
+and unfamiliarity with medical terminology are often impediments to PHR use.
+
+65
+00:04:30,865 --> 00:04:34,180
+You'll have an opportunity to explore these challenges and
+
+66
+00:04:34,180 --> 00:04:38,000
+usability in particular in the exercise that follows.

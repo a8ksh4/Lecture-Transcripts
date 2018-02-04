@@ -1,0 +1,391 @@
+1
+00:00:00,100 --> 00:00:02,990
+So at this point we're starting with Mary,
+
+2
+00:00:02,990 --> 00:00:05,570
+who has already established an account and logged in.
+
+3
+00:00:05,570 --> 00:00:09,590
+You notice she gave herself some patient notes and
+
+4
+00:00:09,590 --> 00:00:14,855
+she also has uploaded a report that includes a diagnostic X-ray.
+
+5
+00:00:14,855 --> 00:00:17,540
+For this demo, we're going to show off some of
+
+6
+00:00:17,540 --> 00:00:20,705
+the fire connection capabilities of My FHIR.
+
+7
+00:00:20,705 --> 00:00:26,915
+So we're going to go over to the Settings tab and click on Add a provider data source.
+
+8
+00:00:26,915 --> 00:00:30,260
+This list shows all the available provider data sources.
+
+9
+00:00:30,260 --> 00:00:34,055
+You can also search by state, zip code,
+
+10
+00:00:34,055 --> 00:00:40,245
+name or anything else like that.
+
+11
+00:00:40,245 --> 00:00:45,120
+In this case, we're going to connect to Epic.
+
+12
+00:00:54,670 --> 00:01:02,340
+In this case, we're going to allow access and that will take us back to My FHIR app.
+
+13
+00:01:02,340 --> 00:01:04,220
+In the app, in this case,
+
+14
+00:01:04,220 --> 00:01:07,860
+we need to associate the Mary A account from
+
+15
+00:01:07,860 --> 00:01:12,195
+Epic to the Mary A account that My FHIR knows about.
+
+16
+00:01:12,195 --> 00:01:15,180
+This only happens if not all of
+
+17
+00:01:15,180 --> 00:01:19,747
+the identifying fields can be lined up between the patients,
+
+18
+00:01:19,747 --> 00:01:25,620
+that as My FHIR sees it and as the provider sees it.
+
+19
+00:01:25,620 --> 00:01:30,620
+So now, you can see we have a connection to Epic sandbox as a data provider.
+
+20
+00:01:30,620 --> 00:01:33,810
+And right now, the the app is going out and downloading
+
+21
+00:01:33,810 --> 00:01:38,400
+Mary's information from Epic and loading it into the system.
+
+22
+00:01:38,400 --> 00:01:40,710
+And as you can see, when we refresh this,
+
+23
+00:01:40,710 --> 00:01:43,980
+the date has been downloaded a few seconds ago.
+
+24
+00:01:43,980 --> 00:01:46,500
+If we go back to Mary's profile,
+
+25
+00:01:46,500 --> 00:01:49,560
+we can see she now has medications.
+
+26
+00:01:49,560 --> 00:01:52,480
+If we click into the medication list,
+
+27
+00:01:52,480 --> 00:01:56,325
+we can see everything that my FHIR is aware of and in this case,
+
+28
+00:01:56,325 --> 00:02:00,500
+all of it came from that Epic connection.
+
+29
+00:02:00,500 --> 00:02:04,390
+Going back to the setting screen,
+
+30
+00:02:04,390 --> 00:02:06,955
+we're going to connect to another data source.
+
+31
+00:02:06,955 --> 00:02:13,960
+In this case, it'll be CareEvolution's provider data source.
+
+32
+00:02:25,830 --> 00:02:30,650
+CareEvolution provides a screen that allows the user to
+
+33
+00:02:30,650 --> 00:02:33,980
+select the patient from all the patients that they have access to.
+
+34
+00:02:33,980 --> 00:02:39,860
+If CareEvolution's provider allowed Mary to see her children,
+
+35
+00:02:39,860 --> 00:02:41,949
+or her parents, or her spouse,
+
+36
+00:02:41,949 --> 00:02:45,510
+they would also be listed in this list right here.
+
+37
+00:02:45,510 --> 00:02:48,305
+And depending on who she's trying to log in as,
+
+38
+00:02:48,305 --> 00:02:50,420
+and whose data she's trying to download,
+
+39
+00:02:50,420 --> 00:02:53,150
+she would select them from the list.
+
+40
+00:02:53,150 --> 00:02:59,315
+In this case, she'll just select herself and you'll see that the CareEvolution FHIR and
+
+41
+00:02:59,315 --> 00:03:07,845
+provider is added to the list of data sources and we fetched data.
+
+42
+00:03:07,845 --> 00:03:09,940
+Now when we look at the medications,
+
+43
+00:03:09,940 --> 00:03:13,335
+we see a combined list from both data sources.
+
+44
+00:03:13,335 --> 00:03:15,995
+In this case, it's quite a bit longer.
+
+45
+00:03:15,995 --> 00:03:17,530
+You can also see,
+
+46
+00:03:17,530 --> 00:03:21,190
+that we've called out that not all of your providers know about all of
+
+47
+00:03:21,190 --> 00:03:26,100
+your medications and we can drill into that to see exactly what it means.
+
+48
+00:03:26,100 --> 00:03:27,775
+On the summary screen,
+
+49
+00:03:27,775 --> 00:03:31,510
+you'll see that all the providers know about
+
+50
+00:03:31,510 --> 00:03:36,900
+these four medications and only some providers know about these four medications.
+
+51
+00:03:36,900 --> 00:03:39,643
+But since only two of them are currently active,
+
+52
+00:03:39,643 --> 00:03:41,980
+we're only going to focus on those.
+
+53
+00:03:41,980 --> 00:03:48,635
+So you can see CareEvolution is unaware of this one and Epic is unaware of this one.
+
+54
+00:03:48,635 --> 00:03:52,230
+If you wanted to, you could drill down and
+
+55
+00:03:52,230 --> 00:03:55,020
+take the perspective of one of these two providers.
+
+56
+00:03:55,020 --> 00:04:00,400
+In this case, let's say we have an appointment at the Epic provider.
+
+57
+00:04:00,400 --> 00:04:05,040
+Now, when talking to the doctor or nurse during your appointment,
+
+58
+00:04:05,040 --> 00:04:07,650
+you can say that you're not aware that I am
+
+59
+00:04:07,650 --> 00:04:11,440
+taking Prednisone and that's coming from CareEvolution.
+
+60
+00:04:11,440 --> 00:04:21,800
+So they can add that to the list and be aware of everything that you're actually taking.
+
+61
+00:04:21,800 --> 00:04:24,965
+Now, let's add one more data source.
+
+62
+00:04:24,965 --> 00:04:30,550
+In this case, we're going to connect to the Cedar-Sinai test box.
+
+63
+00:04:30,550 --> 00:04:35,655
+Cedar-Sinai is actually running a higher end point in production
+
+64
+00:04:35,655 --> 00:04:39,745
+and patients that go to Cedars-Sinai as one of their providers,
+
+65
+00:04:39,745 --> 00:04:46,820
+will have a log in to production and be able to pull their data into the My FHIR app.
+
+66
+00:04:59,650 --> 00:05:03,360
+Since Cedar-Sinai uses Epic,
+
+67
+00:05:03,360 --> 00:05:04,740
+the screen should look familiar.
+
+68
+00:05:04,740 --> 00:05:09,650
+It looks exactly like the Epic sandbox.
+
+69
+00:05:11,130 --> 00:05:14,960
+And after everything has been established,
+
+70
+00:05:14,960 --> 00:05:18,710
+you'll see Cedar-Sinai has been added to the list and is currently
+
+71
+00:05:18,710 --> 00:05:23,131
+waiting for its first update.
+
+72
+00:05:23,131 --> 00:05:27,393
+And now we fetched data.
+
+73
+00:05:27,393 --> 00:05:29,950
+So again, if we go back to the profile,
+
+74
+00:05:29,950 --> 00:05:31,750
+we'll see there's a couple of extra things in
+
+75
+00:05:31,750 --> 00:05:34,525
+here that we were able to pull from Cedar-Sinai,
+
+76
+00:05:34,525 --> 00:05:40,190
+including immunizations and allergies.
+
+77
+00:05:40,920 --> 00:05:48,175
+We can also see that the medication list has grown in this case, by quite a bit.
+
+78
+00:05:48,175 --> 00:05:54,655
+If we wanted to, we could provide a little extra detail here by changing the view.
+
+79
+00:05:54,655 --> 00:05:58,684
+And now, we can see who the prescriber is,
+
+80
+00:05:58,684 --> 00:06:03,580
+what the medication class is and where each of these pieces of data came from.
+
+81
+00:06:03,580 --> 00:06:09,145
+So you can see there's quite a bit of varying data from Cedar-Sinai.
+
+82
+00:06:09,145 --> 00:06:16,120
+In this case, we can see that Lisinopril is known by all three providers but
+
+83
+00:06:16,120 --> 00:06:28,090
+only Cedar-Sinai knows about this one.
+
+84
+00:06:28,090 --> 00:06:32,375
+We also have a feature where if we know about all medications Mary is taking,
+
+85
+00:06:32,375 --> 00:06:36,975
+we can notify the user about things like drug-drug interactions.
+
+86
+00:06:36,975 --> 00:06:38,525
+So in this particular case,
+
+87
+00:06:38,525 --> 00:06:44,210
+we can see that there is an interaction between an SSRI and an NSAID.
+
+88
+00:06:44,210 --> 00:06:47,675
+And because we know that that's an important interaction and that
+
+89
+00:06:47,675 --> 00:06:51,467
+Mary should be aware that it could cause intestinal bleeding,
+
+90
+00:06:51,467 --> 00:06:57,880
+she should probably talk to her doctors and do something about it.
+
+91
+00:06:59,290 --> 00:07:04,920
+We can also allow Mary to edit this medication list.
+
+92
+00:07:04,920 --> 00:07:06,465
+And say for instance,
+
+93
+00:07:06,465 --> 00:07:10,155
+she's not actually taking this Potassium Chloride.
+
+94
+00:07:10,155 --> 00:07:12,750
+When she updates the list,
+
+95
+00:07:12,750 --> 00:07:17,395
+Potassium chloride will be added to the bottom in her inactive.
+
+96
+00:07:17,395 --> 00:07:22,845
+She can also choose to add medications that none of her providers know about.
+
+97
+00:07:22,845 --> 00:07:32,885
+For instance, she can say that she takes Melatonin to help her sleep.
+
+98
+00:07:32,885 --> 00:07:37,120
+And now, Melatonin has been added to the list.

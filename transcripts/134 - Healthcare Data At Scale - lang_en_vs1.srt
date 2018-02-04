@@ -1,0 +1,59 @@
+1
+00:00:00,250 --> 00:00:06,520
+This lesson does not provide details on how to do analytics.
+
+2
+00:00:06,520 --> 00:00:08,100
+Rather we will explore
+
+3
+00:00:08,100 --> 00:00:14,130
+the specialized infrastructures and tools that support research on,
+
+4
+00:00:14,130 --> 00:00:18,355
+an exploration of, health data at scale.
+
+5
+00:00:18,355 --> 00:00:21,075
+Generally this involves aggregating
+
+6
+00:00:21,075 --> 00:00:25,140
+at least the clinical part of that data from a large number of
+
+7
+00:00:25,140 --> 00:00:28,560
+digital health records.This introduces
+
+8
+00:00:28,560 --> 00:00:32,590
+the interoperability issues we've been discussing throughout the course.
+
+9
+00:00:32,590 --> 00:00:39,160
+Advanced analysis of these big health data sets offers the promise of more precise,
+
+10
+00:00:39,160 --> 00:00:42,260
+personalized care and the use of
+
+11
+00:00:42,260 --> 00:00:46,880
+predictive tools to anticipate and treat clinical problems much
+
+12
+00:00:46,880 --> 00:00:51,100
+earlier than was possible in the past.This
+
+13
+00:00:51,100 --> 00:00:56,420
+analysis must overcome many typical problems and limitations of the HR data.
+
+14
+00:00:56,420 --> 00:01:02,650
+Despite the challenges we are clearly heading into a new era of medicine and health care.
+
+15
+00:01:02,650 --> 00:01:08,000
+This lesson provides you with at least a feel for what that might be like.

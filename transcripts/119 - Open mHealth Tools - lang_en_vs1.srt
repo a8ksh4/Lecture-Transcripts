@@ -1,0 +1,103 @@
+1
+00:00:00,000 --> 00:00:03,960
+Earlier, I mentioned that in addition to its schemas,
+
+2
+00:00:03,960 --> 00:00:06,960
+OpenAM Health provides useful tools.
+
+3
+00:00:06,960 --> 00:00:10,855
+One of these might be of particular interest to students of this course.
+
+4
+00:00:10,855 --> 00:00:15,750
+It allows users to specify a dataset they want generated using YAML,
+
+5
+00:00:15,750 --> 00:00:18,780
+a data serialization language designed to be
+
+6
+00:00:18,780 --> 00:00:22,380
+both human-readable and computationally powerful.
+
+7
+00:00:22,380 --> 00:00:25,925
+This example asks for body weights over
+
+8
+00:00:25,925 --> 00:00:30,780
+a particular date range and with specified starting and end values,
+
+9
+00:00:30,780 --> 00:00:34,470
+standard deviation, and minimum and maximum values.
+
+10
+00:00:34,470 --> 00:00:37,290
+OpenAM Health also provides a library of
+
+11
+00:00:37,290 --> 00:00:41,740
+visualization tools to use once the data is generated.
+
+12
+00:00:41,740 --> 00:00:45,270
+This example, plots both minutes of physical activity
+
+13
+00:00:45,270 --> 00:00:49,380
+and step counts and is scrollable to vary the time period covered.
+
+14
+00:00:49,380 --> 00:00:52,890
+Earlier, I mentioned Human API and Validic,
+
+15
+00:00:52,890 --> 00:00:54,630
+two companies that offer
+
+16
+00:00:54,630 --> 00:01:00,355
+their own proprietary platforms for integrating AM health data from multiple sources.
+
+17
+00:01:00,355 --> 00:01:03,230
+OpenAM Health has developed Shimmer,
+
+18
+00:01:03,230 --> 00:01:08,140
+an open source tool to pull health data from popular third-party APIs,
+
+19
+00:01:08,140 --> 00:01:10,185
+like Runkeeper and Fitbit,
+
+20
+00:01:10,185 --> 00:01:13,580
+and convert it into an OpenAM Health-compliant format.
+
+21
+00:01:13,580 --> 00:01:18,150
+The tool is of obvious benefit to app developers since,
+
+22
+00:01:18,150 --> 00:01:20,495
+somewhat similarly to FHIR,
+
+23
+00:01:20,495 --> 00:01:25,080
+it allows them to develop independently of the underlying data source.
+
+24
+00:01:25,080 --> 00:01:29,820
+Currently, the number of data sources is small compared to the commercial platforms,
+
+25
+00:01:29,820 --> 00:01:33,875
+but OpenAM Health says it is working to add more.
+
+26
+00:01:33,875 --> 00:01:40,510
+It also offers Pulse to map HL7 messages from EHRs into OpenAM Health's schema.

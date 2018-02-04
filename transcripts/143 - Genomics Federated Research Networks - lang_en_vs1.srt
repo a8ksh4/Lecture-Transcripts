@@ -1,0 +1,163 @@
+1
+00:00:00,000 --> 00:00:02,050
+There is of course,
+
+2
+00:00:02,050 --> 00:00:07,180
+great interest in and potential for genomics research.
+
+3
+00:00:07,180 --> 00:00:14,100
+Earlier, we mentioned personalized or precision medicine as a major goal for health care.
+
+4
+00:00:14,100 --> 00:00:17,815
+While social, environmental and other factors
+
+5
+00:00:17,815 --> 00:00:21,610
+clearly affect the development and course of disease,
+
+6
+00:00:21,610 --> 00:00:25,120
+genomic variations are a major determinant
+
+7
+00:00:25,120 --> 00:00:29,435
+of each person's health and response to treatments.
+
+8
+00:00:29,435 --> 00:00:32,810
+There are at least two major challenges that informatics,
+
+9
+00:00:32,810 --> 00:00:37,305
+supplied to large genomic data sets can help solve.
+
+10
+00:00:37,305 --> 00:00:41,035
+Many genomic variations are rare,
+
+11
+00:00:41,035 --> 00:00:45,170
+so aggregating data from multiple centers is important.
+
+12
+00:00:45,170 --> 00:00:50,400
+It's often necessary to correlate these variations with clinical data,
+
+13
+00:00:50,400 --> 00:00:53,270
+to understand their ramifications.
+
+14
+00:00:53,270 --> 00:00:56,320
+It's worth repeating that last point.
+
+15
+00:00:56,320 --> 00:01:02,365
+We do not yet understand the ramifications of most genomic variations.
+
+16
+00:01:02,365 --> 00:01:07,490
+By linking clinical data where the phenotypic expression
+
+17
+00:01:07,490 --> 00:01:12,660
+of genomic variations is stored with the genomic data,
+
+18
+00:01:12,660 --> 00:01:16,500
+the hope is that we can understand these relationships.
+
+19
+00:01:16,500 --> 00:01:22,025
+Genomic research networks may overcome these challenges.
+
+20
+00:01:22,025 --> 00:01:25,770
+For example, three major pediatric health systems
+
+21
+00:01:25,770 --> 00:01:31,105
+recently formed the Genomics Research and Innovation Network, GRIN.
+
+22
+00:01:31,105 --> 00:01:37,960
+Because each alone may have only a handful of patients with a particular rare disease,
+
+23
+00:01:37,960 --> 00:01:43,560
+to help better understand the clinical ramifications of gene variations,
+
+24
+00:01:43,560 --> 00:01:51,253
+GRIN seeks to create a broad database of annotated genomic and clinical data.
+
+25
+00:01:51,253 --> 00:01:55,270
+It will add RNA proteomics and
+
+26
+00:01:55,270 --> 00:02:01,709
+metabolomic data to an existing shared library of genomic sequencing data.
+
+27
+00:02:01,709 --> 00:02:04,300
+The network also wants to connect
+
+28
+00:02:04,300 --> 00:02:10,160
+the genomic data with imaging results and electronic health records.
+
+29
+00:02:10,160 --> 00:02:13,705
+The initial focus is on early childhood obesity,
+
+30
+00:02:13,705 --> 00:02:18,565
+growth disorders, short stature, and epilepsy.
+
+31
+00:02:18,565 --> 00:02:24,270
+The epilepsy project explores epileptic encephalopathy,
+
+32
+00:02:24,270 --> 00:02:29,690
+a process where epileptic activity impairs overall brain function,
+
+33
+00:02:29,690 --> 00:02:35,260
+including cognitive function, language and behavior.
+
+34
+00:02:35,260 --> 00:02:36,700
+As you can see here,
+
+35
+00:02:36,700 --> 00:02:41,609
+in data from online mundanely inheritance in man holmium,
+
+36
+00:02:41,609 --> 00:02:46,165
+a number of genes may have an association with this condition.
+
+37
+00:02:46,165 --> 00:02:49,840
+Once exome sequencing is completed,
+
+38
+00:02:49,840 --> 00:02:54,485
+the data is to be stored in a joint shared cloud environment,
+
+39
+00:02:54,485 --> 00:02:57,760
+combined with extracted phenotypic data from
+
+40
+00:02:57,760 --> 00:03:01,450
+the electronic medical records of the three centers,
+
+41
+00:03:01,450 --> 00:03:06,020
+in an effort to better elucidate and understand these relationships.

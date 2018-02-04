@@ -1,0 +1,399 @@
+1
+00:00:05,190 --> 00:00:07,270
+My name is Rahul Basole.
+
+2
+00:00:07,270 --> 00:00:11,000
+I'm a professor in the School of Interactive Computing at Georgia Tech.
+
+3
+00:00:11,000 --> 00:00:14,320
+I also lead the Initiative on Enterprise Transformation at Georgia Tech,
+
+4
+00:00:14,320 --> 00:00:17,540
+where we study large complex enterprise systems.
+
+5
+00:00:17,540 --> 00:00:21,850
+My particular research area is on visual analytics and visualization and I've applied it
+
+6
+00:00:21,850 --> 00:00:27,910
+to many problems in healthcare.
+
+7
+00:00:27,910 --> 00:00:30,280
+Sure.
+
+8
+00:00:30,280 --> 00:00:33,250
+So it turns out that process mining is actually
+
+9
+00:00:33,250 --> 00:00:36,670
+a relatively old field in many other domains and health care.
+
+10
+00:00:36,670 --> 00:00:39,300
+Manufacturing certainly is one of those domains,
+
+11
+00:00:39,300 --> 00:00:42,385
+where you've had very detailed process charts on how
+
+12
+00:00:42,385 --> 00:00:47,110
+widgets and products actually move across the manufacturing belt.
+
+13
+00:00:47,110 --> 00:00:50,785
+In healthcare actually, we have a complete different process situation.
+
+14
+00:00:50,785 --> 00:00:52,680
+It's much more complex.
+
+15
+00:00:52,680 --> 00:00:54,655
+In fact, when you go into an healthcare enterprise,
+
+16
+00:00:54,655 --> 00:00:58,990
+it's very unlikely that you see very detailed process maps.
+
+17
+00:00:58,990 --> 00:01:01,360
+The Children's Healthcare of Atlanta Project actually is
+
+18
+00:01:01,360 --> 00:01:04,540
+a result of some of the other efforts that we've had before,
+
+19
+00:01:04,540 --> 00:01:06,925
+where we realized that scaling,
+
+20
+00:01:06,925 --> 00:01:10,730
+process mining and analysis jobs is really difficult.
+
+21
+00:01:10,730 --> 00:01:17,005
+In the old days, you would walk around with a clipboard and observe how people did work.
+
+22
+00:01:17,005 --> 00:01:20,140
+And incredibly time consuming, resource intensive.
+
+23
+00:01:20,140 --> 00:01:22,390
+In some cases it might take three to six months to
+
+24
+00:01:22,390 --> 00:01:25,390
+actually get things really accurately done.
+
+25
+00:01:25,390 --> 00:01:27,250
+With Children's Healthcare of Atlanta,
+
+26
+00:01:27,250 --> 00:01:32,965
+our goal was to reverse engineer data that already existed in electronic health records,
+
+27
+00:01:32,965 --> 00:01:34,600
+maybe in claims data,
+
+28
+00:01:34,600 --> 00:01:38,680
+to understand how processes actually happen, how they get done.
+
+29
+00:01:38,680 --> 00:01:46,200
+Perhaps understand how these processes fit together and understand variations in care.
+
+30
+00:01:47,530 --> 00:01:51,415
+Absolutely. So as I mentioned,
+
+31
+00:01:51,415 --> 00:01:54,085
+my research area is visual analytics and visualization.
+
+32
+00:01:54,085 --> 00:01:57,990
+So, really exposing the processes is really critical.
+
+33
+00:01:57,990 --> 00:02:01,410
+And so, what you're seeing here is a screenshot of a tool that
+
+34
+00:02:01,410 --> 00:02:05,235
+we've developed that visualizes these complex care processes.
+
+35
+00:02:05,235 --> 00:02:06,600
+On the left hand side,
+
+36
+00:02:06,600 --> 00:02:08,685
+you'll see a panel where you can filter
+
+37
+00:02:08,685 --> 00:02:11,415
+through various aspects of the patient population.
+
+38
+00:02:11,415 --> 00:02:14,830
+So you can focus down on elements of interest.
+
+39
+00:02:14,830 --> 00:02:21,050
+And you're seeing a graph and network modeling approach to understand how care happens.
+
+40
+00:02:21,050 --> 00:02:23,925
+The nodes represent activities and events.
+
+41
+00:02:23,925 --> 00:02:26,737
+And, the edges represent whether they co-occurred,
+
+42
+00:02:26,737 --> 00:02:29,715
+and when they actually happen after each other.
+
+43
+00:02:29,715 --> 00:02:31,680
+It's been a fascinating process,
+
+44
+00:02:31,680 --> 00:02:38,655
+because we actually discovered variations in care by population characteristics,
+
+45
+00:02:38,655 --> 00:02:40,600
+as well as by physician characteristics.
+
+46
+00:02:40,600 --> 00:02:43,725
+And the goal was really to discover processes,
+
+47
+00:02:43,725 --> 00:02:48,800
+identify variations and hopefully also enhance these processes.
+
+48
+00:02:48,800 --> 00:02:53,100
+One byproduct of this was also to understand conformance to the processes.
+
+49
+00:02:53,100 --> 00:02:56,355
+Many physicians have guidelines on how care should be done.
+
+50
+00:02:56,355 --> 00:03:03,886
+And our visualizations really revealed what happened and what didn't happen.
+
+51
+00:03:03,886 --> 00:03:05,800
+Yes.
+
+52
+00:03:05,800 --> 00:03:07,925
+So process mining,
+
+53
+00:03:07,925 --> 00:03:10,095
+you want to look at a population.
+
+54
+00:03:10,095 --> 00:03:12,290
+But sometimes that population is just too large and
+
+55
+00:03:12,290 --> 00:03:15,250
+there's just too much variation that happens within that.
+
+56
+00:03:15,250 --> 00:03:18,210
+So you want to hone down, filter down the ideas.
+
+57
+00:03:18,210 --> 00:03:24,200
+And so, given the advent of fhir and the ability to have access to digital data now,
+
+58
+00:03:24,200 --> 00:03:28,505
+we wanted to figure out how we could build a population health analysis tool.
+
+59
+00:03:28,505 --> 00:03:31,520
+Based on the ideas of visualization and analytics,
+
+60
+00:03:31,520 --> 00:03:35,435
+that could dynamically explore different patient characteristics,
+
+61
+00:03:35,435 --> 00:03:38,090
+by different population characteristics.
+
+62
+00:03:38,090 --> 00:03:41,375
+So ultimately, we built a tool called fhirplug,
+
+63
+00:03:41,375 --> 00:03:44,380
+which leverages the fire standard.
+
+64
+00:03:44,380 --> 00:03:45,610
+And, as you recall,
+
+65
+00:03:45,610 --> 00:03:50,510
+fhir really was not designed to look at all an entire population.
+
+66
+00:03:50,510 --> 00:03:53,665
+It was built really to look at one record at a time.
+
+67
+00:03:53,665 --> 00:03:56,215
+So fhirplug is a tool that aggregates
+
+68
+00:03:56,215 --> 00:04:03,360
+this information and allows you to really filter through multiple facets of that data.
+
+69
+00:04:04,790 --> 00:04:08,830
+So let's take a look at fhirplug here.
+
+70
+00:04:08,830 --> 00:04:11,680
+It's a web-based visualization tool.
+
+71
+00:04:11,680 --> 00:04:15,070
+What do you see on the left hand panel and ability to load your data set,
+
+72
+00:04:15,070 --> 00:04:16,825
+your fhir enabled data set.
+
+73
+00:04:16,825 --> 00:04:20,470
+And then, you can focus down on specific aspects that you want to look
+
+74
+00:04:20,470 --> 00:04:24,246
+for certain search criteria, a condition perhaps.
+
+75
+00:04:24,246 --> 00:04:25,990
+And once you've load that in,
+
+76
+00:04:25,990 --> 00:04:30,875
+you see five tabs at the top which actually reveals to you that it's an overview.
+
+77
+00:04:30,875 --> 00:04:32,740
+It's about process characteristics,
+
+78
+00:04:32,740 --> 00:04:36,530
+about patient demographics, as well as develops clinical elements.
+
+79
+00:04:36,530 --> 00:04:39,540
+And each of these tabs is fully coordinated.
+
+80
+00:04:39,540 --> 00:04:41,260
+That's very powerful in visualization,
+
+81
+00:04:41,260 --> 00:04:45,760
+when you coordinate multiple views to get a triangulated perspective on the data.
+
+82
+00:04:45,760 --> 00:04:48,245
+We're using across filtering mechanisms.
+
+83
+00:04:48,245 --> 00:04:50,627
+So, as you are filtering through one of the charts,
+
+84
+00:04:50,627 --> 00:04:52,284
+you can actually see what,
+
+85
+00:04:52,284 --> 00:04:53,965
+how it response in the other ones.
+
+86
+00:04:53,965 --> 00:04:57,325
+We've enabled multiple visualization charts within this,
+
+87
+00:04:57,325 --> 00:05:00,075
+including scatter plot and heat maps.
+
+88
+00:05:00,075 --> 00:05:03,640
+And this really allows the decision maker
+
+89
+00:05:03,640 --> 00:05:09,270
+or the clinician or also quality managers to look at their patient population.
+
+90
+00:05:11,320 --> 00:05:16,455
+Well, there is a lot of enhancements that we can obviously do to fhirplug.
+
+91
+00:05:16,455 --> 00:05:20,610
+Fhirplug right now, we tested it out on some synthetic large,
+
+92
+00:05:20,610 --> 00:05:23,630
+synthetic data sets, as well as in practice as well.
+
+93
+00:05:23,630 --> 00:05:25,314
+But we realize there's a lot of nuances,
+
+94
+00:05:25,314 --> 00:05:27,145
+because healthcare data is very messy.
+
+95
+00:05:27,145 --> 00:05:29,520
+As you scale up, there might be some issues that we
+
+96
+00:05:29,520 --> 00:05:32,285
+might discover that fhirplug cannot handle.
+
+97
+00:05:32,285 --> 00:05:35,160
+Scalability is certainly always an issue in software development.
+
+98
+00:05:35,160 --> 00:05:36,665
+And so the next steps will be,
+
+99
+00:05:36,665 --> 00:05:39,330
+to test it out with multiple healthcare sites,
+
+100
+00:05:39,330 --> 00:05:43,670
+test out scalability and see where that goes. Thank you.

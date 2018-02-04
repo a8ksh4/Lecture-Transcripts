@@ -1,0 +1,127 @@
+1
+00:00:00,000 --> 00:00:03,090
+Most of us can think back to a key role a
+
+2
+00:00:03,090 --> 00:00:07,305
+teacher played in shaping our world view or career.
+
+3
+00:00:07,305 --> 00:00:11,025
+In my case, one such person was Dr. Hiram Curry,
+
+4
+00:00:11,025 --> 00:00:15,570
+a general practitioner who retrained in Neurology and then founded
+
+5
+00:00:15,570 --> 00:00:18,806
+the first academic family medicine department
+
+6
+00:00:18,806 --> 00:00:23,745
+where I worked in one of the first ambulatory E.H.R. systems.
+
+7
+00:00:23,745 --> 00:00:28,675
+He taught me many things but one in particular is relevant to this topic.
+
+8
+00:00:28,675 --> 00:00:33,760
+He used to caution his residents that they would see patients for a few minutes
+
+9
+00:00:33,760 --> 00:00:36,970
+every so often and think that what they did
+
+10
+00:00:36,970 --> 00:00:40,275
+in those brief encounters would make all the difference.
+
+11
+00:00:40,275 --> 00:00:43,340
+He was fond of saying that what the patients did
+
+12
+00:00:43,340 --> 00:00:47,640
+between those encounters would actually make that difference.
+
+13
+00:00:47,640 --> 00:00:51,945
+You know that chronic disease accounts for most health care costs.
+
+14
+00:00:51,945 --> 00:00:56,870
+You also know that a root cause is often behavioral with poor diet and
+
+15
+00:00:56,870 --> 00:01:02,335
+lack of sufficient physical activity being key health determinants.
+
+16
+00:01:02,335 --> 00:01:05,945
+You also know that once patients get chronic disease,
+
+17
+00:01:05,945 --> 00:01:11,460
+their compliance with the prescribed treatments is a key driver of the outcome.
+
+18
+00:01:11,460 --> 00:01:15,590
+In the past, patients were often asked to maintain logs of diet,
+
+19
+00:01:15,590 --> 00:01:18,510
+activities or treatment compliance.
+
+20
+00:01:18,510 --> 00:01:24,380
+Today of course, inhealth technologies such as smartphone apps and the plethora of
+
+21
+00:01:24,380 --> 00:01:27,995
+wearable devices provide an entirely new approach
+
+22
+00:01:27,995 --> 00:01:31,830
+to the maintenance of health and the management of disease.
+
+23
+00:01:31,830 --> 00:01:33,830
+This domain of Health Informatics,
+
+24
+00:01:33,830 --> 00:01:35,915
+now often called mHealth,
+
+25
+00:01:35,915 --> 00:01:38,550
+seeks to use data from mobile apps,
+
+26
+00:01:38,550 --> 00:01:44,510
+standalone or wearable devices and other sensors to understand health and health stays
+
+27
+00:01:44,510 --> 00:01:49,220
+to inform health care actions and to change our behavior
+
+28
+00:01:49,220 --> 00:01:51,650
+in order to prevent disease onset.
+
+29
+00:01:51,650 --> 00:01:56,540
+It also uses the data to promote behavior change once disease develops such as
+
+30
+00:01:56,540 --> 00:01:59,600
+medication inherence and increasingly to
+
+31
+00:01:59,600 --> 00:02:03,575
+provide clinical treatment such as virtual physician visits,
+
+32
+00:02:03,575 --> 00:02:07,000
+disease management or cognitive behavioral therapy.

@@ -1,0 +1,135 @@
+1
+00:00:00,000 --> 00:00:04,680
+The Office of the National Coordinator for health information technology,
+
+2
+00:00:04,680 --> 00:00:10,095
+or ONC, administers the HIT certification program.
+
+3
+00:00:10,095 --> 00:00:14,745
+It is voluntary, and includes capabilities such as recording,
+
+4
+00:00:14,745 --> 00:00:19,185
+security, and interoperable sharing of health information.
+
+5
+00:00:19,185 --> 00:00:24,585
+As shown here, the program defines the technical requirements for health IT,
+
+6
+00:00:24,585 --> 00:00:29,900
+and the process by which commercial systems may become and remain certified.
+
+7
+00:00:29,900 --> 00:00:33,970
+Commercial authorized testing labs do the testing
+
+8
+00:00:33,970 --> 00:00:38,620
+using ONC provided criteria and test data sets.
+
+9
+00:00:38,620 --> 00:00:45,445
+Since hospitals and providers must acquire a certified EHR to receive incentive payments,
+
+10
+00:00:45,445 --> 00:00:50,085
+it's virtually a business necessity for EHR vendors to be certified.
+
+11
+00:00:50,085 --> 00:00:56,010
+ONC reports on its progress on it's HIT dashboard site.
+
+12
+00:00:56,010 --> 00:01:01,980
+This graphic from that site shows that as of July 2016,
+
+13
+00:01:01,980 --> 00:01:06,420
+632 vendors supplied certified health I.T.
+
+14
+00:01:06,420 --> 00:01:12,390
+to 337432 ambulatory primary care and specialist
+
+15
+00:01:12,390 --> 00:01:18,835
+physicians and other providers participating in the Medicare EHR incentive program.
+
+16
+00:01:18,835 --> 00:01:25,045
+While EPIK systems supply certified technology to 30 percent of all those providers,
+
+17
+00:01:25,045 --> 00:01:28,005
+there are 632 vendors in total,
+
+18
+00:01:28,005 --> 00:01:32,720
+something that clearly exacerbates the interoperability challenge.
+
+19
+00:01:32,720 --> 00:01:39,940
+Here you see that as of July 2016 175 certified vendors supplied systems
+
+20
+00:01:39,940 --> 00:01:44,455
+to 4474 nonfederal acute care hospitals
+
+21
+00:01:44,455 --> 00:01:47,865
+participating in the Medicare EHR incentive program.
+
+22
+00:01:47,865 --> 00:01:50,865
+This market is far more concentrated,
+
+23
+00:01:50,865 --> 00:01:55,340
+as only ten vendors supplied about 98 percent of hospitals.
+
+24
+00:01:55,340 --> 00:01:59,555
+But interoperability is still an issue among hospitals.
+
+25
+00:01:59,555 --> 00:02:02,170
+The reasons are not limited to technology:
+
+26
+00:02:02,170 --> 00:02:06,040
+too many hospitals and health systems seek to control access to
+
+27
+00:02:06,040 --> 00:02:09,820
+their digital records to make it convenient and hence more
+
+28
+00:02:09,820 --> 00:02:14,485
+likely that patients will obtain all their care from one source.
+
+29
+00:02:14,485 --> 00:02:18,820
+Importantly the top three vendors listed here have all announced support for
+
+30
+00:02:18,820 --> 00:02:24,850
+fire and smart on fire as an EHR connected platform for fire apps,
+
+31
+00:02:24,850 --> 00:02:27,875
+including those written by third parties.
+
+32
+00:02:27,875 --> 00:02:34,295
+This liberation of EHR data for innovative purposes may not be classic interoperability,
+
+33
+00:02:34,295 --> 00:02:36,890
+but it could lead to progress in solving some of
+
+34
+00:02:36,890 --> 00:02:41,000
+the EHR challenges we'll discuss later on in this lesson.

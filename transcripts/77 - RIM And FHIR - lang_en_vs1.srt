@@ -1,0 +1,115 @@
+1
+00:00:00,000 --> 00:00:02,990
+You might be wondering where I found the value sets for
+
+2
+00:00:02,990 --> 00:00:06,260
+RIM codes over on the FHIR website.
+
+3
+00:00:06,260 --> 00:00:10,360
+Earlier, I said that FHIR builds on existing standards.
+
+4
+00:00:10,360 --> 00:00:14,275
+And that is true for RIM as well but with exceptions.
+
+5
+00:00:14,275 --> 00:00:18,410
+Scope. It should be clear by now that the goal
+
+6
+00:00:18,410 --> 00:00:22,650
+of RIM is comprehensive representation of the health care domain.
+
+7
+00:00:22,650 --> 00:00:26,150
+FHIR resources represent only those data elements
+
+8
+00:00:26,150 --> 00:00:29,625
+that are expected to be used by most implementations.
+
+9
+00:00:29,625 --> 00:00:32,115
+FHIR uses an 80% rule.
+
+10
+00:00:32,115 --> 00:00:37,865
+If approximately 80% of systems using resource will support a particular data element,
+
+11
+00:00:37,865 --> 00:00:40,550
+then it is part of the core standard.
+
+12
+00:00:40,550 --> 00:00:46,765
+A specific subdomain can add other elements as needed using FHIR extensions.
+
+13
+00:00:46,765 --> 00:00:50,330
+FHIR profiles both constrain resources for
+
+14
+00:00:50,330 --> 00:00:55,515
+use case and define extensions appropriate to specific subdomains.
+
+15
+00:00:55,515 --> 00:00:57,380
+Source of data elements.
+
+16
+00:00:57,380 --> 00:01:03,590
+All data elements in HL7 v3 instances come from either the RIM or
+
+17
+00:01:03,590 --> 00:01:10,165
+data types developed by the International Organization for Standardization or ISO, I-S-O.
+
+18
+00:01:10,165 --> 00:01:16,720
+In FHIR, this is true of most but not all resources and data type elements.
+
+19
+00:01:16,720 --> 00:01:21,625
+Some FHIR resources deal with content that is outside of the RIM scope.
+
+20
+00:01:21,625 --> 00:01:23,575
+And in a few instances,
+
+21
+00:01:23,575 --> 00:01:28,160
+FHIR adjust data types to accommodate issues not yet supported in RIM.
+
+22
+00:01:28,160 --> 00:01:31,045
+Nuance. As you've seen,
+
+23
+00:01:31,045 --> 00:01:36,425
+RIM attempts to convey the meaning of instances through attributes like the mood code.
+
+24
+00:01:36,425 --> 00:01:42,595
+FHIR codes are generally limited to attributes with a rather concrete business meaning.
+
+25
+00:01:42,595 --> 00:01:46,280
+Finally, in FHIR, a value set is just another type of
+
+26
+00:01:46,280 --> 00:01:51,390
+resource that can be sent as part of an instance just like any other piece of data.
+
+27
+00:01:51,390 --> 00:01:55,100
+As a result, although FHIR uses RIM data elements,
+
+28
+00:01:55,100 --> 00:02:00,565
+it's possible to implement FHIR with absolutely no knowledge of the HL7 RIM.
+
+29
+00:02:00,565 --> 00:02:03,000
+This greatly facilitates rapid development.

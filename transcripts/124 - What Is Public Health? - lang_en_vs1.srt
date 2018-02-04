@@ -1,0 +1,263 @@
+1
+00:00:00,000 --> 00:00:05,435
+In this lesson, we will shift our attention to public and population health.
+
+2
+00:00:05,435 --> 00:00:07,655
+Unlike the clinical setting,
+
+3
+00:00:07,655 --> 00:00:09,530
+where the focus is traditionally on
+
+4
+00:00:09,530 --> 00:00:13,589
+individual patients after they become sick or injured,
+
+5
+00:00:13,589 --> 00:00:19,895
+public and population health focus on groups of patients or the public at large.
+
+6
+00:00:19,895 --> 00:00:21,170
+These can be as small as
+
+7
+00:00:21,170 --> 00:00:26,650
+a local neighborhood or as big as an entire country or region of the world.
+
+8
+00:00:26,650 --> 00:00:29,350
+We will begin this lesson with the discussion of
+
+9
+00:00:29,350 --> 00:00:32,995
+public health and then discuss population health.
+
+10
+00:00:32,995 --> 00:00:34,720
+In a landmark report,
+
+11
+00:00:34,720 --> 00:00:38,110
+the Institute of Medicine define public health as,
+
+12
+00:00:38,110 --> 00:00:41,680
+"What we as a society do collectively to
+
+13
+00:00:41,680 --> 00:00:46,425
+assure the conditions in which people can be healthy."
+
+14
+00:00:46,425 --> 00:00:49,910
+Note the emphasis on collective action.
+
+15
+00:00:49,910 --> 00:00:54,870
+This is a recognition that complex social factors have a powerful influence on
+
+16
+00:00:54,870 --> 00:00:57,140
+our health and that we require
+
+17
+00:00:57,140 --> 00:00:59,220
+disparate data sources to understand
+
+18
+00:00:59,220 --> 00:01:03,175
+the impact of many determinants of health and disease.
+
+19
+00:01:03,175 --> 00:01:06,745
+Also keep in mind that the World Health Organization,
+
+20
+00:01:06,745 --> 00:01:12,000
+a globally recognized public health organization defines health as,
+
+21
+00:01:12,000 --> 00:01:14,520
+"The state of complete physical, mental,
+
+22
+00:01:14,520 --> 00:01:20,850
+and social well-being and not merely the absence of disease or infirmity."
+
+23
+00:01:20,850 --> 00:01:23,505
+From an informatics perspective,
+
+24
+00:01:23,505 --> 00:01:29,115
+many aspects of public health are similar to population health in that both aggregate,
+
+25
+00:01:29,115 --> 00:01:33,855
+analyze, and report on data as shown here.
+
+26
+00:01:33,855 --> 00:01:38,105
+Public health takes a broad view of the factors that influence health,
+
+27
+00:01:38,105 --> 00:01:40,210
+where you live and work,
+
+28
+00:01:40,210 --> 00:01:42,820
+the social norms of your culture,
+
+29
+00:01:42,820 --> 00:01:45,920
+the types of health care you have access to,
+
+30
+00:01:45,920 --> 00:01:49,970
+your exposure to diseases and stressors in your environment,
+
+31
+00:01:49,970 --> 00:01:54,550
+among other influences, to create this broad view.
+
+32
+00:01:54,550 --> 00:01:57,630
+Public health uses disparate data sources to
+
+33
+00:01:57,630 --> 00:02:01,615
+fulfill its core functions and essential services.
+
+34
+00:02:01,615 --> 00:02:05,530
+Traditional health care is oriented around treating disease.
+
+35
+00:02:05,530 --> 00:02:09,410
+Once that occurs, public health professionals try
+
+36
+00:02:09,410 --> 00:02:13,810
+to detect and prevent problems from happening or recurring.
+
+37
+00:02:13,810 --> 00:02:17,930
+The Centers for Disease Control and Prevention, CDC,
+
+38
+00:02:17,930 --> 00:02:23,105
+is the federal agency charged with protecting and improving public health,
+
+39
+00:02:23,105 --> 00:02:28,175
+but it generally does not collect surveillance information directly.
+
+40
+00:02:28,175 --> 00:02:31,550
+Rather, the US public health surveillance system relies on
+
+41
+00:02:31,550 --> 00:02:36,225
+established partnerships with more than 3,000 local agencies.
+
+42
+00:02:36,225 --> 00:02:39,790
+CDC works through these agencies to collect,
+
+43
+00:02:39,790 --> 00:02:42,460
+analyze and share data that address
+
+44
+00:02:42,460 --> 00:02:46,435
+the many factors and determinants of health and disease.
+
+45
+00:02:46,435 --> 00:02:51,105
+Since the key mission in public health is data aggregation and reporting,
+
+46
+00:02:51,105 --> 00:02:55,350
+inter-operability is obviously of great importance.
+
+47
+00:02:55,350 --> 00:02:57,710
+This is particularly true here in the US,
+
+48
+00:02:57,710 --> 00:03:01,730
+given the large number of reporting agencies in this country.
+
+49
+00:03:01,730 --> 00:03:04,510
+Globally, ministries of health are
+
+50
+00:03:04,510 --> 00:03:08,895
+the key agencies responsible for tracking cases of human illness.
+
+51
+00:03:08,895 --> 00:03:12,885
+Other important partners are community organizations,
+
+52
+00:03:12,885 --> 00:03:14,975
+the health care delivery systems,
+
+53
+00:03:14,975 --> 00:03:18,650
+schools, businesses, the transportation sector,
+
+54
+00:03:18,650 --> 00:03:21,700
+the media and other government agencies.
+
+55
+00:03:21,700 --> 00:03:24,170
+Data from public health surveillance
+
+56
+00:03:24,170 --> 00:03:27,620
+inform policies and direct decisions about resources for
+
+57
+00:03:27,620 --> 00:03:34,245
+services that promote healthy lifestyles and control the spread of infectious diseases.
+
+58
+00:03:34,245 --> 00:03:38,270
+Another major aspect of public health is promoting health care,
+
+59
+00:03:38,270 --> 00:03:42,100
+equity, quality, and accessibility.
+
+60
+00:03:42,100 --> 00:03:45,375
+Given the importance of inter-operability,
+
+61
+00:03:45,375 --> 00:03:52,645
+FIHR could potentially facilitate data aggregation and as we will see in what follows.
+
+62
+00:03:52,645 --> 00:03:59,115
+Public health experts increasingly see FIHR as an important health informatics tool.
+
+63
+00:03:59,115 --> 00:04:02,610
+CDC describes its mission as protecting America from
+
+64
+00:04:02,610 --> 00:04:07,010
+health safety and security threats wherever they originate.
+
+65
+00:04:07,010 --> 00:04:09,820
+We will now learn more about the CDC and
+
+66
+00:04:09,820 --> 00:04:14,000
+its mission and how informatics plays a key role in public health.

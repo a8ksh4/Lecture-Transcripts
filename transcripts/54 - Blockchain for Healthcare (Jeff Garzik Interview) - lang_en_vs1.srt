@@ -1,0 +1,839 @@
+1
+00:00:11,990 --> 00:00:16,250
+Sure, thanks. And I'm glad to be here.
+
+2
+00:00:16,250 --> 00:00:22,155
+I really got involved in open source Linux blockchain,
+
+3
+00:00:22,155 --> 00:00:24,181
+all of these technologies,
+
+4
+00:00:24,181 --> 00:00:27,055
+all of that, got my start at Georgia Tech.
+
+5
+00:00:27,055 --> 00:00:32,070
+I enjoyed just surfing what was then
+
+6
+00:00:32,070 --> 00:00:39,330
+the new internet back in the days of Mosaic 1.0 and before JavaScript,
+
+7
+00:00:39,330 --> 00:00:43,025
+before mobile apps, before animated web sites.
+
+8
+00:00:43,025 --> 00:00:48,147
+It was just basic HTML 1.0 and graphics that load really slowly.
+
+9
+00:00:48,147 --> 00:00:54,660
+And that was the atmosphere that I was raised in at Georgia Tech.
+
+10
+00:00:54,660 --> 00:00:57,526
+The dorms had just been wired for ethernet,
+
+11
+00:00:57,526 --> 00:00:59,460
+which was incredibly exciting.
+
+12
+00:00:59,460 --> 00:01:04,545
+We didn't have to do the slow dial up to connect to Hydra,
+
+13
+00:01:04,545 --> 00:01:10,245
+the multi CPU computer at the time the Acme Cluster replaced.
+
+14
+00:01:10,245 --> 00:01:12,870
+And it was an exciting time.
+
+15
+00:01:12,870 --> 00:01:17,550
+That was ethernet, that was the internet and that was open source.
+
+16
+00:01:17,550 --> 00:01:20,315
+You could, for the first time,
+
+17
+00:01:20,315 --> 00:01:24,050
+download software that was not proprietary,
+
+18
+00:01:24,050 --> 00:01:29,760
+that you could really open up the guts of and explore as much as you wanted.
+
+19
+00:01:29,760 --> 00:01:33,515
+And so after all my classes were done each day at Tech,
+
+20
+00:01:33,515 --> 00:01:36,700
+I would go to my dorm.
+
+21
+00:01:36,700 --> 00:01:41,645
+I was admittedly, did not see the sun often at times.
+
+22
+00:01:41,645 --> 00:01:46,490
+I spent a lot of time in front of the computer and I was downloading Linux.
+
+23
+00:01:46,490 --> 00:01:49,735
+I was downloading the GNOME Project.
+
+24
+00:01:49,735 --> 00:01:53,240
+All of these were the early precursors to what
+
+25
+00:01:53,240 --> 00:01:57,170
+you see today in Linux data centers and Android,
+
+26
+00:01:57,170 --> 00:01:59,936
+user interfaces et cetera.
+
+27
+00:01:59,936 --> 00:02:06,765
+So that self-exploration is what led me to open source.
+
+28
+00:02:06,765 --> 00:02:10,620
+I started with Linux 0.99
+
+29
+00:02:10,620 --> 00:02:16,795
+back when Linus Torvalds was still at the University of Helsinki.
+
+30
+00:02:16,795 --> 00:02:19,490
+Linus, a couple of years before,
+
+31
+00:02:19,490 --> 00:02:23,460
+in 92 which was my first year at Tech.
+
+32
+00:02:23,460 --> 00:02:28,565
+Linus had just posted the very first version of Linux and he said,
+
+33
+00:02:28,565 --> 00:02:31,515
+hey I've got my own version of Unix.
+
+34
+00:02:31,515 --> 00:02:33,310
+It's kind of like Minix.
+
+35
+00:02:33,310 --> 00:02:34,970
+Why don't you try it and download it?
+
+36
+00:02:34,970 --> 00:02:39,020
+And that kick started an open source revolution.
+
+37
+00:02:39,020 --> 00:02:46,225
+I came into that about a year or two after the initial Linux versions were downloaded.
+
+38
+00:02:46,225 --> 00:02:52,400
+It was amazing to not just receive a bunch of floppy disks,
+
+39
+00:02:52,400 --> 00:02:56,605
+which were at the time how you delivered software and load that into your computer,
+
+40
+00:02:56,605 --> 00:02:58,115
+you had no source code.
+
+41
+00:02:58,115 --> 00:03:03,095
+It booted up Microsoft DOS or MS Windows 3.1.
+
+42
+00:03:03,095 --> 00:03:07,880
+And that was it. Open source just blew all that to smithereens.
+
+43
+00:03:07,880 --> 00:03:11,405
+You could as a software engineer,
+
+44
+00:03:11,405 --> 00:03:13,365
+open up the car hood,
+
+45
+00:03:13,365 --> 00:03:20,670
+look inside, understand why it works how it works and then change it.
+
+46
+00:03:20,670 --> 00:03:25,025
+And the beauty of software and this is why I'm not a mechanical engineer,
+
+47
+00:03:25,025 --> 00:03:29,715
+this is why I am a computer scientist, is that you can change something,
+
+48
+00:03:29,715 --> 00:03:35,895
+press a button that says test, and if it explodes, which it usually does on the first try,
+
+49
+00:03:35,895 --> 00:03:41,390
+You can go back reset to the beginning and try another tweak and do it again.
+
+50
+00:03:41,390 --> 00:03:43,075
+That's what I love about software.
+
+51
+00:03:43,075 --> 00:03:48,620
+That rapid iteration process allows you to develop so much more rapid.
+
+52
+00:03:48,620 --> 00:03:54,090
+And so that open source process led me to Linux and
+
+53
+00:03:54,090 --> 00:04:01,590
+the open nature of open source meant that this university student could create a patch,
+
+54
+00:04:01,590 --> 00:04:05,310
+a software change, post it on a mailing list and have
+
+55
+00:04:05,310 --> 00:04:09,480
+a bunch of other professional software developers critique it,
+
+56
+00:04:09,480 --> 00:04:14,435
+provide feedback and ultimately integrate that change,
+
+57
+00:04:14,435 --> 00:04:16,455
+my change as a university student,
+
+58
+00:04:16,455 --> 00:04:19,950
+into this operating system that everyone uses worldwide.
+
+59
+00:04:19,950 --> 00:04:25,585
+And that really gives you frankly a little bit of an ego boost.
+
+60
+00:04:25,585 --> 00:04:30,665
+It gives you, makes you feel good that your change was accepted, reviewed,
+
+61
+00:04:30,665 --> 00:04:34,990
+welcomed and that peer review process
+
+62
+00:04:34,990 --> 00:04:38,245
+helps the community adjust to risk and avoid errors.
+
+63
+00:04:38,245 --> 00:04:44,790
+So that was my journey from the open source that I was coding in my dorm room
+
+64
+00:04:44,790 --> 00:04:52,350
+led me to Linux and my contributions to Linux as it's the ideal,
+
+65
+00:04:52,350 --> 00:04:54,865
+sort of meritocracy environment,
+
+66
+00:04:54,865 --> 00:04:58,705
+the Linux environment as you contribute more
+
+67
+00:04:58,705 --> 00:05:04,890
+you are trusted more and you learn more and you gain more experience.
+
+68
+00:05:04,890 --> 00:05:08,810
+And so it's a positive feedback loop whereby as
+
+69
+00:05:08,810 --> 00:05:13,430
+the years went by I became a better and better Linux developer.
+
+70
+00:05:13,430 --> 00:05:16,930
+I understood more and more about the hardware process.
+
+71
+00:05:16,930 --> 00:05:21,260
+I had taken Jim Greenlee's assembly language class
+
+72
+00:05:21,260 --> 00:05:25,575
+at the College of Computing where I learned MIPS assembly language.
+
+73
+00:05:25,575 --> 00:05:30,185
+But it was the Linux kernel that really taught me why you do what you do.
+
+74
+00:05:30,185 --> 00:05:32,205
+Why CPUs are architected as they're architected.
+
+75
+00:05:32,205 --> 00:05:40,740
+And so that open source process feeds back into other developers as well.
+
+76
+00:05:40,740 --> 00:05:42,510
+I was able to share that knowledge,
+
+77
+00:05:42,510 --> 00:05:45,210
+not only with other Georgia Tech students but
+
+78
+00:05:45,210 --> 00:05:47,900
+with other people in the community and you wind up mentoring,
+
+79
+00:05:47,900 --> 00:05:53,105
+spreading the knowledge and that led to a career at Red Hat.
+
+80
+00:05:53,105 --> 00:05:56,010
+Red Hat saw what I had been building,
+
+81
+00:05:56,010 --> 00:05:59,150
+contributing and they said, "Hey,
+
+82
+00:05:59,150 --> 00:06:02,975
+do you want to come work for us and build Linux professionally?"
+
+83
+00:06:02,975 --> 00:06:09,900
+So that Linux, that Linux experience which started in the dorm room,
+
+84
+00:06:09,900 --> 00:06:14,430
+started with volunteer self-motivated development eventually led to
+
+85
+00:06:14,430 --> 00:06:19,050
+an over 10-year career and that contribution to open source,
+
+86
+00:06:19,050 --> 00:06:20,985
+that experience in open source,
+
+87
+00:06:20,985 --> 00:06:26,040
+also sort of led me to where I am today which is in the blockchain industry,
+
+88
+00:06:26,040 --> 00:06:42,575
+which is another open source technology as well.
+
+89
+00:06:42,575 --> 00:06:49,165
+That's right. Late in my Red Hat career, circa 2010,
+
+90
+00:06:49,165 --> 00:06:56,540
+I was browsing what was a popular web site at the time, slash.org moniker news for
+
+91
+00:06:56,540 --> 00:07:01,880
+nerds and just basically everyone in the tech community at the time.
+
+92
+00:07:01,880 --> 00:07:04,100
+Definitely read that website.
+
+93
+00:07:04,100 --> 00:07:07,580
+It talked about a decentralized digital currency which was
+
+94
+00:07:07,580 --> 00:07:13,640
+open source and I had experience in distributed computing at the time,
+
+95
+00:07:13,640 --> 00:07:15,505
+and I had been a skeptic.
+
+96
+00:07:15,505 --> 00:07:16,539
+I thought to myself,
+
+97
+00:07:16,539 --> 00:07:18,815
+there's no way this can work.
+
+98
+00:07:18,815 --> 00:07:21,680
+You've got to have a central cluster of computers.
+
+99
+00:07:21,680 --> 00:07:26,930
+A central management system of some sort and I was happy to be proven wrong.
+
+100
+00:07:26,930 --> 00:07:31,220
+I looked at this open source technology and because it was open source,
+
+101
+00:07:31,220 --> 00:07:37,950
+you can open up the hood inspect the technology gain your own trust in that technology.
+
+102
+00:07:37,950 --> 00:07:41,250
+And that was my journey from Linux to blockchain,
+
+103
+00:07:41,250 --> 00:07:46,325
+was that there was a new exciting innovative open source project
+
+104
+00:07:46,325 --> 00:07:52,040
+which it disrupts the existing business flows,
+
+105
+00:07:52,040 --> 00:07:53,435
+it breaks new boundaries,
+
+106
+00:07:53,435 --> 00:07:58,035
+it creates new trust avenues.
+
+107
+00:07:58,035 --> 00:08:00,515
+And that was very, very exciting.
+
+108
+00:08:00,515 --> 00:08:06,425
+And so just like 15 years before in my Linux career, it was open source.
+
+109
+00:08:06,425 --> 00:08:08,510
+I was self-motivated.
+
+110
+00:08:08,510 --> 00:08:10,405
+I download the source code,
+
+111
+00:08:10,405 --> 00:08:13,025
+saw some changes that ought to be made.
+
+112
+00:08:13,025 --> 00:08:15,365
+I thought in my humble opinion.
+
+113
+00:08:15,365 --> 00:08:16,610
+So I made those changes,
+
+114
+00:08:16,610 --> 00:08:20,840
+submitted those to the then leader of the project Satoshi Nakamoto,
+
+115
+00:08:20,840 --> 00:08:24,315
+a pseudonym nobody, mysterious figure,
+
+116
+00:08:24,315 --> 00:08:29,115
+nobody knows who he really is and he accepted those changes.
+
+117
+00:08:29,115 --> 00:08:34,250
+So it was just like my first foray into Linux when Linus Torvalds,
+
+118
+00:08:34,250 --> 00:08:39,555
+the leader of Linux accepted my first patch to the Linux kernel.
+
+119
+00:08:39,555 --> 00:08:42,310
+It was humbling. It was rewarding.
+
+120
+00:08:42,310 --> 00:08:48,560
+It was very exciting and it was clearly the cusp of what we now see as
+
+121
+00:08:48,560 --> 00:09:03,063
+an entire industry, the blockchain industry.
+
+122
+00:09:03,063 --> 00:09:09,815
+Well, that's the question of the hour and more difficult to answer than you might imagine.
+
+123
+00:09:09,815 --> 00:09:15,080
+Blockchain is at once a database technology.
+
+124
+00:09:15,080 --> 00:09:22,365
+It's a technology that has a secure log of changes to a ledger.
+
+125
+00:09:22,365 --> 00:09:28,390
+It's a distributed network distributes those changes in that database,
+
+126
+00:09:28,390 --> 00:09:33,355
+that ledger to multiple nodes in a computer network,
+
+127
+00:09:33,355 --> 00:09:39,610
+all of which are cross checking each other to make sure that that ledger,
+
+128
+00:09:39,610 --> 00:09:43,150
+that database retains its integrity.
+
+129
+00:09:43,150 --> 00:09:47,820
+And so this is a very resilient technology, blockchain technology.
+
+130
+00:09:47,820 --> 00:09:51,965
+If you have a some of those nodes in the network are
+
+131
+00:09:51,965 --> 00:09:56,410
+malfunctioning then the network is resilient,
+
+132
+00:09:56,410 --> 00:10:00,190
+it automatically detects and routes around those changes.
+
+133
+00:10:00,190 --> 00:10:09,035
+And for this reason, it's essentially a reduced trust, very secure database network.
+
+134
+00:10:09,035 --> 00:10:14,720
+And the reason why that's interesting is that you can use it to deploy
+
+135
+00:10:14,720 --> 00:10:21,411
+some types of business cases and scenarios which benefit from that reduced trust.
+
+136
+00:10:21,411 --> 00:10:26,335
+The first use case being bitcoin which is
+
+137
+00:10:26,335 --> 00:10:33,095
+entirely dependent upon all of the nodes in this computer network.
+
+138
+00:10:33,095 --> 00:10:39,100
+Arriving at the same answer that Jeff has certain amount of digital currency,
+
+139
+00:10:39,100 --> 00:10:47,325
+say 100 units of bitcoin and Jeff transfers these to Bob, say 50 units of bitcoin,
+
+140
+00:10:47,325 --> 00:10:52,570
+this distributed ledger updates my balance
+
+141
+00:10:52,570 --> 00:10:59,040
+from 100 to 50 and Bob's balance from zero to 50.
+
+142
+00:10:59,040 --> 00:11:01,280
+Now we can obviously accomplish this with
+
+143
+00:11:01,280 --> 00:11:05,070
+a centralized database fairly easily and that's what banks do today.
+
+144
+00:11:05,070 --> 00:11:12,110
+The innovation in blockchain is that you don't necessarily
+
+145
+00:11:12,110 --> 00:11:19,830
+have to have a centralized authority to execute highly secure database updates.
+
+146
+00:11:19,830 --> 00:11:22,760
+In this particular case, currency.
+
+147
+00:11:22,760 --> 00:11:28,874
+The security of a currency is reliant upon this highly secure technology.
+
+148
+00:11:28,874 --> 00:11:33,095
+And so without that extremely high level of security,
+
+149
+00:11:33,095 --> 00:11:39,890
+you would not be able to reduce the level of trust required to use the system.
+
+150
+00:11:39,890 --> 00:11:42,410
+And so this has various cross-border,
+
+151
+00:11:42,410 --> 00:11:44,555
+cross company, cross organization,
+
+152
+00:11:44,555 --> 00:11:53,075
+cross business unit type of advantages whereby blockchain is more secure,
+
+153
+00:11:53,075 --> 00:11:59,590
+therefore you can create connections that can otherwise not be
+
+154
+00:12:09,730 --> 00:12:14,920
+connected. Well, there's really a lot of potential I think for blockchain in
+
+155
+00:12:14,920 --> 00:12:19,550
+health care but it is very, very early days.
+
+156
+00:12:19,550 --> 00:12:24,050
+As we like to say, the software has a lot of rough edges right now.
+
+157
+00:12:24,050 --> 00:12:30,270
+And so just pragmatically as a business person to a customer,
+
+158
+00:12:30,270 --> 00:12:33,690
+I would say that the roll-out is going to take several years,
+
+159
+00:12:33,690 --> 00:12:38,728
+but the potential is that it's worth it.
+
+160
+00:12:38,728 --> 00:12:44,790
+The potential is, is that we can have a more secure provider licensing,
+
+161
+00:12:44,790 --> 00:12:47,595
+more secure medical records,
+
+162
+00:12:47,595 --> 00:12:52,950
+we can utilize associated technologies such as digital identity,
+
+163
+00:12:52,950 --> 00:13:00,080
+smart contracts, and encryption to really put the patient in control of their own data.
+
+164
+00:13:00,080 --> 00:13:06,630
+We call that self-sovereign data where you are in control of
+
+165
+00:13:06,630 --> 00:13:13,410
+your data as a first principle and you permission your medical data to say your provider,
+
+166
+00:13:13,410 --> 00:13:16,830
+your hospital, your insurance company and
+
+167
+00:13:16,830 --> 00:13:21,160
+you're the one who is in control of that data permissioning.
+
+168
+00:13:21,160 --> 00:13:26,820
+And so therefore you're in control as a first pass as to who sees your very,
+
+169
+00:13:26,820 --> 00:13:29,510
+very private medical data.
+
+170
+00:13:29,510 --> 00:13:35,160
+And so encryption, a digital identity and anchored in
+
+171
+00:13:35,160 --> 00:13:38,355
+this very secure database technology blockchain
+
+172
+00:13:38,355 --> 00:13:43,230
+is absolutely going to make health care more secure,
+
+173
+00:13:43,230 --> 00:13:47,115
+put the patient in more control as well
+
+174
+00:13:47,115 --> 00:13:53,820
+as enable what I call gap filling is that today as you,
+
+175
+00:13:53,820 --> 00:13:56,295
+patients bounce between providers,
+
+176
+00:13:56,295 --> 00:13:59,510
+as providers bounce from state to state,
+
+177
+00:13:59,510 --> 00:14:01,620
+there are gaps and records.
+
+178
+00:14:01,620 --> 00:14:05,670
+And records for example for a provider in
+
+179
+00:14:05,670 --> 00:14:11,445
+North Carolina might be different from the records for a provider in Georgia,
+
+180
+00:14:11,445 --> 00:14:13,410
+even though it's the same provider.
+
+181
+00:14:13,410 --> 00:14:16,410
+It's just a information technology problem,
+
+182
+00:14:16,410 --> 00:14:20,910
+a data sharing problem that blockchain and some of these cross
+
+183
+00:14:20,910 --> 00:14:37,630
+organizational technologies really help to solve.
+
+184
+00:14:37,630 --> 00:14:46,735
+Absolutely. So based on my experience in Linux and I really saw Linux grow up from
+
+185
+00:14:46,735 --> 00:14:53,200
+a university project to a project that was trusted by startups
+
+186
+00:14:53,200 --> 00:14:55,490
+to a project that was trusted by
+
+187
+00:14:55,490 --> 00:15:00,190
+Fortune 500 companies and their data centers of their most critical data.
+
+188
+00:15:00,190 --> 00:15:08,053
+That flight path was really assisted by in large part Red Hat.
+
+189
+00:15:08,053 --> 00:15:11,640
+Red Hat took the open source community in one side,
+
+190
+00:15:11,640 --> 00:15:13,800
+enterprises in the other side.
+
+191
+00:15:13,800 --> 00:15:19,280
+Normally the open source community doesn't really get along with large business.
+
+192
+00:15:19,280 --> 00:15:26,370
+They're ideological, they're very have different motivations et cetera.
+
+193
+00:15:26,370 --> 00:15:29,110
+There are a lot of rough edges professionally.
+
+194
+00:15:29,110 --> 00:15:34,320
+And on enterprise they don't necessarily understand how to contribute to open source,
+
+195
+00:15:34,320 --> 00:15:37,200
+how to approach the open source community and how to
+
+196
+00:15:37,200 --> 00:15:41,105
+capture all that innovation that's coming out of open source.
+
+197
+00:15:41,105 --> 00:15:45,960
+Red Hat, their core idea was sitting in the middle and speaking
+
+198
+00:15:45,960 --> 00:15:51,925
+both open source and hacker ease and speaking enterprise on the other side.
+
+199
+00:15:51,925 --> 00:15:54,145
+And that's really the core vision for block,
+
+200
+00:15:54,145 --> 00:15:59,640
+is that blockchain has a lot of very fantastic,
+
+201
+00:15:59,640 --> 00:16:02,325
+very innovative developers with
+
+202
+00:16:02,325 --> 00:16:06,615
+themselves a bit of rough edges about them and enterprise,
+
+203
+00:16:06,615 --> 00:16:09,385
+specifically financial services and banks,
+
+204
+00:16:09,385 --> 00:16:12,210
+they have very, very specific compliance needs.
+
+205
+00:16:12,210 --> 00:16:16,650
+Risk needs legal needs and you need someone in the middle who can
+
+206
+00:16:16,650 --> 00:16:21,720
+talk blockchain to enterprise as well as talk blockchain to hackers,
+
+207
+00:16:21,720 --> 00:16:23,820
+bring the two together and create
+
+208
+00:16:23,820 --> 00:16:30,145
+a professional risk adjusted product that is essentially enterprise grade blockchain.
+
+209
+00:16:30,145 --> 00:16:38,675
+So that's what block does is we sell an enterprise blockchain product to small startups,
+
+210
+00:16:38,675 --> 00:16:42,500
+large enterprises sort of the Red Hat of blockchain.

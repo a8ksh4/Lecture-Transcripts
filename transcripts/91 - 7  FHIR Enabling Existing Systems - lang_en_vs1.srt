@@ -1,0 +1,115 @@
+1
+00:00:00,000 --> 00:00:02,650
+In a real world scenario,
+
+2
+00:00:02,650 --> 00:00:07,285
+health system vendors usually create Fire resources from data stored
+
+3
+00:00:07,285 --> 00:00:12,585
+in a proprietary database designed and built before Fire existed.
+
+4
+00:00:12,585 --> 00:00:18,565
+When a Fire app or a REST API ask for a resource,
+
+5
+00:00:18,565 --> 00:00:24,340
+special software often called a Fire adapter or server must know how to
+
+6
+00:00:24,340 --> 00:00:30,895
+get data elements from that database and package them into the Fire resource format.
+
+7
+00:00:30,895 --> 00:00:34,230
+The data that populates that Fire resource will therefore
+
+8
+00:00:34,230 --> 00:00:37,555
+depend on the underlying system.
+
+9
+00:00:37,555 --> 00:00:41,900
+If that system stores clinical observations only as text,
+
+10
+00:00:41,900 --> 00:00:44,480
+then even though Fire specifies them,
+
+11
+00:00:44,480 --> 00:00:49,365
+LOINC codes will not be available in the Fire resources that system creates.
+
+12
+00:00:49,365 --> 00:00:52,690
+Alternately, the design is so the Fire adapter
+
+13
+00:00:52,690 --> 00:00:56,330
+might make the effort to add any missing codes.
+
+14
+00:00:56,330 --> 00:00:58,890
+In either case, there is no assurance that
+
+15
+00:00:58,890 --> 00:01:03,455
+different EHRs represent or code a concept the same way.
+
+16
+00:01:03,455 --> 00:01:09,320
+Many major healthcare enterprise software vendors including Epic, Cerner and Meditech,
+
+17
+00:01:09,320 --> 00:01:11,875
+the three most widely installed,
+
+18
+00:01:11,875 --> 00:01:15,020
+have released at least a preliminary Fire server,
+
+19
+00:01:15,020 --> 00:01:19,525
+sometimes with integrated support for the Smart and Fire applet form.
+
+20
+00:01:19,525 --> 00:01:22,885
+We will look at the examples of this later on.
+
+21
+00:01:22,885 --> 00:01:25,440
+Finally, again at present,
+
+22
+00:01:25,440 --> 00:01:29,340
+most vendor support is for the reading of resources.
+
+23
+00:01:29,340 --> 00:01:33,795
+Support for the rest of CRUD is more difficult for vendors to implement
+
+24
+00:01:33,795 --> 00:01:38,835
+because of the need to verify the various checks and safeguards used in their systems.
+
+25
+00:01:38,835 --> 00:01:42,430
+This will come later if at all.
+
+26
+00:01:42,430 --> 00:01:47,670
+HL7 maintains a web page that summarizes the ever growing list of
+
+27
+00:01:47,670 --> 00:01:49,935
+health IT system vendors and
+
+28
+00:01:49,935 --> 00:01:54,750
+other organizations interested in Fire along with a link to their site,
+
+29
+00:01:54,750 --> 00:02:00,000
+contact information and a brief description of their intended use of the standard.

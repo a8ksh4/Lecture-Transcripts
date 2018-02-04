@@ -1,0 +1,75 @@
+1
+00:00:00,000 --> 00:00:03,450
+The five key data standards we will now discuss are
+
+2
+00:00:03,450 --> 00:00:07,545
+international classification of diseases, or ICD-10,
+
+3
+00:00:07,545 --> 00:00:11,565
+current procedural terminology (CPT ),
+
+4
+00:00:11,565 --> 00:00:15,519
+logical observation identifiers names and codes(LOINC),
+
+5
+00:00:15,519 --> 00:00:18,330
+national drug code (NDC),
+
+6
+00:00:18,330 --> 00:00:22,445
+and systematized nomenclature for medicine (SNOMED).
+
+7
+00:00:22,445 --> 00:00:27,360
+ICD and CPT are widely used in the US because in most cases,
+
+8
+00:00:27,360 --> 00:00:29,345
+they are required for medical billing.
+
+9
+00:00:29,345 --> 00:00:33,185
+CPT and NDC are US-specific.
+
+10
+00:00:33,185 --> 00:00:37,070
+There are classifications although CPT increasingly has
+
+11
+00:00:37,070 --> 00:00:42,430
+sub-codes to provide more details about a procedure for more precise billing.
+
+12
+00:00:42,430 --> 00:00:45,320
+LOINC is not quite an ontology,
+
+13
+00:00:45,320 --> 00:00:48,725
+or provides significant details about clinical tests,
+
+14
+00:00:48,725 --> 00:00:50,810
+and is in use internationally.
+
+15
+00:00:50,810 --> 00:00:55,530
+ICD-10 and SNOMED are internationally used ontologies
+
+16
+00:00:55,530 --> 00:01:00,955
+capable of representing clinical relationships among their elements.
+
+17
+00:01:00,955 --> 00:01:02,860
+When we discuss fire later on,
+
+18
+00:01:02,860 --> 00:01:05,545
+you will see that it builds on these data standards
+
+19
+00:01:05,545 --> 00:01:09,000
+and fire resources specifically reference them.

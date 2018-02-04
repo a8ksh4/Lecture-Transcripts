@@ -1,0 +1,95 @@
+1
+00:00:00,000 --> 00:00:03,785
+Clinical Decision Support or CDS is
+
+2
+00:00:03,785 --> 00:00:08,435
+an early and particularly interesting domain within Health Informatics.
+
+3
+00:00:08,435 --> 00:00:11,200
+Its purpose is to provide clinicians, patients,
+
+4
+00:00:11,200 --> 00:00:14,350
+and others with knowledge and personalize information,
+
+5
+00:00:14,350 --> 00:00:16,960
+intelligently filtered or presented at
+
+6
+00:00:16,960 --> 00:00:21,205
+appropriate times to enhance health and health care.
+
+7
+00:00:21,205 --> 00:00:25,710
+According to ONC, "CDS tools include
+
+8
+00:00:25,710 --> 00:00:31,535
+computerized alerts and reminders to care providers and patients, clinical guidelines,
+
+9
+00:00:31,535 --> 00:00:36,955
+condition-specific order sets, focused patient data reports and summaries,
+
+10
+00:00:36,955 --> 00:00:41,055
+documentation templates, diagnostic support,
+
+11
+00:00:41,055 --> 00:00:45,080
+and contextually relevant reference information, among other tools."
+
+12
+00:00:45,080 --> 00:00:51,715
+We will discuss three key clinical decision support projects to illustrate
+
+13
+00:00:51,715 --> 00:00:54,250
+how early researchers recognized it as
+
+14
+00:00:54,250 --> 00:00:59,985
+an opportunity and the challenges to successfully implementing it in practice.
+
+15
+00:00:59,985 --> 00:01:05,840
+My purpose in placing this discussion here is to set the stage for appreciating how
+
+16
+00:01:05,840 --> 00:01:11,530
+two key capabilities of FHIR and SMART on FHIR are making clinical decision support,
+
+17
+00:01:11,530 --> 00:01:15,690
+a far more approachable and clinically-useful tool.
+
+18
+00:01:15,690 --> 00:01:21,162
+The first is facile retrieval of EHR data in a standard format,
+
+19
+00:01:21,162 --> 00:01:26,310
+facilitating the integration of FHIR apps into any EHR.
+
+20
+00:01:26,310 --> 00:01:31,955
+This also obviates the need for any redundant data entry by the provider.
+
+21
+00:01:31,955 --> 00:01:35,989
+The second is seamless integration into the provider's workflow,
+
+22
+00:01:35,989 --> 00:01:42,670
+making the use of clinical decision support far more efficient and therefore more likely.
+
+23
+00:01:42,670 --> 00:01:47,330
+Finally, this discussion will expose you to some of what I consider the most fascinating
+
+24
+00:01:47,330 --> 00:01:53,000
+parts of the history of Health Informatics and the vision of some of its pioneers.

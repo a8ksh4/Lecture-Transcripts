@@ -1,0 +1,79 @@
+1
+00:00:00,000 --> 00:00:03,000
+So far we've talked mostly about the role of
+
+2
+00:00:03,000 --> 00:00:06,235
+Health Informatics to improve the delivery of care.
+
+3
+00:00:06,235 --> 00:00:12,755
+What about its role in ensuring we deliver the right care to every patient, every time?
+
+4
+00:00:12,755 --> 00:00:16,085
+This is a major concern of the Academy of Medicine,
+
+5
+00:00:16,085 --> 00:00:18,975
+which is the new name for the Institute of Medicine.
+
+6
+00:00:18,975 --> 00:00:22,490
+It recognizes that we are entering a new era of
+
+7
+00:00:22,490 --> 00:00:27,420
+medical science that offers the prospect of personalized health care.
+
+8
+00:00:27,420 --> 00:00:31,180
+It also recognizes that physicians and patients must deal with
+
+9
+00:00:31,180 --> 00:00:36,020
+an increasingly complex array of health care options and decisions,
+
+10
+00:00:36,020 --> 00:00:38,695
+and they need help to choose wisely.
+
+11
+00:00:38,695 --> 00:00:40,540
+That help in turn,
+
+12
+00:00:40,540 --> 00:00:45,505
+may require new knowledge about what works and when and for whom it works.
+
+13
+00:00:45,505 --> 00:00:50,685
+To achieve that, years ago IOM called for a learning health care system.
+
+14
+00:00:50,685 --> 00:00:54,660
+That it describes as a sustainable system that gets
+
+15
+00:00:54,660 --> 00:00:57,330
+the right care for people when they need it
+
+16
+00:00:57,330 --> 00:01:01,440
+and then captures the results for further improvement.
+
+17
+00:01:01,440 --> 00:01:05,340
+In simple terms, we need to gather data from care already delivered,
+
+18
+00:01:05,340 --> 00:01:08,490
+aggregated, and analyze it to learn from
+
+19
+00:01:08,490 --> 00:01:11,990
+the collective results of many care representatives.
+
+20
+00:01:11,990 --> 00:01:13,260
+We need a feedback cycle.

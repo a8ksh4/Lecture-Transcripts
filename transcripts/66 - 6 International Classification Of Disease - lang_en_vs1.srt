@@ -1,0 +1,147 @@
+1
+00:00:00,000 --> 00:00:06,140
+ICD is the oldest data standard dating directly back to the 1800s and
+
+2
+00:00:06,140 --> 00:00:09,240
+more indirectly to earlier centuries when researchers
+
+3
+00:00:09,240 --> 00:00:13,005
+became interested in the causes of human mortality.
+
+4
+00:00:13,005 --> 00:00:15,110
+One of these was John Gaunt,
+
+5
+00:00:15,110 --> 00:00:16,460
+who in the mid 1600s,
+
+6
+00:00:16,460 --> 00:00:21,470
+probably some of the first research on the causes of human mortality.
+
+7
+00:00:21,470 --> 00:00:24,465
+The history of ICD is quite interesting,
+
+8
+00:00:24,465 --> 00:00:27,825
+so I posted a link you can read if you desire.
+
+9
+00:00:27,825 --> 00:00:33,000
+Traditionally, ICD was a list or classification of medical diagnoses,
+
+10
+00:00:33,000 --> 00:00:35,670
+maintained by the World Health Organization,
+
+11
+00:00:35,670 --> 00:00:39,380
+WHO, and updated every 10 years.
+
+12
+00:00:39,380 --> 00:00:43,165
+ICD-10, adopted in 1994,
+
+13
+00:00:43,165 --> 00:00:44,530
+is the current version,
+
+14
+00:00:44,530 --> 00:00:50,605
+and work is well underway on ICD-11 for its schedule release in 2018.
+
+15
+00:00:50,605 --> 00:00:55,635
+The US finally adopted ICD-10 on October 1, 2015.
+
+16
+00:00:55,635 --> 00:00:58,335
+Well, after most other countries.
+
+17
+00:00:58,335 --> 00:01:00,545
+The switch was a substantial effort,
+
+18
+00:01:00,545 --> 00:01:05,300
+because ICD-10 is a major quantitative and qualitative expansion
+
+19
+00:01:05,300 --> 00:01:08,495
+of ICD-9 as you can see here.
+
+20
+00:01:08,495 --> 00:01:12,515
+ICD-10 has more than five times as many codes
+
+21
+00:01:12,515 --> 00:01:16,175
+to represent very specific clinical details.
+
+22
+00:01:16,175 --> 00:01:18,740
+Note that it can provide laterality,
+
+23
+00:01:18,740 --> 00:01:21,200
+so in this example for breast cancer,
+
+24
+00:01:21,200 --> 00:01:25,985
+it can indicate in which lower outer quadrant the disease was located.
+
+25
+00:01:25,985 --> 00:01:29,515
+In fact, ICD-10 is an ontology,
+
+26
+00:01:29,515 --> 00:01:33,160
+capable of representing clinical relationships.
+
+27
+00:01:33,160 --> 00:01:35,275
+For example, as shown here,
+
+28
+00:01:35,275 --> 00:01:40,445
+we can encode the fact that the patient has gout affecting their left shoulder,
+
+29
+00:01:40,445 --> 00:01:44,530
+but they have not yet developed a uric acid deposit,
+
+30
+00:01:44,530 --> 00:01:47,240
+called a tophus, in that shoulder.
+
+31
+00:01:47,240 --> 00:01:51,750
+ICD -10 codes are required on health care claims.
+
+32
+00:01:51,750 --> 00:01:54,390
+Potential uses of the added detail in
+
+33
+00:01:54,390 --> 00:01:58,830
+ICD-10 could include more appropriate provider reimbursement,
+
+34
+00:01:58,830 --> 00:02:04,135
+and preventing fraud caused by duplicate billing for the same service.
+
+35
+00:02:04,135 --> 00:02:07,530
+However, as the Applicadia video demonstrates,
+
+36
+00:02:07,530 --> 00:02:13,925
+the complexity of the coding system is itself a problem for both providers and payers.
+
+37
+00:02:13,925 --> 00:02:17,400
+You will find ICD-10 codes in FHIR resources.

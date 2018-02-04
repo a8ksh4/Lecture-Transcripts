@@ -1,0 +1,643 @@
+1
+00:00:00,000 --> 00:00:02,880
+Next, we're going to travel all the way to Baltimore to
+
+2
+00:00:02,880 --> 00:00:05,925
+the Johns Hopkins Bloomberg School of Public Health,
+
+3
+00:00:05,925 --> 00:00:08,250
+to speak with Dr. Gerard Anderson,
+
+4
+00:00:08,250 --> 00:00:11,280
+a professor there and the first author of
+
+5
+00:00:11,280 --> 00:00:15,320
+the paper I cite more than any other during this course,
+
+6
+00:00:15,320 --> 00:00:18,220
+"The Rising Tide of Chronic Disease in America."
+
+7
+00:00:18,220 --> 00:00:20,790
+Well Gerard, thank you so much for being with us today.
+
+8
+00:00:20,790 --> 00:00:22,150
+It's a thrill to meet you.
+
+9
+00:00:22,150 --> 00:00:23,490
+I'm glad to be here.
+
+10
+00:00:23,490 --> 00:00:26,460
+Great. A decade ago,
+
+11
+00:00:26,460 --> 00:00:28,230
+you and your colleague Jane Horvath,
+
+12
+00:00:28,230 --> 00:00:30,900
+published what I view as a seminal paper,
+
+13
+00:00:30,900 --> 00:00:33,800
+"The Growing Burden of Chronic Disease in America."
+
+14
+00:00:33,800 --> 00:00:35,070
+The students of the course,
+
+15
+00:00:35,070 --> 00:00:39,590
+if they've been paying attention are quite familiar with it by now.
+
+16
+00:00:39,590 --> 00:00:47,334
+And it opened my mind to the aggregate problem of chronic disease,
+
+17
+00:00:47,334 --> 00:00:50,475
+in a way that really no previous paper had done.
+
+18
+00:00:50,475 --> 00:00:53,795
+Which is why I view it the way I do.
+
+19
+00:00:53,795 --> 00:00:56,240
+So we're 10 years later.
+
+20
+00:00:56,240 --> 00:00:58,530
+Have we made progress? Where are we?
+
+21
+00:00:58,530 --> 00:01:00,150
+Well, we have made progress.
+
+22
+00:01:00,150 --> 00:01:03,120
+I mean I think what you knew already is that,
+
+23
+00:01:03,120 --> 00:01:05,925
+as you saw patients that had chronic disease,
+
+24
+00:01:05,925 --> 00:01:08,080
+but you didn't know how many patients there were,
+
+25
+00:01:08,080 --> 00:01:11,190
+and now we know that there are 150 million Americans,
+
+26
+00:01:11,190 --> 00:01:16,035
+almost one out of every two Americans that have one or more chronic conditions.
+
+27
+00:01:16,035 --> 00:01:21,180
+And that is sort of the new information that we were trying to bring 10 years ago.
+
+28
+00:01:21,180 --> 00:01:22,740
+Now what we're trying to do,
+
+29
+00:01:22,740 --> 00:01:25,679
+now that we have the attention of the policymakers,
+
+30
+00:01:25,679 --> 00:01:28,416
+is to start changing the delivery system.
+
+31
+00:01:28,416 --> 00:01:30,210
+That starts with prevention,
+
+32
+00:01:30,210 --> 00:01:33,270
+but it goes to care and cure for
+
+33
+00:01:33,270 --> 00:01:37,160
+these chronic conditions and there we're making a lot less progress.
+
+34
+00:01:37,160 --> 00:01:40,545
+I was more optimistic 10 years ago than I am now.
+
+35
+00:01:40,545 --> 00:01:44,945
+Most everything that we've tried recently has just not worked very well.
+
+36
+00:01:44,945 --> 00:01:47,288
+Well, here in the last few years,
+
+37
+00:01:47,288 --> 00:01:53,005
+we've tried to make the healthcare industry adopt health IT,
+
+38
+00:01:53,005 --> 00:01:58,850
+and we've tried to create health information exchanges.
+
+39
+00:01:58,850 --> 00:02:00,795
+We're still really early in that.
+
+40
+00:02:00,795 --> 00:02:05,860
+But are you optimistic that that will happen and that it will make a difference.
+
+41
+00:02:05,860 --> 00:02:07,075
+Well, it is happening,
+
+42
+00:02:07,075 --> 00:02:09,670
+so I'm very optimistic that it will happen.
+
+43
+00:02:09,670 --> 00:02:12,705
+What I don't think we've solved very well so far,
+
+44
+00:02:12,705 --> 00:02:15,765
+is that dashboard problem of a doctor.
+
+45
+00:02:15,765 --> 00:02:19,110
+I have 10 minutes to take care of a patient,
+
+46
+00:02:19,110 --> 00:02:21,535
+and she has seven things wrong with her,
+
+47
+00:02:21,535 --> 00:02:25,245
+she's seeing nine other doctors and I have 10 minutes.
+
+48
+00:02:25,245 --> 00:02:29,535
+If I spend most of that time looking at her medical record,
+
+49
+00:02:29,535 --> 00:02:32,390
+I now have five minutes to talk to her.
+
+50
+00:02:32,390 --> 00:02:33,660
+And so the challenge is,
+
+51
+00:02:33,660 --> 00:02:36,780
+how can we get that information out to
+
+52
+00:02:36,780 --> 00:02:41,100
+the physician in a timely fashion for that complex patient?
+
+53
+00:02:41,100 --> 00:02:44,095
+For the patient who only has diabetes, it's pretty easy.
+
+54
+00:02:44,095 --> 00:02:46,620
+But for that patient, who has diabetes and
+
+55
+00:02:46,620 --> 00:02:50,010
+congestive heart failure and beginning Alzheimer's and arthritis,
+
+56
+00:02:50,010 --> 00:02:52,255
+and is seeing all these different doctors,
+
+57
+00:02:52,255 --> 00:02:55,860
+and taking lots of different medications, that's the challenge.
+
+58
+00:02:55,860 --> 00:02:58,440
+I hope the students remember that comment because that's
+
+59
+00:02:58,440 --> 00:03:01,440
+basically what we're going to talk about in lesson six of the course.
+
+60
+00:03:01,440 --> 00:03:03,240
+Great.
+
+61
+00:03:03,240 --> 00:03:06,345
+Well, you also mentioned incentives.
+
+62
+00:03:06,345 --> 00:03:10,155
+I mean clearly the healthcare system has never been incented.
+
+63
+00:03:10,155 --> 00:03:11,310
+Do you see that working?
+
+64
+00:03:11,310 --> 00:03:13,800
+Are you optimistic that that's actually going to happen in
+
+65
+00:03:13,800 --> 00:03:17,300
+this endlessly complex adaptive health care system?
+
+66
+00:03:17,300 --> 00:03:22,755
+So, I was just amazed when I started this work in the 1990s,
+
+67
+00:03:22,755 --> 00:03:28,230
+that Australia had tried care coordination programs and they had and all failed.
+
+68
+00:03:28,230 --> 00:03:29,710
+And then I said,
+
+69
+00:03:29,710 --> 00:03:34,940
+but the United States can do it differently or the UK could do it differently.
+
+70
+00:03:34,940 --> 00:03:38,040
+And so I've been looking around the world for those models,
+
+71
+00:03:38,040 --> 00:03:40,425
+and I just don't see them yet.
+
+72
+00:03:40,425 --> 00:03:42,080
+I mean, it's just sort of,
+
+73
+00:03:42,080 --> 00:03:46,200
+we know what we need to do which is to get everybody on the same team,
+
+74
+00:03:46,200 --> 00:03:50,670
+probably with a nurse practitioner talking to all the doctors,
+
+75
+00:03:50,670 --> 00:03:52,977
+but we haven't been able to figure it out.
+
+76
+00:03:52,977 --> 00:03:57,030
+So most all of the demonstrations that we've tried,
+
+77
+00:03:57,030 --> 00:03:59,694
+both in the public sector and the private sector,
+
+78
+00:03:59,694 --> 00:04:03,020
+just haven't been able to save money,
+
+79
+00:04:03,020 --> 00:04:07,095
+reduce, improve outcomes, and improve satisfaction.
+
+80
+00:04:07,095 --> 00:04:12,950
+We just don't have very many of those things that hit all three of them very well.
+
+81
+00:04:12,950 --> 00:04:17,372
+And we're still working and so I'm optimistic that we will find it,
+
+82
+00:04:17,372 --> 00:04:20,625
+but so far, we just haven't been very successful.
+
+83
+00:04:20,625 --> 00:04:24,010
+Well, your paper actually ends on an optimistic note.
+
+84
+00:04:24,010 --> 00:04:29,090
+You point to the re-engineering the healthcare system a century ago,
+
+85
+00:04:29,090 --> 00:04:32,090
+around new knowledge in public health.
+
+86
+00:04:32,090 --> 00:04:37,220
+Is it so fundamentally different now that that optimism may be misplaced?
+
+87
+00:04:37,220 --> 00:04:39,920
+No, but I think if you read it a little more carefully,
+
+88
+00:04:39,920 --> 00:04:41,675
+what you'll see is I said,
+
+89
+00:04:41,675 --> 00:04:45,800
+we moved in 50 years from a system
+
+90
+00:04:45,800 --> 00:04:50,863
+oriented around infectious disease to one that's oriented on acute illnesses.
+
+91
+00:04:50,863 --> 00:04:54,240
+And then we got that done by about 2000.
+
+92
+00:04:54,240 --> 00:04:56,985
+And I said, it is going to take us 50 years to
+
+93
+00:04:56,985 --> 00:05:00,725
+reorient the healthcare system around chronic disease.
+
+94
+00:05:00,725 --> 00:05:02,655
+We have to start with the evidence base,
+
+95
+00:05:02,655 --> 00:05:07,310
+we have to know how to take care of somebody who has seven things wrong with her,
+
+96
+00:05:07,310 --> 00:05:12,975
+when the NIH and the FDA exclude all those people from clinical trials.
+
+97
+00:05:12,975 --> 00:05:18,215
+We don't have the educational system and the medical schools oriented around that.
+
+98
+00:05:18,215 --> 00:05:20,700
+We don't have the financing,
+
+99
+00:05:20,700 --> 00:05:22,040
+and so right now,
+
+100
+00:05:22,040 --> 00:05:25,205
+there isn't a real strong incentive for
+
+101
+00:05:25,205 --> 00:05:28,610
+hospitals and doctors to really go after these people,
+
+102
+00:05:28,610 --> 00:05:31,275
+to take care of them in an effective way.
+
+103
+00:05:31,275 --> 00:05:33,350
+In fact, because they don't know how to do it,
+
+104
+00:05:33,350 --> 00:05:35,900
+they want to run away from them in most cases.
+
+105
+00:05:35,900 --> 00:05:38,265
+But this is where the money is.
+
+106
+00:05:38,265 --> 00:05:42,945
+Two-thirds of Medicare spending is by people with five or more chronic conditions.
+
+107
+00:05:42,945 --> 00:05:46,520
+We've got to get the system right for these people,
+
+108
+00:05:46,520 --> 00:05:48,530
+we just don't know how to do it yet.
+
+109
+00:05:48,530 --> 00:05:51,526
+So, I can't speak to 50 years ago,
+
+110
+00:05:51,526 --> 00:05:52,925
+but 40 years ago,
+
+111
+00:05:52,925 --> 00:05:54,375
+I was a medical student.
+
+112
+00:05:54,375 --> 00:05:55,980
+First getting interested in this.
+
+113
+00:05:55,980 --> 00:05:57,740
+And I remember going to meetings,
+
+114
+00:05:57,740 --> 00:05:59,880
+and they would say, well here's where we are,
+
+115
+00:05:59,880 --> 00:06:05,045
+and if these trends continue and we don't do anything by right about now,
+
+116
+00:06:05,045 --> 00:06:08,430
+health care will be consuming 20% of the gross domestic product,
+
+117
+00:06:08,430 --> 00:06:11,190
+a number that's absolutely not sustainable.
+
+118
+00:06:11,190 --> 00:06:11,690
+Right.
+
+119
+00:06:11,690 --> 00:06:14,840
+Now I've seen projections from OMB and others,
+
+120
+00:06:14,840 --> 00:06:19,003
+that if we don't do anything it will be 40% in 50 years.
+
+121
+00:06:19,003 --> 00:06:20,530
+Do we have 50 years?
+
+122
+00:06:20,530 --> 00:06:23,300
+Well, when I started working and trying to
+
+123
+00:06:23,300 --> 00:06:26,810
+control health care costs in the 1970s, I said,
+
+124
+00:06:26,810 --> 00:06:31,800
+we'll never be able to sustain 10% of GDP on healthcare,
+
+125
+00:06:31,800 --> 00:06:33,535
+now it's close to 20.
+
+126
+00:06:33,535 --> 00:06:39,085
+So, I've stopped making projections as to whether or not we can afford to do something.
+
+127
+00:06:39,085 --> 00:06:42,365
+What we know is that by the time it gets to almost 30%,
+
+128
+00:06:42,365 --> 00:06:44,200
+which isn't that far along,
+
+129
+00:06:44,200 --> 00:06:46,550
+almost all the growth in the economy,
+
+130
+00:06:46,550 --> 00:06:49,580
+all the productivity growth in the economy will in
+
+131
+00:06:49,580 --> 00:06:53,145
+fact go to support the growth in healthcare,
+
+132
+00:06:53,145 --> 00:06:55,485
+and that's probably not sustainable.
+
+133
+00:06:55,485 --> 00:06:58,425
+But we don't know what's going to turn the ship around,
+
+134
+00:06:58,425 --> 00:07:03,320
+maybe it's IT, maybe it's changing the financial incentives,
+
+135
+00:07:03,320 --> 00:07:07,430
+but since everybody is making so much money in healthcare, and you know,
+
+136
+00:07:07,430 --> 00:07:11,825
+jobs are important and financial security is important,
+
+137
+00:07:11,825 --> 00:07:14,470
+it's going to be a really tough change.
+
+138
+00:07:14,470 --> 00:07:20,705
+So many of us speculate that eventually with our backs against the wall,
+
+139
+00:07:20,705 --> 00:07:24,790
+we'll adopt a single payer system like every other country on earth.
+
+140
+00:07:24,790 --> 00:07:27,390
+You think that's going to happen here in the US?
+
+141
+00:07:27,390 --> 00:07:31,895
+I was more optimistic in the 90s than I am today.
+
+142
+00:07:31,895 --> 00:07:35,230
+Basically, Americans love choice.
+
+143
+00:07:35,230 --> 00:07:39,370
+All you have to do is go to a grocery store and go down the cereal aisle and
+
+144
+00:07:39,370 --> 00:07:43,565
+look at 40 to 100 different choices of cereal,
+
+145
+00:07:43,565 --> 00:07:45,280
+whereas if you go to France,
+
+146
+00:07:45,280 --> 00:07:47,645
+you'll see two or three in most cases.
+
+147
+00:07:47,645 --> 00:07:50,395
+Choice is what makes America,
+
+148
+00:07:50,395 --> 00:07:56,950
+and is going to be really hard to get the private insurance industry out of it.
+
+149
+00:07:56,950 --> 00:07:58,960
+We can't even get right now,
+
+150
+00:07:58,960 --> 00:08:01,780
+many of the states, to embrace Medicaid,
+
+151
+00:08:01,780 --> 00:08:06,640
+so if they can't embrace Medicaid which is free money to them,
+
+152
+00:08:06,640 --> 00:08:09,970
+why would we think that they would go to a single payer?
+
+153
+00:08:09,970 --> 00:08:11,750
+I mean, I think it makes sense.
+
+154
+00:08:11,750 --> 00:08:14,590
+It means that we pay a lot more for healthcare
+
+155
+00:08:14,590 --> 00:08:17,525
+than other industrialized countries because of this choice,
+
+156
+00:08:17,525 --> 00:08:21,290
+but America seems to really like choice.
+
+157
+00:08:21,290 --> 00:08:22,615
+Well, thank you very much.
+
+158
+00:08:22,615 --> 00:08:23,680
+It's been a pleasure.
+
+159
+00:08:23,680 --> 00:08:24,820
+Thank you.
+
+160
+00:08:24,820 --> 00:08:28,380
+Maybe we'll be able to get together 10 more years and see what's happened.
+
+161
+00:08:28,380 --> 00:08:31,000
+I hopefully it will be more optimistic that time.

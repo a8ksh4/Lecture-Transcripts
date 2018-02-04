@@ -1,0 +1,143 @@
+1
+00:00:00,000 --> 00:00:02,700
+Why do we need data standards?
+
+2
+00:00:02,700 --> 00:00:06,611
+We discuss that as a part of examining semantic interoperability,
+
+3
+00:00:06,611 --> 00:00:09,750
+but it's useful to consider it more specifically here.
+
+4
+00:00:09,750 --> 00:00:14,490
+This simple illustration helps to make the differences and ambiguities in representing
+
+5
+00:00:14,490 --> 00:00:20,355
+healthcare data clear using a seemingly obvious data element, the patient's gender.
+
+6
+00:00:20,355 --> 00:00:25,695
+Here, system A represents males with a one and females with a zero.
+
+7
+00:00:25,695 --> 00:00:29,685
+Over here in system B, that is reversed.
+
+8
+00:00:29,685 --> 00:00:33,368
+The two systems are using the same language of ones and zeros,
+
+9
+00:00:33,368 --> 00:00:35,355
+so they are semantically similar,
+
+10
+00:00:35,355 --> 00:00:39,900
+but they cannot inter-operate without some intermediate translation process
+
+11
+00:00:39,900 --> 00:00:44,740
+that maps one to the other or both to some common representation.
+
+12
+00:00:44,740 --> 00:00:50,840
+Should you mix data from these two systems without such an intervening curation process,
+
+13
+00:00:50,840 --> 00:00:52,685
+gender might be impossible determine
+
+14
+00:00:52,685 --> 00:00:56,390
+accurately for care delivery reporting and other purposes.
+
+15
+00:00:56,390 --> 00:00:58,690
+Over in system C,
+
+16
+00:00:58,690 --> 00:01:01,915
+M is used for male and F for female.
+
+17
+00:01:01,915 --> 00:01:06,000
+System C is semantically different from systems A and B.
+
+18
+00:01:06,000 --> 00:01:09,135
+It uses a different language to represent gender.
+
+19
+00:01:09,135 --> 00:01:15,883
+Moreover, system C recognizes that gender may be ambiguous and represents that with a U,
+
+20
+00:01:15,883 --> 00:01:19,155
+a concept the other two systems do not deal with.
+
+21
+00:01:19,155 --> 00:01:21,840
+Interoperability between system C and
+
+22
+00:01:21,840 --> 00:01:24,750
+the other two systems would require a translation from
+
+23
+00:01:24,750 --> 00:01:27,780
+its language to theirs or a translation of
+
+24
+00:01:27,780 --> 00:01:31,680
+all of these approaches to a common form, a standard.
+
+25
+00:01:31,680 --> 00:01:36,160
+Since undetermined gender is not represented in systems A and B,
+
+26
+00:01:36,160 --> 00:01:39,229
+some accommodation for that would also have to be made,
+
+27
+00:01:39,229 --> 00:01:44,410
+particularly if the rate of undetermined gender is of interest for research or reporting.
+
+28
+00:01:44,410 --> 00:01:49,810
+If something is seemingly simple as gender can lead to this much complexity,
+
+29
+00:01:49,810 --> 00:01:53,510
+imagine what happens with the concept of a patient's diagnosis,
+
+30
+00:01:53,510 --> 00:01:55,970
+which is inherently somewhat subjective,
+
+31
+00:01:55,970 --> 00:01:59,850
+can have thousands of possible values and,
+
+32
+00:01:59,850 --> 00:02:04,085
+as we'll see, can be described at varying levels of detail.
+
+33
+00:02:04,085 --> 00:02:08,400
+We've got a sense of that in the Applicadia video in the last lesson.
+
+34
+00:02:08,400 --> 00:02:10,925
+That is why data standards have been developed.
+
+35
+00:02:10,925 --> 00:02:14,245
+But as we will also soon see,
+
+36
+00:02:14,245 --> 00:02:19,000
+they can themselves get quite complex and can be problematic as a result.

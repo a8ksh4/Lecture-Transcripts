@@ -1,0 +1,275 @@
+1
+00:00:00,000 --> 00:00:04,929
+The most sophisticated form of HIE creates semantic interoperability,
+
+2
+00:00:04,929 --> 00:00:09,470
+thereby bridging the many ways the same concepts can be
+
+3
+00:00:09,470 --> 00:00:15,625
+expressed by providers and represented in EHRs and other clinical systems.
+
+4
+00:00:15,625 --> 00:00:20,580
+This involves a complex process that maps external representations of
+
+5
+00:00:20,580 --> 00:00:26,119
+clinical concepts to some standard developed or adopted by the HIE.
+
+6
+00:00:26,119 --> 00:00:29,680
+The premier example of this here in the U.S. is
+
+7
+00:00:29,680 --> 00:00:36,053
+the Indiana Health Information Exchange or IHIE, pronounced, "I-hi."
+
+8
+00:00:36,053 --> 00:00:41,035
+It says it is the largest such organization in the country.
+
+9
+00:00:41,035 --> 00:00:48,265
+This claim is easy to believe based on these participation statistics from the IHIE site.
+
+10
+00:00:48,265 --> 00:00:53,015
+Here you see a high-level diagram of the IHIE technical architecture.
+
+11
+00:00:53,015 --> 00:00:56,600
+The data governance box is where the curation of data
+
+12
+00:00:56,600 --> 00:01:00,510
+occurs to establish semantic interoperability.
+
+13
+00:01:00,510 --> 00:01:06,660
+Here on the right, you see that this governance enables a number of value-added services.
+
+14
+00:01:06,660 --> 00:01:11,755
+These include the reporting of laboratory test results we discussed earlier and of
+
+15
+00:01:11,755 --> 00:01:14,850
+the quality metrics that are increasingly required for
+
+16
+00:01:14,850 --> 00:01:19,660
+providers under the new payment models we discussed in lesson one.
+
+17
+00:01:19,660 --> 00:01:23,565
+The Regenstrief Institute in Indiana created
+
+18
+00:01:23,565 --> 00:01:28,505
+the expensive and sophisticated technology used by IHIE.
+
+19
+00:01:28,505 --> 00:01:32,665
+Support for that came from the Regenstrief Foundation,
+
+20
+00:01:32,665 --> 00:01:36,910
+a philanthropic organization that describes its mission as,
+
+21
+00:01:36,910 --> 00:01:39,775
+"To bring to the practice of medicine
+
+22
+00:01:39,775 --> 00:01:43,090
+the most modern scientific advances from engineering,
+
+23
+00:01:43,090 --> 00:01:45,415
+business and the social sciences;
+
+24
+00:01:45,415 --> 00:01:48,340
+and to foster the rapid dissemination into
+
+25
+00:01:48,340 --> 00:01:52,585
+medical practice of the new knowledge created by research."
+
+26
+00:01:52,585 --> 00:01:56,170
+Absent such unfortunately rare funding source,
+
+27
+00:01:56,170 --> 00:02:01,725
+this type of HIE is usually economically impossible to create.
+
+28
+00:02:01,725 --> 00:02:03,825
+In the case of IHIE,
+
+29
+00:02:03,825 --> 00:02:05,531
+as you see here,
+
+30
+00:02:05,531 --> 00:02:10,165
+all the curated data is aggregated and stored centrally.
+
+31
+00:02:10,165 --> 00:02:16,110
+This architecture is convenient for data governance, analysis and reporting.
+
+32
+00:02:16,110 --> 00:02:21,810
+However, it makes buy-in difficult for organizations that might be leery of turning over
+
+33
+00:02:21,810 --> 00:02:28,455
+their data and concerned about how it may be used and how their performance might look.
+
+34
+00:02:28,455 --> 00:02:33,120
+Again, Indiana has a special case where, over the years,
+
+35
+00:02:33,120 --> 00:02:39,305
+IHIE has gained the trust of the many care organizations we saw enumerated earlier.
+
+36
+00:02:39,305 --> 00:02:42,500
+This level of trust in a shared,
+
+37
+00:02:42,500 --> 00:02:45,700
+centralized architecture is rare.
+
+38
+00:02:45,700 --> 00:02:52,785
+The concept of a federated HIE goes a long way toward resolving these concerns.
+
+39
+00:02:52,785 --> 00:02:56,870
+In this model, the data stays at the source.
+
+40
+00:02:56,870 --> 00:03:00,560
+There is a standard for queries and responses and,
+
+41
+00:03:00,560 --> 00:03:01,745
+based on the query,
+
+42
+00:03:01,745 --> 00:03:06,260
+participating organizations usually have the option of responding or not.
+
+43
+00:03:06,260 --> 00:03:08,410
+In a federated model,
+
+44
+00:03:08,410 --> 00:03:11,500
+either the nodes must translate their data into
+
+45
+00:03:11,500 --> 00:03:16,150
+some standard response format or they must map
+
+46
+00:03:16,150 --> 00:03:19,960
+their information into a standard data model usually stored in
+
+47
+00:03:19,960 --> 00:03:25,395
+a separate server that can then serve to handle queries and responses.
+
+48
+00:03:25,395 --> 00:03:30,110
+By far the most successful example of this is
+
+49
+00:03:30,110 --> 00:03:37,825
+the Observational Medical Outcomes Partnership or OMOP and its OMOP data model.
+
+50
+00:03:37,825 --> 00:03:39,890
+OMOP was created to enable
+
+51
+00:03:39,890 --> 00:03:45,180
+active drug safety surveillance with government and pharmaceutical industry support.
+
+52
+00:03:45,180 --> 00:03:48,105
+Here you can see its global reach.
+
+53
+00:03:48,105 --> 00:03:52,915
+We built our Georgia Tech FHIR server using the OMOP data model.
+
+54
+00:03:52,915 --> 00:03:56,620
+While we will not discuss it in any detail here,
+
+55
+00:03:56,620 --> 00:04:02,127
+there's also a model that blends the centralized and federated approaches.
+
+56
+00:04:02,127 --> 00:04:05,410
+In it, all data is stored centrally but in
+
+57
+00:04:05,410 --> 00:04:07,670
+so-called data lockers that remain under
+
+58
+00:04:07,670 --> 00:04:11,760
+the control of the entity that is the source of the data.
+
+59
+00:04:11,760 --> 00:04:14,660
+That entity typically has the same control of
+
+60
+00:04:14,660 --> 00:04:18,860
+the use of the data they would have in a federated model.
+
+61
+00:04:18,860 --> 00:04:23,270
+Next, we will talk to my Georgia Tech colleague, Dr. Jon Duke,
+
+62
+00:04:23,270 --> 00:04:27,080
+who came here from the Regenstrief Institue that created
+
+63
+00:04:27,080 --> 00:04:31,384
+the technology used in the Indiana Health Information Exchange.
+
+64
+00:04:31,384 --> 00:04:33,410
+Jon was also a founding member of
+
+65
+00:04:33,410 --> 00:04:36,920
+the Observational Health Data Sciences and Informatics or
+
+66
+00:04:36,920 --> 00:04:43,360
+OHDSI initiative that developed analytic tools for exploring data in the OMOP model.
+
+67
+00:04:43,360 --> 00:04:47,360
+This example is a heat map showing the distribution of
+
+68
+00:04:47,360 --> 00:04:54,470
+diagnoses in a population of synthetic patients on our Georgia Tech FHIR server.
+
+69
+00:04:54,470 --> 00:05:01,000
+Population-level analysis is not supported by FHIR but might be in the future.

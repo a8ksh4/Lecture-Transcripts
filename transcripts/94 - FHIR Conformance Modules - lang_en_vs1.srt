@@ -1,0 +1,107 @@
+1
+00:00:00,000 --> 00:00:05,840
+The capabilities operation in the whole system section retrieves
+
+2
+00:00:05,840 --> 00:00:08,795
+the server's capability statement resource
+
+3
+00:00:08,795 --> 00:00:12,869
+describing its current operational functionality.
+
+4
+00:00:12,869 --> 00:00:14,940
+As shown here, using
+
+5
+00:00:14,940 --> 00:00:19,723
+Graham Greeves interesting tabular presentation for human consumption,
+
+6
+00:00:19,723 --> 00:00:23,220
+clients connecting to a FHIR server can use the capabilities
+
+7
+00:00:23,220 --> 00:00:29,575
+interaction to check whether they are version and or feature compatible with the server.
+
+8
+00:00:29,575 --> 00:00:34,640
+Beyond this, FHIR provides a set of resources to represent and share
+
+9
+00:00:34,640 --> 00:00:40,145
+the adaptations made in a particular server in a computable fashion.
+
+10
+00:00:40,145 --> 00:00:43,440
+Adaptations might include restrictions such as
+
+11
+00:00:43,440 --> 00:00:47,470
+allowed values within a value set specified in the standard.
+
+12
+00:00:47,470 --> 00:00:51,615
+Alternatively, they might specify another value set that is more
+
+13
+00:00:51,615 --> 00:00:56,580
+expensive or that it is necessary in a special context.
+
+14
+00:00:56,580 --> 00:01:02,430
+For example, the value sets for the specification of ethnicity differ among countries.
+
+15
+00:01:02,430 --> 00:01:07,210
+Data elements can be required and extensions can be added.
+
+16
+00:01:07,210 --> 00:01:12,805
+This set of resources form the conformance module as shown here.
+
+17
+00:01:12,805 --> 00:01:18,180
+The conformance resources can be used in isolation but they are typically used in
+
+18
+00:01:18,180 --> 00:01:24,455
+the context of an Implementation Guide as shown in the center of this diagram.
+
+19
+00:01:24,455 --> 00:01:29,550
+Implementation Guides are documents published by a domain, institution,
+
+20
+00:01:29,550 --> 00:01:32,610
+or vendor that described how FHIR is
+
+21
+00:01:32,610 --> 00:01:36,935
+adapted to support a certain use case or set of use cases.
+
+22
+00:01:36,935 --> 00:01:41,215
+An Implementation Guide combines a set of conformance resources
+
+23
+00:01:41,215 --> 00:01:45,960
+and supporting narrative into a document to be used by implementors.
+
+24
+00:01:45,960 --> 00:01:49,990
+A good example of an Implementation Guide is the DAF,
+
+25
+00:01:49,990 --> 00:01:56,050
+Data Access Framework to the FHIR specification that specifies access to
+
+26
+00:01:56,050 --> 00:01:59,050
+patient data for EHR systems to meet
+
+27
+00:01:59,050 --> 00:02:04,000
+the requirements of meaningful use and related federal regulations.

@@ -1,0 +1,95 @@
+1
+00:00:00,000 --> 00:00:06,515
+There are examples of most resources on the HL7 FHIR site in XML,
+
+2
+00:00:06,515 --> 00:00:09,390
+JSON and Turtle formats.
+
+3
+00:00:09,390 --> 00:00:13,620
+Any student taking this course is probably familiar with XML and JSON.
+
+4
+00:00:13,620 --> 00:00:17,850
+Turtle, Terse RDF Triple Language,
+
+5
+00:00:17,850 --> 00:00:21,630
+is a format used by the World Wide Web Consortium,
+
+6
+00:00:21,630 --> 00:00:25,990
+W3C, in its Resource Description Framework,
+
+7
+00:00:25,990 --> 00:00:30,565
+RDF data model for the proposed semantic web.
+
+8
+00:00:30,565 --> 00:00:38,300
+RDF extends the linking structure of the web using Uniform Resource Identifiers, URIs,
+
+9
+00:00:38,300 --> 00:00:41,510
+to describe relationships between things,
+
+10
+00:00:41,510 --> 00:00:44,885
+as well as the two ends of the link in a triple,
+
+11
+00:00:44,885 --> 00:00:48,405
+comprising a subject, predicate and object,
+
+12
+00:00:48,405 --> 00:00:51,360
+each of which can be a URI.
+
+13
+00:00:51,360 --> 00:00:57,200
+This informal graph from the W3C RDF primer shows
+
+14
+00:00:57,200 --> 00:01:00,035
+how this construct could power a semantic web
+
+15
+00:01:00,035 --> 00:01:03,375
+that understands entities and their relationships.
+
+16
+00:01:03,375 --> 00:01:05,810
+Here as is often the case,
+
+17
+00:01:05,810 --> 00:01:08,470
+the Mona Lisa is at the center of attention.
+
+18
+00:01:08,470 --> 00:01:11,610
+Here we see that Bob is a person who likes
+
+19
+00:01:11,610 --> 00:01:15,595
+this painting that was created by Leonardo da Vinci.
+
+20
+00:01:15,595 --> 00:01:19,715
+As in our earlier discussion of semantic interoperability,
+
+21
+00:01:19,715 --> 00:01:22,250
+it is worth considering whether there is a need for
+
+22
+00:01:22,250 --> 00:01:28,215
+a semantic formalism in an era when machines are increasingly figuring these things out.
+
+23
+00:01:28,215 --> 00:01:32,510
+I have posted links to the HL7 FHIR site's discussion of
+
+24
+00:01:32,510 --> 00:01:39,000
+RDF and to the W3C Semantic Web Health Care and Life Sciences Interest Group.

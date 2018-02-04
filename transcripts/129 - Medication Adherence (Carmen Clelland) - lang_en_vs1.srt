@@ -1,0 +1,835 @@
+1
+00:00:05,100 --> 00:00:09,455
+Sure. My name is Carmen Clelland and I do go by nickname of Skip,
+
+2
+00:00:09,455 --> 00:00:11,020
+so that's fine for Skip.
+
+3
+00:00:11,020 --> 00:00:15,190
+I started my career within the India Health Service and
+
+4
+00:00:15,190 --> 00:00:20,590
+spent 20 plus years within clinical functions,
+
+5
+00:00:20,590 --> 00:00:23,065
+with India Health Service, and then also
+
+6
+00:00:23,065 --> 00:00:26,335
+administrative services within the India Health Service.
+
+7
+00:00:26,335 --> 00:00:29,065
+Later, past three years,
+
+8
+00:00:29,065 --> 00:00:31,015
+I've been working at the CDC.
+
+9
+00:00:31,015 --> 00:00:32,500
+During this period of time though,
+
+10
+00:00:32,500 --> 00:00:35,240
+I've always had an interest in medication adherence,
+
+11
+00:00:35,240 --> 00:00:36,900
+the issues of medication here,
+
+12
+00:00:36,900 --> 00:00:40,405
+and what it means to a patient level, provider level,
+
+13
+00:00:40,405 --> 00:00:42,280
+public level as far as,
+
+14
+00:00:42,280 --> 00:00:47,035
+how can we identify ways to help provide solutions to
+
+15
+00:00:47,035 --> 00:00:48,880
+medication adherence and why is
+
+16
+00:00:48,880 --> 00:00:54,160
+such an important issue to address overall as a public health issue?
+
+17
+00:00:55,770 --> 00:01:00,860
+Sure. The apps that we we're looking at because of
+
+18
+00:01:00,860 --> 00:01:04,100
+the overall greater focus on public health medication adherence.
+
+19
+00:01:04,100 --> 00:01:06,620
+Now, when I talk about that,
+
+20
+00:01:06,620 --> 00:01:09,065
+what I'm trying to explore is,
+
+21
+00:01:09,065 --> 00:01:13,835
+how can we use public health data along, or just regular,
+
+22
+00:01:13,835 --> 00:01:18,170
+even Big Data, along with the information that we would get from potentially,
+
+23
+00:01:18,170 --> 00:01:21,770
+a patient medical record through an EHR,
+
+24
+00:01:21,770 --> 00:01:26,210
+an aggregate data form for physicians,
+
+25
+00:01:26,210 --> 00:01:27,950
+for pharmacists, for patients,
+
+26
+00:01:27,950 --> 00:01:30,275
+for public health professionals,
+
+27
+00:01:30,275 --> 00:01:32,600
+in order to drive a change in dynamic,
+
+28
+00:01:32,600 --> 00:01:35,270
+and how people view medication adherence?
+
+29
+00:01:35,270 --> 00:01:42,965
+The goal was as if we were to identify how medication adherence is within a county,
+
+30
+00:01:42,965 --> 00:01:44,345
+or a census tract,
+
+31
+00:01:44,345 --> 00:01:45,890
+or in a case,
+
+32
+00:01:45,890 --> 00:01:49,025
+one of the areas that we were thinking of was a tribal tract,
+
+33
+00:01:49,025 --> 00:01:51,260
+and be able to say,
+
+34
+00:01:51,260 --> 00:01:53,630
+in this part of the city,
+
+35
+00:01:53,630 --> 00:01:54,980
+or this part of the reservation,
+
+36
+00:01:54,980 --> 00:01:56,060
+or this part in rural America,
+
+37
+00:01:56,060 --> 00:01:58,160
+or this part in a county,
+
+38
+00:01:58,160 --> 00:02:03,275
+that you know that your adherence rate on a certain medication is 60%.
+
+39
+00:02:03,275 --> 00:02:07,160
+Well, how can we identify that in order to
+
+40
+00:02:07,160 --> 00:02:11,930
+drive medication prescribing patterns, maybe drive education,
+
+41
+00:02:11,930 --> 00:02:14,810
+maybe drive other factors that might be involved,
+
+42
+00:02:14,810 --> 00:02:16,820
+even to planning of cities,
+
+43
+00:02:16,820 --> 00:02:17,990
+or planning of rural areas,
+
+44
+00:02:17,990 --> 00:02:23,465
+and making sure that we address it on a more public health role issue,
+
+45
+00:02:23,465 --> 00:02:25,210
+looking at population health,
+
+46
+00:02:25,210 --> 00:02:29,285
+then being able to help improve that patient's ability,
+
+47
+00:02:29,285 --> 00:02:34,095
+to have all the things they need in order to have better medication adherence practices.
+
+48
+00:02:34,095 --> 00:02:37,990
+That was the goal of this and it sounds kind of lofty.
+
+49
+00:02:37,990 --> 00:02:41,495
+One of the things I worked with the two teams,
+
+50
+00:02:41,495 --> 00:02:46,390
+and it's interesting because the interaction between the two teams was different too.
+
+51
+00:02:46,390 --> 00:02:48,492
+One was very engaged,
+
+52
+00:02:48,492 --> 00:02:50,885
+the other team was slightly engaged,
+
+53
+00:02:50,885 --> 00:02:53,715
+although they didn't need that subject matter expertise,
+
+54
+00:02:53,715 --> 00:02:56,480
+being a clinical pharmacist all those years,
+
+55
+00:02:56,480 --> 00:02:59,645
+I was able to provide that to that team with some information,
+
+56
+00:02:59,645 --> 00:03:04,445
+and then follow up and so I met with them maybe just a couple of times.
+
+57
+00:03:04,445 --> 00:03:07,130
+The other team though was more engaged,
+
+58
+00:03:07,130 --> 00:03:10,790
+they wanted to have some more input about what medication here it was,
+
+59
+00:03:10,790 --> 00:03:11,990
+why was it this issue?
+
+60
+00:03:11,990 --> 00:03:16,205
+Why did they think that FHIR technology
+
+61
+00:03:16,205 --> 00:03:23,265
+and being able to develop strategies to help support that technology in use.
+
+62
+00:03:23,265 --> 00:03:26,830
+A population health data could help solve this issue.
+
+63
+00:03:26,830 --> 00:03:28,805
+I went through with that team,
+
+64
+00:03:28,805 --> 00:03:29,930
+my thinking on this,
+
+65
+00:03:29,930 --> 00:03:32,795
+and why I thought this could be a way to look at it.
+
+66
+00:03:32,795 --> 00:03:34,625
+They were very much engaged,
+
+67
+00:03:34,625 --> 00:03:36,560
+and ended up developing
+
+68
+00:03:36,560 --> 00:03:42,980
+a nice framework concept that would lead to a proof of concept at some point,
+
+69
+00:03:42,980 --> 00:03:48,350
+in order to say, "Can we develop these applications using FHIR Technology,
+
+70
+00:03:48,350 --> 00:03:53,810
+Big Data, insurance claim information potentially Medicare claim, Medicare claim data?
+
+71
+00:03:53,810 --> 00:03:55,955
+All those things that can be accessible,
+
+72
+00:03:55,955 --> 00:04:02,930
+and then using it to be able to use it as a population tool to help prescribers,
+
+73
+00:04:02,930 --> 00:04:06,770
+pharmacists, patients, and then public health professionals
+
+74
+00:04:06,770 --> 00:04:10,340
+that develop the right strategies to improve medication adherence."
+
+75
+00:04:10,340 --> 00:04:16,250
+Because, if we make just overall group strategy of doing medication adherence,
+
+76
+00:04:16,250 --> 00:04:19,550
+it may not apply to the person in inner city versus the person in the rural,
+
+77
+00:04:19,550 --> 00:04:20,870
+versus the person on a reservation,
+
+78
+00:04:20,870 --> 00:04:23,705
+versus the person living wherever they are,
+
+79
+00:04:23,705 --> 00:04:26,090
+and having better aggregate data in
+
+80
+00:04:26,090 --> 00:04:29,015
+those population areas that we want to really focus on,
+
+81
+00:04:29,015 --> 00:04:33,290
+will help drive better prescribing patterns from physicians,
+
+82
+00:04:33,290 --> 00:04:35,240
+better counseling from pharmacists,
+
+83
+00:04:35,240 --> 00:04:38,720
+better ability to take the medications from the patients,
+
+84
+00:04:38,720 --> 00:04:43,030
+and better public health campaigns from the public health practitioners.
+
+85
+00:04:43,030 --> 00:04:46,670
+That is the strategy on that.
+
+86
+00:04:46,670 --> 00:04:51,350
+The framework that the one team developed,
+
+87
+00:04:51,350 --> 00:04:56,495
+was called the Medication Adherence Support System Conceptual Architecture.
+
+88
+00:04:56,495 --> 00:04:57,950
+And what the goal of that,
+
+89
+00:04:57,950 --> 00:05:00,475
+was to look at it from that perspective,
+
+90
+00:05:00,475 --> 00:05:03,890
+of not only just always focusing on that patient perspective,
+
+91
+00:05:03,890 --> 00:05:05,120
+but looking to say,
+
+92
+00:05:05,120 --> 00:05:07,855
+"Who are all the people that need to interact with that?"
+
+93
+00:05:07,855 --> 00:05:12,050
+And then how does that interaction need to coordinate together,
+
+94
+00:05:12,050 --> 00:05:17,210
+to be able to drive the data into the interface,
+
+95
+00:05:17,210 --> 00:05:22,820
+and then being able to regurgitate it out in a way that is meaningful to that physician,
+
+96
+00:05:22,820 --> 00:05:24,560
+still meaningful to the patient,
+
+97
+00:05:24,560 --> 00:05:26,180
+meaningful to the pharmacist meaningful to all,
+
+98
+00:05:26,180 --> 00:05:29,375
+to the public health practitioner,
+
+99
+00:05:29,375 --> 00:05:32,480
+and supporting the overall goal of,
+
+100
+00:05:32,480 --> 00:05:34,240
+"I want that patient to be healthy,
+
+101
+00:05:34,240 --> 00:05:38,250
+I want to be able to take the medication and we know if they take their medication,
+
+102
+00:05:38,250 --> 00:05:43,790
+chances are they will have mostly success with whatever chronic disease,
+
+103
+00:05:43,790 --> 00:05:46,010
+or other issues that they're working to deal with."
+
+104
+00:05:46,010 --> 00:05:49,670
+And so, that was how that architecture was set up.
+
+105
+00:05:49,670 --> 00:05:52,990
+As you look at the architecture that they developed,
+
+106
+00:05:52,990 --> 00:05:54,740
+it really is strategic in nature,
+
+107
+00:05:54,740 --> 00:06:01,185
+where you can actually focus on various elements of this concept architecture,
+
+108
+00:06:01,185 --> 00:06:03,850
+and continue to develop,
+
+109
+00:06:03,850 --> 00:06:05,700
+we may be one module over here,
+
+110
+00:06:05,700 --> 00:06:07,140
+and another module later,
+
+111
+00:06:07,140 --> 00:06:08,895
+in order to some point,
+
+112
+00:06:08,895 --> 00:06:12,435
+in five years maybe,
+
+113
+00:06:12,435 --> 00:06:14,650
+have the full architecture put together,
+
+114
+00:06:14,650 --> 00:06:17,520
+that would then you could go out and use to be able to help
+
+115
+00:06:17,520 --> 00:06:20,635
+drive public health medication adherence,
+
+116
+00:06:20,635 --> 00:06:24,240
+and then eventually, affecting as a population strategy.
+
+117
+00:06:24,240 --> 00:06:27,900
+That's how the architecture was developed and it's very detailed
+
+118
+00:06:27,900 --> 00:06:33,000
+in how they came up with that conceptual architecture.
+
+119
+00:06:33,000 --> 00:06:34,680
+What the team did,
+
+120
+00:06:34,680 --> 00:06:36,595
+that did the conceptual architecture,
+
+121
+00:06:36,595 --> 00:06:39,690
+they also worked on initial component of an app,
+
+122
+00:06:39,690 --> 00:06:41,175
+which is the Patient Facing App.
+
+123
+00:06:41,175 --> 00:06:43,140
+And probably for most of the apps that we see,
+
+124
+00:06:43,140 --> 00:06:49,005
+that's probably the easiest because it just requires patient data input,
+
+125
+00:06:49,005 --> 00:06:51,630
+as far as, "Did they take the medication?
+
+126
+00:06:51,630 --> 00:06:53,955
+What time of day did they take it?," those types of things.
+
+127
+00:06:53,955 --> 00:06:57,540
+There's a multitude of those out on the market.
+
+128
+00:06:57,540 --> 00:07:00,660
+That was the first strategy that both teams actually
+
+129
+00:07:00,660 --> 00:07:04,420
+ended up creating examples of their apps,
+
+130
+00:07:04,420 --> 00:07:06,745
+and doing that, and what that would look like.
+
+131
+00:07:06,745 --> 00:07:11,215
+Both of them had some good components to it with regards to,
+
+132
+00:07:11,215 --> 00:07:13,950
+when they miss doses, what was that,
+
+133
+00:07:13,950 --> 00:07:16,715
+or what was the cause of missed doses?
+
+134
+00:07:16,715 --> 00:07:20,580
+One of the things that I cautioned them on that is,
+
+135
+00:07:20,580 --> 00:07:21,810
+when you're talking about the patients,
+
+136
+00:07:21,810 --> 00:07:25,230
+there's this whole fatigue issue
+
+137
+00:07:25,230 --> 00:07:29,970
+of being overwhelmed by always having to put stuff into a program,
+
+138
+00:07:29,970 --> 00:07:32,430
+or having to hit a buzzer or something to that,
+
+139
+00:07:32,430 --> 00:07:34,705
+where eventually you start phasing it out,
+
+140
+00:07:34,705 --> 00:07:36,920
+and it just becomes background noise.
+
+141
+00:07:36,920 --> 00:07:41,370
+And how do we use that strategy in the future to help prevent these things?
+
+142
+00:07:41,370 --> 00:07:44,905
+Where you get your key information into those patients facing apps,
+
+143
+00:07:44,905 --> 00:07:49,400
+and then being able to retrieve that out at the other end,
+
+144
+00:07:49,400 --> 00:07:50,910
+so that way, the physicians,
+
+145
+00:07:50,910 --> 00:07:52,650
+and the pharmacists, and the public health people,
+
+146
+00:07:52,650 --> 00:07:55,295
+can have access to that information,
+
+147
+00:07:55,295 --> 00:08:00,435
+clean of course, so that way it doesn't identify patients at a patient level,
+
+148
+00:08:00,435 --> 00:08:02,115
+but enough, where they can say,
+
+149
+00:08:02,115 --> 00:08:05,160
+"In this urban area,
+
+150
+00:08:05,160 --> 00:08:09,275
+in Atlanta, medications in ward
+
+151
+00:08:09,275 --> 00:08:14,975
+six is only taking hypertensive medications 40% of the time.
+
+152
+00:08:14,975 --> 00:08:18,780
+Why is in Ward 6 that is creating this as an overall thing?"
+
+153
+00:08:18,780 --> 00:08:22,500
+That way we would want to explore and then you'd be able to say,
+
+154
+00:08:22,500 --> 00:08:25,060
+"Now I can do it, because I have the data.
+
+155
+00:08:25,060 --> 00:08:26,935
+I can go to my city planner,
+
+156
+00:08:26,935 --> 00:08:28,230
+I can go to the pharmacist,
+
+157
+00:08:28,230 --> 00:08:30,585
+I can go detail physicians,
+
+158
+00:08:30,585 --> 00:08:33,260
+and let them know this is a strategy that they can do."
+
+159
+00:08:33,260 --> 00:08:36,210
+And so that's how the architecture was set up to do,
+
+160
+00:08:36,210 --> 00:08:38,010
+to be able to support that,
+
+161
+00:08:38,010 --> 00:08:40,590
+and make it into something that's workable,
+
+162
+00:08:40,590 --> 00:08:43,380
+usable, and eventually in the end,
+
+163
+00:08:43,380 --> 00:08:49,664
+be something that can make an impact.
+
+164
+00:08:49,664 --> 00:08:51,970
+I think the next step,
+
+165
+00:08:51,970 --> 00:08:55,135
+it needs to go in a couple of different phases.
+
+166
+00:08:55,135 --> 00:08:58,280
+Clearly, there's work done initially on the patient phase,
+
+167
+00:08:58,280 --> 00:09:00,935
+but it's not complete as the way these were.
+
+168
+00:09:00,935 --> 00:09:02,805
+I can't remember how many weeks the sessions were
+
+169
+00:09:02,805 --> 00:09:06,505
+so they had limit time with their team together.
+
+170
+00:09:06,505 --> 00:09:08,495
+There's still need to work on that patient app.
+
+171
+00:09:08,495 --> 00:09:12,600
+There needs to be development on how to build in the FHIR Technology,
+
+172
+00:09:12,600 --> 00:09:14,705
+bringing in the FHIR Technology,
+
+173
+00:09:14,705 --> 00:09:16,910
+along with Big Data to incorporate,
+
+174
+00:09:16,910 --> 00:09:20,030
+so you can start seeing conceptually,
+
+175
+00:09:20,030 --> 00:09:25,880
+how Big Data impacts decision-making at a county, census tract,
+
+176
+00:09:25,880 --> 00:09:29,920
+tribal tract, other population modalities of how you to
+
+177
+00:09:29,920 --> 00:09:35,255
+identify groups of people and then bring that into an application.
+
+178
+00:09:35,255 --> 00:09:39,440
+Because I think that's when you'll start seeing how you can drive this information.
+
+179
+00:09:39,440 --> 00:09:40,880
+There's plenty of patient apps out
+
+180
+00:09:40,880 --> 00:09:43,700
+there that you might be able to get some information from,
+
+181
+00:09:43,700 --> 00:09:44,870
+and I'm sure there's a lot of people,
+
+182
+00:09:44,870 --> 00:09:47,520
+skilled and looking at it from that perspective since that's
+
+183
+00:09:47,520 --> 00:09:52,010
+the most common way people would use to help say,
+
+184
+00:09:52,010 --> 00:09:54,060
+"I can help improve adherence."
+
+185
+00:09:54,060 --> 00:09:55,945
+But then driving in this other point,
+
+186
+00:09:55,945 --> 00:09:58,385
+so I think the next phase for me,
+
+187
+00:09:58,385 --> 00:10:00,200
+and what we're looking at with this,
+
+188
+00:10:00,200 --> 00:10:05,240
+is to drive that population health data
+
+189
+00:10:05,240 --> 00:10:11,570
+gathering along with access to some sort of patient records system,
+
+190
+00:10:11,570 --> 00:10:14,360
+that includes claims data, those types of things.
+
+191
+00:10:14,360 --> 00:10:19,616
+That would be able to make this a more comprehensive look at medication adherence.
+
+192
+00:10:19,616 --> 00:10:23,630
+Then with that, look at that population health part of it,
+
+193
+00:10:23,630 --> 00:10:27,650
+and then saying, "How can we affect health equity because of what we're using?"
+
+194
+00:10:27,650 --> 00:10:30,320
+Now with data making decisions versus
+
+195
+00:10:30,320 --> 00:10:34,925
+the anecdotal information you tend to get from patients, "I'll take this",
+
+196
+00:10:34,925 --> 00:10:37,080
+or the late dose,
+
+197
+00:10:37,080 --> 00:10:39,260
+"I'm going to start taking this a week for my doctor's appointments,
+
+198
+00:10:39,260 --> 00:10:43,220
+so that way doesn't look like I'm not," or other things.
+
+199
+00:10:43,220 --> 00:10:45,110
+And it's not necessarily all the patients fault,
+
+200
+00:10:45,110 --> 00:10:47,210
+it's just the way our system is set up,
+
+201
+00:10:47,210 --> 00:10:51,455
+to not necessarily look at medication adherence as an issue,
+
+202
+00:10:51,455 --> 00:10:52,730
+it's more or less,
+
+203
+00:10:52,730 --> 00:10:54,260
+the chronic disease issue.
+
+204
+00:10:54,260 --> 00:10:58,685
+But if you're spending hundreds of billions dollars a year on medications,
+
+205
+00:10:58,685 --> 00:11:01,625
+and there's a lot of that being wasted,
+
+206
+00:11:01,625 --> 00:11:04,160
+then we're looking at also something that can have
+
+207
+00:11:04,160 --> 00:11:06,890
+an impact on our health care of our system overall,
+
+208
+00:11:06,890 --> 00:11:10,550
+as well as our public health systems overall too.
+
+209
+00:11:10,550 --> 00:11:19,060
+So that's the next strategy on this. Thank you.

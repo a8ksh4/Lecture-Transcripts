@@ -1,0 +1,79 @@
+1
+00:00:00,000 --> 00:00:02,850
+The Kaiser Family Foundation is
+
+2
+00:00:02,850 --> 00:00:07,800
+a nonprofit organization focusing on national health issues,
+
+3
+00:00:07,800 --> 00:00:12,050
+as well as the U.S. role in global health policy.
+
+4
+00:00:12,050 --> 00:00:17,070
+This 2013 Kaiser Family Foundation data shows
+
+5
+00:00:17,070 --> 00:00:22,600
+that uninsured people receive substantially less healthcare than the insured.
+
+6
+00:00:22,600 --> 00:00:30,245
+This 2015 data shows that the uninsured are likely to have no regular source of care,
+
+7
+00:00:30,245 --> 00:00:33,145
+to postpone or do without needed care,
+
+8
+00:00:33,145 --> 00:00:38,915
+or to postpone or not get needed prescriptions due to cost.
+
+9
+00:00:38,915 --> 00:00:41,720
+Kaiser Family Foundation goes on to say that
+
+10
+00:00:41,720 --> 00:00:46,580
+insured and uninsured people who are injured or newly diagnosed with a chronic condition,
+
+11
+00:00:46,580 --> 00:00:48,890
+such as diabetes or hypertension,
+
+12
+00:00:48,890 --> 00:00:53,140
+receive similar plans for follow-up care from their physician.
+
+13
+00:00:53,140 --> 00:00:56,285
+People without health coverage are less likely to obtain
+
+14
+00:00:56,285 --> 00:01:00,720
+all the recommended services than those with coverage.
+
+15
+00:01:00,720 --> 00:01:05,600
+Finally, because the uninsured are less likely to have regular outpatient care,
+
+16
+00:01:05,600 --> 00:01:09,560
+they are more likely to end up with expensive hospitalizations for
+
+17
+00:01:09,560 --> 00:01:14,910
+avoidable health problems and to experienced declines in their overall health.
+
+18
+00:01:14,910 --> 00:01:18,170
+When hospitalized, uninsured people receive
+
+19
+00:01:18,170 --> 00:01:21,035
+fewer diagnostic and therapeutic services
+
+20
+00:01:21,035 --> 00:01:24,290
+and have higher mortality rates than those with insurance.

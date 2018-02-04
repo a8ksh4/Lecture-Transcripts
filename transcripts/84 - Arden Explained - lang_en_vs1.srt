@@ -1,0 +1,263 @@
+1
+00:00:00,000 --> 00:00:04,330
+The basic Arden unit is Medical Logic Modules,
+
+2
+00:00:04,330 --> 00:00:10,200
+MLMs, each of which contains sufficient knowledge to make a single clinical decision.
+
+3
+00:00:10,200 --> 00:00:15,445
+As illustrated here, MLMs used the Backus-Naur form, BNF,
+
+4
+00:00:15,445 --> 00:00:18,240
+a notation for context-free grammars,
+
+5
+00:00:18,240 --> 00:00:22,455
+otherwise used to describe the syntax of computer programming languages,
+
+6
+00:00:22,455 --> 00:00:26,755
+document formats, instruction sets, and communication protocols.
+
+7
+00:00:26,755 --> 00:00:31,475
+Each MLM can have four categories of information.
+
+8
+00:00:31,475 --> 00:00:36,730
+Maintenance, Library, Knowledge, and Resources.
+
+9
+00:00:36,730 --> 00:00:40,295
+This example from Dr. Ribshek illustrates two of these,
+
+10
+00:00:40,295 --> 00:00:42,785
+and I've highlighted them in yellow for you.
+
+11
+00:00:42,785 --> 00:00:44,925
+Here in the library category,
+
+12
+00:00:44,925 --> 00:00:47,915
+you see that the purpose of this MLM is to check
+
+13
+00:00:47,915 --> 00:00:52,645
+each new penicillin prescription for a penicillin allergy.
+
+14
+00:00:52,645 --> 00:00:54,115
+Here in the knowledge category,
+
+15
+00:00:54,115 --> 00:00:56,580
+you see that the triggering event is that
+
+16
+00:00:56,580 --> 00:01:01,215
+the newly prescribed medication belongs to the penicillin class.
+
+17
+00:01:01,215 --> 00:01:06,400
+Of course, the way to determine that might well be EHR-specific.
+
+18
+00:01:06,400 --> 00:01:09,220
+Here you see the logic to evaluate the decision,
+
+19
+00:01:09,220 --> 00:01:14,205
+and here, the action to take if its value is true.
+
+20
+00:01:14,205 --> 00:01:21,510
+There is now an Arden XML schema and this diagram of it details all four categories.
+
+21
+00:01:21,510 --> 00:01:24,570
+In addition to the two categories we saw earlier,
+
+22
+00:01:24,570 --> 00:01:28,540
+each MLM also contains management information to help maintain
+
+23
+00:01:28,540 --> 00:01:33,345
+the knowledge base of MLMs and links to other knowledge resources.
+
+24
+00:01:33,345 --> 00:01:36,900
+Health personnel can create MLMs and implement them in
+
+25
+00:01:36,900 --> 00:01:43,115
+any EHR or clinical information system that conforms to the Arden specification.
+
+26
+00:01:43,115 --> 00:01:47,430
+Keep in mind that each MLM can drive one decision,
+
+27
+00:01:47,430 --> 00:01:51,030
+so in practice, a group of MLMs may be required.
+
+28
+00:01:51,030 --> 00:01:57,350
+Here, five MLMs help provide clinical decision support for the use of warfarin,
+
+29
+00:01:57,350 --> 00:02:01,170
+a common but potentially dangerous blood thinner often
+
+30
+00:02:01,170 --> 00:02:05,315
+given to patients after thrombotic strokes caused by clots,
+
+31
+00:02:05,315 --> 00:02:09,250
+or to treat other potential blood clotting problems.
+
+32
+00:02:09,250 --> 00:02:12,525
+Too little of the drug may mean another stroke,
+
+33
+00:02:12,525 --> 00:02:16,390
+too much can cause excessive and even fatal bleeding.
+
+34
+00:02:16,390 --> 00:02:21,485
+Warfarin interacts with many other drugs and even the patient's diet,
+
+35
+00:02:21,485 --> 00:02:24,050
+so it is a tricky drug to manage.
+
+36
+00:02:24,050 --> 00:02:28,460
+Physicians use a test called PT/INR to assess the degree
+
+37
+00:02:28,460 --> 00:02:32,825
+of blood thinning to manage the warfarin dose in each patient.
+
+38
+00:02:32,825 --> 00:02:34,965
+You can see here that the modules,
+
+39
+00:02:34,965 --> 00:02:39,450
+using clinical data about the patient including their PT/INR,
+
+40
+00:02:39,450 --> 00:02:42,700
+can make warfarin dosage recommendations.
+
+41
+00:02:42,700 --> 00:02:47,510
+This part of the MLM specifically deals with a lab test,
+
+42
+00:02:47,510 --> 00:02:51,440
+the creatinine level, that measures kidney function.
+
+43
+00:02:51,440 --> 00:02:53,920
+It is important to know the patient's kidney function
+
+44
+00:02:53,920 --> 00:02:57,580
+before giving the dye because the kidneys remove the dye,
+
+45
+00:02:57,580 --> 00:03:00,170
+and it can cause kidney damage.
+
+46
+00:03:00,170 --> 00:03:04,260
+As a result, Arden needs to know the creatinine level.
+
+47
+00:03:04,260 --> 00:03:12,150
+And to get it, dam = PDQRES2 in curly braces, highlighted here,
+
+48
+00:03:12,150 --> 00:03:15,390
+must be interpreted by the EHR in
+
+49
+00:03:15,390 --> 00:03:21,225
+a particular hospital to fetch that value from its proprietary database.
+
+50
+00:03:21,225 --> 00:03:25,145
+The purpose of Arden is to share clinical decision support logic,
+
+51
+00:03:25,145 --> 00:03:29,555
+but because EHR have not been regularly interoperable,
+
+52
+00:03:29,555 --> 00:03:35,020
+the work involved in implementing Arden locally has led to low Arden adoption.
+
+53
+00:03:35,020 --> 00:03:40,435
+This impediment is so serious and widely known that it even has a name,
+
+54
+00:03:40,435 --> 00:03:43,355
+a curly braces problem.
+
+55
+00:03:43,355 --> 00:03:47,330
+This leads us to one of the key advantages of FHIR that I
+
+56
+00:03:47,330 --> 00:03:52,395
+mentioned earlier as a reason for this discussion of clinical decision support.
+
+57
+00:03:52,395 --> 00:03:57,890
+FHIR-enabled EHRs would present creatinine in a consistent form,
+
+58
+00:03:57,890 --> 00:04:01,015
+as a FHIR observation resource.
+
+59
+00:04:01,015 --> 00:04:06,636
+As a result, a hypothetical clinical decision support FHIR app
+
+60
+00:04:06,636 --> 00:04:12,940
+need have no knowledge of the EHR's internal data structure or representation.
+
+61
+00:04:12,940 --> 00:04:16,450
+It would not need to be adapted to each EHR,
+
+62
+00:04:16,450 --> 00:04:22,600
+greatly reducing development cost and facilitating implementation and hence,
+
+63
+00:04:22,600 --> 00:04:26,805
+the likelihood of clinical decision support adoption.
+
+64
+00:04:26,805 --> 00:04:30,365
+We will discuss integration with workflow and process.
+
+65
+00:04:30,365 --> 00:04:33,710
+The second major advantage of FHIR and SMART on FHIR
+
+66
+00:04:33,710 --> 00:04:38,000
+in support of clinical decision support in the next lesson.

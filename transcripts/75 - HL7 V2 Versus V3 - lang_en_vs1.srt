@@ -1,0 +1,59 @@
+1
+00:00:00,000 --> 00:00:01,620
+In the last lesson,
+
+2
+00:00:01,620 --> 00:00:07,935
+what I provided was actually a simplistic comparison between HL7 v2 and v3 messages.
+
+3
+00:00:07,935 --> 00:00:11,010
+We will now look at that in more detail to help us understand
+
+4
+00:00:11,010 --> 00:00:14,605
+the evolution of HL7 standards development.
+
+5
+00:00:14,605 --> 00:00:18,770
+HL7 v2 is not plug and play.
+
+6
+00:00:18,770 --> 00:00:21,840
+In fact, the concept was just getting started back then.
+
+7
+00:00:21,840 --> 00:00:25,480
+In the hardware world, it certainly was not very common.
+
+8
+00:00:25,480 --> 00:00:28,470
+V2 provides 80% of the interface and
+
+9
+00:00:28,470 --> 00:00:33,420
+a framework to negotiate the remaining 20% on a case-by-case basis.
+
+10
+00:00:33,420 --> 00:00:36,570
+Thus, developing a v2 interface between
+
+11
+00:00:36,570 --> 00:00:40,960
+any two systems requires coding and has a certain degree of customization.
+
+12
+00:00:40,960 --> 00:00:46,465
+Part of the reason why is that v2 is not based on a standard model.
+
+13
+00:00:46,465 --> 00:00:52,925
+The key goal of HL7 v3 development was to get as close to plug and play as possible.
+
+14
+00:00:52,925 --> 00:00:55,455
+It uses the Reference Information Model,
+
+15
+00:00:55,455 --> 00:01:00,000
+or RIM, in an effort to provide consistency across the standard.

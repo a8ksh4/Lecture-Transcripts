@@ -1,0 +1,115 @@
+1
+00:00:00,000 --> 00:00:05,740
+Earlier I said there are many points of view on semantic interoperability.
+
+2
+00:00:05,740 --> 00:00:09,560
+Lloyd McKenzie is an internationally recognized expert
+
+3
+00:00:09,560 --> 00:00:15,910
+in HL7 data modeling and design and an adviser to Canada Health Infoway,
+
+4
+00:00:15,910 --> 00:00:21,484
+an organization with roughly the same role that the ONC plays here in the US.
+
+5
+00:00:21,484 --> 00:00:27,704
+In March 2013, he posted this on Graeme Greaves blog,
+
+6
+00:00:27,704 --> 00:00:34,260
+"Really robust semantic interoperability is going to be dependent on machine learning and
+
+7
+00:00:34,260 --> 00:00:38,190
+other technologies that will allow the computer to be at least as
+
+8
+00:00:38,190 --> 00:00:42,810
+good at reasoning and inferring context as humans are now.
+
+9
+00:00:42,810 --> 00:00:46,424
+At which point we won't need discrete data at all.
+
+10
+00:00:46,424 --> 00:00:50,730
+Computers will be able to take a big blob of text, dictation,
+
+11
+00:00:50,730 --> 00:00:54,810
+images and so on and extract all the relevant information
+
+12
+00:00:54,810 --> 00:00:59,925
+needed for their functions without it being neatly divided up for them."
+
+13
+00:00:59,925 --> 00:01:03,825
+I believe this is an important point of view.
+
+14
+00:01:03,825 --> 00:01:08,840
+Later, we will talk more about the potential for machine learning in healthcare.
+
+15
+00:01:08,840 --> 00:01:13,805
+For now, it is worth noting that the explosion in the use of this technology
+
+16
+00:01:13,805 --> 00:01:19,985
+was in large part due to the availability of huge digital data sets on the internet.
+
+17
+00:01:19,985 --> 00:01:23,950
+After all, the learning part of machine learning comes about when
+
+18
+00:01:23,950 --> 00:01:28,525
+computers process a huge number of examples of something.
+
+19
+00:01:28,525 --> 00:01:31,190
+This might be pictures of cats.
+
+20
+00:01:31,190 --> 00:01:36,030
+It might be examples of some text translated into another language.
+
+21
+00:01:36,030 --> 00:01:40,710
+It also might be EHR notes about rheumatoid arthritis.
+
+22
+00:01:40,710 --> 00:01:43,040
+Those first two data sets have been widely
+
+23
+00:01:43,040 --> 00:01:46,325
+available for some time now because of the Internet.
+
+24
+00:01:46,325 --> 00:01:52,455
+To be fair, they are also quite a bit more consistent than EHR notes.
+
+25
+00:01:52,455 --> 00:01:55,160
+Finally, of course, there are no privacy laws covering
+
+26
+00:01:55,160 --> 00:02:00,105
+cat photos or openly available translations of text.
+
+27
+00:02:00,105 --> 00:02:05,590
+Nevertheless, with EHR adoption now widespread and assuming we can
+
+28
+00:02:05,590 --> 00:02:11,420
+solve the easier levels of interoperability and have broader access to clinical data,
+
+29
+00:02:11,420 --> 00:02:16,000
+might semantic interoperability be best left to machines to figure out?

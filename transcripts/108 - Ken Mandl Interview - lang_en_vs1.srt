@@ -1,0 +1,827 @@
+1
+00:00:03,530 --> 00:00:07,120
+Yes. Ken Mandl, I direct a program at
+
+2
+00:00:07,120 --> 00:00:10,750
+Boston Children's Hospital called the Computational Health Informatics Program,
+
+3
+00:00:10,750 --> 00:00:17,255
+where we've got 23 faculty doing work in informatics across multiple dimensions.
+
+4
+00:00:17,255 --> 00:00:18,790
+One of those dimensions is SMART on FHIR.
+
+5
+00:00:18,790 --> 00:00:27,140
+Well, at that moment,
+
+6
+00:00:27,140 --> 00:00:30,170
+the adoption of electronic health records was
+
+7
+00:00:30,170 --> 00:00:35,040
+only about five percent in both inpatient and outpatient settings.
+
+8
+00:00:35,040 --> 00:00:38,355
+There was about to be first a 19 billion but
+
+9
+00:00:38,355 --> 00:00:42,530
+then a $48 billion federal incentive program
+
+10
+00:00:42,530 --> 00:00:46,970
+and around promoting the adoption of electronic health records.
+
+11
+00:00:46,970 --> 00:00:50,795
+The opportunity we thought was then
+
+12
+00:00:50,795 --> 00:00:55,475
+to dictate what the requirements of that program might be.
+
+13
+00:00:55,475 --> 00:00:58,220
+And we suggested that the requirements could be
+
+14
+00:00:58,220 --> 00:01:01,770
+reduced to really one very simple principle,
+
+15
+00:01:01,770 --> 00:01:08,373
+which is that the electronic medical records should be able to behave like iPhones,
+
+16
+00:01:08,373 --> 00:01:10,295
+and that they should be able to run apps,
+
+17
+00:01:10,295 --> 00:01:13,070
+and that those apps should be able to be added
+
+18
+00:01:13,070 --> 00:01:16,800
+to or deleted from the electronic medical record.
+
+19
+00:01:16,800 --> 00:01:21,230
+We call that the principle of substitutability and argued that
+
+20
+00:01:21,230 --> 00:01:27,590
+substitutability should be the driving force behind interoperability.
+
+21
+00:01:27,590 --> 00:01:34,455
+The opportunity was designed to produce a few important effects.
+
+22
+00:01:34,455 --> 00:01:40,010
+One was so that innovators could readily get their innovations to
+
+23
+00:01:40,010 --> 00:01:43,025
+the point of care in the same way that
+
+24
+00:01:43,025 --> 00:01:46,755
+app developers for the iPhone platform were able to do that.
+
+25
+00:01:46,755 --> 00:01:49,490
+It separated the innovators from
+
+26
+00:01:49,490 --> 00:01:52,490
+the electronic medical record companies and that
+
+27
+00:01:52,490 --> 00:01:56,397
+our vision of substitutability was that it would also be vendor independence.
+
+28
+00:01:56,397 --> 00:01:58,970
+So the app developer wouldn't even need
+
+29
+00:01:58,970 --> 00:02:02,120
+to know which electronic health record it was going to run on.
+
+30
+00:02:02,120 --> 00:02:04,756
+Now, the iPhone was only one year old at the time.
+
+31
+00:02:04,756 --> 00:02:06,740
+And when we wrote the article,
+
+32
+00:02:06,740 --> 00:02:09,785
+there were 10,000 apps developed for the iPhone.
+
+33
+00:02:09,785 --> 00:02:12,110
+When it was published three months later,
+
+34
+00:02:12,110 --> 00:02:15,673
+there were 50,000 apps in the iTunes App Store.
+
+35
+00:02:15,673 --> 00:02:20,400
+And so we caught this phenomenon at a hockey sticking moment,
+
+36
+00:02:20,400 --> 00:02:25,100
+and the world was just starting also to understand why
+
+37
+00:02:25,100 --> 00:02:29,900
+the iPod that they had now needed to make phone calls or,
+
+38
+00:02:29,900 --> 00:02:36,545
+alternatively, why their telephone needed to play music.
+
+39
+00:02:36,545 --> 00:02:39,080
+And people were starting to understand this App Store was actually
+
+40
+00:02:39,080 --> 00:02:41,690
+a really important part of this new technology.
+
+41
+00:02:41,690 --> 00:02:44,157
+So one is innovator to the point of care.
+
+42
+00:02:44,157 --> 00:02:49,220
+The other is end users so that they can actually select from
+
+43
+00:02:49,220 --> 00:02:55,025
+a market of applications as opposed to only what comes out of the box,
+
+44
+00:02:55,025 --> 00:03:02,540
+such as the end users can enjoy a truly competitive market to
+
+45
+00:03:02,540 --> 00:03:06,170
+produce the functionality that they want and to enable them to
+
+46
+00:03:06,170 --> 00:03:12,850
+customize that functionality if they want to produce apps within their organizations.
+
+47
+00:03:14,330 --> 00:03:19,875
+Yes. It's really, I think, a very happy story.
+
+48
+00:03:19,875 --> 00:03:26,845
+We began with a restful model of call-in resources across
+
+49
+00:03:26,845 --> 00:03:29,830
+an API and with
+
+50
+00:03:29,830 --> 00:03:35,360
+well-defined resources that represent only a subset of all possible types of health data,
+
+51
+00:03:35,360 --> 00:03:37,890
+the most useful subset to get started with.
+
+52
+00:03:37,890 --> 00:03:44,433
+And we used an RDF technology initially to define those resources,
+
+53
+00:03:44,433 --> 00:03:48,645
+and we were actually getting apps developed and developing our own apps.
+
+54
+00:03:48,645 --> 00:03:56,575
+But we started to see this very interesting FHIR community cohering.
+
+55
+00:03:56,575 --> 00:03:59,425
+And not only did we think it was interesting,
+
+56
+00:03:59,425 --> 00:04:05,050
+but we jumped in and decided to actually help create the FHIR standard and
+
+57
+00:04:05,050 --> 00:04:11,285
+to really promote it and to get behind the founders of FHIR.
+
+58
+00:04:11,285 --> 00:04:15,430
+Another nice aspect of it for SMART is that wall SMART
+
+59
+00:04:15,430 --> 00:04:21,285
+was attempting to define a universal standard for an API.
+
+60
+00:04:21,285 --> 00:04:27,485
+The SMART team had no aspirations to become a standards body.
+
+61
+00:04:27,485 --> 00:04:32,350
+So the fact that SMART had been ingested into HL7,
+
+62
+00:04:32,350 --> 00:04:36,918
+and that HL7 was going to not only further develop the standard
+
+63
+00:04:36,918 --> 00:04:41,223
+but also make it freely available was extremely attractive.
+
+64
+00:04:41,223 --> 00:04:46,705
+And it became very clear that one way that SMART could have longevity and
+
+65
+00:04:46,705 --> 00:04:55,900
+scale would be to rely on a standards body for the standards part of the project.
+
+66
+00:04:57,900 --> 00:05:03,905
+On the whole, the products on the market are
+
+67
+00:05:03,905 --> 00:05:11,280
+older software stacks that are monolithically designed and many of them are pre-Internet.
+
+68
+00:05:11,280 --> 00:05:12,335
+Now, they are, of course,
+
+69
+00:05:12,335 --> 00:05:18,980
+being updated all the time but the degree to which
+
+70
+00:05:18,980 --> 00:05:22,790
+the developers in the EMR companies could be truly nimble about
+
+71
+00:05:22,790 --> 00:05:27,575
+evolving the products and somewhat limited by their complexity.
+
+72
+00:05:27,575 --> 00:05:33,110
+So what SMART enables the ecosystem to produce
+
+73
+00:05:33,110 --> 00:05:40,250
+is essentially a facade that interoperates with the electronic medical record,
+
+74
+00:05:40,250 --> 00:05:42,435
+leaving it fully in place,
+
+75
+00:05:42,435 --> 00:05:48,470
+keep taking advantage of all its myriad capabilities but providing for
+
+76
+00:05:48,470 --> 00:05:56,300
+the clinician or for the patient a modern web-based user interface.
+
+77
+00:05:56,300 --> 00:06:02,045
+So what SMART does very specifically is it brings the full capabilities
+
+78
+00:06:02,045 --> 00:06:08,325
+of the worldwide web to the point of care connected to the electronic medical record.
+
+79
+00:06:08,325 --> 00:06:11,535
+So, now, you can do anything you can do on the web and
+
+80
+00:06:11,535 --> 00:06:17,135
+HTML5 with data mashups, data visualizations,
+
+81
+00:06:17,135 --> 00:06:20,043
+bringing in external data sources,
+
+82
+00:06:20,043 --> 00:06:24,455
+genomics for example or environmental data,
+
+83
+00:06:24,455 --> 00:06:33,590
+and do it in the context of the physician workflow.
+
+84
+00:06:33,590 --> 00:06:36,285
+It's a very good question.
+
+85
+00:06:36,285 --> 00:06:41,550
+SMART on FHIR apps can begin to play a role in bringing evidence to the point of care.
+
+86
+00:06:41,550 --> 00:06:48,030
+First of all, I think we're in a transition where we believe
+
+87
+00:06:48,030 --> 00:06:56,185
+that evidence comes from data at least as much as it comes from the medical literature.
+
+88
+00:06:56,185 --> 00:07:00,630
+So one way that evidence-based medicine has been
+
+89
+00:07:00,630 --> 00:07:07,260
+interpreted is the best use of the medical literature as applied to one's patient.
+
+90
+00:07:07,260 --> 00:07:10,860
+So SMART on FHIR can help with that aspect of
+
+91
+00:07:10,860 --> 00:07:13,485
+a traditionally defined evidence-based medicine
+
+92
+00:07:13,485 --> 00:07:17,400
+through its connections into decision support through
+
+93
+00:07:17,400 --> 00:07:23,025
+this CDS Hooks process or other ways to bring in guidelines
+
+94
+00:07:23,025 --> 00:07:30,345
+and interpreted medical literature into the decision making process of the physician.
+
+95
+00:07:30,345 --> 00:07:34,845
+But the other aspect that I think is more exciting even is
+
+96
+00:07:34,845 --> 00:07:39,405
+that decisions will be made on the basis of
+
+97
+00:07:39,405 --> 00:07:45,540
+insights that have been derived through advanced modeling and
+
+98
+00:07:45,540 --> 00:07:53,130
+deep learning or even derived on the fly from very large population data sets.
+
+99
+00:07:53,130 --> 00:07:59,329
+Interestingly, those data sets are created in part through electronic medical records,
+
+100
+00:07:59,329 --> 00:08:01,388
+collecting data from every visit.
+
+101
+00:08:01,388 --> 00:08:10,575
+But, also, data is important from other sources: social media, public health genomics.
+
+102
+00:08:10,575 --> 00:08:17,380
+And all of those forms of data can provide a new kind of evidence-based medicine,
+
+103
+00:08:17,380 --> 00:08:22,215
+a really data-driven form of evidence-based care.
+
+104
+00:08:22,215 --> 00:08:26,190
+And through the power of simply taking advantage
+
+105
+00:08:26,190 --> 00:08:30,930
+of all the innovations that have happened in the web
+
+106
+00:08:30,930 --> 00:08:34,920
+and the opportunity to bring data sources together to
+
+107
+00:08:34,920 --> 00:08:39,990
+have different computational processes interacting with each other,
+
+108
+00:08:39,990 --> 00:08:43,976
+to provide advanced data visualization,
+
+109
+00:08:43,976 --> 00:08:46,290
+we can begin to bring this new form of data
+
+110
+00:08:46,290 --> 00:08:51,820
+driven evidence right into the physician's workflow.
+
+111
+00:08:53,270 --> 00:09:01,510
+Absolutely. So SMART on FHIR actually is a project that
+
+112
+00:09:01,510 --> 00:09:08,260
+builds upon work we did around a patient-controlled health record,
+
+113
+00:09:08,260 --> 00:09:11,170
+in which there is a repository of data that
+
+114
+00:09:11,170 --> 00:09:14,990
+the patient controls with apps running on top.
+
+115
+00:09:14,990 --> 00:09:19,370
+The problem with patient-controlled health records in the past has been that they
+
+116
+00:09:19,370 --> 00:09:24,480
+haven't been easily fed by data from electronic medical records in other systems.
+
+117
+00:09:24,480 --> 00:09:26,420
+The data hasn't been interoperable.
+
+118
+00:09:26,420 --> 00:09:29,870
+So, patients haven't been empowered with their data and they
+
+119
+00:09:29,870 --> 00:09:33,805
+certainly haven't been empowered with apps running on their data.
+
+120
+00:09:33,805 --> 00:09:38,920
+Instead, what patients got over the last decade or so
+
+121
+00:09:38,920 --> 00:09:44,240
+was portals that are bolt ons to the electronic medical record.
+
+122
+00:09:44,240 --> 00:09:50,140
+And so those portals give patients a view into the electronic medical record data.
+
+123
+00:09:50,140 --> 00:09:52,825
+Generally, they don't take the data out with them,
+
+124
+00:09:52,825 --> 00:09:55,485
+but at least, they can see it.
+
+125
+00:09:55,485 --> 00:10:01,370
+The portals, therefore, have had somewhat limited functionality.
+
+126
+00:10:01,370 --> 00:10:08,890
+The opportunity now that's SMART on FHIR brings to the patient is two-fold.
+
+127
+00:10:08,890 --> 00:10:15,170
+One, it lets the patient actually take out their data and get a copy of it.
+
+128
+00:10:15,170 --> 00:10:20,940
+The right to do that is reinforced by what's called meaningful use stage three.
+
+129
+00:10:20,940 --> 00:10:27,660
+And it's also reinforced by now the 21st Century Cures Act, which is law.
+
+130
+00:10:27,660 --> 00:10:31,190
+So, the patient can get a copy of their data.
+
+131
+00:10:31,190 --> 00:10:35,200
+And secondly, the patient can connect apps just like
+
+132
+00:10:35,200 --> 00:10:39,520
+the provider apps to an electronic medical records system,
+
+133
+00:10:39,520 --> 00:10:45,355
+so that they can enjoy the same kinds of benefits, data visualization,
+
+134
+00:10:45,355 --> 00:10:49,465
+data mashups, computational processes,
+
+135
+00:10:49,465 --> 00:10:51,280
+serving their healthcare needs.
+
+136
+00:10:51,280 --> 00:10:59,165
+Well, it's very interesting.
+
+137
+00:10:59,165 --> 00:11:08,070
+There's an absolutely exploding field around data generated by sensors,
+
+138
+00:11:08,070 --> 00:11:14,729
+data generated by standard mobile devices, iPhones and androids,
+
+139
+00:11:14,729 --> 00:11:23,190
+and data developed by the same technologies and various wearable forms.
+
+140
+00:11:23,190 --> 00:11:27,250
+The ability to ingest those data into
+
+141
+00:11:27,250 --> 00:11:31,540
+the electronic medical record is one important area.
+
+142
+00:11:31,540 --> 00:11:35,205
+Electronic medical records are not particularly designed to do this,
+
+143
+00:11:35,205 --> 00:11:39,415
+so one intermediate layer where the data from the electronic medical record
+
+144
+00:11:39,415 --> 00:11:44,350
+and from this new generation of sensor technologies,
+
+145
+00:11:44,350 --> 00:11:48,295
+is in this SMART on FHIR layer.
+
+146
+00:11:48,295 --> 00:11:51,550
+On top of the electronic medical record,
+
+147
+00:11:51,550 --> 00:11:56,230
+it also provides a real opportunity to
+
+148
+00:11:56,230 --> 00:12:03,475
+deliver the right interpreted information from these sensors to the clinician.
+
+149
+00:12:03,475 --> 00:12:07,150
+Most clinicians will not be interested in raw data.
+
+150
+00:12:07,150 --> 00:12:10,965
+And so, the question that everyone's asking is,
+
+151
+00:12:10,965 --> 00:12:14,530
+"What's the best set of workflows to get those data
+
+152
+00:12:14,530 --> 00:12:19,000
+into a decision making process with the physician and the patient?"
+
+153
+00:12:19,000 --> 00:12:27,350
+I think SMART on FHIR apps provide at least an early solution to addressing that issue.
+
+154
+00:12:27,350 --> 00:12:33,810
+Well, I think one
+
+155
+00:12:33,810 --> 00:12:38,430
+of the most exciting opportunities to interface public health to the point of care,
+
+156
+00:12:38,430 --> 00:12:43,290
+is the tremendous population and representative
+
+157
+00:12:43,290 --> 00:12:45,990
+population data resources that public health has that can
+
+158
+00:12:45,990 --> 00:12:50,330
+form the decision making for an individual patient.
+
+159
+00:12:50,330 --> 00:12:55,425
+A patient's diagnosis, or laboratory data,
+
+160
+00:12:55,425 --> 00:12:59,310
+or symptoms, not in an epidemiological context,
+
+161
+00:12:59,310 --> 00:13:00,937
+is much less useful.
+
+162
+00:13:00,937 --> 00:13:03,455
+So for example, if a patient has a sore throat,
+
+163
+00:13:03,455 --> 00:13:07,095
+and we're trying to decide whether to test them for Strep,
+
+164
+00:13:07,095 --> 00:13:11,610
+there is a much higher chance that that test will be
+
+165
+00:13:11,610 --> 00:13:17,760
+positive if there is Strep going around in that person's area.
+
+166
+00:13:17,760 --> 00:13:21,360
+That could be readily derived from a population health,
+
+167
+00:13:21,360 --> 00:13:23,070
+or public health dataset.
+
+168
+00:13:23,070 --> 00:13:25,320
+That could guide our testing,
+
+169
+00:13:25,320 --> 00:13:28,860
+and rational testing, and treatment around Strep throat.
+
+170
+00:13:28,860 --> 00:13:31,635
+Reduction of false positives could save
+
+171
+00:13:31,635 --> 00:13:35,820
+literally hundreds of thousands of courses of antibiotics per year.
+
+172
+00:13:35,820 --> 00:13:41,130
+That's one example of how population data can inform individual care.
+
+173
+00:13:41,130 --> 00:13:53,775
+So it's a very nice research-related use of the SMART API,
+
+174
+00:13:53,775 --> 00:13:58,590
+such that a participant in the precision medicine initiative,
+
+175
+00:13:58,590 --> 00:14:01,770
+now known as the All of Us Initiative,
+
+176
+00:14:01,770 --> 00:14:07,170
+can request a copy of their data from their local health system by connecting
+
+177
+00:14:07,170 --> 00:14:13,448
+an app to the Smart API at that health system,
+
+178
+00:14:13,448 --> 00:14:17,555
+and direct a copy of those data to
+
+179
+00:14:17,555 --> 00:14:22,310
+go to the Precision Medicine Initiative or the All of Us Initiative.
+
+180
+00:14:22,310 --> 00:14:29,500
+It's essentially a way that operational liases data donation for research subjects in
+
+181
+00:14:29,500 --> 00:14:38,795
+a very large study seeking to recruit a million patients.
+
+182
+00:14:38,795 --> 00:14:41,290
+So, I think at the moment,
+
+183
+00:14:41,290 --> 00:14:43,375
+we have an incredible opportunity with SMART,
+
+184
+00:14:43,375 --> 00:14:47,341
+because it's been built into the electronic medical record products.
+
+185
+00:14:47,341 --> 00:14:52,045
+It's essentially been regulated that there be these APIs.
+
+186
+00:14:52,045 --> 00:14:53,885
+And even beyond regulated,
+
+187
+00:14:53,885 --> 00:14:55,450
+it's made it into the law.
+
+188
+00:14:55,450 --> 00:14:58,480
+So we're moving into a more modern era of
+
+189
+00:14:58,480 --> 00:15:02,200
+interaction and interoperability between medical systems.
+
+190
+00:15:02,200 --> 00:15:10,565
+Where I think we need a lot of emphasis now is to create a robust apps ecosystem,
+
+191
+00:15:10,565 --> 00:15:15,335
+and we need to focus on a few key areas to do that.
+
+192
+00:15:15,335 --> 00:15:19,970
+One is we need to make it much easier to develop apps.
+
+193
+00:15:19,970 --> 00:15:24,565
+I have a lot of folks come to me with great ideas.
+
+194
+00:15:24,565 --> 00:15:30,865
+But the recommendation is always, get some funding,
+
+195
+00:15:30,865 --> 00:15:33,200
+find an app developer,
+
+196
+00:15:33,200 --> 00:15:36,130
+try to develop an app with that developer,
+
+197
+00:15:36,130 --> 00:15:38,195
+and then figure out how to maintain it.
+
+198
+00:15:38,195 --> 00:15:41,410
+We need to be able to make app development into
+
+199
+00:15:41,410 --> 00:15:49,355
+a much more commodity process so that good ideas are very rapidly translated.
+
+200
+00:15:49,355 --> 00:15:55,735
+We also need to increase the level of expectation that scientific findings,
+
+201
+00:15:55,735 --> 00:15:58,900
+particularly around those that
+
+202
+00:15:58,900 --> 00:16:03,355
+are designed to have an impact on the medical care process,
+
+203
+00:16:03,355 --> 00:16:07,795
+are computable and can be operationalized.
+
+204
+00:16:07,795 --> 00:16:14,125
+So I would really like to see publications that are developing algorithms,
+
+205
+00:16:14,125 --> 00:16:17,740
+have accompanying apps with them that can be
+
+206
+00:16:17,740 --> 00:16:24,210
+plugged into and tested in the health care system right away.
+
+207
+00:16:25,840 --> 00:16:30,000
+All right. Thank you, Mark. Very pleased to be here.

@@ -1,0 +1,39 @@
+1
+00:00:00,000 --> 00:00:05,445
+The Clinical Document Architecture or CDA define HL7 V3
+
+2
+00:00:05,445 --> 00:00:08,880
+RIM-based documents assembled from
+
+3
+00:00:08,880 --> 00:00:12,515
+administrative and clinical data for particular purposes.
+
+4
+00:00:12,515 --> 00:00:16,790
+You saw one of these when you did the HealthVault CCD activity.
+
+5
+00:00:16,790 --> 00:00:20,325
+You should also recall that a consolidation effort produced
+
+6
+00:00:20,325 --> 00:00:26,105
+the newer CCDA or Consolidated Clinical Document Architecture standard.
+
+7
+00:00:26,105 --> 00:00:30,690
+Here's the first part of the CDA you used in the HealthVault activity.
+
+8
+00:00:30,690 --> 00:00:34,920
+I have highlighted instances where it refers to the RIM.
+
+9
+00:00:34,920 --> 00:00:38,140
+I leave it to you to consider the tradeoffs between value,
+
+10
+00:00:38,140 --> 00:00:43,120
+complexity and ease of implementation that this reliance on RIM brings with it.

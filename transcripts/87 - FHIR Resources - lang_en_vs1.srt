@@ -1,0 +1,219 @@
+1
+00:00:00,000 --> 00:00:04,350
+The FHIR data model is instantiated in a set of what will
+
+2
+00:00:04,350 --> 00:00:08,675
+probably be some 150 or more modular resources.
+
+3
+00:00:08,675 --> 00:00:12,870
+The current release 3 version of the standard organizes
+
+4
+00:00:12,870 --> 00:00:19,535
+its 117 resources and related documentation in the five levels you see here.
+
+5
+00:00:19,535 --> 00:00:25,265
+Level 1 is the standard's basic framework and consists of 30 resources.
+
+6
+00:00:25,265 --> 00:00:28,900
+Level 2 supports implementation and binding to
+
+7
+00:00:28,900 --> 00:00:33,330
+external specifications and contains 26 resources.
+
+8
+00:00:33,330 --> 00:00:37,900
+Level 3 provides structural and process elements of
+
+9
+00:00:37,900 --> 00:00:43,150
+real world healthcare systems and provides 37 resources.
+
+10
+00:00:43,150 --> 00:00:50,240
+Level 4 is for record keeping and data exchange and contains 13 resources.
+
+11
+00:00:50,240 --> 00:00:52,870
+Level 5 provides the ability to reason about
+
+12
+00:00:52,870 --> 00:00:56,800
+healthcare processes and contains 11 resources.
+
+13
+00:00:56,800 --> 00:01:00,570
+It is likely that the number of resources will increase,
+
+14
+00:01:00,570 --> 00:01:03,910
+and existing ones may change over time.
+
+15
+00:01:03,910 --> 00:01:08,590
+So, I provide a link to the resource index page on the FHIR site.
+
+16
+00:01:08,590 --> 00:01:14,890
+It summarizes the resources and their subdivisions in several useful ways.
+
+17
+00:01:14,890 --> 00:01:20,665
+Note the number after each resource indicates its maturity on a scale of zero to five.
+
+18
+00:01:20,665 --> 00:01:26,795
+These numbers will also increase over time as standards definition proceeds.
+
+19
+00:01:26,795 --> 00:01:30,835
+At present, the lower levels are generally more mature.
+
+20
+00:01:30,835 --> 00:01:35,775
+We cannot cover FHIR comprehensively in this survey course,
+
+21
+00:01:35,775 --> 00:01:40,695
+so I can't overemphasize the importance of studying the excellent,
+
+22
+00:01:40,695 --> 00:01:46,125
+well-organized FHIR website to gain a fuller understanding of the standard.
+
+23
+00:01:46,125 --> 00:01:48,230
+To get you started on that,
+
+24
+00:01:48,230 --> 00:01:51,815
+here are a few particularly interesting resources.
+
+25
+00:01:51,815 --> 00:01:57,075
+The definition of a resource is itself contained in the resource resource,
+
+26
+00:01:57,075 --> 00:02:01,415
+in the foundational framework part of the foundational level.
+
+27
+00:02:01,415 --> 00:02:07,245
+Earlier, I said that valuesets can be represented in a resource.
+
+28
+00:02:07,245 --> 00:02:13,605
+It is the valueset resource in the terminology division of the foundational level.
+
+29
+00:02:13,605 --> 00:02:16,875
+Later, we will discuss FHIR profiles.
+
+30
+00:02:16,875 --> 00:02:19,560
+The structured definition resource in
+
+31
+00:02:19,560 --> 00:02:25,865
+the conformance division of the second implementation level represents profiles.
+
+32
+00:02:25,865 --> 00:02:30,910
+The group resource in the third level specifies a particular set of patients,
+
+33
+00:02:30,910 --> 00:02:33,175
+providers, medications, and so on,
+
+34
+00:02:33,175 --> 00:02:36,480
+for purposes such as reporting or tracking.
+
+35
+00:02:36,480 --> 00:02:38,980
+The subscription resource in
+
+36
+00:02:38,980 --> 00:02:42,490
+the other division at the foundational level is used to create
+
+37
+00:02:42,490 --> 00:02:48,590
+a push of FHIR resources that match criteria specified in the resource.
+
+38
+00:02:48,590 --> 00:02:53,790
+Finally, level 5 includes support for clinical reasoning.
+
+39
+00:02:53,790 --> 00:02:57,620
+Earlier, we discussed clinical decision support,
+
+40
+00:02:57,620 --> 00:03:02,120
+and I pointed to tight EHR integration as a benefit of
+
+41
+00:03:02,120 --> 00:03:06,735
+FHIR to obtain provider adoption of these tools.
+
+42
+00:03:06,735 --> 00:03:09,400
+The new CDS Hooks specification,
+
+43
+00:03:09,400 --> 00:03:13,510
+developed by the same Harvard group that created SMART on FHIR,
+
+44
+00:03:13,510 --> 00:03:16,795
+supports the integration of clinical logic,
+
+45
+00:03:16,795 --> 00:03:22,630
+similar to what we saw with the Arden Syntax into EHRs in order to,
+
+46
+00:03:22,630 --> 00:03:25,535
+among other things, launch FHIR apps when
+
+47
+00:03:25,535 --> 00:03:30,120
+a patient's clinical situation suggests they might be of value.
+
+48
+00:03:30,120 --> 00:03:34,320
+A goal of FHIR release 4 is to unify
+
+49
+00:03:34,320 --> 00:03:39,150
+the CDS Hooks specification with the clinical reasoning module.
+
+50
+00:03:39,150 --> 00:03:45,485
+This should be another important step toward broader use of clinical decision support.
+
+51
+00:03:45,485 --> 00:03:47,110
+When I last asked Graham,
+
+52
+00:03:47,110 --> 00:03:52,575
+he estimated that the first normative version of the standard might appear in 2018.
+
+53
+00:03:52,575 --> 00:03:58,050
+Until then, FHIR is a Standard for Trial Use, STU.
+
+54
+00:03:58,050 --> 00:04:01,870
+You may see the term Draft Standard for Trial Use, or DSTU,
+
+55
+00:04:01,870 --> 00:04:07,000
+but STU is now HL7s preferred designation.

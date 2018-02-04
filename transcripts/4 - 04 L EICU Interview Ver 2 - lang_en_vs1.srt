@@ -1,0 +1,735 @@
+1
+00:00:00,000 --> 00:00:03,475
+First, Mark, it's a pleasure to be here today.
+
+2
+00:00:03,475 --> 00:00:06,201
+I'd like to introduce my colleague, Cheryl Hiddleston,
+
+3
+00:00:06,201 --> 00:00:10,315
+who will tell you a little bit about what she does.
+
+4
+00:00:10,315 --> 00:00:11,677
+Hi. I'm Cheryl Hiddleston,
+
+5
+00:00:11,677 --> 00:00:13,510
+I have been a nurse for 33 years.
+
+6
+00:00:13,510 --> 00:00:14,710
+For 26 of those,
+
+7
+00:00:14,710 --> 00:00:16,185
+I've been in critical care,
+
+8
+00:00:16,185 --> 00:00:20,191
+and I currently run the Emory eICU program.
+
+9
+00:00:20,191 --> 00:00:22,285
+And my name is Tim Buckman.
+
+10
+00:00:22,285 --> 00:00:26,795
+I have the privilege being the founding director of Emory's Critical Care Center.
+
+11
+00:00:26,795 --> 00:00:30,325
+I'm the Medical Director of Emory's eICU program.
+
+12
+00:00:30,325 --> 00:00:36,110
+Perhaps, we ought to tell you a little bit about what an ICU is and what an eICU is.
+
+13
+00:00:36,110 --> 00:00:38,793
+That would be great.
+
+14
+00:00:38,793 --> 00:00:41,680
+You know, we all enjoy our health but at some point,
+
+15
+00:00:41,680 --> 00:00:44,500
+we all will face serious health problems.
+
+16
+00:00:44,500 --> 00:00:48,880
+And when our vital organs, heart, lungs, liver,
+
+17
+00:00:48,880 --> 00:00:55,525
+kidneys become compromised they can fail to the point where our lives are threatened.
+
+18
+00:00:55,525 --> 00:00:58,059
+That's where the ICU comes in.
+
+19
+00:00:58,059 --> 00:01:01,475
+Patients are admitted to intensive care units,
+
+20
+00:01:01,475 --> 00:01:04,615
+in order to stabilize their vital functions,
+
+21
+00:01:04,615 --> 00:01:07,705
+set the stage for healing and allow them to improve.
+
+22
+00:01:07,705 --> 00:01:13,880
+Now traditionally that's been all at the bedside, critical care nurses,
+
+23
+00:01:13,880 --> 00:01:15,940
+critical care physicians,
+
+24
+00:01:15,940 --> 00:01:22,500
+other allied health professionals working to stabilize the patient at the elbow.
+
+25
+00:01:22,500 --> 00:01:24,240
+But in the era of long distance telecommunication,
+
+26
+00:01:24,240 --> 00:01:29,596
+a new option has evolved. Cheryl, tell them about eICU.
+
+27
+00:01:29,596 --> 00:01:33,218
+The eICU is a program that provides
+
+28
+00:01:33,218 --> 00:01:38,980
+remote surveillance monitoring of patients in the ICUs at different hospitals.
+
+29
+00:01:38,980 --> 00:01:42,440
+We have cameras, monitors, and mics,
+
+30
+00:01:42,440 --> 00:01:46,250
+and speakers in each patient room that allows our team,
+
+31
+00:01:46,250 --> 00:01:48,440
+which is located remotely in
+
+32
+00:01:48,440 --> 00:01:54,155
+basically an office building to have bidirectional communication with the staff,
+
+33
+00:01:54,155 --> 00:01:57,710
+the family, and the patient who are in the ICUs.
+
+34
+00:01:57,710 --> 00:01:59,960
+With the monitoring that we do,
+
+35
+00:01:59,960 --> 00:02:03,540
+the system pulls different data from
+
+36
+00:02:03,540 --> 00:02:05,240
+the bedside monitor and
+
+37
+00:02:05,240 --> 00:02:10,010
+the electronic medical record and has different algorithms built in it,
+
+38
+00:02:10,010 --> 00:02:12,953
+and it allows us to catch when
+
+39
+00:02:12,953 --> 00:02:16,725
+patients are veering off trajectory into the wrong direction.
+
+40
+00:02:16,725 --> 00:02:21,595
+So we can call the staff at the bedside and help intervene.
+
+41
+00:02:21,595 --> 00:02:23,145
+Now it's a lot of data.
+
+42
+00:02:23,145 --> 00:02:26,260
+We have the same big data problem, the four Vs, the velocity, variety, veracity,
+
+43
+00:02:26,260 --> 00:02:33,790
+value that everyone has in the big data space.
+
+44
+00:02:33,790 --> 00:02:37,372
+The difference is we have to find problems and fix them right now.
+
+45
+00:02:37,372 --> 00:02:44,115
+Because if we don't deliver the right care right now for every patient every time,
+
+46
+00:02:44,115 --> 00:02:46,480
+the patient is going to suffer.
+
+47
+00:02:46,480 --> 00:02:48,830
+Let's talk about an example,
+
+48
+00:02:48,830 --> 00:02:53,270
+that is a prominent one in critical care.
+
+49
+00:02:53,270 --> 00:02:54,663
+We all have kidneys.
+
+50
+00:02:54,663 --> 00:02:58,300
+They allow us to not only get rid of excess water
+
+51
+00:02:58,300 --> 00:03:02,300
+but excess toxins and without good kidney function,
+
+52
+00:03:02,300 --> 00:03:04,340
+those toxins build up,
+
+53
+00:03:04,340 --> 00:03:09,730
+the various balance of electrolytes and fluids in the body goes awry.
+
+54
+00:03:09,730 --> 00:03:13,320
+And with total kidney failure, people can die.
+
+55
+00:03:13,320 --> 00:03:15,540
+So we have to find that problem and fix it right away.
+
+56
+00:03:15,540 --> 00:03:20,225
+One of the conventional measures
+
+57
+00:03:20,225 --> 00:03:24,130
+of kidney function is actually taken from the bloodstream,
+
+58
+00:03:24,130 --> 00:03:26,137
+a chemical called creatinine.
+
+59
+00:03:26,137 --> 00:03:29,887
+Creatinine is produced as a product of
+
+60
+00:03:29,887 --> 00:03:34,745
+normal metabolism by muscles and then excreted by the kidneys.
+
+61
+00:03:34,745 --> 00:03:38,730
+When the kidneys fail to function well, creatinine builds up.
+
+62
+00:03:38,730 --> 00:03:42,887
+And when the kidneys resume their function,
+
+63
+00:03:42,887 --> 00:03:45,345
+creatinine decreases in concentration in the bloodstream.
+
+64
+00:03:45,345 --> 00:03:50,100
+Now there are two or three problems.
+
+65
+00:03:50,100 --> 00:03:54,010
+The first is that creatinine isn't sampled continuously,
+
+66
+00:03:54,010 --> 00:03:57,880
+it isn't even sampled regularly, it's sampled irregularly.
+
+67
+00:03:57,880 --> 00:04:01,170
+So physicians at best have
+
+68
+00:04:01,170 --> 00:04:04,650
+an irregular time series from which to
+
+69
+00:04:04,650 --> 00:04:08,850
+try to reason whether the kidney function is getting better,
+
+70
+00:04:08,850 --> 00:04:11,970
+getting worse, or staying the same.
+
+71
+00:04:11,970 --> 00:04:16,817
+And if you look at the visualization on the left is conventional picture of creatinine,
+
+72
+00:04:16,817 --> 00:04:21,545
+a plot of creatinine measurements versus time.
+
+73
+00:04:21,545 --> 00:04:25,010
+And what you'll see is that creatinine rises when
+
+74
+00:04:25,010 --> 00:04:29,815
+kidneys fail in this sense when kidneys recover function.
+
+75
+00:04:29,815 --> 00:04:36,820
+But we needed a way to look more deeply into the data to discover whether there might be
+
+76
+00:04:36,820 --> 00:04:40,810
+hidden information in the time series that would allow us to
+
+77
+00:04:40,810 --> 00:04:45,685
+recognize even earlier first the kidney function is getting worse,
+
+78
+00:04:45,685 --> 00:04:47,395
+and even more importantly,
+
+79
+00:04:47,395 --> 00:04:48,702
+the kidney function is recovering.
+
+80
+00:04:48,702 --> 00:04:51,276
+Why do we want to know the kidney function is recovered?
+
+81
+00:04:51,276 --> 00:04:54,105
+We want to be able to
+
+82
+00:04:54,105 --> 00:04:56,950
+tell patients and families that things are getting better as soon as possible.
+
+83
+00:04:56,950 --> 00:05:04,580
+So we charged a team in the course with helping us develop a novel visualization.
+
+84
+00:05:04,580 --> 00:05:07,035
+That's shown on the right.
+
+85
+00:05:07,035 --> 00:05:08,760
+It's a phase diagram,
+
+86
+00:05:08,760 --> 00:05:13,235
+plotting the change in creatinine over time on the Y-axis
+
+87
+00:05:13,235 --> 00:05:18,110
+versus the concentration of creatinine on the X-axis.
+
+88
+00:05:18,110 --> 00:05:21,064
+And what you can see even as creatinine is rising,
+
+89
+00:05:21,064 --> 00:05:28,125
+there's an inflection point where the rate of change of that rise is falling.
+
+90
+00:05:28,125 --> 00:05:32,330
+That's our earliest signal that kidney function is
+
+91
+00:05:32,330 --> 00:05:37,065
+actually improving and being able to see these displays,
+
+92
+00:05:37,065 --> 00:05:42,490
+these phase diagrams allows us to recognize the problem earlier,
+
+93
+00:05:42,490 --> 00:05:46,445
+and even more importantly to recognize recovery earlier.
+
+94
+00:05:46,445 --> 00:05:49,040
+That matters to caregivers but it also
+
+95
+00:05:49,040 --> 00:05:51,900
+matters more to the patients for whom we deliver care.
+
+96
+00:05:51,900 --> 00:06:00,590
+I'll let Cheryl speak a bit about
+
+97
+00:06:00,590 --> 00:06:04,430
+the challenges we face even in
+
+98
+00:06:04,430 --> 00:06:11,665
+the standard clinical realm of bringing health care messages into our care environment.
+
+99
+00:06:11,665 --> 00:06:17,815
+As Tim said, normally for laboratory values,
+
+100
+00:06:17,815 --> 00:06:20,630
+they're checked intermittently, there's
+
+101
+00:06:20,630 --> 00:06:24,210
+no regular schedule that they're checked on necessarily.
+
+102
+00:06:24,210 --> 00:06:29,425
+It's done per a physician's orders and what they determine needs to be done.
+
+103
+00:06:29,425 --> 00:06:38,640
+So we have a database for all of the patients we provide care for and in order to
+
+104
+00:06:38,640 --> 00:06:43,200
+get more real-time access to that information and
+
+105
+00:06:43,200 --> 00:06:47,975
+have the data pushed out to us rather than having to wait for it to come in the system,
+
+106
+00:06:47,975 --> 00:06:49,685
+having someone look at it.
+
+107
+00:06:49,685 --> 00:06:52,155
+That's what we discussed with the students.
+
+108
+00:06:52,155 --> 00:06:56,490
+Now trying to get access to that database for
+
+109
+00:06:56,490 --> 00:07:02,920
+them was kind of a hurdle because it's patient information that's involved.
+
+110
+00:07:02,920 --> 00:07:05,660
+So we had to get compliance involved,
+
+111
+00:07:05,660 --> 00:07:08,670
+we had to get the IS resources involved to
+
+112
+00:07:08,670 --> 00:07:12,260
+make sure that the Georgia Tech students had access to the data,
+
+113
+00:07:12,260 --> 00:07:14,725
+so they could build the application.
+
+114
+00:07:14,725 --> 00:07:17,815
+So we could actually develop the tools.
+
+115
+00:07:17,815 --> 00:07:20,475
+Now what's interesting of course is that there are
+
+116
+00:07:20,475 --> 00:07:25,482
+international standards around healthcare messaging, so-called HL7 standard.
+
+117
+00:07:25,482 --> 00:07:32,130
+And we use that standard in our communications with the hospitals we serve.
+
+118
+00:07:32,130 --> 00:07:35,900
+The problem is that HL7 messaging has evolved
+
+119
+00:07:35,900 --> 00:07:40,794
+and Version 1 was primitive and Version 2 was manageable, Version 3, well,
+
+120
+00:07:40,794 --> 00:07:47,645
+it became seriously bloated,
+
+121
+00:07:47,645 --> 00:07:55,490
+often 60 pages of data just to report the single laboratory value.
+
+122
+00:07:55,490 --> 00:07:58,350
+And quite candidly, that's more than
+
+123
+00:07:58,350 --> 00:08:02,443
+current systems are able to manage efficiently and effectively in real-time.
+
+124
+00:08:02,443 --> 00:08:06,210
+Fortunately, the communities who
+
+125
+00:08:06,210 --> 00:08:10,745
+develop these standards recognized that they'd created a problem and said,
+
+126
+00:08:10,745 --> 00:08:12,510
+we have to do it faster.
+
+127
+00:08:12,510 --> 00:08:19,650
+We actually have to get Fast Healthcare Interoperability Resources up and running.
+
+128
+00:08:19,650 --> 00:08:23,580
+FHIR, that's what FHIR is all about.
+
+129
+00:08:23,580 --> 00:08:25,615
+And what our students have done,
+
+130
+00:08:25,615 --> 00:08:28,350
+they've helped us to take
+
+131
+00:08:28,350 --> 00:08:33,310
+our existing databases into which all the data are falling and said,
+
+132
+00:08:33,310 --> 00:08:36,960
+we can simplify not the incoming messages
+
+133
+00:08:36,960 --> 00:08:41,245
+because those are fixed by standards but outgoing messages.
+
+134
+00:08:41,245 --> 00:08:47,517
+We can help clinicians access those data faster and better by FHIR enabling the database.
+
+135
+00:08:47,517 --> 00:08:55,164
+And that really is a major event because data that's not available in
+
+136
+00:08:55,164 --> 00:08:58,200
+the moment is data that is
+
+137
+00:08:58,200 --> 00:09:03,197
+the delayed and decisions that are delayed and ultimately the care is delayed.
+
+138
+00:09:03,197 --> 00:09:12,980
+We recognize that every human being
+
+139
+00:09:12,980 --> 00:09:16,347
+is different but they get sick in a fairly patterned fashion.
+
+140
+00:09:16,347 --> 00:09:21,900
+So our job is to recognize the patterns.
+
+141
+00:09:21,900 --> 00:09:26,360
+You would think this would be easy but recognize that every human being has
+
+142
+00:09:26,360 --> 00:09:29,900
+12 different body systems add the dimension of
+
+143
+00:09:29,900 --> 00:09:34,430
+time and we have a 13-dimensional problem with sparse data.
+
+144
+00:09:34,430 --> 00:09:38,190
+So picking up the patterns is tough.
+
+145
+00:09:38,190 --> 00:09:40,780
+We have a couple of things we can do though.
+
+146
+00:09:40,780 --> 00:09:46,504
+We can have machines recognize and pick out the patterns and our responses.
+
+147
+00:09:46,504 --> 00:09:49,750
+In fact, that's going to be much of the future of medicine,
+
+148
+00:09:49,750 --> 00:09:57,040
+to follow patterns and provide the responses that seem to be most common.
+
+149
+00:09:57,040 --> 00:10:02,738
+It's especially helpful in our environment because our patients are so complex
+
+150
+00:10:02,738 --> 00:10:08,715
+and threading down to the abstraction that matters,
+
+151
+00:10:08,715 --> 00:10:11,120
+the getting sick and what we can do to help
+
+152
+00:10:11,120 --> 00:10:14,545
+people get well is an important part of what we do.
+
+153
+00:10:14,545 --> 00:10:18,925
+What's going to happen in the future?
+
+154
+00:10:18,925 --> 00:10:21,225
+We think that there're couple of steps.
+
+155
+00:10:21,225 --> 00:10:24,580
+The first is a form of crowdsourcing.
+
+156
+00:10:24,580 --> 00:10:29,490
+We will ask our clinicians and ask the machines behind our clinicians to
+
+157
+00:10:29,490 --> 00:10:35,115
+keep track of what data patterns are clinically meaningful and which are not.
+
+158
+00:10:35,115 --> 00:10:42,955
+Second, we'll go into the data and begin to cull out the universal responses.
+
+159
+00:10:42,955 --> 00:10:46,290
+We'll find two or three responses to every problem.
+
+160
+00:10:46,290 --> 00:10:50,915
+But what we can do further and we can use the data
+
+161
+00:10:50,915 --> 00:10:53,393
+going forward to determine which of
+
+162
+00:10:53,393 --> 00:10:56,390
+the responses to the problem, actually leads to the better outcome.
+
+163
+00:10:56,390 --> 00:11:02,150
+This is emerging of knowledge based care.
+
+164
+00:11:02,150 --> 00:11:07,815
+Things have come from evidence-based medicine and code, things that have come,
+
+165
+00:11:07,815 --> 00:11:10,495
+this is emerging of knowledge based care,
+
+166
+00:11:10,495 --> 00:11:15,123
+things that have come from evidence data.
+
+167
+00:11:15,123 --> 00:11:19,865
+This is emerging of knowledge based care,
+
+168
+00:11:19,865 --> 00:11:24,981
+knowledge that's encoded in algorithms and decision trees with database care,
+
+169
+00:11:24,981 --> 00:11:27,920
+recognizing the 1,000 or 10,000,
+
+170
+00:11:27,920 --> 00:11:31,325
+or 100,000 nearest neighbors and
+
+171
+00:11:31,325 --> 00:11:35,290
+understanding what care has been provided and understanding the outcomes of those cared.
+
+172
+00:11:35,290 --> 00:11:39,815
+The eICU is a perfect training ground
+
+173
+00:11:39,815 --> 00:11:43,700
+for this because instead of asking clinicians at the bedside,
+
+174
+00:11:43,700 --> 00:11:46,610
+who are very busy taking care of patients,
+
+175
+00:11:46,610 --> 00:11:47,925
+"Oh, is this appropriate?"
+
+176
+00:11:47,925 --> 00:11:50,440
+"Is this an actionable item?"
+
+177
+00:11:50,440 --> 00:11:52,525
+It pulls them away from patient care.
+
+178
+00:11:52,525 --> 00:11:55,025
+So in the eICU, you have nurses,
+
+179
+00:11:55,025 --> 00:12:01,790
+who are trained in detecting when there's an anomaly and there's something different.
+
+180
+00:12:01,790 --> 00:12:05,630
+So it's a perfect area to try and build this sort of knowledge.
+
+181
+00:12:05,630 --> 00:12:07,825
+If we can improve our detection of anomalies,
+
+182
+00:12:07,825 --> 00:12:13,134
+improve our understanding of the options available to us,
+
+183
+00:12:13,134 --> 00:12:17,380
+and improve our understanding of the outcomes of those options.
+
+184
+00:12:17,380 --> 00:12:21,550
+We're going to get better outcomes for all of our patients.

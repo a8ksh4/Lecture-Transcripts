@@ -1,0 +1,139 @@
+1
+00:00:00,000 --> 00:00:04,530
+Earlier, we discussed some innovative approaches to physician charting.
+
+2
+00:00:04,530 --> 00:00:07,995
+Now that we have discussed semantic interoperability,
+
+3
+00:00:07,995 --> 00:00:10,365
+you can better appreciate the approach to
+
+4
+00:00:10,365 --> 00:00:14,940
+EHR documentation that Applicadia has developed.
+
+5
+00:00:14,940 --> 00:00:17,400
+Richard Esmond, the company's chief technical
+
+6
+00:00:17,400 --> 00:00:20,955
+officer and co-chair of the CIMI work group,
+
+7
+00:00:20,955 --> 00:00:24,190
+has prepared a short video for this course.
+
+8
+00:00:24,190 --> 00:00:27,420
+In it, you will see what he calls a graph
+
+9
+00:00:27,420 --> 00:00:31,063
+that is always focused around a clinical concept node
+
+10
+00:00:31,063 --> 00:00:38,495
+and presents the relationships it has to any other concept nodes known to the platform.
+
+11
+00:00:38,495 --> 00:00:41,885
+The node at the focus could be from SNOMED, ICD,
+
+12
+00:00:41,885 --> 00:00:45,929
+LOINC or RxNorm, some of the health data standards,
+
+13
+00:00:45,929 --> 00:00:48,640
+we will discuss in the next lesson.
+
+14
+00:00:48,640 --> 00:00:52,814
+It also might be a synthetic knowledge element that the company has parsed
+
+15
+00:00:52,814 --> 00:00:58,180
+or analytically computed and then attached to that node through a relationship.
+
+16
+00:00:58,180 --> 00:01:02,110
+Finally, a small but growing number of nodes are derived
+
+17
+00:01:02,110 --> 00:01:06,535
+from the clinical knowledge artifacts in CIMI models.
+
+18
+00:01:06,535 --> 00:01:08,185
+The video, though short,
+
+19
+00:01:08,185 --> 00:01:14,060
+is very rich conceptually and illustrates a number of interesting possibilities.
+
+20
+00:01:14,060 --> 00:01:18,250
+The use of voice recognition for medical documentation.
+
+21
+00:01:18,250 --> 00:01:24,640
+The use of an NLP to properly place voice narration into the traditional sections of
+
+22
+00:01:24,640 --> 00:01:30,580
+a medical note and even the proper body system area of the review of systems,
+
+23
+00:01:30,580 --> 00:01:32,765
+a key part of a medical note.
+
+24
+00:01:32,765 --> 00:01:35,800
+Automatic encoding of free text notes into
+
+25
+00:01:35,800 --> 00:01:40,795
+complex data standards such as SNOMED and ICD-10.
+
+26
+00:01:40,795 --> 00:01:48,775
+The further use of NLP to properly map voice narrative to the clinical concept graphs,
+
+27
+00:01:48,775 --> 00:01:53,140
+thus, creating a basis for semantic interoperability.
+
+28
+00:01:53,140 --> 00:01:57,395
+The use of a concept graph to guide the physician to properly
+
+29
+00:01:57,395 --> 00:02:02,985
+code into the very clinically detailed ICD-10 system.
+
+30
+00:02:02,985 --> 00:02:06,450
+The discussion of the history of present illness part of the note
+
+31
+00:02:06,450 --> 00:02:10,750
+concerning the patient's knee problem, illustrates this.
+
+32
+00:02:10,750 --> 00:02:15,620
+Similarly, this use of a concept graph could help the physician properly report
+
+33
+00:02:15,620 --> 00:02:19,185
+quality metrics or to remind them to provide
+
+34
+00:02:19,185 --> 00:02:24,135
+important but missing clinical details for a concept they've identified.
+
+35
+00:02:24,135 --> 00:02:29,820
+I urge you to study the video carefully using this list of capabilities.

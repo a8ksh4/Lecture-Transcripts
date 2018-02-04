@@ -1,0 +1,83 @@
+1
+00:00:00,000 --> 00:00:03,930
+We discussed patient portals as a way to automate giving patients
+
+2
+00:00:03,930 --> 00:00:08,650
+their data that may be limited to data from a single health system.
+
+3
+00:00:08,650 --> 00:00:12,290
+We then looked at how a PHR or a fire app can make
+
+4
+00:00:12,290 --> 00:00:16,030
+this task more manageable across providers.
+
+5
+00:00:16,030 --> 00:00:18,390
+Could it be even easier for a patient to see
+
+6
+00:00:18,390 --> 00:00:21,970
+all their data no matter where they receive care?
+
+7
+00:00:21,970 --> 00:00:24,330
+Since they pay for most of it,
+
+8
+00:00:24,330 --> 00:00:26,595
+each provider's health insurance company,
+
+9
+00:00:26,595 --> 00:00:29,355
+should have a comprehensive view of their care.
+
+10
+00:00:29,355 --> 00:00:31,805
+No matter where it takes place.
+
+11
+00:00:31,805 --> 00:00:34,815
+This claims data has limitations.
+
+12
+00:00:34,815 --> 00:00:38,850
+For example, while claims would show when a lab test was performed,
+
+13
+00:00:38,850 --> 00:00:41,715
+they would not have the result.
+
+14
+00:00:41,715 --> 00:00:43,520
+However, it may often be
+
+15
+00:00:43,520 --> 00:00:45,720
+the most comprehensive longitudinal view of
+
+16
+00:00:45,720 --> 00:00:48,795
+a patient's care that is practically available.
+
+17
+00:00:48,795 --> 00:00:52,140
+Medicare's recognize that and his blue button on
+
+18
+00:00:52,140 --> 00:00:56,415
+fire initiative is an innovative approach to patient empowerment.
+
+19
+00:00:56,415 --> 00:01:00,875
+Paul LeBrone, my colleague and entrepreneur and residence at the CDC,
+
+20
+00:01:00,875 --> 00:01:03,075
+will now talk with Mark Scrimshaw,
+
+21
+00:01:03,075 --> 00:01:08,640
+Entrepreneur and residence at CMS to learn more about blue button on fire.

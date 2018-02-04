@@ -1,0 +1,119 @@
+1
+00:00:00,000 --> 00:00:04,825
+In this lesson, we're going to talk about the U.S. healthcare system.
+
+2
+00:00:04,825 --> 00:00:09,870
+This is a complex topic that cannot be adequately covered in a single lecture.
+
+3
+00:00:09,870 --> 00:00:12,300
+So, I've provided suggested readings.
+
+4
+00:00:12,300 --> 00:00:15,870
+Some students wonder why I devote an entire lesson to
+
+5
+00:00:15,870 --> 00:00:21,005
+the US health care systems structure and economics in what is after all,
+
+6
+00:00:21,005 --> 00:00:22,980
+a health informatics course.
+
+7
+00:00:22,980 --> 00:00:25,360
+Many Georgia Tech students come to
+
+8
+00:00:25,360 --> 00:00:29,800
+this course with little background in the health care delivery system.
+
+9
+00:00:29,800 --> 00:00:33,310
+Health Informatics, the focus of this course is
+
+10
+00:00:33,310 --> 00:00:38,380
+the application of information technology to that delivery system.
+
+11
+00:00:38,380 --> 00:00:43,090
+I believe you need at least a basic grounding to appreciate the nature of
+
+12
+00:00:43,090 --> 00:00:48,610
+the system and the key roles Health Informatics can play in solving its problems.
+
+13
+00:00:48,610 --> 00:00:50,670
+To give some examples,
+
+14
+00:00:50,670 --> 00:00:56,655
+informatics can help avoid medical errors that often arise from inadequate information,
+
+15
+00:00:56,655 --> 00:01:01,625
+or the presence of more information than a human being can process.
+
+16
+00:01:01,625 --> 00:01:08,210
+It can help identifying reduce waste to unnecessary, or duplicative services.
+
+17
+00:01:08,210 --> 00:01:13,380
+It is critical to the surveillance of food borne analysis and disease outbreaks.
+
+18
+00:01:13,380 --> 00:01:16,155
+Data mining and many analytic techniques
+
+19
+00:01:16,155 --> 00:01:19,380
+are increasingly being used to find new medicines,
+
+20
+00:01:19,380 --> 00:01:24,925
+new treatment protocols, and new methods for earlier diagnosis.
+
+21
+00:01:24,925 --> 00:01:29,800
+These are just a few of the potential informatics benefits to health care delivery.
+
+22
+00:01:29,800 --> 00:01:35,575
+But each of them depends to one degree or another on the ability to share digital data.
+
+23
+00:01:35,575 --> 00:01:41,110
+As you'll see, now that most hospitals and around half of all providers have adopted
+
+24
+00:01:41,110 --> 00:01:47,250
+electronic record systems data sharing and interoperability is now the focus.
+
+25
+00:01:47,250 --> 00:01:51,730
+So, this course is largely about interoperability and
+
+26
+00:01:51,730 --> 00:01:56,800
+the role that the new HL seven fire standard plays in creating it.
+
+27
+00:01:56,800 --> 00:01:58,520
+To get ready for that,
+
+28
+00:01:58,520 --> 00:02:03,425
+we'll first discuss the US healthcare system and its problems.
+
+29
+00:02:03,425 --> 00:02:06,595
+And then, we'll begin the discussion of the role in
+
+30
+00:02:06,595 --> 00:02:11,270
+interoperable informatics landscape can play in solving them.

@@ -1,0 +1,239 @@
+1
+00:00:00,000 --> 00:00:05,580
+We will use Microsoft's HealthVault PHR because it is free, public,
+
+2
+00:00:05,580 --> 00:00:13,010
+and does a good job of demonstrating some key PHR concepts, capabilities, and challenges.
+
+3
+00:00:13,010 --> 00:00:15,300
+Here you can see that HealthVault records
+
+4
+00:00:15,300 --> 00:00:20,290
+the common health information patients say they want to keep track of.
+
+5
+00:00:20,290 --> 00:00:25,615
+It can also upload data from numerous personal devices and apps.
+
+6
+00:00:25,615 --> 00:00:30,040
+Finally, it provides for uploading health information from a patient's providers.
+
+7
+00:00:30,040 --> 00:00:34,260
+HealthVault displays the patient's health record in tiles.
+
+8
+00:00:34,260 --> 00:00:40,465
+Each user can decide which ones they want on their personal health dashboard.
+
+9
+00:00:40,465 --> 00:00:45,765
+Here you can see two menu items we will be using, documents and sharing.
+
+10
+00:00:45,765 --> 00:00:48,500
+I've expanded the documents menu.
+
+11
+00:00:48,500 --> 00:00:52,730
+Notes support for continuity of care documents, or CCDs,
+
+12
+00:00:52,730 --> 00:00:56,240
+along with older formats such as the CCR,
+
+13
+00:00:56,240 --> 00:00:58,535
+a predecessor to the CCD,
+
+14
+00:00:58,535 --> 00:01:03,077
+and even files from spreadsheets or word processing software.
+
+15
+00:01:03,077 --> 00:01:06,170
+Patients can also upload images.
+
+16
+00:01:06,170 --> 00:01:08,780
+Note that this patient has six CCDs,
+
+17
+00:01:08,780 --> 00:01:14,860
+which could have come from six different providers caring for their various problems.
+
+18
+00:01:14,860 --> 00:01:19,620
+We will discuss CCDs in more detail later but as I mentioned earlier they are
+
+19
+00:01:19,620 --> 00:01:25,250
+pre-FHIR HL7 standard for an XML formatted patient summary.
+
+20
+00:01:25,250 --> 00:01:28,540
+The Meaningful Use Stage 2 objectives for care coordination and
+
+21
+00:01:28,540 --> 00:01:35,870
+patient engagement require the latest HL7 document standard, called CCDA.
+
+22
+00:01:35,870 --> 00:01:41,340
+So all states to certify EHRs can produce CCA documents.
+
+23
+00:01:41,340 --> 00:01:44,890
+CCDs are a specific template within
+
+24
+00:01:44,890 --> 00:01:50,845
+the CCDA standard that is ideal for loading data into our personal health record.
+
+25
+00:01:50,845 --> 00:01:55,490
+Any software that supports the standard, as HealthVault does,
+
+26
+00:01:55,490 --> 00:01:59,390
+can upload and should generally be able to correctly store data
+
+27
+00:01:59,390 --> 00:02:04,185
+from CCDs created by the patients providers EHR.
+
+28
+00:02:04,185 --> 00:02:09,495
+HealthVault does this when patients push the add items button.
+
+29
+00:02:09,495 --> 00:02:12,300
+I've highlighted one of the CCDs listed and then
+
+30
+00:02:12,300 --> 00:02:15,835
+clicked on the dot dot dot link to bring up a menu.
+
+31
+00:02:15,835 --> 00:02:21,770
+Importantly, most browsers will render XML documents in reasonably human readable form.
+
+32
+00:02:21,770 --> 00:02:25,000
+Here you see the CCD I had highlighted after I
+
+33
+00:02:25,000 --> 00:02:28,865
+clicked on The View details link in the menu we just looked at.
+
+34
+00:02:28,865 --> 00:02:31,745
+I think you'll agree that it is quite readable.
+
+35
+00:02:31,745 --> 00:02:40,670
+The CCD file CS 6440 sample CCD is available to you on the course site.
+
+36
+00:02:40,670 --> 00:02:43,340
+Your exercise is to first create and
+
+37
+00:02:43,340 --> 00:02:48,205
+HealthVault account and then upload this CCD into it.
+
+38
+00:02:48,205 --> 00:02:50,310
+Once you have done that,
+
+39
+00:02:50,310 --> 00:02:55,820
+click the Add items box next to its name in the list of CCD documents to experience what
+
+40
+00:02:55,820 --> 00:02:58,850
+an actual patient would need to do in order to
+
+41
+00:02:58,850 --> 00:03:03,285
+decide what data from their record to load into their PHR.
+
+42
+00:03:03,285 --> 00:03:07,090
+Next, click on the sharing item in
+
+43
+00:03:07,090 --> 00:03:11,690
+the HealthVault menu we discussed a moment ago to bring up this screen.
+
+44
+00:03:11,690 --> 00:03:14,980
+Note at the top that patients can invite someone,
+
+45
+00:03:14,980 --> 00:03:16,360
+such as family members,
+
+46
+00:03:16,360 --> 00:03:18,630
+to share their data.
+
+47
+00:03:18,630 --> 00:03:24,255
+Those invitees receive an email invitation like this one.
+
+48
+00:03:24,255 --> 00:03:29,810
+Be sure to click on share only the types of information selected below.
+
+49
+00:03:29,810 --> 00:03:33,550
+Since patients express concern about privacy,
+
+50
+00:03:33,550 --> 00:03:38,230
+they might well want to choose what information they wish to share.
+
+51
+00:03:38,230 --> 00:03:43,860
+Spend a few minutes looking at the choices and I think you will quickly appreciate why
+
+52
+00:03:43,860 --> 00:03:50,460
+understanding medical terminology is one of the challenges patients face in using a PHR.
+
+53
+00:03:50,460 --> 00:03:57,455
+Now spend some time exploring the various sharing options offered on this page.
+
+54
+00:03:57,455 --> 00:04:03,200
+Do you agree that computer literacy might also be a barrier to some patients using a PHR?
+
+55
+00:04:03,200 --> 00:04:06,755
+Finally, do you think there might be an even easier,
+
+56
+00:04:06,755 --> 00:04:11,740
+more usable way for patients to express these preferences and choices?
+
+57
+00:04:11,740 --> 00:04:14,995
+If you own a device, or use an app,
+
+58
+00:04:14,995 --> 00:04:16,690
+that can record health data,
+
+59
+00:04:16,690 --> 00:04:20,525
+I suggest you try to upload data from it to HealthVault.
+
+60
+00:04:20,525 --> 00:04:25,290
+As you can see here, there's an extensive list of supported apps and devices.

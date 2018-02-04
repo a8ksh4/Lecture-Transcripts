@@ -1,0 +1,143 @@
+1
+00:00:00,000 --> 00:00:06,727
+Public key encryption or PKI uses a pair of public and private keys,
+
+2
+00:00:06,727 --> 00:00:11,750
+X.509 certificates to secure data.
+
+3
+00:00:11,750 --> 00:00:15,300
+In simple terms, a certificate authority issues
+
+4
+00:00:15,300 --> 00:00:19,905
+the keys and binds them to the identity of an entity.
+
+5
+00:00:19,905 --> 00:00:22,490
+Before that, a registration authority,
+
+6
+00:00:22,490 --> 00:00:25,350
+which could also be the certificate authority,
+
+7
+00:00:25,350 --> 00:00:28,520
+verifies that the entities who they claim to be.
+
+8
+00:00:28,520 --> 00:00:34,200
+The keys are large numbers with a mathematical relationship that is prohibitively time
+
+9
+00:00:34,200 --> 00:00:40,410
+consuming and expensive to discover using currently available computing technologies.
+
+10
+00:00:40,410 --> 00:00:47,975
+As a result, data encrypted using either key can only be unencrypted using the other one.
+
+11
+00:00:47,975 --> 00:00:55,240
+Importantly, the public key is freely shareable but the private key must remain secret.
+
+12
+00:00:55,240 --> 00:00:59,900
+However, as we will now see there are use cases for using either key to
+
+13
+00:00:59,900 --> 00:01:04,180
+encrypt something and the opposite key to decrypt it.
+
+14
+00:01:04,180 --> 00:01:07,820
+In the most common use case shown along the top,
+
+15
+00:01:07,820 --> 00:01:10,940
+the sender encrypts a document they wish to
+
+16
+00:01:10,940 --> 00:01:16,090
+share using the intended recipients public key.
+
+17
+00:01:16,090 --> 00:01:20,765
+Since only that recipient has the matching private key,
+
+18
+00:01:20,765 --> 00:01:24,484
+only they can decrypt and read the document.
+
+19
+00:01:24,484 --> 00:01:26,535
+As shown along the bottom,
+
+20
+00:01:26,535 --> 00:01:30,830
+PKI also involves a digital signature.
+
+21
+00:01:30,830 --> 00:01:37,032
+Its purpose is to prevent tampering and impersonation in digital communications.
+
+22
+00:01:37,032 --> 00:01:42,320
+Creating it involves hashing which is the transformation of a string of characters
+
+23
+00:01:42,320 --> 00:01:48,845
+into a usually shorter fixed length value or a key that represents the original string.
+
+24
+00:01:48,845 --> 00:01:54,265
+A hash is then encrypted using the sender's private key.
+
+25
+00:01:54,265 --> 00:01:56,840
+The encrypted hash along with
+
+26
+00:01:56,840 --> 00:02:02,380
+other information such as the hashing algorithm is the digital signature.
+
+27
+00:02:02,380 --> 00:02:07,480
+The reason for encrypting the hash instead of the entire message or document is that
+
+28
+00:02:07,480 --> 00:02:09,110
+a hash function can convert
+
+29
+00:02:09,110 --> 00:02:14,945
+an arbitrary input into a fixed length value which is usually much shorter.
+
+30
+00:02:14,945 --> 00:02:19,880
+This saves time since hashing is much faster than signing.
+
+31
+00:02:19,880 --> 00:02:23,960
+Any recipient can confirm the source of the document by
+
+32
+00:02:23,960 --> 00:02:28,323
+decrypting the digital signature using the sender's public key.
+
+33
+00:02:28,323 --> 00:02:34,260
+Please note that this in no way compromises the sender's private key.
+
+34
+00:02:34,260 --> 00:02:39,390
+It just confirms that the digital signature was encrypted using it.
+
+35
+00:02:39,390 --> 00:02:42,400
+Also since the document was in hash,
+
+36
+00:02:42,400 --> 00:02:46,000
+this does not compromise confidential patient information.

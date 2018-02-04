@@ -1,0 +1,227 @@
+1
+00:00:00,000 --> 00:00:03,755
+The goal of the HL7 Reference Information Model,
+
+2
+00:00:03,755 --> 00:00:08,620
+or RIM, is to document the actions taken to treat a patient.
+
+3
+00:00:08,620 --> 00:00:12,540
+A request or order for a test is an action.
+
+4
+00:00:12,540 --> 00:00:15,960
+The reporting of the test result is an action.
+
+5
+00:00:15,960 --> 00:00:20,460
+Creating a diagnosis based on test results is an action.
+
+6
+00:00:20,460 --> 00:00:24,440
+Prescribing treatments based on a diagnosis is an action.
+
+7
+00:00:24,440 --> 00:00:28,360
+RIM defines the semantics of a common set of
+
+8
+00:00:28,360 --> 00:00:31,510
+administrative financial and clinical concepts
+
+9
+00:00:31,510 --> 00:00:35,995
+in order to describe these actions and foster interoperability.
+
+10
+00:00:35,995 --> 00:00:38,455
+Here you see a diagrammatic representation of
+
+11
+00:00:38,455 --> 00:00:42,870
+all the RIM concepts or classes and their relationships.
+
+12
+00:00:42,870 --> 00:00:46,795
+I provide a link to a webpage from which you can explore them all.
+
+13
+00:00:46,795 --> 00:00:51,620
+The four shown here are core or backbone classes.
+
+14
+00:00:51,620 --> 00:00:56,420
+Every happening is an act that is either being done,
+
+15
+00:00:56,420 --> 00:00:58,940
+has been done, can be done,
+
+16
+00:00:58,940 --> 00:01:01,370
+or has been requested or ordered.
+
+17
+00:01:01,370 --> 00:01:04,400
+Examples include clinical observations,
+
+18
+00:01:04,400 --> 00:01:08,810
+medication administration, medical procedures or patient encounters.
+
+19
+00:01:08,810 --> 00:01:14,900
+Act relationships represent connections between acts such as composition,
+
+20
+00:01:14,900 --> 00:01:17,835
+preconditions, revisions and support.
+
+21
+00:01:17,835 --> 00:01:22,790
+Participation defines the context for an act such as author,
+
+22
+00:01:22,790 --> 00:01:26,010
+performer, subject or location.
+
+23
+00:01:26,010 --> 00:01:28,840
+The participants have roles such as patient,
+
+24
+00:01:28,840 --> 00:01:33,040
+provider, practitioner, specimen or health care facility.
+
+25
+00:01:33,040 --> 00:01:36,130
+Entities such as persons, organizations, material,
+
+26
+00:01:36,130 --> 00:01:40,385
+places or devices play these role.
+
+27
+00:01:40,385 --> 00:01:45,495
+How can a single act class represent all of the elements of a clinical action?
+
+28
+00:01:45,495 --> 00:01:48,325
+Their definition, requesting or ordering them,
+
+29
+00:01:48,325 --> 00:01:50,235
+or reporting the result.
+
+30
+00:01:50,235 --> 00:01:53,550
+This is the role of the Act.moodCode that
+
+31
+00:01:53,550 --> 00:01:57,120
+specifies whether the act is an activity that is defined,
+
+32
+00:01:57,120 --> 00:02:00,435
+is an event, has been requested or ordered,
+
+33
+00:02:00,435 --> 00:02:04,615
+or is promised, or is the subject of a future appointment.
+
+34
+00:02:04,615 --> 00:02:10,735
+Here's an example of a patient registration message in both V2 and V3 formats.
+
+35
+00:02:10,735 --> 00:02:15,115
+You will not find anything related to RIM up here in the V2 message.
+
+36
+00:02:15,115 --> 00:02:17,550
+Down here in the V3 version,
+
+37
+00:02:17,550 --> 00:02:20,275
+you see processingModeCode Code=T.
+
+38
+00:02:20,275 --> 00:02:23,541
+Over on the FHIR website,
+
+39
+00:02:23,541 --> 00:02:25,960
+you can easily find this table that explains
+
+40
+00:02:25,960 --> 00:02:29,820
+the possible values of this code, its value set.
+
+41
+00:02:29,820 --> 00:02:32,975
+And T indicates current processing.
+
+42
+00:02:32,975 --> 00:02:36,435
+So that is the status of this patient's registration.
+
+43
+00:02:36,435 --> 00:02:39,490
+The state of processing of an administrative task is
+
+44
+00:02:39,490 --> 00:02:43,205
+but one example of the great level of detail in RIM.
+
+45
+00:02:43,205 --> 00:02:45,267
+To get a further feel for this,
+
+46
+00:02:45,267 --> 00:02:50,285
+let's focus on the special arrangement code for this patient encounter.
+
+47
+00:02:50,285 --> 00:02:53,425
+We see here that this is a leaf of the act,
+
+48
+00:02:53,425 --> 00:02:56,175
+meaning it is a particular example or instance.
+
+49
+00:02:56,175 --> 00:02:59,745
+Its value is DSET, D-S-E-T.
+
+50
+00:02:59,745 --> 00:03:03,430
+It indicates there is a discrete set of possible values.
+
+51
+00:03:03,430 --> 00:03:06,060
+Again, a value set for this field.
+
+52
+00:03:06,060 --> 00:03:08,190
+Once again, as you see here,
+
+53
+00:03:08,190 --> 00:03:12,505
+the FHIR site is a great way to discover these values.
+
+54
+00:03:12,505 --> 00:03:15,920
+These codes for special things a patient might need at arrival for
+
+55
+00:03:15,920 --> 00:03:20,788
+an encounter and the possible values are wheel for wheelchair,
+
+56
+00:03:20,788 --> 00:03:22,645
+add-bed for additional bedding,
+
+57
+00:03:22,645 --> 00:03:28,000
+int for interpreter, att for attendant and dog for guide dog.

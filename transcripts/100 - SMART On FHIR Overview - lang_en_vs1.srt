@@ -1,0 +1,247 @@
+1
+00:00:00,000 --> 00:00:02,850
+SMART development preceded FHIR,
+
+2
+00:00:02,850 --> 00:00:05,830
+but as FHIR became more significant,
+
+3
+00:00:05,830 --> 00:00:08,970
+the project shifted to the development of a layer that
+
+4
+00:00:08,970 --> 00:00:12,405
+builds on the FHIR API and resource definitions.
+
+5
+00:00:12,405 --> 00:00:14,790
+As we explained earlier,
+
+6
+00:00:14,790 --> 00:00:19,770
+FHIR provides a set of core data models but many FHIR fields and value sets
+
+7
+00:00:19,770 --> 00:00:21,630
+may not be constrained to support
+
+8
+00:00:21,630 --> 00:00:25,830
+specific requirements across varied regions and use cases.
+
+9
+00:00:25,830 --> 00:00:31,265
+To enable substitutable health apps as well as third party applications services,
+
+10
+00:00:31,265 --> 00:00:34,590
+SMART implies a set of profiles that provide developers with
+
+11
+00:00:34,590 --> 00:00:39,300
+expectations about the vocabularies they should use to represent medications,
+
+12
+00:00:39,300 --> 00:00:41,660
+problems, labs, and other clinical data.
+
+13
+00:00:41,660 --> 00:00:44,930
+As part of the Argonaut Project we discussed earlier,
+
+14
+00:00:44,930 --> 00:00:51,050
+the five largest EHR vendors either have a will bill SMART into their products.
+
+15
+00:00:51,050 --> 00:00:52,560
+The vendors, the SMART team,
+
+16
+00:00:52,560 --> 00:00:59,275
+and HL7 are working together to standardize the SMART API in HL7 specifications.
+
+17
+00:00:59,275 --> 00:01:02,430
+Clearly, third party apps must not access
+
+18
+00:01:02,430 --> 00:01:07,305
+protected health information without being registered into an EHR,
+
+19
+00:01:07,305 --> 00:01:10,515
+establishing trust in who is using those apps,
+
+20
+00:01:10,515 --> 00:01:13,750
+and respecting patient privacy choices.
+
+21
+00:01:13,750 --> 00:01:17,675
+To facilitate this, SMART provides login and data access
+
+22
+00:01:17,675 --> 00:01:23,085
+authorization models based on the openID Connect and OAuth 2.0 standards.
+
+23
+00:01:23,085 --> 00:01:26,970
+In this lesson, we will look at how SMART uses these technologies.
+
+24
+00:01:26,970 --> 00:01:30,290
+Through SMART Genomics and CDS Hooks,
+
+25
+00:01:30,290 --> 00:01:34,920
+the SMART Project is helping to find the next generation of FHIR base standards for
+
+26
+00:01:34,920 --> 00:01:37,890
+the clinical use of genomic data and the integration
+
+27
+00:01:37,890 --> 00:01:41,665
+of clinical decision support into provider workflows.
+
+28
+00:01:41,665 --> 00:01:44,370
+We will also discuss both of these efforts later.
+
+29
+00:01:44,370 --> 00:01:47,850
+To make it easier for developers to get started building apps,
+
+30
+00:01:47,850 --> 00:01:52,191
+the SMART Project offers a set of open source libraries for HTML5,
+
+31
+00:01:52,191 --> 00:01:55,590
+JavaScript, iOS, and Python.
+
+32
+00:01:55,590 --> 00:01:59,670
+To support running apps within the EHR's user interface,
+
+33
+00:01:59,670 --> 00:02:05,050
+SMART allows web apps to run inside browser widgets or inline frames.
+
+34
+00:02:05,050 --> 00:02:07,680
+It also supports native and mobile apps.
+
+35
+00:02:07,680 --> 00:02:13,560
+SMART also offers a free web-based API Sandbox that developers can use to test
+
+36
+00:02:13,560 --> 00:02:16,493
+their apps as well as a locally installable version
+
+37
+00:02:16,493 --> 00:02:20,065
+the developers can download and run on their own system.
+
+38
+00:02:20,065 --> 00:02:23,575
+Here is the public Sandbox that everyone has access to,
+
+39
+00:02:23,575 --> 00:02:25,405
+but you can create your own.
+
+40
+00:02:25,405 --> 00:02:28,040
+Note that you can install your app and test it
+
+41
+00:02:28,040 --> 00:02:31,430
+using sample patients, practitioners, and data.
+
+42
+00:02:31,430 --> 00:02:33,740
+Here for example, is some of the extensive set of
+
+43
+00:02:33,740 --> 00:02:37,195
+vital signs data that is available for testing.
+
+44
+00:02:37,195 --> 00:02:40,203
+You can also create patient and practitioner personas
+
+45
+00:02:40,203 --> 00:02:43,210
+and use them in launch scenarios to test your app.
+
+46
+00:02:43,210 --> 00:02:46,065
+As illustrated here with a patient,
+
+47
+00:02:46,065 --> 00:02:48,230
+there are sample personas of both types
+
+48
+00:02:48,230 --> 00:02:51,660
+available for use if you do not need to build your own.
+
+49
+00:02:51,660 --> 00:02:54,680
+Note here that you can quickly see what type and
+
+50
+00:02:54,680 --> 00:02:58,150
+quantity of FHIR resources exist for each patient.
+
+51
+00:02:58,150 --> 00:03:01,280
+SMART offers FRED, a web-based interactive FHIR
+
+52
+00:03:01,280 --> 00:03:06,090
+resource editor to help developers create sample data for their apps.
+
+53
+00:03:06,090 --> 00:03:10,950
+I suggest you try using FRED to build a FHIR resource of your choice.
+
+54
+00:03:10,950 --> 00:03:15,950
+Here you see that I even put some elements of a FHIR patient resource representing me.
+
+55
+00:03:15,950 --> 00:03:17,580
+When I click Export JSON,
+
+56
+00:03:17,580 --> 00:03:21,160
+I get this JSON that corresponds to what I've input.
+
+57
+00:03:21,160 --> 00:03:27,510
+SMART C3-PRO is a software library that integrates the SMART platform with research kit.
+
+58
+00:03:27,510 --> 00:03:31,320
+SMART's C3-PRO is a software library
+
+59
+00:03:31,320 --> 00:03:34,745
+that integrates the SMART platform with research kit.
+
+60
+00:03:34,745 --> 00:03:41,070
+Apple's open source framework to enable iOS apps to become tools for medical research.
+
+61
+00:03:41,070 --> 00:03:45,565
+Finally, the SMART site offers extensive documentation.
+
+62
+00:03:45,565 --> 00:03:48,090
+I strongly recommend you spend time there.

@@ -1,0 +1,15 @@
+1
+00:00:00,000 --> 00:00:03,825
+This interesting brief video from a live course founder,
+
+2
+00:00:03,825 --> 00:00:07,140
+suggest the company's future direction and
+
+3
+00:00:07,140 --> 00:00:10,217
+the growing importance of analytics in healthcare,
+
+4
+00:00:10,217 --> 00:00:12,000
+the topic of a later lesson.

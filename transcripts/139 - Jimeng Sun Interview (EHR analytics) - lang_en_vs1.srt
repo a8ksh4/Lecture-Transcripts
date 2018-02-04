@@ -1,0 +1,523 @@
+1
+00:00:05,650 --> 00:00:08,870
+Sure, thanks Mark.
+
+2
+00:00:08,870 --> 00:00:10,250
+My name is Jimeng Sun.
+
+3
+00:00:10,250 --> 00:00:13,070
+I'm Associate Professor at the College Computing in
+
+4
+00:00:13,070 --> 00:00:16,148
+the School of Computational Science and Engineering.
+
+5
+00:00:16,148 --> 00:00:17,850
+And prior to Georgia Tech,
+
+6
+00:00:17,850 --> 00:00:26,438
+I was a research staff member at IBM T.J. Watson Research Center for six years.
+
+7
+00:00:26,438 --> 00:00:29,150
+Sure.
+
+8
+00:00:29,150 --> 00:00:32,675
+So, EHR data really
+
+9
+00:00:32,675 --> 00:00:37,460
+has many challenges if you want to build analytics model using those data.
+
+10
+00:00:37,460 --> 00:00:45,710
+So number one is the messiness and unreliable information in those data sources.
+
+11
+00:00:45,710 --> 00:00:50,090
+So oftentimes, some information about patient are
+
+12
+00:00:50,090 --> 00:00:54,545
+not recorded and they're only recorded during the visit,
+
+13
+00:00:54,545 --> 00:00:57,770
+which are very sparsely scattered over time.
+
+14
+00:00:57,770 --> 00:01:02,795
+So, we don't know what actually happened in between two different visit.
+
+15
+00:01:02,795 --> 00:01:05,505
+So, a lot of the information are not in the data.
+
+16
+00:01:05,505 --> 00:01:07,955
+And whenever they are in the data,
+
+17
+00:01:07,955 --> 00:01:09,800
+they're not all accurate.
+
+18
+00:01:09,800 --> 00:01:15,045
+Some diagnosis could show up but that doesn't mean the patient have the disease.
+
+19
+00:01:15,045 --> 00:01:20,910
+They may just come in for screening but the code still show up for billing purpose.
+
+20
+00:01:20,910 --> 00:01:24,349
+So, you can't really trust the data a lot.
+
+21
+00:01:24,349 --> 00:01:27,644
+Sorry, you can't really trust the data all the time,
+
+22
+00:01:27,644 --> 00:01:32,825
+so you have to really leverage many other different way to figure out those information
+
+23
+00:01:32,825 --> 00:01:39,680
+is reliable or not.
+
+24
+00:01:39,680 --> 00:01:42,525
+Sure. So, for EHR data,
+
+25
+00:01:42,525 --> 00:01:45,165
+it has many different sources.
+
+26
+00:01:45,165 --> 00:01:47,660
+Such as, in the structure field,
+
+27
+00:01:47,660 --> 00:01:51,000
+you have diagnosis code, medication, lab results.
+
+28
+00:01:51,000 --> 00:01:53,820
+Then you have unstructured field.
+
+29
+00:01:53,820 --> 00:01:55,392
+Those are clinical notes,
+
+30
+00:01:55,392 --> 00:02:03,020
+often times are dictated or entered by clinicians or nurses directly.
+
+31
+00:02:03,020 --> 00:02:07,905
+So, many people actually think that unstructured clinical notes
+
+32
+00:02:07,905 --> 00:02:13,970
+consists of most reliable information that clinicians put in,
+
+33
+00:02:13,970 --> 00:02:16,250
+and all the other information such as
+
+34
+00:02:16,250 --> 00:02:21,115
+diagnosis code and other things are derived from there.
+
+35
+00:02:21,115 --> 00:02:25,810
+I mean, unstructured data itself is very messy.
+
+36
+00:02:25,810 --> 00:02:33,475
+Again, it's not really a well drafted article that people can read and understand,
+
+37
+00:02:33,475 --> 00:02:42,673
+it consists a lot of acronyms and the sentences are very short.
+
+38
+00:02:42,673 --> 00:02:48,800
+It's really those unstructured data serve as a note for
+
+39
+00:02:48,800 --> 00:02:51,500
+the clinicians themselves so next time the patient comes
+
+40
+00:02:51,500 --> 00:02:55,800
+back they can remember what happened in the previous visit.
+
+41
+00:02:55,800 --> 00:03:01,290
+So, how can we extract useful information directly from that noisy,
+
+42
+00:03:01,290 --> 00:03:03,790
+unstructured form, it's very challenging.
+
+43
+00:03:03,790 --> 00:03:07,840
+So, the way we do it is leveraging two source of information.
+
+44
+00:03:07,840 --> 00:03:12,110
+One is, there are a lot of medical oncology
+
+45
+00:03:12,110 --> 00:03:16,600
+that researchers have built up over the years.
+
+46
+00:03:16,600 --> 00:03:21,290
+So, that tells us what different spelling of the word
+
+47
+00:03:21,290 --> 00:03:27,330
+means and acronyms means in the clinical documents.
+
+48
+00:03:27,330 --> 00:03:34,160
+So, we use oncology to help us to extract a lot of clinical concepts directly,
+
+49
+00:03:34,160 --> 00:03:39,095
+so that we can map those very diverse set of mentions
+
+50
+00:03:39,095 --> 00:03:44,705
+of clinical concept into a consistent concept ID.
+
+51
+00:03:44,705 --> 00:03:48,680
+Then the second way we're dealing with unstructured information is,
+
+52
+00:03:48,680 --> 00:03:52,900
+leveraging the core occurrences of all those mentions.
+
+53
+00:03:52,900 --> 00:03:58,370
+When two medical concepts co-occur in a clinical document,
+
+54
+00:03:58,370 --> 00:04:04,460
+especially if they are very close by in the same sentence or same paragraph,
+
+55
+00:04:04,460 --> 00:04:05,960
+oftentimes they are related.
+
+56
+00:04:05,960 --> 00:04:11,540
+So, we leverage that co-occurancy information to help us to derive the relationship
+
+57
+00:04:11,540 --> 00:04:19,200
+of those medical concepts.
+
+58
+00:04:19,200 --> 00:04:25,881
+Sure. So, as you probably have described in your previous class.
+
+59
+00:04:25,881 --> 00:04:32,575
+I mean CHF is very important condition and many things can lead to heart failures,
+
+60
+00:04:32,575 --> 00:04:38,280
+and it's very challenging to predict the onset of heart failure earlier.
+
+61
+00:04:38,280 --> 00:04:41,850
+And the way we're approaching that is,
+
+62
+00:04:41,850 --> 00:04:47,820
+we integrate all source of information about patients from their EHR,
+
+63
+00:04:47,820 --> 00:04:54,255
+then construct diverse set of features that characterize the patient representation.
+
+64
+00:04:54,255 --> 00:04:59,535
+Then use those features and trying to correlate those features to the outcome,
+
+65
+00:04:59,535 --> 00:05:02,803
+which is whether the patient has a CHF or not.
+
+66
+00:05:02,803 --> 00:05:05,105
+And then build a predictive model,
+
+67
+00:05:05,105 --> 00:05:08,363
+leveraging all those different diverse set of features.
+
+68
+00:05:08,363 --> 00:05:11,995
+So, this is a standard predictive model pipeline.
+
+69
+00:05:11,995 --> 00:05:15,240
+It has two different phases,
+
+70
+00:05:15,240 --> 00:05:19,440
+the customization phase and the standardization phase.
+
+71
+00:05:19,440 --> 00:05:26,957
+So, the customization phase involves extracting features from raw data.
+
+72
+00:05:26,957 --> 00:05:30,780
+In this case, the raw data can come from structure EHR such as diagnosis, medical, sorry,
+
+73
+00:05:30,780 --> 00:05:37,920
+the structured data can come from diagnosis code,
+
+74
+00:05:37,920 --> 00:05:45,000
+medications, and lab results and unstructured EHR are usually those clinical notes.
+
+75
+00:05:45,000 --> 00:05:48,795
+And there's two different ways to extract features,
+
+76
+00:05:48,795 --> 00:05:53,820
+either you directly map those structured variables into features,
+
+77
+00:05:53,820 --> 00:05:57,730
+or you have to do some natural under
+
+78
+00:05:57,730 --> 00:06:03,180
+processing from the unstructured data to extract that features.
+
+79
+00:06:03,180 --> 00:06:04,860
+Once you have those features,
+
+80
+00:06:04,860 --> 00:06:11,475
+you can put all of them together,
+
+81
+00:06:11,475 --> 00:06:15,480
+then the downstream modeling is pretty much standard.
+
+82
+00:06:15,480 --> 00:06:17,490
+And you take all those features,
+
+83
+00:06:17,490 --> 00:06:23,220
+and trying to figure out which one are predictive to your final target, for example,
+
+84
+00:06:23,220 --> 00:06:26,145
+if you want to predict onset of heart failures,
+
+85
+00:06:26,145 --> 00:06:32,360
+only the features that are relevant for predicting heart failure will be included.
+
+86
+00:06:32,360 --> 00:06:37,435
+So, the feature selections that will remove most of the irrelevant features.
+
+87
+00:06:37,435 --> 00:06:41,865
+Finally, you have a classification model
+
+88
+00:06:41,865 --> 00:06:46,395
+to map the relevant feature to the outcome to make the final prediction.
+
+89
+00:06:46,395 --> 00:06:51,420
+The performance of the predictive model usually come from the quality of the features.
+
+90
+00:06:51,420 --> 00:06:53,325
+If the feature are predictive,
+
+91
+00:06:53,325 --> 00:06:55,487
+then the model will be good.
+
+92
+00:06:55,487 --> 00:07:01,095
+So, here's just one example showing the impact of different type of features.
+
+93
+00:07:01,095 --> 00:07:07,345
+And the Y-axis is the performance score in terms of area under the curve,
+
+94
+00:07:07,345 --> 00:07:08,910
+so, the higher the better.
+
+95
+00:07:08,910 --> 00:07:14,048
+And the X-axis is the number of feature you included in your model.
+
+96
+00:07:14,048 --> 00:07:17,515
+So, we start with a set of domain,
+
+97
+00:07:17,515 --> 00:07:20,555
+or we start with knowledge driven feature.
+
+98
+00:07:20,555 --> 00:07:28,470
+Those are the features such as co-morbidities that are relevant to heart failure.
+
+99
+00:07:28,470 --> 00:07:32,375
+And, you can see if you only include those features,
+
+100
+00:07:32,375 --> 00:07:36,015
+the performance is about 60%,
+
+101
+00:07:36,015 --> 00:07:40,170
+slightly above 60% of accuracy.
+
+102
+00:07:40,170 --> 00:07:43,125
+And then after that,
+
+103
+00:07:43,125 --> 00:07:45,540
+if you used a data driven features,
+
+104
+00:07:45,540 --> 00:07:48,475
+such as the feature selection asset,
+
+105
+00:07:48,475 --> 00:07:50,550
+then trying to find
+
+106
+00:07:50,550 --> 00:07:54,260
+all the relevant features that potentially predictive to heart failure,
+
+107
+00:07:54,260 --> 00:08:03,160
+you can see a huge jump in terms of performance from about 0.62-0.7 or above.
+
+108
+00:08:03,160 --> 00:08:05,210
+And more features you included,
+
+109
+00:08:05,210 --> 00:08:12,150
+it become more predictive.
+
+110
+00:08:12,150 --> 00:08:16,640
+Sure. So, in the past, or even now,
+
+111
+00:08:16,640 --> 00:08:21,880
+it's pretty standard to follow the process of taking the data,
+
+112
+00:08:21,880 --> 00:08:26,590
+then based on your domain knowledge and your understanding of the data,
+
+113
+00:08:26,590 --> 00:08:34,630
+to construct a set of features that are really meaningful to a domain experts probably,
+
+114
+00:08:34,630 --> 00:08:39,736
+then trying to figure out a way to correlate those features to the final outcome.
+
+115
+00:08:39,736 --> 00:08:42,925
+In this case, heart failure or no heart failure.
+
+116
+00:08:42,925 --> 00:08:44,950
+But the challenge for those approach is,
+
+117
+00:08:44,950 --> 00:08:47,920
+you have to understand what features are relevant
+
+118
+00:08:47,920 --> 00:08:52,165
+to begin with in order to extract those from data.
+
+119
+00:08:52,165 --> 00:08:53,410
+But the challenge is,
+
+120
+00:08:53,410 --> 00:08:57,700
+for heart failure for example, in that setting,
+
+121
+00:08:57,700 --> 00:09:04,205
+not all the predictive features are known to the clinician or to the domain expert.
+
+122
+00:09:04,205 --> 00:09:08,230
+So, it's very hard to manually create all those features.
+
+123
+00:09:08,230 --> 00:09:10,750
+And the new approach we're taking,
+
+124
+00:09:10,750 --> 00:09:13,060
+we're using deep newer network or
+
+125
+00:09:13,060 --> 00:09:17,055
+deep learning approach that directly model the raw data,
+
+126
+00:09:17,055 --> 00:09:19,673
+that as long you know EHR data,
+
+127
+00:09:19,673 --> 00:09:24,130
+those events sequences, both structured data and unstructured data.
+
+128
+00:09:24,130 --> 00:09:27,495
+And the algorithm, those deep learning models,
+
+129
+00:09:27,495 --> 00:09:33,899
+will automatically extract and construct a feature and then correlate that with outcomes.
+
+130
+00:09:33,899 --> 00:09:38,250
+So, we don't have to provide those feature in an ad hoc basis.
+
+131
+00:09:38,250 --> 00:09:47,500
+Now, the algorithm can figure out those features by themselves. Thank you.

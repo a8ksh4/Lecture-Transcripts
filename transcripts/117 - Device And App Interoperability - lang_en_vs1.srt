@@ -1,0 +1,147 @@
+1
+00:00:00,000 --> 00:00:05,115
+Unsurprisingly, interoperability of medical devices is a challenge,
+
+2
+00:00:05,115 --> 00:00:08,135
+both within and outside of hospitals.
+
+3
+00:00:08,135 --> 00:00:13,050
+A 2012, Association for the Advancement of Medical Instruments,
+
+4
+00:00:13,050 --> 00:00:17,905
+AAMI survey of 1,900 US hospitals,
+
+5
+00:00:17,905 --> 00:00:20,890
+found that interoperability issues were first and
+
+6
+00:00:20,890 --> 00:00:24,205
+second on the list of medical device challenges.
+
+7
+00:00:24,205 --> 00:00:27,180
+Specifically, they were integrating
+
+8
+00:00:27,180 --> 00:00:30,785
+medical devices and systems into the hospital's network,
+
+9
+00:00:30,785 --> 00:00:34,336
+which was cited by 72% of respondents.,
+
+10
+00:00:34,336 --> 00:00:37,590
+and integrating device data into EHRs,
+
+11
+00:00:37,590 --> 00:00:41,590
+which was cited by 65% of respondents.
+
+12
+00:00:41,590 --> 00:00:46,250
+When we looked at Health For you saw a plethora of devices used by patients,
+
+13
+00:00:46,250 --> 00:00:50,240
+each of them typically has its own proprietary data formats.
+
+14
+00:00:50,240 --> 00:00:55,370
+So Health For provided value by bringing that data together in one record,
+
+15
+00:00:55,370 --> 00:01:00,440
+along with other data collected from EHRs or documented by the patient.
+
+16
+00:01:00,440 --> 00:01:04,100
+In the past the vice data was often available only
+
+17
+00:01:04,100 --> 00:01:08,353
+via a portal maintained by its manufacturer.
+
+18
+00:01:08,353 --> 00:01:10,925
+And there might have been a charge to use it.
+
+19
+00:01:10,925 --> 00:01:15,475
+Continua Health Alliance founded in 2006,
+
+20
+00:01:15,475 --> 00:01:19,480
+is an international non-profit open industry group
+
+21
+00:01:19,480 --> 00:01:23,570
+of nearly 240 healthcare organizations and vendors.
+
+22
+00:01:23,570 --> 00:01:29,336
+Its goal is to establish mHealth interoperability in three major categories,
+
+23
+00:01:29,336 --> 00:01:33,375
+chronic disease management, aging independently,
+
+24
+00:01:33,375 --> 00:01:35,820
+and health and physical fitness.
+
+25
+00:01:35,820 --> 00:01:40,660
+Personal Connected Health Alliance is a non-profit organization
+
+26
+00:01:40,660 --> 00:01:46,300
+formed by the huge Healthcare Information and Management Systems Society HIMSS,
+
+27
+00:01:46,300 --> 00:01:51,520
+Continua, and the mHealth summit to bring together stakeholders to quote
+
+28
+00:01:51,520 --> 00:01:56,577
+realize the full potential of personal connected health end quote.
+
+29
+00:01:56,577 --> 00:01:59,620
+It now publishes and promotes the global adoption of
+
+30
+00:01:59,620 --> 00:02:02,975
+continuous open mHealth interoperability framework.
+
+31
+00:02:02,975 --> 00:02:08,290
+Human API and Validic are two interesting companies that have each developed
+
+32
+00:02:08,290 --> 00:02:13,800
+an interoperability platform for mHealth data from a wide variety of sources,
+
+33
+00:02:13,800 --> 00:02:16,855
+aimed at both patient care and wellness.
+
+34
+00:02:16,855 --> 00:02:22,925
+Both offer rest APIs to access their normalized data in JSON formats.
+
+35
+00:02:22,925 --> 00:02:27,250
+I have posted links to their sites where you can see how this works.
+
+36
+00:02:27,250 --> 00:02:30,772
+Note, that the results may come back in a JSON format,
+
+37
+00:02:30,772 --> 00:02:34,000
+but not yet in an industry standard format.

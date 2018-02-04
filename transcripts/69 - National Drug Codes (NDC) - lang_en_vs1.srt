@@ -1,0 +1,27 @@
+1
+00:00:00,000 --> 00:00:03,790
+The national drug code is a U.S. specific standard for
+
+2
+00:00:03,790 --> 00:00:10,180
+medications maintained by the U.S. Food and Drug Administration or FDA.
+
+3
+00:00:10,180 --> 00:00:15,230
+As shown here, it consists of a simple 10 digit, 3 segment number.
+
+4
+00:00:15,230 --> 00:00:16,830
+The first segment indicates that
+
+5
+00:00:16,830 --> 00:00:21,720
+the manufacturer labeler or vendor is Pfizer consumer products.
+
+6
+00:00:21,720 --> 00:00:24,815
+The second indicates that the product is Advil.
+
+7
+00:00:24,815 --> 00:00:29,000
+The third part indicates that the packaging is 24 tablets in a bottle.

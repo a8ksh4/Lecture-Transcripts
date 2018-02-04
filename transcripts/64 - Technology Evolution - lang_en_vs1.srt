@@ -1,0 +1,115 @@
+1
+00:00:00,000 --> 00:00:04,255
+The final dimension of standard's evolution is technology.
+
+2
+00:00:04,255 --> 00:00:08,027
+Early messaging standards used EDI/X12,
+
+3
+00:00:08,027 --> 00:00:13,070
+itself a standard that had evolved in other industries to automate business processes,
+
+4
+00:00:13,070 --> 00:00:16,595
+such as ordering, invoicing, and payment.
+
+5
+00:00:16,595 --> 00:00:19,825
+EDI/X12 dates from the early days of computing,
+
+6
+00:00:19,825 --> 00:00:22,035
+when memory and storage were dear.
+
+7
+00:00:22,035 --> 00:00:24,310
+So, as you saw earlier,
+
+8
+00:00:24,310 --> 00:00:26,785
+it is quite cryptic and compact.
+
+9
+00:00:26,785 --> 00:00:29,440
+With some effort, you could tell that the message
+
+10
+00:00:29,440 --> 00:00:33,155
+involved a clinical lab doing an HIV test.
+
+11
+00:00:33,155 --> 00:00:35,190
+The results were in red,
+
+12
+00:00:35,190 --> 00:00:39,970
+but most of the other details would not be obvious without a guide.
+
+13
+00:00:39,970 --> 00:00:41,750
+Here's an example of one.
+
+14
+00:00:41,750 --> 00:00:44,850
+You may recall that in the discussion of HIPAA,
+
+15
+00:00:44,850 --> 00:00:47,910
+you learn that a primary reason for the law was to move
+
+16
+00:00:47,910 --> 00:00:52,620
+the industry to electronic financial and administrative transactions.
+
+17
+00:00:52,620 --> 00:00:57,975
+A key example of that is the ANSI 837 electronic claim,
+
+18
+00:00:57,975 --> 00:01:03,630
+that is also in the EDI/X12 format used by HL-7 messages.
+
+19
+00:01:03,630 --> 00:01:08,375
+This is a small part of a guide to the 837 format.
+
+20
+00:01:08,375 --> 00:01:12,280
+Newer messaging and document standards use XML,
+
+21
+00:01:12,280 --> 00:01:15,515
+a more modern syntax that is verbose,
+
+22
+00:01:15,515 --> 00:01:18,800
+but has the advantages that it is more human readable,
+
+23
+00:01:18,800 --> 00:01:21,235
+and can be rendered in a browser.
+
+24
+00:01:21,235 --> 00:01:25,150
+You saw that in the HealthVault exercise.
+
+25
+00:01:25,150 --> 00:01:30,340
+Here's a lab test in the newer HL7 V.3 XML format.
+
+26
+00:01:30,340 --> 00:01:33,015
+While it is still not particularly readable,
+
+27
+00:01:33,015 --> 00:01:39,135
+we can more easily tell that it is a blood glucose level after 12 hours of fasting,
+
+28
+00:01:39,135 --> 00:01:43,765
+and its value of 182 is high as indicated by the age.
+
+29
+00:01:43,765 --> 00:01:49,000
+We can also see that the normal range for this test is 70 to 105.

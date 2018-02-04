@@ -1,0 +1,83 @@
+1
+00:00:00,930 --> 00:00:08,875
+The National Institutes of Health Clinical and translational science awards program CTSA,
+
+2
+00:00:08,875 --> 00:00:16,755
+seeks to facilitate that translation of research into clinical practice.
+
+3
+00:00:16,755 --> 00:00:20,430
+Harvard Medical School has created SHRIN,
+
+4
+00:00:20,430 --> 00:00:23,895
+the shared health research informatics network.
+
+5
+00:00:23,895 --> 00:00:27,108
+A web based software network,
+
+6
+00:00:27,108 --> 00:00:32,400
+SHRIN links the respective I2B2 instances of five of
+
+7
+00:00:32,400 --> 00:00:39,050
+Harvard's CTSA partner hospitals for the sharing of aggregated counts of patients.
+
+8
+00:00:39,050 --> 00:00:45,365
+Meaning selected inclusion and exclusion criteria for demographics,
+
+9
+00:00:45,365 --> 00:00:50,405
+diagnoses, medications and lab tests.
+
+10
+00:00:50,405 --> 00:00:55,210
+The goal is for SHRIN to enable population based research,
+
+11
+00:00:55,210 --> 00:00:59,440
+assessment of potential clinical trial cohorts and
+
+12
+00:00:59,440 --> 00:01:04,465
+hypothesis formation for follow up study by combining the H.R.
+
+13
+00:01:04,465 --> 00:01:08,197
+assets across the hospital systems.
+
+14
+00:01:08,197 --> 00:01:10,960
+The department of biomedical informatics at
+
+15
+00:01:10,960 --> 00:01:15,400
+Harvard Medical School is working with health care centers across the
+
+16
+00:01:15,400 --> 00:01:20,530
+U.S. to develop the scalable collaborative infrastructure for
+
+17
+00:01:20,530 --> 00:01:26,302
+learning health system S C I L H S, pronounced Schils.
+
+18
+00:01:26,302 --> 00:01:31,948
+Each site will install a software suite comprised of
+
+19
+00:01:31,948 --> 00:01:38,850
+I2B2 creating a federated query and response system using SHRIN,
+
+20
+00:01:38,850 --> 00:01:44,130
+the smart platform, the Indivio PHR and
+
+21
+00:01:44,130 --> 00:01:51,000
+the redcap research electronic data capture tool used to survey patients online.

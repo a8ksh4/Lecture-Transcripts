@@ -1,0 +1,83 @@
+1
+00:00:00,000 --> 00:00:02,130
+As shown in this graphic,
+
+2
+00:00:02,130 --> 00:00:05,560
+there are at least three key informatics challenges to
+
+3
+00:00:05,560 --> 00:00:10,577
+overcome in order to achieve a learning health care system.
+
+4
+00:00:10,577 --> 00:00:14,440
+First, providers must adopt digital records.
+
+5
+00:00:14,440 --> 00:00:21,595
+Second, no systems must be able to share data a characteristic called interoperability.
+
+6
+00:00:21,595 --> 00:00:25,095
+And third, that shared data must be aggregated,
+
+7
+00:00:25,095 --> 00:00:29,905
+analyzed, and presented in a clinically useful and timely manner.
+
+8
+00:00:29,905 --> 00:00:33,125
+Because of the federal government's high tech program,
+
+9
+00:00:33,125 --> 00:00:35,290
+that we'll discuss in the next lesson,
+
+10
+00:00:35,290 --> 00:00:39,129
+adoption is now a largely solved challenge.
+
+11
+00:00:39,129 --> 00:00:41,770
+Much of the excitement about fire rests on
+
+12
+00:00:41,770 --> 00:00:46,600
+its apparent ability to help overcome the interoperability challenge.
+
+13
+00:00:46,600 --> 00:00:49,990
+Fire apps, offer the prospect of solving the problem of
+
+14
+00:00:49,990 --> 00:00:54,010
+timely and useful presentation of the results of the new knowledge
+
+15
+00:00:54,010 --> 00:00:58,890
+gleaned from analysis of past care to busy physicians.
+
+16
+00:00:58,890 --> 00:01:01,420
+Here again, economics plays a key role.
+
+17
+00:01:01,420 --> 00:01:06,658
+If providers have an incentive to get it right and do that efficiently,
+
+18
+00:01:06,658 --> 00:01:09,855
+then they'll be interested in creating a learning health care system,
+
+19
+00:01:09,855 --> 00:01:13,206
+because they can more clearly see how they benefit from it.
+
+20
+00:01:13,206 --> 00:01:16,110
+Well, now consider one example,
+
+21
+00:01:16,110 --> 00:01:19,000
+when to discharge a patient after surgery.

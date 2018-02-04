@@ -1,0 +1,59 @@
+1
+00:00:00,000 --> 00:00:03,150
+A universal health app platform to support
+
+2
+00:00:03,150 --> 00:00:06,120
+informatics-based innovations in care delivery,
+
+3
+00:00:06,120 --> 00:00:09,450
+no matter what the underlying EMR was
+
+4
+00:00:09,450 --> 00:00:13,030
+a long held dream of the Academic Health Informatics community.
+
+5
+00:00:13,030 --> 00:00:17,550
+In 2010, the Office of the National Coordinator of Health IT awarded
+
+6
+00:00:17,550 --> 00:00:23,580
+$15 million to the Boston Children's Hospital Computational Health Informatics Program,
+
+7
+00:00:23,580 --> 00:00:27,540
+and the Harvard Medical School Department of Biomedical Informatics
+
+8
+00:00:27,540 --> 00:00:32,095
+to create and initially develop just such an app platform.
+
+9
+00:00:32,095 --> 00:00:33,510
+The result was SMArt,
+
+10
+00:00:33,510 --> 00:00:36,390
+an acronym for Substitutable Medical Apps,
+
+11
+00:00:36,390 --> 00:00:39,780
+reusable technology, and open standards
+
+12
+00:00:39,780 --> 00:00:43,890
+based technology with a robust community of app developers.
+
+13
+00:00:43,890 --> 00:00:46,875
+A group of health care organizations joined
+
+14
+00:00:46,875 --> 00:00:50,500
+the smart advisory committee to support the effort through philanthropy,
+
+15
+00:00:50,500 --> 00:00:53,490
+strategic guidance, and deployment of the technology.

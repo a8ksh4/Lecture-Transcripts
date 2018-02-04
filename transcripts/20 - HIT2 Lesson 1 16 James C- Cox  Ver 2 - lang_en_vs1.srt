@@ -1,0 +1,399 @@
+1
+00:00:00,000 --> 00:00:02,310
+I'm James C. Cox.
+
+2
+00:00:02,310 --> 00:00:04,595
+I'm the Noah Langdale Jr.
+
+3
+00:00:04,595 --> 00:00:10,725
+Chair in Economics, the Georgia Research Alliance Eminent Scholar,
+
+4
+00:00:10,725 --> 00:00:15,630
+and Director of the Experimental Economic Center at Georgia State University.
+
+5
+00:00:15,630 --> 00:00:18,960
+I'm an experimental and behavioral economist,
+
+6
+00:00:18,960 --> 00:00:21,060
+which if you wondered,
+
+7
+00:00:21,060 --> 00:00:25,590
+what does an economist have to do with actual delivery of healthcare?
+
+8
+00:00:25,590 --> 00:00:30,560
+The words experimental and behavioral are the keys.
+
+9
+00:00:30,560 --> 00:00:35,250
+Because the centers of my areas of expertise are how
+
+10
+00:00:35,250 --> 00:00:42,625
+people respond to incentives and use information in making decisions,
+
+11
+00:00:42,625 --> 00:00:50,855
+and how one can design mechanisms to help them improve the decisions that they make.
+
+12
+00:00:50,855 --> 00:00:58,070
+In this case, the problem to be addressed is not lack of information.
+
+13
+00:00:58,070 --> 00:01:04,393
+Physicians are overwhelmed with information and the problem we face is how to use it.
+
+14
+00:01:04,393 --> 00:01:09,935
+Where my team at the Experimental Economic Center comes in is
+
+15
+00:01:09,935 --> 00:01:16,465
+to start with a large sample of the identified patient records,
+
+16
+00:01:16,465 --> 00:01:21,675
+do an analysis of that data to try and find
+
+17
+00:01:21,675 --> 00:01:27,990
+the predictors of unsuccessful and successful discharge from the hospital,
+
+18
+00:01:27,990 --> 00:01:35,670
+and then build on that a clinical decision support system with user
+
+19
+00:01:35,670 --> 00:01:44,040
+friendly displays that can aid the physicians in making better decisions.
+
+20
+00:01:44,040 --> 00:01:49,545
+First of all, the economist did the data analysis and then my I.T.
+
+21
+00:01:49,545 --> 00:01:59,045
+staff design the original CDSS that we used in experiments here at Emory.
+
+22
+00:01:59,045 --> 00:02:05,520
+We ran experiments with both resident physicians and fourth year medical students.
+
+23
+00:02:05,520 --> 00:02:10,020
+Initially, they were making decisions about virtual patients being represented
+
+24
+00:02:10,020 --> 00:02:15,325
+by computers for trained data of real patients.
+
+25
+00:02:15,325 --> 00:02:22,170
+We later did an experiment where we had patient actors called standardized patients.
+
+26
+00:02:22,170 --> 00:02:26,730
+There were two sources of information which
+
+27
+00:02:26,730 --> 00:02:31,830
+was the CDSS and the behavior of these standardized patients,
+
+28
+00:02:31,830 --> 00:02:35,895
+and this is the last step
+
+29
+00:02:35,895 --> 00:02:43,190
+before being ready to go out on the patient wards with an intervention.
+
+30
+00:02:43,190 --> 00:02:47,160
+Getting prepared to go take that last step onto
+
+31
+00:02:47,160 --> 00:02:52,580
+the patient wards is where we encountered really serious problems.
+
+32
+00:02:52,580 --> 00:02:54,885
+Because at that point,
+
+33
+00:02:54,885 --> 00:02:58,995
+we needed a version of the CD SS that can
+
+34
+00:02:58,995 --> 00:03:04,425
+interact with electronic health records in real time.
+
+35
+00:03:04,425 --> 00:03:09,325
+When we started to try and take that step,
+
+36
+00:03:09,325 --> 00:03:14,590
+we ran into very severe obstacles because you can
+
+37
+00:03:14,590 --> 00:03:19,960
+imagine protecting patient information is a central concern,
+
+38
+00:03:19,960 --> 00:03:24,145
+and we were asking for two-way communication.
+
+39
+00:03:24,145 --> 00:03:28,855
+At that point, both Cerner Corporation and Emory I.T.
+
+40
+00:03:28,855 --> 00:03:30,240
+essentially balked.
+
+41
+00:03:30,240 --> 00:03:40,285
+We were in near despair in not being able to get cooperation from Cerner and Emory I.T.
+
+42
+00:03:40,285 --> 00:03:43,510
+in trying to make the next step in getting out of
+
+43
+00:03:43,510 --> 00:03:47,245
+the laboratory and onto the patient wards.
+
+44
+00:03:47,245 --> 00:03:56,800
+We had a meeting here at Emory with the new director of Emory IT.
+
+45
+00:03:56,800 --> 00:04:01,225
+And he made us aware of
+
+46
+00:04:01,225 --> 00:04:08,530
+the fire standards and he invited Mark Grunstein to come,
+
+47
+00:04:08,530 --> 00:04:11,790
+who said to us, Well,
+
+48
+00:04:11,790 --> 00:04:13,339
+you've hit a brick wall,
+
+49
+00:04:13,339 --> 00:04:17,049
+but I know how to get through that brick wall.
+
+50
+00:04:17,049 --> 00:04:22,005
+And it is using fire compliance which is forthcoming.
+
+51
+00:04:22,005 --> 00:04:31,125
+And he provided to us the information we needed for the path forward and also provided
+
+52
+00:04:31,125 --> 00:04:35,460
+a path to start to walk down that path through
+
+53
+00:04:35,460 --> 00:04:40,825
+the projects that his class teams could do for us.
+
+54
+00:04:40,825 --> 00:04:46,335
+We were enthusiastic about learning about that path,
+
+55
+00:04:46,335 --> 00:04:52,465
+and having that opportunity to start walking down that path.
+
+56
+00:04:52,465 --> 00:04:56,880
+One of the project teams working on an initial version of
+
+57
+00:04:56,880 --> 00:05:01,740
+the app produced some alternative,
+
+58
+00:05:01,740 --> 00:05:05,370
+very nice displays of the information,
+
+59
+00:05:05,370 --> 00:05:10,845
+and this is critical because for the CDS to have value,
+
+60
+00:05:10,845 --> 00:05:13,025
+it has to have two properties.
+
+61
+00:05:13,025 --> 00:05:17,080
+One is it makes correct predictions about probability of
+
+62
+00:05:17,080 --> 00:05:21,935
+re-admission of a patient if you discharge them on any given day.
+
+63
+00:05:21,935 --> 00:05:28,295
+But the other thing it needs to do is to present the information in a user-friendly way.
+
+64
+00:05:28,295 --> 00:05:33,415
+So here's what in principle the problem to be solved.
+
+65
+00:05:33,415 --> 00:05:38,615
+The underlying model looks at each patient as though
+
+66
+00:05:38,615 --> 00:05:44,280
+as an individual patient that comes from a population of a very large sample,
+
+67
+00:05:44,280 --> 00:05:48,255
+for which we know the outcomes of previous decisions,
+
+68
+00:05:48,255 --> 00:05:52,535
+where a patient that looks like your individual patient today,
+
+69
+00:05:52,535 --> 00:05:56,910
+out of a very large sample of 30 or 40 thousand patients.
+
+70
+00:05:56,910 --> 00:05:59,815
+If you discharge your patients today,
+
+71
+00:05:59,815 --> 00:06:02,370
+do they look statistically more like
+
+72
+00:06:02,370 --> 00:06:05,775
+ones who it was unsuccessful and they were re-admitted,
+
+73
+00:06:05,775 --> 00:06:09,095
+or it was successful and they were not?
+
+74
+00:06:09,095 --> 00:06:13,785
+The critical thing then is not only to have the underlying correct predictions,
+
+75
+00:06:13,785 --> 00:06:21,060
+but to display them in a way that the physicians will actually find it easy to use.
+
+76
+00:06:21,060 --> 00:06:25,110
+And one of the class teams produce
+
+77
+00:06:25,110 --> 00:06:29,357
+these beautiful information displays and there are two of them.
+
+78
+00:06:29,357 --> 00:06:33,345
+One of them presents the information and is like rectangular block format,
+
+79
+00:06:33,345 --> 00:06:36,190
+another in a beautiful circular format.
+
+80
+00:06:36,190 --> 00:06:39,510
+But the nature of the information displayed is in
+
+81
+00:06:39,510 --> 00:06:44,415
+the lower left hand corner of the display,
+
+82
+00:06:44,415 --> 00:06:49,965
+is something that shows the probabilities of re-admission for patients,
+
+83
+00:06:49,965 --> 00:06:53,425
+and it'll show the time sequence
+
+84
+00:06:53,425 --> 00:06:58,535
+from the first day your patient was in the hospital up to the current day.
+
+85
+00:06:58,535 --> 00:07:03,263
+It displays the point estimate of the probability of re-admission,
+
+86
+00:07:03,263 --> 00:07:06,710
+unplanned readmission if you discharge them today,
+
+87
+00:07:06,710 --> 00:07:09,285
+and the 80% error bounds.
+
+88
+00:07:09,285 --> 00:07:12,645
+The center of the display
+
+89
+00:07:12,645 --> 00:07:19,091
+shows all of the variables in the patient's record including labs,
+
+90
+00:07:19,091 --> 00:07:22,355
+vitals, all the information,
+
+91
+00:07:22,355 --> 00:07:25,470
+and those displays are color coded.
+
+92
+00:07:25,470 --> 00:07:28,785
+And the color coding represents
+
+93
+00:07:28,785 --> 00:07:32,010
+the marginal significance on
+
+94
+00:07:32,010 --> 00:07:37,570
+probability of re-admission of each of those individual variables.
+
+95
+00:07:37,570 --> 00:07:42,860
+The user, then, can click on any one of those variable names in
+
+96
+00:07:42,860 --> 00:07:51,155
+the central display and that will open up on the right side of the screen.
+
+97
+00:07:51,155 --> 00:07:55,760
+The detailed information on that individual variable for
+
+98
+00:07:55,760 --> 00:08:01,704
+your patient including how it varied from the day admission up to the current day,
+
+99
+00:08:01,704 --> 00:08:06,110
+and how that time path of those readings compares
+
+100
+00:08:06,110 --> 00:08:12,000
+to the normal range of that particular variable.

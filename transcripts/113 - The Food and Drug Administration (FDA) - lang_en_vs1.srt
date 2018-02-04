@@ -1,0 +1,135 @@
+1
+00:00:00,000 --> 00:00:04,560
+Here in the U.S, The Food and Drug Administration or FDA,
+
+2
+00:00:04,560 --> 00:00:08,830
+is responsible for regulating medical devices.
+
+3
+00:00:08,830 --> 00:00:10,885
+The details are complex,
+
+4
+00:00:10,885 --> 00:00:14,710
+but the level of FDA oversight generally increases with
+
+5
+00:00:14,710 --> 00:00:18,657
+the perceived patient risk presented by the device.
+
+6
+00:00:18,657 --> 00:00:23,895
+Devices that perform the same function ha already approved predicate devices,
+
+7
+00:00:23,895 --> 00:00:28,748
+and do not introduce new risks or generally subject to minimal regulations.
+
+8
+00:00:28,748 --> 00:00:32,270
+Novel devices must go through a far more complex,
+
+9
+00:00:32,270 --> 00:00:35,683
+expensive, and time consuming process.
+
+10
+00:00:35,683 --> 00:00:38,020
+What about medical apps?
+
+11
+00:00:38,020 --> 00:00:42,543
+Given finite resources and the scale of app development,
+
+12
+00:00:42,543 --> 00:00:45,100
+it was clear that the FDA had to draw a line
+
+13
+00:00:45,100 --> 00:00:48,290
+to determine which apps it would even consider.
+
+14
+00:00:48,290 --> 00:00:52,230
+In February 2015, the agency announced plans
+
+15
+00:00:52,230 --> 00:00:56,449
+to only review mobile medical apps that interpret data,
+
+16
+00:00:56,449 --> 00:00:59,130
+and act like medical devices.
+
+17
+00:00:59,130 --> 00:01:02,640
+The agency says it will only regulate apps that present
+
+18
+00:01:02,640 --> 00:01:06,705
+a greater risk to patients if they do not work as intended,
+
+19
+00:01:06,705 --> 00:01:10,560
+or that cause smartphones or other mobile platforms to have
+
+20
+00:01:10,560 --> 00:01:16,437
+impact on the functionality or performance of traditional medical devices.
+
+21
+00:01:16,437 --> 00:01:21,850
+More specifically, the agency does not intend to regulate apps that help patients
+
+22
+00:01:21,850 --> 00:01:27,730
+self-manage their disease or condition without providing specific treatment suggestions.
+
+23
+00:01:27,730 --> 00:01:33,250
+Provide patients with simple tools to organize and track their health information.
+
+24
+00:01:33,250 --> 00:01:37,870
+Provide easy access and information related to health conditions or treatments.
+
+25
+00:01:37,870 --> 00:01:40,480
+Help patients document, show or
+
+26
+00:01:40,480 --> 00:01:44,515
+communicate potential medical conditions to health care providers.
+
+27
+00:01:44,515 --> 00:01:48,010
+Automate simple tasks for health care providers,
+
+28
+00:01:48,010 --> 00:01:50,860
+or enable patients or providers interact with
+
+29
+00:01:50,860 --> 00:01:54,935
+personal health records or electronic health record systems.
+
+30
+00:01:54,935 --> 00:01:58,060
+The FDA will also not oversee
+
+31
+00:01:58,060 --> 00:02:03,505
+the mobile devices such as smartphones and tablets which can run medical apps.
+
+32
+00:02:03,505 --> 00:02:04,891
+To a large degree,
+
+33
+00:02:04,891 --> 00:02:08,590
+this decision leaves quality control in the hands of app developers,
+
+34
+00:02:08,590 --> 00:02:11,000
+providers, and their patients.

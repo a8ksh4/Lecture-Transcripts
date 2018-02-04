@@ -1,0 +1,79 @@
+1
+00:00:00,000 --> 00:00:06,305
+We began this course with a discussion of the critical problem of chronic disease.
+
+2
+00:00:06,305 --> 00:00:10,580
+We learned that it accounts for most US health care costs and that
+
+3
+00:00:10,580 --> 00:00:15,575
+the design of our health care system is not well suited to chronic disease management.
+
+4
+00:00:15,575 --> 00:00:19,555
+To correct this, we discussed the need for new care models,
+
+5
+00:00:19,555 --> 00:00:22,885
+better design for the management of these diseases.
+
+6
+00:00:22,885 --> 00:00:26,540
+We also discussed the critical role that patient behaviors
+
+7
+00:00:26,540 --> 00:00:32,325
+play in the development of chronic disease and in its successful management.
+
+8
+00:00:32,325 --> 00:00:34,970
+Finally, provider reimbursements in
+
+9
+00:00:34,970 --> 00:00:37,490
+the new care and payment models we discussed earlier in
+
+10
+00:00:37,490 --> 00:00:43,310
+the course are usually based on care quality and clinical outcome metrics.
+
+11
+00:00:43,310 --> 00:00:44,880
+In the next segment,
+
+12
+00:00:44,880 --> 00:00:49,440
+we will see that Population Health began in response to the need of
+
+13
+00:00:49,440 --> 00:00:54,930
+providers to understand and improve their performance against these metrics.
+
+14
+00:00:54,930 --> 00:00:58,620
+Like public health, it is an important use case for
+
+15
+00:00:58,620 --> 00:01:02,370
+interoperability since individual providers in some network or
+
+16
+00:01:02,370 --> 00:01:04,800
+system that is contracted to deliver
+
+17
+00:01:04,800 --> 00:01:10,060
+cost effective outcomes will usually have different EHR's.
+
+18
+00:01:10,060 --> 00:01:15,960
+Finally, we will also learn that like virtually all other domains of Health Informatics,
+
+19
+00:01:15,960 --> 00:01:18,840
+population health is increasingly employing
+
+20
+00:01:18,840 --> 00:01:24,320
+analytic technologies to predict and proactively manage clinical results.

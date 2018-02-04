@@ -1,0 +1,295 @@
+1
+00:00:00,000 --> 00:00:03,390
+In 2013, Grahame Greive,
+
+2
+00:00:03,390 --> 00:00:06,915
+the leader of the global HL7's FHIR effort,
+
+3
+00:00:06,915 --> 00:00:10,830
+posted in reference to semantic interoperability quote,
+
+4
+00:00:10,830 --> 00:00:13,655
+"Let's not pursue the holy grail right now."
+
+5
+00:00:13,655 --> 00:00:16,100
+End quote. At present,
+
+6
+00:00:16,100 --> 00:00:21,210
+FHIR does not attempt to address semantic interoperability in large part because of
+
+7
+00:00:21,210 --> 00:00:26,875
+the additional complexity that would introduce to an already complex effort.
+
+8
+00:00:26,875 --> 00:00:29,710
+I will give you a sense of that complexity here,
+
+9
+00:00:29,710 --> 00:00:34,552
+but a complete treatment of the subject is well beyond the scope of this course.
+
+10
+00:00:34,552 --> 00:00:37,430
+There are many strongly held points of view
+
+11
+00:00:37,430 --> 00:00:41,210
+about the feasibility of semantic interoperability.
+
+12
+00:00:41,210 --> 00:00:43,010
+There are also strong advocates for
+
+13
+00:00:43,010 --> 00:00:47,215
+various approaches to a semantic interoperability standard.
+
+14
+00:00:47,215 --> 00:00:50,065
+We will now discuss one of the latest approaches.
+
+15
+00:00:50,065 --> 00:00:54,190
+The Clinical Information Modeling Initiative, or CIMI,
+
+16
+00:00:54,190 --> 00:01:02,490
+is another HL7 working group conceived by the same fresh look task force that birth FHIR.
+
+17
+00:01:02,490 --> 00:01:06,330
+Its mission is to improve the interoperability of healthcare systems through
+
+18
+00:01:06,330 --> 00:01:10,915
+shared implementable clinical information models.
+
+19
+00:01:10,915 --> 00:01:15,100
+The ultimate goal is semantic interoperability.
+
+20
+00:01:15,100 --> 00:01:19,130
+It is important to understand that data exchange and the use of
+
+21
+00:01:19,130 --> 00:01:25,225
+coding systems alone is insufficient to achieve semantic interoperability.
+
+22
+00:01:25,225 --> 00:01:29,245
+There are many codes for lab test or clinical diagnosis.
+
+23
+00:01:29,245 --> 00:01:31,115
+In the case of a lab test,
+
+24
+00:01:31,115 --> 00:01:36,630
+codes could specifically indicate which of several available methods the lab used.
+
+25
+00:01:36,630 --> 00:01:40,105
+And this could affect the interpretation of the result.
+
+26
+00:01:40,105 --> 00:01:45,105
+Other codes might just indicate what kind of test produce the result.
+
+27
+00:01:45,105 --> 00:01:51,765
+For a diagnosis, there can be many levels of coding detail and specificity.
+
+28
+00:01:51,765 --> 00:01:55,395
+There can also be structural differences in coding systems.
+
+29
+00:01:55,395 --> 00:02:00,387
+Providers can differ as to how and when they use these codes.
+
+30
+00:02:00,387 --> 00:02:03,550
+Finally, as we will now discuss,
+
+31
+00:02:03,550 --> 00:02:06,670
+multiple EHR is going to address the representation
+
+32
+00:02:06,670 --> 00:02:09,995
+of the same clinical concept differently.
+
+33
+00:02:09,995 --> 00:02:12,910
+Here's a simple illustration of the variability of
+
+34
+00:02:12,910 --> 00:02:19,070
+representation and of the semantic interoperability problem CIMI is trying to solve.
+
+35
+00:02:19,070 --> 00:02:25,480
+Three EHR systems represent the concept of suspected lung cancer differently.
+
+36
+00:02:25,480 --> 00:02:28,980
+In the general practice EHR on the left,
+
+37
+00:02:28,980 --> 00:02:34,430
+it is a compound construct created by combining three structured data elements.
+
+38
+00:02:34,430 --> 00:02:37,370
+In the hospital EHR on the right,
+
+39
+00:02:37,370 --> 00:02:39,130
+it's a single concept,
+
+40
+00:02:39,130 --> 00:02:44,195
+but polyclinics EHR in the middle combines both approaches.
+
+41
+00:02:44,195 --> 00:02:47,095
+There isn't a right or wrong way to do this,
+
+42
+00:02:47,095 --> 00:02:51,010
+but three different ways in parallel makes it harder to aggregate
+
+43
+00:02:51,010 --> 00:02:55,380
+the data meaningfully for analysis or to share it to coordinate care.
+
+44
+00:02:55,380 --> 00:02:58,243
+among these three practices.
+
+45
+00:02:58,243 --> 00:03:02,180
+Here, this CIMI graphic uses shapes to represent
+
+46
+00:03:02,180 --> 00:03:08,390
+the different ways the three EHR systems represent this single clinical concept.
+
+47
+00:03:08,390 --> 00:03:10,660
+For the purposes of illustration,
+
+48
+00:03:10,660 --> 00:03:12,950
+we're assuming the blue hexagon,
+
+49
+00:03:12,950 --> 00:03:15,920
+the approach used by the general practice EHR,
+
+50
+00:03:15,920 --> 00:03:17,830
+is the preferred shape,
+
+51
+00:03:17,830 --> 00:03:20,920
+and a hypothetical translation servers might put
+
+52
+00:03:20,920 --> 00:03:25,054
+all the instances of this clinical finding into that shape.
+
+53
+00:03:25,054 --> 00:03:31,210
+This is essentially a standard structure in which terms always go in the same place,
+
+54
+00:03:31,210 --> 00:03:35,695
+somewhat like in the HL7 messages we discussed earlier.
+
+55
+00:03:35,695 --> 00:03:38,260
+FHIR resources also provide
+
+56
+00:03:38,260 --> 00:03:43,025
+a standard structure specifying where data elements are located.
+
+57
+00:03:43,025 --> 00:03:48,650
+In that context, semantic interoperability specifies what formats and values to
+
+58
+00:03:48,650 --> 00:03:54,553
+use in specific clinical scenarios often called use cases.
+
+59
+00:03:54,553 --> 00:03:59,645
+As shown here in the most advanced CIMI proposed solution,
+
+60
+00:03:59,645 --> 00:04:02,915
+data not only goes into a consistent location,
+
+61
+00:04:02,915 --> 00:04:08,020
+but the terms are also translated into an agreed upon standard.
+
+62
+00:04:08,020 --> 00:04:11,750
+Now, a hypothetical FHIR app gets the same structure and
+
+63
+00:04:11,750 --> 00:04:17,129
+terms even though the source systems use different representations for both.
+
+64
+00:04:17,129 --> 00:04:18,965
+As I mentioned earlier,
+
+65
+00:04:18,965 --> 00:04:21,530
+semantic interoperability is difficult to
+
+66
+00:04:21,530 --> 00:04:25,408
+achieve given the complexity of health care data,
+
+67
+00:04:25,408 --> 00:04:31,936
+the many ways in which it is represented and the many contexts in which it is used.
+
+68
+00:04:31,936 --> 00:04:35,150
+We will discuss FHIR profiles later,
+
+69
+00:04:35,150 --> 00:04:39,715
+but they essentially constrain the standard for a particular use case,
+
+70
+00:04:39,715 --> 00:04:43,330
+thus, they can specify the preferred shape.
+
+71
+00:04:43,330 --> 00:04:47,730
+CIMI anticipates that its models will connect to an informed or
+
+72
+00:04:47,730 --> 00:04:51,679
+constrained FHIR through model derived profiles.
+
+73
+00:04:51,679 --> 00:04:54,510
+Next, we look at some exciting capabilities that
+
+74
+00:04:54,510 --> 00:04:58,000
+might be practical given semantic interoperability.

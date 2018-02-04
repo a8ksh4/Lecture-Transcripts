@@ -1,0 +1,83 @@
+1
+00:00:00,000 --> 00:00:02,970
+Earlier we mentioned that healthcare in the US was
+
+2
+00:00:02,970 --> 00:00:07,269
+traditionally charged based on the amount of care that was delivered.
+
+3
+00:00:07,269 --> 00:00:10,988
+This is usually termed pay for procedures.
+
+4
+00:00:10,988 --> 00:00:16,135
+HMOs are an example of an alternate model in which there is fixed reimbursement.
+
+5
+00:00:16,135 --> 00:00:20,800
+So if Kaiser spends less than its premium income it makes a profit.
+
+6
+00:00:20,800 --> 00:00:22,500
+In fact, like most nonprofits,
+
+7
+00:00:22,500 --> 00:00:26,205
+Kaiser still needs earnings to invest in its business.
+
+8
+00:00:26,205 --> 00:00:30,985
+However, this relies on Kaiser employing all the physicians,
+
+9
+00:00:30,985 --> 00:00:33,480
+owning all the hospitals and more.
+
+10
+00:00:33,480 --> 00:00:39,050
+Can we create something similar on a much smaller scale using physicians,
+
+11
+00:00:39,050 --> 00:00:44,565
+hospitals, and other community health resources that are already in place?
+
+12
+00:00:44,565 --> 00:00:48,990
+In 2006, Dartmouth professor, Elliott S. Fisher,
+
+13
+00:00:48,990 --> 00:00:55,550
+first used the term accountable care organization to describe such a proposed solution.
+
+14
+00:00:55,550 --> 00:00:59,550
+The details are complex but the basic idea is to create
+
+15
+00:00:59,550 --> 00:01:04,290
+a financial model under which existing community providers can organize and deliver
+
+16
+00:01:04,290 --> 00:01:08,280
+care in a way that improves the quality and lowers the cost of
+
+17
+00:01:08,280 --> 00:01:11,235
+care by fostering greater accountability
+
+18
+00:01:11,235 --> 00:01:14,510
+on the part of the providers for their performance.
+
+19
+00:01:14,510 --> 00:01:16,350
+One of the key provisions of
+
+20
+00:01:16,350 --> 00:01:22,375
+the Obama administration's Affordable Care Act was the creation of ACOs within Medicare.
+
+21
+00:01:22,375 --> 00:01:27,270
+This model is also now widely advocated by commercial health insurance companies.

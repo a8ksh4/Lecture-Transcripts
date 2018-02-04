@@ -1,0 +1,63 @@
+1
+00:00:00,000 --> 00:00:03,720
+Computer systems initially had limited capability,
+
+2
+00:00:03,720 --> 00:00:07,920
+so commercial vendors focused on a specific hospital department,
+
+3
+00:00:07,920 --> 00:00:10,970
+such as the laboratory or pharmacy.
+
+4
+00:00:10,970 --> 00:00:15,380
+As the use of these departmentally specific systems grew,
+
+5
+00:00:15,380 --> 00:00:20,170
+their inability to share data across vendors became problematic.
+
+6
+00:00:20,170 --> 00:00:25,040
+This led to the formation of the non-profit standards setting organization,
+
+7
+00:00:25,040 --> 00:00:28,280
+Health Level 7, and the development of
+
+8
+00:00:28,280 --> 00:00:32,175
+the first successful messaging standard for health data sharing.
+
+9
+00:00:32,175 --> 00:00:39,665
+This early standard was based on EDI X 12 technology for manufacturing in the 1980's.
+
+10
+00:00:39,665 --> 00:00:41,360
+You can see an example here,
+
+11
+00:00:41,360 --> 00:00:44,580
+and surprisingly, it's still in widespread use.
+
+12
+00:00:44,580 --> 00:00:48,780
+Over time, a few large vendors emerged with systems designed to meet
+
+13
+00:00:48,780 --> 00:00:53,700
+most of the major computing needs of a hospital and its associated clinics.
+
+14
+00:00:53,700 --> 00:00:56,190
+For reasons we will discuss later on,
+
+15
+00:00:56,190 --> 00:01:01,650
+meaningful clinical data sharing among these mega systems was problematic.
+
+16
+00:01:01,650 --> 00:01:05,780
+And independent access to the data they stored was very.

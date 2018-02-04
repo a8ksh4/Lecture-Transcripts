@@ -1,0 +1,699 @@
+1
+00:00:03,380 --> 00:00:06,215
+So, I'm Jim Rehg. I'm a professor of
+
+2
+00:00:06,215 --> 00:00:09,505
+Computer Science at the School of Interactive Computing at Georgia Tech.
+
+3
+00:00:09,505 --> 00:00:11,935
+And I work in computer vision and machine learning,
+
+4
+00:00:11,935 --> 00:00:14,450
+and I've got an interest in human behavior.
+
+5
+00:00:14,450 --> 00:00:20,220
+Sure.
+
+6
+00:00:20,220 --> 00:00:23,160
+So, the goal of behavioral imaging is to be able to measure,
+
+7
+00:00:23,160 --> 00:00:27,735
+analyze and understand human behavior using sensors and machine learning.
+
+8
+00:00:27,735 --> 00:00:33,735
+And the idea is to go from current qualitative understanding of behavior based on
+
+9
+00:00:33,735 --> 00:00:37,200
+human observation and ratings to really be able to objectively
+
+10
+00:00:37,200 --> 00:00:41,245
+measure behaviors as they're being produced in the real world environment.
+
+11
+00:00:41,245 --> 00:00:43,470
+And this involves a lot of sensors and a lot
+
+12
+00:00:43,470 --> 00:00:45,660
+of analytic methods to analyze the data produced by
+
+13
+00:00:45,660 --> 00:00:52,352
+the sensors and ultimately build models of behavior.
+
+14
+00:00:52,352 --> 00:00:54,290
+Sure.
+
+15
+00:00:54,290 --> 00:00:55,408
+So, for example,
+
+16
+00:00:55,408 --> 00:00:59,600
+one of the things that we can do recently that's become feasible and
+
+17
+00:00:59,600 --> 00:01:01,340
+realistic is to allow people to wear
+
+18
+00:01:01,340 --> 00:01:04,183
+cameras as part of going about their daily activities.
+
+19
+00:01:04,183 --> 00:01:07,790
+And we see this in a variety of settings with sports enthusiast.
+
+20
+00:01:07,790 --> 00:01:10,490
+And we're beginning to see this more and more in other settings,
+
+21
+00:01:10,490 --> 00:01:12,220
+social settings and so forth.
+
+22
+00:01:12,220 --> 00:01:16,160
+And so we have an effort where we're using individuals that are caring for children with
+
+23
+00:01:16,160 --> 00:01:18,410
+developmental conditions and those individuals
+
+24
+00:01:18,410 --> 00:01:20,990
+can wear a pair of glasses that contain a camera,
+
+25
+00:01:20,990 --> 00:01:25,820
+and that wearable camera allows us to see in the video what the child is doing as far as
+
+26
+00:01:25,820 --> 00:01:28,210
+how they're expressing themselves socially and
+
+27
+00:01:28,210 --> 00:01:30,970
+any lack of social interaction or social expression.
+
+28
+00:01:30,970 --> 00:01:33,380
+And we've got some technology for quantifying
+
+29
+00:01:33,380 --> 00:01:37,550
+a particular element of their social interaction which is looks to the eyes.
+
+30
+00:01:37,550 --> 00:01:40,815
+So eye contact is a critical part of social interaction.
+
+31
+00:01:40,815 --> 00:01:44,120
+And with this technology, we can actually measure quantitatively how
+
+32
+00:01:44,120 --> 00:01:48,035
+frequently and for how long will children look to the eyes of their caregiver,
+
+33
+00:01:48,035 --> 00:01:50,475
+and that becomes a quantitative marker or
+
+34
+00:01:50,475 --> 00:01:53,540
+measure for a child's social behaviors as they evolve
+
+35
+00:01:53,540 --> 00:02:00,730
+over time through development.
+
+36
+00:02:00,730 --> 00:02:04,665
+Right. So definitely, there's a lot of interest around understanding how to get
+
+37
+00:02:04,665 --> 00:02:06,780
+behavioral measures which really speak to
+
+38
+00:02:06,780 --> 00:02:10,720
+an individual's daily life experiences into the care process.
+
+39
+00:02:10,720 --> 00:02:13,055
+If you think about mental health and in general,
+
+40
+00:02:13,055 --> 00:02:16,545
+there's a lot of difficulty in getting beyond the self-report,
+
+41
+00:02:16,545 --> 00:02:17,760
+where you ask a patient,
+
+42
+00:02:17,760 --> 00:02:20,190
+what have you been experiencing? What are your issues?
+
+43
+00:02:20,190 --> 00:02:23,340
+And so, we do think that these new sensor-derived measures could
+
+44
+00:02:23,340 --> 00:02:27,015
+become a way to allow a care provider to get a richer,
+
+45
+00:02:27,015 --> 00:02:29,160
+more fine-grained picture of how
+
+46
+00:02:29,160 --> 00:02:31,860
+a patient's state of mental health might be evolving in time,
+
+47
+00:02:31,860 --> 00:02:33,520
+getting better or getting worse.
+
+48
+00:02:33,520 --> 00:02:35,910
+And so then, there's this question about how that data could get
+
+49
+00:02:35,910 --> 00:02:38,445
+into the point of care through a system like FHIR,
+
+50
+00:02:38,445 --> 00:02:43,125
+which would essentially mean a need to understand what those specific sensing modalities,
+
+51
+00:02:43,125 --> 00:02:47,018
+how they're characterized, and then how they would fit into other more,
+
+52
+00:02:47,018 --> 00:02:50,940
+let's say, electronic health records types of information.
+
+53
+00:02:50,940 --> 00:02:56,055
+Yeah.
+
+54
+00:02:56,055 --> 00:02:59,730
+So I think part of the challenge there is to think about
+
+55
+00:02:59,730 --> 00:03:02,460
+the granularity of the data and the levels at
+
+56
+00:03:02,460 --> 00:03:05,190
+which you might want to access the data and expose the data.
+
+57
+00:03:05,190 --> 00:03:08,160
+So you think about a very fine-grain level
+
+58
+00:03:08,160 --> 00:03:11,400
+which might literally mean specific bouts of eye contact in
+
+59
+00:03:11,400 --> 00:03:14,760
+the context in which they were produced which might be useful for someone really trying
+
+60
+00:03:14,760 --> 00:03:18,810
+to understand in great detail a child's behavior in a particular setting.
+
+61
+00:03:18,810 --> 00:03:21,150
+You could also think about a summary score,
+
+62
+00:03:21,150 --> 00:03:24,135
+a measure of social interaction skill
+
+63
+00:03:24,135 --> 00:03:27,150
+that could be derived from a variety of measures not just eye contact,
+
+64
+00:03:27,150 --> 00:03:28,710
+and that could then become more of
+
+65
+00:03:28,710 --> 00:03:31,590
+a summary statistic that might be reported in a different way.
+
+66
+00:03:31,590 --> 00:03:36,270
+So, I think having a sense of what are the levels of granularity of the data and then
+
+67
+00:03:36,270 --> 00:03:41,970
+defining APIs that allow people to access those different levels in appropriate ways,
+
+68
+00:03:41,970 --> 00:03:43,260
+that would be the way to move forward.
+
+69
+00:03:43,260 --> 00:03:46,980
+But I think, we're still quite far at this point from understanding exactly how
+
+70
+00:03:46,980 --> 00:03:51,780
+these sensors will fit into care in specific cases like autism or mental health.
+
+71
+00:03:51,780 --> 00:03:57,898
+And then it's another step I think to get that into something like FHIR.
+
+72
+00:03:57,898 --> 00:04:01,415
+Sure, sure. So I think,
+
+73
+00:04:01,415 --> 00:04:03,890
+if you think about measurements of behavior and
+
+74
+00:04:03,890 --> 00:04:06,620
+how they might play out from the patient's point of view,
+
+75
+00:04:06,620 --> 00:04:08,646
+then there's at least two dimensions you can consider.
+
+76
+00:04:08,646 --> 00:04:11,180
+So one is a kind of opportunity for reflection.
+
+77
+00:04:11,180 --> 00:04:13,335
+So you have a summary of your behavior.
+
+78
+00:04:13,335 --> 00:04:15,595
+Let's say there's a behavioral goal that you have.
+
+79
+00:04:15,595 --> 00:04:17,450
+Maybe you're trying to quit smoking, for example.
+
+80
+00:04:17,450 --> 00:04:19,760
+So then you might have a case where there's
+
+81
+00:04:19,760 --> 00:04:23,015
+behavioral measures being obtained not just with glasses and cameras,
+
+82
+00:04:23,015 --> 00:04:25,100
+but with wearable sensors as well.
+
+83
+00:04:25,100 --> 00:04:27,880
+And you might imagine distilling from those measures.
+
+84
+00:04:27,880 --> 00:04:29,540
+Summary is a little interesting,
+
+85
+00:04:29,540 --> 00:04:33,200
+and piece of information that an individual might not be aware of that
+
+86
+00:04:33,200 --> 00:04:37,310
+might help them better understand how their behaviors affect their health outcomes.
+
+87
+00:04:37,310 --> 00:04:42,680
+So that could be reflected to the individual in a course granularity.
+
+88
+00:04:42,680 --> 00:04:45,520
+The other thing you might think about are actually mobile interventions.
+
+89
+00:04:45,520 --> 00:04:49,730
+So the ability to take a data item that you've obtained in the field during
+
+90
+00:04:49,730 --> 00:04:51,530
+someone's daily life and then use that to
+
+91
+00:04:51,530 --> 00:04:54,615
+assess their risk for some undesirable health outcome.
+
+92
+00:04:54,615 --> 00:04:56,195
+And in that case, you could think about
+
+93
+00:04:56,195 --> 00:04:58,760
+immediately acting on that information and thinking about
+
+94
+00:04:58,760 --> 00:05:03,050
+how you might intervene or provide that person with some supports in real time,
+
+95
+00:05:03,050 --> 00:05:05,690
+in the field that might then help them maintain
+
+96
+00:05:05,690 --> 00:05:09,395
+their health-related behaviors or prevent unwanted behaviors.
+
+97
+00:05:09,395 --> 00:05:15,797
+So both of those reflection and intervention could be supported.
+
+98
+00:05:15,797 --> 00:05:17,850
+Right.
+
+99
+00:05:17,850 --> 00:05:22,440
+So, behavioral imaging really started out with a kind of analogy to medical imaging.
+
+100
+00:05:22,440 --> 00:05:24,120
+So we would look at behaviors.
+
+101
+00:05:24,120 --> 00:05:26,880
+Particularly, we're looking initially at children with autism and
+
+102
+00:05:26,880 --> 00:05:30,800
+very complex behaviors around a childhood development disorders.
+
+103
+00:05:30,800 --> 00:05:35,160
+And we made the analogy that we want to move from a qualitative characterization of
+
+104
+00:05:35,160 --> 00:05:37,140
+children's behavior that currently is the state of
+
+105
+00:05:37,140 --> 00:05:40,665
+the art to a data-driven, very quantitative assessment,
+
+106
+00:05:40,665 --> 00:05:43,140
+and we made the analogy to medical imaging that succeeded in
+
+107
+00:05:43,140 --> 00:05:46,485
+taking qualitative states of disease and risk,
+
+108
+00:05:46,485 --> 00:05:49,620
+and really quantifying more precisely the patterns
+
+109
+00:05:49,620 --> 00:05:52,010
+of disease progression and the factors that influence them.
+
+110
+00:05:52,010 --> 00:05:53,700
+And so, that led us to this notion of
+
+111
+00:05:53,700 --> 00:05:56,160
+behavior as a construct
+
+112
+00:05:56,160 --> 00:05:58,605
+that you could image and you can model, and you can understand it.
+
+113
+00:05:58,605 --> 00:06:00,180
+And then in parallel with that,
+
+114
+00:06:00,180 --> 00:06:01,815
+there's been this community of folks in
+
+115
+00:06:01,815 --> 00:06:04,650
+mHealth which have been focused on the mobile environment,
+
+116
+00:06:04,650 --> 00:06:07,950
+how to get out into the real world and understand what's happening in real life.
+
+117
+00:06:07,950 --> 00:06:10,575
+And so, I see these as two threads that are converging,
+
+118
+00:06:10,575 --> 00:06:13,230
+and I think this notion of imaging is valuable as
+
+119
+00:06:13,230 --> 00:06:16,085
+a perspective as well as this notion of mobile health.
+
+120
+00:06:16,085 --> 00:06:18,570
+So we see, behavioral imaging is sitting inside
+
+121
+00:06:18,570 --> 00:06:22,110
+this larger umbrella of mobile health which embraces many different aspects of
+
+122
+00:06:22,110 --> 00:06:24,510
+mobile health-related behavior and really focusing on
+
+123
+00:06:24,510 --> 00:06:29,092
+the behavioral components specifically.
+
+124
+00:06:29,092 --> 00:06:32,375
+Absolutely, and I think
+
+125
+00:06:32,375 --> 00:06:36,825
+the challenge there is really to understand how context should be quantified,
+
+126
+00:06:36,825 --> 00:06:38,805
+and how it can be reported back.
+
+127
+00:06:38,805 --> 00:06:40,700
+You obviously can't. The physician doesn't
+
+128
+00:06:40,700 --> 00:06:43,075
+want to relive a person's life, their patients lives.
+
+129
+00:06:43,075 --> 00:06:44,900
+You have to give them some distilled,
+
+130
+00:06:44,900 --> 00:06:47,120
+essential pieces of information.
+
+131
+00:06:47,120 --> 00:06:48,980
+And that's really the challenge we face, I think,
+
+132
+00:06:48,980 --> 00:06:52,490
+is to take all the data that's available in the contextual space
+
+133
+00:06:52,490 --> 00:06:56,675
+and distill it down to a small set of things that are really informative and valuable.
+
+134
+00:06:56,675 --> 00:06:58,730
+And that, I think, is the research enterprise
+
+135
+00:06:58,730 --> 00:07:00,640
+we have ahead of us for the next several years.
+
+136
+00:07:00,640 --> 00:07:06,510
+So there is a number
+
+137
+00:07:06,510 --> 00:07:12,265
+of activities that are happening right now that are building toward the near future.
+
+138
+00:07:12,265 --> 00:07:15,505
+One effort is around building infrastructure.
+
+139
+00:07:15,505 --> 00:07:19,650
+So we're currently working with some collaborators at other universities in Hershey,
+
+140
+00:07:19,650 --> 00:07:22,583
+Memphis and other places through some NIH grants.
+
+141
+00:07:22,583 --> 00:07:24,900
+We're trying to build out a kind of infrastructure
+
+142
+00:07:24,900 --> 00:07:27,240
+for collecting a variety of different signals and
+
+143
+00:07:27,240 --> 00:07:29,850
+organizing them and extracting information from them and then
+
+144
+00:07:29,850 --> 00:07:32,820
+showing the ability to intervene in the field.
+
+145
+00:07:32,820 --> 00:07:34,650
+So I think we'll have some evidence over
+
+146
+00:07:34,650 --> 00:07:37,560
+the next couple of years of the ability to support
+
+147
+00:07:37,560 --> 00:07:40,890
+real-time sensor-triggered interventions that might be
+
+148
+00:07:40,890 --> 00:07:45,465
+the basis for a real change in health outcomes for certain conditions.
+
+149
+00:07:45,465 --> 00:07:49,410
+Looking ahead, I think what you really want to look to is progress on two fronts.
+
+150
+00:07:49,410 --> 00:07:52,260
+One is increasing standardization and
+
+151
+00:07:52,260 --> 00:07:55,650
+understanding around which signals are really valuable,
+
+152
+00:07:55,650 --> 00:07:57,960
+what is in fact the most effective way to collect them and
+
+153
+00:07:57,960 --> 00:08:00,765
+analyze them and get information from them,
+
+154
+00:08:00,765 --> 00:08:03,270
+and really moving toward standards for some of
+
+155
+00:08:03,270 --> 00:08:07,860
+these mobile health signals that will ultimately be of value.
+
+156
+00:08:07,860 --> 00:08:10,170
+And the second direction I think is really the integration of
+
+157
+00:08:10,170 --> 00:08:14,635
+these modalities with other capabilities for understanding health-related factors.
+
+158
+00:08:14,635 --> 00:08:16,530
+So integration of genomics data, for example.
+
+159
+00:08:16,530 --> 00:08:20,895
+So patient of genomic risk that sets them up for certain outcomes.
+
+160
+00:08:20,895 --> 00:08:24,390
+We're now having increasing the ability to do sequencing and understand
+
+161
+00:08:24,390 --> 00:08:29,025
+those states of risk well in advance of any diagnosis.
+
+162
+00:08:29,025 --> 00:08:31,560
+So that's a piece of information that we are currently not really
+
+163
+00:08:31,560 --> 00:08:35,815
+integrating with mobile health data but I think it's really important to go that route.
+
+164
+00:08:35,815 --> 00:08:40,170
+And then another thing you might think about is understanding a person's environment.
+
+165
+00:08:40,170 --> 00:08:43,260
+So drawing from other what they sometimes call digital traces,
+
+166
+00:08:43,260 --> 00:08:45,610
+other examples that give a context,
+
+167
+00:08:45,610 --> 00:08:50,715
+whether it's your social media or whether it's other aspects of your SES and so forth,
+
+168
+00:08:50,715 --> 00:08:54,502
+that could play a role in providing context for health outcomes.
+
+169
+00:08:54,502 --> 00:08:58,290
+So I think the next step is really to pull these different disparate sources of
+
+170
+00:08:58,290 --> 00:09:02,640
+information together and then make progress on the sensing front.
+
+171
+00:09:02,640 --> 00:09:04,110
+We also, by the way,
+
+172
+00:09:04,110 --> 00:09:07,880
+need battery life to increase and we need the sensors to get smaller.
+
+173
+00:09:07,880 --> 00:09:11,160
+So the things that are happening now need to continue to happen to pull
+
+174
+00:09:11,160 --> 00:09:16,803
+all these things together.
+
+175
+00:09:16,803 --> 00:09:19,000
+My pleasure.

@@ -1,0 +1,415 @@
+1
+00:00:00,000 --> 00:00:05,360
+There are four FHIR paradigms to accommodate different workflows.
+
+2
+00:00:05,360 --> 00:00:07,880
+They are the FHIR REST API,
+
+3
+00:00:07,880 --> 00:00:11,540
+FHIR Messages, FHIR Documents,
+
+4
+00:00:11,540 --> 00:00:14,580
+and FHIR-based web services.
+
+5
+00:00:14,580 --> 00:00:17,785
+We will not cover message or document-based exchange,
+
+6
+00:00:17,785 --> 00:00:21,470
+but you should be aware that they exist and are potential replacements for
+
+7
+00:00:21,470 --> 00:00:25,920
+the earlier HL7 messaging and document standards we've discussed.
+
+8
+00:00:25,920 --> 00:00:30,975
+I refer you to the FHIR site for discussion of these paradigms.
+
+9
+00:00:30,975 --> 00:00:34,070
+The site also discusses the potential use of FHIR in
+
+10
+00:00:34,070 --> 00:00:39,170
+web services based on other service-oriented architectures.
+
+11
+00:00:39,170 --> 00:00:44,615
+The FHIR API paradigm uses representational state transfer, REST,
+
+12
+00:00:44,615 --> 00:00:47,590
+that relies on a client-server stateless,
+
+13
+00:00:47,590 --> 00:00:51,630
+cashable communications protocol, typically, using HTTP.
+
+14
+00:00:51,630 --> 00:00:57,995
+Here, you see a simple illustration of the FHIR HTTP format.
+
+15
+00:00:57,995 --> 00:01:02,485
+The endpoint or base is the address of the FHIR server.
+
+16
+00:01:02,485 --> 00:01:07,275
+This is followed by a resource type and its resource ID.
+
+17
+00:01:07,275 --> 00:01:09,960
+This example would find the patient with
+
+18
+00:01:09,960 --> 00:01:14,950
+a resource ID of one on this particular FHIR server.
+
+19
+00:01:14,950 --> 00:01:21,435
+I assume anyone taking this course knows what client-server architecture is.
+
+20
+00:01:21,435 --> 00:01:25,400
+As shown here, statelessness essentially means that
+
+21
+00:01:25,400 --> 00:01:30,845
+the necessary information to handle the request is contained within the request itself.
+
+22
+00:01:30,845 --> 00:01:32,600
+This might be as part of the uri,
+
+23
+00:01:32,600 --> 00:01:37,110
+query string parameters, body, or headers.
+
+24
+00:01:37,110 --> 00:01:39,605
+Thus, with no prior knowledge,
+
+25
+00:01:39,605 --> 00:01:42,367
+and no need to remember the transaction,
+
+26
+00:01:42,367 --> 00:01:45,920
+any machine in a vast server farm could handle the request,
+
+27
+00:01:45,920 --> 00:01:48,185
+return the appropriate response,
+
+28
+00:01:48,185 --> 00:01:51,130
+and be available for the next request.
+
+29
+00:01:51,130 --> 00:01:56,390
+The response from the server to the client is similarly self-contained.
+
+30
+00:01:56,390 --> 00:01:59,820
+Clients can cache responses.
+
+31
+00:01:59,820 --> 00:02:02,990
+Well-managed caching, partly or completely,
+
+32
+00:02:02,990 --> 00:02:05,795
+eliminate some client-server interactions,
+
+33
+00:02:05,795 --> 00:02:09,520
+further improving scalability and performance.
+
+34
+00:02:09,520 --> 00:02:13,275
+In FHIR, the four HTTP verbs,
+
+35
+00:02:13,275 --> 00:02:16,985
+host, get, put and delete, implement CRUD.
+
+36
+00:02:16,985 --> 00:02:19,710
+Post creates new resources,
+
+37
+00:02:19,710 --> 00:02:22,555
+get reads existing resources,
+
+38
+00:02:22,555 --> 00:02:27,255
+put and delete update or remove existing resources.
+
+39
+00:02:27,255 --> 00:02:32,610
+Here, you see a complete list of the currently defined logical FHIR interactions.
+
+40
+00:02:32,610 --> 00:02:35,690
+This part of the standard is at maturity level five,
+
+41
+00:02:35,690 --> 00:02:38,755
+so it's essentially in the final form.
+
+42
+00:02:38,755 --> 00:02:40,410
+Note the three sections,
+
+43
+00:02:40,410 --> 00:02:44,820
+instance, type, and whole system interactions.
+
+44
+00:02:44,820 --> 00:02:46,965
+In the instance section,
+
+45
+00:02:46,965 --> 00:02:50,590
+note that patch, a fifth HTTP verb,
+
+46
+00:02:50,590 --> 00:02:55,645
+can be used when a client is seeking to minimize its bandwidth utilization,
+
+47
+00:02:55,645 --> 00:03:01,800
+or in the scenario that a client has only partial access or support for a resource.
+
+48
+00:03:01,800 --> 00:03:06,545
+This might be the case in healthcare given the emphasis on privacy and security.
+
+49
+00:03:06,545 --> 00:03:08,617
+In the type section,
+
+50
+00:03:08,617 --> 00:03:13,015
+note that FHIR defines two interactions of particular interest in healthcare.
+
+51
+00:03:13,015 --> 00:03:19,465
+History retrieves the sequence of prior instances of either a particular FHIR resource,
+
+52
+00:03:19,465 --> 00:03:22,075
+all resources of given type,
+
+53
+00:03:22,075 --> 00:03:25,870
+or all resources supported by the system.
+
+54
+00:03:25,870 --> 00:03:28,720
+History can be quite useful given the clinical importance of
+
+55
+00:03:28,720 --> 00:03:32,970
+trends and changes in patient status.
+
+56
+00:03:32,970 --> 00:03:36,390
+This is a good place to explain FHIR bundles.
+
+57
+00:03:36,390 --> 00:03:38,820
+These are a collection of resources into
+
+58
+00:03:38,820 --> 00:03:43,250
+a single instance along with some context information.
+
+59
+00:03:43,250 --> 00:03:45,875
+For history of a patient's blood pressure,
+
+60
+00:03:45,875 --> 00:03:48,155
+without specifying a time period,
+
+61
+00:03:48,155 --> 00:03:51,455
+the server would send an observation resource bundle
+
+62
+00:03:51,455 --> 00:03:54,795
+containing all of the past measurements.
+
+63
+00:03:54,795 --> 00:03:59,490
+However, a bundle need not consist of the same resources,
+
+64
+00:03:59,490 --> 00:04:02,370
+so when representing some summary of a patient's record
+
+65
+00:04:02,370 --> 00:04:06,420
+would likely contain many different resource types and values.
+
+66
+00:04:06,420 --> 00:04:10,720
+Here's an example of that using the public Hapi.Server.
+
+67
+00:04:10,720 --> 00:04:16,975
+A search for the observations for Patient 10506 has found 12 of them.
+
+68
+00:04:16,975 --> 00:04:19,980
+Here is the accompanying JSON.
+
+69
+00:04:19,980 --> 00:04:23,885
+You can see at the top that it is a resource bundle.
+
+70
+00:04:23,885 --> 00:04:29,132
+Next is the context information to put what follows in the proper perspective.
+
+71
+00:04:29,132 --> 00:04:35,140
+The first observation is a systolic blood pressure of 130 millimeters of Mercury.
+
+72
+00:04:35,140 --> 00:04:37,305
+The next one is for heart rate,
+
+73
+00:04:37,305 --> 00:04:40,160
+a clinically different observation.
+
+74
+00:04:40,160 --> 00:04:42,923
+The value is off screen but should you be curious,
+
+75
+00:04:42,923 --> 00:04:46,091
+it's 68 beats per minute.
+
+76
+00:04:46,091 --> 00:04:48,610
+Also, in the type section,
+
+77
+00:04:48,610 --> 00:04:52,820
+search is a particularly rich and important part of the FHIR standard.
+
+78
+00:04:52,820 --> 00:04:54,604
+In the simplest case,
+
+79
+00:04:54,604 --> 00:04:57,815
+a search is executed using a get operation,
+
+80
+00:04:57,815 --> 00:05:00,910
+where one or more name equals value pairs,
+
+81
+00:05:00,910 --> 00:05:04,695
+encoded in the URL, specify the parameters.
+
+82
+00:05:04,695 --> 00:05:10,425
+You can explore search using the forms provided on Grahame Grieve's FHIR server.
+
+83
+00:05:10,425 --> 00:05:12,610
+This is part of the extensive list of
+
+84
+00:05:12,610 --> 00:05:16,500
+search criteria for patients supported by the server.
+
+85
+00:05:16,500 --> 00:05:21,315
+As you can see, I've asked for all females born in 1955.
+
+86
+00:05:21,315 --> 00:05:25,180
+I get this one result, Eve Everywoman.
+
+87
+00:05:25,180 --> 00:05:28,990
+Try this yourself, and right after the server-based URL,
+
+88
+00:05:28,990 --> 00:05:33,657
+you will find patient/ specifying the resource to search.
+
+89
+00:05:33,657 --> 00:05:36,655
+If you look carefully in the long string that follows,
+
+90
+00:05:36,655 --> 00:05:41,490
+you will find birthDate=1955 and gender=female,
+
+91
+00:05:41,490 --> 00:05:45,045
+the two operative name equals value pairs.
+
+92
+00:05:45,045 --> 00:05:48,705
+When you try it, keep in mind that the data on public servers can change,
+
+93
+00:05:48,705 --> 00:05:53,048
+so this particular example may or may not work as it does here.
+
+94
+00:05:53,048 --> 00:05:55,770
+Searches are constrained to one of
+
+95
+00:05:55,770 --> 00:06:00,102
+three contexts in order to control what resources are considered.
+
+96
+00:06:00,102 --> 00:06:04,080
+I'll discuss each and show you the applicable format.
+
+97
+00:06:04,080 --> 00:06:07,145
+A specified resource type,
+
+98
+00:06:07,145 --> 00:06:09,250
+as in the example we just did,
+
+99
+00:06:09,250 --> 00:06:13,410
+where this was patient resources.
+
+100
+00:06:13,410 --> 00:06:17,575
+A specified compartment, that might be a specific patient,
+
+101
+00:06:17,575 --> 00:06:21,880
+perhaps, with a specified resource type in that compartment.
+
+102
+00:06:21,880 --> 00:06:27,770
+We did that earlier when we look for observations for only Patient 10506.
+
+103
+00:06:27,770 --> 00:06:31,590
+All resource types where the parameters must,
+
+104
+00:06:31,590 --> 00:06:35,390
+of course, be common to all the resource types.

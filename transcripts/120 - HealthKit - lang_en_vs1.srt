@@ -1,0 +1,91 @@
+1
+00:00:00,000 --> 00:00:05,224
+Apple's HealthKit demonstrates the growing importance of AM Health.
+
+2
+00:00:05,224 --> 00:00:09,330
+HealthKit stores data from iPhone and Apple Watch apps and from
+
+3
+00:00:09,330 --> 00:00:14,310
+some devices in an encrypted database called the HealthKit store.
+
+4
+00:00:14,310 --> 00:00:17,105
+The data is only accessible via the health app,
+
+5
+00:00:17,105 --> 00:00:19,845
+through which users can view, add, delete,
+
+6
+00:00:19,845 --> 00:00:23,830
+and otherwise manage all of their health and fitness data.
+
+7
+00:00:23,830 --> 00:00:26,325
+Importantly, as shown here,
+
+8
+00:00:26,325 --> 00:00:31,350
+they can control fine grained permissions for the sharing of each data type.
+
+9
+00:00:31,350 --> 00:00:35,145
+Users must explicitly grant each app permission
+
+10
+00:00:35,145 --> 00:00:39,380
+to read from and write data to the HealthKit store.
+
+11
+00:00:39,380 --> 00:00:44,720
+Users can grant or deny permission separately for each type of data.
+
+12
+00:00:44,720 --> 00:00:48,260
+For example, a user can allow an app to read their step count,
+
+13
+00:00:48,260 --> 00:00:51,640
+but prevent it from reading their blood glucose level.
+
+14
+00:00:51,640 --> 00:00:54,904
+To prevent possible information leaks,
+
+15
+00:00:54,904 --> 00:00:59,130
+an app does not know about denials and from the app's point of view,
+
+16
+00:00:59,130 --> 00:01:03,060
+data for which it lacks read permission does not exist.
+
+17
+00:01:03,060 --> 00:01:07,500
+Once an app has been granted permission to access data in the store,
+
+18
+00:01:07,500 --> 00:01:13,325
+it can use OpenAM Health's Granola tool to store it on a remote server for analysis or
+
+19
+00:01:13,325 --> 00:01:16,260
+backup or to serialize the data which is
+
+20
+00:01:16,260 --> 00:01:19,965
+only stored in the HealthKit store for a limited period of time.
+
+21
+00:01:19,965 --> 00:01:27,340
+Granola maps and validates the HealthKit API to OpenAM Health's HealthKit JSON schemas.
+
+22
+00:01:27,340 --> 00:01:30,550
+Here's an example of that for step_count data from HealthKit
+
+23
+00:01:30,550 --> 00:01:35,000
+converted by Granola into OpenAM Health compliant JSON.

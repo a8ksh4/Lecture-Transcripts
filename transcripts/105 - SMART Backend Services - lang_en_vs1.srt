@@ -1,0 +1,39 @@
+1
+00:00:00,000 --> 00:00:05,555
+SMART supports developers with backend services to access FHIR resources
+
+2
+00:00:05,555 --> 00:00:11,445
+by requesting access tokens from OAuth to compliant authorization servers.
+
+3
+00:00:11,445 --> 00:00:15,280
+As with apps the backend service must be authorized in
+
+4
+00:00:15,280 --> 00:00:20,650
+advance and must run automatically without user interaction,
+
+5
+00:00:20,650 --> 00:00:23,210
+be able to protect a private key,
+
+6
+00:00:23,210 --> 00:00:28,720
+require access to a population of patients rather than a single patient.
+
+7
+00:00:28,720 --> 00:00:32,275
+Such a service might for example review
+
+8
+00:00:32,275 --> 00:00:36,730
+incoming laboratory results and generate clinical alerts when
+
+9
+00:00:36,730 --> 00:00:40,390
+specific trigger conditions exist or it might
+
+10
+00:00:40,390 --> 00:00:45,000
+maintain an external database of patient data for research purposes.

@@ -1,0 +1,479 @@
+1
+00:00:04,650 --> 00:00:06,970
+My name is Shamim Nemati.
+
+2
+00:00:06,970 --> 00:00:08,200
+I'm an assistant professor of
+
+3
+00:00:08,200 --> 00:00:11,410
+biomedical informatics here at the Emory School of Medicine.
+
+4
+00:00:11,410 --> 00:00:13,330
+Prior to coming to Emory,
+
+5
+00:00:13,330 --> 00:00:17,590
+I was a Ph.D. student at MIT where I worked on
+
+6
+00:00:17,590 --> 00:00:22,810
+developing algorithms for early prediction of success using the MIMIC database,
+
+7
+00:00:22,810 --> 00:00:27,859
+which is the world's largest critical care public data set available.
+
+8
+00:00:27,859 --> 00:00:31,780
+This data set was developed over a period of 10 years using
+
+9
+00:00:31,780 --> 00:00:36,415
+the data from the Beth Israel Deaconess Hospital Critical Care Center.
+
+10
+00:00:36,415 --> 00:00:40,840
+And my intention was to build predictive analytic algorithms that can catch
+
+11
+00:00:40,840 --> 00:00:46,313
+sepsis ahead of time.
+
+12
+00:00:46,313 --> 00:00:49,325
+So sepsis is related to
+
+13
+00:00:49,325 --> 00:00:53,960
+blood infection and is the number one killer of people in the ICU.
+
+14
+00:00:53,960 --> 00:00:57,125
+Every year around 750,000 people they
+
+15
+00:00:57,125 --> 00:01:00,510
+die in the intensive care unit due to consequences of sepsis,
+
+16
+00:01:00,510 --> 00:01:03,970
+with the annual cost of over 20 billion dollars.
+
+17
+00:01:03,970 --> 00:01:07,750
+If you want to break it down it turns out regular individuals who go to
+
+18
+00:01:07,750 --> 00:01:11,755
+ICU they may stay there for 45 hours or so,
+
+19
+00:01:11,755 --> 00:01:16,080
+versus for septic patients they may stay in the ICU for over 110 hours.
+
+20
+00:01:16,080 --> 00:01:19,180
+So this added length of a stay in the ICU is one of
+
+21
+00:01:19,180 --> 00:01:26,520
+the causes for increase in costs associated with sepsis.
+
+22
+00:01:27,770 --> 00:01:35,155
+I developed these algorithms at MIT using the MIMIC database and when I came to Emory,
+
+23
+00:01:35,155 --> 00:01:38,324
+I wanted to validate these algorithms using the Emory data.
+
+24
+00:01:38,324 --> 00:01:41,165
+So I went to the clinical data warehouse here at Emory,
+
+25
+00:01:41,165 --> 00:01:43,450
+that is a database that is built on
+
+26
+00:01:43,450 --> 00:01:46,870
+Emory patients and I asked the question, "do you have the data?"
+
+27
+00:01:46,870 --> 00:01:47,937
+And they said, "yes."
+
+28
+00:01:47,937 --> 00:01:51,880
+So I got the data and I right away noticed that the data format is very
+
+29
+00:01:51,880 --> 00:01:55,985
+different from the data that I had previously from the MIMIC database.
+
+30
+00:01:55,985 --> 00:01:59,485
+So I spent the next nine months cleaning up the data
+
+31
+00:01:59,485 --> 00:02:03,357
+and put it in the right format for my algorithms to use.
+
+32
+00:02:03,357 --> 00:02:04,720
+Right away I realized that,
+
+33
+00:02:04,720 --> 00:02:06,920
+that would not be practical in general.
+
+34
+00:02:06,920 --> 00:02:10,930
+Then I decided to build a similar algorithms for real time data and I
+
+35
+00:02:10,930 --> 00:02:15,340
+realized that I had to do the same thing with the epic and [inaudible] electronic medical records.
+
+36
+00:02:15,340 --> 00:02:16,690
+That's when I started talking to
+
+37
+00:02:16,690 --> 00:02:21,445
+the Georgia Tech team and I described my problem to them and we
+
+38
+00:02:21,445 --> 00:02:22,930
+together we decided to build
+
+39
+00:02:22,930 --> 00:02:28,100
+a FHIR based sepsis prediction algorithm and that was the beginning of our collaboration.
+
+40
+00:02:28,100 --> 00:02:32,833
+Yes.
+
+41
+00:02:32,833 --> 00:02:38,050
+So the app is called sepsis watch and it was built in
+
+42
+00:02:38,050 --> 00:02:45,685
+association with the Georgia Tech CS44O students during their spring semester of 2017.
+
+43
+00:02:45,685 --> 00:02:47,165
+Let me actually show it to you.
+
+44
+00:02:47,165 --> 00:02:49,880
+So the idea of this app is to build
+
+45
+00:02:49,880 --> 00:02:53,255
+a predictive analytic algorithm for early prediction of sepsis.
+
+46
+00:02:53,255 --> 00:02:55,690
+However the problem that we have,
+
+47
+00:02:55,690 --> 00:02:58,960
+is that for data elements to end up in
+
+48
+00:02:58,960 --> 00:03:02,630
+their patients electronic medical record for us to use it,
+
+49
+00:03:02,630 --> 00:03:05,926
+a clinician should order these labs to begin with.
+
+50
+00:03:05,926 --> 00:03:08,965
+Let's focus on an example lets say lactate.
+
+51
+00:03:08,965 --> 00:03:13,285
+It turns out lactate is important for prediction of sepsis.
+
+52
+00:03:13,285 --> 00:03:16,155
+But if a clinician doesn't order
+
+53
+00:03:16,155 --> 00:03:20,050
+the lactate test then you don't have the lab test to make the prediction.
+
+54
+00:03:20,050 --> 00:03:23,810
+So the first part of this application was to create
+
+55
+00:03:23,810 --> 00:03:28,510
+visualization for clinicians for most important lab values,
+
+56
+00:03:28,510 --> 00:03:31,905
+as well as one a step ahead prediction for the labs.
+
+57
+00:03:31,905 --> 00:03:36,050
+If the lab value in the future is larger,
+
+58
+00:03:36,050 --> 00:03:38,045
+higher than a critical value,
+
+59
+00:03:38,045 --> 00:03:42,350
+then the clinician may decide to order a new lab test or decide to
+
+60
+00:03:42,350 --> 00:03:46,842
+use the lab test value in the context of a predictive analytic algorithm.
+
+61
+00:03:46,842 --> 00:03:49,385
+If you know that the patient is at risk for sepsis,
+
+62
+00:03:49,385 --> 00:03:54,590
+using these lab values we can project ahead and we can make a prediction of our sepsis.
+
+63
+00:03:54,590 --> 00:04:00,760
+Sure.
+
+64
+00:04:00,760 --> 00:04:05,015
+So here is where FHIR actually is very, very important.
+
+65
+00:04:05,015 --> 00:04:11,530
+So the first step was to reformat data to make it in a FHIR compatible format.
+
+66
+00:04:11,530 --> 00:04:15,465
+This allows us to use the same algorithms that we developed for the
+
+67
+00:04:15,465 --> 00:04:19,873
+Emory data and the sepsis data to apply it to the data that we get here.
+
+68
+00:04:19,873 --> 00:04:21,895
+With the help of FHIR,
+
+69
+00:04:21,895 --> 00:04:25,900
+we map the data elements to a set of meta data that are also
+
+70
+00:04:25,900 --> 00:04:30,195
+known as the fire resources.These fire resources they become the input,
+
+71
+00:04:30,195 --> 00:04:34,795
+our predictive analytic algorithm for prediction of sepsis.
+
+72
+00:04:34,795 --> 00:04:40,428
+Once this step is taken care of as a next step we use the FHIR,
+
+73
+00:04:40,428 --> 00:04:45,485
+a sort of FHIR platform to create visualizations for the clinicians.
+
+74
+00:04:45,485 --> 00:04:48,190
+So in this case the visualizations involved explain
+
+75
+00:04:48,190 --> 00:04:52,420
+the current and future values of the labs as well as
+
+76
+00:04:52,420 --> 00:05:01,975
+risk values for prediction of our prediction of sepsis.
+
+77
+00:05:01,975 --> 00:05:06,300
+One of the nice thing about working with the students was that some of them they were
+
+78
+00:05:06,300 --> 00:05:07,860
+very good on the back end and front
+
+79
+00:05:07,860 --> 00:05:10,935
+end developments with the servers and the smart on FHIR.
+
+80
+00:05:10,935 --> 00:05:13,140
+Some of them were experienced in machine learning.
+
+81
+00:05:13,140 --> 00:05:16,140
+So they tried a number of different algorithms and we
+
+82
+00:05:16,140 --> 00:05:19,755
+settled on a cox proportional hazard model that
+
+83
+00:05:19,755 --> 00:05:23,190
+aims to look at the patient data at the current time and make
+
+84
+00:05:23,190 --> 00:05:27,070
+predictions for sepsis up to six hours ahead of time.
+
+85
+00:05:27,070 --> 00:05:29,515
+With the use of this method we were able to achieve
+
+86
+00:05:29,515 --> 00:05:33,015
+a very high level of sensitivity and specificity.
+
+87
+00:05:33,015 --> 00:05:39,460
+As I recall the AUC of the model was around .85 at the level of 85 percent sensitivity.
+
+88
+00:05:39,460 --> 00:05:42,610
+Which means if you want to catch 85 percent of septic patients
+
+89
+00:05:42,610 --> 00:05:46,515
+their specificity was around 0.75,
+
+90
+00:05:46,515 --> 00:05:48,960
+which means around like 25 percent false alarm.
+
+91
+00:05:48,960 --> 00:05:51,435
+This is really remarkable.
+
+92
+00:05:51,435 --> 00:05:53,788
+That's why we're very excited about taking it to
+
+93
+00:05:53,788 --> 00:05:57,960
+the next step and having a clinical implementation of this algorithm.
+
+94
+00:05:57,960 --> 00:06:04,170
+Here at Emory we
+
+95
+00:06:04,170 --> 00:06:08,625
+have the privilege of working with very sharp and motivated clinicians.
+
+96
+00:06:08,625 --> 00:06:11,370
+Our director of critical care Dr. Buchman is
+
+97
+00:06:11,370 --> 00:06:14,555
+a huge supporter of this type of applications.
+
+98
+00:06:14,555 --> 00:06:16,320
+I'm currently working with him and
+
+99
+00:06:16,320 --> 00:06:20,115
+his team to come up with a clinical implementation of this.
+
+100
+00:06:20,115 --> 00:06:23,910
+So as a first step what we are planning to do is to hire some of
+
+101
+00:06:23,910 --> 00:06:29,497
+the Georgia Tech students to implement their app on our electronic medical record.
+
+102
+00:06:29,497 --> 00:06:33,780
+Once the app is in place within the context of our electronic medical record,
+
+103
+00:06:33,780 --> 00:06:38,245
+then we would need to run the application in the so called silent mode.
+
+104
+00:06:38,245 --> 00:06:41,310
+What it means is that you run the algorithm in
+
+105
+00:06:41,310 --> 00:06:45,495
+the background without actually influencing clinical decision making.
+
+106
+00:06:45,495 --> 00:06:49,895
+So since here you're dealing with prediction task,
+
+107
+00:06:49,895 --> 00:06:52,470
+the algorithm runs in the background and
+
+108
+00:06:52,470 --> 00:06:55,350
+gathers the statistics and the statistics tells us how
+
+109
+00:06:55,350 --> 00:07:00,690
+often the algorithm is able to detect sepsis before the clinicians.
+
+110
+00:07:00,690 --> 00:07:03,750
+Once that part is done and we can show that in
+
+111
+00:07:03,750 --> 00:07:07,610
+a real time setting the algorithm can detect sepsis before clinicians,
+
+112
+00:07:07,610 --> 00:07:11,005
+then we will be in the right setting for proposing
+
+113
+00:07:11,005 --> 00:07:15,205
+a clinical trial to show it in a more randomized setting.
+
+114
+00:07:15,205 --> 00:07:17,740
+So that's the next step of our work.
+
+115
+00:07:17,740 --> 00:07:21,390
+But the FHIR goes beyond this type of validation works.
+
+116
+00:07:21,390 --> 00:07:25,370
+We have a number of active collaborations with other teams across the country.
+
+117
+00:07:25,370 --> 00:07:26,868
+They have their own algorithms.
+
+118
+00:07:26,868 --> 00:07:32,322
+They want to verify and validate their algorithms on our data and vice versa.
+
+119
+00:07:32,322 --> 00:07:38,285
+FHIR gives us a common language for data exchange and collaboration.
+
+120
+00:07:38,285 --> 00:07:40,500
+And I think this is the way of.

@@ -1,0 +1,159 @@
+1
+00:00:00,510 --> 00:00:04,945
+CCDA documents are assembled from templates,
+
+2
+00:00:04,945 --> 00:00:08,530
+essentially reusable XML components.
+
+3
+00:00:08,530 --> 00:00:11,300
+Templates are defined at the document,
+
+4
+00:00:11,300 --> 00:00:14,140
+section, or data entry level.
+
+5
+00:00:14,140 --> 00:00:16,590
+These correspond conceptually to
+
+6
+00:00:16,590 --> 00:00:20,700
+a paper form where the document as a whole consists of sections,
+
+7
+00:00:20,700 --> 00:00:25,340
+each of which consists of fields into which data is recorded.
+
+8
+00:00:25,340 --> 00:00:28,360
+Here is the CCD we just looked at,
+
+9
+00:00:28,360 --> 00:00:33,225
+but I have now also highlighted two references to templates.
+
+10
+00:00:33,225 --> 00:00:39,760
+There are CCDA template guides posted and I've provided a reference to one from HL7.
+
+11
+00:00:39,760 --> 00:00:42,460
+Templates have an OID,
+
+12
+00:00:42,460 --> 00:00:45,710
+a globally unique ISO identifier.
+
+13
+00:00:45,710 --> 00:00:48,370
+As you can see, the first has
+
+14
+00:00:48,370 --> 00:00:57,631
+an OID of 2.16.840.1.113883.10.20.22.1.1.
+
+15
+00:00:57,631 --> 00:01:02,460
+The second differs from the first only in the last digit.
+
+16
+00:01:02,460 --> 00:01:05,565
+Both of these are document-level templates.
+
+17
+00:01:05,565 --> 00:01:10,255
+The first defines a document header for use in the U.S. domain.
+
+18
+00:01:10,255 --> 00:01:13,850
+This serves a purpose quite similar to FHIR profiles
+
+19
+00:01:13,850 --> 00:01:17,875
+in that it constrains the document to U.S. specifications.
+
+20
+00:01:17,875 --> 00:01:20,420
+Here you can see that it specifies that there must be
+
+21
+00:01:20,420 --> 00:01:25,030
+exactly one realmCode and its value must be U.S..
+
+22
+00:01:25,030 --> 00:01:27,725
+It is more interesting to look at the second template.
+
+23
+00:01:27,725 --> 00:01:31,520
+This specifies constraints for a continuity of care document or
+
+24
+00:01:31,520 --> 00:01:36,330
+CCD in conformance with stage one meaningful use.
+
+25
+00:01:36,330 --> 00:01:40,130
+Here, you see that it specifies the sections that must be contained in
+
+26
+00:01:40,130 --> 00:01:46,490
+the CCD so that it adequately supports use cases such as transitions of care.
+
+27
+00:01:46,490 --> 00:01:49,490
+Each of these refers to a section template and
+
+28
+00:01:49,490 --> 00:01:55,300
+the HL7 site provides links to these more granular templates.
+
+29
+00:01:55,300 --> 00:01:59,300
+If you first click on the link to the medication section template,
+
+30
+00:01:59,300 --> 00:02:03,110
+and from it click on the medication activity link,
+
+31
+00:02:03,110 --> 00:02:06,690
+you get to this data entry level template.
+
+32
+00:02:06,690 --> 00:02:12,930
+Note that it in turn links to specific value sets such as the medication route.
+
+33
+00:02:12,930 --> 00:02:16,450
+Clicking on that link brings up a page listing all the routes
+
+34
+00:02:16,450 --> 00:02:20,320
+specified by the U.S. Food and Drug Administration.
+
+35
+00:02:20,320 --> 00:02:24,110
+It also links to specialized data entry templates.
+
+36
+00:02:24,110 --> 00:02:28,280
+This one is the medication information entry level template
+
+37
+00:02:28,280 --> 00:02:32,015
+that could even contain a pre-specified product strength,
+
+38
+00:02:32,015 --> 00:02:38,865
+form or concentration such as Amoxicillin 400mg/5mL suspension.
+
+39
+00:02:38,865 --> 00:02:42,480
+Clicking on its medication clinical generic drug link
+
+40
+00:02:42,480 --> 00:02:47,000
+shows that the specification must be made using RxNorm.

@@ -1,0 +1,79 @@
+1
+00:00:00,000 --> 00:00:06,003
+Informatics for integrating biology and the bedside, i2b2,
+
+2
+00:00:06,003 --> 00:00:12,010
+is an NIH funded effort based at Partners Healthcare System in Boston.
+
+3
+00:00:12,010 --> 00:00:16,060
+Its mission is to enable clinical investigators to conduct
+
+4
+00:00:16,060 --> 00:00:20,980
+research using state of the art genomics and biomedical informatics.
+
+5
+00:00:20,980 --> 00:00:27,155
+i2b2 supports complex clinical research environments.
+
+6
+00:00:27,155 --> 00:00:32,580
+But it provides an easily understood database schema that can be used to create
+
+7
+00:00:32,580 --> 00:00:34,525
+a data warehouse where
+
+8
+00:00:34,525 --> 00:00:41,990
+large clinical abstracts from an enterprise EHR can be stored for future analysis.
+
+9
+00:00:41,990 --> 00:00:45,470
+This is important because the database schema of
+
+10
+00:00:45,470 --> 00:00:50,095
+commercial enterprise EHR can be dauntingly complex,
+
+11
+00:00:50,095 --> 00:00:57,030
+proprietary and not necessarily designed well to support ad hoc queries.
+
+12
+00:00:57,030 --> 00:01:03,550
+As shown here, i2b2 implementations are comprised of cells
+
+13
+00:01:03,550 --> 00:01:10,755
+that communicate via web services and in aggregate form in i2b2 hive.
+
+14
+00:01:10,755 --> 00:01:15,230
+The role of most of these cells should be clear from their names.
+
+15
+00:01:15,230 --> 00:01:19,280
+Custom cells can be added to the hive and there is
+
+16
+00:01:19,280 --> 00:01:23,420
+an organized i2b2 users group to share information
+
+17
+00:01:23,420 --> 00:01:26,660
+and applications and to create the potential for
+
+18
+00:01:26,660 --> 00:01:32,110
+research collaboration and federated queries across institutions.
+
+19
+00:01:32,110 --> 00:01:38,660
+Here, you see the addition of a fire cell to support smart and fhir apps running against
+
+20
+00:01:38,660 --> 00:01:46,950
+the data in the i2b2 instance. All right, just keep going.

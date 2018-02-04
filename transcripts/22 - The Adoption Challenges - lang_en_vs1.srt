@@ -1,0 +1,163 @@
+1
+00:00:00,000 --> 00:00:01,940
+In the previous lesson,
+
+2
+00:00:01,940 --> 00:00:05,450
+we saw that most hospitals and around half of
+
+3
+00:00:05,450 --> 00:00:11,410
+all providers now use an electronic medical record or EMR system.
+
+4
+00:00:11,410 --> 00:00:15,660
+It is easy to forget just how remarkable this is since as recently as
+
+5
+00:00:15,660 --> 00:00:22,485
+2008 only 4% of providers had what we now call a basic EMR system.
+
+6
+00:00:22,485 --> 00:00:26,300
+Perhaps even more surprisingly, in 2009,
+
+7
+00:00:26,300 --> 00:00:30,580
+only 1.5% of non-federal hospitals had one.
+
+8
+00:00:30,580 --> 00:00:32,800
+These statistics come from a pair of
+
+9
+00:00:32,800 --> 00:00:36,145
+important papers published in The New England Journal of Medicine,
+
+10
+00:00:36,145 --> 00:00:39,575
+generally regarded as the leading journal in the field.
+
+11
+00:00:39,575 --> 00:00:41,650
+I recommend you read them.
+
+12
+00:00:41,650 --> 00:00:45,020
+Federal hospitals who are excluded from the study,
+
+13
+00:00:45,020 --> 00:00:48,500
+largely because the Veterans Administration, the V.A.,
+
+14
+00:00:48,500 --> 00:00:52,040
+the nation's largest integrated health care system was
+
+15
+00:00:52,040 --> 00:00:57,945
+a pioneer and all of their hospitals had EMR as well before the study was done.
+
+16
+00:00:57,945 --> 00:01:03,380
+The V.A. has veterans information systems and technology architecture or Vista for short,
+
+17
+00:01:03,380 --> 00:01:10,850
+dates back to the 1980's and consists of nearly 180 applications for the VA's clinical,
+
+18
+00:01:10,850 --> 00:01:13,955
+financial, administrative, and infrastructure needs.
+
+19
+00:01:13,955 --> 00:01:18,415
+All integrated into a single common database.
+
+20
+00:01:18,415 --> 00:01:21,000
+Here is an example of Vista's capabilities,
+
+21
+00:01:21,000 --> 00:01:24,945
+showing that images can be retrieved by any physician in the system,
+
+22
+00:01:24,945 --> 00:01:29,190
+no matter where in that huge system those images are stored.
+
+23
+00:01:29,190 --> 00:01:34,155
+This capability is still not widely available elsewhere in U.S. healthcare.
+
+24
+00:01:34,155 --> 00:01:37,315
+So, in less than a decade,
+
+25
+00:01:37,315 --> 00:01:42,940
+we went from 4% of providers having a basic human system to around half.
+
+26
+00:01:42,940 --> 00:01:45,020
+How did this transformation toward
+
+27
+00:01:45,020 --> 00:01:49,285
+a more interconnected system occur in less than a decade?
+
+28
+00:01:49,285 --> 00:01:52,010
+Many people including me long argued that
+
+29
+00:01:52,010 --> 00:01:56,010
+only federal intervention would make EMR adoption happen.
+
+30
+00:01:56,010 --> 00:01:59,780
+A core reason for this is once again, economics.
+
+31
+00:01:59,780 --> 00:02:04,490
+Without federal intervention, hospitals and providers would have to invest,
+
+32
+00:02:04,490 --> 00:02:06,950
+to go through a difficult, time consuming,
+
+33
+00:02:06,950 --> 00:02:11,355
+and often frustrating transition from paper to electronic records.
+
+34
+00:02:11,355 --> 00:02:15,200
+Moreover, under the pay for procedure reimbursement model,
+
+35
+00:02:15,200 --> 00:02:20,150
+to the extent the EMR led to a reduction in unnecessary or duplicative care,
+
+36
+00:02:20,150 --> 00:02:23,385
+it might negatively affect their revenue.
+
+37
+00:02:23,385 --> 00:02:27,435
+Moreover, EMR adoption is an example of network benefits.
+
+38
+00:02:27,435 --> 00:02:29,640
+The more providers that have them,
+
+39
+00:02:29,640 --> 00:02:32,775
+the more valuable they become because of data sharing.
+
+40
+00:02:32,775 --> 00:02:37,200
+In such a situation it is always hard to find enough early adopters,
+
+41
+00:02:37,200 --> 00:02:40,510
+willing to innovate in the hope of some future gain.

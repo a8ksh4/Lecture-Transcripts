@@ -1,0 +1,119 @@
+1
+00:00:00,000 --> 00:00:04,875
+In 2011, Australian HL7 standards guru,
+
+2
+00:00:04,875 --> 00:00:08,850
+Grahame Grieve, proposed a new interoperability approach
+
+3
+00:00:08,850 --> 00:00:12,930
+he called Resources for Healthcare or RFH.
+
+4
+00:00:12,930 --> 00:00:16,780
+He said that it would define a set of resources to represent
+
+5
+00:00:16,780 --> 00:00:24,065
+granular clinical concepts for use on their own or aggregated into complex documents.
+
+6
+00:00:24,065 --> 00:00:30,685
+In other words it would be composable so that unlike with complex CCDA documents,
+
+7
+00:00:30,685 --> 00:00:35,785
+developers could request only the information needed for their particular use case.
+
+8
+00:00:35,785 --> 00:00:39,640
+In part because of that he said this flexibility could
+
+9
+00:00:39,640 --> 00:00:44,240
+offer coherent solutions for a range of interoperability problems.
+
+10
+00:00:44,240 --> 00:00:49,515
+He went on to say that technically RFH is designed for the web.
+
+11
+00:00:49,515 --> 00:00:53,000
+The resources are based on simple XML with
+
+12
+00:00:53,000 --> 00:00:58,895
+an HTTP based restful protocol where each resource has a predictable URL,
+
+13
+00:00:58,895 --> 00:01:04,305
+where possible open internet standards are used for data representation.
+
+14
+00:01:04,305 --> 00:01:10,660
+Later that year the HL7 board authorized a fresh look task force to
+
+15
+00:01:10,660 --> 00:01:12,370
+examine the best way to create
+
+16
+00:01:12,370 --> 00:01:18,255
+interoperability solutions with no preconditions on what those solutions might be.
+
+17
+00:01:18,255 --> 00:01:23,600
+The idea was not to start all over but that based on prior attempts
+
+18
+00:01:23,600 --> 00:01:29,670
+by HL7 and other groups the task force would consider new approaches to interoperability.
+
+19
+00:01:29,670 --> 00:01:36,980
+Grahame joined the effort and at its outset hosted several key questions on his blog.
+
+20
+00:01:36,980 --> 00:01:38,990
+What are we trying to do?
+
+21
+00:01:38,990 --> 00:01:41,640
+What do our customers want?
+
+22
+00:01:41,640 --> 00:01:45,635
+What exchanges are we trying to serve?
+
+23
+00:01:45,635 --> 00:01:48,710
+Are we doing syntax or semantics?
+
+24
+00:01:48,710 --> 00:01:52,550
+Does the market even wants semantics?
+
+25
+00:01:52,550 --> 00:01:58,820
+HL7 has two quite different stakeholders in vendors and large healthcare programs.
+
+26
+00:01:58,820 --> 00:02:01,435
+Can they agree on what they want?
+
+27
+00:02:01,435 --> 00:02:06,050
+Grahame ended up leading the resulting standards development effort renamed
+
+28
+00:02:06,050 --> 00:02:11,710
+Fast Healthcare Interoperability Resources or F-H-I-R, FHIR.
+
+29
+00:02:11,710 --> 00:02:15,900
+We've touched on FHIR throughout the earlier parts of this course.
+
+30
+00:02:15,900 --> 00:02:18,240
+Now we will look at it in more detail.

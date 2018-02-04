@@ -1,0 +1,103 @@
+1
+00:00:00,000 --> 00:00:03,090
+As an alternative to any of these approaches for
+
+2
+00:00:03,090 --> 00:00:06,375
+giving patients the data from their AHR records,
+
+3
+00:00:06,375 --> 00:00:10,130
+why not give them direct access to those records?
+
+4
+00:00:10,130 --> 00:00:12,660
+Dr. Schenck and Warner first proposed
+
+5
+00:00:12,660 --> 00:00:17,605
+this radical idea in the 1973 New England Journal of Medicine.
+
+6
+00:00:17,605 --> 00:00:23,145
+In 2010, Beth Israel Deaconess Medical Center, in Boston,
+
+7
+00:00:23,145 --> 00:00:26,145
+Geisinger Health System in rural Pennsylvania,
+
+8
+00:00:26,145 --> 00:00:28,560
+and Seattle's Harborview Medical Center,
+
+9
+00:00:28,560 --> 00:00:31,380
+launched an exploratory study of the idea,
+
+10
+00:00:31,380 --> 00:00:34,630
+funded by the Robert Wood Johnson Foundation.
+
+11
+00:00:34,630 --> 00:00:37,110
+Primary care doctors invited their patients to
+
+12
+00:00:37,110 --> 00:00:40,765
+read their notes via secure online portals.
+
+13
+00:00:40,765 --> 00:00:43,425
+The results were published in 2012,
+
+14
+00:00:43,425 --> 00:00:48,940
+in the prestigious journal Annals of Internal Medicine.
+
+15
+00:00:48,940 --> 00:00:52,035
+According to this effort, now called OpenNotes,
+
+16
+00:00:52,035 --> 00:00:54,030
+the big takeaways were,
+
+17
+00:00:54,030 --> 00:00:57,710
+doctors reported little change in their workload.
+
+18
+00:00:57,710 --> 00:01:01,740
+Patients overwhelmingly approve of note sharing.
+
+19
+00:01:01,740 --> 00:01:05,715
+Few patients are worried or confused by their notes.
+
+20
+00:01:05,715 --> 00:01:10,500
+Today five million patients have access to OpenNotes.
+
+21
+00:01:10,500 --> 00:01:14,650
+You can visit https://www.opennotes.org for more information.
+
+22
+00:01:14,650 --> 00:01:19,125
+But we will now watch two videos provided by OpenNotes.
+
+23
+00:01:19,125 --> 00:01:22,080
+The first, shows how patients report reading
+
+24
+00:01:22,080 --> 00:01:27,545
+their notes helps them feel more in control of their health and health care.
+
+25
+00:01:27,545 --> 00:01:31,470
+This second video provides evidence that patients can
+
+26
+00:01:31,470 --> 00:01:35,000
+provide quality control from their own notes.

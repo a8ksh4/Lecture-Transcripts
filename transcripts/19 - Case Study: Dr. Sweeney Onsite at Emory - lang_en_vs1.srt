@@ -1,0 +1,283 @@
+1
+00:00:00,000 --> 00:00:03,135
+>>I'm John Sweeney. I'm the Joseph Brown Whitehead professor of surgery,
+
+2
+00:00:03,135 --> 00:00:07,015
+and chairman of the Department of Surgery for the Emory University School of Medicine.
+
+3
+00:00:07,015 --> 00:00:11,810
+Muscle Insertion and chief Emory health care.
+
+4
+00:00:11,810 --> 00:00:17,465
+We became interested in this problem in about 2009- 2010,
+
+5
+00:00:17,465 --> 00:00:19,490
+and it was based on a landmark paper that was
+
+6
+00:00:19,490 --> 00:00:22,525
+published in New England Journal of Medicine in 2007.
+
+7
+00:00:22,525 --> 00:00:26,870
+In that paper the authors found that Medicare patients
+
+8
+00:00:26,870 --> 00:00:31,910
+discharged from the hospital we were readmitted an enormous number,
+
+9
+00:00:31,910 --> 00:00:33,690
+almost 20% of those patients.
+
+10
+00:00:33,690 --> 00:00:36,800
+And within 30 days after discharge the cost
+
+11
+00:00:36,800 --> 00:00:40,060
+to the health care system was in the billions of dollars.
+
+12
+00:00:40,060 --> 00:00:45,565
+And so, it was creating a significant amount of interest at the federal level.
+
+13
+00:00:45,565 --> 00:00:50,060
+And as part of the patient protection Affordable Care Act Section, 13:24,
+
+14
+00:00:50,060 --> 00:00:54,020
+which is the readmission Reduction Act was signed into law which
+
+15
+00:00:54,020 --> 00:00:58,095
+penalizes hospitals that have access readmission rates over what's expected.
+
+16
+00:00:58,095 --> 00:01:04,040
+And so, this has become a substantial problem and generated substantial focus for
+
+17
+00:01:04,040 --> 00:01:06,900
+hospitals around the country to reduce
+
+18
+00:01:06,900 --> 00:01:12,310
+their readmission rates and improve outcomes for their patients.
+
+19
+00:01:12,310 --> 00:01:15,150
+It's an interesting problem.
+
+20
+00:01:15,150 --> 00:01:18,180
+As we started looking at the readmission problem,
+
+21
+00:01:18,180 --> 00:01:20,850
+we realized that there were several factors at
+
+22
+00:01:20,850 --> 00:01:25,700
+play that needed to be considered not just the simple readmission.
+
+23
+00:01:25,700 --> 00:01:28,310
+The first was the decision to send the patient home.
+
+24
+00:01:28,310 --> 00:01:30,510
+One was the patient ready to be discharged.
+
+25
+00:01:30,510 --> 00:01:35,850
+And keeping in mind with that that the longer patient stays in the hospital,
+
+26
+00:01:35,850 --> 00:01:38,715
+the higher the costs associated with that.
+
+27
+00:01:38,715 --> 00:01:42,000
+And so, our doctors are incentivized to reduce costs
+
+28
+00:01:42,000 --> 00:01:46,650
+and move patients through the hospital care segment.
+
+29
+00:01:46,650 --> 00:01:50,125
+If they move too quickly, patients could potentially be readmitted.
+
+30
+00:01:50,125 --> 00:01:53,730
+And so, we felt that the tool that brought information to
+
+31
+00:01:53,730 --> 00:01:57,915
+bear that help providers make timely decisions,
+
+32
+00:01:57,915 --> 00:02:00,905
+that were more effective and reduce
+
+33
+00:02:00,905 --> 00:02:04,650
+readmission rates really could make a huge difference in
+
+34
+00:02:04,650 --> 00:02:12,503
+the outcomes for patients but also decrease costs for health care system.
+
+35
+00:02:12,503 --> 00:02:15,040
+I am a practicing general surgeon.
+
+36
+00:02:15,040 --> 00:02:19,405
+I do complex general surgery and so because my interest is in that area
+
+37
+00:02:19,405 --> 00:02:20,620
+and patients that undergo
+
+38
+00:02:20,620 --> 00:02:24,490
+complex general surgery can have readmission rates as high as 20%,
+
+39
+00:02:24,490 --> 00:02:28,165
+we initially focused on a large dataset of patients here at
+
+40
+00:02:28,165 --> 00:02:32,649
+Emory University Hospital that had previously undergone complex GI surgery.
+
+41
+00:02:32,649 --> 00:02:36,100
+And we looked at readmissions in those patients and with the help of
+
+42
+00:02:36,100 --> 00:02:40,240
+the economists working at Georgia State built a predictive model that
+
+43
+00:02:40,240 --> 00:02:43,660
+helped us with more likely
+
+44
+00:02:43,660 --> 00:02:48,640
+predicting one it was the appropriate time to send a patient home from the hospital.
+
+45
+00:02:48,640 --> 00:02:51,910
+We then took that tool into
+
+46
+00:02:51,910 --> 00:02:56,155
+the simulated setting and actually both using a computer simulation setting,
+
+47
+00:02:56,155 --> 00:03:00,100
+and also mock patient actors
+
+48
+00:03:00,100 --> 00:03:03,900
+in a simulation setting here in the Emory Center for experiential learning.
+
+49
+00:03:03,900 --> 00:03:07,750
+We actually showed that this tool does have benefit,
+
+50
+00:03:07,750 --> 00:03:11,665
+and we think that in the true clinical setting would lead to reduce readmissions,
+
+51
+00:03:11,665 --> 00:03:13,258
+decreased like this day,
+
+52
+00:03:13,258 --> 00:03:17,265
+and improve outcomes overall for our patients.
+
+53
+00:03:17,265 --> 00:03:23,635
+The big issue for us now is as we've put a considerable amount of work
+
+54
+00:03:23,635 --> 00:03:26,620
+into developing what we think is something that could
+
+55
+00:03:26,620 --> 00:03:29,525
+have some significant benefit at the bedside,
+
+56
+00:03:29,525 --> 00:03:33,410
+as how to be able to integrate an electronic record with
+
+57
+00:03:33,410 --> 00:03:39,440
+this decision support tool and really firers the mechanism for doing that.
+
+58
+00:03:39,440 --> 00:03:43,330
+It's the opportunity that's going to allow us to bring to bear what we've
+
+59
+00:03:43,330 --> 00:03:45,250
+spent a lot of time working on and what we
+
+60
+00:03:45,250 --> 00:03:47,695
+think is going to make a difference for patients.
+
+61
+00:03:47,695 --> 00:03:54,178
+And also, make the decision making process easier for provider.
+
+62
+00:03:54,178 --> 00:03:58,720
+The future of our tool I think is the next step,
+
+63
+00:03:58,720 --> 00:04:02,380
+is going to be a clinical trial with the tool and the clinical arena.
+
+64
+00:04:02,380 --> 00:04:04,330
+We've already shown the utility
+
+65
+00:04:04,330 --> 00:04:09,465
+both in the computer simulated setting as well as in a mock patient setting.
+
+66
+00:04:09,465 --> 00:04:13,600
+But in reality what needs to happen next is this tool needs to be
+
+67
+00:04:13,600 --> 00:04:19,470
+trialled in the clinical setting to demonstrate its utility.
+
+68
+00:04:19,470 --> 00:04:22,270
+The risks of readmission and the impacts of
+
+69
+00:04:22,270 --> 00:04:26,390
+a readmission as well as the impacts of a prolonged length of stay are significant.
+
+70
+00:04:26,390 --> 00:04:30,250
+And therefore, we think that this needs to be trialled in a
+
+71
+00:04:30,250 --> 00:04:36,030
+controlled setting before turn loose on the healthcare environment.

@@ -1,0 +1,47 @@
+1
+00:00:00,000 --> 00:00:01,365
+In the last lesson,
+
+2
+00:00:01,365 --> 00:00:06,285
+we looked at the evolution of standards and examined data standards in particular.
+
+3
+00:00:06,285 --> 00:00:08,930
+For use in an actual patient care,
+
+4
+00:00:08,930 --> 00:00:12,130
+standardized clinical data typically along
+
+5
+00:00:12,130 --> 00:00:15,805
+with other non-standardized data such as free text nodes,
+
+6
+00:00:15,805 --> 00:00:19,450
+must be packaged into a useful and usable form and
+
+7
+00:00:19,450 --> 00:00:24,160
+set using widely accepted data sharing standards and approaches.
+
+8
+00:00:24,160 --> 00:00:29,373
+Many people feel that these standards and approaches will increasingly be FHIR APIs,
+
+9
+00:00:29,373 --> 00:00:33,665
+but only a few EHR installations currently support FHIR.
+
+10
+00:00:33,665 --> 00:00:36,270
+We will look at FHIR in the next lesson.
+
+11
+00:00:36,270 --> 00:00:38,430
+In this one, we will look at the standards for
+
+12
+00:00:38,430 --> 00:00:41,410
+packaging and sharing data that predated FHIR.

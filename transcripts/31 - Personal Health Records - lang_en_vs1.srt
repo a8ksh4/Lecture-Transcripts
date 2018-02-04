@@ -1,0 +1,87 @@
+1
+00:00:00,000 --> 00:00:04,135
+Should patients be the aggregation point for all their health data?
+
+2
+00:00:04,135 --> 00:00:10,195
+Should they contribute data they have documented or recorded using devices and apps?
+
+3
+00:00:10,195 --> 00:00:13,230
+Should they have access to their physicians notes,
+
+4
+00:00:13,230 --> 00:00:16,560
+and even the ability to suggest corrections?
+
+5
+00:00:16,560 --> 00:00:22,140
+Will their use of personal technologies engage them and lead to better outcomes?
+
+6
+00:00:22,140 --> 00:00:24,580
+These are some of the key questions,
+
+7
+00:00:24,580 --> 00:00:29,740
+and potential benefits that arise from the concept of a personal health record, or PHR.
+
+8
+00:00:29,740 --> 00:00:35,595
+The term first appeared in a 1978 paper,
+
+9
+00:00:35,595 --> 00:00:38,110
+but it was really not practical until around
+
+10
+00:00:38,110 --> 00:00:41,815
+2000 with the dramatic decline in the cost of computing,
+
+11
+00:00:41,815 --> 00:00:45,000
+and the increasing availability of the Internet.
+
+12
+00:00:45,000 --> 00:00:47,350
+Of course the almost universal use of
+
+13
+00:00:47,350 --> 00:00:52,775
+smartphones provides a near ideal ubiquitous PHR platform.
+
+14
+00:00:52,775 --> 00:00:56,895
+The original idea was a patient maintained record,
+
+15
+00:00:56,895 --> 00:01:02,920
+but you can see from these questions it's scope is expanding in our connected world.
+
+16
+00:01:02,920 --> 00:01:06,610
+Today the Markle Foundation's Connecting for Health initiative
+
+17
+00:01:06,610 --> 00:01:09,475
+defines a personal health record as quote,
+
+18
+00:01:09,475 --> 00:01:14,170
+an electronic application through which individuals can access, manage,
+
+19
+00:01:14,170 --> 00:01:16,360
+and share their health information,
+
+20
+00:01:16,360 --> 00:01:19,225
+and that of others for whom they are authorized.
+
+21
+00:01:19,225 --> 00:01:20,815
+In a private, secure,
+
+22
+00:01:20,815 --> 00:01:23,130
+and confidential environment, end quote.

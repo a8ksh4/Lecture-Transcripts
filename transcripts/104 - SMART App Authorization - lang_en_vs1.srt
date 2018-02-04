@@ -1,0 +1,175 @@
+1
+00:00:00,000 --> 00:00:06,159
+A SMART app must be registered with an EHR's authorization service.
+
+2
+00:00:06,159 --> 00:00:10,555
+Before it can be run within that EHR and access data from it,
+
+3
+00:00:10,555 --> 00:00:14,570
+the registration technology is up to the EHR vendor,
+
+4
+00:00:14,570 --> 00:00:20,930
+although SMART recommends the OAuth 2 dynamic client registration protocol.
+
+5
+00:00:20,930 --> 00:00:25,110
+No matter how it registers at registration time,
+
+6
+00:00:25,110 --> 00:00:32,872
+it must register one or more fixed fully specified launch URL's and redirect URL's.
+
+7
+00:00:32,872 --> 00:00:35,530
+EHR's can offer SMART apps to
+
+8
+00:00:35,530 --> 00:00:40,215
+the provider in ways that greatly increase their likelihood of use.
+
+9
+00:00:40,215 --> 00:00:42,160
+In this example from Cerner,
+
+10
+00:00:42,160 --> 00:00:47,575
+the apps are in the same main menu that the physician uses for other charting activities.
+
+11
+00:00:47,575 --> 00:00:50,110
+This greatly facilitates the usability of
+
+12
+00:00:50,110 --> 00:00:54,880
+the apps by saving time through eliminating extra clicks.
+
+13
+00:00:54,880 --> 00:00:58,550
+Also note, the display of the apps information,
+
+14
+00:00:58,550 --> 00:01:01,263
+which is patient education in this case,
+
+15
+00:01:01,263 --> 00:01:07,455
+conveniently happens in the usual clinical data presentation area of the EHR screen.
+
+16
+00:01:07,455 --> 00:01:09,520
+Alternately, as shown here,
+
+17
+00:01:09,520 --> 00:01:12,015
+an app can launch standalone.
+
+18
+00:01:12,015 --> 00:01:16,360
+This is actually a design prototype done by a group of my students
+
+19
+00:01:16,360 --> 00:01:21,140
+for an app that supports epilepsy patients via their smartphones.
+
+20
+00:01:21,140 --> 00:01:25,330
+This kind of standalone patient facing app and
+
+21
+00:01:25,330 --> 00:01:29,223
+apps for providers launching within an EHR session,
+
+22
+00:01:29,223 --> 00:01:32,480
+are probably the most common use cases for fire.
+
+23
+00:01:32,480 --> 00:01:35,795
+In an EHR launch, as shown here,
+
+24
+00:01:35,795 --> 00:01:42,340
+SMART passes and opaque handle to the EHR context to the app as part of the launch_url.
+
+25
+00:01:42,340 --> 00:01:47,250
+The app later will include this context handle as
+
+26
+00:01:47,250 --> 00:01:53,050
+a scope parameter when it requests authorization to access resources.
+
+27
+00:01:53,050 --> 00:01:59,080
+Note again that the complete URL's of all apps approved for use by users of this EHR,
+
+28
+00:01:59,080 --> 00:02:03,115
+must be registered with EHR's authorization server.
+
+29
+00:02:03,115 --> 00:02:09,590
+As shown here, when an app is launched standalone from outside an EHR context,
+
+30
+00:02:09,590 --> 00:02:15,190
+it requests authorization to access a fire resource by redirecting it's
+
+31
+00:02:15,190 --> 00:02:20,495
+authorization request to the EHR's authorization server.
+
+32
+00:02:20,495 --> 00:02:25,655
+Based on predefined rules and possibly end user authorization,
+
+33
+00:02:25,655 --> 00:02:29,440
+the EHR authorization server either grants the request by
+
+34
+00:02:29,440 --> 00:02:33,589
+returning an authorization code to the app's redirect URL,
+
+35
+00:02:33,589 --> 00:02:36,105
+or denies the request.
+
+36
+00:02:36,105 --> 00:02:40,930
+The app then exchanges the authorization code for an access token,
+
+37
+00:02:40,930 --> 00:02:47,655
+which the app presents to the EHR's resource server to obtain the fire resources.
+
+38
+00:02:47,655 --> 00:02:51,648
+If a refreshed token comes along with the access token,
+
+39
+00:02:51,648 --> 00:02:55,240
+the app may use this to request a new access token with
+
+40
+00:02:55,240 --> 00:02:59,980
+the same scope once the original access token expires.
+
+41
+00:02:59,980 --> 00:03:05,015
+This has been just a basic discussion of SMART app authorization.
+
+42
+00:03:05,015 --> 00:03:10,180
+The important details are readily available on the excellent SMART on-fire site.
+
+43
+00:03:10,180 --> 00:03:15,615
+There are also numerous web tutorials about OAuth 2 and open ID connect.
+
+44
+00:03:15,615 --> 00:03:19,000
+Google provides an interactive OAuth 2 playground.

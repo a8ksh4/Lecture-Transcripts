@@ -1,0 +1,39 @@
+1
+00:00:00,000 --> 00:00:02,970
+You now have an overview of how standards have evolved over
+
+2
+00:00:02,970 --> 00:00:07,125
+the years in terms of their structure, purpose and technology.
+
+3
+00:00:07,125 --> 00:00:12,665
+You should think about the difference between simpler classifications such as NDC,
+
+4
+00:00:12,665 --> 00:00:19,925
+CPT and ICD prior to version 10 and a complex ontology such as SNOMAD.
+
+5
+00:00:19,925 --> 00:00:24,240
+The standards community has struggled over the tension between perfection,
+
+6
+00:00:24,240 --> 00:00:29,100
+a standard that can represent medicine all of its detail and practicality,
+
+7
+00:00:29,100 --> 00:00:33,408
+standards that can actually be deployed and used in the real world.
+
+8
+00:00:33,408 --> 00:00:37,815
+This dichotomy extends equally to the topic of our next lesson,
+
+9
+00:00:37,815 --> 00:00:42,145
+interoperability standards, and it eventually lead to fire,
+
+10
+00:00:42,145 --> 00:00:44,000
+the subject of the following lesson.

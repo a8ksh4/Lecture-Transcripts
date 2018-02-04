@@ -1,0 +1,123 @@
+1
+00:00:00,000 --> 00:00:05,415
+If you think back to our discussion of FHIR apps integrated into EHRs,
+
+2
+00:00:05,415 --> 00:00:12,040
+it should be clear that the decision to initiate the apps rest with the EHR user.
+
+3
+00:00:12,040 --> 00:00:15,980
+This in turn rests on the user recognizing that an app
+
+4
+00:00:15,980 --> 00:00:19,850
+exists that might be of benefit in a particular patient.
+
+5
+00:00:19,850 --> 00:00:26,010
+Clinicians are busy, so it is not hard to imagine that this might not happen.
+
+6
+00:00:26,010 --> 00:00:29,970
+Very much along the lines first explored by Arden,
+
+7
+00:00:29,970 --> 00:00:33,165
+the CBS Hook's initiative within SMART
+
+8
+00:00:33,165 --> 00:00:36,600
+provides a means of imbedding clinical logic within
+
+9
+00:00:36,600 --> 00:00:43,905
+the EHR to invoke decision support which might or might not be a full FHIR App.
+
+10
+00:00:43,905 --> 00:00:47,670
+Unlike with Arden, this occurs within
+
+11
+00:00:47,670 --> 00:00:54,100
+a clinician's workflow and because of FHIR there is no curly braces problem.
+
+12
+00:00:54,100 --> 00:00:57,550
+A hook is functionality provided by software,
+
+13
+00:00:57,550 --> 00:00:59,680
+for users of that software,
+
+14
+00:00:59,680 --> 00:01:04,410
+to have their own code called under certain circumstances.
+
+15
+00:01:04,410 --> 00:01:08,140
+Clinical examples of such circumstances might include,
+
+16
+00:01:08,140 --> 00:01:10,420
+opening a new patient record,
+
+17
+00:01:10,420 --> 00:01:12,745
+authoring a new prescription,
+
+18
+00:01:12,745 --> 00:01:15,400
+viewing pending orders for approval.
+
+19
+00:01:15,400 --> 00:01:20,980
+Under such circumstances, CDS Hooks can display cards to
+
+20
+00:01:20,980 --> 00:01:27,305
+provide useful information or offer apps to help make optimal clinical decisions.
+
+21
+00:01:27,305 --> 00:01:30,495
+There are three kinds of cards.
+
+22
+00:01:30,495 --> 00:01:33,605
+Information cards convey text.
+
+23
+00:01:33,605 --> 00:01:40,350
+Alternative suggestion cards provide an action different from the one contemplated.
+
+24
+00:01:40,350 --> 00:01:46,900
+App link cards suggest the use of an app or reference materials.
+
+25
+00:01:46,900 --> 00:01:48,395
+Here, I have used
+
+26
+00:01:48,395 --> 00:01:55,435
+the interactive CDS Hooks demonstration tool on their site to show how a hook,
+
+27
+00:01:55,435 --> 00:01:59,275
+inserted into the code for recording new prescriptions,
+
+28
+00:01:59,275 --> 00:02:02,745
+causes the display of a suggestion card.
+
+29
+00:02:02,745 --> 00:02:06,630
+This example explains the potential savings if
+
+30
+00:02:06,630 --> 00:02:11,510
+a generic equivalent replaces the brand name drug the provider input.
+
+31
+00:02:11,510 --> 00:02:15,000
+Visit the CDS Hooks site for more details.

@@ -1,0 +1,71 @@
+1
+00:00:00,000 --> 00:00:05,595
+The federal high tech program supported the development of state HIEs.
+
+2
+00:00:05,595 --> 00:00:07,810
+As a result of that,
+
+3
+00:00:07,810 --> 00:00:10,435
+of growing EHR adoption,
+
+4
+00:00:10,435 --> 00:00:14,025
+and of the data sharing requirements of meaningful use,
+
+5
+00:00:14,025 --> 00:00:17,910
+2015 addition of a survey sponsored by
+
+6
+00:00:17,910 --> 00:00:23,340
+the Robert Wood Johnson Foundation reported that as of 2014,
+
+7
+00:00:23,340 --> 00:00:28,350
+76 percent of hospitals were exchanging data with outside health professionals,
+
+8
+00:00:28,350 --> 00:00:32,765
+including ambulatory health professionals and other hospitals.
+
+9
+00:00:32,765 --> 00:00:39,135
+This was up from 62 percent in 2013 and 41 percent 2008.
+
+10
+00:00:39,135 --> 00:00:42,310
+The shared data might include laboratory results,
+
+11
+00:00:42,310 --> 00:00:47,500
+radiology reports, clinical care summaries, or medications.
+
+12
+00:00:47,500 --> 00:00:51,615
+Despite this growth HIEs reported many barriers.
+
+13
+00:00:51,615 --> 00:00:58,820
+Only 46 percent of our operational HIEs and 38 percent of HIE efforts
+
+14
+00:00:58,820 --> 00:01:01,940
+in the planning stage reported that they were able to
+
+15
+00:01:01,940 --> 00:01:06,645
+cover our operating costs with revenue from participants.
+
+16
+00:01:06,645 --> 00:01:10,620
+This has long been an ongoing issue with HIEs.
+
+17
+00:01:10,620 --> 00:01:13,550
+So we will now consider how technology might make them more
+
+18
+00:01:13,550 --> 00:01:18,000
+sustainable or possibly unnecessary in the future.

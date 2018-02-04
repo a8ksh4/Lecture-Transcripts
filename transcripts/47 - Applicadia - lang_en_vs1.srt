@@ -1,0 +1,199 @@
+1
+00:00:00,980 --> 00:00:04,985
+The patient appears Anemic and pale, period.
+
+2
+00:00:04,985 --> 00:00:10,670
+Patient's heart rate is 98 and blood pressure is 120/80, period.
+
+3
+00:00:10,670 --> 00:00:14,665
+Go to history of the present illness.
+
+4
+00:00:14,665 --> 00:00:17,590
+The patient presents with severe pain and swelling in
+
+5
+00:00:17,590 --> 00:00:22,891
+the left knee due to micro-tears in the patella tendon, period.
+
+6
+00:00:22,891 --> 00:00:27,030
+And just to show you a little bit about what's going on the background.
+
+7
+00:00:27,030 --> 00:00:28,920
+So, we're taking the statement and running it through
+
+8
+00:00:28,920 --> 00:00:32,055
+computational linguistics to extract out all the key data points.
+
+9
+00:00:32,055 --> 00:00:34,680
+Then we have mapped that to an in-memory graph.
+
+10
+00:00:34,680 --> 00:00:37,020
+The graph contains a hybrid of
+
+11
+00:00:37,020 --> 00:00:39,630
+20 different clinical ontologies that we
+
+12
+00:00:39,630 --> 00:00:43,055
+have woven together and then made it computable and processable.
+
+13
+00:00:43,055 --> 00:00:44,670
+And that's actually how we perform all of
+
+14
+00:00:44,670 --> 00:00:50,645
+our clinical decision support matching to clinical models.
+
+15
+00:00:50,645 --> 00:00:55,465
+Because at the end of the day, we're not saving the statement in the medical record.
+
+16
+00:00:55,465 --> 00:00:59,770
+We're saving the IDs using FHIR. So, clear this out.
+
+17
+00:00:59,770 --> 00:01:03,475
+Because that allows us to do things like ICD 10 coding.
+
+18
+00:01:03,475 --> 00:01:05,750
+So, this is not enough specificity to come up with
+
+19
+00:01:05,750 --> 00:01:09,140
+a fully refined ICD 10 building code. So, we're going to prompt.
+
+20
+00:01:09,140 --> 00:01:12,700
+Only swelling. It's traumatic.
+
+21
+00:01:12,700 --> 00:01:14,700
+And this is the initial count.
+
+22
+00:01:14,700 --> 00:01:17,366
+So, here's all our ICD 10 codes.
+
+23
+00:01:17,366 --> 00:01:19,820
+Here is the structures that we are going to be
+
+24
+00:01:19,820 --> 00:01:23,650
+saving using FHIR into the electronic medical record.
+
+25
+00:01:23,650 --> 00:01:25,580
+And over here on the left, this is the statement that
+
+26
+00:01:25,580 --> 00:01:29,380
+we're going to throw away. I'll do a few more.
+
+27
+00:01:31,320 --> 00:01:41,158
+Acetaminophen, 500 mg. Twice a day for two weeks with food as needed for pain, period.
+
+28
+00:01:41,158 --> 00:01:46,813
+The patient needs a bilateral mammography, period.
+
+29
+00:01:46,813 --> 00:01:49,160
+Now, as you noticed,
+
+30
+00:01:49,160 --> 00:01:52,430
+we're actually determining where in the medical record that each bit of
+
+31
+00:01:52,430 --> 00:01:56,228
+information goes based on the information that we extract out from it.
+
+32
+00:01:56,228 --> 00:01:59,270
+Go to review of systems.
+
+33
+00:01:59,270 --> 00:02:03,980
+The patient's breath sounds a normal, period.
+
+34
+00:02:03,980 --> 00:02:10,487
+The patient's heart sounds are normal, period.
+
+35
+00:02:10,487 --> 00:02:13,240
+So here, it's determining body system,
+
+36
+00:02:13,240 --> 00:02:16,345
+again, by the information that we extract out of the statement.
+
+37
+00:02:16,345 --> 00:02:22,447
+The patient's grandmother died of lung cancer 10 years ago, period.
+
+38
+00:02:22,447 --> 00:02:30,286
+The patient had an appendectomy four years ago, period.
+
+39
+00:02:30,286 --> 00:02:32,790
+So here, this is going in
+
+40
+00:02:32,790 --> 00:02:34,290
+the medical record for this patient but it's
+
+41
+00:02:34,290 --> 00:02:36,240
+going in as information about their grandmother.
+
+42
+00:02:36,240 --> 00:02:39,555
+In other words, the patient isn't dead the grandmother is dead.
+
+43
+00:02:39,555 --> 00:02:43,365
+Effectively, once you have information about each statement,
+
+44
+00:02:43,365 --> 00:02:46,680
+so many things about the capture of clinical information can be automated,
+
+45
+00:02:46,680 --> 00:02:49,305
+including clinical decision support in real time,
+
+46
+00:02:49,305 --> 00:02:53,010
+in figuring out where to place things in a medical record.
+
+47
+00:02:53,010 --> 00:02:55,170
+At the end of the day, the goal is to put
+
+48
+00:02:55,170 --> 00:02:57,300
+the clinicians attention back on
+
+49
+00:02:57,300 --> 00:03:00,440
+the patient and away from having to serve the needs of the system.
+
+50
+00:03:00,440 --> 00:03:03,000
+Anyway, thanks for watching this demo.

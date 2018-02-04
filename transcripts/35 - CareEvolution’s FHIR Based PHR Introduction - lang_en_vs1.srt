@@ -1,0 +1,91 @@
+1
+00:00:00,000 --> 00:00:06,275
+Care evolution also presented a PHR at the Dubfire applications round table.
+
+2
+00:00:06,275 --> 00:00:08,405
+The company says that it provides
+
+3
+00:00:08,405 --> 00:00:12,675
+secure interoperability solutions for population health management,
+
+4
+00:00:12,675 --> 00:00:16,600
+care coordination and consumer engagement.
+
+5
+00:00:16,600 --> 00:00:19,760
+Its myFHR, family health record app,
+
+6
+00:00:19,760 --> 00:00:25,329
+runs on the web and in iOS devices and leverages fire to enable consumers to
+
+7
+00:00:25,329 --> 00:00:27,680
+aggregate and manage their health data from
+
+8
+00:00:27,680 --> 00:00:31,284
+multiple hospital or physician office portals.
+
+9
+00:00:31,284 --> 00:00:35,020
+Consumers can view and manage their medications,
+
+10
+00:00:35,020 --> 00:00:37,195
+allergies and lab results.
+
+11
+00:00:37,195 --> 00:00:41,550
+The app also supports wearable sensors and connected devices,
+
+12
+00:00:41,550 --> 00:00:43,920
+such as glucometers, weight scales,
+
+13
+00:00:43,920 --> 00:00:45,870
+and blood pressure monitors,
+
+14
+00:00:45,870 --> 00:00:49,200
+provides notifications for upcoming appointments,
+
+15
+00:00:49,200 --> 00:00:54,895
+overdue preventive screenings and immunizations, and drug-drug interactions.
+
+16
+00:00:54,895 --> 00:01:01,020
+We will now see a video demonstration of myFHR provided for this course by the company.
+
+17
+00:01:01,020 --> 00:01:02,610
+Before we watch that video,
+
+18
+00:01:02,610 --> 00:01:05,470
+I would like to provide a personal note.
+
+19
+00:01:05,470 --> 00:01:06,884
+While I was still in training,
+
+20
+00:01:06,884 --> 00:01:09,680
+I cared for a patient who eventually died because he was
+
+21
+00:01:09,680 --> 00:01:13,070
+taking two simultaneous prescriptions for prednisone,
+
+22
+00:01:13,070 --> 00:01:16,690
+the steroid medication mentioned in the video.
+
+23
+00:01:16,690 --> 00:01:22,000
+A tool like myFHR might well have prevented that tragedy from occurring.

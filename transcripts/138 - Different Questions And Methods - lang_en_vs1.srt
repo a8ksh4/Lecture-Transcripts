@@ -1,0 +1,175 @@
+1
+00:00:00,000 --> 00:00:05,815
+Health care is a diverse and rich field for research and analytics.
+
+2
+00:00:05,815 --> 00:00:11,168
+We will now consider a few examples to explore that diversity.
+
+3
+00:00:11,168 --> 00:00:15,230
+The historic gold standard for developing new medical knowledge,
+
+4
+00:00:15,230 --> 00:00:18,080
+is the controlled clinical trial.
+
+5
+00:00:18,080 --> 00:00:20,030
+You have two equivalent,
+
+6
+00:00:20,030 --> 00:00:22,610
+randomly selected patient groups,
+
+7
+00:00:22,610 --> 00:00:26,090
+alternate therapies are a new therapy and
+
+8
+00:00:26,090 --> 00:00:31,520
+a placebo and see which group does better over time.
+
+9
+00:00:31,520 --> 00:00:34,020
+These are difficult to do.
+
+10
+00:00:34,020 --> 00:00:38,180
+Finding and recruiting the right patients is hard.
+
+11
+00:00:38,180 --> 00:00:43,243
+These trials take a long time and they're expensive.
+
+12
+00:00:43,243 --> 00:00:46,990
+However, if the question is whether a new treatment works
+
+13
+00:00:46,990 --> 00:00:51,130
+better than current treatments in actual human patients,
+
+14
+00:00:51,130 --> 00:00:55,651
+there's currently not a good alternative approach.
+
+15
+00:00:55,651 --> 00:01:01,105
+Next, we will consider the problem of early diagnosis of the disease.
+
+16
+00:01:01,105 --> 00:01:04,120
+Congestive heart failure occurs when
+
+17
+00:01:04,120 --> 00:01:07,955
+the heart muscle does not pump blood as well as it should.
+
+18
+00:01:07,955 --> 00:01:11,070
+It affects 5.7 million people in
+
+19
+00:01:11,070 --> 00:01:16,875
+the United States and there are over 200,000 new cases each year.
+
+20
+00:01:16,875 --> 00:01:19,680
+A 2013 paper, calculates that
+
+21
+00:01:19,680 --> 00:01:27,235
+the total direct cost of heart failure is from 60 to $150 billion annually.
+
+22
+00:01:27,235 --> 00:01:31,770
+According to a review article in Mayo Clinical Proceedings,
+
+23
+00:01:31,770 --> 00:01:39,040
+quote "No single test can be used to establish the clinical diagnosis of heart failure.
+
+24
+00:01:39,040 --> 00:01:43,350
+Instead, history and physical examination findings showing
+
+25
+00:01:43,350 --> 00:01:48,240
+signs and symptoms of congestion and are in Organ hypoperfusion,
+
+26
+00:01:48,240 --> 00:01:50,820
+are used to make the diagnosis.
+
+27
+00:01:50,820 --> 00:01:55,555
+Imaging studies documenting systolic or diastolic dysfunction
+
+28
+00:01:55,555 --> 00:01:59,135
+and Byer markers, are helpful adjuncts.
+
+29
+00:01:59,135 --> 00:02:06,490
+Thus, the diagnosis of congestive heart failure may require many types of clinical data.
+
+30
+00:02:06,490 --> 00:02:12,190
+A point you should remember when I interviewed Dr. Jimeng Sun in the next segment.
+
+31
+00:02:12,190 --> 00:02:16,910
+Providing help for this problem comes from predictive analytics,
+
+32
+00:02:16,910 --> 00:02:19,290
+his area of research.
+
+33
+00:02:19,290 --> 00:02:22,930
+Finally, a different question,
+
+34
+00:02:22,930 --> 00:02:26,330
+what is the optimal treatment strategy among
+
+35
+00:02:26,330 --> 00:02:32,101
+already known and available options for a given group of patients?
+
+36
+00:02:32,101 --> 00:02:36,690
+As opposed to the classic research questions determining optimal treatment,
+
+37
+00:02:36,690 --> 00:02:39,720
+will require many alternative experiments.
+
+38
+00:02:39,720 --> 00:02:45,905
+That is, trying every possible treatment strategy on groups of similar patients.
+
+39
+00:02:45,905 --> 00:02:50,180
+These types of questions are best addressed through
+
+40
+00:02:50,180 --> 00:02:54,755
+modeling and simulation using digital health data.
+
+41
+00:02:54,755 --> 00:02:57,480
+There are a number of techniques for doing this.
+
+42
+00:02:57,480 --> 00:03:00,620
+Again, this is not an analytics lesson,
+
+43
+00:03:00,620 --> 00:03:03,860
+but we will be interviewing researchers who do this kind of
+
+44
+00:03:03,860 --> 00:03:08,000
+work to get a high level view of it in healthcare.

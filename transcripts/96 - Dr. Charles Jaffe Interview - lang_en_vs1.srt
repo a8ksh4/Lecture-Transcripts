@@ -1,0 +1,451 @@
+1
+00:00:04,440 --> 00:00:10,030
+I took a Doctoral degree in what was then called,
+
+2
+00:00:10,030 --> 00:00:16,875
+Computer Science, in between med school and residency.
+
+3
+00:00:16,875 --> 00:00:23,380
+It was a hobby because no one could imagine why a doctor would want a computer.
+
+4
+00:00:23,380 --> 00:00:30,280
+So as I practiced in the academic environment for the next 25 or 30 years,
+
+5
+00:00:30,280 --> 00:00:38,430
+most of the interest came peripherally about the application of computers to health care.
+
+6
+00:00:38,430 --> 00:00:50,500
+I began my career in Medical Informatics full time about 20 years ago.
+
+7
+00:00:52,080 --> 00:00:59,210
+In today's world, we are burdened with
+
+8
+00:00:59,210 --> 00:01:05,300
+far too much information to make adequate decisions in a timely manner,
+
+9
+00:01:05,300 --> 00:01:11,850
+be accurate, up to date and appropriate for the patient.
+
+10
+00:01:11,850 --> 00:01:20,110
+We come to the decision process ill prepared to take care of our patients.
+
+11
+00:01:20,110 --> 00:01:27,710
+The technology now is able to provide us the kinds of support we need to reduce errors,
+
+12
+00:01:27,710 --> 00:01:34,960
+improve the care of patients and diminish skyrocketing cost.
+
+13
+00:01:37,080 --> 00:01:42,530
+HL7 began 31 years ago in a classroom
+
+14
+00:01:42,530 --> 00:01:46,250
+at the University of Pennsylvania with one goal in mind,
+
+15
+00:01:46,250 --> 00:01:50,040
+improving access to admission data.
+
+16
+00:01:50,040 --> 00:01:59,480
+Quickly, it evolved into clinical information and began a journey to try to enable
+
+17
+00:01:59,480 --> 00:02:05,720
+the sharing of data in a large ubiquitous environment that could
+
+18
+00:02:05,720 --> 00:02:15,715
+be seamless and yet deeply integrated with the way we care for patients.
+
+19
+00:02:15,715 --> 00:02:23,963
+Quickly, it was recognized that this is not simply a US centric process and
+
+20
+00:02:23,963 --> 00:02:32,223
+members of HL7 identify themselves all over the world.
+
+21
+00:02:32,223 --> 00:02:42,140
+And now we have members in 35 countries in every continent representing the,
+
+22
+00:02:42,140 --> 00:02:48,530
+sometimes local needs but often the global needs for care, public health,
+
+23
+00:02:48,530 --> 00:02:58,660
+research and the very core kinds of competencies that are fundamental for better health.
+
+24
+00:03:00,090 --> 00:03:06,575
+Six years ago, we began a program called Fresh Look.
+
+25
+00:03:06,575 --> 00:03:10,015
+What if we could start all over,
+
+26
+00:03:10,015 --> 00:03:15,230
+reinvent HL7 but careful to acknowledge
+
+27
+00:03:15,230 --> 00:03:21,163
+all the things we had learned about what we did right and what we had done not so right?
+
+28
+00:03:21,163 --> 00:03:30,853
+At that program, Graham Griff presented his vision for health care and operability,
+
+29
+00:03:30,853 --> 00:03:36,855
+which quickly was transformed into what we now envision in FHIR.
+
+30
+00:03:36,855 --> 00:03:42,005
+And although the adoption process was not immediate,
+
+31
+00:03:42,005 --> 00:03:51,425
+universally it was recognized that this shared many of the common elements that have made
+
+32
+00:03:51,425 --> 00:03:57,485
+commerce information exchange and the sharing of data
+
+33
+00:03:57,485 --> 00:04:04,340
+in public communication so simple and straightforward.
+
+34
+00:04:04,340 --> 00:04:11,290
+That technology was leveraged and made part of the fundamental elements of FHIR.
+
+35
+00:04:11,290 --> 00:04:13,325
+I think perhaps more importantly,
+
+36
+00:04:13,325 --> 00:04:16,230
+was a different focus for FHIR.
+
+37
+00:04:16,230 --> 00:04:19,785
+Unlike some of the earlier HL7 standards,
+
+38
+00:04:19,785 --> 00:04:27,470
+FHIR was really made an important part of the implementation community.
+
+39
+00:04:27,470 --> 00:04:30,490
+We didn't focus simply on the individuals
+
+40
+00:04:30,490 --> 00:04:35,060
+and stakeholder groups that needed to use our standards,
+
+41
+00:04:35,060 --> 00:04:42,365
+but on the people who would be the providers and end users of a product,
+
+42
+00:04:42,365 --> 00:04:50,080
+for whom, this has been the greatest leap of value.
+
+43
+00:04:52,020 --> 00:04:59,390
+I think the visionaries who developed FHIR,
+
+44
+00:04:59,390 --> 00:05:02,135
+realized this from the very start.
+
+45
+00:05:02,135 --> 00:05:06,200
+I think acknowledgement by a larger community,
+
+46
+00:05:06,200 --> 00:05:09,440
+like any other new idea,
+
+47
+00:05:09,440 --> 00:05:14,450
+required time and a great deal of effort.
+
+48
+00:05:14,450 --> 00:05:18,730
+Part of that was made simple by two fundamental processes.
+
+49
+00:05:18,730 --> 00:05:21,150
+One, we didn't charge for FHIR.
+
+50
+00:05:21,150 --> 00:05:28,490
+And secondly, we allowed a broad international community to contribute not only
+
+51
+00:05:28,490 --> 00:05:37,565
+to the development of the FHIR standard but the implementation of FHIR as a tool.
+
+52
+00:05:37,565 --> 00:05:43,775
+It transcended any other activity in its ease of use,
+
+53
+00:05:43,775 --> 00:05:51,040
+its global recognition and its adoption by a diverse community.
+
+54
+00:05:51,040 --> 00:05:58,375
+Not only is it about caregivers but also the research community,
+
+55
+00:05:58,375 --> 00:06:04,040
+the organizations that rely on population health.
+
+56
+00:06:04,040 --> 00:06:06,090
+And in the United States,
+
+57
+00:06:06,090 --> 00:06:09,590
+where we have multi payer systems,
+
+58
+00:06:09,590 --> 00:06:15,069
+the payer communities who now need clinical data more than ever,
+
+59
+00:06:15,069 --> 00:06:24,775
+are embracing the ease and ubiquity of a FHIR platform.
+
+60
+00:06:24,775 --> 00:06:30,570
+Some segments, some stakeholder groups and some individuals,
+
+61
+00:06:30,570 --> 00:06:35,115
+were far slower than others.
+
+62
+00:06:35,115 --> 00:06:39,900
+I can tell you that I was pleasantly
+
+63
+00:06:39,900 --> 00:06:45,915
+surprised by the diverse stakeholder groups,
+
+64
+00:06:45,915 --> 00:06:48,560
+who found FHIR to be useful.
+
+65
+00:06:48,560 --> 00:06:55,405
+I think in the communities that are not easily changed,
+
+66
+00:06:55,405 --> 00:06:58,600
+there is always a hurdle.
+
+67
+00:06:58,600 --> 00:07:02,704
+Change management is one of the great obstacles,
+
+68
+00:07:02,704 --> 00:07:05,695
+whether in the private sector or the public one.
+
+69
+00:07:05,695 --> 00:07:12,860
+And I think the access that HL7 provided to FHIR,
+
+70
+00:07:12,860 --> 00:07:17,625
+the ease of acceptance,
+
+71
+00:07:17,625 --> 00:07:26,320
+really accelerated the process in ways that I never anticipated.
+
+72
+00:07:27,990 --> 00:07:34,545
+I wrote in the HR in 1981.
+
+73
+00:07:34,545 --> 00:07:37,490
+It served one business case,
+
+74
+00:07:37,490 --> 00:07:42,905
+physicians in an academic medical center couldn't find the chart.
+
+75
+00:07:42,905 --> 00:07:48,070
+The paper charts were distributed in a host of different places.
+
+76
+00:07:48,070 --> 00:07:51,625
+The electronic medical record,
+
+77
+00:07:51,625 --> 00:07:53,865
+if you want to call what I produced,
+
+78
+00:07:53,865 --> 00:07:59,475
+simply allowed continuity so you could find out what happened the last week.
+
+79
+00:07:59,475 --> 00:08:04,410
+FHIR presents a host of opportunities because for me,
+
+80
+00:08:04,410 --> 00:08:06,060
+an electronic medical record,
+
+81
+00:08:06,060 --> 00:08:10,815
+is a lot more than simply a tool to document care.
+
+82
+00:08:10,815 --> 00:08:15,124
+It's an open resource for
+
+83
+00:08:15,124 --> 00:08:22,020
+the kind of clinical decision support that is so paramount as we transition,
+
+84
+00:08:22,020 --> 00:08:27,120
+from physicians who could imagine all the things they needed
+
+85
+00:08:27,120 --> 00:08:32,368
+to know in a few concepts.
+
+86
+00:08:32,368 --> 00:08:35,235
+We're now exploding with information,
+
+87
+00:08:35,235 --> 00:08:38,205
+not just about the clinical condition,
+
+88
+00:08:38,205 --> 00:08:40,305
+the therapies, the guidelines,
+
+89
+00:08:40,305 --> 00:08:45,240
+but also in the broad field of genomics and proteomics,
+
+90
+00:08:45,240 --> 00:08:51,536
+which will bring us concepts that are really beyond what humans can consume.
+
+91
+00:08:51,536 --> 00:08:54,075
+So the decision process has eased.
+
+92
+00:08:54,075 --> 00:08:57,540
+The sharing of information for
+
+93
+00:08:57,540 --> 00:09:03,900
+a continuous learning system is enabled because the delays in bringing
+
+94
+00:09:03,900 --> 00:09:08,090
+new ideas and new concepts to
+
+95
+00:09:08,090 --> 00:09:14,070
+health care from the research community are far too slow and far too expensive.
+
+96
+00:09:14,070 --> 00:09:20,880
+And so, FHIR presents a unique bridge to go
+
+97
+00:09:20,880 --> 00:09:27,900
+from one stakeholder group to another and the information moves rather seamlessly.
+
+98
+00:09:27,900 --> 00:09:30,150
+In the ensuing decade,
+
+99
+00:09:30,150 --> 00:09:38,775
+I expect the number of pieces of data that any clinician needs to make a decision,
+
+100
+00:09:38,775 --> 00:09:43,290
+will be beyond human reasoning.
+
+101
+00:09:43,290 --> 00:09:50,325
+FHIR will enable the kind of integration of diverse data.
+
+102
+00:09:50,325 --> 00:09:56,640
+We will have platforms that we had not imagined.
+
+103
+00:09:56,640 --> 00:10:05,910
+In fact, we have a program which is unique in my experience,
+
+104
+00:10:05,910 --> 00:10:11,805
+in which stakeholders who have produced FHIR apps, showcase this.
+
+105
+00:10:11,805 --> 00:10:14,280
+Our FHIR app round table,
+
+106
+00:10:14,280 --> 00:10:20,040
+is one of the most enjoyable moments in my year,
+
+107
+00:10:20,040 --> 00:10:24,480
+in which I get to see the kinds of
+
+108
+00:10:24,480 --> 00:10:30,695
+ideas that are brought to the fore that I had never imagined you could do with data.
+
+109
+00:10:30,695 --> 00:10:38,025
+And more importantly, the developers of these products have an opportunity to
+
+110
+00:10:38,025 --> 00:10:45,315
+collaborate and bring yet unique ideas to the fore with an ease,
+
+111
+00:10:45,315 --> 00:10:48,765
+that I don't think even they imagined.
+
+112
+00:10:48,765 --> 00:10:52,020
+And I suspect that in the coming decade,
+
+113
+00:10:52,020 --> 00:10:59,000
+HL7 will be transformed into a facilitator of that process.

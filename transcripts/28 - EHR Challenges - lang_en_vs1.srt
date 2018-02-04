@@ -1,0 +1,291 @@
+1
+00:00:00,000 --> 00:00:04,020
+In 2009, the National Academies of Science
+
+2
+00:00:04,020 --> 00:00:08,235
+published computational technology for effective health care,
+
+3
+00:00:08,235 --> 00:00:12,115
+immediate steps and strategic directions.
+
+4
+00:00:12,115 --> 00:00:15,140
+Dr. William Stead, the distinguished head of
+
+5
+00:00:15,140 --> 00:00:20,210
+Vanderbilt University's biomedical informatics department was the coeditor.
+
+6
+00:00:20,210 --> 00:00:23,145
+The report states that quote,
+
+7
+00:00:23,145 --> 00:00:30,085
+"IT applications appear designed largely to automate tasks or business processes.
+
+8
+00:00:30,085 --> 00:00:35,540
+They're often designed in ways that simply mimic existing paper-based forms and provide
+
+9
+00:00:35,540 --> 00:00:38,480
+little support for the cognitive tasks of
+
+10
+00:00:38,480 --> 00:00:43,305
+clinicians or the workflow of the people who must actually use the system.
+
+11
+00:00:43,305 --> 00:00:46,320
+Moreover, these applications do not
+
+12
+00:00:46,320 --> 00:00:49,620
+take advantage of human-computer interaction principles,
+
+13
+00:00:49,620 --> 00:00:53,470
+leading to poor designs that can increase the chance of error,
+
+14
+00:00:53,470 --> 00:00:55,890
+add to rather than reduce work,
+
+15
+00:00:55,890 --> 00:01:00,165
+and compound the frustrations of executing required tasks.
+
+16
+00:01:00,165 --> 00:01:04,980
+As a result, these applications sometimes increase workload,
+
+17
+00:01:04,980 --> 00:01:09,510
+and they can introduce new forms of error that are difficult to detect."
+
+18
+00:01:09,510 --> 00:01:12,930
+This seems to me to be congruent with the results of
+
+19
+00:01:12,930 --> 00:01:17,375
+the physician EHR surveys we just cited earlier.
+
+20
+00:01:17,375 --> 00:01:21,785
+It's also suggestive of the concerns I often hear from physicians,
+
+21
+00:01:21,785 --> 00:01:26,758
+that their EHR provides a one size fits all approach to charting,
+
+22
+00:01:26,758 --> 00:01:31,285
+that doesn't capture the nuances of actual patient care.
+
+23
+00:01:31,285 --> 00:01:34,530
+In fact, the most common approach to electronic charting is
+
+24
+00:01:34,530 --> 00:01:38,310
+a template which as the report I just quoted
+
+25
+00:01:38,310 --> 00:01:42,180
+suggests mimics existing paper forms and largely
+
+26
+00:01:42,180 --> 00:01:47,420
+ignores the potential of a computer to be adaptive to the clinical situation.
+
+27
+00:01:47,420 --> 00:01:52,820
+The report identified seven information intensive aspects of
+
+28
+00:01:52,820 --> 00:01:54,320
+the IOM's vision of
+
+29
+00:01:54,320 --> 00:01:59,775
+a learning health care system that current EHRs often failed to provide.
+
+30
+00:01:59,775 --> 00:02:03,080
+I've abbreviated them here for legibility.
+
+31
+00:02:03,080 --> 00:02:08,226
+Comprehensive data on conditions, treatments and outcomes,
+
+32
+00:02:08,226 --> 00:02:11,770
+support to help providers and patients integrate
+
+33
+00:02:11,770 --> 00:02:17,640
+patient specific data where possible and account for any uncertainties that remain.
+
+34
+00:02:17,640 --> 00:02:21,230
+Support to help providers integrate evidence based
+
+35
+00:02:21,230 --> 00:02:26,290
+practice guidelines and research results into daily practice.
+
+36
+00:02:26,290 --> 00:02:31,540
+Tools to help providers manage a portfolio of patients and to highlight
+
+37
+00:02:31,540 --> 00:02:37,315
+problems as they arrive both for an individual patient and within populations.
+
+38
+00:02:37,315 --> 00:02:40,525
+Rapid integration of new instrumentation,
+
+39
+00:02:40,525 --> 00:02:44,375
+biologic knowledge and treatment modalities.
+
+40
+00:02:44,375 --> 00:02:49,580
+A combination of growing heterogeneity of locales for care provision,
+
+41
+00:02:49,580 --> 00:02:53,240
+including home instrumentation for monitoring and treatment,
+
+42
+00:02:53,240 --> 00:02:57,095
+lifestyle integration and remote assistance.
+
+43
+00:02:57,095 --> 00:02:59,500
+An empowerment of patients and their families in
+
+44
+00:02:59,500 --> 00:03:04,250
+effective management of healthcare decisions and their implementation.
+
+45
+00:03:04,250 --> 00:03:08,675
+This is a list of what I would call clinical deficiencies.
+
+46
+00:03:08,675 --> 00:03:11,300
+Many are of increasing interest because of
+
+47
+00:03:11,300 --> 00:03:14,875
+the new care and payment models we've discussed.
+
+48
+00:03:14,875 --> 00:03:19,265
+However, most current EHRs date from the era of pay for
+
+49
+00:03:19,265 --> 00:03:24,965
+procedure and emphasize support of billing and administrative processes.
+
+50
+00:03:24,965 --> 00:03:28,710
+These are complex large scale systems.
+
+51
+00:03:28,710 --> 00:03:32,905
+They're expensive and because of high tech now widely installed.
+
+52
+00:03:32,905 --> 00:03:36,760
+How might we fix or even replace them.
+
+53
+00:03:36,760 --> 00:03:39,480
+Here's one promising approach.
+
+54
+00:03:39,480 --> 00:03:45,645
+FHIR apps crafted to meet the needs of providers caring for specific conditions.
+
+55
+00:03:45,645 --> 00:03:47,570
+Here's an example of that for the care of
+
+56
+00:03:47,570 --> 00:03:50,990
+arthritis developed by the Geisinger Health System,
+
+57
+00:03:50,990 --> 00:03:55,705
+widely regarded as one of the nation's highest performing health care organizations.
+
+58
+00:03:55,705 --> 00:04:00,290
+Its user interface is specific to this condition and it can
+
+59
+00:04:00,290 --> 00:04:05,410
+display data recorded earlier by the patient, saving physician time.
+
+60
+00:04:05,410 --> 00:04:07,610
+Here's another approach.
+
+61
+00:04:07,610 --> 00:04:13,420
+The use of machine learning and specifically a neural network to enable the EHR
+
+62
+00:04:13,420 --> 00:04:16,460
+learn and adapt to the clinical approach used
+
+63
+00:04:16,460 --> 00:04:20,180
+by physicians to care for the problems they commonly see.
+
+64
+00:04:20,180 --> 00:04:23,450
+As shown here, once it has been trained on
+
+65
+00:04:23,450 --> 00:04:28,260
+a problem when the physician next sees that problem the Praxis EHR
+
+66
+00:04:28,260 --> 00:04:31,350
+presents their likely note but has
+
+67
+00:04:31,350 --> 00:04:37,340
+enough clinical knowledge to recognize what data fields must be specified at each visit.
+
+68
+00:04:37,340 --> 00:04:43,995
+The company claims that once the system is trained it actually saves physician time.
+
+69
+00:04:43,995 --> 00:04:47,355
+The approach seems to work since physicians consistently give
+
+70
+00:04:47,355 --> 00:04:52,005
+Praxis some of their highest user satisfaction ratings.
+
+71
+00:04:52,005 --> 00:04:57,335
+For some insights into the roles EHR connected FIHR apps may play.
+
+72
+00:04:57,335 --> 00:05:00,540
+We will now interview Tate Gilchrist's senior business developer
+
+73
+00:05:00,540 --> 00:05:04,000
+for Open Platform Services at the Cerner Corp.

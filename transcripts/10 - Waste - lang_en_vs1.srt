@@ -1,0 +1,163 @@
+1
+00:00:00,000 --> 00:00:02,750
+Let's talk about wasteful spending.
+
+2
+00:00:02,750 --> 00:00:04,885
+I should say at the outset,
+
+3
+00:00:04,885 --> 00:00:08,395
+that this is an understandably contentious issue.
+
+4
+00:00:08,395 --> 00:00:10,455
+As you can see here,
+
+5
+00:00:10,455 --> 00:00:13,725
+the IOM has identified sources of waste,
+
+6
+00:00:13,725 --> 00:00:20,215
+and says that in aggregate they account for around 30% of all U.S. health care spending.
+
+7
+00:00:20,215 --> 00:00:24,130
+A ratio that has remained unchanged for decades.
+
+8
+00:00:24,130 --> 00:00:26,850
+The widely respected journal Health Affairs,
+
+9
+00:00:26,850 --> 00:00:30,715
+breaks wasteful spending into multiple categories.
+
+10
+00:00:30,715 --> 00:00:34,175
+First, are failures of care delivery.
+
+11
+00:00:34,175 --> 00:00:39,770
+This refers to poor execution or failure to adopt best practices,
+
+12
+00:00:39,770 --> 00:00:43,880
+such as for effective preventive care or patient safety.
+
+13
+00:00:43,880 --> 00:00:47,210
+Second, our failures of care coordination.
+
+14
+00:00:47,210 --> 00:00:50,227
+This means fragmented and disjointed care,
+
+15
+00:00:50,227 --> 00:00:55,930
+such as when patients move from one care setting to another called transitions of care.
+
+16
+00:00:55,930 --> 00:01:01,140
+Peer coordination turns out to be a major use case for health informatics.
+
+17
+00:01:01,140 --> 00:01:02,665
+Third, is over treatment.
+
+18
+00:01:02,665 --> 00:01:05,650
+Here that ignores scientific evidence.
+
+19
+00:01:05,650 --> 00:01:11,335
+This complex area includes defensive medicine done to avoid lawsuits.
+
+20
+00:01:11,335 --> 00:01:15,310
+As well as the use of higher price services that have negligible or
+
+21
+00:01:15,310 --> 00:01:19,605
+no health benefits over less expensive alternatives.
+
+22
+00:01:19,605 --> 00:01:22,520
+This is another major use case for informatics.
+
+23
+00:01:22,520 --> 00:01:25,585
+Specifically, clinical decision support.
+
+24
+00:01:25,585 --> 00:01:30,165
+You should read the Health Affairs paper for a more detailed discussion.
+
+25
+00:01:30,165 --> 00:01:32,940
+Fourth, is administrative complexity.
+
+26
+00:01:32,940 --> 00:01:37,280
+This is excess spending because payers our regulatory agencies create
+
+27
+00:01:37,280 --> 00:01:42,150
+inefficient or flawed rules and overly bureaucratic procedures.
+
+28
+00:01:42,150 --> 00:01:43,650
+As I alluded to earlier,
+
+29
+00:01:43,650 --> 00:01:46,160
+I believe the multiplicity of insurance plans and
+
+30
+00:01:46,160 --> 00:01:50,360
+government programs here in the US adds to these costs.
+
+31
+00:01:50,360 --> 00:01:52,840
+Fifth, is pricing failure.
+
+32
+00:01:52,840 --> 00:01:56,990
+This is when the price of a service exceeds that found in
+
+33
+00:01:56,990 --> 00:02:01,040
+a properly functioning marketplace which would expect to be
+
+34
+00:02:01,040 --> 00:02:05,825
+equal to the actual costs of production plus a reasonable profit.
+
+35
+00:02:05,825 --> 00:02:08,245
+For example, here in the US,
+
+36
+00:02:08,245 --> 00:02:13,270
+pharmaceutical costs are significantly higher than in other countries.
+
+37
+00:02:13,270 --> 00:02:16,960
+Surprisingly by law, Medicare is prohibited from
+
+38
+00:02:16,960 --> 00:02:21,830
+negotiating with pharmaceutical companies to get the best possible prices.
+
+39
+00:02:21,830 --> 00:02:24,055
+Last, are fraud and abuse.
+
+40
+00:02:24,055 --> 00:02:26,800
+In addition to the cost of the fraud itself.
+
+41
+00:02:26,800 --> 00:02:32,000
+This includes the cost of additional inspections and regulations to catch wrongdoing.

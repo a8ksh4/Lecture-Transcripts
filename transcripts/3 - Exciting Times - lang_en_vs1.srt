@@ -1,0 +1,63 @@
+1
+00:00:00,000 --> 00:00:04,380
+Today, all that is changing rapidly as the number
+
+2
+00:00:04,380 --> 00:00:08,825
+of health related open APIs and web tools explodes.
+
+3
+00:00:08,825 --> 00:00:11,520
+Of these, the most important is
+
+4
+00:00:11,520 --> 00:00:15,945
+fast health care interoperability resources or FHIR spelled
+
+5
+00:00:15,945 --> 00:00:20,560
+F-H-I-R. FHIR is a new standard based on
+
+6
+00:00:20,560 --> 00:00:26,955
+contemporary technologies and it's achieving dramatic acceptance and adoption.
+
+7
+00:00:26,955 --> 00:00:31,460
+FHIR offers the promise of open access to clinical data,
+
+8
+00:00:31,460 --> 00:00:33,170
+with the right permissions of course.
+
+9
+00:00:33,170 --> 00:00:35,864
+As you can see from these examples,
+
+10
+00:00:35,864 --> 00:00:41,105
+it is even turning electronic medical records systems into open app platforms,
+
+11
+00:00:41,105 --> 00:00:44,245
+similar to the smartphone in your pocket.
+
+12
+00:00:44,245 --> 00:00:48,877
+This is the first university level course based upon FHIR.
+
+13
+00:00:48,877 --> 00:00:53,010
+As we proceed, you will literally be working to help solve
+
+14
+00:00:53,010 --> 00:00:59,450
+real world health care challenges using the health informatics approaches of the future.
+
+15
+00:00:59,450 --> 00:01:02,180
+We'll now travel to Emory Health Systems,
+
+16
+00:01:02,180 --> 00:01:08,000
+EICU to look at an example of that from an earlier iteration of the course.

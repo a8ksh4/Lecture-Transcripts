@@ -1,0 +1,107 @@
+1
+00:00:00,000 --> 00:00:03,270
+This economic impediment was the basis for
+
+2
+00:00:03,270 --> 00:00:08,130
+the Health Information Technology for Economic and Clinical Health Act,
+
+3
+00:00:08,130 --> 00:00:14,715
+abbreviated Hi Tech, a part of the American Recovery and Reinvestment Act of 2009,
+
+4
+00:00:14,715 --> 00:00:17,400
+commonly called the Stimulus.
+
+5
+00:00:17,400 --> 00:00:19,210
+The details are complex,
+
+6
+00:00:19,210 --> 00:00:24,810
+but there were three basic elements of the program: First there was HIT certification,
+
+7
+00:00:24,810 --> 00:00:30,600
+that defined minimum functional requirements for EHRs and other clinical tools.
+
+8
+00:00:30,600 --> 00:00:32,670
+Second, there was meaningful use,
+
+9
+00:00:32,670 --> 00:00:37,515
+which defined the minimum use to which hospitals and providers must put their EHR.
+
+10
+00:00:37,515 --> 00:00:40,470
+Third, there were incentive payments made to
+
+11
+00:00:40,470 --> 00:00:43,920
+hospitals and providers for adopting a certified EHR,
+
+12
+00:00:43,920 --> 00:00:46,560
+and meeting the requirements of meaningful use.
+
+13
+00:00:46,560 --> 00:00:49,110
+These programs are of course interdependent,
+
+14
+00:00:49,110 --> 00:00:51,705
+and do not apply to all providers,
+
+15
+00:00:51,705 --> 00:00:56,550
+only hospitals and providers that participated in Medicare or Medicaid,
+
+16
+00:00:56,550 --> 00:00:59,040
+adopted a certified EHR,
+
+17
+00:00:59,040 --> 00:01:03,000
+and used it according to the prescriptions in meaningful use were eligible to
+
+18
+00:01:03,000 --> 00:01:07,850
+receive incentive payments in 2011 through 2015.
+
+19
+00:01:07,850 --> 00:01:11,175
+Incentive payments came to hospitals and providers
+
+20
+00:01:11,175 --> 00:01:15,580
+through their participation in either Medicare or Medicaid.
+
+21
+00:01:15,580 --> 00:01:18,405
+Providers could be eligible only for one,
+
+22
+00:01:18,405 --> 00:01:21,565
+but hospitals could be eligible for both.
+
+23
+00:01:21,565 --> 00:01:23,310
+There were annual limits to the amount of
+
+24
+00:01:23,310 --> 00:01:25,740
+the payments and the total amount that a provider
+
+25
+00:01:25,740 --> 00:01:30,665
+could earn depended on when that provider achieved the stages of meaningful use.
+
+26
+00:01:30,665 --> 00:01:33,530
+As of October 2015,
+
+27
+00:01:33,530 --> 00:01:38,630
+more than 479000 health care providers received incentive

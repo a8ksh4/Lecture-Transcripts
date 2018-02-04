@@ -1,0 +1,107 @@
+1
+00:00:00,000 --> 00:00:07,180
+Might a fire enabled ecosystem of EHRs make all of this much easier for patients?
+
+2
+00:00:07,180 --> 00:00:12,770
+At a recent HL7 fire applications roundtable meeting at Duke University,
+
+3
+00:00:12,770 --> 00:00:15,905
+several vendors presented firebase solutions
+
+4
+00:00:15,905 --> 00:00:19,810
+for patients to aggregate data from all their providers.
+
+5
+00:00:19,810 --> 00:00:23,320
+Medley I was one of the new companies that presented at Duke.
+
+6
+00:00:23,320 --> 00:00:28,130
+To use their app, patients must first identify their providers.
+
+7
+00:00:28,130 --> 00:00:31,260
+To facilitate this, the app links to
+
+8
+00:00:31,260 --> 00:00:35,265
+a directory containing 4.2 million provider profiles.
+
+9
+00:00:35,265 --> 00:00:37,615
+To make searching easier,
+
+10
+00:00:37,615 --> 00:00:40,395
+patients are defaulted to their current location,
+
+11
+00:00:40,395 --> 00:00:42,565
+but they can search anywhere.
+
+12
+00:00:42,565 --> 00:00:45,205
+Having selected a provider,
+
+13
+00:00:45,205 --> 00:00:50,550
+patients can choose what data and date range they want to load into their app.
+
+14
+00:00:50,550 --> 00:00:55,760
+They then log on using their credentials for the chosen provider's patient portal.
+
+15
+00:00:55,760 --> 00:01:01,400
+One arm of the Medley O app seeks to create a meaningful medication list using
+
+16
+00:01:01,400 --> 00:01:07,900
+fire medication order resources from only the providers who wrote the prescription.
+
+17
+00:01:07,900 --> 00:01:10,540
+However, as you can see here,
+
+18
+00:01:10,540 --> 00:01:13,150
+every new refill for a prescription creates
+
+19
+00:01:13,150 --> 00:01:17,920
+a new fire medication order resource that makes us a long list.
+
+20
+00:01:17,920 --> 00:01:23,255
+A company's solution is to reconcile the orders using the RX norm CUI
+
+21
+00:01:23,255 --> 00:01:29,680
+number: a six digit numeric code that very specifically represents medications.
+
+22
+00:01:29,680 --> 00:01:32,500
+We will look at RX norm later.
+
+23
+00:01:32,500 --> 00:01:36,125
+They then group the orders based on this six digit number so the list,
+
+24
+00:01:36,125 --> 00:01:37,400
+as you see here,
+
+25
+00:01:37,400 --> 00:01:40,525
+contains each medication only once.
+
+26
+00:01:40,525 --> 00:01:43,470
+Patients can see each prescription,
+
+27
+00:01:43,470 --> 00:01:46,140
+the dates, and the prescribing physicians.

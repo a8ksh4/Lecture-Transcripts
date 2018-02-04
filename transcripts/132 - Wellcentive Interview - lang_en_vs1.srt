@@ -1,0 +1,1291 @@
+1
+00:00:05,130 --> 00:00:07,665
+Thank you, it's an honor to be here.
+
+2
+00:00:07,665 --> 00:00:08,855
+My name is Mason Beard,
+
+3
+00:00:08,855 --> 00:00:12,893
+and I run Product Strategy and Marketing for Philips,
+
+4
+00:00:12,893 --> 00:00:15,950
+and specifically, the Population Health Management Business.
+
+5
+00:00:15,950 --> 00:00:17,820
+And I am Philip Burgher,
+
+6
+00:00:17,820 --> 00:00:23,640
+and I am the director of Software Development for Data Platforms.
+
+7
+00:00:25,160 --> 00:00:28,335
+All right, so briefly, it's going to be
+
+8
+00:00:28,335 --> 00:00:30,245
+a little bit of challenge, but I'll do my best.
+
+9
+00:00:30,245 --> 00:00:34,360
+So in 2005, I helped start a company with my brother-in-law,
+
+10
+00:00:34,360 --> 00:00:36,200
+who is an internal medicine physician,
+
+11
+00:00:36,200 --> 00:00:38,430
+and the company was Wellcentive.
+
+12
+00:00:38,430 --> 00:00:40,760
+It was purchased by Philips about a year ago.
+
+13
+00:00:40,760 --> 00:00:46,330
+And back then, we started our first population health management focused-business.
+
+14
+00:00:46,330 --> 00:00:47,575
+And I know from this course,
+
+15
+00:00:47,575 --> 00:00:53,005
+you've been learning about switching from pay for procedure, volume-based billing, etc.
+
+16
+00:00:53,005 --> 00:00:58,525
+to more of a quality-based pay for performance healthcare delivery model.
+
+17
+00:00:58,525 --> 00:01:03,205
+And in 2005, we learned that there was a commercial plan,
+
+18
+00:01:03,205 --> 00:01:06,550
+Blue Cross Blue Shield of Michigan, that was paying on quality.
+
+19
+00:01:06,550 --> 00:01:08,665
+The other thing that we quickly learned is that
+
+20
+00:01:08,665 --> 00:01:12,275
+health systems are very confusing organizations.
+
+21
+00:01:12,275 --> 00:01:15,598
+So it's made up of certain doctor relationships,
+
+22
+00:01:15,598 --> 00:01:17,760
+some are employed, some are affiliated,
+
+23
+00:01:17,760 --> 00:01:20,950
+that means the affiliated using a ton of different EHRs.
+
+24
+00:01:20,950 --> 00:01:24,830
+So at first, we realized that nobody is really solving this problem,
+
+25
+00:01:24,830 --> 00:01:28,970
+nobody's focused on helping doctors prove their quality,
+
+26
+00:01:28,970 --> 00:01:31,645
+and the people that were doing it before us, the payers,
+
+27
+00:01:31,645 --> 00:01:33,055
+it created a lot of static,
+
+28
+00:01:33,055 --> 00:01:34,660
+because the data quality issues,
+
+29
+00:01:34,660 --> 00:01:36,620
+and there was not a lot of trust in that data.
+
+30
+00:01:36,620 --> 00:01:39,540
+And so, we saw a business opportunity,
+
+31
+00:01:39,540 --> 00:01:43,000
+first identifying the problem, then creating the solution.
+
+32
+00:01:43,000 --> 00:01:46,235
+From 2005 onto today,
+
+33
+00:01:46,235 --> 00:01:49,270
+if you think about what's happened to move from fee for service
+
+34
+00:01:49,270 --> 00:01:52,413
+to quality from the ACA to ACOs,
+
+35
+00:01:52,413 --> 00:01:54,235
+every acronym under the sun,
+
+36
+00:01:54,235 --> 00:01:57,790
+we've continued to grow as basically organizations
+
+37
+00:01:57,790 --> 00:02:01,450
+switch from fee for service-minded billing and tracking,
+
+38
+00:02:01,450 --> 00:02:02,810
+to more around quality.
+
+39
+00:02:02,810 --> 00:02:09,540
+That's actually really easy,
+
+40
+00:02:09,540 --> 00:02:11,548
+I don't know why anybody else can't do it.
+
+41
+00:02:11,548 --> 00:02:14,325
+No, it's been very challenging.
+
+42
+00:02:14,325 --> 00:02:16,975
+I've been in this game for over a decade now,
+
+43
+00:02:16,975 --> 00:02:19,690
+and the term that we've been
+
+44
+00:02:19,690 --> 00:02:23,005
+using for a long time when it comes to the state of the data,
+
+45
+00:02:23,005 --> 00:02:25,390
+when it comes to health care is the Wild Wild West,
+
+46
+00:02:25,390 --> 00:02:28,385
+and that is still very true.
+
+47
+00:02:28,385 --> 00:02:32,875
+There's been lots of talk and movement at a policy level about
+
+48
+00:02:32,875 --> 00:02:38,120
+getting everybody on to a same standard when it comes to formats or coding systems.
+
+49
+00:02:38,120 --> 00:02:41,590
+But the truth of the matter is that as of today,
+
+50
+00:02:41,590 --> 00:02:45,875
+55% of our data is still local or custom code sets.
+
+51
+00:02:45,875 --> 00:02:50,345
+And so, it's really still quite the challenge.
+
+52
+00:02:50,345 --> 00:02:55,030
+You have to kind of build a foundation of the house or the pyramid,
+
+53
+00:02:55,030 --> 00:02:58,660
+or whatever structure you want to talk about to make it possible to
+
+54
+00:02:58,660 --> 00:03:03,860
+do all of the population health analytics that everybody is talking about these days.
+
+55
+00:03:03,860 --> 00:03:06,850
+So kind of the first step is just getting the data.
+
+56
+00:03:06,850 --> 00:03:09,690
+There are political and technical challenges there.
+
+57
+00:03:09,690 --> 00:03:10,855
+You have to be flexible,
+
+58
+00:03:10,855 --> 00:03:12,880
+that's been our philosophy.
+
+59
+00:03:12,880 --> 00:03:14,075
+Once you have the data,
+
+60
+00:03:14,075 --> 00:03:15,850
+you have to make sure that it's high quality,
+
+61
+00:03:15,850 --> 00:03:21,410
+and there's all sorts of very deep rabbit holes that we can go into there.
+
+62
+00:03:21,410 --> 00:03:23,230
+And then finally, once you have all that,
+
+63
+00:03:23,230 --> 00:03:25,248
+and everything's kind of in one place,
+
+64
+00:03:25,248 --> 00:03:27,454
+and scrubbed, and consistent,
+
+65
+00:03:27,454 --> 00:03:28,990
+then you can start really doing the cool stuff,
+
+66
+00:03:28,990 --> 00:03:30,295
+which is the measurements,
+
+67
+00:03:30,295 --> 00:03:35,920
+the machine learning, where you can really start improving health care.
+
+68
+00:03:35,920 --> 00:03:37,090
+One of my favorite quotes is,
+
+69
+00:03:37,090 --> 00:03:39,640
+"If you can't measure it, you can't improve it."
+
+70
+00:03:39,640 --> 00:03:41,660
+We're to the point where we can measure it,
+
+71
+00:03:41,660 --> 00:03:45,890
+and everybody's trying to figure out how you can improve it.
+
+72
+00:03:47,780 --> 00:03:53,470
+Yes, the data aggregation is definitely the what,
+
+73
+00:03:53,470 --> 00:03:57,175
+and the mechanism, but the why is payment reform.
+
+74
+00:03:57,175 --> 00:03:59,285
+They're being paid differently.
+
+75
+00:03:59,285 --> 00:04:01,383
+It's not a volume-based business anymore.
+
+76
+00:04:01,383 --> 00:04:04,835
+And everything that you do as risk is shifted.
+
+77
+00:04:04,835 --> 00:04:06,730
+And I know you've learned about this in
+
+78
+00:04:06,730 --> 00:04:09,730
+your course that payers are shifting risk to the providers.
+
+79
+00:04:09,730 --> 00:04:11,920
+So the one dollar that they could spend,
+
+80
+00:04:11,920 --> 00:04:14,855
+they're looking at making sure that they have high quality,
+
+81
+00:04:14,855 --> 00:04:17,850
+health care delivery, and watching the cost.
+
+82
+00:04:17,850 --> 00:04:19,625
+So we really think about it.
+
+83
+00:04:19,625 --> 00:04:22,465
+And I have some slide here to show you that
+
+84
+00:04:22,465 --> 00:04:26,270
+we think about the problems we're trying to solve now is four.
+
+85
+00:04:26,270 --> 00:04:28,320
+They have a quality problem,
+
+86
+00:04:28,320 --> 00:04:30,730
+so they're looking at the quality of the services they deliver,
+
+87
+00:04:30,730 --> 00:04:33,910
+because that's how the payment is going be tied to. They have a revenue problem.
+
+88
+00:04:33,910 --> 00:04:35,575
+They have, as we say,
+
+89
+00:04:35,575 --> 00:04:37,004
+a foot in two canoes.
+
+90
+00:04:37,004 --> 00:04:40,705
+They have to have a fee for service foot in that canoe,
+
+91
+00:04:40,705 --> 00:04:42,610
+and they're slowly putting their weight into
+
+92
+00:04:42,610 --> 00:04:46,405
+a value-based care canoe as bundle payments come around,
+
+93
+00:04:46,405 --> 00:04:49,570
+MIPS, macro reporting requirements,
+
+94
+00:04:49,570 --> 00:04:52,300
+ACO contracts, risk-bearing contracts, etc.
+
+95
+00:04:52,300 --> 00:04:56,030
+They're learning to basically shift the revenue.
+
+96
+00:04:56,030 --> 00:04:59,370
+They also have a market issue.
+
+97
+00:04:59,370 --> 00:05:01,445
+Patients are becoming consumers.
+
+98
+00:05:01,445 --> 00:05:03,335
+They're not patients anymore, they are customers,
+
+99
+00:05:03,335 --> 00:05:07,600
+and they're used to shopping on Amazon and looking for the best value they can.
+
+100
+00:05:07,600 --> 00:05:09,148
+So you have to think about that,
+
+101
+00:05:09,148 --> 00:05:11,125
+those patients in your area as a market,
+
+102
+00:05:11,125 --> 00:05:13,450
+and how to continue to grow that market.
+
+103
+00:05:13,450 --> 00:05:15,285
+And the last piece is access.
+
+104
+00:05:15,285 --> 00:05:17,770
+Right now, if you look at traditional healthcare delivery,
+
+105
+00:05:17,770 --> 00:05:20,763
+patients are receiving care in the wrong place.
+
+106
+00:05:20,763 --> 00:05:22,980
+And what I mean by that is the most expensive place.
+
+107
+00:05:22,980 --> 00:05:27,205
+So they're looking at solving those problems from an access perspective,
+
+108
+00:05:27,205 --> 00:05:30,040
+not going to the ER, but maybe talking
+
+109
+00:05:30,040 --> 00:05:33,235
+to a care manager or being routed back to a primary care office.
+
+110
+00:05:33,235 --> 00:05:35,890
+It's a lot cheaper, better patient satisfaction,
+
+111
+00:05:35,890 --> 00:05:42,974
+and many times higher quality.
+
+112
+00:05:42,974 --> 00:05:45,210
+I wish there was an easy button, right?
+
+113
+00:05:45,210 --> 00:05:46,590
+And I guess you wish there was an easy button as well,
+
+114
+00:05:46,590 --> 00:05:48,270
+on the tech side.
+
+115
+00:05:48,270 --> 00:05:49,652
+That's true.
+
+116
+00:05:49,652 --> 00:05:54,377
+There is no switch that says we're going to do population health management now,
+
+117
+00:05:54,377 --> 00:05:57,410
+insert two keys in the basement of hospital and turn it, right?
+
+118
+00:05:57,410 --> 00:06:00,060
+So if you look at the graph I have up here,
+
+119
+00:06:00,060 --> 00:06:02,410
+is we look at this as a transformation.
+
+120
+00:06:02,410 --> 00:06:06,025
+Your every health system in the United States is on a journey,
+
+121
+00:06:06,025 --> 00:06:09,085
+and essentially, they're moving from left to right.
+
+122
+00:06:09,085 --> 00:06:10,950
+So if you look here at the bottom of this graph,
+
+123
+00:06:10,950 --> 00:06:14,835
+we've got different payment models going from the far left, you have fee for service.
+
+124
+00:06:14,835 --> 00:06:18,585
+Moving all the way as risk is shifting to those health care organizations,
+
+125
+00:06:18,585 --> 00:06:20,960
+you're moving to the far right.
+
+126
+00:06:20,960 --> 00:06:22,495
+As you grow in this model,
+
+127
+00:06:22,495 --> 00:06:23,638
+and as you transform,
+
+128
+00:06:23,638 --> 00:06:26,220
+there are certain competencies that you have to
+
+129
+00:06:26,220 --> 00:06:29,475
+master before going to the next stage, if you will.
+
+130
+00:06:29,475 --> 00:06:32,685
+So just quickly, if you're on the left -side of this model,
+
+131
+00:06:32,685 --> 00:06:35,325
+you have a understanding problem.
+
+132
+00:06:35,325 --> 00:06:36,614
+You need to aggregate the data,
+
+133
+00:06:36,614 --> 00:06:39,495
+baseline your performance of clinical and financial measures,
+
+134
+00:06:39,495 --> 00:06:42,690
+and just understand where kind of due north is.
+
+135
+00:06:42,690 --> 00:06:45,210
+When you move over to the right hand side of the model,
+
+136
+00:06:45,210 --> 00:06:46,880
+you're going to start to do.
+
+137
+00:06:46,880 --> 00:06:49,260
+And we feel like the first thing that you're going to
+
+138
+00:06:49,260 --> 00:06:51,870
+start to do to affect the population,
+
+139
+00:06:51,870 --> 00:06:54,540
+is going to be care navigation.
+
+140
+00:06:54,540 --> 00:06:57,360
+You want to start steering patients to a higher quality,
+
+141
+00:06:57,360 --> 00:07:00,645
+lower cost center, not the ER, but the PCP office.
+
+142
+00:07:00,645 --> 00:07:04,570
+Maybe deploying telehealth or mHealth.
+
+143
+00:07:04,570 --> 00:07:08,200
+The last stage of this is going to be more activation.
+
+144
+00:07:08,200 --> 00:07:09,240
+And I'm sure, in this course,
+
+145
+00:07:09,240 --> 00:07:12,315
+you've learned about patient engagement,
+
+146
+00:07:12,315 --> 00:07:16,860
+ways that you can basically empower patients to take control of their health.
+
+147
+00:07:16,860 --> 00:07:19,910
+We feel like that that comes after an understanding of the data,
+
+148
+00:07:19,910 --> 00:07:22,875
+after you've started to master some of these navigation techniques,
+
+149
+00:07:22,875 --> 00:07:29,293
+and then you can get into deep, deep engagement.
+
+150
+00:07:29,293 --> 00:07:32,800
+So it's a deep topic, steerage.
+
+151
+00:07:32,800 --> 00:07:36,910
+So healthcare systems want to make sure that patients stay in network.
+
+152
+00:07:36,910 --> 00:07:40,945
+And health care plans have things called narrow networks,
+
+153
+00:07:40,945 --> 00:07:43,850
+essentially define which doctors you need to see.
+
+154
+00:07:43,850 --> 00:07:46,300
+When I talk about access and navigation,
+
+155
+00:07:46,300 --> 00:07:48,940
+I'm saying that you're going to the right doctor,
+
+156
+00:07:48,940 --> 00:07:51,515
+but you're also going to the right care center.
+
+157
+00:07:51,515 --> 00:07:57,700
+So many problems health care systems have is over utilization of ER,
+
+158
+00:07:57,700 --> 00:07:59,825
+and it's an access problem, right?
+
+159
+00:07:59,825 --> 00:08:02,470
+So you've learned in this course about PCMH models,
+
+160
+00:08:02,470 --> 00:08:03,765
+where they have extended hours,
+
+161
+00:08:03,765 --> 00:08:06,465
+weekend hours, you can actually go to your primary care.
+
+162
+00:08:06,465 --> 00:08:08,855
+That's because it's higher quality and lower cost.
+
+163
+00:08:08,855 --> 00:08:11,575
+So access and navigating patients
+
+164
+00:08:11,575 --> 00:08:15,325
+is a whole domain that fits into population health management.
+
+165
+00:08:15,325 --> 00:08:17,515
+That is that first step in doing,
+
+166
+00:08:17,515 --> 00:08:19,510
+once you get the data, and have that understanding.
+
+167
+00:08:19,510 --> 00:08:23,220
+And I think ER utilization is a great example of kind of
+
+168
+00:08:23,220 --> 00:08:27,010
+a low-hanging fruit when it comes to population health,
+
+169
+00:08:27,010 --> 00:08:31,715
+because the data requirements for that are pretty simple.
+
+170
+00:08:31,715 --> 00:08:35,245
+If you can get an ADTV from your hospital network,
+
+171
+00:08:35,245 --> 00:08:37,570
+most hospitals can do a push notification
+
+172
+00:08:37,570 --> 00:08:40,470
+for when a patient presents themselves in the ER,
+
+173
+00:08:40,470 --> 00:08:43,270
+integrate the longitudinal chart, all of a sudden,
+
+174
+00:08:43,270 --> 00:08:48,615
+you have an event that you can queue to kick off the rest of that process.
+
+175
+00:08:48,615 --> 00:08:52,420
+What's really cool that we're seeing more and
+
+176
+00:08:52,420 --> 00:08:56,380
+more of in the industry is that's a very reactive process.
+
+177
+00:08:56,380 --> 00:08:58,005
+How do you become more proactive?
+
+178
+00:08:58,005 --> 00:09:01,300
+How do you keep them out of the ER in the first place?
+
+179
+00:09:01,300 --> 00:09:04,960
+And that's where you get things like social determinants of health,
+
+180
+00:09:04,960 --> 00:09:07,780
+machine learning, clustering of patients.
+
+181
+00:09:07,780 --> 00:09:07,868
+Risk stratification.
+
+182
+00:09:07,868 --> 00:09:12,190
+Risk stratification. When you
+
+183
+00:09:12,190 --> 00:09:15,400
+ask about the how and how you actually start to move the needle,
+
+184
+00:09:15,400 --> 00:09:18,295
+there's a very interesting corollary of
+
+185
+00:09:18,295 --> 00:09:22,660
+the maturity from the network governance point of view,
+
+186
+00:09:22,660 --> 00:09:25,440
+and the data implication as well.
+
+187
+00:09:25,440 --> 00:09:28,300
+Yes.
+
+188
+00:09:29,490 --> 00:09:35,000
+Sure. Yes, our machine learning is very tightly
+
+189
+00:09:35,000 --> 00:09:39,205
+integrated with our data quality philosophy as well in
+
+190
+00:09:39,205 --> 00:09:43,665
+that the machine learning is kind of shoring up at
+
+191
+00:09:43,665 --> 00:09:49,100
+a programmatic level the poor data quality that we see in a lot of charts.
+
+192
+00:09:49,100 --> 00:09:52,640
+One of the main challenges with identifying your high risk patients
+
+193
+00:09:52,640 --> 00:09:56,440
+is how do you do that at scale with that data,
+
+194
+00:09:56,440 --> 00:09:58,575
+and that's where machine learning can help a lot.
+
+195
+00:09:58,575 --> 00:10:03,380
+So, we've applied algorithms that look for data that is missing
+
+196
+00:10:03,380 --> 00:10:05,750
+from one chart because it's similar to
+
+197
+00:10:05,750 --> 00:10:09,595
+this chart and this chart has a confirmed diagnosis.
+
+198
+00:10:09,595 --> 00:10:12,290
+We're using social determinants of health to try and figure out
+
+199
+00:10:12,290 --> 00:10:15,430
+whether there's a corollary between this population and that population.
+
+200
+00:10:15,430 --> 00:10:17,715
+So are you sure this patient isn't diabetic?
+
+201
+00:10:17,715 --> 00:10:18,860
+Things like that nature.
+
+202
+00:10:18,860 --> 00:10:20,910
+And I think what's important in what Philip's saying is,
+
+203
+00:10:20,910 --> 00:10:25,265
+is if you think kind of back to that model of maturity and transformation,
+
+204
+00:10:25,265 --> 00:10:28,010
+what Philip's talking about is getting very proactive.
+
+205
+00:10:28,010 --> 00:10:31,520
+When you're doing predictive analytics and predicting who's at risk for
+
+206
+00:10:31,520 --> 00:10:35,970
+a hospital stay where one of those lower level skills after you aggregate the data is,
+
+207
+00:10:35,970 --> 00:10:41,240
+okay, we get an ADT feed from the hospital that a patient was admitted,
+
+208
+00:10:41,240 --> 00:10:44,570
+now let's signal a care manager to call in to make sure they get connected.
+
+209
+00:10:44,570 --> 00:10:46,205
+That's kind of after the fact, right?
+
+210
+00:10:46,205 --> 00:10:50,620
+So, what Philip is talking about is the next step and it's definitely a higher level of
+
+211
+00:10:50,620 --> 00:10:55,445
+maturity on their ability because they've gotten from reactive to proactive,
+
+212
+00:10:55,445 --> 00:10:58,580
+and they're doing that because they're at risk for these patients and the cost.
+
+213
+00:10:58,580 --> 00:11:01,640
+Yes, and you think about the earlier you can detect the problem,
+
+214
+00:11:01,640 --> 00:11:03,140
+the less expensive it is.
+
+215
+00:11:03,140 --> 00:11:03,255
+Absolutely.
+
+216
+00:11:03,255 --> 00:11:04,950
+And so, before the ER,
+
+217
+00:11:04,950 --> 00:11:06,955
+there is the doctor visit.
+
+218
+00:11:06,955 --> 00:11:11,145
+And if you really want to get out there a little bit before there's the doctor visit,
+
+219
+00:11:11,145 --> 00:11:14,570
+there's the data that can be collected outside of the office
+
+220
+00:11:14,570 --> 00:11:22,040
+where mHealth comes in.
+
+221
+00:11:22,040 --> 00:11:23,331
+Yes, I think both of us can.
+
+222
+00:11:23,331 --> 00:11:26,450
+But yes, it's really an interesting evolution where we went
+
+223
+00:11:26,450 --> 00:11:30,195
+from payers using claims data to basically determine quality,
+
+224
+00:11:30,195 --> 00:11:31,820
+to now we were talking about EHR data,
+
+225
+00:11:31,820 --> 00:11:33,440
+HIT data in general.
+
+226
+00:11:33,440 --> 00:11:37,790
+This is a new era, so we're bringing in social data.
+
+227
+00:11:37,790 --> 00:11:41,780
+One of the things that we like to quote is that your zip code is probably
+
+228
+00:11:41,780 --> 00:11:47,900
+the most important data point for determining your health and your risk score.
+
+229
+00:11:47,900 --> 00:11:51,050
+The other thing that we've learned over the years is
+
+230
+00:11:51,050 --> 00:11:57,185
+that credit score can be extremely powerful in determining medication adherence.
+
+231
+00:11:57,185 --> 00:11:59,210
+So if somebody that has a higher credit score,
+
+232
+00:11:59,210 --> 00:12:04,280
+they're going to be more apt to follow doctor's orders and to be managing
+
+233
+00:12:04,280 --> 00:12:11,585
+their medications as prescribed.
+
+234
+00:12:11,585 --> 00:12:13,280
+Sure, it's a great question.
+
+235
+00:12:13,280 --> 00:12:17,990
+There's a lot of talk around FHIR but the reality of the situation is
+
+236
+00:12:17,990 --> 00:12:23,160
+that we don't see a whole lot of it in the real world.
+
+237
+00:12:23,160 --> 00:12:27,960
+And I think the nature of that is just that the use case of FHIR,
+
+238
+00:12:27,960 --> 00:12:32,870
+it was designed for taking care of a patient one at a time, small data sets.
+
+239
+00:12:32,870 --> 00:12:36,325
+And when you're talking about data at the population level,
+
+240
+00:12:36,325 --> 00:12:40,485
+the mechanisms involved in FHIR just don't really scale that well,
+
+241
+00:12:40,485 --> 00:12:44,665
+specifically the query retrieve method of interoperability.
+
+242
+00:12:44,665 --> 00:12:49,170
+If you think about it from a agnostic aggregators point of view,
+
+243
+00:12:49,170 --> 00:12:53,900
+there's no event for us to reach out and pull down information.
+
+244
+00:12:53,900 --> 00:12:57,420
+That's kind of like a giant game of Marco Polo to figure
+
+245
+00:12:57,420 --> 00:13:01,605
+out where the patient is presented out in the community and let's go get that data.
+
+246
+00:13:01,605 --> 00:13:04,020
+So from creating the longitudinal chart,
+
+247
+00:13:04,020 --> 00:13:06,115
+we don't see a whole lot of traction there.
+
+248
+00:13:06,115 --> 00:13:10,650
+However, where we do see a lot of hope is kind of on the flip side.
+
+249
+00:13:10,650 --> 00:13:13,205
+Once we've gotten the data any which way we can,
+
+250
+00:13:13,205 --> 00:13:14,220
+we've done all the analytics,
+
+251
+00:13:14,220 --> 00:13:16,855
+we've created the quality artifacts,
+
+252
+00:13:16,855 --> 00:13:20,370
+a challenge that we've had is workflow.
+
+253
+00:13:20,370 --> 00:13:23,795
+The people who need to see that data are in the EMR.
+
+254
+00:13:23,795 --> 00:13:25,200
+They will have one tool,
+
+255
+00:13:25,200 --> 00:13:29,100
+there's been problems galore with adopting those tools and they're like,
+
+256
+00:13:29,100 --> 00:13:32,520
+"I've finally got my EMR to the point where it's usable.
+
+257
+00:13:32,520 --> 00:13:34,320
+Don't make me use something else."
+
+258
+00:13:34,320 --> 00:13:35,550
+Totally understandable.
+
+259
+00:13:35,550 --> 00:13:37,710
+And that's where we think FHIR can help a lot because it's
+
+260
+00:13:37,710 --> 00:13:40,905
+a standard way to get data back into their workflow.
+
+261
+00:13:40,905 --> 00:13:43,410
+We've actually had a lot of
+
+262
+00:13:43,410 --> 00:13:47,040
+conversations internally and with the standards organizations about,
+
+263
+00:13:47,040 --> 00:13:50,355
+this is what we see is the population that use case for FHIR.
+
+264
+00:13:50,355 --> 00:13:54,150
+So, if I could, I just want to throw one thing in here and maybe it's
+
+265
+00:13:54,150 --> 00:13:58,395
+just to provoke some thoughts for the members here in this class is,
+
+266
+00:13:58,395 --> 00:14:01,835
+this use case is very encounter-based.
+
+267
+00:14:01,835 --> 00:14:05,520
+I have a patient that I know needs to be in front of a doctor and I'm going to optimize
+
+268
+00:14:05,520 --> 00:14:10,650
+that visit leveraging a different technology that pulls in longitudinal data.
+
+269
+00:14:10,650 --> 00:14:15,820
+What happens when that encounter or we blur the lines of an encounter,
+
+270
+00:14:15,820 --> 00:14:18,404
+what is Telehealth? What is mHealth?
+
+271
+00:14:18,404 --> 00:14:20,975
+What is continuous monitoring?
+
+272
+00:14:20,975 --> 00:14:25,590
+Right? So, the use case that Philip just laid out there is real.
+
+273
+00:14:25,590 --> 00:14:26,790
+That's what we're tackling today.
+
+274
+00:14:26,790 --> 00:14:29,115
+But when you think about where healthcare is going,
+
+275
+00:14:29,115 --> 00:14:30,930
+that line of an encounter,
+
+276
+00:14:30,930 --> 00:14:33,245
+that activity is going to blur.
+
+277
+00:14:33,245 --> 00:14:36,310
+And that's kind of the next frontier that we're going to have to tackle.
+
+278
+00:14:36,310 --> 00:14:43,770
+The patient engagement piece,
+
+279
+00:14:43,770 --> 00:14:45,505
+the patient activation piece,
+
+280
+00:14:45,505 --> 00:14:47,625
+getting them more in charge of their health and
+
+281
+00:14:47,625 --> 00:14:51,400
+interactive with technologies is absolutely the next frontier.
+
+282
+00:14:51,400 --> 00:14:56,985
+I think that it's pretty ahead of the market when you think about that right now,
+
+283
+00:14:56,985 --> 00:14:59,760
+because I personally feel that we are trying to engage
+
+284
+00:14:59,760 --> 00:15:02,580
+physicians right now into a new world and they're still
+
+285
+00:15:02,580 --> 00:15:05,130
+grumpy about their fee for service revenue being
+
+286
+00:15:05,130 --> 00:15:08,630
+cut and they're trying to learn a new way of doing business.
+
+287
+00:15:08,630 --> 00:15:11,130
+But absolutely, the next chapter is engaging
+
+288
+00:15:11,130 --> 00:15:14,190
+patients and if FHIR is supporting this type of protocols,
+
+289
+00:15:14,190 --> 00:15:16,825
+that's absolutely where it needs to go.
+
+290
+00:15:16,825 --> 00:15:19,835
+Yes, that's a great point because when it comes to consumers,
+
+291
+00:15:19,835 --> 00:15:22,715
+everybody has a smartphone and everybody knows how to
+
+292
+00:15:22,715 --> 00:15:28,090
+use an application and that is what FHIR is designed for.
+
+293
+00:15:30,070 --> 00:15:34,705
+I get that question a lot because people, I think,
+
+294
+00:15:34,705 --> 00:15:38,550
+generally think of Philips as an industrial company but we've been in
+
+295
+00:15:38,550 --> 00:15:43,195
+healthcare since 1918 and have been very innovative.
+
+296
+00:15:43,195 --> 00:15:47,010
+And I look at kind of the old world of hospital
+
+297
+00:15:47,010 --> 00:15:51,322
+systems being the center of the universe and Philips has had a lot of hardware,
+
+298
+00:15:51,322 --> 00:15:53,680
+CT scanners, MRI scanners,
+
+299
+00:15:53,680 --> 00:15:56,565
+patient monitoring systems that are inside the hospital.
+
+300
+00:15:56,565 --> 00:16:00,240
+But where Philips really is growing is in
+
+301
+00:16:00,240 --> 00:16:02,100
+the health tech and getting outside of
+
+302
+00:16:02,100 --> 00:16:04,650
+that hospital from a patient engagement perspective,
+
+303
+00:16:04,650 --> 00:16:08,250
+from home Telehealth to mobile apps to wellness.
+
+304
+00:16:08,250 --> 00:16:10,185
+And then from a Wellcentive perspective,
+
+305
+00:16:10,185 --> 00:16:12,120
+we give context to that.
+
+306
+00:16:12,120 --> 00:16:15,840
+So Philips has a big footprint and a big footprint means a lot of
+
+307
+00:16:15,840 --> 00:16:19,770
+data that really goes outside of just a hospital and with now,
+
+308
+00:16:19,770 --> 00:16:24,240
+Wellcentive, we apply context to that data for value-based care.
+
+309
+00:16:24,240 --> 00:16:25,470
+And the other thing,
+
+310
+00:16:25,470 --> 00:16:29,631
+and Philip touched on this when we were talking about FHIR,
+
+311
+00:16:29,631 --> 00:16:33,180
+is there is a DNA to HIT systems and,
+
+312
+00:16:33,180 --> 00:16:34,575
+not to go down that road,
+
+313
+00:16:34,575 --> 00:16:37,305
+but EMR's have a certain DNA.
+
+314
+00:16:37,305 --> 00:16:41,310
+They were built to schedule and bill in a fee-for-service world.
+
+315
+00:16:41,310 --> 00:16:44,330
+Philips plus Wellcentive is,
+
+316
+00:16:44,330 --> 00:16:46,505
+I will call, an agnostic aggregator.
+
+317
+00:16:46,505 --> 00:16:48,390
+They can sit across the health system,
+
+318
+00:16:48,390 --> 00:16:51,435
+across many EMR's and pull that data.
+
+319
+00:16:51,435 --> 00:16:55,035
+There's a lot of power in being the agnostic aggregator
+
+320
+00:16:55,035 --> 00:16:58,615
+and helping these use cases out where there's a lot of limitations
+
+321
+00:16:58,615 --> 00:17:08,625
+if you kind of come from that episodic DNA, if you will.
+
+322
+00:17:08,625 --> 00:17:09,670
+Thank you. It's a pleasure.
+
+323
+00:17:09,670 --> 00:17:10,130
+Yes. Thanks very much.

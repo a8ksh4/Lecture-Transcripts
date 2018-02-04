@@ -1,0 +1,107 @@
+1
+00:00:00,000 --> 00:00:03,795
+Hi. Welcome to Introduction to Health Informatics.
+
+2
+00:00:03,795 --> 00:00:07,980
+I'm Mark Braunstein, and unlike your other Georgia Tech professors,
+
+3
+00:00:07,980 --> 00:00:10,430
+I was trained as a physician.
+
+4
+00:00:10,430 --> 00:00:14,175
+However, I came to medical school after MIT,
+
+5
+00:00:14,175 --> 00:00:16,500
+interested in applying computers to
+
+6
+00:00:16,500 --> 00:00:20,905
+medicine and ended up starting a few companies based on that work.
+
+7
+00:00:20,905 --> 00:00:24,048
+I started the last of these at Georgia Tech's Incubator,
+
+8
+00:00:24,048 --> 00:00:26,795
+the Advanced Technology Development Center.
+
+9
+00:00:26,795 --> 00:00:28,830
+And when it was acquired,
+
+10
+00:00:28,830 --> 00:00:32,965
+I joined the faculty to help create a program in Health Informatics.
+
+11
+00:00:32,965 --> 00:00:35,550
+This course is about Health Informatics,
+
+12
+00:00:35,550 --> 00:00:40,950
+which is the many applications of computing to the delivery of health care.
+
+13
+00:00:40,950 --> 00:00:46,545
+Since the 1950's, when computers could first store and process large amounts of data,
+
+14
+00:00:46,545 --> 00:00:51,215
+software developers have seen health care as a fertile domain.
+
+15
+00:00:51,215 --> 00:00:56,010
+Electronic medical records systems date back to at least the early 1960.
+
+16
+00:00:56,010 --> 00:01:00,105
+That's when Akron Children's Hospital and IBM created HIS,
+
+17
+00:01:00,105 --> 00:01:04,205
+the first computer based hospital patient information system.
+
+18
+00:01:04,205 --> 00:01:07,315
+Here, you can see it being tested by a nurse.
+
+19
+00:01:07,315 --> 00:01:11,370
+Another application is clinical decision support systems.
+
+20
+00:01:11,370 --> 00:01:14,430
+These guide physicians as they deliver care based on
+
+21
+00:01:14,430 --> 00:01:20,770
+scientific evidence and they date back to at least 1972, when work began on mycin.
+
+22
+00:01:20,770 --> 00:01:27,045
+Mycin, was a program for the optimal selection of antibiotics to treat infections.
+
+23
+00:01:27,045 --> 00:01:32,100
+Ambulatory electronic medical records systems for use outside of hospitals,
+
+24
+00:01:32,100 --> 00:01:33,510
+began a bit earlier.
+
+25
+00:01:33,510 --> 00:01:36,190
+In fact, as you can see here,
+
+26
+00:01:36,190 --> 00:01:40,989
+I oversaw the development and did some of the programming of one of these early EMRs,
+
+27
+00:01:40,989 --> 00:01:46,230
+starting in 1970 at the Medical University of South Carolina in Charleston.

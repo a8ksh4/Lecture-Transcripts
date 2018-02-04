@@ -1,0 +1,111 @@
+1
+00:00:00,000 --> 00:00:03,620
+Meaningful use is a complex program in
+
+2
+00:00:03,620 --> 00:00:10,210
+three stages that coordinates with the approach to provider reimbursement for Medicare.
+
+3
+00:00:10,210 --> 00:00:12,860
+We can only cover the main points here.
+
+4
+00:00:12,860 --> 00:00:16,800
+The central goals of Meaningful Use are the use of
+
+5
+00:00:16,800 --> 00:00:21,720
+certified EHR technology in a clinically meaningful manner,
+
+6
+00:00:21,720 --> 00:00:27,280
+such as e-prescribing, for electronic exchange of health information to improve
+
+7
+00:00:27,280 --> 00:00:33,330
+quality of health care and to submit clinical quality and other measures.
+
+8
+00:00:33,330 --> 00:00:38,180
+The sub-goals for clinical care include: improving care coordination,
+
+9
+00:00:38,180 --> 00:00:40,880
+reducing health care disparities,
+
+10
+00:00:40,880 --> 00:00:43,640
+engaging patients and their families,
+
+11
+00:00:43,640 --> 00:00:46,730
+improving population and public health,
+
+12
+00:00:46,730 --> 00:00:50,625
+and ensuring adequate privacy and security.
+
+13
+00:00:50,625 --> 00:00:54,620
+Note that these goals align well with what experts
+
+14
+00:00:54,620 --> 00:00:59,285
+believe is needed to improve the management of chronic disease.
+
+15
+00:00:59,285 --> 00:01:03,935
+The developers of Meaningful Use were well aware of the mismatch we discussed in lesson
+
+16
+00:01:03,935 --> 00:01:10,495
+one between the focus of our healthcare system and the diseases that drive most costs.
+
+17
+00:01:10,495 --> 00:01:16,300
+This Meaningful Use timeline from the CDC shows that the program began in 2010,
+
+18
+00:01:16,300 --> 00:01:18,910
+and starting in 2015,
+
+19
+00:01:18,910 --> 00:01:21,070
+there were reductions in Medicare payments to
+
+20
+00:01:21,070 --> 00:01:24,850
+hospitals and providers that were not Meaningful Users.
+
+21
+00:01:24,850 --> 00:01:27,030
+The timeline in stage 3,
+
+22
+00:01:27,030 --> 00:01:30,060
+in particular, is highly political.
+
+23
+00:01:30,060 --> 00:01:33,600
+Many argue that the pace of the program is too rapid given
+
+24
+00:01:33,600 --> 00:01:35,820
+the complexity of implementing and properly
+
+25
+00:01:35,820 --> 00:01:39,350
+integrating these systems into a health care organization.
+
+26
+00:01:39,350 --> 00:01:44,560
+The CDC generally does a good job of clearly explaining the program,
+
+27
+00:01:44,560 --> 00:01:47,715
+so I would recommend their site for updates.
+
+28
+00:01:47,715 --> 00:01:52,000
+Next, we'll turn to some of the challenges of EHRs and their adoption.

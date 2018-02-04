@@ -1,0 +1,99 @@
+1
+00:00:00,000 --> 00:00:03,060
+Grahame's vision guides FHIR development.
+
+2
+00:00:03,060 --> 00:00:05,700
+So, before we delve into the standard,
+
+3
+00:00:05,700 --> 00:00:08,080
+it's important to understand his philosophy.
+
+4
+00:00:08,080 --> 00:00:14,403
+The FHIR Data Model consists of resources as Grahame propose for RFH.
+
+5
+00:00:14,403 --> 00:00:18,910
+Unlike HL7's CCDA and RIM,
+
+6
+00:00:18,910 --> 00:00:22,585
+resource contents are intentionally limited.
+
+7
+00:00:22,585 --> 00:00:28,330
+FHIR's 80% rule is the operative guideline and it informally states that
+
+8
+00:00:28,330 --> 00:00:30,505
+each resource should contain
+
+9
+00:00:30,505 --> 00:00:36,910
+only those data elements needed for 80% or more of its anticipated use cases.
+
+10
+00:00:36,910 --> 00:00:38,770
+Of course, as Grahame has posted,
+
+11
+00:00:38,770 --> 00:00:43,235
+there are other considerations such as safety and consistency.
+
+12
+00:00:43,235 --> 00:00:50,480
+All standards efforts must grapple with tension between comprehensiveness and usability.
+
+13
+00:00:50,480 --> 00:00:53,785
+In essence, this approach means that in FHIR,
+
+14
+00:00:53,785 --> 00:00:56,645
+usability is a top priority.
+
+15
+00:00:56,645 --> 00:01:00,930
+Grahame's second principle is around how to verify the standard.
+
+16
+00:01:00,930 --> 00:01:07,075
+Historically, a vote of standards developers approves the standard they created.
+
+17
+00:01:07,075 --> 00:01:12,230
+Input from software developers who have worked with proposed FHIR resources,
+
+18
+00:01:12,230 --> 00:01:17,665
+APIs, and other elements of the standard guides further development of FHIR.
+
+19
+00:01:17,665 --> 00:01:21,305
+Again, usability is a priority.
+
+20
+00:01:21,305 --> 00:01:23,420
+The third principle is the use of
+
+21
+00:01:23,420 --> 00:01:27,980
+Cross Industry Web Technologies to search for resources and to create,
+
+22
+00:01:27,980 --> 00:01:30,585
+read, update, and delete them, CRUD, C-R-U-D.
+
+23
+00:01:30,585 --> 00:01:35,040
+This makes the standard more approachable and hence,
+
+24
+00:01:35,040 --> 00:01:37,335
+more attractive to modern developers,
+
+25
+00:01:37,335 --> 00:01:44,120
+and provides the basis for FHIR base mobile and web apps that can be EHR-agnostic.

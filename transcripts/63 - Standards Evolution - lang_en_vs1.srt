@@ -1,0 +1,327 @@
+1
+00:00:00,000 --> 00:00:05,045
+Standards evolved over many years to encompass more aspects of medicine,
+
+2
+00:00:05,045 --> 00:00:07,543
+to code them in more detail,
+
+3
+00:00:07,543 --> 00:00:10,615
+and to adapt as technology changed.
+
+4
+00:00:10,615 --> 00:00:14,250
+We will divide this evolution into three dimensions.
+
+5
+00:00:14,250 --> 00:00:17,760
+Structure, purpose, and technology.
+
+6
+00:00:17,760 --> 00:00:20,558
+We will discuss the first two in this segment,
+
+7
+00:00:20,558 --> 00:00:23,565
+and technology evolution in the next one.
+
+8
+00:00:23,565 --> 00:00:26,030
+The structure of standards has evolved in
+
+9
+00:00:26,030 --> 00:00:30,300
+large part to take advantage of the capabilities of computing.
+
+10
+00:00:30,300 --> 00:00:35,140
+Early data standards were lists such as medical diagnoses,
+
+11
+00:00:35,140 --> 00:00:38,380
+laboratory tests, or medications.
+
+12
+00:00:38,380 --> 00:00:42,425
+We will refer to those list standards as classifications.
+
+13
+00:00:42,425 --> 00:00:45,515
+As the use of computers and health care grew,
+
+14
+00:00:45,515 --> 00:00:48,550
+so did interest in the standards community to describe
+
+15
+00:00:48,550 --> 00:00:53,995
+more detail and to represent relationships among clinical concepts.
+
+16
+00:00:53,995 --> 00:00:59,075
+We will refer to a standard that can code for relationships as an ontology.
+
+17
+00:00:59,075 --> 00:01:02,660
+The goal here is often semantic interoperability,
+
+18
+00:01:02,660 --> 00:01:05,970
+as we saw in Lesson two.
+
+19
+00:01:05,970 --> 00:01:10,675
+You may remember this graph of clinical relationships from the Applicadia video,
+
+20
+00:01:10,675 --> 00:01:13,720
+and their nuanced multi-layered representation of
+
+21
+00:01:13,720 --> 00:01:17,800
+clinical details, concepts, and relationships.
+
+22
+00:01:17,800 --> 00:01:24,685
+Note here that Applicadia is using both ICD-10 and SNOMED to represent concepts.
+
+23
+00:01:24,685 --> 00:01:27,475
+These are both ontologies that are able to represent
+
+24
+00:01:27,475 --> 00:01:33,395
+concepts relationships which is at the core of what Applicadia is trying to do.
+
+25
+00:01:33,395 --> 00:01:37,210
+The purpose of standards has also evolved.
+
+26
+00:01:37,210 --> 00:01:41,725
+Pre-computing, all of the early standards were for data.
+
+27
+00:01:41,725 --> 00:01:45,195
+Physicians would use the International Classification of Disease,
+
+28
+00:01:45,195 --> 00:01:49,330
+ICD, in their charting, primarily for billing.
+
+29
+00:01:49,330 --> 00:01:53,214
+The clinical laboratory would use a classification with the acronym,
+
+30
+00:01:53,214 --> 00:01:55,598
+LOIC, for their tests.
+
+31
+00:01:55,598 --> 00:01:57,120
+And the pharmacy would use one of
+
+32
+00:01:57,120 --> 00:02:03,610
+several relatively simple classifications to represent the medications they dispensed.
+
+33
+00:02:03,610 --> 00:02:09,240
+In the 1980s, computers were increasingly installed by hospitals.
+
+34
+00:02:09,240 --> 00:02:13,665
+The focus was largely on the revenue producing departments such as billing,
+
+35
+00:02:13,665 --> 00:02:16,915
+laboratory, pharmacy, and radiology.
+
+36
+00:02:16,915 --> 00:02:20,895
+They and the nurses stations where orders originate,
+
+37
+00:02:20,895 --> 00:02:22,980
+and to wish results are sent,
+
+38
+00:02:22,980 --> 00:02:25,240
+needed to share information.
+
+39
+00:02:25,240 --> 00:02:29,650
+Often, each of these departments was using a specialized,
+
+40
+00:02:29,650 --> 00:02:35,105
+independently developed, not interoperable proprietary software module.
+
+41
+00:02:35,105 --> 00:02:40,630
+This led to the formation of HL7 and the development of its messaging standards.
+
+42
+00:02:40,630 --> 00:02:43,540
+Using this technology, a physician could
+
+43
+00:02:43,540 --> 00:02:47,015
+order a lab test or medication at the nurses' station.
+
+44
+00:02:47,015 --> 00:02:49,225
+And as shown here,
+
+45
+00:02:49,225 --> 00:02:54,370
+that order could go electronically to the clinical laboratory to do the test,
+
+46
+00:02:54,370 --> 00:02:57,495
+or to the pharmacy to deliver the medication.
+
+47
+00:02:57,495 --> 00:02:59,050
+In the case of a test,
+
+48
+00:02:59,050 --> 00:03:01,585
+the results could come back to the nurses' station
+
+49
+00:03:01,585 --> 00:03:05,115
+using a different message from the same standard.
+
+50
+00:03:05,115 --> 00:03:08,500
+The next evolution was standards for clinical documents.
+
+51
+00:03:08,500 --> 00:03:13,740
+A message would typically be an order for a single lab tests or medication.
+
+52
+00:03:13,740 --> 00:03:18,210
+However, the physician who would care for a patient after hospital discharge,
+
+53
+00:03:18,210 --> 00:03:22,215
+requires a complete summary of that patient's care.
+
+54
+00:03:22,215 --> 00:03:25,020
+This is the role of document standards.
+
+55
+00:03:25,020 --> 00:03:26,265
+You worked with one of them,
+
+56
+00:03:26,265 --> 00:03:31,580
+the HL7 CCD, in the health fault exercise.
+
+57
+00:03:31,580 --> 00:03:33,598
+As is often the case with standards,
+
+58
+00:03:33,598 --> 00:03:37,970
+more than one was developed by different organizations, as shown here.
+
+59
+00:03:37,970 --> 00:03:40,150
+Today, they've been reconciled into
+
+60
+00:03:40,150 --> 00:03:45,310
+the Consolidated Clinical Document Architecture, or CCDA.
+
+61
+00:03:45,310 --> 00:03:48,550
+However, you may still run into a CCR,
+
+62
+00:03:48,550 --> 00:03:53,295
+CDA, or C32 formatted clinical document.
+
+63
+00:03:53,295 --> 00:03:58,160
+More recently, as computers have become even more powerful,
+
+64
+00:03:58,160 --> 00:04:03,350
+standards have been evolving to represent clinical processes and workflows.
+
+65
+00:04:03,350 --> 00:04:06,235
+We will not cover these standards in any detail,
+
+66
+00:04:06,235 --> 00:04:09,960
+but IHE is an initiative by healthcare professionals and
+
+67
+00:04:09,960 --> 00:04:14,975
+industry to improve the way computer systems and healthcare share information.
+
+68
+00:04:14,975 --> 00:04:18,642
+Here's an example from IHE of schedule workflow,
+
+69
+00:04:18,642 --> 00:04:21,975
+SWF, that integrates the ordering,
+
+70
+00:04:21,975 --> 00:04:25,695
+scheduling, imaging acquisition, storage,
+
+71
+00:04:25,695 --> 00:04:29,828
+and viewing activities associated with radiology exams.
+
+72
+00:04:29,828 --> 00:04:33,150
+Analysis of this workflow leads to identification of
+
+73
+00:04:33,150 --> 00:04:37,260
+the actors and transactions needed to accomplish the task.
+
+74
+00:04:37,260 --> 00:04:41,790
+Properly implemented, these standards could provide benefits including
+
+75
+00:04:41,790 --> 00:04:44,850
+greater efficiency and a reduction in errors
+
+76
+00:04:44,850 --> 00:04:48,585
+caused by unnecessary variations in patient care.
+
+77
+00:04:48,585 --> 00:04:54,207
+Implementation does involve many areas of the hospital and many systems,
+
+78
+00:04:54,207 --> 00:04:57,215
+so it requires a concerted effort.
+
+79
+00:04:57,215 --> 00:05:01,152
+Nevertheless, given the cost of modern imaging equipment,
+
+80
+00:05:01,152 --> 00:05:02,925
+this is a good use case.
+
+81
+00:05:02,925 --> 00:05:06,240
+The IHE radiology group says that hundreds of
+
+82
+00:05:06,240 --> 00:05:12,410
+commercial radiology-related information systems have incorporated its solutions.

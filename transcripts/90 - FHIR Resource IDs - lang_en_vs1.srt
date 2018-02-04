@@ -1,0 +1,227 @@
+1
+00:00:00,000 --> 00:00:05,130
+FHIR resources have a logical identity or ID that is
+
+2
+00:00:05,130 --> 00:00:11,330
+unique among all resources of the same type on each FHIR server.
+
+3
+00:00:11,330 --> 00:00:12,620
+Just to be clear,
+
+4
+00:00:12,620 --> 00:00:17,510
+the patient resource ID will usually be different on each FHIR server,
+
+5
+00:00:17,510 --> 00:00:21,785
+so it cannot establish patient identity across servers.
+
+6
+00:00:21,785 --> 00:00:25,915
+However, there is a discussion of the use of FHIR for
+
+7
+00:00:25,915 --> 00:00:32,190
+a master patient index on the patient resource page of the FHIR website.
+
+8
+00:00:32,190 --> 00:00:38,440
+And there is even this value set to indicate the quality of a patient query match.
+
+9
+00:00:38,440 --> 00:00:42,410
+I mention this as much as anything to show you how rich the FHIR standard is
+
+10
+00:00:42,410 --> 00:00:48,220
+becoming and to urge you to explore it further.
+
+11
+00:00:48,220 --> 00:00:51,295
+Here, further down in the allergy resource we've been exploring,
+
+12
+00:00:51,295 --> 00:00:54,625
+you see references by ID to the patient,
+
+13
+00:00:54,625 --> 00:00:59,995
+"example" who has this allergy as well as to the practitioner,
+
+14
+00:00:59,995 --> 00:01:02,220
+"13" who recorded it.
+
+15
+00:01:02,220 --> 00:01:05,775
+These references can be absolute or relative.
+
+16
+00:01:05,775 --> 00:01:09,725
+Once assigned, the identity is never changed.
+
+17
+00:01:09,725 --> 00:01:12,400
+However, a copy of that resource on
+
+18
+00:01:12,400 --> 00:01:17,335
+another server might not be able to retain the same logical identity.
+
+19
+00:01:17,335 --> 00:01:21,545
+As shown here via these references,
+
+20
+00:01:21,545 --> 00:01:25,555
+FHIR resources create a network of information.
+
+21
+00:01:25,555 --> 00:01:29,280
+The unique identifier of a resource instance is
+
+22
+00:01:29,280 --> 00:01:33,690
+an absolute URI constructed from the server base address,
+
+23
+00:01:33,690 --> 00:01:37,890
+the resource type, and the logical ID.
+
+24
+00:01:37,890 --> 00:01:41,490
+When the literal identity is an HTTP address,
+
+25
+00:01:41,490 --> 00:01:45,605
+this address can generally retrieve or manipulate the resource,
+
+26
+00:01:45,605 --> 00:01:51,740
+as I illustrate here using the public HAPI, H-A-P-I, FHIR server.
+
+27
+00:01:51,740 --> 00:01:54,320
+Here are the three parts of the URL.
+
+28
+00:01:54,320 --> 00:01:59,909
+The server base address of fhirtest.uhn.ca,
+
+29
+00:01:59,909 --> 00:02:01,790
+the resource type of
+
+30
+00:02:01,790 --> 00:02:09,435
+baseDstu2/Patient that combines the resource type with the version of FHIR,
+
+31
+00:02:09,435 --> 00:02:15,365
+and the resource ID of 3535.
+
+32
+00:02:15,365 --> 00:02:18,165
+Finally, here you see that as it should,
+
+33
+00:02:18,165 --> 00:02:23,706
+the internal reference to the FHIR ID matches the one in the URL.
+
+34
+00:02:23,706 --> 00:02:26,140
+You should easily be able to do the same
+
+35
+00:02:26,140 --> 00:02:29,530
+using the Georgia Tech or any public FHIR service.
+
+36
+00:02:29,530 --> 00:02:33,237
+Simply search for a resource and then note
+
+37
+00:02:33,237 --> 00:02:37,320
+its literal URL and the three parts that make it up.
+
+38
+00:02:37,320 --> 00:02:44,655
+Before moving on, note the use of DSTU in the URL we just looked at.
+
+39
+00:02:44,655 --> 00:02:46,740
+As I said earlier,
+
+40
+00:02:46,740 --> 00:02:48,300
+you're likely to run into this,
+
+41
+00:02:48,300 --> 00:02:50,463
+even though the preferred term is now STU.
+
+42
+00:02:50,463 --> 00:02:54,955
+They are equivalent.
+
+43
+00:02:54,955 --> 00:02:57,880
+Note that implementation should not assume that
+
+44
+00:02:57,880 --> 00:03:02,435
+the identity of a resource is always resolvable to a literal server.
+
+45
+00:03:02,435 --> 00:03:07,360
+It may be temporarily unavailable or may not be available by policy,
+
+46
+00:03:07,360 --> 00:03:12,490
+such as firewalls or in some cases it may not actually exist,
+
+47
+00:03:12,490 --> 00:03:16,685
+such as the use of resources outside of a RESTful environment.
+
+48
+00:03:16,685 --> 00:03:20,770
+Logical ID literal references are case sensitive.
+
+49
+00:03:20,770 --> 00:03:24,070
+They can be up to 64 characters long and
+
+50
+00:03:24,070 --> 00:03:28,405
+contain any combination of upper and lower case ASCII characters,
+
+51
+00:03:28,405 --> 00:03:31,345
+numerals, dashes, and periods,
+
+52
+00:03:31,345 --> 00:03:36,385
+as illustrated by the patient ID of "example" we saw earlier.
+
+53
+00:03:36,385 --> 00:03:40,430
+I have posted a link to a video that demonstrates
+
+54
+00:03:40,430 --> 00:03:44,230
+the use of clinFHIR to create FHIR resources.
+
+55
+00:03:44,230 --> 00:03:52,115
+ClinFHIR is an excellent open public comprehensive FHIR resource created by David Hay,
+
+56
+00:03:52,115 --> 00:03:54,645
+a leader in the FHIR community.
+
+57
+00:03:54,645 --> 00:03:57,000
+I strongly recommend you explore it.

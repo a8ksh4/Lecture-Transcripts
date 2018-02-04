@@ -1,0 +1,111 @@
+1
+00:00:00,000 --> 00:00:02,430
+Dr. Karen Bell is the chair of
+
+2
+00:00:02,430 --> 00:00:06,405
+the Certification Commission for Health Information Technology,
+
+3
+00:00:06,405 --> 00:00:14,745
+CCHIT, which is a not for profit HIT certification body with an educational mission.
+
+4
+00:00:14,745 --> 00:00:19,759
+In a June 2013 post on the Health Affairs blog,
+
+5
+00:00:19,759 --> 00:00:22,080
+Dr. Bell said that models such as
+
+6
+00:00:22,080 --> 00:00:27,345
+a ACOs must successfully implement seven business processes,
+
+7
+00:00:27,345 --> 00:00:32,230
+all of which rely heavily on the proper use of Health Informatics.
+
+8
+00:00:32,230 --> 00:00:37,705
+The seven processes are: care coordination, cohort management,
+
+9
+00:00:37,705 --> 00:00:42,010
+patient relationship management, clinician engagement,
+
+10
+00:00:42,010 --> 00:00:46,815
+financial management, reporting, and knowledge management.
+
+11
+00:00:46,815 --> 00:00:53,980
+To support this, she lists four primary requirements of an ACO HIT infrastructure.
+
+12
+00:00:53,980 --> 00:00:58,230
+The first demands the ability to share health information between and
+
+13
+00:00:58,230 --> 00:01:01,892
+among various internal and external providers,
+
+14
+00:01:01,892 --> 00:01:06,110
+patients, and their designated caregivers.
+
+15
+00:01:06,110 --> 00:01:10,180
+Second, there needs to be data integration from clinical,
+
+16
+00:01:10,180 --> 00:01:14,680
+administrative, financial and patient derived sources.
+
+17
+00:01:14,680 --> 00:01:19,505
+The third requires attention to HIT functions that support patient safety.
+
+18
+00:01:19,505 --> 00:01:24,290
+The fourth requires strong privacy and security protections.
+
+19
+00:01:24,290 --> 00:01:30,450
+Most health care organizations have a lot of work to do in order to achieve all of this.
+
+20
+00:01:30,450 --> 00:01:32,145
+Earlier in her post,
+
+21
+00:01:32,145 --> 00:01:34,400
+Dr. Bell says that quote,
+
+22
+00:01:34,400 --> 00:01:37,760
+the promise of Accountable Care is tempered by a dearth of
+
+23
+00:01:37,760 --> 00:01:41,645
+experience with care process redesign and culture change,
+
+24
+00:01:41,645 --> 00:01:45,710
+and of knowledge about the health information technology infrastructure
+
+25
+00:01:45,710 --> 00:01:51,680
+necessary to optimally support healthcare transformation, end quote.
+
+26
+00:01:51,680 --> 00:01:58,295
+To summarize, the need for health IT to support new care and payment models is clear,
+
+27
+00:01:58,295 --> 00:02:03,329
+but we still have a long way to go to develop and properly use those systems.
+
+28
+00:02:03,329 --> 00:02:07,160
+Next we turn to some of the key challenges to doing that.

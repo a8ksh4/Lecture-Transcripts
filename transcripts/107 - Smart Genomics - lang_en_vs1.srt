@@ -1,0 +1,171 @@
+1
+00:00:00,000 --> 00:00:04,740
+Personalized or precision medicine is the concept of using
+
+2
+00:00:04,740 --> 00:00:08,280
+rich and potentially broad datasets about
+
+3
+00:00:08,280 --> 00:00:13,635
+an individual patient to guide optimal diagnosis and treatment decisions.
+
+4
+00:00:13,635 --> 00:00:18,784
+These datasets might supplement the traditional clinical record with behavioral,
+
+5
+00:00:18,784 --> 00:00:23,535
+environmental, socioeconomic and genomic information.
+
+6
+00:00:23,535 --> 00:00:27,095
+Behavioral data is largely the domain of MHealth,
+
+7
+00:00:27,095 --> 00:00:29,990
+a later topic in this course.
+
+8
+00:00:29,990 --> 00:00:32,779
+Genomic datasets are very large.
+
+9
+00:00:32,779 --> 00:00:36,285
+Current estimates of a single patient's genome are around
+
+10
+00:00:36,285 --> 00:00:42,370
+3,200 megabytes or 3.2 times tenth of a ninth base pairs.
+
+11
+00:00:42,370 --> 00:00:48,195
+As a result, genomic data is unwieldy for direct use in patient care.
+
+12
+00:00:48,195 --> 00:00:51,070
+The goal of the SMART on FHIR genomics effort is to make
+
+13
+00:00:51,070 --> 00:00:54,850
+genomic data usable and useful in patient care.
+
+14
+00:00:54,850 --> 00:00:57,260
+Among other things, it is defining
+
+15
+00:00:57,260 --> 00:01:02,710
+a new FHIR sequence resource that contains the most clinically relevant data,
+
+16
+00:01:02,710 --> 00:01:04,925
+as shown in part here.
+
+17
+00:01:04,925 --> 00:01:10,920
+It is also developing SMART apps that can present that data to clinicians in useful ways.
+
+18
+00:01:10,920 --> 00:01:14,115
+Given the complexity of genomic data,
+
+19
+00:01:14,115 --> 00:01:16,830
+it should not be surprising that this is perhaps
+
+20
+00:01:16,830 --> 00:01:20,660
+the most complex FHIR resource yet specified.
+
+21
+00:01:20,660 --> 00:01:24,192
+A specification includes instructions,
+
+22
+00:01:24,192 --> 00:01:25,590
+such as are shown here,
+
+23
+00:01:25,590 --> 00:01:29,940
+that explain how to document single nucleotide polymorphisms,
+
+24
+00:01:29,940 --> 00:01:36,180
+SNP or SNPs, the most common type of genetic variation among people.
+
+25
+00:01:36,180 --> 00:01:43,135
+Each SNP represents a difference in a single DNA building block called a nucleotide.
+
+26
+00:01:43,135 --> 00:01:47,970
+For example, here the nucleotide thymine or T in
+
+27
+00:01:47,970 --> 00:01:54,600
+the observed sequence replaces the nucleotide guanine or G in the reference sequence.
+
+28
+00:01:54,600 --> 00:01:59,379
+Here you see how to document that substitution in the sequence resource.
+
+29
+00:01:59,379 --> 00:02:03,750
+Apps could access FHIR genomic resources from the HRs,
+
+30
+00:02:03,750 --> 00:02:09,460
+from genomic data repositories or specialized sequencing systems.
+
+31
+00:02:09,460 --> 00:02:12,650
+The key effort for a data provider is implementation of
+
+32
+00:02:12,650 --> 00:02:16,340
+a SMART on FHIR genomics data adapter which
+
+33
+00:02:16,340 --> 00:02:19,580
+creates a binding to convert between the standard SMART on
+
+34
+00:02:19,580 --> 00:02:23,915
+FHIR genomics format and the provider's native format.
+
+35
+00:02:23,915 --> 00:02:27,185
+KRAS is an oncogene that when mutated
+
+36
+00:02:27,185 --> 00:02:31,655
+has the potential to cause normal cells to become cancerous.
+
+37
+00:02:31,655 --> 00:02:33,860
+In this early example,
+
+38
+00:02:33,860 --> 00:02:39,323
+Vanderbilt School of Medicine's prototype SMART precision cancer medicine act
+
+39
+00:02:39,323 --> 00:02:42,770
+usefully presents genomic information in real time,
+
+40
+00:02:42,770 --> 00:02:46,730
+comparing a cancer patient's diagnosis specific detected
+
+41
+00:02:46,730 --> 00:02:52,130
+gene mutations to a comparable population of cancer patients.
+
+42
+00:02:52,130 --> 00:02:55,040
+It should be clear to you how the sequence resource we
+
+43
+00:02:55,040 --> 00:02:58,630
+just discussed would support an app such-

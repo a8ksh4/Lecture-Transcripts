@@ -1,0 +1,51 @@
+1
+00:00:00,000 --> 00:00:01,920
+Before we move on,
+
+2
+00:00:01,920 --> 00:00:07,315
+I need to clarify the difference between an electronic health record (or E.H.R.),
+
+3
+00:00:07,315 --> 00:00:11,305
+and an electronic medical record, or EMR.
+
+4
+00:00:11,305 --> 00:00:14,210
+EMRs, as the name implies,
+
+5
+00:00:14,210 --> 00:00:16,520
+are usually the digital records of a patient as
+
+6
+00:00:16,520 --> 00:00:19,940
+recorded by one or more of their providers.
+
+7
+00:00:19,940 --> 00:00:23,580
+Historically, that was the focus of electronic records.
+
+8
+00:00:23,580 --> 00:00:28,645
+An electronic health record is a complete record of a patient's health.
+
+9
+00:00:28,645 --> 00:00:32,755
+Today with the advent of the Internet, mobile apps,
+
+10
+00:00:32,755 --> 00:00:36,875
+wearable measurement technologies, and even social networking,
+
+11
+00:00:36,875 --> 00:00:40,150
+a complete patient view requires interoperability,
+
+12
+00:00:40,150 --> 00:00:42,220
+so that all their records from all of
+
+13
+00:00:42,220 --> 00:00:45,660
+their providers are combined with data from these other sources.

@@ -1,0 +1,467 @@
+1
+00:00:00,000 --> 00:00:02,940
+>>Hi I'm Paula Braun. I'm an entrepreneur in
+
+2
+00:00:02,940 --> 00:00:07,200
+residence with the Centers for Disease Control and Prevention.
+
+3
+00:00:07,200 --> 00:00:08,325
+>>Hi. I'm Tate Gilchrist.
+
+4
+00:00:08,325 --> 00:00:12,255
+I'm a senior business developer at Cerner Corporation out of Kansas City, Missouri.
+
+5
+00:00:12,255 --> 00:00:16,470
+>>Tate, could you give us a high level overview of Cerner's history and current business?
+
+6
+00:00:16,470 --> 00:00:20,355
+>>Sure, Sure. So, Cerner was started several decades ago
+
+7
+00:00:20,355 --> 00:00:22,620
+by three very visionary gentlemen
+
+8
+00:00:22,620 --> 00:00:25,230
+sitting at a picnic table in North Kansas City, Missouri.
+
+9
+00:00:25,230 --> 00:00:28,830
+We've grown from that time in very humble roots into
+
+10
+00:00:28,830 --> 00:00:34,080
+a global healthcare information technology company in numerous countries the Middle East,
+
+11
+00:00:34,080 --> 00:00:37,110
+Australia, the UK, all over the United States,
+
+12
+00:00:37,110 --> 00:00:39,240
+Canada and we use a variety of
+
+13
+00:00:39,240 --> 00:00:42,675
+technologies to serve the healthcare systems that we support.
+
+14
+00:00:42,675 --> 00:00:46,335
+Cloud-based technologies such as SMART on FHIR,
+
+15
+00:00:46,335 --> 00:00:49,080
+population health cloud based technologies.
+
+16
+00:00:49,080 --> 00:00:55,290
+Cerner's committed a substantial amount of money to R&D every year and we do this in
+
+17
+00:00:55,290 --> 00:00:58,450
+an effort to really drive the innovation for
+
+18
+00:00:58,450 --> 00:01:02,525
+that's going to be needed to support the health of patients across the globe.
+
+19
+00:01:02,525 --> 00:01:06,360
+>>Great. And Cerner was one of the first to support SMART as
+
+20
+00:01:06,360 --> 00:01:12,000
+a platform for allowing third party developers to contribute to your ecosystem.
+
+21
+00:01:12,000 --> 00:01:12,150
+>>Yeah.
+
+22
+00:01:12,150 --> 00:01:15,140
+>>Can you share some insight and why you did that?
+
+23
+00:01:15,140 --> 00:01:17,365
+>>Yeah, again and I think it comes back to, you know,
+
+24
+00:01:17,365 --> 00:01:20,770
+the three gentlemen that I spoke of our founders
+
+25
+00:01:20,770 --> 00:01:27,330
+so very visionary individuals and they recognize that the way that we're currently
+
+26
+00:01:27,330 --> 00:01:29,970
+doing business and the way that the market is currently set
+
+27
+00:01:29,970 --> 00:01:33,579
+up is really not sustainable if we're going to achieve
+
+28
+00:01:33,579 --> 00:01:36,870
+the things that we want to achieve and so they
+
+29
+00:01:36,870 --> 00:01:40,779
+decided that we needed to pursue being an open platform company.
+
+30
+00:01:40,779 --> 00:01:43,185
+Taking the vast amounts of data that
+
+31
+00:01:43,185 --> 00:01:47,190
+our clients are generating and the patients are generating when they're
+
+32
+00:01:47,190 --> 00:01:50,705
+using our core EMR and through the use of APIs
+
+33
+00:01:50,705 --> 00:01:54,660
+to be able to open it up so that third party developers can come in with
+
+34
+00:01:54,660 --> 00:01:57,150
+these brilliant ideas that maybe we hadn't even
+
+35
+00:01:57,150 --> 00:02:00,150
+thought of or maybe we just hadn't gotten around to thinking
+
+36
+00:02:00,150 --> 00:02:04,770
+of yet and be going to take them and give them the tools to come in and take
+
+37
+00:02:04,770 --> 00:02:07,620
+their application and put it inside of our EMR so that
+
+38
+00:02:07,620 --> 00:02:10,590
+our providers and for the patients themselves can use too.
+
+39
+00:02:10,590 --> 00:02:14,190
+It's a very, very exciting time in our company's history and I'm very,
+
+40
+00:02:14,190 --> 00:02:16,615
+very happy to be a part of it.
+
+41
+00:02:16,615 --> 00:02:23,190
+>>Great. Now some have commented that SMART on FHIR is an academic exercise.
+
+42
+00:02:23,190 --> 00:02:25,510
+What's your take on that from your perspective at Cerner?
+
+43
+00:02:25,510 --> 00:02:28,170
+>>No longer an academic exercise, you know.
+
+44
+00:02:28,170 --> 00:02:30,630
+Cerner has been working with Argonaut group.
+
+45
+00:02:30,630 --> 00:02:33,870
+And others for several years now and SMART on FHIR.
+
+46
+00:02:33,870 --> 00:02:36,270
+And ah, it's, it's real now,
+
+47
+00:02:36,270 --> 00:02:39,390
+so we have some actual app usage.
+
+48
+00:02:39,390 --> 00:02:42,570
+We have numerous clients that have deployed the API,
+
+49
+00:02:42,570 --> 00:02:44,730
+that have built their own applications.
+
+50
+00:02:44,730 --> 00:02:47,400
+We have clients that have taken applications
+
+51
+00:02:47,400 --> 00:02:50,250
+from third party vendors that have used our tools,
+
+52
+00:02:50,250 --> 00:02:52,740
+that we have openly available to anyone,
+
+53
+00:02:52,740 --> 00:02:55,020
+even our competitors to be able to use
+
+54
+00:02:55,020 --> 00:02:57,810
+and have taken those applications and put them into
+
+55
+00:02:57,810 --> 00:03:00,600
+their production environments and were even started
+
+56
+00:03:00,600 --> 00:03:03,785
+seeing some early outcomes out of the use of those apps.
+
+57
+00:03:03,785 --> 00:03:05,340
+So while it's true,
+
+58
+00:03:05,340 --> 00:03:07,650
+it is very, very earl, we're very,
+
+59
+00:03:07,650 --> 00:03:10,110
+very excited about the progress that's been made and
+
+60
+00:03:10,110 --> 00:03:13,230
+the exponential growth curve is really starting to ramp up.
+
+61
+00:03:13,230 --> 00:03:16,345
+So we're very excited to see what the future will hold.
+
+62
+00:03:16,345 --> 00:03:22,855
+>>Surveys of physicians show that using electronic medical records can be inefficient.
+
+63
+00:03:22,855 --> 00:03:26,410
+What role do you think that apps can play in this?
+
+64
+00:03:26,410 --> 00:03:28,874
+>>Well, I think one of the great hopes with SMART on
+
+65
+00:03:28,874 --> 00:03:32,955
+FHIR app is that this is really an opportunity for us to
+
+66
+00:03:32,955 --> 00:03:35,610
+fully engage the physician in
+
+67
+00:03:35,610 --> 00:03:40,230
+the workflow process and in some cases in the app development process.
+
+68
+00:03:40,230 --> 00:03:45,720
+We've got numerous examples now of companies and of individuals that
+
+69
+00:03:45,720 --> 00:03:48,750
+have almost taken the classical example
+
+70
+00:03:48,750 --> 00:03:51,750
+of medicine so the bench to bedside approach, right?
+
+71
+00:03:51,750 --> 00:03:58,000
+A drug or device would have to go through a clinical vetting process, a study, etc.
+
+72
+00:03:58,000 --> 00:04:02,005
+Healthcare Information Technology is typically not that way but with SMART on FHIR,
+
+73
+00:04:02,005 --> 00:04:06,225
+we can have innovative developers and innovative individuals that can take
+
+74
+00:04:06,225 --> 00:04:09,030
+clinically vetted content that is specific to
+
+75
+00:04:09,030 --> 00:04:13,390
+the physician and can now take that and put that in the physician's workflow.
+
+76
+00:04:13,390 --> 00:04:16,845
+The hope is that, by using that,
+
+77
+00:04:16,845 --> 00:04:18,420
+that would advance patient care,
+
+78
+00:04:18,420 --> 00:04:23,860
+increase physician satisfaction and a rising tide is going to lift all boats.
+
+79
+00:04:23,860 --> 00:04:27,750
+>>Cerner has also announced that it will be supporting CDS Hooks.
+
+80
+00:04:27,750 --> 00:04:30,270
+How do you think that that will help with
+
+81
+00:04:30,270 --> 00:04:33,860
+the further adoption of clinical decision support tools?
+
+82
+00:04:33,860 --> 00:04:35,100
+>>Well, CDS Hooks is very,
+
+83
+00:04:35,100 --> 00:04:38,370
+very exciting and we have a numerous number of developers that are
+
+84
+00:04:38,370 --> 00:04:41,940
+anxiously awaiting our ability to be able to deploy it for their use.
+
+85
+00:04:41,940 --> 00:04:44,720
+From a broad concept, you know,
+
+86
+00:04:44,720 --> 00:04:48,765
+a provider doesn't want to have to do another click to invoke an app.
+
+87
+00:04:48,765 --> 00:04:51,960
+With CDS Hooks, the hope is not only will in
+
+88
+00:04:51,960 --> 00:04:55,995
+response to say a clinical event or an open chart or something of that nature,
+
+89
+00:04:55,995 --> 00:04:58,500
+that a SMART app workflow can be kicked off.
+
+90
+00:04:58,500 --> 00:05:02,690
+But the notion of having CDS Hooks available as a tool for
+
+91
+00:05:02,690 --> 00:05:06,830
+a developer will pull in all of these CDS specific content,
+
+92
+00:05:06,830 --> 00:05:09,230
+companies that can create innovative apps,
+
+93
+00:05:09,230 --> 00:05:13,850
+lift patient care, and produce superior outcomes.
+
+94
+00:05:13,850 --> 00:05:20,685
+>>Where do you feel that EHR's with an app platform will take us in the coming years?
+
+95
+00:05:20,685 --> 00:05:23,060
+>>Well, that's a pretty big question.
+
+96
+00:05:23,060 --> 00:05:26,660
+I mean, I think that we know we've made great progress but if we
+
+97
+00:05:26,660 --> 00:05:30,290
+are truly to look at the promise of FHIR and the use of
+
+98
+00:05:30,290 --> 00:05:34,310
+open standards and the notion of the EMR as
+
+99
+00:05:34,310 --> 00:05:38,930
+essentially on a platform much like an iPhone or Android device.
+
+100
+00:05:38,930 --> 00:05:42,032
+The possibilities really if you think about them are endless,
+
+101
+00:05:42,032 --> 00:05:43,625
+but if I'm really to see,
+
+102
+00:05:43,625 --> 00:05:46,790
+to see into the future and see what I think that
+
+103
+00:05:46,790 --> 00:05:50,825
+potentially could be the grand vision of things.
+
+104
+00:05:50,825 --> 00:05:56,870
+The notion of the patient having access to their own data to be able to try
+
+105
+00:05:56,870 --> 00:05:59,805
+these multitude of consumer apps that these
+
+106
+00:05:59,805 --> 00:06:03,110
+thousands of consumer apps that are out there for chronic care,
+
+107
+00:06:03,110 --> 00:06:06,152
+whether it's diabetes, congestive heart failure, etc.,
+
+108
+00:06:06,152 --> 00:06:09,530
+we need FHIR and we need a robust ecosystem and
+
+109
+00:06:09,530 --> 00:06:13,460
+a platform to be able to allow developers to be able to build that.
+
+110
+00:06:13,460 --> 00:06:16,490
+Secondly, the notion of being able to feed data to
+
+111
+00:06:16,490 --> 00:06:22,130
+the research community so the notion of FHIR bundles being able to push data out.
+
+112
+00:06:22,130 --> 00:06:23,540
+So, in that situation,
+
+113
+00:06:23,540 --> 00:06:26,180
+you're not looking at FHIR as merely a tool to
+
+114
+00:06:26,180 --> 00:06:29,270
+live in operability but to really lift medicine,
+
+115
+00:06:29,270 --> 00:06:35,730
+as a whole, and drive the health of patients and really human beings in general forward.
+
+116
+00:06:35,730 --> 00:06:37,040
+>>Thank you so much.
+
+117
+00:06:37,040 --> 00:06:37,660
+>>Thank-

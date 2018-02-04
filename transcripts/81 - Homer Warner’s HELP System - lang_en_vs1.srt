@@ -1,0 +1,135 @@
+1
+00:00:00,000 --> 00:00:02,765
+Beginning in the mid 1950s,
+
+2
+00:00:02,765 --> 00:00:06,905
+Dr. Homer Warner, one of the founders of Health Informatics,
+
+3
+00:00:06,905 --> 00:00:09,770
+began using computers for decision support in
+
+4
+00:00:09,770 --> 00:00:15,775
+cardiology at LDS hospital in Salt Lake City, now Intermountain Healthcare.
+
+5
+00:00:15,775 --> 00:00:19,470
+In the 1970s, Dr. Warner and his colleagues
+
+6
+00:00:19,470 --> 00:00:22,560
+created the Health Evolution through Logic Processing,
+
+7
+00:00:22,560 --> 00:00:24,510
+or HELP system, one of
+
+8
+00:00:24,510 --> 00:00:27,750
+the first electronic medical records systems and
+
+9
+00:00:27,750 --> 00:00:32,190
+perhaps the first designed to assist clinicians in decision making.
+
+10
+00:00:32,190 --> 00:00:34,547
+Intermountain replaced HELP II,
+
+11
+00:00:34,547 --> 00:00:35,985
+the successor to HELP,
+
+12
+00:00:35,985 --> 00:00:39,210
+with the Center system in 2015.
+
+13
+00:00:39,210 --> 00:00:45,745
+Dr. Warner died in 2012 and Intermountain named its research center after him.
+
+14
+00:00:45,745 --> 00:00:49,605
+The American Medical Informatics Association, or AMIA,
+
+15
+00:00:49,605 --> 00:00:55,595
+awards a cash prize in Dr. Warner's honor each year at its annual symposium.
+
+16
+00:00:55,595 --> 00:00:56,970
+You can see here that
+
+17
+00:00:56,970 --> 00:01:01,350
+the HELP system's knowledge based decision processor received data from
+
+18
+00:01:01,350 --> 00:01:03,870
+virtually all areas of the hospital to
+
+19
+00:01:03,870 --> 00:01:07,800
+provide a variety of clinical decision support tools.
+
+20
+00:01:07,800 --> 00:01:10,350
+Expert panels organized much of
+
+21
+00:01:10,350 --> 00:01:15,287
+the clinical knowledge and an early example of knowledge engineering.
+
+22
+00:01:15,287 --> 00:01:17,180
+In fact, in 1997,
+
+23
+00:01:17,180 --> 00:01:18,950
+Dr. Warner published the book,
+
+24
+00:01:18,950 --> 00:01:21,765
+Knowledge Engineering and Health Informatics.
+
+25
+00:01:21,765 --> 00:01:24,640
+Here in a diagram from that book,
+
+26
+00:01:24,640 --> 00:01:28,850
+you can see how clinical findings link to a diagnosis.
+
+27
+00:01:28,850 --> 00:01:32,290
+Note that this includes logical rules stating that if
+
+28
+00:01:32,290 --> 00:01:36,265
+findings A or B and any of the two other four findings are present,
+
+29
+00:01:36,265 --> 00:01:38,815
+the diagnosis is confirmed.
+
+30
+00:01:38,815 --> 00:01:44,590
+Here you see that HELP uses bayesian statistics to relate findings to diagnoses.
+
+31
+00:01:44,590 --> 00:01:48,300
+Note here in this system diagram we saw earlier,
+
+32
+00:01:48,300 --> 00:01:52,695
+that HELP included a longitudinal clinical data repository.
+
+33
+00:01:52,695 --> 00:01:54,915
+I doubt that many in the field today
+
+34
+00:01:54,915 --> 00:01:59,000
+realize that such a system was functional that long ago.

@@ -1,0 +1,135 @@
+1
+00:00:00,000 --> 00:00:03,840
+OAuth 2.0 Is a widely used authorization framework
+
+2
+00:00:03,840 --> 00:00:06,765
+that enables web and desktop applications,
+
+3
+00:00:06,765 --> 00:00:10,500
+as well as mobile devices to obtain specified
+
+4
+00:00:10,500 --> 00:00:15,755
+constrained access to user accounts on an HTTP service.
+
+5
+00:00:15,755 --> 00:00:20,310
+OAuth 2.0 defines four roles, resource owner,
+
+6
+00:00:20,310 --> 00:00:27,345
+resource server, authorization server which can be the same as the resource server,
+
+7
+00:00:27,345 --> 00:00:30,065
+client in our case the FHIR app.
+
+8
+00:00:30,065 --> 00:00:33,510
+The resource server host the protected information.
+
+9
+00:00:33,510 --> 00:00:38,150
+The authorization server verifies the identity of the prospective user of
+
+10
+00:00:38,150 --> 00:00:43,260
+that information and then issues access tokens to the application.
+
+11
+00:00:43,260 --> 00:00:45,210
+And OAuth 2.0 scope,
+
+12
+00:00:45,210 --> 00:00:52,245
+specifies the level of access such as read or write that the application is requesting.
+
+13
+00:00:52,245 --> 00:00:54,345
+In the case of SMART on FHIR,
+
+14
+00:00:54,345 --> 00:00:58,650
+the scope might specify what FHIR resources can be accessed for
+
+15
+00:00:58,650 --> 00:01:04,570
+a specified patient and how much of CRUD the app can perform on those resources.
+
+16
+00:01:04,570 --> 00:01:05,970
+In SMART on FHIR,
+
+17
+00:01:05,970 --> 00:01:08,160
+when a EHR user launches an app,
+
+18
+00:01:08,160 --> 00:01:11,640
+he gets a launch request notification,
+
+19
+00:01:11,640 --> 00:01:18,553
+the app asks for the permissions it needs using OAuth scopes such as patient/*.
+
+20
+00:01:18,553 --> 00:01:23,655
+read. In the case of a launch within an EHR charting session,
+
+21
+00:01:23,655 --> 00:01:26,220
+the scope patient/*.read refers to
+
+22
+00:01:26,220 --> 00:01:30,190
+the patient whose chart is in use at the time of the launch.
+
+23
+00:01:30,190 --> 00:01:32,940
+The term for this is in context and
+
+24
+00:01:32,940 --> 00:01:36,540
+this request only makes sense within a charting session.
+
+25
+00:01:36,540 --> 00:01:41,335
+The app does not yet know who that patient is when it requests the scope,
+
+26
+00:01:41,335 --> 00:01:44,720
+it learns that from the access token response where
+
+27
+00:01:44,720 --> 00:01:49,045
+the patient property will provide the FHIR patient resource ID.
+
+28
+00:01:49,045 --> 00:01:55,245
+These so called launch parameters are an extremely important capability of SMART on FHIR.
+
+29
+00:01:55,245 --> 00:01:58,850
+As you know, tools such as clinical decision support have
+
+30
+00:01:58,850 --> 00:02:03,280
+existed for decades but have not found wide use.
+
+31
+00:02:03,280 --> 00:02:04,730
+To coin a small pun,
+
+32
+00:02:04,730 --> 00:02:09,000
+providing this context literally allows the app to be smarter.
+
+33
+00:02:09,000 --> 00:02:11,390
+Avoiding work for its clinical user and
+
+34
+00:02:11,390 --> 00:02:14,050
+thereby increasing the attractiveness of using the app.

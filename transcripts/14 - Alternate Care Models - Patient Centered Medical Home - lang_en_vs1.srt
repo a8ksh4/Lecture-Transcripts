@@ -1,0 +1,127 @@
+1
+00:00:00,000 --> 00:00:05,580
+A large part of Kaiser's success is because it's concentrated in
+
+2
+00:00:05,580 --> 00:00:10,920
+a few areas where it has the market presence to own and operate all,
+
+3
+00:00:10,920 --> 00:00:15,075
+or most of its facilities and employ its physicians.
+
+4
+00:00:15,075 --> 00:00:21,165
+Can smaller care organizations deliver the kind of care that Kaiser provides?
+
+5
+00:00:21,165 --> 00:00:24,660
+Many feel the patient-centered medical home,
+
+6
+00:00:24,660 --> 00:00:27,640
+or PCMH, provides for this.
+
+7
+00:00:27,640 --> 00:00:32,555
+The concept dates to the early 1960s.
+
+8
+00:00:32,555 --> 00:00:36,145
+In fact, I worked in an early example of the PCMH,
+
+9
+00:00:36,145 --> 00:00:38,020
+where I oversaw the development of one of
+
+10
+00:00:38,020 --> 00:00:42,945
+the first electronic medical records systems starting around 1970.
+
+11
+00:00:42,945 --> 00:00:48,409
+The PCMH model is advocated by the American College of Physicians,
+
+12
+00:00:48,409 --> 00:00:55,445
+or ACP, which is the professional organization for internal medicine doctors.
+
+13
+00:00:55,445 --> 00:00:59,663
+It's also supported by the American Academy of Family Physicians,
+
+14
+00:00:59,663 --> 00:01:06,230
+or AAFP, the other large professional association of primary care physicians.
+
+15
+00:01:06,230 --> 00:01:08,580
+This is because their members are the doctors on
+
+16
+00:01:08,580 --> 00:01:12,335
+the front lines of managing chronic disease.
+
+17
+00:01:12,335 --> 00:01:16,175
+The ACP describes the PCMH as,
+
+18
+00:01:16,175 --> 00:01:20,810
+"A care delivery model whereby patient treatment is coordinated through
+
+19
+00:01:20,810 --> 00:01:23,930
+their primary care physician to ensure they
+
+20
+00:01:23,930 --> 00:01:27,485
+receive the necessary care when and where they need it,
+
+21
+00:01:27,485 --> 00:01:29,535
+in a manner they can understand."
+
+22
+00:01:29,535 --> 00:01:32,930
+The objective is to have a centralized setting that facilitates
+
+23
+00:01:32,930 --> 00:01:37,700
+partnerships between individual patients and their personal physicians,
+
+24
+00:01:37,700 --> 00:01:41,080
+and when appropriate, for patients' family.
+
+25
+00:01:41,080 --> 00:01:44,250
+Care is facilitated by registries,
+
+26
+00:01:44,250 --> 00:01:49,080
+information technology, health information exchange,
+
+27
+00:01:49,080 --> 00:01:52,800
+and other means to assure that patients get the indicated care,
+
+28
+00:01:52,800 --> 00:01:55,230
+when and where they need and want it
+
+29
+00:01:55,230 --> 00:01:59,080
+in a culturally and linguistically appropriate manner.
+
+30
+00:01:59,080 --> 00:02:02,025
+Note again, in this graphic from the AAFP,
+
+31
+00:02:02,025 --> 00:02:04,800
+the emphasis is on providing all needed
+
+32
+00:02:04,800 --> 00:02:10,090
+care and using information technology to manage that.

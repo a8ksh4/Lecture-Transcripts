@@ -1,0 +1,135 @@
+1
+00:00:00,790 --> 00:00:03,860
+Now that you've met Dr. Sun,
+
+2
+00:00:03,860 --> 00:00:07,915
+we will discuss one of his projects in more detail.
+
+3
+00:00:07,915 --> 00:00:11,875
+I appreciate his permission to use the graphics.
+
+4
+00:00:11,875 --> 00:00:15,955
+Children with complex chronic conditions accounted for
+
+5
+00:00:15,955 --> 00:00:20,685
+10.1% of pediatric admissions in 2006.
+
+6
+00:00:20,685 --> 00:00:27,060
+These admissions used around 25% of the pediatric hospital days,
+
+7
+00:00:27,060 --> 00:00:32,120
+accounted for some 40% of pediatric hospital charges,
+
+8
+00:00:32,120 --> 00:00:36,150
+caused over 40% of pediatric deaths,
+
+9
+00:00:36,150 --> 00:00:42,205
+and used 75% or more of technology assistance procedures.
+
+10
+00:00:42,205 --> 00:00:46,705
+Given the seriousness, and cost of care for these children,
+
+11
+00:00:46,705 --> 00:00:53,416
+understanding them and predicting changes in their condition is of great interest.
+
+12
+00:00:53,416 --> 00:00:57,180
+Here's an analytic pipeline for doing that.
+
+13
+00:00:57,180 --> 00:01:01,695
+First, we will focus on the feature construction phase.
+
+14
+00:01:01,695 --> 00:01:06,268
+Clinical classifications software CCS,
+
+15
+00:01:06,268 --> 00:01:10,330
+is a tool for clustering patient diagnoses and
+
+16
+00:01:10,330 --> 00:01:16,210
+procedures into a manageable number of clinically meaningful categories.
+
+17
+00:01:16,210 --> 00:01:23,770
+Here you see mapping the many ICD and CPT codes from EHR records to CCS.
+
+18
+00:01:23,770 --> 00:01:28,220
+As you see here 73 of
+
+19
+00:01:28,220 --> 00:01:34,815
+the CCS features have sufficient predictive power to be included in the final model.
+
+20
+00:01:34,815 --> 00:01:38,410
+Various approaches to prediction are tried,
+
+21
+00:01:38,410 --> 00:01:44,160
+and two random forest and gradient boost decision tree
+
+22
+00:01:44,160 --> 00:01:48,130
+produce the best results as you see here.
+
+23
+00:01:48,130 --> 00:01:51,860
+Random forest depends on the random selection of
+
+24
+00:01:51,860 --> 00:01:57,805
+both data and independent variables to create many decision trees.
+
+25
+00:01:57,805 --> 00:02:03,455
+The output is the mode or mean prediction of the individual trees.
+
+26
+00:02:03,455 --> 00:02:10,320
+Gradient boosting is a machine learning technique that produces a prediction model using
+
+27
+00:02:10,320 --> 00:02:17,395
+regression on an ensemble of weak prediction models, typically decision trees.
+
+28
+00:02:17,395 --> 00:02:22,735
+The graph is a Receiver Operating Characteristic (ROC) curve,
+
+29
+00:02:22,735 --> 00:02:25,330
+where each point represents
+
+30
+00:02:25,330 --> 00:02:32,604
+a sensitivity specificity pair corresponding to a particular decision threshold.
+
+31
+00:02:32,604 --> 00:02:34,785
+The area under the curve auc,
+
+32
+00:02:34,785 --> 00:02:38,440
+is equal to the probability that
+
+33
+00:02:38,440 --> 00:02:43,060
+a classifier will rank a randomly chosen positive instance,
+
+34
+00:02:43,060 --> 00:02:47,000
+higher than a randomly chosen negative one.

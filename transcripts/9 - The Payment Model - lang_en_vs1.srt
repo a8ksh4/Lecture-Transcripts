@@ -1,0 +1,67 @@
+1
+00:00:00,000 --> 00:00:02,205
+Prior to World War II,
+
+2
+00:00:02,205 --> 00:00:07,485
+U.S. patients paid for most healthcare which was relatively inexpensive,
+
+3
+00:00:07,485 --> 00:00:11,415
+until the beginning of high tech medicine in the 1970s.
+
+4
+00:00:11,415 --> 00:00:15,030
+After the war, the U.S. economy experienced
+
+5
+00:00:15,030 --> 00:00:20,075
+explosive growth and employers were competing for workers.
+
+6
+00:00:20,075 --> 00:00:25,195
+Health insurance became an attractive but inexpensive employee benefit.
+
+7
+00:00:25,195 --> 00:00:26,990
+In the early 1960's,
+
+8
+00:00:26,990 --> 00:00:30,680
+the Federal Government created two major new health insurance programs,
+
+9
+00:00:30,680 --> 00:00:34,340
+Medicare for citizens over 65 and
+
+10
+00:00:34,340 --> 00:00:39,620
+Medicaid primarily for the poor and those with certain disabilities.
+
+11
+00:00:39,620 --> 00:00:42,770
+This graphic from the California Health Care Foundation,
+
+12
+00:00:42,770 --> 00:00:46,420
+shows our complex mixture of payment sources,
+
+13
+00:00:46,420 --> 00:00:50,540
+the contributions of which vary with the kind of care.
+
+14
+00:00:50,540 --> 00:00:57,210
+Until quite recently, most payments for health care services were pay for procedures,
+
+15
+00:00:57,210 --> 00:00:59,245
+where in simple terms,
+
+16
+00:00:59,245 --> 00:01:02,720
+individual providers and hospitals are paid,
+
+17
+00:01:02,720 --> 00:01:05,230
+on the basis of how much care they deliver.

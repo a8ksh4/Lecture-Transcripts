@@ -1,0 +1,871 @@
+1
+00:00:05,070 --> 00:00:07,725
+Sure. I'm Jason Zutty.
+
+2
+00:00:07,725 --> 00:00:08,970
+I'm a research engineer at
+
+3
+00:00:08,970 --> 00:00:12,862
+the Georgia Tech Research Institute in the Electro-Optical Systems Lab,
+
+4
+00:00:12,862 --> 00:00:17,665
+and we are working today on a SMART protocol for appendicitis,
+
+5
+00:00:17,665 --> 00:00:21,970
+which is a data-driven approach to guiding a patient through
+
+6
+00:00:21,970 --> 00:00:26,880
+their post-operative care to get them the best outcomes in the shortest length of stay.
+
+7
+00:00:26,880 --> 00:00:33,340
+Correct.
+
+8
+00:00:33,340 --> 00:00:37,430
+There have been several traditional protocols implemented.
+
+9
+00:00:37,430 --> 00:00:41,120
+They've been kind of expert guided so doctors will sit around the room and
+
+10
+00:00:41,120 --> 00:00:45,460
+kind of decide the key decision points in a patient's care.
+
+11
+00:00:45,460 --> 00:00:49,558
+Our approach is to be data-driven and patient-specific so
+
+12
+00:00:49,558 --> 00:00:53,800
+you'll be guided through care similar to patients,
+
+13
+00:00:53,800 --> 00:00:56,100
+most similar to you.
+
+14
+00:00:56,100 --> 00:00:58,225
+So, if anyone had good results,
+
+15
+00:00:58,225 --> 00:01:01,310
+it'll kind of guide yours and the protocol will continue to
+
+16
+00:01:01,310 --> 00:01:05,330
+evolve as more data is taken in the hospital setting.
+
+17
+00:01:05,330 --> 00:01:12,420
+Purpose of the SMART protocol
+
+18
+00:01:12,420 --> 00:01:14,915
+is to standardize care so we're looking for
+
+19
+00:01:14,915 --> 00:01:18,575
+a disease or surgery that affects as many children as possible,
+
+20
+00:01:18,575 --> 00:01:21,089
+and is fairly regular and easy to standardize.
+
+21
+00:01:21,089 --> 00:01:24,714
+So appendicitis affects over 80,000 children a year,
+
+22
+00:01:24,714 --> 00:01:27,410
+and we've been working with Children's Healthcare of Atlanta,
+
+23
+00:01:27,410 --> 00:01:31,735
+which has a data set of roughly 1,200 appendectomies performed every year.
+
+24
+00:01:31,735 --> 00:01:38,350
+So that's a good big data area to look at and it's a fairly standard thing to care for.
+
+25
+00:01:38,350 --> 00:01:44,530
+Yes.
+
+26
+00:01:44,530 --> 00:01:48,505
+We're looking at complicated appendicitis or perforated appendicitis,
+
+27
+00:01:48,505 --> 00:01:50,470
+which occurs in about 40 percent of
+
+28
+00:01:50,470 --> 00:01:54,820
+the appendicitis surgeries that are happening at CHOA.
+
+29
+00:01:54,820 --> 00:01:58,460
+We're looking at this in particular because they have a much higher rate of
+
+30
+00:01:58,460 --> 00:02:01,640
+negative outcomes and a longer hospital stay,
+
+31
+00:02:01,640 --> 00:02:04,520
+which are both opportunities for quality improvement,
+
+32
+00:02:04,520 --> 00:02:06,995
+improving the negative outcomes,
+
+33
+00:02:06,995 --> 00:02:08,971
+and reducing the length of stay.
+
+34
+00:02:08,971 --> 00:02:14,625
+The reason that this is the case is because we find that wound in infection, sorry,
+
+35
+00:02:14,625 --> 00:02:18,650
+wound infection and abscess rates occur at about 5-25 percent
+
+36
+00:02:18,650 --> 00:02:22,505
+depending on the patient and readmission rates are approaching 15 percent,
+
+37
+00:02:22,505 --> 00:02:25,030
+for perforated appendicitis care.
+
+38
+00:02:25,030 --> 00:02:29,540
+And we find that there's lots of variation that can be standardized,
+
+39
+00:02:29,540 --> 00:02:32,090
+from the use of diagnostic imaging,
+
+40
+00:02:32,090 --> 00:02:37,280
+to laboratory tests all the way to which kinds of catheters are used,
+
+41
+00:02:37,280 --> 00:02:40,181
+in all sorts of components of their care.
+
+42
+00:02:40,181 --> 00:02:42,125
+So the goal is to standardize those,
+
+43
+00:02:42,125 --> 00:02:45,705
+and get the patient out as fast as possible without,
+
+44
+00:02:45,705 --> 00:02:51,670
+well while reducing the risk of readmission rates.
+
+45
+00:02:53,330 --> 00:03:00,428
+So the data sources we're using are approximately, or exactly,
+
+46
+00:03:00,428 --> 00:03:03,085
+we're using six years of data from CHOA,
+
+47
+00:03:03,085 --> 00:03:10,645
+From 2009-2014, that have been collected and disseminated to us directly from CHOA.
+
+48
+00:03:10,645 --> 00:03:12,565
+It comes from two different locations,
+
+49
+00:03:12,565 --> 00:03:14,695
+which is Egleston and Scottish Rite,
+
+50
+00:03:14,695 --> 00:03:17,710
+two CHOA campuses in Atlanta.
+
+51
+00:03:17,710 --> 00:03:21,760
+And we have more than 120 what we call features,
+
+52
+00:03:21,760 --> 00:03:26,935
+collected from pre-intra and post-operative care.
+
+53
+00:03:26,935 --> 00:03:28,940
+From that data set,
+
+54
+00:03:28,940 --> 00:03:32,875
+we're trying to identify the negative outcomes,
+
+55
+00:03:32,875 --> 00:03:37,250
+which we have defined to be an occurrence of a UTI,
+
+56
+00:03:37,250 --> 00:03:40,840
+sepsis, deep organ space SSI,
+
+57
+00:03:40,840 --> 00:03:44,990
+superficial SSI or pneumonia.
+
+58
+00:03:44,990 --> 00:03:49,900
+Whether or not if a follow up procedure was performed,
+
+59
+00:03:49,900 --> 00:03:52,130
+which we call a re-operation,
+
+60
+00:03:52,130 --> 00:03:55,450
+if the patient returned to the emergency room after discharge,
+
+61
+00:03:55,450 --> 00:03:57,743
+which is also call a return to the system,
+
+62
+00:03:57,743 --> 00:04:00,010
+and if the patient was readmitted to the hospital,
+
+63
+00:04:00,010 --> 00:04:02,080
+which is your readmission.
+
+64
+00:04:02,080 --> 00:04:05,230
+From our entire cohort,
+
+65
+00:04:05,230 --> 00:04:09,080
+we had about 6,000 appendectomy cases which
+
+66
+00:04:09,080 --> 00:04:14,695
+3,000 by our definition were deemed to be complicated or perforated,
+
+67
+00:04:14,695 --> 00:04:19,690
+which we used a metric of how long they stay in the hospital to identify that,
+
+68
+00:04:19,690 --> 00:04:21,145
+which was greater than two days,
+
+69
+00:04:21,145 --> 00:04:23,160
+which is a standard approach.
+
+70
+00:04:23,160 --> 00:04:27,193
+And of the 3000 cases that were perforated,
+
+71
+00:04:27,193 --> 00:04:35,470
+we had 705 examples of negative outcomes for the perforated cases.
+
+72
+00:04:36,590 --> 00:04:41,905
+We are using machine learning.
+
+73
+00:04:41,905 --> 00:04:45,415
+There's a reason where there's a little story here,
+
+74
+00:04:45,415 --> 00:04:51,250
+which is we started with the idea of being able to find all these key decision points,
+
+75
+00:04:51,250 --> 00:04:53,035
+in their care protocol.
+
+76
+00:04:53,035 --> 00:04:56,140
+But the problem is, the resolution of our data.
+
+77
+00:04:56,140 --> 00:05:00,055
+You don't have necessarily the points we need.
+
+78
+00:05:00,055 --> 00:05:02,440
+What we want to be able to do is
+
+79
+00:05:02,440 --> 00:05:05,260
+say when their daily temperature reaches a certain amount
+
+80
+00:05:05,260 --> 00:05:07,360
+or falls below you know when they haven't had a fever for
+
+81
+00:05:07,360 --> 00:05:10,745
+a day and they're tolerating a good diet and all,
+
+82
+00:05:10,745 --> 00:05:13,160
+and you know we've come up with some metrics discharge.
+
+83
+00:05:13,160 --> 00:05:14,650
+Otherwise, keep them another day.
+
+84
+00:05:14,650 --> 00:05:18,235
+If their white blood cell count falls below this, order this test.
+
+85
+00:05:18,235 --> 00:05:21,490
+Unfortunately, we don't have the kind of AB testing or
+
+86
+00:05:21,490 --> 00:05:26,230
+the resolution and the daily data to be able to identify key points yet.
+
+87
+00:05:26,230 --> 00:05:27,700
+They've started collecting that.
+
+88
+00:05:27,700 --> 00:05:32,005
+In the meantime, the key part of the SMART protocols can be able to kind of
+
+89
+00:05:32,005 --> 00:05:34,540
+predict whether or not they're going to
+
+90
+00:05:34,540 --> 00:05:37,465
+have a negative outcome or what their length of stay is going to be.
+
+91
+00:05:37,465 --> 00:05:38,905
+So, along that vein,
+
+92
+00:05:38,905 --> 00:05:41,830
+we started doing machine learning.
+
+93
+00:05:41,830 --> 00:05:45,400
+The other thing that kind of plays into this is
+
+94
+00:05:45,400 --> 00:05:51,190
+that we have to present it to the user directly so machine learning,
+
+95
+00:05:51,190 --> 00:05:56,155
+we have 120 features collected and we can achieve some pretty good statistics using that.
+
+96
+00:05:56,155 --> 00:05:57,670
+My research, in particular,
+
+97
+00:05:57,670 --> 00:05:59,710
+is in the automated algorithm design,
+
+98
+00:05:59,710 --> 00:06:02,965
+which is combining machine learning techniques together using
+
+99
+00:06:02,965 --> 00:06:06,910
+genetic programming to design all sorts of algorithms pipelines that would
+
+100
+00:06:06,910 --> 00:06:10,540
+help minimize the false negatives and
+
+101
+00:06:10,540 --> 00:06:15,940
+false positives and try and get our best kind of area under the curve that we can.
+
+102
+00:06:15,940 --> 00:06:19,690
+But we can't ask 120 questions to the patient by presenting them with
+
+103
+00:06:19,690 --> 00:06:24,940
+an iPad so we need something that runs fast in
+
+104
+00:06:24,940 --> 00:06:27,240
+between each question and kind of prioritizes
+
+105
+00:06:27,240 --> 00:06:29,692
+the questions so we get the best resolution in to
+
+106
+00:06:29,692 --> 00:06:38,425
+our data without overburdening the particular patient or overgeneralizing the model.
+
+107
+00:06:38,425 --> 00:06:42,610
+We can't run a machine learner in between each question to try and find
+
+108
+00:06:42,610 --> 00:06:45,040
+the next question and things like that so we have to be kind of
+
+109
+00:06:45,040 --> 00:06:47,970
+fast, and we have a lot of data.
+
+110
+00:06:47,970 --> 00:06:53,770
+Instead, we built a collaborative filtering kind of approach or a filtering model,
+
+111
+00:06:53,770 --> 00:06:56,740
+which basically goes through and correlates
+
+112
+00:06:56,740 --> 00:07:01,816
+each feature with whether or not they had a negative outcome,
+
+113
+00:07:01,816 --> 00:07:04,240
+and the most predictive variables are presented as
+
+114
+00:07:04,240 --> 00:07:07,930
+the next question and each time the data is filtered down.
+
+115
+00:07:07,930 --> 00:07:11,790
+So that's the approach we took.
+
+116
+00:07:13,300 --> 00:07:17,524
+The results have been pretty good so far,
+
+117
+00:07:17,524 --> 00:07:19,285
+in terms of the first cut.
+
+118
+00:07:19,285 --> 00:07:21,570
+There's plenty of room for improvement.
+
+119
+00:07:21,570 --> 00:07:26,260
+The data is split by years into training data and validation data.
+
+120
+00:07:26,260 --> 00:07:28,000
+We used four years for training data,
+
+121
+00:07:28,000 --> 00:07:31,000
+which were 2009, 2010, 2012,
+
+122
+00:07:31,000 --> 00:07:36,845
+and 2013 and our validation data was 2011 and 2014.
+
+123
+00:07:36,845 --> 00:07:43,870
+The way we did this was we had the validation data kind of enumerated so each patient in
+
+124
+00:07:43,870 --> 00:07:47,050
+the validation data set kind of would have walked through
+
+125
+00:07:47,050 --> 00:07:51,550
+the predictive model that sits on top of the training data.
+
+126
+00:07:51,550 --> 00:07:54,460
+We found that we had a very very low false positive rate,
+
+127
+00:07:54,460 --> 00:07:58,369
+which corresponds to a 97 percent specificity,
+
+128
+00:07:58,369 --> 00:08:01,883
+but on the flip side of that we had a pretty low sensitivity,
+
+129
+00:08:01,883 --> 00:08:05,175
+or a high false negative rate of about 75 percent.
+
+130
+00:08:05,175 --> 00:08:07,450
+We think this is mainly due to the fact that we kind of lumped
+
+131
+00:08:07,450 --> 00:08:10,570
+all the negative outcomes together for this first pass,
+
+132
+00:08:10,570 --> 00:08:13,330
+which we did because we needed to have a kind of
+
+133
+00:08:13,330 --> 00:08:16,730
+good cohort of what is a negative outcome.
+
+134
+00:08:16,730 --> 00:08:19,510
+If we split up any particular vector at this point,
+
+135
+00:08:19,510 --> 00:08:22,372
+so we're looking at just re-admissions,
+
+136
+00:08:22,372 --> 00:08:25,940
+if we're looking at just signs of infection or sepsis,
+
+137
+00:08:25,940 --> 00:08:28,290
+we found that we didn't have as many negative cases.
+
+138
+00:08:28,290 --> 00:08:30,520
+You need the kind of the predictive power behind it to do
+
+139
+00:08:30,520 --> 00:08:34,050
+a good predictive model so we lumped it all together.
+
+140
+00:08:34,050 --> 00:08:35,450
+As we continue to collect more data,
+
+141
+00:08:35,450 --> 00:08:39,085
+we think that these statistics are going to improve.
+
+142
+00:08:39,085 --> 00:08:42,060
+The positive predictive value or
+
+143
+00:08:42,060 --> 00:08:45,550
+precision was about 58 percent so that your confidence in your prediction.
+
+144
+00:08:45,550 --> 00:08:47,350
+So when you say it's going to be a negative outcome,
+
+145
+00:08:47,350 --> 00:08:49,030
+you're about 60 percent sure,
+
+146
+00:08:49,030 --> 00:08:52,225
+which is better than a coin toss.
+
+147
+00:08:52,225 --> 00:08:54,575
+We also had a very strong negative predictive value,
+
+148
+00:08:54,575 --> 00:08:59,140
+so when we say that it's not going to be a negative outcome,
+
+149
+00:08:59,140 --> 00:09:00,760
+we're 88 percent sure that.
+
+150
+00:09:00,760 --> 00:09:04,770
+This resulted in a model of an overall accuracy of 87 percent.
+
+151
+00:09:04,770 --> 00:09:12,210
+We definitely want to get
+
+152
+00:09:12,210 --> 00:09:15,960
+the app that we've developed so far in the hands of clinicians
+
+153
+00:09:15,960 --> 00:09:20,120
+and families to kind of get some feedback as to how is the interface for it,
+
+154
+00:09:20,120 --> 00:09:22,695
+are the predictions it's giving useful,
+
+155
+00:09:22,695 --> 00:09:26,940
+is the information it's conveying useful as the quality of those predictions?
+
+156
+00:09:26,940 --> 00:09:29,250
+We also want to continue to collect more data,
+
+157
+00:09:29,250 --> 00:09:32,865
+especially some timers all data so get some daily ideas
+
+158
+00:09:32,865 --> 00:09:36,240
+of how well patients are tolerating meals,
+
+159
+00:09:36,240 --> 00:09:40,340
+what the daily maximum temperature is to find if they've become afebrile,
+
+160
+00:09:40,340 --> 00:09:45,090
+which means that their fever has cleared and things like that,
+
+161
+00:09:45,090 --> 00:09:48,360
+which would be helpful in designing the SMART protocol.
+
+162
+00:09:48,360 --> 00:09:52,695
+We also want to explore alternatives to the filtering model or ways to improve it,
+
+163
+00:09:52,695 --> 00:09:57,540
+may be balancing the correlations between the negative outcomes and the length of stay,
+
+164
+00:09:57,540 --> 00:09:59,620
+and things of that nature.
+
+165
+00:09:59,620 --> 00:10:02,430
+We're also kind of looking at this point for extramural funding.
+
+166
+00:10:02,430 --> 00:10:09,200
+Sure.
+
+167
+00:10:09,200 --> 00:10:13,225
+The first part of that is the filtering model that we have behind it.
+
+168
+00:10:13,225 --> 00:10:16,220
+The filtering model is going to be
+
+169
+00:10:16,220 --> 00:10:19,670
+basically trying to minimize the number of questions presented to the user and it
+
+170
+00:10:19,670 --> 00:10:22,820
+does that by asking questions based on which features are
+
+171
+00:10:22,820 --> 00:10:26,535
+most correlated towards negative outcomes for a particular patient.
+
+172
+00:10:26,535 --> 00:10:28,000
+As you go through,
+
+173
+00:10:28,000 --> 00:10:29,990
+if the question has a numeric answer it's going to
+
+174
+00:10:29,990 --> 00:10:32,885
+basically throw out half the data set which is furthest away from
+
+175
+00:10:32,885 --> 00:10:34,855
+the current patient and maintains
+
+176
+00:10:34,855 --> 00:10:38,730
+the cohort patients that are most similar to your answer.
+
+177
+00:10:38,730 --> 00:10:40,745
+If the question is a non-numeric answer,
+
+178
+00:10:40,745 --> 00:10:44,755
+it's going to down select down to the answers that match from the cohort.
+
+179
+00:10:44,755 --> 00:10:50,300
+At any given time, it's going to basically display the statistics
+
+180
+00:10:50,300 --> 00:10:52,970
+for the remaining data and how it splits up
+
+181
+00:10:52,970 --> 00:10:56,050
+based on the future choices that the patient will make.
+
+182
+00:10:56,050 --> 00:11:01,880
+Here's an example of our initial three questions that are presented to the user.
+
+183
+00:11:01,880 --> 00:11:05,990
+These have been shown to have some predictive power but they're also deemed
+
+184
+00:11:05,990 --> 00:11:08,870
+necessary by the medical staff so they're expertly
+
+185
+00:11:08,870 --> 00:11:12,150
+guided questions as data that we need to collect.
+
+186
+00:11:12,150 --> 00:11:14,225
+We prompt with three questions at the beginning,
+
+187
+00:11:14,225 --> 00:11:17,252
+which is how many years old is the patient,
+
+188
+00:11:17,252 --> 00:11:19,455
+how long have they been in the hospital,
+
+189
+00:11:19,455 --> 00:11:21,485
+and what type of appendectomy did they have,
+
+190
+00:11:21,485 --> 00:11:23,590
+being laparoscopic or open?
+
+191
+00:11:23,590 --> 00:11:26,255
+Once they ans- answer those questions,
+
+192
+00:11:26,255 --> 00:11:30,035
+the data will be filtered and
+
+193
+00:11:30,035 --> 00:11:33,710
+the most predictive feature will be identified in the question.
+
+194
+00:11:33,710 --> 00:11:37,980
+Discriminating that feature will then be asked and so if we carry on like this,
+
+195
+00:11:37,980 --> 00:11:39,620
+eventually we'll get something along the lines.
+
+196
+00:11:39,620 --> 00:11:42,585
+What we see here, where
+
+197
+00:11:42,585 --> 00:11:45,950
+we've gone through several questions at this point in our current question is,
+
+198
+00:11:45,950 --> 00:11:51,320
+what antibiotic were they given prior to their surgery?
+
+199
+00:11:51,320 --> 00:11:55,070
+Here, we can see on the top there
+
+200
+00:11:55,070 --> 00:11:59,010
+current kind of cohort based on all the questions that have answered so far,
+
+201
+00:11:59,010 --> 00:12:00,560
+how many patients are similar to them,
+
+202
+00:12:00,560 --> 00:12:01,772
+still in the data set,
+
+203
+00:12:01,772 --> 00:12:04,050
+what's their average length of stay,
+
+204
+00:12:04,050 --> 00:12:06,710
+and what's their probability of a negative outcome?
+
+205
+00:12:06,710 --> 00:12:10,790
+Then we also show right below that kind of the confidence intervals.
+
+206
+00:12:10,790 --> 00:12:13,960
+These are the bounds on a 95 percent confidence interval.
+
+207
+00:12:13,960 --> 00:12:17,120
+The opacity here indicates the tightness of
+
+208
+00:12:17,120 --> 00:12:20,315
+that confidence interval so the tighter the confidence interval
+
+209
+00:12:20,315 --> 00:12:22,700
+the darker the shade of the particular cell,
+
+210
+00:12:22,700 --> 00:12:26,000
+while the color is indicating the performance
+
+211
+00:12:26,000 --> 00:12:29,585
+of a particular choice relative to where you are now.
+
+212
+00:12:29,585 --> 00:12:31,190
+You can see here for example that meropenem
+
+213
+00:12:31,190 --> 00:12:36,170
+has a much higher percentage of negative outcomes so that is going to be
+
+214
+00:12:36,170 --> 00:12:39,770
+a more orange warning sign than
+
+215
+00:12:39,770 --> 00:12:44,990
+the cool blue that indicates everything is getting better or about the same.
+
+216
+00:12:44,990 --> 00:12:47,480
+Here, you can see all the different choices that you can
+
+217
+00:12:47,480 --> 00:12:53,300
+input and how they kind of affect the data behind it.
+
+218
+00:12:55,110 --> 00:12:58,080
+You're welcome. Thanks for having me.

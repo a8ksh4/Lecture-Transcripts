@@ -1,0 +1,67 @@
+1
+00:00:00,000 --> 00:00:02,995
+Data and interoperability standards are
+
+2
+00:00:02,995 --> 00:00:05,380
+the virtually ubiquitous plumbing that underlie
+
+3
+00:00:05,380 --> 00:00:08,905
+most contemporary health informatics systems and tools.
+
+4
+00:00:08,905 --> 00:00:11,395
+Given the complexity of healthcare,
+
+5
+00:00:11,395 --> 00:00:15,275
+it should not be surprising that this is a complicated topic.
+
+6
+00:00:15,275 --> 00:00:17,995
+So we will divide it into three sections.
+
+7
+00:00:17,995 --> 00:00:21,160
+In this section, we will first discuss the evolution of
+
+8
+00:00:21,160 --> 00:00:26,080
+standards and then we will focus on standards for representing health data.
+
+9
+00:00:26,080 --> 00:00:27,580
+In the next session,
+
+10
+00:00:27,580 --> 00:00:29,803
+we will discuss how that data is packaged,
+
+11
+00:00:29,803 --> 00:00:35,275
+transported and shared using interoperability standards developed before fire.
+
+12
+00:00:35,275 --> 00:00:36,785
+In the third section,
+
+13
+00:00:36,785 --> 00:00:39,310
+we will cover fire in some detail.
+
+14
+00:00:39,310 --> 00:00:43,640
+Along the way, I will ask you to use some external web tools and APIs
+
+15
+00:00:43,640 --> 00:00:48,910
+to explore and better understand these important data standards.
+
+16
+00:00:48,910 --> 00:00:50,590
+While they may be old,
+
+17
+00:00:50,590 --> 00:00:54,210
+they're used widely including in the latest fire standard.

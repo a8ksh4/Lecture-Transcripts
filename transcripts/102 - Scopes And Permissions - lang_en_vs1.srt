@@ -1,0 +1,151 @@
+1
+00:00:00,000 --> 00:00:02,775
+In the example we just discussed,
+
+2
+00:00:02,775 --> 00:00:07,850
+our hypothetical scope request contained a wildcard, the asterisk.
+
+3
+00:00:07,850 --> 00:00:12,115
+Through it, a client app is seeking permission to obtain
+
+4
+00:00:12,115 --> 00:00:18,495
+all available and future fire resources stored on the server for the current patient.
+
+5
+00:00:18,495 --> 00:00:21,770
+This raises the issue of patient privacy.
+
+6
+00:00:21,770 --> 00:00:25,190
+The authorization server asking a patient to authorize
+
+7
+00:00:25,190 --> 00:00:29,650
+a smart app requesting patient/*read,
+
+8
+00:00:29,650 --> 00:00:32,480
+should inform them that they are being asked to allow
+
+9
+00:00:32,480 --> 00:00:35,150
+the app access to all currently available and future
+
+10
+00:00:35,150 --> 00:00:37,700
+fire resources that might contain
+
+11
+00:00:37,700 --> 00:00:43,310
+potentially more sensitive data such as their genomic variations as we'll discuss later.
+
+12
+00:00:43,310 --> 00:00:46,445
+Of course, as we discussed when we looked at health vault,
+
+13
+00:00:46,445 --> 00:00:52,520
+giving the patient usable tools to select what they are willing to share is a challenge.
+
+14
+00:00:52,520 --> 00:00:54,380
+However, the granular nature of
+
+15
+00:00:54,380 --> 00:00:58,855
+fire resources could certainly facilitate the development of such a tool.
+
+16
+00:00:58,855 --> 00:01:02,120
+This would be particularly true if, as illustrated here,
+
+17
+00:01:02,120 --> 00:01:06,475
+in a medication request resource example from the fire site,
+
+18
+00:01:06,475 --> 00:01:11,240
+all applicable resources included the reason for orders and procedures.
+
+19
+00:01:11,240 --> 00:01:16,820
+If they did, then a patient might specify that they wish to share all information
+
+20
+00:01:16,820 --> 00:01:19,370
+related to a particular clinical problem
+
+21
+00:01:19,370 --> 00:01:22,835
+and the app could figure out what that information is.
+
+22
+00:01:22,835 --> 00:01:24,620
+At present, these cause and
+
+23
+00:01:24,620 --> 00:01:29,375
+effect relationships are not in all the applicable fire resources.
+
+24
+00:01:29,375 --> 00:01:31,085
+Even if they were,
+
+25
+00:01:31,085 --> 00:01:33,765
+this is not just an issue for the standard.
+
+26
+00:01:33,765 --> 00:01:38,390
+A complete solution would require vendor support of the idea in
+
+27
+00:01:38,390 --> 00:01:43,875
+the AMR and provide a willingness to take the time to indicate these relationships.
+
+28
+00:01:43,875 --> 00:01:48,230
+Alternately, this may well be another opportunity for machine learning
+
+29
+00:01:48,230 --> 00:01:53,070
+to infer relationships from the data recorded over many patient encounters.
+
+30
+00:01:53,070 --> 00:01:58,530
+The authorization server may not grant the level of access requested by the app.
+
+31
+00:01:58,530 --> 00:02:02,240
+For example, an app with the goal of obtaining read and write access to
+
+32
+00:02:02,240 --> 00:02:06,275
+our old friend the patients allergy intolerance resources,
+
+33
+00:02:06,275 --> 00:02:08,945
+request the clinical scope of
+
+34
+00:02:08,945 --> 00:02:14,240
+patient/AllergyIntolerance.* The authorization server
+
+35
+00:02:14,240 --> 00:02:18,065
+may respond in a variety of ways as shown here.
+
+36
+00:02:18,065 --> 00:02:21,485
+App designers should anticipate this.
+
+37
+00:02:21,485 --> 00:02:24,500
+And their apps should consider the permissions granted to
+
+38
+00:02:24,500 --> 00:02:28,570
+them and they may need to change their behavior accordingly.

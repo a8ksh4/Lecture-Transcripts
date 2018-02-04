@@ -1,0 +1,79 @@
+1
+00:00:00,000 --> 00:00:03,495
+Earlier in our discussion of health information exchange,
+
+2
+00:00:03,495 --> 00:00:07,560
+we mentioned the Regenstrief Institute in Indiana.
+
+3
+00:00:07,560 --> 00:00:09,930
+The Institute also developed and it maintains
+
+4
+00:00:09,930 --> 00:00:14,970
+the LOINC code system for laboratory tests and clinical observations.
+
+5
+00:00:14,970 --> 00:00:20,032
+You will find references to LOINC in a number of fire resources.
+
+6
+00:00:20,032 --> 00:00:23,260
+Each code is a number with up to seven digits.
+
+7
+00:00:23,260 --> 00:00:26,990
+While the codes themselves are deceptively simple,
+
+8
+00:00:26,990 --> 00:00:32,695
+their names contain important details in their five or six components, as shown here.
+
+9
+00:00:32,695 --> 00:00:37,370
+These components or parts are separated by colons.
+
+10
+00:00:37,370 --> 00:00:39,690
+In this example, the first part,
+
+11
+00:00:39,690 --> 00:00:41,304
+the component or analyte,
+
+12
+00:00:41,304 --> 00:00:43,230
+a substance of interest is,
+
+13
+00:00:43,230 --> 00:00:48,050
+alpha-1 globulin, a protein that is a marker for inflammation.
+
+14
+00:00:48,050 --> 00:00:54,852
+We can see here in the optional six part that electrophoresis determine it's level.
+
+15
+00:00:54,852 --> 00:00:57,615
+Here in the fourth or specimen part,
+
+16
+00:00:57,615 --> 00:01:02,160
+we see that the test was performed on a blood serum or plasma sample.
+
+17
+00:01:02,160 --> 00:01:06,995
+Test results with a unit of measure of mass in the numerator,
+
+18
+00:01:06,995 --> 00:01:12,920
+and a volume like milligrams per decaliter in the denominator have mass concentration,
+
+19
+00:01:12,920 --> 00:01:17,836
+MCnc, as you see here in the fifth part.
+
+20
+00:01:17,836 --> 00:01:23,050
+Finally, Pt in the third part indicates that the measurement represents a point in time.

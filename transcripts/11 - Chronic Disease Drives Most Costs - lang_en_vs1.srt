@@ -1,0 +1,131 @@
+1
+00:00:00,000 --> 00:00:04,770
+Earlier we said that while the U.S. excels in high technology care,
+
+2
+00:00:04,770 --> 00:00:07,175
+our overall health care quality,
+
+3
+00:00:07,175 --> 00:00:10,585
+efficiency, and safety results are poor.
+
+4
+00:00:10,585 --> 00:00:16,300
+In large part, this is because most health care costs are due to the incurable,
+
+5
+00:00:16,300 --> 00:00:22,290
+lifelong chronic diseases that our health care system is not designed to treat.
+
+6
+00:00:22,290 --> 00:00:28,755
+Patients with multiple chronic diseases account disproportionately for those costs.
+
+7
+00:00:28,755 --> 00:00:31,860
+Here's the opening paragraph of
+
+8
+00:00:31,860 --> 00:00:38,580
+a 2004 paper in public health reports that I strongly recommend you read.
+
+9
+00:00:38,580 --> 00:00:45,085
+Quote: In 2000, approximately 125 million Americans,
+
+10
+00:00:45,085 --> 00:00:47,645
+45% of the population,
+
+11
+00:00:47,645 --> 00:00:52,063
+had chronic conditions, and 61 million,
+
+12
+00:00:52,063 --> 00:00:54,245
+21% of the population,
+
+13
+00:00:54,245 --> 00:00:57,415
+had multiple chronic conditions.
+
+14
+00:00:57,415 --> 00:00:59,820
+The number of people with chronic conditions is
+
+15
+00:00:59,820 --> 00:01:03,980
+projected to increase steadily over the next 30 years.
+
+16
+00:01:03,980 --> 00:01:06,350
+While current health care financing and
+
+17
+00:01:06,350 --> 00:01:10,825
+delivery systems were designed primarily to treat acute conditions,
+
+18
+00:01:10,825 --> 00:01:16,340
+78% of health spending is devoted to people with chronic conditions.
+
+19
+00:01:16,340 --> 00:01:18,770
+Quality medical care for people with
+
+20
+00:01:18,770 --> 00:01:22,790
+chronic conditions requires a new orientation toward prevention of
+
+21
+00:01:22,790 --> 00:01:25,370
+chronic disease and provision of
+
+22
+00:01:25,370 --> 00:01:31,345
+ongoing care in care management to maintain their health status and functioning.
+
+23
+00:01:31,345 --> 00:01:37,090
+Specific focus should be applied to people with multiple chronic conditions. End quote.
+
+24
+00:01:37,090 --> 00:01:43,350
+The paper then goes on to describe the care of those patients saying, quote,
+
+25
+00:01:43,350 --> 00:01:49,310
+while the average Medicare beneficiary sees between six and seven different physicians,
+
+26
+00:01:49,310 --> 00:01:53,100
+beneficiaries with five or more chronic conditions
+
+27
+00:01:53,100 --> 00:01:57,135
+see almost 14 different physicians in a year,
+
+28
+00:01:57,135 --> 00:02:01,205
+an average 37 physician visits annually.
+
+29
+00:02:01,205 --> 00:02:06,730
+People with five or more chronic conditions fill almost 50 prescriptions in a year.
+
+30
+00:02:06,730 --> 00:02:11,015
+This stunning fragmentation of the care of the people who drive
+
+31
+00:02:11,015 --> 00:02:16,550
+most health care costs is the central rationale for interoperability.
+
+32
+00:02:16,550 --> 00:02:20,780
+This is so key that I'll now interview one of the authors of
+
+33
+00:02:20,780 --> 00:02:27,320
+that paper Dr. Jared Anderson of the Bloomberg School of Public Health at Johns Hopkins.

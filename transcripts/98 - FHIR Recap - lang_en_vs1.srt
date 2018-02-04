@@ -1,0 +1,35 @@
+1
+00:00:00,110 --> 00:00:06,070
+We have now completed our review of data and interoperability standards.
+
+2
+00:00:06,070 --> 00:00:09,300
+This is an immense area and I've only been able to skim
+
+3
+00:00:09,300 --> 00:00:13,320
+the surface in an effort to equip you with a working knowledge of the domain,
+
+4
+00:00:13,320 --> 00:00:15,900
+its approaches and technologies,
+
+5
+00:00:15,900 --> 00:00:19,975
+as well as the potential benefits and the challenges.
+
+6
+00:00:19,975 --> 00:00:23,240
+To explore further, use the many references to
+
+7
+00:00:23,240 --> 00:00:26,960
+external resources for this critically important plumbing.
+
+8
+00:00:26,960 --> 00:00:29,780
+For the health informatics tools and systems,
+
+9
+00:00:29,780 --> 00:00:31,840
+we will discuss later.

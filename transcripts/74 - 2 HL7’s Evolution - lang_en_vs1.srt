@@ -1,0 +1,35 @@
+1
+00:00:00,000 --> 00:00:05,360
+In what follows, I will give you an overview of many of the key components of HL7 with
+
+2
+00:00:05,360 --> 00:00:07,790
+a particular emphasis on those that support data
+
+3
+00:00:07,790 --> 00:00:11,430
+sharing for care coordination and patient engagement.
+
+4
+00:00:11,430 --> 00:00:14,620
+First, you should understand that over the years,
+
+5
+00:00:14,620 --> 00:00:19,070
+HL7's mission has expanded greatly from messaging and from
+
+6
+00:00:19,070 --> 00:00:24,420
+the basic but pragmatic approach taken in v2 message standards development.
+
+7
+00:00:24,420 --> 00:00:29,280
+The results of these newer efforts are controversial and some would now argue that
+
+8
+00:00:29,280 --> 00:00:31,370
+HL7's later standards were overly
+
+9
+00:00:31,370 --> 00:00:35,490
+complex and too difficult and expensive to implement in practice.

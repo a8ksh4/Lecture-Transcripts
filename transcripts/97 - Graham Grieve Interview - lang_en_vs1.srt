@@ -1,0 +1,819 @@
+1
+00:00:04,410 --> 00:00:06,990
+Grahame Grieve. I'm an Australian.
+
+2
+00:00:06,990 --> 00:00:11,300
+I began my life as a bench scientist in a clinical laboratory.
+
+3
+00:00:11,300 --> 00:00:13,350
+I'm in a clinical research,
+
+4
+00:00:13,350 --> 00:00:16,920
+jumped ship to join a vendor and become a developer,
+
+5
+00:00:16,920 --> 00:00:20,100
+and eventually the CTO of the laboratory systems vendor.
+
+6
+00:00:20,100 --> 00:00:24,955
+Spent more and more of my time doing actual serving and interoperability.
+
+7
+00:00:24,955 --> 00:00:27,290
+Generally, got more involved in HL7.
+
+8
+00:00:27,290 --> 00:00:31,815
+Went at freelancing national expert in CDI adoption,
+
+9
+00:00:31,815 --> 00:00:34,670
+realized that all the passwords on were wrong,
+
+10
+00:00:34,670 --> 00:00:37,340
+went off in FHIR,
+
+11
+00:00:37,340 --> 00:00:41,400
+and accidentally ended up as a FHIR product director which is what I am now,
+
+12
+00:00:41,400 --> 00:00:45,585
+responsible for stewarding the FHIR community and the standard
+
+13
+00:00:45,585 --> 00:00:52,730
+towards maturity and towards making a real difference in the healthcare industry.
+
+14
+00:00:54,100 --> 00:00:57,270
+It's a combination of things.
+
+15
+00:00:57,270 --> 00:00:59,880
+First of all, it's the right idea at the right time.
+
+16
+00:00:59,880 --> 00:01:04,085
+The industry, the community is really ready for
+
+17
+00:01:04,085 --> 00:01:09,890
+a spec that uses web technology and web principles and that's what we had.
+
+18
+00:01:09,890 --> 00:01:12,540
+And also, we created open community that was
+
+19
+00:01:12,540 --> 00:01:16,305
+very dynamic and community-led. And we did that.
+
+20
+00:01:16,305 --> 00:01:20,970
+We're just learning from other people who had done the same thing in other communities.
+
+21
+00:01:20,970 --> 00:01:25,350
+And their willingness to copy the good ideas from wherever they come
+
+22
+00:01:25,350 --> 00:01:30,690
+from has created a community that is excited,
+
+23
+00:01:30,690 --> 00:01:34,155
+and that excitement both led onto,
+
+24
+00:01:34,155 --> 00:01:36,905
+in the end, a really formal standards processes.
+
+25
+00:01:36,905 --> 00:01:39,225
+Pretty compelling combination for people.
+
+26
+00:01:39,225 --> 00:01:44,180
+And that's seems to be doing it so far.
+
+27
+00:01:46,620 --> 00:01:51,845
+Yeah, and a lot of app processes are around finding
+
+28
+00:01:51,845 --> 00:01:56,400
+a balance between many competing points of view with those in particular.
+
+29
+00:01:56,400 --> 00:02:00,860
+And so, partly, it's about being really willing to get a feedback
+
+30
+00:02:00,860 --> 00:02:06,145
+because there's no perfect answer to choose your engagement.
+
+31
+00:02:06,145 --> 00:02:10,640
+And that's the beauty of actual serving as a formal standards process that backs it,
+
+32
+00:02:10,640 --> 00:02:16,515
+is that people know that it will become a standard and a call to engage.
+
+33
+00:02:16,515 --> 00:02:21,440
+And so we have a real advantage in terms of bringing together everyone who needs to
+
+34
+00:02:21,440 --> 00:02:27,435
+be here or not able to just go some project that we won't have to buy attention to.
+
+35
+00:02:27,435 --> 00:02:31,046
+That's got some problems but it does make it really easy to engage,
+
+36
+00:02:31,046 --> 00:02:34,340
+and the other part is an intuitive process to
+
+37
+00:02:34,340 --> 00:02:37,885
+try something for feedback, get some feedback,
+
+38
+00:02:37,885 --> 00:02:39,765
+try something slightly different and eventually,
+
+39
+00:02:39,765 --> 00:02:41,495
+you'll see the community
+
+40
+00:02:41,495 --> 00:02:46,870
+automatically congregate around a single solution at a single point.
+
+41
+00:02:46,870 --> 00:02:50,660
+And so initially, things go in and there's a lot of changes.
+
+42
+00:02:50,660 --> 00:02:53,020
+Everybody settles around the idea,
+
+43
+00:02:53,020 --> 00:02:56,185
+but you can see it automatically.
+
+44
+00:02:56,185 --> 00:03:00,100
+People stop complaining and start working with it,
+
+45
+00:03:00,100 --> 00:03:06,694
+because you've let everybody circle and come to agreement organically.
+
+46
+00:03:06,694 --> 00:03:10,045
+And we see that person is repeating a lot
+
+47
+00:03:10,045 --> 00:03:18,640
+and we seem to be on a workable path to a meaningful standard.
+
+48
+00:03:18,640 --> 00:03:21,500
+Instead, it's a kind of tricky because you can easily
+
+49
+00:03:21,500 --> 00:03:25,160
+impose a standard from above - top 10 standards process.
+
+50
+00:03:25,160 --> 00:03:29,560
+And if you do that, you'll often get a stand that everybody says they cannot conform to.
+
+51
+00:03:29,560 --> 00:03:31,610
+But nobody really actually will,
+
+52
+00:03:31,610 --> 00:03:34,310
+because it doesn't really do what they need.
+
+53
+00:03:34,310 --> 00:03:37,630
+And so, you have to let standards develop bottom-up.
+
+54
+00:03:37,630 --> 00:03:40,610
+But if you let standards develop bottom-up only,
+
+55
+00:03:40,610 --> 00:03:42,685
+who knows what you'll get.
+
+56
+00:03:42,685 --> 00:03:46,385
+And it's an art form of balancing that two.
+
+57
+00:03:46,385 --> 00:03:48,329
+Often compared to a slinky dog,
+
+58
+00:03:48,329 --> 00:03:51,015
+the dog with a big spring between the front in the back.
+
+59
+00:03:51,015 --> 00:03:54,635
+Like, the back and the front can go in different directions,
+
+60
+00:03:54,635 --> 00:03:56,865
+but only for a little while.
+
+61
+00:03:56,865 --> 00:03:59,510
+They tied together and I think it's the same very
+
+62
+00:03:59,510 --> 00:04:04,450
+much with top-down and bottom-up standards design.
+
+63
+00:04:06,990 --> 00:04:13,350
+Yeah. Look, I feel as though we're half way in that.
+
+64
+00:04:13,350 --> 00:04:16,820
+But we get new scopes brought to us all the
+
+65
+00:04:16,820 --> 00:04:21,200
+time and some more scopes that I never expected to take on.
+
+66
+00:04:21,200 --> 00:04:25,990
+And, some of them,
+
+67
+00:04:25,990 --> 00:04:32,140
+the resource gets adapted to new scopes and some of them split off or added in.
+
+68
+00:04:32,140 --> 00:04:38,325
+And so, we don't have a formal goal in terms of that and in terms of how big,
+
+69
+00:04:38,325 --> 00:04:40,755
+I think more in terms of community
+
+70
+00:04:40,755 --> 00:04:49,214
+and adoption size rather than how big is the specification.
+
+71
+00:04:49,214 --> 00:04:52,835
+And I've sort of thought
+
+72
+00:04:52,835 --> 00:04:57,530
+that the right ballpark figure of how big the community is is a trillion dollars.
+
+73
+00:04:57,530 --> 00:05:01,010
+I mean, that's how much money
+
+74
+00:05:01,010 --> 00:05:04,370
+is being spent in the space of health care interoperability and
+
+75
+00:05:04,370 --> 00:05:12,615
+systems and that so the system is bounded by FHIR that will connect three FHIR.
+
+76
+00:05:12,615 --> 00:05:14,651
+The money all goes elsewhere,
+
+77
+00:05:14,651 --> 00:05:16,560
+but if you change this,
+
+78
+00:05:16,560 --> 00:05:19,295
+if you took FHIR away and put something else in,
+
+79
+00:05:19,295 --> 00:05:23,320
+then that have to re-spend all the money because that bridge is on to
+
+80
+00:05:23,320 --> 00:05:27,498
+a different set of ideas over a 20-year period.
+
+81
+00:05:27,498 --> 00:05:30,240
+That's the kind of dollars you're talking about.
+
+82
+00:05:30,240 --> 00:05:33,260
+And it's a lot of money and that's why it's really
+
+83
+00:05:33,260 --> 00:05:36,500
+important to have good governance and formal standard governance
+
+84
+00:05:36,500 --> 00:05:40,190
+because that's the kind of money that people are choosing to
+
+85
+00:05:40,190 --> 00:05:44,520
+invest somewhere around the world.
+
+86
+00:05:44,520 --> 00:05:48,530
+You measure it in terms of percentage of the world GDP, in fact.
+
+87
+00:05:48,530 --> 00:05:56,320
+It's not spent on FHIR but it's spent in the space bounded by FHIR.
+
+88
+00:05:58,160 --> 00:06:01,920
+Yeah, I have been surprised.
+
+89
+00:06:01,920 --> 00:06:06,020
+So I thought, we've consistently been running ahead of where
+
+90
+00:06:06,020 --> 00:06:10,695
+we thought we'd be in terms of standards adoption.
+
+91
+00:06:10,695 --> 00:06:16,795
+And it's pleasing for us that the work that we put in is starting to have an impact.
+
+92
+00:06:16,795 --> 00:06:19,400
+We're certainly just starting out.
+
+93
+00:06:19,400 --> 00:06:23,070
+I see standards, this is like
+
+94
+00:06:23,070 --> 00:06:27,143
+a river at the headquarters and the water flows down through the river,
+
+95
+00:06:27,143 --> 00:06:28,650
+the standards process is
+
+96
+00:06:28,650 --> 00:06:34,229
+a 20-year time-frame and we're sort of five years into the 20-year time frame.
+
+97
+00:06:34,229 --> 00:06:36,870
+And we're still mainly focused at
+
+98
+00:06:36,870 --> 00:06:41,005
+the top end where we've got much more adoption we expected in that time.
+
+99
+00:06:41,005 --> 00:06:44,220
+And so, that bodes well
+
+100
+00:06:44,220 --> 00:06:52,010
+for our ability to create change in the health care system which is our real goal.
+
+101
+00:06:54,300 --> 00:07:00,380
+The increased availability of data increases
+
+102
+00:07:00,380 --> 00:07:07,930
+the interest in doing stuff with the shared data in signing setup shared processes.
+
+103
+00:07:07,930 --> 00:07:09,830
+And there's a lot of interest in that.
+
+104
+00:07:09,830 --> 00:07:13,485
+And I feel as though, the fact that you can get data,
+
+105
+00:07:13,485 --> 00:07:18,710
+creates the expectation and desire to share processes.
+
+106
+00:07:18,710 --> 00:07:23,305
+And sharing processes has always been our goal, sharing data.
+
+107
+00:07:23,305 --> 00:07:24,470
+So what you've got data,
+
+108
+00:07:24,470 --> 00:07:28,453
+it's about being able to build processes on top of that.
+
+109
+00:07:28,453 --> 00:07:31,730
+And also the fact that there are servers,
+
+110
+00:07:31,730 --> 00:07:37,220
+we've always in the specification allowed for writing data back in.
+
+111
+00:07:37,220 --> 00:07:39,012
+And there are systems that do that out there,
+
+112
+00:07:39,012 --> 00:07:42,460
+that creates a competition and
+
+113
+00:07:42,460 --> 00:07:48,510
+the perception that you should be able to if only you had done the work,
+
+114
+00:07:48,510 --> 00:07:50,390
+on the other hand, it's a lot of work.
+
+115
+00:07:50,390 --> 00:07:56,221
+You really need to re-conceive your job to open it up that much.
+
+116
+00:07:56,221 --> 00:08:00,765
+And so, it's in spite of the fact that everybody wants it to happen.
+
+117
+00:08:00,765 --> 00:08:04,340
+It's not just flick the switch and make it happen,
+
+118
+00:08:04,340 --> 00:08:06,657
+you've got to do a lot of engineering,
+
+119
+00:08:06,657 --> 00:08:08,325
+it means move your business rules around.
+
+120
+00:08:08,325 --> 00:08:10,460
+It's a big work.
+
+121
+00:08:10,460 --> 00:08:13,980
+And so it's taking some time for the vendors to get there.
+
+122
+00:08:13,980 --> 00:08:15,545
+And they're not there yet,
+
+123
+00:08:15,545 --> 00:08:23,066
+but they're thinking about it and working on them.
+
+124
+00:08:23,066 --> 00:08:29,285
+So it's already happening in a lot.
+
+125
+00:08:29,285 --> 00:08:31,630
+It's certainly true that there's
+
+126
+00:08:31,630 --> 00:08:37,230
+a wide spread perception that main focus is EMR tighter access.
+
+127
+00:08:37,230 --> 00:08:39,345
+And there's a degree of politics to that.
+
+128
+00:08:39,345 --> 00:08:41,890
+There's a lot of projects that are just doing the work,
+
+129
+00:08:41,890 --> 00:08:43,680
+they're not making a lot of noise about it.
+
+130
+00:08:43,680 --> 00:08:50,170
+So for instance, the VIJ have a FHIR base project for aggregating observational data,
+
+131
+00:08:50,170 --> 00:08:54,425
+from the data collection devices that they're wearing.
+
+132
+00:08:54,425 --> 00:08:56,030
+You don't hear a lot of noise about that,
+
+133
+00:08:56,030 --> 00:08:59,950
+but they're using that.
+
+134
+00:08:59,950 --> 00:09:05,665
+There's a certain amount of politics going on in the kind of projects we do hear about.
+
+135
+00:09:05,665 --> 00:09:08,620
+And also, there's other countries,
+
+136
+00:09:08,620 --> 00:09:11,710
+the politics focus is different because there are at different stage in
+
+137
+00:09:11,710 --> 00:09:17,146
+the last cycle and they had different historical practices in the past.
+
+138
+00:09:17,146 --> 00:09:25,760
+That have meant that the politics is playing out in different parts of the ecosystem.
+
+139
+00:09:25,760 --> 00:09:30,060
+And so, when I look at it, there's a lot of noise about one part of it.
+
+140
+00:09:30,060 --> 00:09:31,220
+It's kind of happening.
+
+141
+00:09:31,220 --> 00:09:33,780
+We haven't really added anything to the spec,
+
+142
+00:09:33,780 --> 00:09:35,565
+unless there are people using it.
+
+143
+00:09:35,565 --> 00:09:38,593
+And people are taking up and using my space,
+
+144
+00:09:38,593 --> 00:09:41,580
+is the specification I think is.
+
+145
+00:09:41,580 --> 00:09:45,770
+I always say that the amount of interoperability you need is n_times_2,
+
+146
+00:09:45,770 --> 00:09:48,505
+where n is the amount that you have.
+
+147
+00:09:48,505 --> 00:09:53,100
+And as you get more bang for your buck,
+
+148
+00:09:53,100 --> 00:09:56,775
+as we can monetize more interoperability exchanges,
+
+149
+00:09:56,775 --> 00:10:00,030
+people start looking to expand that because they start getting
+
+150
+00:10:00,030 --> 00:10:03,505
+benefit for the money they're spending and much more easily.
+
+151
+00:10:03,505 --> 00:10:05,955
+And so they start saying, "Well,
+
+152
+00:10:05,955 --> 00:10:10,635
+we'll pick off different functional areas and start working on those."
+
+153
+00:10:10,635 --> 00:10:11,880
+And we're going to see next year
+
+154
+00:10:11,880 --> 00:10:19,230
+some very large consumer initiatives around health data aggregation,
+
+155
+00:10:19,230 --> 00:10:24,305
+and collection, and leveraging, [inaudible] accessible data.
+
+156
+00:10:24,305 --> 00:10:27,000
+It certainly really starting to pick up now.
+
+157
+00:10:27,000 --> 00:10:30,960
+And so, that will just increase the impetus towards
+
+158
+00:10:30,960 --> 00:10:37,910
+leveraging data sharing in new context and as I said,
+
+159
+00:10:37,910 --> 00:10:42,860
+setting up first new patient care processes.
+
+160
+00:10:45,160 --> 00:10:51,750
+So I think that's more and the politics of
+
+161
+00:10:51,750 --> 00:11:00,544
+the EHR position that has led to a perception that it's about patient by patient access.
+
+162
+00:11:00,544 --> 00:11:06,330
+Well then, that is true that our focus is mainly being on very fine grained,
+
+163
+00:11:06,330 --> 00:11:10,870
+high availability access to the data,
+
+164
+00:11:10,870 --> 00:11:16,550
+very integrated between the two ends of the conversation.
+
+165
+00:11:16,550 --> 00:11:18,990
+And we're certainly having a lot of discussions
+
+166
+00:11:18,990 --> 00:11:21,680
+now about what it looks like to use the FHIR.
+
+167
+00:11:21,680 --> 00:11:24,591
+Symantec's is a interoperability base,
+
+168
+00:11:24,591 --> 00:11:28,515
+but to do so in the presence of very large amounts of data,
+
+169
+00:11:28,515 --> 00:11:31,075
+many gigabytes of data.
+
+170
+00:11:31,075 --> 00:11:35,265
+And that comes to fruition in that way now,
+
+171
+00:11:35,265 --> 00:11:41,630
+we're now working with ENRC to trawl what they're calling bulk data access,
+
+172
+00:11:41,630 --> 00:11:46,635
+which is pretty much are in feeding the big data systems.
+
+173
+00:11:46,635 --> 00:11:50,720
+I think that's going to be the role of FHIR's place is allowing
+
+174
+00:11:50,720 --> 00:11:55,760
+people working on big data [inaudible] and on PMI and other projects like that,
+
+175
+00:11:55,760 --> 00:11:57,770
+to access data on bulk,
+
+176
+00:11:57,770 --> 00:12:02,638
+and moving into big data analysis systems.
+
+177
+00:12:02,638 --> 00:12:07,010
+It remains to be seen how much direct involvement in
+
+178
+00:12:07,010 --> 00:12:13,766
+the big data side of things we can or should bring.
+
+179
+00:12:13,766 --> 00:12:20,910
+So, I've sort of seen FHIR's 15 year plan.
+
+180
+00:12:20,910 --> 00:12:25,170
+The first five years for initiating the community,
+
+181
+00:12:25,170 --> 00:12:30,225
+figuring out what FHIR was and what would make it successful.
+
+182
+00:12:30,225 --> 00:12:34,140
+The next five years we expect it to be a principal growth phase,
+
+183
+00:12:34,140 --> 00:12:38,038
+where we were building out the standard,
+
+184
+00:12:38,038 --> 00:12:40,550
+and then final five years,
+
+185
+00:12:40,550 --> 00:12:44,380
+you'd be consolidating the standard and building up solutions.
+
+186
+00:12:44,380 --> 00:12:49,295
+We've seen the adoption vices running ahead of that initial plan,
+
+187
+00:12:49,295 --> 00:12:54,855
+but it seems as if the standard process will follow that overall plan.
+
+188
+00:12:54,855 --> 00:12:56,390
+So, in five years time from now,
+
+189
+00:12:56,390 --> 00:13:00,905
+I want to be saying that the community is
+
+190
+00:13:00,905 --> 00:13:07,545
+a really significant factor in the overall healthy ecosystem.
+
+191
+00:13:07,545 --> 00:13:14,495
+The standard itself is mature and starting to move towards long term maintenance.
+
+192
+00:13:14,495 --> 00:13:17,825
+The community I'd like to see,
+
+193
+00:13:17,825 --> 00:13:23,965
+the community focusing on bringing home the processes that
+
+194
+00:13:23,965 --> 00:13:30,550
+we've imagine building on top of the availability of sharing of data in birth in,
+
+195
+00:13:30,550 --> 00:13:34,470
+as a free flowing liquid entity through the system.
+
+196
+00:13:34,470 --> 00:13:39,970
+And that consumers, whether they're governments who pay for
+
+197
+00:13:39,970 --> 00:13:47,540
+health care or private insurers who pay for health care or patients they get health care,
+
+198
+00:13:47,540 --> 00:13:54,015
+or they are getting value for money to an improved health care and improved outcomes.
+
+199
+00:13:54,015 --> 00:13:59,350
+And the one thing that I expect will be a big issue
+
+200
+00:13:59,350 --> 00:14:05,410
+in five years time is starting to really rethink clinical processes,
+
+201
+00:14:05,410 --> 00:14:07,410
+because we're in a new place.
+
+202
+00:14:07,410 --> 00:14:13,150
+And it's clear that clinical processes and the expectations of the relationship between
+
+203
+00:14:13,150 --> 00:14:19,660
+the consumer and the health care providing system need to change,
+
+204
+00:14:19,660 --> 00:14:23,255
+and we're in a position to support a different way of providing health care.
+
+205
+00:14:23,255 --> 00:14:27,790
+And that's going to be an interesting and at times, challenging discussion.

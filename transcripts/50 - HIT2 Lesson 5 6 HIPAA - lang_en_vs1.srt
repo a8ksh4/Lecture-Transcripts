@@ -1,0 +1,115 @@
+1
+00:00:00,000 --> 00:00:01,590
+Later in this lesson,
+
+2
+00:00:01,590 --> 00:00:05,760
+we will discuss health information exchange for HIE,
+
+3
+00:00:05,760 --> 00:00:08,955
+technologies for sharing health data.
+
+4
+00:00:08,955 --> 00:00:17,605
+First, any transport mechanism for HIE must assure privacy, security, and trust.
+
+5
+00:00:17,605 --> 00:00:22,200
+Privacy means sharing data only with patient permission.
+
+6
+00:00:22,200 --> 00:00:28,235
+Security means protecting that data from access by unauthorized entities.
+
+7
+00:00:28,235 --> 00:00:31,850
+To create trust an entity must ensure
+
+8
+00:00:31,850 --> 00:00:35,750
+the identity of other entities with which they share data.
+
+9
+00:00:35,750 --> 00:00:41,755
+Here in the US, the Health Insurance Portability and Accountability Act of 1996,
+
+10
+00:00:41,755 --> 00:00:45,595
+or HIPA, created a privacy rule.
+
+11
+00:00:45,595 --> 00:00:47,715
+The government says it quote,
+
+12
+00:00:47,715 --> 00:00:51,060
+establishes national standards to protect
+
+13
+00:00:51,060 --> 00:00:55,095
+individuals' medical records and other personal health information,
+
+14
+00:00:55,095 --> 00:00:57,195
+and applies to health plans,
+
+15
+00:00:57,195 --> 00:00:59,190
+health care clearing houses,
+
+16
+00:00:59,190 --> 00:01:01,680
+and those health care providers that conduct
+
+17
+00:01:01,680 --> 00:01:05,065
+certain health care transactions electronically.
+
+18
+00:01:05,065 --> 00:01:09,455
+The inclusion of health insurance plans and claims clearing houses,
+
+19
+00:01:09,455 --> 00:01:13,645
+and the focus on electronic transactions such as claims for payment,
+
+20
+00:01:13,645 --> 00:01:18,930
+may seem surprising to those of us focused on clinical use cases.
+
+21
+00:01:18,930 --> 00:01:23,480
+But the law also mandates uniform standards for electronic transmission
+
+22
+00:01:23,480 --> 00:01:28,455
+of administrative and financial data relating to patient health information.
+
+23
+00:01:28,455 --> 00:01:32,050
+The intent was to move these transactions from paper to
+
+24
+00:01:32,050 --> 00:01:36,815
+electronic form and that has been quite successful.
+
+25
+00:01:36,815 --> 00:01:40,900
+The rule also gives patients rights over their health information,
+
+26
+00:01:40,900 --> 00:01:45,370
+including rights to examine and obtain a copy of their health records,
+
+27
+00:01:45,370 --> 00:01:48,000
+and to request corrections.
+
+28
+00:01:48,000 --> 00:01:53,980
+HIPA penalties can be substantial and may include prison time.
+
+29
+00:01:53,980 --> 00:01:59,050
+So staying within the law is a priority in virtually all healthcare organizations.

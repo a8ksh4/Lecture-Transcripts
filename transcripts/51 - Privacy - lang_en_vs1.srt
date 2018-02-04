@@ -1,0 +1,155 @@
+1
+00:00:00,000 --> 00:00:03,990
+We touched on privacy in the healthful exercise.
+
+2
+00:00:03,990 --> 00:00:10,170
+When you saw how patients could specify the subset of their data they wish to share.
+
+3
+00:00:10,170 --> 00:00:14,770
+In practice, patients still typically sign a form provided on
+
+4
+00:00:14,770 --> 00:00:17,450
+a clipboard in the waiting room and agree to
+
+5
+00:00:17,450 --> 00:00:20,445
+share all their medical record data for treatment,
+
+6
+00:00:20,445 --> 00:00:26,020
+payment and health care operations, so-called TPO.
+
+7
+00:00:26,020 --> 00:00:28,420
+In simple terms, this allows sharing of
+
+8
+00:00:28,420 --> 00:00:31,170
+their data with others involved in their treatment,
+
+9
+00:00:31,170 --> 00:00:35,535
+such as when their doctor refers them to another physician.
+
+10
+00:00:35,535 --> 00:00:39,170
+It also allows use of their data in claims for payment for services
+
+11
+00:00:39,170 --> 00:00:44,450
+rendered and for operational purposes such as quality reporting.
+
+12
+00:00:44,450 --> 00:00:48,920
+Beyond the routine use encompassed by TPO,
+
+13
+00:00:48,920 --> 00:00:53,250
+there are many secondary purposes for using health data.
+
+14
+00:00:53,250 --> 00:00:55,435
+These include comparative studies,
+
+15
+00:00:55,435 --> 00:00:59,190
+policy assessments, and life science research.
+
+16
+00:00:59,190 --> 00:01:04,740
+These uses of identifiable or so-called protected health information,
+
+17
+00:01:04,740 --> 00:01:09,760
+PHI, requires specific permission of the patient.
+
+18
+00:01:09,760 --> 00:01:14,920
+De-identification removes data from privacy rule protections by
+
+19
+00:01:14,920 --> 00:01:20,980
+eliminating 18 specified fields that could identify the individual patient.
+
+20
+00:01:20,980 --> 00:01:25,660
+Limited data sets still contain dates for admission,
+
+21
+00:01:25,660 --> 00:01:28,360
+discharge in service provision,
+
+22
+00:01:28,360 --> 00:01:33,155
+date of birth, date of death and city state and zip code.
+
+23
+00:01:33,155 --> 00:01:39,325
+The use of limited data sets for research does not require specific patient permission,
+
+24
+00:01:39,325 --> 00:01:43,040
+but it does require that the data be treated the same as
+
+25
+00:01:43,040 --> 00:01:47,188
+PHI since re-identification is possible,
+
+26
+00:01:47,188 --> 00:01:52,432
+given the inclusion of this temporal and demographic information.
+
+27
+00:01:52,432 --> 00:01:55,065
+To avoid this, in some circumstances,
+
+28
+00:01:55,065 --> 00:01:57,900
+researchers randomly alter dates and
+
+29
+00:01:57,900 --> 00:02:01,930
+other data where this will not compromise its research value.
+
+30
+00:02:01,930 --> 00:02:08,140
+Genomic data presents special challenges because each patient's genome is unique.
+
+31
+00:02:08,140 --> 00:02:13,075
+So altering the genomic data can severely compromise it's value.
+
+32
+00:02:13,075 --> 00:02:18,790
+There is a second approved but less often used method in which an expert,
+
+33
+00:02:18,790 --> 00:02:23,260
+who may have a statistical mathematical or scientific background,
+
+34
+00:02:23,260 --> 00:02:28,780
+certifies that the risk of re-identification is very small.
+
+35
+00:02:28,780 --> 00:02:31,090
+This can also involve some manipulation of
+
+36
+00:02:31,090 --> 00:02:36,525
+the data so the NORC group at the University of Chicago has developed XID,
+
+37
+00:02:36,525 --> 00:02:38,710
+a tool shown here that uses
+
+38
+00:02:38,710 --> 00:02:43,300
+proprietary statistical methods to give data owners the ability
+
+39
+00:02:43,300 --> 00:02:50,000
+to experiment digitally and refine their desired risk and analytic utility thresholds.

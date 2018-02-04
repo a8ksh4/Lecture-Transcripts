@@ -1,0 +1,295 @@
+1
+00:00:00,000 --> 00:00:04,350
+Yet, another early example of clinical decisions support was Internists,
+
+2
+00:00:04,350 --> 00:00:10,710
+developed starting in 1974 at the University of Pittsburgh by Dr. Jack Myers,
+
+3
+00:00:10,710 --> 00:00:12,570
+an internal medicine physician,
+
+4
+00:00:12,570 --> 00:00:14,745
+and Dr. Harry E. Pople,
+
+5
+00:00:14,745 --> 00:00:19,050
+a computer scientist and pioneer in artificial intelligence.
+
+6
+00:00:19,050 --> 00:00:24,559
+Health Informatics is often the first place the new computer science technique appears,
+
+7
+00:00:24,559 --> 00:00:30,190
+but according to Volume 64 of the Encyclopedia of Library and Information Science,
+
+8
+00:00:30,190 --> 00:00:34,110
+"Applying abduction to artificial intelligence problems began with
+
+9
+00:00:34,110 --> 00:00:37,720
+Harry Pople and his system, internist."
+
+10
+00:00:37,720 --> 00:00:42,430
+In 1985, book, Logic of Discovery and Diagnosis in Medicine,
+
+11
+00:00:42,430 --> 00:00:44,932
+describes the program as,
+
+12
+00:00:44,932 --> 00:00:48,370
+"an AI partial simulation of Dr. Myers
+
+13
+00:00:48,370 --> 00:00:52,469
+clinical reasoning using his own internal knowledge base".
+
+14
+00:00:52,469 --> 00:00:54,760
+The goal of internists was to make
+
+15
+00:00:54,760 --> 00:00:59,180
+the appropriate diagnosis in a given clinical situation.
+
+16
+00:00:59,180 --> 00:01:00,745
+In that same book,
+
+17
+00:01:00,745 --> 00:01:06,875
+Dr. Pople describes the methods used and I will summarize his chapter here.
+
+18
+00:01:06,875 --> 00:01:11,350
+He explains why a Belgian approach or a branching logic,
+
+19
+00:01:11,350 --> 00:01:16,955
+essentially a network approach that starts with a presenting complaint, as shown here,
+
+20
+00:01:16,955 --> 00:01:21,380
+is inadequate to deal with the real world of clinical diagnoses where
+
+21
+00:01:21,380 --> 00:01:26,105
+new or conflicting data may arrive too late to assist with an interim decision,
+
+22
+00:01:26,105 --> 00:01:28,430
+and it may even arrive in random order.
+
+23
+00:01:28,430 --> 00:01:35,005
+Internist contained a knowledge-base consisting of some 500 disease entities,
+
+24
+00:01:35,005 --> 00:01:38,185
+organized into categories by disease system,
+
+25
+00:01:38,185 --> 00:01:42,200
+and there are over 3000 clinical manifestations.
+
+26
+00:01:42,200 --> 00:01:46,110
+This diagram of liver diseases and their related conditions and
+
+27
+00:01:46,110 --> 00:01:49,860
+manifestations illustrates these relationships,
+
+28
+00:01:49,860 --> 00:01:54,180
+and is from a chapter by Dr. Pople in the 1982 book,
+
+29
+00:01:54,180 --> 00:01:56,665
+Artificial Intelligence in Medicine.
+
+30
+00:01:56,665 --> 00:02:01,400
+You can see that each disease entity has a corresponding list of manifestations,
+
+31
+00:02:01,400 --> 00:02:04,110
+weighted on a scale of one to five,
+
+32
+00:02:04,110 --> 00:02:07,904
+based on the frequency of their occurrence in that disease.
+
+33
+00:02:07,904 --> 00:02:11,500
+Inversely, a scale of zero to five reflected
+
+34
+00:02:11,500 --> 00:02:15,590
+the strength of the association of manifestations to diseases.
+
+35
+00:02:15,590 --> 00:02:19,065
+Finally, there was a representation of causal,
+
+36
+00:02:19,065 --> 00:02:22,300
+temporal, and other relationships among entities.
+
+37
+00:02:22,300 --> 00:02:24,190
+This structure is in many ways,
+
+38
+00:02:24,190 --> 00:02:27,310
+suggestive of a SNOMED whose predecessor, SNOP,
+
+39
+00:02:27,310 --> 00:02:33,585
+was by then an operation at NIH but I don't know if the Internist team was aware of that.
+
+40
+00:02:33,585 --> 00:02:39,420
+Internists ranked disease entities that explain any or all of a patients findings,
+
+41
+00:02:39,420 --> 00:02:42,315
+reflecting their goodness of fit to the data.
+
+42
+00:02:42,315 --> 00:02:45,567
+It then formulated questions for the physician,
+
+43
+00:02:45,567 --> 00:02:49,920
+as shown here, to discriminate among the equally-ranked entities.
+
+44
+00:02:49,920 --> 00:02:54,180
+In this example, the computer is considering the diagnosis of
+
+45
+00:02:54,180 --> 00:02:59,908
+acute Disseminated Intravascular Coagulopathy or DIC,
+
+46
+00:02:59,908 --> 00:03:02,370
+a dangerous, potentially life-threatening
+
+47
+00:03:02,370 --> 00:03:07,280
+condition in which blood clots form in the small blood vessels.
+
+48
+00:03:07,280 --> 00:03:12,641
+Much like an attending physician might do on rounds with physicians in training,
+
+49
+00:03:12,641 --> 00:03:14,240
+it is asking for the results of
+
+50
+00:03:14,240 --> 00:03:19,340
+the pertinent laboratory tests to confirm or rule out the diagnosis.
+
+51
+00:03:19,340 --> 00:03:22,920
+Once a diagnosis was considered identified,
+
+52
+00:03:22,920 --> 00:03:25,670
+it was added to the patient's problem list.
+
+53
+00:03:25,670 --> 00:03:28,890
+Its manifestations were considered accounted for,
+
+54
+00:03:28,890 --> 00:03:30,470
+and the process repeated.
+
+55
+00:03:30,470 --> 00:03:35,810
+While Internists worked, in complex cases,
+
+56
+00:03:35,810 --> 00:03:39,050
+they are often considered inappropriate possibilities and
+
+57
+00:03:39,050 --> 00:03:43,095
+wasted clinician's time answering questions with respect to that.
+
+58
+00:03:43,095 --> 00:03:48,040
+To overcome this, Internist-II used the heuristic that recognize that
+
+59
+00:03:48,040 --> 00:03:50,050
+certain manifestations are distinctly
+
+60
+00:03:50,050 --> 00:03:53,250
+characteristic of a disease or category of diseases.
+
+61
+00:03:53,250 --> 00:03:57,915
+Jaundice, which is prominent in this diagram we just saw,
+
+62
+00:03:57,915 --> 00:03:59,700
+is highly suggestive of
+
+63
+00:03:59,700 --> 00:04:04,005
+liver disease so the initial focus in a patient with this symptom,
+
+64
+00:04:04,005 --> 00:04:06,840
+should be on this disease category as it
+
+65
+00:04:06,840 --> 00:04:10,025
+would be if a physician were making the diagnosis.
+
+66
+00:04:10,025 --> 00:04:14,995
+Internist-II also introduced a multi problem generator.
+
+67
+00:04:14,995 --> 00:04:20,075
+Essentially, a search process beginning globally with health problems as shown here.
+
+68
+00:04:20,075 --> 00:04:25,730
+It terminated when at least one problem hypothesis accounted for all clinical findings.
+
+69
+00:04:25,730 --> 00:04:31,355
+However, that hypothesis might or might not specify specific diseases.
+
+70
+00:04:31,355 --> 00:04:34,184
+If there were sufficient cues in the data,
+
+71
+00:04:34,184 --> 00:04:40,205
+further hypothesis reduction could reduce the possibilities to specific problems.
+
+72
+00:04:40,205 --> 00:04:45,035
+Finally, if further reduced the problem list by exploiting its database of causal,
+
+73
+00:04:45,035 --> 00:04:47,230
+temporal, and other relationships,
+
+74
+00:04:47,230 --> 00:04:51,210
+yet another process, analogous to what actual physicians do.

@@ -1,0 +1,43 @@
+1
+00:00:00,000 --> 00:00:06,315
+Patient facing health informatics tools is a rich and increasingly interesting field
+
+2
+00:00:06,315 --> 00:00:09,180
+particularly because of the growing use of apps and
+
+3
+00:00:09,180 --> 00:00:13,590
+mobile devices for patients to report on and measure their behavior,
+
+4
+00:00:13,590 --> 00:00:17,000
+activity, and physiologic parameters.
+
+5
+00:00:17,000 --> 00:00:20,795
+Those new technologies even have a name, mHealth.
+
+6
+00:00:20,795 --> 00:00:23,495
+It will be the topic of a later lesson.
+
+7
+00:00:23,495 --> 00:00:26,340
+In this one, we will address some of the other tools
+
+8
+00:00:26,340 --> 00:00:29,760
+and approaches to patient engagement through informatics.
+
+9
+00:00:29,760 --> 00:00:32,585
+Some are old ideas while others are quite new.
+
+10
+00:00:32,585 --> 00:00:37,530
+The changing economics and care models in healthcare are increasing interest
+
+11
+00:00:37,530 --> 00:00:39,000
+in all of them.
