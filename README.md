@@ -1,23 +1,23 @@
 # INDEX
-* 1 - Introduction - lang_en_vs1
-* 2 - A Brief History Of Health Informatics - lang_en_vs1
-* 3 - Exciting Times - lang_en_vs1
-* 4 - 04 L EICU Interview Ver 2 - lang_en_vs1
-* 5 - Introduction - lang_en_vs1
-* 6 - High Cost, Mediocre Results - lang_en_vs1
-* 7 - The Uninsured Can Raise Costs, Part 1 - lang_en_vs1
-* 8 - The Uninsured Can Raise Costs, Part 2 - lang_en_vs1
-* 9 - The Payment Model - lang_en_vs1
-* 10 - Waste - lang_en_vs1
-* 11 - Chronic Disease Drives Most Costs - lang_en_vs1
-* 12 - Gerard Anderson, PhD Interview - lang_en_vs1
-* 13 - Alternate Care Models - HMO - lang_en_vs1
-* 14 - Alternate Care Models - Patient Centered Medical Home - lang_en_vs1
-* 15 - Alternate Care Models - ACO - lang_en_vs1
-* 16 - The Role Of Health Informatics - lang_en_vs1
-* 17 - A Learning Healthcare System - lang_en_vs1
-* 18 - Informatics for a Learning Healthcare System - lang_en_vs1
-* 19 - Case Study: Dr
+ 1 - Introduction - lang_en_vs1
+ 2 - A Brief History Of Health Informatics - lang_en_vs1
+ 3 - Exciting Times - lang_en_vs1
+ 4 - 04 L EICU Interview Ver 2 - lang_en_vs1
+ 5 - Introduction - lang_en_vs1
+ 6 - High Cost, Mediocre Results - lang_en_vs1
+ 7 - The Uninsured Can Raise Costs, Part 1 - lang_en_vs1
+ 8 - The Uninsured Can Raise Costs, Part 2 - lang_en_vs1
+ 9 - The Payment Model - lang_en_vs1
+ 10 - Waste - lang_en_vs1
+ 11 - Chronic Disease Drives Most Costs - lang_en_vs1
+ 12 - Gerard Anderson, PhD Interview - lang_en_vs1
+ 13 - Alternate Care Models - HMO - lang_en_vs1
+ 14 - Alternate Care Models - Patient Centered Medical Home - lang_en_vs1
+ 15 - Alternate Care Models - ACO - lang_en_vs1
+ 16 - The Role Of Health Informatics - lang_en_vs1
+ 17 - A Learning Healthcare System - lang_en_vs1
+ 18 - Informatics for a Learning Healthcare System - lang_en_vs1
+ 19 - Case Study: Dr
 * 20 - HIT2 Lesson 1 16 James C- Cox  Ver 2 - lang_en_vs1
 * 21 - Introduction - lang_en_vs1
 * 22 - The Adoption Challenges - lang_en_vs1
