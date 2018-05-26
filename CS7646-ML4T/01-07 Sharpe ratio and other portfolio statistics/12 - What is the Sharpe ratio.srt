@@ -1,0 +1,75 @@
+1
+00:00:00,140 --> 00:00:02,917
+The correct answer is 12.7.
+
+2
+00:00:02,917 --> 00:00:06,004
+That's a really,
+eye-watering Sharpe ratio.
+
+3
+00:00:06,004 --> 00:00:08,668
+Anyway, these numbers are just
+made up for example, so
+
+4
+00:00:08,668 --> 00:00:11,403
+it's not surprising we might
+get an absurd number here.
+
+5
+00:00:11,403 --> 00:00:14,138
+But, here's how we calculate that.
+
+6
+00:00:14,138 --> 00:00:17,603
+Remember our Sharpe ratio
+is the square root of 252
+
+7
+00:00:17,603 --> 00:00:21,922
+because that's how frequently
+we are sampling the data, daily.
+
+8
+00:00:21,922 --> 00:00:25,590
+252 days in a year, square root of 252.
+
+9
+00:00:25,590 --> 00:00:29,526
+A lot of people probably saw
+this 60 days of data and
+
+10
+00:00:29,526 --> 00:00:33,020
+thought that it should
+be square root of 60.
+
+11
+00:00:33,020 --> 00:00:34,402
+It's not correct.
+
+12
+00:00:34,402 --> 00:00:37,610
+It's the frequency that you're sampling.
+
+13
+00:00:37,610 --> 00:00:43,070
+Anyways, getting back to it, it's square
+root of 252 times the mean of portfolio
+
+14
+00:00:43,070 --> 00:00:48,820
+return minus risk free return divided by
+standard deviation of our daily return.
+
+15
+00:00:49,970 --> 00:00:58,380
+So that becomes square root of 252 times
+10 bips minus 2 bips divided by 10 bips.
+
+16
+00:00:58,380 --> 00:01:04,908
+This just becomes 0.8, and
+multiply it all out, and you get 12.7.
+

@@ -1,0 +1,63 @@
+1
+00:00:00,290 --> 00:00:02,650
+Let's suppose you've been watching IBM.
+
+2
+00:00:02,650 --> 00:00:04,840
+It's reached about $100, and
+
+3
+00:00:04,840 --> 00:00:07,550
+you'd like to short it because
+you think it's going to go down.
+
+4
+00:00:07,550 --> 00:00:10,920
+Suppose you shorted it right
+here when its price was $100.
+
+5
+00:00:10,920 --> 00:00:14,900
+Now you're in that short position.
+
+6
+00:00:14,900 --> 00:00:17,040
+You watch the stock for a few days.
+
+7
+00:00:17,040 --> 00:00:21,080
+It goes down to $90, and
+you decide, okay, I want to exit.
+
+8
+00:00:21,080 --> 00:00:24,630
+So you submit an order to your
+broker to close out your position
+
+9
+00:00:24,630 --> 00:00:28,700
+by buying out those 100 shares and
+you do it at $90.
+
+10
+00:00:28,700 --> 00:00:31,660
+The question is, what's your net return?
+
+11
+00:00:31,660 --> 00:00:32,759
+Did you make money?
+
+12
+00:00:32,759 --> 00:00:34,600
+Did you lose money?
+
+13
+00:00:34,600 --> 00:00:38,970
+What's the total return in dollars of
+this transaction where you short 100
+
+14
+00:00:38,970 --> 00:00:43,999
+shares when it's at $100 and
+you buy to close when it's at $90?
+

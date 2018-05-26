@@ -1,0 +1,10 @@
+1
+00:00:00,190 --> 00:00:03,300
+In general,
+in fact in almost every case I know of,
+
+2
+00:00:03,300 --> 00:00:06,689
+out of sample error is always
+worse than in sample error.
+

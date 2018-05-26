@@ -1,0 +1,31 @@
+1
+00:00:00,160 --> 00:00:01,660
+Thank you, Professor.
+
+2
+00:00:01,660 --> 00:00:03,690
+Hey, everyone, this is Davia.
+
+3
+00:00:03,690 --> 00:00:07,060
+So here's an example of
+what the data looks like
+
+4
+00:00:07,060 --> 00:00:09,550
+that Professor was talking about.
+
+5
+00:00:09,550 --> 00:00:13,390
+This is basically a comma
+separated file, as you can see.
+
+6
+00:00:13,390 --> 00:00:17,830
+And as you observe that the CSV
+is in the reverse order, but
+
+7
+00:00:17,830 --> 00:00:20,150
+soon we will teach you how to fix that.
+

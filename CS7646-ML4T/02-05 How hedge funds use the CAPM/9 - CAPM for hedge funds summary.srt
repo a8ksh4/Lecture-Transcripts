@@ -1,0 +1,83 @@
+1
+00:00:00,210 --> 00:00:05,080
+Let's bring it all together now, how
+hedge funds can use CAPM effectively.
+
+2
+00:00:05,080 --> 00:00:08,730
+Assuming we have some sort
+of actionable information
+
+3
+00:00:08,730 --> 00:00:13,550
+that we can convert into a forecast
+alpha, in other words, a prediction for
+
+4
+00:00:13,550 --> 00:00:16,250
+a particular stock i,
+about which way it's going to go.
+
+5
+00:00:16,250 --> 00:00:22,150
+And also the beta of that stock
+with regard to the market.
+
+6
+00:00:22,150 --> 00:00:23,890
+We can do the following.
+
+7
+00:00:23,890 --> 00:00:26,710
+We can minimize market
+risk by finding a beta for
+
+8
+00:00:26,710 --> 00:00:29,140
+our portfolio that's equal to zero.
+
+9
+00:00:29,140 --> 00:00:32,390
+And we can do that by finding
+the appropriate weights
+
+10
+00:00:32,390 --> 00:00:34,190
+on each individual stock.
+
+11
+00:00:34,190 --> 00:00:38,660
+So, CAPM can be a really valuable tool
+in terms of portfolio construction
+
+12
+00:00:38,660 --> 00:00:41,940
+because it can enable you
+to build these portfolios
+
+13
+00:00:41,940 --> 00:00:44,050
+that are less exposed to market risk.
+
+14
+00:00:44,050 --> 00:00:47,430
+And this is where the whole idea
+of long short trading came about.
+
+15
+00:00:47,430 --> 00:00:50,670
+You know,
+CAPM really enables you to refine that.
+
+16
+00:00:50,670 --> 00:00:53,030
+All right, that is it for now.
+
+17
+00:00:53,030 --> 00:00:54,240
+We'll see you again soon.
+
+18
+00:00:54,240 --> 00:00:54,740
+Thank you.
+

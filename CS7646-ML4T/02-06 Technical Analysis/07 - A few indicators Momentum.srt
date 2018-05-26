@@ -1,0 +1,202 @@
+1
+00:00:00,280 --> 00:00:03,170
+There are hundreds of technical
+indicators out there.
+
+2
+00:00:03,170 --> 00:00:06,010
+We're going to take a look at
+just three because, of course,
+
+3
+00:00:06,010 --> 00:00:10,370
+our time is limited but I will point you
+to resources online where you can learn
+
+4
+00:00:10,370 --> 00:00:12,260
+about other indicators.
+
+5
+00:00:12,260 --> 00:00:17,040
+Theres three are some of the most common
+and most popular that people use.
+
+6
+00:00:17,040 --> 00:00:20,770
+The three we will look at are momentum,
+simple moving average, and
+
+7
+00:00:20,770 --> 00:00:22,560
+Bollinger Bands.
+
+8
+00:00:22,560 --> 00:00:24,680
+Let's take a look first at momentum.
+
+9
+00:00:24,680 --> 00:00:27,580
+Momentum is really one of
+the simplest indicators, and
+
+10
+00:00:27,580 --> 00:00:31,350
+it's just over some number of days
+how much has the price changed.
+
+11
+00:00:32,490 --> 00:00:33,160
+So for instance,
+
+12
+00:00:33,160 --> 00:00:37,910
+if we look at this point to this point,
+we've got positive momentum.
+
+13
+00:00:37,910 --> 00:00:42,690
+Or if we were to look from here to here,
+we've got negative momentum.
+
+14
+00:00:43,710 --> 00:00:47,950
+The steepness of that line is
+the strength of the momentum,
+
+15
+00:00:47,950 --> 00:00:49,750
+either positive or negative.
+
+16
+00:00:49,750 --> 00:00:54,710
+Now, in terms of using this in a trading
+strategy, there are many folks who look
+
+17
+00:00:54,710 --> 00:00:59,240
+at the momentum for a stock, the recent
+momentum, and if it's positive they buy,
+
+18
+00:00:59,240 --> 00:01:02,650
+because they anticipate that
+the momentum is going to continue.
+
+19
+00:01:02,650 --> 00:01:05,269
+Now, I'm not necessarily
+recommending that to you.
+
+20
+00:01:05,269 --> 00:01:09,308
+I'm just telling you
+how some people use it.
+
+21
+00:01:09,308 --> 00:01:12,150
+Now I'm going to show
+you in a later slide,
+
+22
+00:01:12,150 --> 00:01:16,210
+how we can use momentum as
+part of a combined strategy.
+
+23
+00:01:16,210 --> 00:01:20,200
+Now, you can see here how we
+can look at momentum visually.
+
+24
+00:01:21,230 --> 00:01:22,050
+But for
+
+25
+00:01:22,050 --> 00:01:25,490
+machine learning, which of course we're
+going to get to in the next mini course,
+
+26
+00:01:25,490 --> 00:01:29,760
+we actually need to convert these to
+numbers that we can use quantitatively.
+
+27
+00:01:29,760 --> 00:01:32,850
+And, of course, this course is
+about quantitative analysis.
+
+28
+00:01:32,850 --> 00:01:38,760
+So there's always, for
+technical analysis, a graphical or
+
+29
+00:01:38,760 --> 00:01:43,920
+visual presentation, but we need to also
+consider the quantitative presentation.
+
+30
+00:01:44,940 --> 00:01:50,020
+So, when we talk about momentum, we talk
+about how many days of momentum that is.
+
+31
+00:01:50,020 --> 00:01:54,430
+So, that might be n days,
+where we use n right there.
+
+32
+00:01:54,430 --> 00:01:59,050
+So, n might be a number like 5 or
+10 and so on.
+
+33
+00:01:59,050 --> 00:02:03,100
+Here's the pseudo code for how we
+compute momentum on a particular day.
+
+34
+00:02:03,100 --> 00:02:06,560
+So let's suppose this
+is day t right here.
+
+35
+00:02:06,560 --> 00:02:10,410
+We just take the price
+as of that day and
+
+36
+00:02:10,410 --> 00:02:14,780
+we divide it by the price in
+days earlier and subtract 1.
+
+37
+00:02:14,780 --> 00:02:18,740
+So this will give us a number, say 0.1,
+
+38
+00:02:18,740 --> 00:02:26,110
+if the price has gone up 10% or
+-0.1, if it's gone down 10%.
+
+39
+00:02:26,110 --> 00:02:31,412
+So we usually see numbers in
+the range of, say, about -0.5 for
+
+40
+00:02:31,412 --> 00:02:35,975
+a big, significant,
+50% drop, to about +0.5.
+
+41
+00:02:35,975 --> 00:02:37,880
+So on any particular day,
+
+42
+00:02:37,880 --> 00:02:41,940
+this is how we would calculate the value
+of this technical indicator momentum.
+

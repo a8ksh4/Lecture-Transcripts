@@ -1,0 +1,298 @@
+1
+00:00:00,630 --> 00:00:05,880
+We're finally able now to get to
+the core of the capital assets pricing
+
+2
+00:00:05,880 --> 00:00:11,350
+model, and that's expressed in this
+single equation that's really important.
+
+3
+00:00:11,350 --> 00:00:14,220
+You need to memorize it and
+understand it.
+
+4
+00:00:14,220 --> 00:00:16,460
+And here's what that equation is.
+
+5
+00:00:16,460 --> 00:00:21,510
+So the capital assets pricing
+model says that the return for
+
+6
+00:00:21,510 --> 00:00:30,290
+an individual stock on a particular day
+t = beta times the return on the market.
+
+7
+00:00:30,290 --> 00:00:34,270
+So, I told you just a moment ago,
+for instance, that the, when we say
+
+8
+00:00:34,270 --> 00:00:38,440
+the market in the United States,
+we're usually referring to the S&P 500.
+
+9
+00:00:38,440 --> 00:00:44,457
+And this particular stock, i,
+is one of the stocks in the S&P 500.
+
+10
+00:00:44,457 --> 00:00:50,511
+So its return on a particular day,
+again, is beta times the return
+
+11
+00:00:50,511 --> 00:00:56,900
+on the market of that day + alpha of
+that particular stock on that day.
+
+12
+00:00:57,980 --> 00:01:02,580
+So what the capital assets pricing model
+is asserting, and this is important,
+
+13
+00:01:02,580 --> 00:01:05,770
+is that a significant
+portion of the return for
+
+14
+00:01:05,770 --> 00:01:08,650
+a particular stock is due to the market.
+
+15
+00:01:08,650 --> 00:01:11,230
+In other words, the market moving up or
+
+16
+00:01:11,230 --> 00:01:15,395
+down strongly affects the change in
+price on every individual stock.
+
+17
+00:01:15,395 --> 00:01:19,770
+And the extent to which the market
+affects a particular stock
+
+18
+00:01:19,770 --> 00:01:24,280
+is encapsulated in this beta which
+we'll talk about in just a second.
+
+19
+00:01:24,280 --> 00:01:29,270
+But every stock has its individual beta
+that specifies how much it's affected.
+
+20
+00:01:29,270 --> 00:01:33,360
+Many stocks have a beta near one which
+means when the market goes up or
+
+21
+00:01:33,360 --> 00:01:38,510
+down 1%, that stock goes up or down 1%.
+
+22
+00:01:38,510 --> 00:01:44,117
+But if you had say a larger beta, say
+two, that means if the market goes up 1%
+
+23
+00:01:44,117 --> 00:01:49,138
+we would expect, all else being equal,
+that the stock goes up 2%.
+
+24
+00:01:49,138 --> 00:01:53,170
+This other component, alpha,
+is called the residual.
+
+25
+00:01:53,170 --> 00:01:56,628
+So of course, if you look at
+all the stocks over one day and
+
+26
+00:01:56,628 --> 00:01:59,437
+look at how much the market goes up or
+down, and
+
+27
+00:01:59,437 --> 00:02:04,216
+you calculate how much the stock should
+have gone up or down according to beta.
+
+28
+00:02:04,216 --> 00:02:05,412
+Well there'll be something left over.
+
+29
+00:02:05,412 --> 00:02:08,070
+It won't exactly match
+what beta predicted.
+
+30
+00:02:08,070 --> 00:02:10,990
+And that's what this alpha or
+residual component is.
+
+31
+00:02:12,080 --> 00:02:17,413
+An important part of
+the capital assets pricing
+
+32
+00:02:17,413 --> 00:02:22,630
+model is that the expectation for
+alpha is 0.
+
+33
+00:02:22,630 --> 00:02:26,710
+Essentially this is a random variable
+with an expected value of 0.
+
+34
+00:02:26,710 --> 00:02:28,100
+It's important to remember that.
+
+35
+00:02:29,320 --> 00:02:33,250
+Where do we get this beta and
+this alpha?
+
+36
+00:02:33,250 --> 00:02:39,020
+Well, it comes from daily returns and
+essentially how the daily returns for
+
+37
+00:02:39,020 --> 00:02:43,080
+a particular stock relate to
+the daily returns of the market.
+
+38
+00:02:43,080 --> 00:02:47,187
+So look at returns here for S&P 500, and
+
+39
+00:02:47,187 --> 00:02:53,190
+consider the S&P 500 in comparison
+to this other stock xyz.
+
+40
+00:02:54,250 --> 00:02:57,540
+So xyz, its daily returns
+are shown here in green.
+
+41
+00:02:57,540 --> 00:02:59,689
+And blue shows S&P 500.
+
+42
+00:02:59,689 --> 00:03:05,250
+Now look at each day, seems that
+the xyz stock is more reactive.
+
+43
+00:03:05,250 --> 00:03:10,070
+In other words, if S&P 500 goes up
+a little, this stock goes up more.
+
+44
+00:03:10,070 --> 00:03:13,960
+And, on average, it tends to
+have a higher return each day.
+
+45
+00:03:15,070 --> 00:03:18,000
+We can look at what happens with
+the returns on each day and
+
+46
+00:03:18,000 --> 00:03:20,020
+plot them over here in a scatter plot.
+
+47
+00:03:20,020 --> 00:03:22,960
+So on this particular day,
+the market went up a little bit, and
+
+48
+00:03:22,960 --> 00:03:25,520
+xyz went up a little bit more.
+
+49
+00:03:25,520 --> 00:03:29,968
+So that would correspond to
+a point right about there.
+
+50
+00:03:29,968 --> 00:03:33,872
+Now, if we plotted the results for a lot
+of these days, we would get a scatter
+
+51
+00:03:33,872 --> 00:03:37,665
+plot that looks a bit like this,
+where each green dot represents one day.
+
+52
+00:03:37,665 --> 00:03:40,720
+And if we fit a line to it, we'd get
+something that looks about like this.
+
+53
+00:03:41,870 --> 00:03:47,270
+So beta is simply
+the slope of this line, and
+
+54
+00:03:47,270 --> 00:03:53,520
+alpha is simply this area here, in other
+words, the y-intercept of that line.
+
+55
+00:03:54,860 --> 00:03:57,980
+Now this is an after
+the fact of calculation.
+
+56
+00:03:57,980 --> 00:04:02,230
+In other words, just because
+historically a particular stock,
+
+57
+00:04:02,230 --> 00:04:04,890
+looking back at time gave
+you a particular alpha,
+
+58
+00:04:04,890 --> 00:04:08,080
+you shouldn't necessarily
+expect that in the future.
+
+59
+00:04:08,080 --> 00:04:12,690
+And again, CAPM says that you
+should expect this to be 0.
+
+60
+00:04:12,690 --> 00:04:15,660
+In reality though, it's not always 0.
+
+61
+00:04:15,660 --> 00:04:20,050
+So, that's the key to the capital
+assets pricing model and where beta and
+
+62
+00:04:20,050 --> 00:04:20,890
+alpha come from.
+

@@ -1,0 +1,293 @@
+1
+00:00:00,190 --> 00:00:03,410
+To understand the value of technical
+analysis versus fundamental,
+
+2
+00:00:04,470 --> 00:00:07,060
+it's valuable to consider
+the trading horizon.
+
+3
+00:00:07,060 --> 00:00:09,840
+In other words when you buy a stock and
+
+4
+00:00:09,840 --> 00:00:14,400
+sell it, what's the time period
+between those two activities.
+
+5
+00:00:14,400 --> 00:00:19,030
+So, it can be milliseconds,
+maybe even smaller time periods.
+
+6
+00:00:19,030 --> 00:00:21,470
+It can be days or it can be years.
+
+7
+00:00:21,470 --> 00:00:26,430
+So, for instance, Warren Buffett
+often buys and holds stocks for
+
+8
+00:00:26,430 --> 00:00:30,750
+years, high frequency traders are
+trading on the order of milliseconds.
+
+9
+00:00:32,080 --> 00:00:36,080
+So to illustrate what I mean,
+consider Fundamental factors.
+
+10
+00:00:36,080 --> 00:00:41,570
+If we are trading over a time period
+of milliseconds How much do fundamental
+
+11
+00:00:41,570 --> 00:00:46,620
+factors contribute to the change in
+price over those short periods of time?
+
+12
+00:00:46,620 --> 00:00:50,360
+When we're trading machines
+on the stock exchange,
+
+13
+00:00:50,360 --> 00:00:53,090
+what really matters is what's
+happening there on the stock exchange.
+
+14
+00:00:53,090 --> 00:00:57,050
+For instance, the order book or
+momentum and so on.
+
+15
+00:00:57,050 --> 00:00:59,460
+So at these short time periods,
+
+16
+00:00:59,460 --> 00:01:01,390
+Fundamental factors
+really have low value.
+
+17
+00:01:02,540 --> 00:01:06,080
+Now consider all the way out to years,
+we know from, for
+
+18
+00:01:06,080 --> 00:01:09,440
+instance, Warren Buffet's success,
+that fundamental
+
+19
+00:01:09,440 --> 00:01:14,270
+factors over long periods of
+time may have significant value.
+
+20
+00:01:14,270 --> 00:01:15,220
+What about days?
+
+21
+00:01:15,220 --> 00:01:19,700
+Well, maybe over a period of days
+Fundamental factors do have value.
+
+22
+00:01:19,700 --> 00:01:22,620
+So, imagine that we sort
+of chart it like this.
+
+23
+00:01:23,740 --> 00:01:27,340
+Over long periods of time, fundamental
+factors provide a lot of value.
+
+24
+00:01:28,560 --> 00:01:32,290
+Consider the same sort of chart now,
+but for technical factors.
+
+25
+00:01:32,290 --> 00:01:36,000
+Let's start out over here,
+over many years.
+
+26
+00:01:36,000 --> 00:01:39,990
+Think about if we make
+a technical analysis of a stock,
+
+27
+00:01:41,050 --> 00:01:45,130
+what it's 20 day momentum is which
+we'll talk about in a moment.
+
+28
+00:01:45,130 --> 00:01:49,830
+How much is that really going to affect
+the price of a stock years later.
+
+29
+00:01:49,830 --> 00:01:50,760
+Very little.
+
+30
+00:01:50,760 --> 00:01:55,920
+So over long terms technical
+analysis is not so valuable.
+
+31
+00:01:55,920 --> 00:01:59,400
+Think back now to very very
+short periods of time.
+
+32
+00:01:59,400 --> 00:02:01,730
+This is where technical
+analysis can shine, and
+
+33
+00:02:01,730 --> 00:02:04,990
+it potentially has high value
+over very short periods of time.
+
+34
+00:02:06,410 --> 00:02:11,000
+So we have a chart that looks a lot like
+the fundamental chart, but it's swapped.
+
+35
+00:02:11,000 --> 00:02:12,940
+Let's consider a couple other factors.
+
+36
+00:02:12,940 --> 00:02:17,580
+I won't draw the charts like these,
+but just think about these.
+
+37
+00:02:17,580 --> 00:02:20,630
+So consider for instance,
+decision complexity.
+
+38
+00:02:20,630 --> 00:02:22,290
+How complex is the decision to buy or
+
+39
+00:02:22,290 --> 00:02:26,170
+sell a stock if you're
+going to hold it for years.
+
+40
+00:02:26,170 --> 00:02:28,170
+Becomes more complex this way.
+
+41
+00:02:29,310 --> 00:02:30,840
+How about decision speed?
+
+42
+00:02:30,840 --> 00:02:33,550
+How fast do the decisions
+have to be made?
+
+43
+00:02:33,550 --> 00:02:36,527
+Well, certainly, we have to be
+able to make the decisions really,
+
+44
+00:02:36,527 --> 00:02:39,590
+really fast if we're trading
+at the millisecond level.
+
+45
+00:02:39,590 --> 00:02:42,730
+And of course we can take
+a long time to make a decision
+
+46
+00:02:42,730 --> 00:02:45,410
+if we're going to buy and
+hold for years.
+
+47
+00:02:45,410 --> 00:02:49,720
+So as you look across this spectrum,
+consider where is the best region for
+
+48
+00:02:49,720 --> 00:02:53,800
+humans to operate and where is the best
+region for computers to operate?
+
+49
+00:02:53,800 --> 00:02:57,420
+Well, because at this
+very high frequency
+
+50
+00:02:57,420 --> 00:03:00,380
+the complexity of decisions is simple.
+
+51
+00:03:00,380 --> 00:03:04,480
+Computers can make this decisions very,
+very fast and that also happens to
+
+52
+00:03:04,480 --> 00:03:09,340
+be where technical analysis has value
+which is the domain of the computer.
+
+53
+00:03:09,340 --> 00:03:12,920
+So computers excel in
+this region of the chart.
+
+54
+00:03:14,060 --> 00:03:18,290
+Over here where we can take a long
+time ti make a decision and
+
+55
+00:03:18,290 --> 00:03:20,440
+the decisions are complex.
+
+56
+00:03:20,440 --> 00:03:24,020
+This is the best region for
+human investors.
+
+57
+00:03:24,020 --> 00:03:28,690
+So, if you look at different types of
+hedge funds the high frequency trading
+
+58
+00:03:28,690 --> 00:03:32,200
+computer driven hedge funds
+are operating over here.
+
+59
+00:03:32,200 --> 00:03:36,860
+The insight driven, human based
+hedge funds are operating over here.
+
+60
+00:03:36,860 --> 00:03:39,980
+And then there's this region in
+the middle where we often see humans and
+
+61
+00:03:39,980 --> 00:03:41,280
+computers working together.
+

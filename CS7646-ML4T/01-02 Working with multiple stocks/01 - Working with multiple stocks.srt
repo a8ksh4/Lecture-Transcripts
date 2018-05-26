@@ -1,0 +1,40 @@
+1
+00:00:00,480 --> 00:00:04,870
+So far in this course we've been
+working with one stock at a time.
+
+2
+00:00:04,870 --> 00:00:06,010
+>> Yes, professor.
+
+3
+00:00:06,010 --> 00:00:07,160
+>> Dave, are you a juggler?
+
+4
+00:00:08,550 --> 00:00:10,240
+>> No.
+>> Can you juggle lots of things
+
+5
+00:00:10,240 --> 00:00:10,830
+at once?
+
+6
+00:00:10,830 --> 00:00:14,770
+>> What?
+>> [Laughter]
+
+7
+00:00:14,770 --> 00:00:17,420
+>> I can juggle two.
+
+8
+00:00:19,230 --> 00:00:21,800
+>> Sorry, I can't do this.
+
+9
+00:00:21,800 --> 00:00:23,120
+>> Allright.
+We're not jugglers.
+

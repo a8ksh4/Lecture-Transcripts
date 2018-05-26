@@ -1,0 +1,80 @@
+1
+00:00:00,660 --> 00:00:04,080
+So, let's start over here,
+going back from today,
+
+2
+00:00:04,080 --> 00:00:08,450
+our adjusted price is
+the same as the price today.
+
+3
+00:00:08,450 --> 00:00:12,790
+So, as we go back and we get to this day
+where there is a $100 in the actual.
+
+4
+00:00:12,790 --> 00:00:17,470
+There's no change, it's still
+a $100 also for the adjusted okay,
+
+5
+00:00:17,470 --> 00:00:22,230
+we go back further on this day of the
+split, again, no change that would have
+
+6
+00:00:22,230 --> 00:00:27,070
+been $50, but we're looking to
+calculate the price just before $100.
+
+7
+00:00:27,070 --> 00:00:32,860
+In other words, when the actual price
+was 100 just before that split,
+
+8
+00:00:32,860 --> 00:00:35,190
+what would the adjusted close be?
+
+9
+00:00:35,190 --> 00:00:39,050
+Well, we divide everything by 2
+remember, so we would have 50 here.
+
+10
+00:00:40,170 --> 00:00:42,890
+So it would cruise along like this.
+
+11
+00:00:42,890 --> 00:00:48,160
+And again, here we divide by two because
+that's what our recent split was and
+
+12
+00:00:48,160 --> 00:00:50,500
+we would have 25 here.
+
+13
+00:00:50,500 --> 00:00:52,139
+So this correctly
+represents that if you.
+
+14
+00:00:52,139 --> 00:00:55,019
+If you bought the stock on this day
+
+15
+00:00:55,019 --> 00:00:59,059
+it would double in value by
+the time you got to this day.
+
+16
+00:00:59,059 --> 00:01:00,409
+And if you bought it on this day and
+
+17
+00:01:00,409 --> 00:01:04,388
+held it all the way to here, you would
+actually get four times your value.
+

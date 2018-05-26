@@ -1,0 +1,40 @@
+1
+00:00:00,410 --> 00:00:06,240
+Suppose now that we've looked at,
+say the S&P 500 over many years and
+
+2
+00:00:06,240 --> 00:00:10,570
+we've measured each day what
+the daily return is for the S&P 500.
+
+3
+00:00:10,570 --> 00:00:14,410
+And we conduct a histogram and
+plot that histogram.
+
+4
+00:00:14,410 --> 00:00:19,050
+So, for
+each little bin we have a bar there.
+
+5
+00:00:19,050 --> 00:00:21,570
+What is the shape of this
+histogram going to look like?
+
+6
+00:00:22,760 --> 00:00:26,690
+Do you think the bars, when we put them
+all together, will have a sort of flat
+
+7
+00:00:26,690 --> 00:00:33,260
+shape, maybe a triangular shape, or
+something that's more like a bell curve?
+
+8
+00:00:34,450 --> 00:00:38,450
+Check the box next to the histogram
+that you think is the best answer.
+

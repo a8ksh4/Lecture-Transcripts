@@ -1,0 +1,54 @@
+1
+00:00:00,210 --> 00:00:03,380
+There are a few other
+factors worth considering
+
+2
+00:00:03,380 --> 00:00:07,020
+when evaluating a learning algorithm,
+and I've tallied a few of them here.
+
+3
+00:00:08,029 --> 00:00:12,190
+I want you to think about each one
+of these and select which you think
+
+4
+00:00:12,190 --> 00:00:16,370
+has better performance in that regard,
+linear regression or KNN.
+
+5
+00:00:17,420 --> 00:00:19,050
+So let's step through them.
+
+6
+00:00:19,050 --> 00:00:23,330
+How much memory do you need in
+your computer to save the model?
+
+7
+00:00:23,330 --> 00:00:26,580
+How much compute time do you
+need to train the model?
+
+8
+00:00:26,580 --> 00:00:28,710
+How long does it take
+to query the model?
+
+9
+00:00:29,780 --> 00:00:33,360
+And finally, how easy is it to
+add new data to your model?
+
+10
+00:00:33,360 --> 00:00:36,490
+So, again,
+I want you to check the box according to
+
+11
+00:00:36,490 --> 00:00:40,020
+which one has better performance
+with regard to these factors.
+

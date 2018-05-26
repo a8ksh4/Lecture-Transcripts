@@ -1,0 +1,38 @@
+1
+00:00:00,470 --> 00:00:02,160
+This is the correct answer.
+
+2
+00:00:02,160 --> 00:00:06,990
+XYZ has a lower return and
+higher volatility than SPY.
+
+3
+00:00:06,990 --> 00:00:11,276
+You can tell that if you look
+here at the mean of XYZ,
+
+4
+00:00:11,276 --> 00:00:14,983
+you can see it's lower
+than the mean of SPY.
+
+5
+00:00:14,983 --> 00:00:19,908
+You can see the shoulders are broad on
+XYZ, meaning it's got a larger standard
+
+6
+00:00:19,908 --> 00:00:23,123
+deviation, and therefore,
+higher volatility.
+
+7
+00:00:23,123 --> 00:00:26,462
+Dave will show you now how to
+plot histograms like this,
+
+8
+00:00:26,462 --> 00:00:28,680
+right next to one another in Python.
+

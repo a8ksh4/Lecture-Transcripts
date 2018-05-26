@@ -1,0 +1,120 @@
+1
+00:00:00,320 --> 00:00:03,290
+Let's summarize now
+the implications of CAPM.
+
+2
+00:00:03,290 --> 00:00:05,450
+Let's start first with the equation.
+
+3
+00:00:05,450 --> 00:00:10,430
+So the CAPM tells us that the expected
+return on our portfolio is the veta
+
+4
+00:00:10,430 --> 00:00:14,680
+of the portfolio times the return on
+the market plus alpha of the portfolio.
+
+5
+00:00:15,700 --> 00:00:19,900
+The first point, an important point,
+is that alpha is random, and
+
+6
+00:00:19,900 --> 00:00:21,870
+the expected value of alpha is zero.
+
+7
+00:00:22,920 --> 00:00:26,600
+So that excludes alpha from our
+toolbox of ways to make money.
+
+8
+00:00:26,600 --> 00:00:27,170
+What's left?
+
+9
+00:00:28,570 --> 00:00:33,380
+So the only way we can beat the market
+now is by cleverly choosing beta, so
+
+10
+00:00:33,380 --> 00:00:38,130
+that when the market is going up,
+we choose a positive beta, and
+
+11
+00:00:38,130 --> 00:00:41,620
+when a markets going down we choose
+a lower or even negative beta.
+
+12
+00:00:42,620 --> 00:00:47,420
+So CAPM says the only way we can beat
+the market is with high beta and
+
+13
+00:00:47,420 --> 00:00:50,600
+up markets and
+low beta and down markets.
+
+14
+00:00:50,600 --> 00:00:53,360
+The only problem with that is
+the efficient markets hypothesis.
+
+15
+00:00:53,360 --> 00:00:55,980
+We haven't covered that yet,
+but it's coming soon.
+
+16
+00:00:55,980 --> 00:00:56,550
+But anyways,
+
+17
+00:00:56,550 --> 00:01:00,210
+the efficient markets hypothesis
+says you can't predict the market.
+
+18
+00:01:00,210 --> 00:01:04,110
+So, these avenues are not
+available to you, either.
+
+19
+00:01:05,340 --> 00:01:10,210
+So, all these things taken together
+say that you can't beat the market.
+
+20
+00:01:10,210 --> 00:01:14,400
+If the capital assets pricing model
+is true, we can't beat the market.
+
+21
+00:01:14,400 --> 00:01:17,080
+Now, I don't believe that, and
+
+22
+00:01:17,080 --> 00:01:21,786
+this whole course is about ways that
+you can potentially beat the market.
+
+23
+00:01:21,786 --> 00:01:24,100
+So, we're going to get
+to those eventually,
+
+24
+00:01:24,100 --> 00:01:27,690
+but we had to present
+the capital assets pricing model
+
+25
+00:01:27,690 --> 00:01:30,110
+as a framework in which to
+consider all these other things.
+

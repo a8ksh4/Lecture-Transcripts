@@ -1,0 +1,72 @@
+1
+00:00:00,330 --> 00:00:03,330
+Let's get back to that original
+question that motivated some of this,
+
+2
+00:00:03,330 --> 00:00:07,920
+which is how can we relate the
+performance of Renaissance technologies?
+
+3
+00:00:07,920 --> 00:00:10,580
+Or Jim Simons versus Warren Buffet?
+
+4
+00:00:11,630 --> 00:00:13,302
+And the quiz here is for
+
+5
+00:00:13,302 --> 00:00:17,990
+you to use the fundamental law to
+see if you can relate the two.
+
+6
+00:00:17,990 --> 00:00:21,562
+Okay, so for this problem,
+assume that both Simons and
+
+7
+00:00:21,562 --> 00:00:24,930
+Buffet have the same information ratio.
+
+8
+00:00:24,930 --> 00:00:26,780
+I'm making that up,
+I don't know for sure that they do.
+
+9
+00:00:26,780 --> 00:00:29,870
+But this is just a simplification for
+this problem.
+
+10
+00:00:29,870 --> 00:00:36,330
+Assume that Simons' algorithms are only
+one 1000th as smart as Buffet.
+
+11
+00:00:36,330 --> 00:00:40,114
+So that's another way of
+saying that their information
+
+12
+00:00:40,114 --> 00:00:43,670
+coefficient is one 1000th
+the value of Buffet.
+
+13
+00:00:43,670 --> 00:00:47,500
+Also assume that Buffet
+trades 120 times per year.
+
+14
+00:00:47,500 --> 00:00:51,860
+Given that, how many trades
+must Simons execute in order
+
+15
+00:00:51,860 --> 00:00:55,640
+to maintain the information ratio
+at the same level as Buffet?
+

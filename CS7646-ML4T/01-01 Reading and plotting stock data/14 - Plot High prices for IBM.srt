@@ -1,0 +1,26 @@
+1
+00:00:00,290 --> 00:00:02,009
+So here's the question for you.
+
+2
+00:00:02,009 --> 00:00:04,260
+Plot the high prices for the IBM.
+
+3
+00:00:04,260 --> 00:00:10,710
+You can approach this problem by
+first getting the CSV data of the IBM
+
+4
+00:00:10,710 --> 00:00:16,270
+followed by getting the high prices from
+the data frame and then plotting it.
+
+5
+00:00:16,270 --> 00:00:18,840
+You can refer to the previous example.
+
+6
+00:00:18,840 --> 00:00:19,340
+Good luck.
+

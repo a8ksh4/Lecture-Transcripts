@@ -1,0 +1,149 @@
+1
+00:00:00,560 --> 00:00:05,550
+So I'd like you to consider two data
+sets, and think about whether it
+
+2
+00:00:05,550 --> 00:00:10,500
+would be best to use a parametric
+model or a non-parametric model.
+
+3
+00:00:10,500 --> 00:00:15,230
+Our first problem is a cannon,
+and we orient the cannon up or
+
+4
+00:00:15,230 --> 00:00:20,450
+down a certain number of degrees,
+and we want to estimate based on
+
+5
+00:00:20,450 --> 00:00:24,740
+how many degrees up or down it is how
+far is the cannonball going to go.
+
+6
+00:00:24,740 --> 00:00:29,183
+The cannon's oriented at
+a certain angle, boom,
+
+7
+00:00:29,183 --> 00:00:35,279
+the cannonball comes out, and
+it follows some trajectory like this,
+
+8
+00:00:35,279 --> 00:00:40,236
+and [SOUND] splats over here,
+so this angle theta is our x,
+
+9
+00:00:40,236 --> 00:00:44,300
+and this distance,
+how far it went, is our y.
+
+10
+00:00:44,300 --> 00:00:47,875
+And so we take the cannon,
+we orient it at many different thetas,
+
+11
+00:00:47,875 --> 00:00:50,780
+and we measure how far
+the cannonball goes.
+
+12
+00:00:50,780 --> 00:00:52,430
+And that's our data.
+
+13
+00:00:52,430 --> 00:00:55,110
+Here's another problem
+from animal behavior.
+
+14
+00:00:55,110 --> 00:00:58,960
+Let's suppose we have a beehive, and
+
+15
+00:00:58,960 --> 00:01:01,590
+we want to estimate
+the behavior of the bees.
+
+16
+00:01:01,590 --> 00:01:06,160
+In other words, how many of them
+will be attracted to this food
+
+17
+00:01:06,160 --> 00:01:11,280
+source as richness of
+the food source increases?
+
+18
+00:01:11,280 --> 00:01:16,460
+So in other words, our x is
+the richness of the food source, and
+
+19
+00:01:16,460 --> 00:01:18,270
+our y is how many.
+
+20
+00:01:19,300 --> 00:01:22,720
+So the reason this is a different
+sort of problem than,
+
+21
+00:01:22,720 --> 00:01:27,990
+say, that cannonball problem,
+is it's not clear that as we
+
+22
+00:01:27,990 --> 00:01:32,570
+increase the richness of the food,
+that necessarily more bees will come.
+
+23
+00:01:32,570 --> 00:01:33,940
+Consider these two problems.
+
+24
+00:01:33,940 --> 00:01:38,350
+The cannonball problem, we're trying to
+build a model for how far will the canon
+
+25
+00:01:38,350 --> 00:01:44,400
+ball go depending on what is x,
+the angle at which the barrel is aimed.
+
+26
+00:01:44,400 --> 00:01:49,320
+And the honeybee problem, how many
+honeybees will visit a food source
+
+27
+00:01:49,320 --> 00:01:54,890
+as we change the richness of the food
+source from, say, poor to rich.
+
+28
+00:01:54,890 --> 00:01:57,930
+Do you think this problem is best
+solved by a parametric model,
+
+29
+00:01:57,930 --> 00:02:00,900
+or non-parametric model for each one?
+
+30
+00:02:00,900 --> 00:02:03,600
+So go ahead and enter your guesses and
+
+31
+00:02:03,600 --> 00:02:05,460
+I'll tell you what I
+think the answer is.
+

@@ -1,0 +1,58 @@
+1
+00:00:00,590 --> 00:00:03,690
+Now consider rewards for our learner.
+
+2
+00:00:03,690 --> 00:00:06,610
+Of course it makes sense that
+rewards should relate in some
+
+3
+00:00:06,610 --> 00:00:08,150
+way to the returns of our strategy.
+
+4
+00:00:08,150 --> 00:00:11,565
+There are at least two
+approaches that we can utilize.
+
+5
+00:00:11,565 --> 00:00:15,028
+Short-term rewards in
+terms of daily returns or
+
+6
+00:00:15,028 --> 00:00:19,840
+long-term rewards that reflect
+the cumulative return of a trade cycle
+
+7
+00:00:19,840 --> 00:00:23,540
+from a buy to a sell, or for
+shorting from a sell to a buy.
+
+8
+00:00:25,040 --> 00:00:30,510
+So consider these two, daily returns,
+where each day we get a reward
+
+9
+00:00:30,510 --> 00:00:34,570
+which is equal to the return
+over the last day, or
+
+10
+00:00:34,570 --> 00:00:41,900
+a reward where our the reward is equal
+to zero, until we exit the position.
+
+11
+00:00:41,900 --> 00:00:46,390
+Then the cumulative return that we
+gained across that whole trade.
+
+12
+00:00:46,390 --> 00:00:49,620
+Which one of these do you think
+will result in faster conversions?
+

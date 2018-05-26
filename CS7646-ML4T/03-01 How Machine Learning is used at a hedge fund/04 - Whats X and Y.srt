@@ -1,0 +1,25 @@
+1
+00:00:00,320 --> 00:00:05,880
+So the two things that make sense
+here as ys are future price,
+
+2
+00:00:05,880 --> 00:00:10,710
+because we're trying to predict it, or
+future return, which is very similar.
+
+3
+00:00:10,710 --> 00:00:16,340
+All these others are factors that
+we might use to predict these two.
+
+4
+00:00:16,340 --> 00:00:21,169
+So price momentum is a predictive
+factor, Bollinger band
+
+5
+00:00:21,169 --> 00:00:25,700
+value's a predictive factor, and
+current price might be as well.
+

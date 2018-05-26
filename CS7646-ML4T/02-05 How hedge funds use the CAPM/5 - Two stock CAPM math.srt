@@ -1,0 +1,203 @@
+1
+00:00:00,390 --> 00:00:04,660
+Let's pull out the CAPM and
+take a look at this portfolio.
+
+2
+00:00:04,660 --> 00:00:08,370
+Remember for each individual stock,
+the expected return is
+
+3
+00:00:08,370 --> 00:00:12,100
+beta times return on the market
+plus alpha times the weight for
+
+4
+00:00:12,100 --> 00:00:15,710
+that particular stock and when we're
+short, the weight is negative.
+
+5
+00:00:15,710 --> 00:00:19,380
+And we do this across
+the stocks in our portfolio.
+
+6
+00:00:19,380 --> 00:00:22,550
+And then, that's our expected return for
+the portfolio.
+
+7
+00:00:22,550 --> 00:00:24,930
+So, I'm going to expand this sum.
+
+8
+00:00:24,930 --> 00:00:27,910
+First, I'm going to start
+with the beta component.
+
+9
+00:00:27,910 --> 00:00:30,200
+So we get, weight a times beta b,
+
+10
+00:00:30,200 --> 00:00:34,570
+plus weight b times beta b,
+times return on the market.
+
+11
+00:00:34,570 --> 00:00:37,000
+So recall the numbers from earlier.
+
+12
+00:00:37,000 --> 00:00:41,860
+Our weights for A and
+B were each .5 and -.5.
+
+13
+00:00:41,860 --> 00:00:45,240
+We got a beta of 1.0 for
+A and a beta of 2.0 for B.
+
+14
+00:00:45,240 --> 00:00:51,390
+For our alphas we had plus 1% for
+stock A and -1% for stock B.
+
+15
+00:00:52,480 --> 00:00:55,160
+We can plug all these into
+our equation and work it out.
+
+16
+00:00:56,170 --> 00:01:02,380
+For our beta component, we end up
+with a beta for the portfolio of -.5.
+
+17
+00:01:02,380 --> 00:01:09,499
+Our alpha component for
+stock A ends up just being .5 and
+
+18
+00:01:09,499 --> 00:01:14,550
+for stock B, -.5 times -1 or .5.
+
+19
+00:01:14,550 --> 00:01:19,161
+Bringing it all together
+under these assumptions,
+
+20
+00:01:19,161 --> 00:01:22,723
+using the CAPM, our expected return for
+
+21
+00:01:22,723 --> 00:01:27,802
+this allocation is -.5
+times a market return + 1%.
+
+22
+00:01:27,802 --> 00:01:32,080
+Let's double-check this by plugging
+in one of our earlier examples.
+
+23
+00:01:32,080 --> 00:01:35,183
+Consider that example where
+the market went up 10%.
+
+24
+00:01:35,183 --> 00:01:38,140
+So we've got -.5 times 10% + 1%.
+
+25
+00:01:38,140 --> 00:01:42,802
+So in the case where
+the market goes up 10%,
+
+26
+00:01:42,802 --> 00:01:47,130
+we expect a -4% return for
+our portfolio.
+
+27
+00:01:47,130 --> 00:01:49,080
+So if you step back a little bit,
+
+28
+00:01:49,080 --> 00:01:53,460
+remember that we arrived at
+this 1% using information.
+
+29
+00:01:53,460 --> 00:01:57,090
+So we have some information about these
+stocks that lead us to believe one would
+
+30
+00:01:57,090 --> 00:02:01,570
+go up 1% over the market, another
+would go down 1% over the market.
+
+31
+00:02:01,570 --> 00:02:04,150
+On the other hand, we don't really have
+
+32
+00:02:04,150 --> 00:02:07,540
+any knowledge about what's going
+to happen for the market over all.
+
+33
+00:02:07,540 --> 00:02:10,758
+So we have no control
+over this component.
+
+34
+00:02:10,758 --> 00:02:14,250
+Is there some way that
+we can remove this?
+
+35
+00:02:14,250 --> 00:02:16,600
+Can we make this part equal to 0?
+
+36
+00:02:16,600 --> 00:02:23,240
+If we can do that, then we essentially
+remove market risk from our portfolio.
+
+37
+00:02:23,240 --> 00:02:25,960
+And we preserve this 1% over here.
+
+38
+00:02:25,960 --> 00:02:29,080
+Well, the way to do that
+is to focus on this part.
+
+39
+00:02:29,080 --> 00:02:31,690
+Remember, this is beta for
+the portfolio.
+
+40
+00:02:31,690 --> 00:02:34,128
+Can we make beta for the portfolio = 0?
+
+41
+00:02:34,128 --> 00:02:37,060
+Or in other words,
+can we find weights for A and B,
+
+42
+00:02:37,060 --> 00:02:41,050
+such that their sum turns out to be 0?
+
+43
+00:02:41,050 --> 00:02:45,235
+What are these two weights so
+that the overall portfolio beta is 0?
+

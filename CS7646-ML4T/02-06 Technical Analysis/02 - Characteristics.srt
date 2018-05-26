@@ -1,0 +1,125 @@
+1
+00:00:00,320 --> 00:00:04,050
+Let's start by looking at a few
+characteristics of technical analysis.
+
+2
+00:00:04,050 --> 00:00:05,280
+First, what is it?
+
+3
+00:00:06,320 --> 00:00:09,860
+One of the most important things to
+remember about technical analysis
+
+4
+00:00:09,860 --> 00:00:14,470
+is that it looks only at price and
+volume.
+
+5
+00:00:14,470 --> 00:00:17,600
+That's as opposed to fundamental
+analysis that looks at fundamental
+
+6
+00:00:17,600 --> 00:00:23,500
+factors, like earnings, dividends,
+cash flow, book value, and so on.
+
+7
+00:00:23,500 --> 00:00:27,930
+Technical analysis is price and
+volume only.
+
+8
+00:00:27,930 --> 00:00:32,299
+We look back at historical price and
+volume to compute statistics
+
+9
+00:00:32,299 --> 00:00:37,050
+on this time series, and
+these statistics are called indicators.
+
+10
+00:00:37,050 --> 00:00:41,760
+Indicators are heuristics that may
+hint at a buy or sell opportunity.
+
+11
+00:00:41,760 --> 00:00:46,720
+Now there is significant criticism
+of the technical approach.
+
+12
+00:00:46,720 --> 00:00:51,030
+Folks consider that it's not
+an appropriate method for
+
+13
+00:00:51,030 --> 00:00:55,420
+investing, because it's not considering
+the value of the companies.
+
+14
+00:00:55,420 --> 00:00:59,130
+Instead, maybe you could think about
+it as a trading approach as opposed to
+
+15
+00:00:59,130 --> 00:01:01,060
+an investing approach.
+
+16
+00:01:01,060 --> 00:01:04,379
+Still there are reasons to believe that
+technical analysis might have value and
+
+17
+00:01:04,379 --> 00:01:05,930
+that it might work.
+
+18
+00:01:05,930 --> 00:01:09,330
+First of all,
+there is indeed information in price and
+
+19
+00:01:09,330 --> 00:01:11,290
+information in price change.
+
+20
+00:01:11,290 --> 00:01:16,520
+It reflects sentiments of buyers and
+sellers, and especially if we see that
+
+21
+00:01:16,520 --> 00:01:20,290
+the price for a particular stock
+is moving in a different direction
+
+22
+00:01:20,290 --> 00:01:23,870
+than the overall market, that might be
+a hint that there's something going on.
+
+23
+00:01:25,170 --> 00:01:29,640
+Additionally, we know that in other
+domains of artificial intelligence,
+
+24
+00:01:29,640 --> 00:01:33,820
+heuristics can work, and
+they work frequently.
+
+25
+00:01:33,820 --> 00:01:36,730
+So even though it's controversial,
+
+26
+00:01:36,730 --> 00:01:39,270
+there are reasons to believe
+technical analysis can work.
+

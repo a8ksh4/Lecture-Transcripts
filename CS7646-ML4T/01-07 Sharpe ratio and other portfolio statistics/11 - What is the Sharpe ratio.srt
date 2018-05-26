@@ -1,0 +1,49 @@
+1
+00:00:00,560 --> 00:00:04,380
+Assume we've been trading a strategy for
+60 days now, and
+
+2
+00:00:04,380 --> 00:00:09,800
+on average, our strategy returns
+one-tenth of a percent per day.
+
+3
+00:00:09,800 --> 00:00:12,480
+Another word for
+this is 10 basis points.
+
+4
+00:00:12,480 --> 00:00:15,680
+One basis point is
+one-hundredth of a percent.
+
+5
+00:00:15,680 --> 00:00:20,430
+So ten bps or
+basis points is one-tenth of a percent.
+
+6
+00:00:20,430 --> 00:00:24,750
+Our daily return is,
+on average, 10 basis points.
+
+7
+00:00:24,750 --> 00:00:26,380
+Our risk free rate,
+
+8
+00:00:26,380 --> 00:00:31,400
+which we'll assume is just a fixed
+number, is 2 basis points per day.
+
+9
+00:00:31,400 --> 00:00:38,550
+And the standard deviation of our daily
+return is 10 bips, or 10 basis points.
+
+10
+00:00:38,550 --> 00:00:42,000
+What is the Sharpe
+ratio of this strategy?
+

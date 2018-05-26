@@ -1,0 +1,32 @@
+1
+00:00:00,270 --> 00:00:03,130
+All right suppose you like that
+whole idea that I told you about
+
+2
+00:00:03,130 --> 00:00:04,400
+Bollinger bands.
+
+3
+00:00:04,400 --> 00:00:07,390
+Let's see now how well you might use it.
+
+4
+00:00:07,390 --> 00:00:12,860
+So I've identified four different times
+here where the actual price crosses and
+
+5
+00:00:12,860 --> 00:00:14,690
+upper or lower Bollinger band.
+
+6
+00:00:15,700 --> 00:00:17,260
+I want you to look at each one of those,
+and
+
+7
+00:00:17,260 --> 00:00:22,870
+identify here whether it's a buy signal,
+a sell signal or no signal at all.
+

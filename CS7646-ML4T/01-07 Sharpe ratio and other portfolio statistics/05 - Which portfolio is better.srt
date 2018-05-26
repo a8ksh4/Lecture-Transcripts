@@ -1,0 +1,64 @@
+1
+00:00:00,000 --> 00:00:04,705
+For number one here,
+ABC is the correct answer because
+
+2
+00:00:04,705 --> 00:00:09,716
+its volatility is the same but
+its total return is higher,
+
+3
+00:00:09,716 --> 00:00:14,124
+so all else being equal,
+higher return is better.
+
+4
+00:00:14,124 --> 00:00:19,045
+In this next one,
+the correct answer is XYZ.
+
+5
+00:00:19,045 --> 00:00:25,187
+And the reason is, XYZ had the same
+return as ABC, but it was less volatile.
+
+6
+00:00:25,187 --> 00:00:29,366
+So, all else being equal,
+less volatility is better.
+
+7
+00:00:29,366 --> 00:00:32,186
+Now, number three was a trick question.
+
+8
+00:00:32,186 --> 00:00:39,003
+[LAUGH] ABC has higher return, but
+it's offset by a higher volatility.
+
+9
+00:00:39,003 --> 00:00:44,226
+XYZ has lower return, but
+that's offset by lower volatility.
+
+10
+00:00:44,226 --> 00:00:48,266
+So, you don't really have enough
+information to make the choice here.
+
+11
+00:00:48,266 --> 00:00:52,012
+You can sort of stand back and
+squint and look at it, and
+
+12
+00:00:52,012 --> 00:00:57,160
+tell you what your gut says, but we
+need a qualitative way to measure this.
+
+13
+00:00:57,160 --> 00:00:59,060
+That's what the Sharpe
+ratio is all about.
+

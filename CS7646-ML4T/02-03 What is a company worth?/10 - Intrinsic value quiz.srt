@@ -1,0 +1,18 @@
+1
+00:00:00,490 --> 00:00:03,420
+The answer if you recall
+is that the present value
+
+2
+00:00:03,420 --> 00:00:08,470
+is equal to the future value
+divided by the discount rate.
+
+3
+00:00:08,470 --> 00:00:15,325
+So we've got $2 divided by 4%, or $50.
+
+4
+00:00:15,325 --> 00:00:17,850
+Answer is $50.
+

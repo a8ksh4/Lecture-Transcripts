@@ -1,0 +1,238 @@
+1
+00:00:00,400 --> 00:00:03,930
+So a concept that's important to
+the capital assets pricing model
+
+2
+00:00:03,930 --> 00:00:06,540
+is this thing called
+The Market Portfolio.
+
+3
+00:00:06,540 --> 00:00:08,300
+Now what is that exactly?
+
+4
+00:00:08,300 --> 00:00:12,680
+When someone refers to the Market
+what they're usually referring to is
+
+5
+00:00:12,680 --> 00:00:17,840
+an index that broadly covers
+a large set of stocks.
+
+6
+00:00:17,840 --> 00:00:21,502
+In the US,
+best example of that is the S&P500.
+
+7
+00:00:21,502 --> 00:00:26,410
+The S&P 500 represents the 500
+
+8
+00:00:26,410 --> 00:00:31,420
+largest companies that
+are traded on exchanges, and
+
+9
+00:00:31,420 --> 00:00:36,800
+that index changes each day according
+to the prices of all of its components.
+
+10
+00:00:36,800 --> 00:00:40,930
+There's similar indexes in
+the United Kingdom, Japan,
+
+11
+00:00:40,930 --> 00:00:46,470
+any country or large market has
+indexes that represent this.
+
+12
+00:00:46,470 --> 00:00:52,090
+Now, these indexes are composed of many,
+many individual stocks, and
+
+13
+00:00:52,090 --> 00:00:57,440
+the market portfolio is a combination
+of those stocks in a certain weighting.
+
+14
+00:00:57,440 --> 00:01:02,380
+Most of the important indexes
+are what we call Cap Weighted.
+
+15
+00:01:02,380 --> 00:01:07,700
+And what that means is the individual
+weight of each stock in the portfolio
+
+16
+00:01:07,700 --> 00:01:11,450
+is set according to that
+stock's market cap.
+
+17
+00:01:11,450 --> 00:01:16,078
+So, market cap, if you recall,
+stands for Market Capitalization, and
+
+18
+00:01:16,078 --> 00:01:20,790
+it's simply the number of shares
+available for the stock times its price.
+
+19
+00:01:20,790 --> 00:01:25,830
+So to calculate the weight for
+any particular stock, you take its
+
+20
+00:01:25,830 --> 00:01:31,770
+market cap and divide it by the sum
+of the market caps of all the stocks.
+
+21
+00:01:31,770 --> 00:01:36,620
+Now, if you think back to my example
+of the CEO living on an island
+
+22
+00:01:36,620 --> 00:01:41,610
+building his product, and there
+being many islands and an ocean and
+
+23
+00:01:41,610 --> 00:01:47,010
+when market forces rise of fall
+that affect all of the islands,
+
+24
+00:01:47,010 --> 00:01:52,010
+you can think of these large indexes
+essentially as being an ocean.
+
+25
+00:01:53,350 --> 00:01:58,520
+Now within each of these oceans if you
+like, there are a number of sectors.
+
+26
+00:01:58,520 --> 00:02:01,360
+For instance, in the US we typically
+
+27
+00:02:01,360 --> 00:02:06,270
+break the market into ten different
+sectors, I list four of them here.
+
+28
+00:02:06,270 --> 00:02:10,650
+Energy, technology,
+manufacturing, finance and so on.
+
+29
+00:02:10,650 --> 00:02:13,760
+And these are essentially the islands.
+
+30
+00:02:13,760 --> 00:02:19,110
+So, if some malaise occurs to,
+say, energy stocks,
+
+31
+00:02:19,110 --> 00:02:23,570
+you can think of that as something
+bad happening to the energy island.
+
+32
+00:02:23,570 --> 00:02:27,940
+These things might be
+Saudi Arabia is pumping more oil,
+
+33
+00:02:27,940 --> 00:02:30,830
+so the cost of oil is going to go down.
+
+34
+00:02:30,830 --> 00:02:33,770
+That usually would have
+a negative impact on energy, so
+
+35
+00:02:33,770 --> 00:02:36,500
+the energy island would
+be negatively impacted.
+
+36
+00:02:36,500 --> 00:02:39,600
+Same thing with these other sectors.
+
+37
+00:02:39,600 --> 00:02:45,398
+The main point here being that positive
+and negative news can affect each of
+
+38
+00:02:45,398 --> 00:02:51,670
+these sectors individually without
+necessarily affecting the others.
+
+39
+00:02:51,670 --> 00:02:57,890
+So it's not unusual to break up these
+large markets into individual sectors.
+
+40
+00:02:57,890 --> 00:03:02,460
+Now just recapping before we depart,
+when we talk about the market
+
+41
+00:03:02,460 --> 00:03:07,370
+portfolio in this class, we are almost
+always talking about the S&P 500.
+
+42
+00:03:07,370 --> 00:03:12,380
+And that market portfolio
+consists of 500 stocks,
+
+43
+00:03:12,380 --> 00:03:14,950
+the largest stocks in the U.S.
+
+44
+00:03:14,950 --> 00:03:19,140
+that are traded publicly,
+with a weighting set like this.
+
+45
+00:03:19,140 --> 00:03:24,340
+One thing to keep in mind Is some stocks
+have surprisingly large weightings.
+
+46
+00:03:24,340 --> 00:03:30,992
+For instance, Apple and
+Exxon each are about 5% of the S&P 500.
+
+47
+00:03:30,992 --> 00:03:36,090
+So those two stocks have a strong
+effect on what happens to this index.
+
+48
+00:03:36,090 --> 00:03:41,130
+There are smaller stocks
+that comprise say only
+
+49
+00:03:41,130 --> 00:03:45,080
+a tenth of a percent of
+the overall effect on this market.
+

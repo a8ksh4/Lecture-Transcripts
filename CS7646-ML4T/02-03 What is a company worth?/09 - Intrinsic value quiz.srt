@@ -1,0 +1,18 @@
+1
+00:00:00,390 --> 00:00:02,600
+Let's check your knowledge now.
+
+2
+00:00:02,600 --> 00:00:06,870
+Consider a company that pays
+$2 per year in dividends,
+
+3
+00:00:07,900 --> 00:00:11,110
+and a discount rate of 4%.
+
+4
+00:00:11,110 --> 00:00:13,900
+What is the intrinsic
+value of this company?
+

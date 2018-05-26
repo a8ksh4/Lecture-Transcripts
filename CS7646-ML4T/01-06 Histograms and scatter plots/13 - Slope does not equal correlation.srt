@@ -1,0 +1,121 @@
+1
+00:00:00,550 --> 00:00:01,696
+Now add a scatter plot for
+another stock, ABC, and
+
+2
+00:00:01,696 --> 00:00:03,455
+again each one of these dots represents
+the daily return of SPY versus ABC, and
+
+3
+00:00:03,455 --> 00:00:04,837
+we fit a line to it, and
+it turns out it's got a slope of two, so
+
+4
+00:00:04,837 --> 00:00:06,330
+now we're going to ask you
+a couple of questions about it.
+
+5
+00:00:06,330 --> 00:00:08,079
+Now add a scatter plot for
+another stock, ABC, and
+
+6
+00:00:08,079 --> 00:00:10,766
+again each one of these dots represents
+the daily return of SPY versus ABC, and
+
+7
+00:00:10,766 --> 00:00:12,879
+we fit a line to it, and
+it turns out it's got a slope of two, so
+
+8
+00:00:12,879 --> 00:00:15,370
+now we're going to ask you
+a couple of questions about it.
+
+9
+00:00:15,370 --> 00:00:17,800
+The slope is just the slope.
+
+10
+00:00:17,800 --> 00:00:21,010
+Correlation is a measure of
+
+11
+00:00:21,010 --> 00:00:26,110
+how tightly do these individual
+points fit that line?
+
+12
+00:00:26,110 --> 00:00:30,210
+So you could have a shallow slope but
+
+13
+00:00:30,210 --> 00:00:34,280
+the data tightly fitting that line,
+and thus a higher correlation.
+
+14
+00:00:34,280 --> 00:00:37,720
+Or you could have a steeper line and
+
+15
+00:00:37,720 --> 00:00:40,900
+the data fitting that line
+at a higher correlation.
+
+16
+00:00:40,900 --> 00:00:47,460
+Correlation is just a measure of how
+tightly do those dots fit the line.
+
+17
+00:00:47,460 --> 00:00:52,438
+And you can have
+a correlation from 0 to 1.
+
+18
+00:00:52,438 --> 00:00:53,646
+Now add a scatter plot for
+another stock, ABC, and
+
+19
+00:00:53,646 --> 00:00:55,503
+again each one of these dots represents
+the daily return of SPY versus ABC, and
+
+20
+00:00:55,503 --> 00:00:56,963
+we fit a line to it, and
+it turns out it's got a slope of two, so
+
+21
+00:00:56,963 --> 00:00:59,260
+now we're going to ask you
+a couple of questions about it.
+
+22
+00:00:59,260 --> 00:01:02,860
+Now add a scatter plot for
+another stock, ABC, and
+
+23
+00:01:02,860 --> 00:01:08,070
+again each one of these dots represents
+the daily return of SPY versus ABC,
+
+24
+00:01:08,070 --> 00:01:11,919
+and we fit a line to it, and
+it turns out it's got a slope of two, so
+
+25
+00:01:11,919 --> 00:01:14,370
+now we're going to ask you
+a couple of questions about it.
+

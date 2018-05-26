@@ -1,0 +1,19 @@
+1
+00:00:00,370 --> 00:00:02,810
+So answer this as a quiz.
+
+2
+00:00:02,810 --> 00:00:09,350
+Here fill in what would the price of the
+stock be the day before the dividend,
+
+3
+00:00:10,810 --> 00:00:16,090
+and what the price of the stock
+be the day the dividend is paid?
+
+4
+00:00:16,090 --> 00:00:19,680
+When people get $1.00 and
+they also keep that share of stock.
+

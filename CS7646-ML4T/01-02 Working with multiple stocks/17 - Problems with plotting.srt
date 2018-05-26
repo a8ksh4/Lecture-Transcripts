@@ -1,0 +1,90 @@
+1
+00:00:00,200 --> 00:00:01,839
+Suppose you've got a data frame.
+
+2
+00:00:01,839 --> 00:00:04,960
+It's pretty easy from the data
+frame to make a plot.
+
+3
+00:00:04,960 --> 00:00:07,480
+In fact the syntax is as simple as this.
+
+4
+00:00:07,480 --> 00:00:11,370
+Pandas will take this data and create
+a nice chart that looks about like this.
+
+5
+00:00:11,370 --> 00:00:16,090
+It will give an individual
+color to each time series and
+
+6
+00:00:16,090 --> 00:00:18,310
+give you a nice legend
+telling you which is which.
+
+7
+00:00:19,340 --> 00:00:21,900
+Now one problem with viewing.
+
+8
+00:00:21,900 --> 00:00:26,040
+Data like this is for instance,
+at this time, by the way,
+
+9
+00:00:26,040 --> 00:00:28,490
+these numbers are made up.
+
+10
+00:00:28,490 --> 00:00:33,030
+But it's often the case that stocks
+are priced at significantly different
+
+11
+00:00:33,030 --> 00:00:36,540
+levels, so in this example, say,
+Google had a very high price and
+
+12
+00:00:36,540 --> 00:00:41,270
+the other stocks had low prices, and
+it's hard to look at them sort of In
+
+13
+00:00:41,270 --> 00:00:46,620
+a good way comparatively when they
+have these widely variant prices.
+
+14
+00:00:46,620 --> 00:00:51,520
+So what we'd like to do instead is
+be able say to have them all start
+
+15
+00:00:51,520 --> 00:00:55,287
+at one single point here,
+say that's 1.0.
+
+16
+00:00:55,287 --> 00:00:57,610
+And then go out from there so
+
+17
+00:00:57,610 --> 00:01:01,910
+we can compare them on
+an apples to apples comparison.
+
+18
+00:01:01,910 --> 00:01:07,090
+So we'd like to end up with a chart
+that looks like this, where everything
+
+19
+00:01:07,090 --> 00:01:10,550
+starts at 1.0, and we can compare
+them on an equal basis going forward.
+

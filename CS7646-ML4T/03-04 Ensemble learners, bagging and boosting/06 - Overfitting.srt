@@ -1,0 +1,29 @@
+1
+00:00:00,340 --> 00:00:04,477
+Which of these two models do you
+think is more likely to overfit?
+
+2
+00:00:04,477 --> 00:00:07,428
+A single 1 nearest neighbor
+model trained on all the data.
+
+3
+00:00:07,428 --> 00:00:09,412
+And by 1 nearest neighbor,
+
+4
+00:00:09,412 --> 00:00:14,301
+what I mean is it's a k nearest
+neighbor model, where k is equal to 1.
+
+5
+00:00:14,301 --> 00:00:19,208
+So, a 1 nearest neighbor model, or
+an ensemble of 10 1 nearest neighbor
+
+6
+00:00:19,208 --> 00:00:23,060
+learners, where each one is
+trained on 60% of the data.
+

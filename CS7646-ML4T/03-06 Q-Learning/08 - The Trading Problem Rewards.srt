@@ -1,0 +1,47 @@
+1
+00:00:00,270 --> 00:00:03,980
+The correct answer is daily returns.
+
+2
+00:00:03,980 --> 00:00:08,790
+The reason is, if you choose the other
+one where we get no reward at
+
+3
+00:00:08,790 --> 00:00:13,860
+all until the end of a trade cycle,
+from a buy to a sell.
+
+4
+00:00:13,860 --> 00:00:19,450
+The learner has to infer from that
+final reward all the way back,
+
+5
+00:00:19,450 --> 00:00:23,250
+that each action in sequence
+there must have been accomplished
+
+6
+00:00:23,250 --> 00:00:25,598
+in the right order to get that reward.
+
+7
+00:00:25,598 --> 00:00:31,720
+If we reward a little bit each
+on each day, the learner is
+
+8
+00:00:31,720 --> 00:00:36,110
+able to learn much more quickly because
+it gets much more frequent rewards.
+
+9
+00:00:36,110 --> 00:00:39,060
+This by the way,
+is called delayed reward and
+
+10
+00:00:39,060 --> 00:00:40,650
+this is more of an immediate reward.
+

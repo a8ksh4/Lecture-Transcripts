@@ -1,0 +1,28 @@
+1
+00:00:00,510 --> 00:00:04,450
+We are essentially trying to
+do an inner join, that is,
+
+2
+00:00:04,450 --> 00:00:09,210
+we only want to retain rules
+common to both dataframes.
+
+3
+00:00:09,210 --> 00:00:14,030
+Note that this is not the default,
+hence, we have to mention it explicitly.
+
+4
+00:00:14,030 --> 00:00:15,970
+So what is the default value?
+
+5
+00:00:15,970 --> 00:00:18,990
+What effect does it have on the result?
+
+6
+00:00:18,990 --> 00:00:23,040
+Find out using the documentation link
+provided in the instructor notes.
+

@@ -1,0 +1,35 @@
+1
+00:00:00,390 --> 00:00:06,090
+The correct answer is that we should
+take the mean of their y values.
+
+2
+00:00:06,090 --> 00:00:11,530
+So that'll give us an answer
+somewhere around here.
+
+3
+00:00:11,530 --> 00:00:14,420
+We don't want to take the average
+of their x values because
+
+4
+00:00:14,420 --> 00:00:17,740
+that would be something
+like 5 millimeter, and
+
+5
+00:00:17,740 --> 00:00:21,590
+in reality you know the correct
+answer is around 40 millimeters.
+
+6
+00:00:21,590 --> 00:00:26,050
+We don't want to take the largest y,
+because we want to take advantage of
+
+7
+00:00:26,050 --> 00:00:29,860
+all these votes that we have to
+get a closer, more correct answer.
+

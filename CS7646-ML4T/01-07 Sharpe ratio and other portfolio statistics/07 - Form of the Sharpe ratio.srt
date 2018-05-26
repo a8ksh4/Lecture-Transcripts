@@ -1,0 +1,40 @@
+1
+00:00:00,560 --> 00:00:03,018
+Consider that you have
+these three factors.
+
+2
+00:00:03,018 --> 00:00:06,840
+Portfolio return,
+risk-free rate of return, and
+
+3
+00:00:06,840 --> 00:00:12,160
+standard deviation of portfolio return,
+or volatility, or risk.
+
+4
+00:00:12,160 --> 00:00:16,440
+How would you combine these three
+factors into a simple equation
+
+5
+00:00:16,440 --> 00:00:21,130
+to create a metric that provides
+a measure of risk adjusted return?
+
+6
+00:00:21,130 --> 00:00:27,400
+In other words, like those examples we
+showed you before, all else being equal,
+
+7
+00:00:27,400 --> 00:00:31,990
+higher return is better, all else being
+equal, lower volatility is better.
+
+8
+00:00:31,990 --> 00:00:34,910
+Which of these three do you
+think is the best metric?
+

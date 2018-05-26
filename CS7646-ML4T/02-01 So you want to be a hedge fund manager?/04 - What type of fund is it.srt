@@ -1,0 +1,38 @@
+1
+00:00:00,070 --> 00:00:04,370
+I want you to fire up your web browser,
+and do a little bit of research.
+
+2
+00:00:04,370 --> 00:00:08,500
+Take a look at either Yahoo Finance or
+Google Finance, and
+
+3
+00:00:08,500 --> 00:00:09,990
+you'll find the answer to this question.
+
+4
+00:00:09,990 --> 00:00:15,970
+I want you to look at each
+of these five funds and
+
+5
+00:00:15,970 --> 00:00:21,250
+determine is it a ETF,
+a mutual fund, or a hedge fund, and
+
+6
+00:00:21,250 --> 00:00:25,940
+fill in the text in each of these
+little boxes with an E if it's an ETF,
+
+7
+00:00:25,940 --> 00:00:31,270
+an M if it's a mutual fund,
+and an H if it's a hedge fund.
+
+8
+00:00:31,270 --> 00:00:33,930
+Again E, M or H.
+

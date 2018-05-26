@@ -1,0 +1,161 @@
+1
+00:00:00,420 --> 00:00:04,770
+Okay, I'm going to step you now through
+the mechanics of short selling.
+
+2
+00:00:04,770 --> 00:00:06,795
+Pay attention because it's complicated.
+
+3
+00:00:06,795 --> 00:00:09,320
+[LAUGH]
+Okay,
+
+4
+00:00:09,320 --> 00:00:11,810
+let's imagine the following scenario.
+
+5
+00:00:11,810 --> 00:00:15,919
+You want to take a short
+position in IBM, and
+
+6
+00:00:15,919 --> 00:00:19,597
+IBM is currently selling at $100.
+
+7
+00:00:19,597 --> 00:00:21,200
+That's the current market price.
+
+8
+00:00:22,320 --> 00:00:25,910
+Joe holds 100 shares of IBM.
+
+9
+00:00:25,910 --> 00:00:28,540
+He likes IBM, he wants to hold onto it.
+
+10
+00:00:28,540 --> 00:00:32,817
+But he's willing to lend
+you those shares of IBM.
+
+11
+00:00:32,817 --> 00:00:37,050
+In fact, Joe's broker will
+take care of that for him.
+
+12
+00:00:37,050 --> 00:00:39,860
+He may not even know that
+he's lending you the shares.
+
+13
+00:00:39,860 --> 00:00:45,710
+Let's suppose Lisa thinks that IBM is
+going to go up and she wants to buy IBM.
+
+14
+00:00:45,710 --> 00:00:49,060
+So you want to sell IBM short.
+
+15
+00:00:49,060 --> 00:00:50,850
+You don't own any shares of it.
+
+16
+00:00:50,850 --> 00:00:53,810
+Lisa wants to buy IBM.
+
+17
+00:00:53,810 --> 00:00:55,600
+She thinks it's going to go up.
+
+18
+00:00:55,600 --> 00:00:57,340
+So here's what happens.
+
+19
+00:00:57,340 --> 00:01:00,960
+You borrow that 100 shares from Joe.
+
+20
+00:01:00,960 --> 00:01:07,440
+Now that you have those shares, you
+can turn around and sell them to Lisa.
+
+21
+00:01:07,440 --> 00:01:11,780
+And in exchange for
+those 100 shares that you gave Lisa,
+
+22
+00:01:11,780 --> 00:01:17,300
+she gives you 100 times $100,
+or $10,000.
+
+23
+00:01:17,300 --> 00:01:19,050
+So let me recap that.
+
+24
+00:01:19,050 --> 00:01:21,100
+You want to sell IBM short.
+
+25
+00:01:21,100 --> 00:01:22,490
+Joe has 100 shares of IBM.
+
+26
+00:01:23,770 --> 00:01:26,040
+Lisa wants to buy IBM.
+
+27
+00:01:26,040 --> 00:01:29,262
+So you borrow those 100 shares from Joe.
+
+28
+00:01:29,262 --> 00:01:34,533
+You immediately turn around and
+sell them to Lisa, and you get $10,000.
+
+29
+00:01:34,533 --> 00:01:38,866
+The result of this transaction,
+after everything settles,
+
+30
+00:01:38,866 --> 00:01:44,630
+is you have $10,000 in your account but
+you owe Joe 100 shares of stock.
+
+31
+00:01:45,670 --> 00:01:48,660
+And of course,
+Lisa has 100 shares of stock and so on.
+
+32
+00:01:48,660 --> 00:01:52,880
+Now the problem sort of arises here that
+
+33
+00:01:52,880 --> 00:01:56,780
+Joe may decide he wants
+his 100 shares back.
+
+34
+00:01:56,780 --> 00:01:59,802
+What you'll have to do is go
+buy them from someone and
+
+35
+00:01:59,802 --> 00:02:01,390
+then give them back to Joe.
+
+36
+00:02:01,390 --> 00:02:03,640
+But let's deal with that
+a little bit later.
+

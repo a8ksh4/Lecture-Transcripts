@@ -1,0 +1,46 @@
+1
+00:00:00,008 --> 00:00:04,550
+So I want you to consider these two
+scenarios, two different ways to bet.
+
+2
+00:00:04,550 --> 00:00:10,779
+In one case, you put all of your
+1000 tokens on a single table and
+
+3
+00:00:10,779 --> 00:00:14,290
+0 of your tokens on the other 999.
+
+4
+00:00:14,290 --> 00:00:16,125
+So that's one way you might bet.
+
+5
+00:00:16,125 --> 00:00:19,729
+And the outcome is going to depend on
+only what happens on the coin that's
+
+6
+00:00:19,729 --> 00:00:21,660
+flipped on that single table.
+
+7
+00:00:21,660 --> 00:00:26,720
+Another approach is to put 1 token on
+each of the 1000 tables, and then all
+
+8
+00:00:26,720 --> 00:00:31,570
+the coins are flipped in parallel and
+you get your reward or loss that way.
+
+9
+00:00:31,570 --> 00:00:33,120
+Which one of these is better?
+
+10
+00:00:33,120 --> 00:00:35,370
+Or is it the case that both
+of these are equivalent?
+

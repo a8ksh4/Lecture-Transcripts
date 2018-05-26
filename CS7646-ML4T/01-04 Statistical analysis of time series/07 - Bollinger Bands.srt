@@ -1,0 +1,203 @@
+1
+00:00:00,310 --> 00:00:03,620
+Returning to that question of
+how can we know if a deviation
+
+2
+00:00:03,620 --> 00:00:07,830
+from the rolling mean is significant
+enough to warrant a trading signal,
+
+3
+00:00:07,830 --> 00:00:10,590
+we need some way of measuring that.
+
+4
+00:00:10,590 --> 00:00:13,750
+And John Bollinger, in the 1980s,
+
+5
+00:00:13,750 --> 00:00:16,660
+came up with something he
+calls Bollinger bands.
+
+6
+00:00:16,660 --> 00:00:19,843
+And whenever you mention that you
+have to put a little R there,
+
+7
+00:00:19,843 --> 00:00:24,300
+because he has registered
+Bollinger bands as a trademark.
+
+8
+00:00:24,300 --> 00:00:27,015
+If you don't do that,
+they'll come after you.
+
+9
+00:00:27,015 --> 00:00:31,245
+[LAUGH] Anyhow,
+how might we measure that?
+
+10
+00:00:31,245 --> 00:00:34,913
+What Bollinger observed
+was that we ought
+
+11
+00:00:34,913 --> 00:00:39,785
+to take a look at the recent
+volatility of the stock.
+
+12
+00:00:39,785 --> 00:00:44,722
+And if it's very volatile,
+we might discard movements above and
+
+13
+00:00:44,722 --> 00:00:45,922
+below the mean.
+
+14
+00:00:45,922 --> 00:00:48,512
+Whereas if it's not very volatile,
+
+15
+00:00:48,512 --> 00:00:53,622
+a similarly sized movement maybe
+we should pay attention to.
+
+16
+00:00:53,622 --> 00:00:58,492
+His idea then was to add a band
+2 standard deviations above
+
+17
+00:00:59,712 --> 00:01:02,090
+and 2 standard deviations below.
+
+18
+00:01:02,090 --> 00:01:06,200
+Now I'm not going to make any comment
+as to how effective this method is.
+
+19
+00:01:06,200 --> 00:01:09,200
+That's something for
+us to assess in the next mini course.
+
+20
+00:01:09,200 --> 00:01:14,706
+But the theory anyways is that when
+you see excursions up to 2 sigma or
+
+21
+00:01:14,706 --> 00:01:19,070
+2 standard deviations away from
+the mean, you should pay attention.
+
+22
+00:01:19,070 --> 00:01:23,919
+And in particular,
+if we drop below that and
+
+23
+00:01:23,919 --> 00:01:28,760
+then up back through it,
+that is potentially right there
+
+24
+00:01:28,760 --> 00:01:34,100
+a buy signal, because the hypothesis
+
+25
+00:01:34,100 --> 00:01:39,040
+there is that we've gone quite far
+from the simple moving average.
+
+26
+00:01:39,040 --> 00:01:42,040
+And we're now moving back towards it.
+
+27
+00:01:42,040 --> 00:01:42,800
+So if you buy there,
+
+28
+00:01:42,800 --> 00:01:48,930
+you should anticipate positive returns
+as it climbs back through the average.
+
+29
+00:01:48,930 --> 00:01:53,910
+Similarly, here where you see
+it punch through the top and
+
+30
+00:01:53,910 --> 00:01:58,270
+then go back down through,
+that's potentially a sell signal.
+
+31
+00:01:58,270 --> 00:02:02,740
+And as you can see, in this particular
+case, if we had bought here and
+
+32
+00:02:02,740 --> 00:02:05,770
+sold there, we would've done great.
+
+33
+00:02:05,770 --> 00:02:10,600
+But if you look at many, many examples
+of this, it's not always so great.
+
+34
+00:02:10,600 --> 00:02:15,790
+So don't run off and start trading, but
+just be aware that this is an example
+
+35
+00:02:15,790 --> 00:02:21,680
+of a technical indicator, and how you
+might involve it in a trading strategy.
+
+36
+00:02:21,680 --> 00:02:27,090
+Dave is now going to show you
+how to read in data like this,
+
+37
+00:02:27,090 --> 00:02:29,730
+compute a rolling mean, and chart it.
+
+38
+00:02:29,730 --> 00:02:34,150
+And once again, I want to repeat
+that I'm not necessarily endorsing
+
+39
+00:02:34,150 --> 00:02:37,730
+technical analysis here, although
+I think it can be very powerful.
+
+40
+00:02:37,730 --> 00:02:40,810
+Just introducing some of
+these concepts to you.
+
+41
+00:02:40,810 --> 00:02:44,160
+And again, in our later mini course,
+
+42
+00:02:44,160 --> 00:02:47,500
+we're going to talk a lot
+about these approaches.
+
+43
+00:02:47,500 --> 00:02:48,690
+Okay, here's to you, Dave.
+

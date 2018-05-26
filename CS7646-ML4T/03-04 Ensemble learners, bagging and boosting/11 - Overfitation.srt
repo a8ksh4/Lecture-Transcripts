@@ -1,0 +1,20 @@
+1
+00:00:00,120 --> 00:00:05,670
+The answer is Ada Boost and
+the reason is that Ada Boost is trying
+
+2
+00:00:05,670 --> 00:00:11,570
+really really hard to match those
+parts of the data that are off or
+
+3
+00:00:11,570 --> 00:00:17,380
+outliers or whatever, and
+accordingly it's striving
+
+4
+00:00:17,380 --> 00:00:21,850
+to fit, and subsequently it may
+be susceptible to over fitting.
+

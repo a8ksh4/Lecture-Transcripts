@@ -1,0 +1,59 @@
+1
+00:00:00,124 --> 00:00:02,324
+If you look at this
+data over many years,
+
+2
+00:00:02,324 --> 00:00:05,384
+you'll see that there
+are a couple sudden price drops.
+
+3
+00:00:05,384 --> 00:00:09,840
+For instance, here it goes
+from $300 to $75 in one day.
+
+4
+00:00:10,930 --> 00:00:15,290
+Here, it goes from 250
+to 125 in one day.
+
+5
+00:00:15,290 --> 00:00:21,150
+So those represent a 75% drop and
+a 50% drop respectively.
+
+6
+00:00:21,150 --> 00:00:27,550
+Now surely the value of IBM did not
+drop that much in just one day.
+
+7
+00:00:27,550 --> 00:00:30,620
+I want you to think about
+why this might've happened.
+
+8
+00:00:30,620 --> 00:00:34,450
+In a moment, I'll give you some
+options that you can choose.
+
+9
+00:00:34,450 --> 00:00:37,480
+But why might the price of IBM
+
+10
+00:00:37,480 --> 00:00:41,120
+dropped by this significant
+amount over these days?
+
+11
+00:00:41,120 --> 00:00:44,260
+Here are a few options for
+you to consider.
+
+12
+00:00:44,260 --> 00:00:46,530
+Check the box that you
+think makes the most sense.
+

@@ -1,0 +1,48 @@
+1
+00:00:00,330 --> 00:00:04,410
+In 1988, Michael Kearns and Leslie
+Valiant posed the following question.
+
+2
+00:00:05,450 --> 00:00:10,400
+Can a set of weak learners be combined
+to create a single, strong learner?
+
+3
+00:00:11,720 --> 00:00:15,279
+One answer to that
+question came in 2009.
+
+4
+00:00:15,279 --> 00:00:18,783
+Back in 2006,
+Netflix offered a $1 million prize for
+
+5
+00:00:18,783 --> 00:00:22,988
+a machine learning algorithm that
+could do 10% better than their own
+
+6
+00:00:22,988 --> 00:00:27,350
+algorithm at predicting which movies
+their customers would like to see.
+
+7
+00:00:28,400 --> 00:00:33,033
+The prize was not awarded until
+three years later in 2009.
+
+8
+00:00:33,033 --> 00:00:37,905
+The winning algorithm was not a single
+algorithm, but a combination of several,
+
+9
+00:00:37,905 --> 00:00:39,500
+or an ensemble.
+
+10
+00:00:39,500 --> 00:00:41,940
+This lesson is about ensemble learners.
+

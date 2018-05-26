@@ -1,0 +1,18 @@
+1
+00:00:00,290 --> 00:00:02,480
+Okay, let's try a quick quiz.
+
+2
+00:00:02,480 --> 00:00:09,090
+What is the best way to normalize price
+data so that all prices start at 1.0?
+
+3
+00:00:09,090 --> 00:00:15,020
+So, here are two choices: a nested for
+loop or a one line expression.
+
+4
+00:00:15,020 --> 00:00:15,520
+Good luck.
+

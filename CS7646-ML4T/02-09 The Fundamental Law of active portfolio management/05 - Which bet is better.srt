@@ -1,0 +1,54 @@
+1
+00:00:00,110 --> 00:00:04,150
+Now, it would be fair for you to
+object and say, well, Professor Balch,
+
+2
+00:00:04,150 --> 00:00:06,430
+what do you mean by better?
+
+3
+00:00:06,430 --> 00:00:10,230
+I'll get onto that, but
+I think it's pretty clear, actually,
+
+4
+00:00:10,230 --> 00:00:14,500
+that this is the best bet, and
+we'll spend some time explaining why.
+
+5
+00:00:14,500 --> 00:00:18,396
+But the big picture is,
+this bet is very, very risky.
+
+6
+00:00:18,396 --> 00:00:23,030
+There's a 49% chance
+you'll lose all your money
+
+7
+00:00:23,030 --> 00:00:26,580
+with a single flip of the coin,
+whereas in this case,
+
+8
+00:00:26,580 --> 00:00:30,850
+your coins are distributed over
+1,000 individual small bets, and
+
+9
+00:00:30,850 --> 00:00:33,050
+there's very little chance
+you'll lose all your money.
+
+10
+00:00:33,050 --> 00:00:38,410
+And furthermore, the expected return for
+each of these bets is the same.
+
+11
+00:00:38,410 --> 00:00:40,950
+It's just that this one
+has much lower risk.
+

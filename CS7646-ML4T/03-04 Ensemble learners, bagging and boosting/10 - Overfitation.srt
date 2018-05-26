@@ -1,0 +1,29 @@
+1
+00:00:00,222 --> 00:00:03,060
+All right, so I want you to think back
+over what we've been talking about,
+
+2
+00:00:03,060 --> 00:00:05,170
+bagging and add a boost.
+
+3
+00:00:05,170 --> 00:00:09,520
+Which is more likely to
+overfit as m increases?
+
+4
+00:00:09,520 --> 00:00:13,920
+Now keep in mind that m is the number
+of bags that we're using, or
+
+5
+00:00:13,920 --> 00:00:17,430
+the number of models that we're
+building to create our ensemble.
+
+6
+00:00:17,430 --> 00:00:20,410
+So as m increases,
+which one is more likely to overfit?
+

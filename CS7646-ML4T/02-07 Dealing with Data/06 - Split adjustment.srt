@@ -1,0 +1,33 @@
+1
+00:00:00,320 --> 00:00:01,710
+Consider this situation.
+
+2
+00:00:01,710 --> 00:00:06,667
+This green line represents the actual
+price for a stock over time.
+
+3
+00:00:06,667 --> 00:00:10,475
+On this day, it had a two for
+one split and accordingly,
+
+4
+00:00:10,475 --> 00:00:13,479
+it went from $100 to $50 on that day.
+
+5
+00:00:13,479 --> 00:00:16,532
+So in light of this split
+on this particular day,
+
+6
+00:00:16,532 --> 00:00:21,521
+I'd like you to consider these actual
+closing prices, and then calculate what
+
+7
+00:00:21,521 --> 00:00:25,780
+the corresponding adjusted closing
+prices would be on these days.
+

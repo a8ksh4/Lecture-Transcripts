@@ -1,0 +1,33 @@
+1
+00:00:00,380 --> 00:00:02,490
+So the reward or the return is the same.
+
+2
+00:00:02,490 --> 00:00:06,740
+But remember the standard deviation
+of the risk was very much smaller.
+
+3
+00:00:06,740 --> 00:00:11,870
+So we end up with a much larger
+ratio in the multi bet case.
+
+4
+00:00:11,870 --> 00:00:14,560
+So the take home message here is.
+
+5
+00:00:14,560 --> 00:00:19,280
+Even though we have the same expected
+return, we can have much lower risk and
+
+6
+00:00:19,280 --> 00:00:25,010
+thus a much higher risk adjusted
+reward if we have many, many, bets.
+
+7
+00:00:25,010 --> 00:00:27,350
+You know a thousand bets
+instead of just a single bet.
+

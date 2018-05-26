@@ -1,0 +1,58 @@
+1
+00:00:00,450 --> 00:00:06,030
+Well, it was a little bit of
+a trick question because both
+
+2
+00:00:06,030 --> 00:00:11,215
+of these will accomplish the same goal,
+namely normalizing everything
+
+3
+00:00:11,215 --> 00:00:16,600
+according to the first row.
+
+4
+00:00:16,600 --> 00:00:21,280
+This method uses two nested four
+loops to go through each date for
+
+5
+00:00:21,280 --> 00:00:24,380
+each symbol and then make the division.
+
+6
+00:00:24,380 --> 00:00:27,330
+This is the preferred method however,
+and
+
+7
+00:00:27,330 --> 00:00:31,120
+that's because it's elegant,
+just a single line.
+
+8
+00:00:31,120 --> 00:00:35,990
+We divide the entire data
+frame by its first row.
+
+9
+00:00:35,990 --> 00:00:40,630
+The other reason that this is the way to
+do it is because it's much much faster.
+
+10
+00:00:41,940 --> 00:00:46,510
+This ends up being executed
+in C at lower levels.
+
+11
+00:00:46,510 --> 00:00:49,020
+Whereas this will be executed
+at the higher level,
+
+12
+00:00:49,020 --> 00:00:52,900
+the higher interpreter
+levels of Pandas and Python
+

@@ -1,0 +1,162 @@
+1
+00:00:00,440 --> 00:00:03,700
+Now, as you might have guessed,
+the data isn't really pristine.
+
+2
+00:00:04,780 --> 00:00:09,070
+So, here's what people think
+financial data is like.
+
+3
+00:00:09,070 --> 00:00:13,400
+They imagine that it's perfectly
+recorded minute by minute.
+
+4
+00:00:13,400 --> 00:00:17,088
+The prices that are recorded
+are exactly right.
+
+5
+00:00:17,088 --> 00:00:20,617
+The volume data is exactly right.
+
+6
+00:00:20,617 --> 00:00:23,540
+But that's not the case.
+
+7
+00:00:23,540 --> 00:00:26,240
+But that's not the only mistake
+[LAUGH] people make about
+
+8
+00:00:26,240 --> 00:00:28,320
+what they think the data's like.
+
+9
+00:00:28,320 --> 00:00:30,580
+People assume there's
+no gaps in the data,
+
+10
+00:00:30,580 --> 00:00:33,290
+that we have every
+single minute recorded.
+
+11
+00:00:33,290 --> 00:00:37,090
+That data for stocks started
+since the beginning of time, and
+
+12
+00:00:37,090 --> 00:00:39,340
+they continue to the very last minute.
+
+13
+00:00:40,390 --> 00:00:45,078
+The reality is that our data is
+an amalgamation created from many,
+
+14
+00:00:45,078 --> 00:00:46,175
+many sources.
+
+15
+00:00:46,175 --> 00:00:49,093
+For instance, for any particular stock,
+
+16
+00:00:49,093 --> 00:00:54,037
+it may be traded on the New York Stock
+Exchange, at NASDAQ, at Bats, and
+
+17
+00:00:54,037 --> 00:00:57,037
+over any particular
+minute during the day,
+
+18
+00:00:57,037 --> 00:01:02,414
+it may trade at one price at New York
+Stock Exchange, another price at NASDAQ.
+
+19
+00:01:02,414 --> 00:01:05,114
+The reality is that there's
+no single price for
+
+20
+00:01:05,114 --> 00:01:07,120
+any stock at any particular time.
+
+21
+00:01:07,120 --> 00:01:09,500
+In fact, it's hard to say who's right.
+
+22
+00:01:09,500 --> 00:01:12,870
+So, the reality of the data that
+we get is that it's a combination
+
+23
+00:01:12,870 --> 00:01:14,750
+from all these different sources.
+
+24
+00:01:14,750 --> 00:01:19,020
+And different data providers will
+provide, actually, different numbers.
+
+25
+00:01:19,020 --> 00:01:23,680
+And finally, one part of reality
+that's especially troublesome
+
+26
+00:01:23,680 --> 00:01:26,940
+is not all stocks trade everyday.
+
+27
+00:01:26,940 --> 00:01:30,680
+Sometimes stocks come into existence and
+suddenly, there's values for them and
+
+28
+00:01:30,680 --> 00:01:32,740
+before that there was no data.
+
+29
+00:01:32,740 --> 00:01:36,050
+Sometimes stocks go out of existence and
+suddenly,
+
+30
+00:01:36,050 --> 00:01:38,975
+they quit existing and
+there's no data for them going forward.
+
+31
+00:01:38,975 --> 00:01:42,030
+There's another kind of failure mode or
+
+32
+00:01:42,030 --> 00:01:46,570
+missing data mode where
+a particular stock will be trading,
+
+33
+00:01:46,570 --> 00:01:49,050
+data will be missing, suddenly,
+it starts trading again.
+
+34
+00:01:49,050 --> 00:01:53,100
+And these are the sorts of problems
+we're going to take a look at and
+
+35
+00:01:53,100 --> 00:01:55,180
+find a way to solve in this lesson.
+

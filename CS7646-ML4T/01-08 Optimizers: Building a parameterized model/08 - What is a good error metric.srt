@@ -1,0 +1,37 @@
+1
+00:00:00,470 --> 00:00:02,760
+Here's a quiz to get you
+thinking about that.
+
+2
+00:00:02,760 --> 00:00:07,140
+So again, e is the error at each point.
+
+3
+00:00:07,140 --> 00:00:10,480
+In other words,
+this is our original data point.
+
+4
+00:00:10,480 --> 00:00:14,640
+This is the line that we're
+hypothesizing might be a good solution.
+
+5
+00:00:14,640 --> 00:00:18,830
+And we can test how far off our model or
+
+6
+00:00:18,830 --> 00:00:22,630
+our line is at each one of these
+points and measure that as e.
+
+7
+00:00:23,720 --> 00:00:31,100
+So which of these formulae might
+be a good overall error measure?
+
+8
+00:00:31,100 --> 00:00:32,250
+There could be more than one.
+

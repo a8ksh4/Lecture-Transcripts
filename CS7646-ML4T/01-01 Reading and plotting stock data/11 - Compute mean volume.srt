@@ -1,0 +1,22 @@
+1
+00:00:00,280 --> 00:00:06,430
+Your task is to calculate the mean
+volume for each of the given symbols.
+
+2
+00:00:06,430 --> 00:00:10,280
+You can start with extracting the volume
+column form the data frame and
+
+3
+00:00:10,280 --> 00:00:11,930
+then finding the mean.
+
+4
+00:00:11,930 --> 00:00:13,710
+I'll come back with the solution.
+
+5
+00:00:13,710 --> 00:00:14,210
+Good luck.
+

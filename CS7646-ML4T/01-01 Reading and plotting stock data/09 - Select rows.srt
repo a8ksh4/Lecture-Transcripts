@@ -1,0 +1,60 @@
+1
+00:00:00,250 --> 00:00:02,550
+So now let's do some interesting stuff.
+
+2
+00:00:02,550 --> 00:00:07,010
+What if I want to view rows
+from the DataFrame in between
+
+3
+00:00:07,010 --> 00:00:10,270
+some random values and
+not the head and the tail?
+
+4
+00:00:10,270 --> 00:00:12,480
+We can do something of this kind.
+
+5
+00:00:12,480 --> 00:00:18,780
+If you want data from index,
+10 to 20, just add this line.
+
+6
+00:00:18,780 --> 00:00:20,530
+Let's see the output.
+
+7
+00:00:20,530 --> 00:00:21,740
+Here it is.
+
+8
+00:00:21,740 --> 00:00:25,470
+All the data between the index 10 and
+20 are displayed.
+
+9
+00:00:25,470 --> 00:00:29,970
+But you might also observe that
+if you want data between 10 and
+
+10
+00:00:29,970 --> 00:00:34,140
+20, you have to mention 10:21.
+
+11
+00:00:34,140 --> 00:00:38,290
+Because 21 is not
+inclusive in the range.
+
+12
+00:00:38,290 --> 00:00:42,400
+This operation is called slicing and
+it is a very important operation
+
+13
+00:00:42,400 --> 00:00:45,840
+in Python pandas, which you will
+encounter in the future lesson.
+

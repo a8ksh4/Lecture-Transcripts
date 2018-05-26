@@ -1,0 +1,33 @@
+1
+00:00:00,490 --> 00:00:05,506
+We notice that the default data type
+of all the values in the array is.
+
+2
+00:00:05,506 --> 00:00:08,768
+Fortunately, you can change
+this when creating the array.
+
+3
+00:00:08,768 --> 00:00:12,995
+What parameter do you need to
+add to this function to create
+
+4
+00:00:12,995 --> 00:00:15,247
+an array of integers instead?
+
+5
+00:00:15,247 --> 00:00:17,159
+Type the name of the parameter and
+
+6
+00:00:17,159 --> 00:00:20,400
+the correct value in
+the corresponding boxes.
+
+7
+00:00:20,400 --> 00:00:23,900
+Documentation for the array.ones
+function might be helpful.
+

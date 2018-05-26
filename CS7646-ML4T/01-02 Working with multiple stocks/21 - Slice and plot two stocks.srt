@@ -1,0 +1,23 @@
+1
+00:00:00,360 --> 00:00:05,460
+You now know how to read stock data,
+slice it, and plot it.
+
+2
+00:00:05,460 --> 00:00:10,830
+The challenge for you now is to write
+the code to plot the values of SPY and
+
+3
+00:00:10,830 --> 00:00:12,480
+IBM over the date range.
+
+4
+00:00:13,570 --> 00:00:16,587
+Go ahead and
+write your code in this function.
+
+5
+00:00:16,587 --> 00:00:19,340
+The clue to this is use slicing.
+

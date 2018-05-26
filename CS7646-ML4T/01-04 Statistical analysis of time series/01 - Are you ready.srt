@@ -1,0 +1,40 @@
+1
+00:00:00,300 --> 00:00:01,370
+Are you ready, Dave?
+
+2
+00:00:01,370 --> 00:00:02,870
+>> Ready for what, Professor?
+
+3
+00:00:02,870 --> 00:00:06,160
+>> We're going to start some
+serious number crunching now.
+
+4
+00:00:06,160 --> 00:00:07,660
+>> What do you mean?
+
+5
+00:00:07,660 --> 00:00:12,040
+>> In this lesson, we're going
+to unleash the power of Python.
+
+6
+00:00:12,040 --> 00:00:14,830
+We're going to show folks some
+tools that enable them to calculate
+
+7
+00:00:14,830 --> 00:00:17,780
+all kinds of important
+statistics on time series data.
+
+8
+00:00:19,100 --> 00:00:19,940
+>> What are we waiting for?
+
+9
+00:00:20,950 --> 00:00:21,450
+>> Let's go.
+

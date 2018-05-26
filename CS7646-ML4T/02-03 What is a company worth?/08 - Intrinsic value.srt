@@ -1,0 +1,306 @@
+1
+00:00:00,310 --> 00:00:02,790
+Think back now to our original problem.
+
+2
+00:00:02,790 --> 00:00:08,430
+What is the present value
+of a future dollar, FV,
+
+3
+00:00:08,430 --> 00:00:13,560
+delivered some number of years in the
+future, where i is how many years it is?
+
+4
+00:00:13,560 --> 00:00:19,840
+And we use IR, or the interest rate,
+as a factor that affects this value.
+
+5
+00:00:19,840 --> 00:00:24,860
+The analogy for this to real companies
+is that real companies pay dividends.
+
+6
+00:00:24,860 --> 00:00:27,510
+In other words,
+if you own a share of a company,
+
+7
+00:00:27,510 --> 00:00:31,790
+you will get some cash payment
+each year or each quarter.
+
+8
+00:00:32,850 --> 00:00:36,161
+As an example,
+if you own one share of Apple stock,
+
+9
+00:00:36,161 --> 00:00:38,470
+it pays you about $1 a year.
+
+10
+00:00:38,470 --> 00:00:43,450
+Consider that you'll get that
+payment every year into the future.
+
+11
+00:00:43,450 --> 00:00:46,950
+What is the value of
+that payment over time?
+
+12
+00:00:46,950 --> 00:00:52,650
+What this interest rate relates
+to is how risky the company is.
+
+13
+00:00:52,650 --> 00:00:56,390
+In other words, you're as sure that it's
+going to pay you that dollar every year
+
+14
+00:00:56,390 --> 00:01:01,730
+as you are sure that the US government
+would pay you a dollar on a bond.
+
+15
+00:01:01,730 --> 00:01:08,400
+Then, this IR interest rate should be
+the same as the US government bond rate.
+
+16
+00:01:08,400 --> 00:01:12,170
+However, if you're less certain
+that this company is going to
+
+17
+00:01:12,170 --> 00:01:16,400
+pay you at that rate, this interest
+rate needs to be a little bit higher.
+
+18
+00:01:16,400 --> 00:01:17,688
+In other words,
+
+19
+00:01:17,688 --> 00:01:23,117
+you need to expect that the company is
+going to pay you more in the future or
+
+20
+00:01:23,117 --> 00:01:28,940
+that it's going to be more likely to
+pay you that dollar in the future.
+
+21
+00:01:28,940 --> 00:01:31,390
+This is called the discount rate.
+
+22
+00:01:31,390 --> 00:01:36,110
+The discount rate is higher if
+you trust the company less or
+
+23
+00:01:36,110 --> 00:01:37,940
+you think it's more risky.
+
+24
+00:01:37,940 --> 00:01:41,380
+The discount rate is lower
+if it's more certain to
+
+25
+00:01:41,380 --> 00:01:42,850
+pay you that dividend every year.
+
+26
+00:01:43,920 --> 00:01:46,810
+Let's suppose that after
+considering all the factors,
+
+27
+00:01:46,810 --> 00:01:50,370
+you feel that it's
+appropriate that a company
+
+28
+00:01:50,370 --> 00:01:54,950
+should pay you a 5% interest
+rate considering its risks.
+
+29
+00:01:54,950 --> 00:01:59,570
+Now based on that,
+if you want to calculate
+
+30
+00:01:59,570 --> 00:02:04,800
+what the value of the company is
+based on the dividends it's paying,
+
+31
+00:02:04,800 --> 00:02:08,020
+you can take that into
+account in the following way.
+
+32
+00:02:08,020 --> 00:02:12,780
+Essentially, what you want to
+do is compute what is the value
+
+33
+00:02:12,780 --> 00:02:16,750
+of all the future dividends
+that it's going to pay me?
+
+34
+00:02:17,810 --> 00:02:21,960
+So that's the sum of the dividend
+it'll pay you in a year.
+
+35
+00:02:21,960 --> 00:02:26,050
+The dividend it'll pay you a year after
+that, and the year after that, and
+
+36
+00:02:26,050 --> 00:02:27,270
+the year after that.
+
+37
+00:02:27,270 --> 00:02:31,820
+In fact, you want to sum those
+all the way out to infinity.
+
+38
+00:02:31,820 --> 00:02:37,290
+So what we're looking for
+is the sum of this equation,
+
+39
+00:02:37,290 --> 00:02:39,799
+but over all i going into the future.
+
+40
+00:02:40,840 --> 00:02:45,712
+We can draw on this infinite sum,
+in other words for i = 1,
+
+41
+00:02:45,712 --> 00:02:50,206
+1 year to infinity years,
+of the sum 1 over n to the i.
+
+42
+00:02:50,206 --> 00:02:54,702
+So this n here is this value, and
+
+43
+00:02:54,702 --> 00:03:01,040
+we can replace 1 here with future value.
+
+44
+00:03:01,040 --> 00:03:03,420
+So this is not a math class,
+I'm just going to give you the answer.
+
+45
+00:03:04,440 --> 00:03:07,420
+The answer is that this infinite sum,
+in other words,
+
+46
+00:03:07,420 --> 00:03:12,360
+some future dollar paid each
+year in the future over
+
+47
+00:03:12,360 --> 00:03:17,460
+an infinite number of years,
+is that value divided by n minus one.
+
+48
+00:03:17,460 --> 00:03:21,910
+Which is equal to future value
+divided by discount rate.
+
+49
+00:03:21,910 --> 00:03:24,050
+So in the case of our dollar machine,
+
+50
+00:03:24,050 --> 00:03:28,540
+we're paying one dollar each year
+in the future at 5% interest.
+
+51
+00:03:28,540 --> 00:03:32,675
+So the value of our dollar
+machine is $20 overall.
+
+52
+00:03:32,675 --> 00:03:38,190
+What we've just described,
+where future value is the dividend
+
+53
+00:03:38,190 --> 00:03:42,550
+we're going to pay at regular
+intervals and DR is discount rate.
+
+54
+00:03:42,550 --> 00:03:43,149
+In other words,
+
+55
+00:03:44,180 --> 00:03:50,400
+what the risk of the stock equates to in
+terms of an interest rate we should pay.
+
+56
+00:03:50,400 --> 00:03:54,090
+This equation tells us
+the intrinsic value of the company.
+
+57
+00:03:54,090 --> 00:03:58,290
+In other words, if we're
+going to pay that future value or
+
+58
+00:03:58,290 --> 00:04:03,570
+dividend every year or
+every quarter going into the future,
+
+59
+00:04:03,570 --> 00:04:09,220
+what's the value of the company on
+that basis, this is intrinsic value.
+
+60
+00:04:09,220 --> 00:04:11,910
+And in the example of the company
+we were talking about,
+
+61
+00:04:11,910 --> 00:04:13,455
+that creates a $1 every year.
+
+62
+00:04:13,455 --> 00:04:17,950
+It's the value of the $1 in
+one year from now, next year,
+
+63
+00:04:19,790 --> 00:04:25,220
+next year, next year, next year,
+continuing ad infinitum into the future.
+
+64
+00:04:25,220 --> 00:04:26,380
+And that's 20 bucks.
+

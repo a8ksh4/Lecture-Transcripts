@@ -1,0 +1,62 @@
+1
+00:00:00,320 --> 00:00:03,010
+So, we make a bunch of individual bets,
+
+2
+00:00:03,010 --> 00:00:07,689
+each one has the same chances as this
+one up here, except each one of those
+
+3
+00:00:07,689 --> 00:00:12,620
+individual bets only provides
+a loss of $1 or a gain of $1.
+
+4
+00:00:12,620 --> 00:00:17,551
+So, each of our individual bets has
+this 0.51 chance of winning $1,
+
+5
+00:00:17,551 --> 00:00:20,980
+and 0.49 chance of losing $1.
+
+6
+00:00:20,980 --> 00:00:23,930
+And we just have a thousand of those.
+
+7
+00:00:23,930 --> 00:00:29,221
+So if you work out the numbers it turns
+out that this works out to be 0.02,
+
+8
+00:00:29,221 --> 00:00:32,700
+and we multiply it by a thousand and
+we get $20.
+
+9
+00:00:32,700 --> 00:00:37,350
+So what's remarkable, or
+at least interesting, is that for
+
+10
+00:00:37,350 --> 00:00:42,200
+both of these ways of betting,
+our expected return is exactly the same.
+
+11
+00:00:43,230 --> 00:00:49,070
+So the reward side of this determining
+which is better, is showing us
+
+12
+00:00:49,070 --> 00:00:54,840
+that it's the same, so why should I say
+that this multibet approach is better?
+
+13
+00:00:54,840 --> 00:00:58,580
+Well, it turns out that that's all about
+the risk, so let's look at the risk now.
+

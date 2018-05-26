@@ -1,0 +1,33 @@
+1
+00:00:00,080 --> 00:00:03,440
+Suppose we're measuring the error
+of a model that you built.
+
+2
+00:00:03,440 --> 00:00:06,870
+Which sort of error would
+you expect to be larger?
+
+3
+00:00:06,870 --> 00:00:07,820
+In sample error,
+
+4
+00:00:07,820 --> 00:00:12,340
+in which we measure the accuracy of our
+model against the set it was trained on?
+
+5
+00:00:12,340 --> 00:00:16,260
+Or out of sample error,
+where we measure the error of the model
+
+6
+00:00:16,260 --> 00:00:19,440
+against a new test set that
+it hasn't seen before?
+
+7
+00:00:19,440 --> 00:00:20,430
+Which is worse?
+

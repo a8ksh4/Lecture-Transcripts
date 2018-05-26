@@ -1,0 +1,143 @@
+1
+00:00:00,310 --> 00:00:03,510
+Pandas provide a number of
+functions that makes it easy
+
+2
+00:00:03,510 --> 00:00:07,530
+to read in data like the .csv
+file we just had a look at.
+
+3
+00:00:07,530 --> 00:00:12,330
+Here's a code that reads in
+AAPL.csv into a data frame.
+
+4
+00:00:12,330 --> 00:00:15,850
+So, first of all we will have
+to import the pandas library.
+
+5
+00:00:15,850 --> 00:00:20,800
+To avoid writing pandas every time
+we use a functionality of it,
+
+6
+00:00:20,800 --> 00:00:22,900
+we rename it as PD.
+
+7
+00:00:22,900 --> 00:00:26,200
+So, this is the main function,
+which will call the test run function.
+
+8
+00:00:26,200 --> 00:00:28,450
+Let's have a look what's there in it.
+
+9
+00:00:28,450 --> 00:00:31,690
+Pd.read_csv, as the name suggests,
+
+10
+00:00:31,690 --> 00:00:37,950
+will read AAPL.csv into a data frame,
+which we name it as df.
+
+11
+00:00:37,950 --> 00:00:43,100
+As of now, imagine dataframe as
+a structure similar to the 2D arracy.
+
+12
+00:00:43,100 --> 00:00:45,500
+That is, with rows and columns.
+
+13
+00:00:45,500 --> 00:00:47,780
+Let's go ahead and print this.
+
+14
+00:00:47,780 --> 00:00:50,750
+So here's the entire csv
+file on your console.
+
+15
+00:00:50,750 --> 00:00:55,460
+As you can see, the entire data
+is loaded in your console, but
+
+16
+00:00:55,460 --> 00:00:58,040
+just to have an idea of the .csv file,
+
+17
+00:00:58,040 --> 00:01:01,770
+you can just print the top
+five rows of the data frame.
+
+18
+00:01:01,770 --> 00:01:03,440
+This is how you do it.
+
+19
+00:01:03,440 --> 00:01:04,930
+Data frame dot head.
+
+20
+00:01:04,930 --> 00:01:09,550
+Dot head is the functionality provided
+by the pandas for the data frame
+
+21
+00:01:09,550 --> 00:01:13,710
+that would help you to view just
+the top five lines of the .csv.
+
+22
+00:01:13,710 --> 00:01:17,450
+That will give you a rough idea of
+what the .csv actually contains.
+
+23
+00:01:17,450 --> 00:01:19,019
+Let's go ahead and print this.
+
+24
+00:01:20,070 --> 00:01:21,210
+So here it is.
+
+25
+00:01:21,210 --> 00:01:24,050
+Just the top five lines
+of your data frame.
+
+26
+00:01:24,050 --> 00:01:28,450
+You can observe that all the columns
+of the .csv can be viewed here.
+
+27
+00:01:28,450 --> 00:01:32,150
+You will also observe there is
+a column that is not named and
+
+28
+00:01:32,150 --> 00:01:33,440
+has values 0, 1, 2, 3.
+
+29
+00:01:33,440 --> 00:01:36,590
+And this is not from the .csv.
+
+30
+00:01:36,590 --> 00:01:40,799
+These are called index for the data
+frame, which help you to access rows.
+
+31
+00:01:41,870 --> 00:01:47,239
+Similarly, you can view last
+five values using the df.tail.
+

@@ -1,0 +1,98 @@
+1
+00:00:00,180 --> 00:00:03,280
+Now let's do some more
+processing on the data frame.
+
+2
+00:00:03,280 --> 00:00:07,480
+We can start with finding
+the maximum closing value for
+
+3
+00:00:07,480 --> 00:00:10,640
+each of the stock AAPL and IBM.
+
+4
+00:00:10,640 --> 00:00:11,910
+So here's the code.
+
+5
+00:00:11,910 --> 00:00:17,679
+The test_run function simply loops
+over two symbols, AAPL and IBM,
+
+6
+00:00:17,679 --> 00:00:23,390
+and will print the maximum closing
+value of each of the stock.
+
+7
+00:00:23,390 --> 00:00:27,910
+Let's call the function
+get_max_close along with the symbol.
+
+8
+00:00:27,910 --> 00:00:31,700
+Here's the function that will
+compute the maximum closing value.
+
+9
+00:00:31,700 --> 00:00:35,210
+Let's see what get_max_close
+function does.
+
+10
+00:00:35,210 --> 00:00:39,800
+The first step would be to read
+in the csv into the data frame.
+
+11
+00:00:39,800 --> 00:00:43,740
+The next step would be to get only
+the closing values from the entire
+
+12
+00:00:43,740 --> 00:00:48,120
+data frame, which means we have
+to extract the column close.
+
+13
+00:00:48,120 --> 00:00:49,500
+This is how you do it.
+
+14
+00:00:49,500 --> 00:00:56,440
+df[, pass the parameter of
+the column name, that is, 'Close'.
+
+15
+00:00:56,440 --> 00:00:59,870
+Make sure you include
+the inverted commas.
+
+16
+00:00:59,870 --> 00:01:03,410
+The last step is to calculate
+the maximum value, and
+
+17
+00:01:03,410 --> 00:01:09,080
+it is as simple as calling the .max()
+function over the extracted data.
+
+18
+00:01:09,080 --> 00:01:11,490
+Let's go ahead and print this.
+
+19
+00:01:11,490 --> 00:01:13,100
+Here is your output.
+
+20
+00:01:13,100 --> 00:01:18,068
+The max close for the AAPL is 680.44 and
+
+21
+00:01:18,068 --> 00:01:22,520
+the max close for the IBM is 209.5.
+

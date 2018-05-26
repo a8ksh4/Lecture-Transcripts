@@ -1,0 +1,23 @@
+1
+00:00:00,270 --> 00:00:03,380
+So far we have seen how to
+compute certain measures.
+
+2
+00:00:03,380 --> 00:00:07,010
+How about finding the position
+of some element in an array?
+
+3
+00:00:07,010 --> 00:00:11,620
+Can you implement this simple function
+to find the index of the maximum value
+
+4
+00:00:11,620 --> 00:00:13,570
+in the one-dimensional array.
+
+5
+00:00:13,570 --> 00:00:15,090
+Remember NumPy is your friend.
+

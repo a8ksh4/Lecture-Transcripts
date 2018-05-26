@@ -1,0 +1,14 @@
+1
+00:00:00,300 --> 00:00:03,850
+You knew it, of course, the ensemble's
+going to be less likely to over fit.
+
+2
+00:00:03,850 --> 00:00:08,490
+I've been preaching ensembles here so,
+you knew that was coming.
+
+3
+00:00:08,490 --> 00:00:09,350
+But let me show you why.
+

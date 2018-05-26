@@ -1,0 +1,140 @@
+1
+00:00:00,200 --> 00:00:02,410
+Okay we've calculated these weights.
+
+2
+00:00:02,410 --> 00:00:05,090
+Let's see how they work on
+the examples we've been looking at.
+
+3
+00:00:05,090 --> 00:00:09,390
+So again our weight for
+stock A is going to be .66 and for
+
+4
+00:00:09,390 --> 00:00:11,363
+stock B is going to be negative .33.
+
+5
+00:00:11,363 --> 00:00:15,060
+And we're going to look at this
+scenario where the market goes up 10%.
+
+6
+00:00:15,060 --> 00:00:21,020
+We'll pull out our old trusty CAPM and
+expand it for these two stocks.
+
+7
+00:00:21,020 --> 00:00:23,760
+So for
+stock A we have the weight of stock A,
+
+8
+00:00:23,760 --> 00:00:28,740
+times its beta times the return on
+the market, plus the alpha component.
+
+9
+00:00:28,740 --> 00:00:31,670
+So these are the two parts that relate
+to the return on the market, and
+
+10
+00:00:31,670 --> 00:00:33,170
+we'll bring them together.
+
+11
+00:00:33,170 --> 00:00:37,080
+So for stock A we have 0.66,
+and our beta is 1.0.
+
+12
+00:00:37,080 --> 00:00:43,310
+And for stock B we've got -0.33 times
+2 times the return on the market.
+
+13
+00:00:44,380 --> 00:00:47,570
+So because of all that work we
+did to figure out these values,
+
+14
+00:00:47,570 --> 00:00:49,900
+we know already that this
+is going to become 0.
+
+15
+00:00:49,900 --> 00:00:54,830
+We'll carry down our two alpha
+components, so for stock A,
+
+16
+00:00:54,830 --> 00:00:59,810
+our alpha expectation is 1%,
+and our weighting is 0.66.
+
+17
+00:00:59,810 --> 00:01:03,121
+For stock B,
+our weighting is negative one third,
+
+18
+00:01:03,121 --> 00:01:08,290
+times -1, our expectation is
+just going to go down 1.0%.
+
+19
+00:01:08,290 --> 00:01:16,960
+So combining these two, 0.66 plus
+0.33 gives us a 1.0% expected return.
+
+20
+00:01:16,960 --> 00:01:18,770
+Whichever way the market goes.
+
+21
+00:01:18,770 --> 00:01:22,890
+Remember, we eliminated
+the return on the market.
+
+22
+00:01:22,890 --> 00:01:26,040
+So, whichever way the market goes,
+we can expect to get 1% return.
+
+23
+00:01:26,040 --> 00:01:29,590
+Now, need to add a lot of caveats here.
+
+24
+00:01:29,590 --> 00:01:34,930
+These betas aren't necessarily fully
+guaranteed to continue into the future,
+
+25
+00:01:34,930 --> 00:01:37,520
+and these alphas aren't guaranteed,
+either.
+
+26
+00:01:37,520 --> 00:01:42,130
+These are just estimates that we
+computed based on information we thought
+
+27
+00:01:42,130 --> 00:01:46,590
+we had, so this is not a guaranteed
+thing by any means, but
+
+28
+00:01:46,590 --> 00:01:52,230
+it is a way to use long/short investing
+to reduce exposure to the market overall
+
+29
+00:01:52,230 --> 00:01:56,460
+and to focus on those alpha components
+where we do have information.
+

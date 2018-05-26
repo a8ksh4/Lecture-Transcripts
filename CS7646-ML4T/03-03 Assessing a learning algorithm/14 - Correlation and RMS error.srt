@@ -1,0 +1,28 @@
+1
+00:00:00,110 --> 00:00:04,800
+I want you to think now about
+the relationship between RMS error and
+
+2
+00:00:04,800 --> 00:00:05,950
+correlation.
+
+3
+00:00:05,950 --> 00:00:09,090
+And in particular, I'm talking
+about correlation between our
+
+4
+00:00:09,090 --> 00:00:12,340
+predicted result and the actual result.
+
+5
+00:00:12,340 --> 00:00:17,470
+Do you think that as RMS error
+increases, correlation would decrease,
+
+6
+00:00:17,470 --> 00:00:20,820
+correlation would increase,
+or we can't really be sure?
+

@@ -1,0 +1,42 @@
+1
+00:00:00,006 --> 00:00:06,529
+Assume we're using a rolling mean, and
+we're tracking the price here in blue.
+
+2
+00:00:06,529 --> 00:00:11,054
+And we're looking for an opportunity
+to find when the prices diverged
+
+3
+00:00:11,054 --> 00:00:16,040
+significantly far from the rolling mean
+that it might be an opportunity for,
+
+4
+00:00:16,040 --> 00:00:18,358
+say, a buy signal or a sell signal.
+
+5
+00:00:18,358 --> 00:00:22,455
+How can we decide that we’re far enough
+away from the mean that we should
+
+6
+00:00:22,455 --> 00:00:24,305
+consider something like that?
+
+7
+00:00:24,305 --> 00:00:30,520
+So the question is, which statistic
+might we use to discover this?
+
+8
+00:00:30,520 --> 00:00:31,970
+Here are a few options.
+
+9
+00:00:31,970 --> 00:00:35,400
+Give it some thought, and check the box
+you think makes the most sense.
+

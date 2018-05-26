@@ -1,0 +1,49 @@
+1
+00:00:00,400 --> 00:00:05,400
+So, what's going to happen is that
+the stock price is going to rise
+
+2
+00:00:06,610 --> 00:00:10,340
+to 101 because everybody
+knows that on the next day,
+
+3
+00:00:10,340 --> 00:00:15,680
+you're going to have one share
+of a stock worth $100 and $1.
+
+4
+00:00:15,680 --> 00:00:19,879
+So, the total value of that is $101.
+
+5
+00:00:19,879 --> 00:00:25,092
+On the very next day,
+the price is going to drop by $1.
+
+6
+00:00:25,092 --> 00:00:32,549
+And everybody who held a share that day
+will have one share of stock and $1.
+
+7
+00:00:32,549 --> 00:00:39,060
+So their value continues
+at this $101 level.
+
+8
+00:00:39,060 --> 00:00:46,313
+So the answers are, the day before the
+price, we should expect to see, is $101.
+
+9
+00:00:46,313 --> 00:00:52,250
+And the day the dividend is paid,
+we should expect to see $100.
+
+10
+00:00:52,250 --> 00:00:58,670
+And don't forget,
+you've got your $1 dividend also.
+

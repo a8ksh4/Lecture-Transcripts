@@ -1,0 +1,14 @@
+1
+00:00:00,220 --> 00:00:03,110
+Here's a quiz, and
+something important to think about.
+
+2
+00:00:03,110 --> 00:00:08,420
+How many days were US stocks traded at
+the New York Stock Exchange in 2014?
+
+3
+00:00:08,420 --> 00:00:11,890
+Here are three possible answers.
+

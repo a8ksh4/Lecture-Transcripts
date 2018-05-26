@@ -1,0 +1,46 @@
+1
+00:00:00,340 --> 00:00:03,580
+So remember from our equation
+on the previous page
+
+2
+00:00:03,580 --> 00:00:07,920
+that the return on
+the portfolio is the sum of
+
+3
+00:00:07,920 --> 00:00:11,680
+each return times the respective
+weight added together.
+
+4
+00:00:11,680 --> 00:00:16,857
+So the weight for
+Stock A is .75 times 1% and
+
+5
+00:00:16,857 --> 00:00:21,522
+the weight for Stock B is negative 25%.
+
+6
+00:00:21,522 --> 00:00:25,210
+The return was negative 2% for
+that stock also.
+
+7
+00:00:25,210 --> 00:00:27,010
+So because we shorted B and
+
+8
+00:00:27,010 --> 00:00:31,250
+it went down, we got a positive
+component there, or .5.
+
+9
+00:00:31,250 --> 00:00:35,574
+And our long on A adds up to .75 so
+
+10
+00:00:35,574 --> 00:00:38,882
+our total is 1.25.
+

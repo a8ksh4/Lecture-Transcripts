@@ -1,0 +1,54 @@
+1
+00:00:00,540 --> 00:00:02,000
+Here's the solution.
+
+2
+00:00:02,000 --> 00:00:07,555
+You can get the csv of
+the IBM by using IBM.csv.
+
+3
+00:00:07,555 --> 00:00:12,391
+The next step was the get the high
+prices from the data frame.
+
+4
+00:00:12,391 --> 00:00:15,860
+df[high] will do that for you.
+
+5
+00:00:15,860 --> 00:00:18,500
+And finally, you go ahead and plot it.
+
+6
+00:00:18,500 --> 00:00:20,910
+Let's see how the graph looks like.
+
+7
+00:00:20,910 --> 00:00:23,590
+I hope you got a graph similar to this.
+
+8
+00:00:23,590 --> 00:00:26,832
+An advice I would like to
+give you at this point is,
+
+9
+00:00:26,832 --> 00:00:30,950
+you will get hold of Python
+easily if you experiment.
+
+10
+00:00:30,950 --> 00:00:34,810
+Try different options and
+see what works and what does not.
+
+11
+00:00:34,810 --> 00:00:38,055
+During the course you will realize
+why some things worked and
+
+12
+00:00:38,055 --> 00:00:39,650
+why just some things failed.
+

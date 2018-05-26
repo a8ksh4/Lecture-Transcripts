@@ -1,0 +1,39 @@
+1
+00:00:00,300 --> 00:00:04,402
+A common practice in finance
+is to plot histograms of daily
+
+2
+00:00:04,402 --> 00:00:09,091
+returns of different stocks together and
+look at them together and
+
+3
+00:00:09,091 --> 00:00:11,870
+assess how they relate to one another.
+
+4
+00:00:11,870 --> 00:00:18,400
+So here, we've got a plot of
+an XYZ stock and SPY or S&P 500.
+
+5
+00:00:18,400 --> 00:00:22,120
+Now take a look and see what
+difference you can see between them.
+
+6
+00:00:22,120 --> 00:00:26,843
+Now to help out, I'll draw what
+the underlying shape is looking like.
+
+7
+00:00:26,843 --> 00:00:31,700
+Check which answer you think
+is most correct in terms of
+
+8
+00:00:31,700 --> 00:00:35,510
+volatility and return for
+XYZ versus SPY.
+

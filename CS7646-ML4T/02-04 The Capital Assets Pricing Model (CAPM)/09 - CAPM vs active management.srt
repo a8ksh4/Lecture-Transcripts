@@ -1,0 +1,235 @@
+1
+00:00:00,510 --> 00:00:02,880
+Now you may have heard
+about the debate of
+
+2
+00:00:02,880 --> 00:00:05,890
+passive investing versus
+active investing.
+
+3
+00:00:06,920 --> 00:00:10,921
+This question about passive versus
+active didn't really exist before
+
+4
+00:00:10,921 --> 00:00:13,398
+the capital assets
+pricing model came out.
+
+5
+00:00:13,398 --> 00:00:15,170
+And I'll explain why in just a moment.
+
+6
+00:00:16,180 --> 00:00:20,410
+But let me just briefly tell you
+about passive versus active.
+
+7
+00:00:20,410 --> 00:00:26,280
+So passive essentially says that you
+should just buy an index portfolio.
+
+8
+00:00:26,280 --> 00:00:30,830
+Like buy something that
+represents the S&P 500, and hold.
+
+9
+00:00:30,830 --> 00:00:33,470
+Just sit on it and let it grow.
+
+10
+00:00:33,470 --> 00:00:38,800
+Active portfolio managers don't
+just buy the index portfolio,
+
+11
+00:00:38,800 --> 00:00:41,370
+they pick individual stocks.
+
+12
+00:00:41,370 --> 00:00:44,700
+Another way you can think of this is
+if you compare the active managers
+
+13
+00:00:44,700 --> 00:00:47,710
+portfolio to the index.
+
+14
+00:00:47,710 --> 00:00:51,400
+You'll find that he or
+she has higher weights for
+
+15
+00:00:51,400 --> 00:00:54,400
+some stocks and
+lowers weights for other stocks.
+
+16
+00:00:54,400 --> 00:00:56,870
+Of course those weights could be zero,
+or even negative.
+
+17
+00:00:58,150 --> 00:01:02,480
+But the general idea here is that
+the active portfolio manager's portfolio
+
+18
+00:01:02,480 --> 00:01:05,140
+differs from the market portfolio
+
+19
+00:01:05,140 --> 00:01:07,530
+by selecting different
+weights on different stocks.
+
+20
+00:01:08,850 --> 00:01:14,280
+Let's return now to the capital
+asset pricing model here, and
+
+21
+00:01:14,280 --> 00:01:18,200
+consider passive versus
+active in that context.
+
+22
+00:01:18,200 --> 00:01:19,740
+Both active managers and
+
+23
+00:01:19,740 --> 00:01:23,890
+passive managers agree with
+this part of the equation.
+
+24
+00:01:23,890 --> 00:01:24,770
+In other words,
+
+25
+00:01:24,770 --> 00:01:30,250
+however the stock moves each day is most
+significantly influenced by the market,
+
+26
+00:01:30,250 --> 00:01:33,720
+and that the amount that it moves
+is strongly related to beta.
+
+27
+00:01:35,180 --> 00:01:38,230
+Where they differ is with regard
+to their treatment of alpha.
+
+28
+00:01:39,330 --> 00:01:42,850
+The CAPM says two important
+things about alpha.
+
+29
+00:01:42,850 --> 00:01:44,440
+First, it's random.
+
+30
+00:01:45,500 --> 00:01:50,155
+You can't predict it, and
+the expected value is zero.
+
+31
+00:01:50,155 --> 00:01:53,466
+Some days it'll be positive,
+some days it'll be negative.
+
+32
+00:01:53,466 --> 00:01:57,380
+It may be large, it may be small,
+but it's random.
+
+33
+00:01:57,380 --> 00:02:00,620
+And on average,
+it's value is going to be zero.
+
+34
+00:02:00,620 --> 00:02:04,920
+Active managers, on the other hand,
+believe they can predict alpha.
+
+35
+00:02:04,920 --> 00:02:07,470
+In other words,
+they can compare two stocks and
+
+36
+00:02:07,470 --> 00:02:12,380
+they say I think this one is going to
+go up relative to the market.
+
+37
+00:02:12,380 --> 00:02:15,520
+Remember, this alpha is market-relative.
+
+38
+00:02:15,520 --> 00:02:19,110
+Or, I think this other stock is going to
+go down relative to the market.
+
+39
+00:02:19,110 --> 00:02:22,650
+Now, they might not be exactly
+right on every single pick.
+
+40
+00:02:22,650 --> 00:02:27,360
+But they believe on average they're
+better than just flipping a coin.
+
+41
+00:02:27,360 --> 00:02:33,070
+So if you believe what active managers
+say, you can use information and perhaps
+
+42
+00:02:33,070 --> 00:02:39,430
+machine learning to find stocks that
+have either positive or negative alpha.
+
+43
+00:02:39,430 --> 00:02:43,050
+And you can use that information
+to select your stock picks.
+
+44
+00:02:43,050 --> 00:02:45,520
+And we'll show some
+examples of that later on.
+
+45
+00:02:45,520 --> 00:02:50,760
+Anyways, if you believe the capital
+assets pricing model, in other words
+
+46
+00:02:50,760 --> 00:02:57,280
+this alpha is fully random,
+then you should be a passive investor.
+
+47
+00:02:57,280 --> 00:02:59,730
+Just buy an index and hold it.
+
+48
+00:02:59,730 --> 00:03:04,440
+If you believe active managers,
+that they can find alpha,
+
+49
+00:03:04,440 --> 00:03:06,930
+then you should consider
+being an active investor.
+

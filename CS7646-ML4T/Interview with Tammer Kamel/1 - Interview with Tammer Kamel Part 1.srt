@@ -1,0 +1,641 @@
+1
+00:00:00,260 --> 00:00:05,750
+I'm Tucker Balch, we're here with
+Tammer Kamel, founder of Quandl.
+
+2
+00:00:05,750 --> 00:00:11,970
+We're going to dive now into details
+about how the Quandl platform works.
+
+3
+00:00:11,970 --> 00:00:15,520
+So let's start with
+sort of a big picture,
+
+4
+00:00:15,520 --> 00:00:20,880
+imagine I'm a hedge fund and
+I'm interested in working with Quandl.
+
+5
+00:00:20,880 --> 00:00:24,090
+How does Quandl fit in to my work flow?
+
+6
+00:00:24,090 --> 00:00:27,190
+>> Right.
+So in any hedge fund where quantitative
+
+7
+00:00:27,190 --> 00:00:29,510
+thinking is some or
+part of the investment strategy,
+
+8
+00:00:29,510 --> 00:00:33,860
+then at the very start of that process,
+is good, high-quality data.
+
+9
+00:00:33,860 --> 00:00:37,840
+And that's where Quandl starts and
+finishes, in a sense.
+
+10
+00:00:37,840 --> 00:00:43,050
+We view it as our mission to get the
+data that professional investors need
+
+11
+00:00:43,050 --> 00:00:46,190
+into their hands and
+into the format that they need it in.
+
+12
+00:00:46,190 --> 00:00:48,980
+>> So Quandl offers a hedge
+fund literally dozens of
+
+13
+00:00:48,980 --> 00:00:50,470
+mechanisms to pull that data.
+
+14
+00:00:50,470 --> 00:00:54,900
+Whether it's a low level API and they
+can pull the data right into a database
+
+15
+00:00:54,900 --> 00:00:58,360
+that they're maintaining themselves,
+or into Python or R,
+
+16
+00:00:58,360 --> 00:01:02,740
+or MatLab or Stata or
+any analysis tool they might be using.
+
+17
+00:01:02,740 --> 00:01:06,988
+But we consider our job,
+mission accomplished for
+
+18
+00:01:06,988 --> 00:01:08,530
+Quandl, if we quickly and
+
+19
+00:01:08,530 --> 00:01:13,020
+painlessly get the hedge fund the data
+they need into the system they want.
+
+20
+00:01:13,020 --> 00:01:18,954
+>> Now presumably, this includes
+a combination of historical data and
+
+21
+00:01:18,954 --> 00:01:21,420
+live data.
+
+22
+00:01:21,420 --> 00:01:24,490
+Are all of your feeds
+historical as well as live?
+
+23
+00:01:25,600 --> 00:01:29,030
+Or are there some that
+are special in some way?
+
+24
+00:01:29,030 --> 00:01:35,570
+>> Right, so all of our data is
+historical for sure, and updated daily.
+
+25
+00:01:35,570 --> 00:01:38,140
+Live data is a little bit
+in the future for us,
+
+26
+00:01:38,140 --> 00:01:41,600
+it's not available on
+the platform as of this moment.
+
+27
+00:01:41,600 --> 00:01:45,320
+>> So I could imagine
+a flow something like this.
+
+28
+00:01:45,320 --> 00:01:47,910
+Lots of people are on a daily cycle.
+
+29
+00:01:47,910 --> 00:01:50,200
+I think that's a majority
+of what people do.
+
+30
+00:01:50,200 --> 00:01:55,990
+You might read historical data to inform
+your model or build some sort of model.
+
+31
+00:01:55,990 --> 00:02:01,430
+But after market close, you wait
+some period until the market data
+
+32
+00:02:01,430 --> 00:02:06,730
+is available and then whatever data one
+might pull from Quandl, do some number
+
+33
+00:02:06,730 --> 00:02:12,350
+crunching overnight and put in orders
+for what you might do in the next day.
+
+34
+00:02:12,350 --> 00:02:15,300
+Now what time does
+your data available and
+
+35
+00:02:15,300 --> 00:02:18,700
+what mechanisms do
+people use to pull it?
+
+36
+00:02:18,700 --> 00:02:23,338
+>> So what you described is really
+a canonical use case for Quandl, right.
+
+37
+00:02:23,338 --> 00:02:26,820
+A fund or an analyst will take
+the historical data, build and
+
+38
+00:02:26,820 --> 00:02:29,660
+calibrate a model, and when they're
+comfortable that it's ready for
+
+39
+00:02:29,660 --> 00:02:32,670
+action, then they're going to
+start executing on it.
+
+40
+00:02:32,670 --> 00:02:38,150
+So Quandl market data is updated
+pretty quickly after the close,
+
+41
+00:02:38,150 --> 00:02:43,630
+within minutes or depending on the exact
+database, we're talking about ours so.
+
+42
+00:02:43,630 --> 00:02:47,780
+But definitely in time to run today's
+numbers through your model to get
+
+43
+00:02:47,780 --> 00:02:52,798
+the output and know what actions need
+to be taken on the next trading day.
+
+44
+00:02:52,798 --> 00:02:57,610
+>> So I love to learn details about how
+people build complex financial systems.
+
+45
+00:02:57,610 --> 00:03:00,073
+So where do your machines live?
+
+46
+00:03:00,073 --> 00:03:04,070
+>> So
+Quandl is quite modern in that respect.
+
+47
+00:03:04,070 --> 00:03:06,680
+Everything lives in the Cloud.
+
+48
+00:03:06,680 --> 00:03:10,430
+We're customers of Amazon,
+like so many others are.
+
+49
+00:03:10,430 --> 00:03:15,500
+At the heart of Quandl is a modern,
+no SQL database.
+
+50
+00:03:15,500 --> 00:03:17,440
+And that's where the 15,
+
+51
+00:03:17,440 --> 00:03:21,210
+16 million times series,
+few billion data points live there.
+
+52
+00:03:21,210 --> 00:03:24,110
+On top of that, we've built an API.
+
+53
+00:03:24,110 --> 00:03:26,210
+And then the Quandl website itself,
+
+54
+00:03:26,210 --> 00:03:30,430
+interestingly, is itself just
+another client of the Quandl API.
+
+55
+00:03:30,430 --> 00:03:34,430
+If you look at our website, you will
+discover it's perfectly orthodox.
+
+56
+00:03:36,930 --> 00:03:40,400
+It's a standard Ruby on Rails website,
+
+57
+00:03:40,400 --> 00:03:45,280
+built very conventionally, it's just
+another client of the Quandl API.
+
+58
+00:03:45,280 --> 00:03:47,630
+>> Why the choice of no SQL?
+
+59
+00:03:47,630 --> 00:03:51,470
+>> So because of scalability, right?
+
+60
+00:03:51,470 --> 00:03:57,280
+We really need to be able to deliver
+lots of numerical data to lots of people
+
+61
+00:03:57,280 --> 00:03:58,800
+very, very quickly.
+
+62
+00:03:58,800 --> 00:04:03,780
+The number of data points in
+the Quandl database is in the order of
+
+63
+00:04:03,780 --> 00:04:07,211
+a few billion now, but
+we expect that to be 10 or 20 or
+
+64
+00:04:07,211 --> 00:04:10,520
+50 billion within a year or
+two, and at that point,
+
+65
+00:04:10,520 --> 00:04:16,279
+conventional relational databases
+get kind of difficult to work with.
+
+66
+00:04:16,279 --> 00:04:20,576
+>> So the glue between the various
+components is Ruby on Rails?
+
+67
+00:04:20,576 --> 00:04:21,399
+>> It is, indeed, yeah.
+
+68
+00:04:21,399 --> 00:04:25,610
+>> So it's no SQL and
+Ruby on Rails, and that's it?
+
+69
+00:04:25,610 --> 00:04:26,400
+>> That is it.
+
+70
+00:04:26,400 --> 00:04:30,550
+Quandl is,
+by software engineering standards,
+
+71
+00:04:30,550 --> 00:04:34,922
+pretty plain, vanilla,
+simple implementation.
+
+72
+00:04:34,922 --> 00:04:38,470
+Where Quandl, where we sweat day-to-day
+
+73
+00:04:38,470 --> 00:04:41,860
+is usually in maintaining
+the accuracy of 12 million data sets.
+
+74
+00:04:41,860 --> 00:04:45,100
+The technical infrastructure is,
+not to say it's trivial, but
+
+75
+00:04:45,100 --> 00:04:50,840
+it's conventional best
+practices software engineering.
+
+76
+00:04:50,840 --> 00:04:54,530
+>> Getting back to the data,
+tell me a little bit about timestamping.
+
+77
+00:04:54,530 --> 00:04:56,390
+Let me tell you what I'm getting at.
+
+78
+00:04:56,390 --> 00:04:58,970
+So let's just consider
+market close data.
+
+79
+00:04:58,970 --> 00:05:04,670
+So the price for a particular stock
+essentially is stamped at 4 o'clock,
+
+80
+00:05:04,670 --> 00:05:09,885
+so one potential timestamp for
+that data is New York time,
+
+81
+00:05:09,885 --> 00:05:13,770
+[LAUGH] one potential timestamp for
+that data is 4PM,
+
+82
+00:05:13,770 --> 00:05:17,740
+but maybe I can't observe it until 4:05.
+
+83
+00:05:17,740 --> 00:05:19,100
+That's just one example.
+
+84
+00:05:19,100 --> 00:05:24,185
+But I'm curious, does that sort of time
+stamping feed into what you all do?
+
+85
+00:05:24,185 --> 00:05:26,650
+>> Yeah,
+that's actually a really good point.
+
+86
+00:05:26,650 --> 00:05:30,840
+I suppose what you're getting at is the
+risk of creating a look-ahead bias in
+
+87
+00:05:30,840 --> 00:05:31,890
+your analysis, right?
+
+88
+00:05:31,890 --> 00:05:32,550
+>> Yeah.
+You know what,
+
+89
+00:05:32,550 --> 00:05:37,020
+I can't claim that Quandl has any sort
+of panaceas for that sort of thing.
+
+90
+00:05:38,280 --> 00:05:39,940
+We time stamped the data, of course.
+
+91
+00:05:39,940 --> 00:05:47,040
+And the meticulous, diligent analyst
+should be aware of this kind of thing.
+
+92
+00:05:47,040 --> 00:05:49,630
+And they'll see that this database is
+
+93
+00:05:49,630 --> 00:05:52,140
+the 4PM closing prices, but-
+>> This more likely did occur with
+
+94
+00:05:52,140 --> 00:05:53,890
+things like earnings reports.
+
+95
+00:05:53,890 --> 00:05:54,450
+>> Yeah.
+
+96
+00:05:54,450 --> 00:05:59,250
+With those sort of things,
+we reach to the vendors and
+
+97
+00:05:59,250 --> 00:06:03,647
+the publishers for this, but they are
+acutely aware of that, so you'll see.
+
+98
+00:06:03,647 --> 00:06:05,770
+Take for example our earnings data.
+
+99
+00:06:05,770 --> 00:06:10,020
+They're both as reported to the point
+and time data and revised data.
+
+100
+00:06:10,020 --> 00:06:15,610
+So those kind of blatant
+risks of the look-ahead bias,
+
+101
+00:06:15,610 --> 00:06:17,250
+those are well mitigated.
+
+102
+00:06:17,250 --> 00:06:21,490
+>> When you look at your various
+vendors who are providing you data,
+
+103
+00:06:21,490 --> 00:06:24,470
+what sorts of flaws do
+you see in that data and
+
+104
+00:06:24,470 --> 00:06:29,720
+what sorts of steps to you have
+to take to mitigate those flaws?
+
+105
+00:06:29,720 --> 00:06:31,320
+>> It's interesting,
+
+106
+00:06:31,320 --> 00:06:35,340
+there's no such thing as a perfect
+data set in this world, right, and
+
+107
+00:06:35,340 --> 00:06:39,340
+we're of course strongly motivated to
+get as close to that ideal as possible.
+
+108
+00:06:39,340 --> 00:06:43,980
+The way we've done it is kind of simple,
+but also a little bit original.
+
+109
+00:06:43,980 --> 00:06:48,370
+And it falls from the mechanism we've
+set up, where consumers of data
+
+110
+00:06:48,370 --> 00:06:51,260
+have a direct relationship with
+the publishers of those data.
+
+111
+00:06:51,260 --> 00:06:55,800
+And indeed, the publisher of the data's
+livelihood depends on keeping that
+
+112
+00:06:55,800 --> 00:06:57,750
+consumer satisfied or happy.
+
+113
+00:06:57,750 --> 00:07:01,280
+And so unlike sort of many
+other data platforms,
+
+114
+00:07:01,280 --> 00:07:04,840
+where there's a lot of opacity
+between the end user and
+
+115
+00:07:04,840 --> 00:07:07,430
+a lot of layers too, between the end
+user and the actual publisher.
+
+116
+00:07:07,430 --> 00:07:11,276
+In fact, you might in many cases,
+not even be able to reach the publisher.
+
+117
+00:07:11,276 --> 00:07:13,250
+Quandl has this direct relation.
+
+118
+00:07:13,250 --> 00:07:17,090
+So what you find is that if and
+when there's errors in the data,
+
+119
+00:07:17,090 --> 00:07:20,970
+our publishers are very keen
+to correct it, and fast.
+
+120
+00:07:20,970 --> 00:07:23,110
+Because they've got 5 or 10 or
+
+121
+00:07:23,110 --> 00:07:27,500
+50 customers who know it's them
+who are responsible for it, and
+
+122
+00:07:27,500 --> 00:07:31,410
+they're keen to keep these
+people paying for the service.
+
+123
+00:07:31,410 --> 00:07:33,870
+Right?
+So this is an amazing,
+
+124
+00:07:33,870 --> 00:07:38,100
+this is a reality that
+happens in many marketplaces.
+
+125
+00:07:38,100 --> 00:07:42,750
+When you start removing the distance
+between the end consumer and
+
+126
+00:07:42,750 --> 00:07:46,250
+the actual producer of the product,
+you get this quality improvement.
+
+127
+00:07:46,250 --> 00:07:47,180
+The other thing that, of course,
+
+128
+00:07:47,180 --> 00:07:51,090
+affects that is good old healthy
+competition on a marketplace.
+
+129
+00:07:51,090 --> 00:07:56,140
+We actually, right now, for some
+databases, we have two or more vendors
+
+130
+00:07:56,140 --> 00:08:02,100
+offering competing products and nothing
+drives quality control like competition.
+
+131
+00:08:02,100 --> 00:08:04,290
+>> Okay, great interview.
+
+132
+00:08:04,290 --> 00:08:05,080
+Thanks very much.
+
+133
+00:08:05,080 --> 00:08:08,695
+I'm sure the students out there
+will find this fascinating.
+
+134
+00:08:08,695 --> 00:08:11,445
+Thanks for your time,
+I really appreciate that.
+
+135
+00:08:11,445 --> 00:08:17,755
+That's the end of this discussion with
+Tammer Kamel, and we'll see you online.
+

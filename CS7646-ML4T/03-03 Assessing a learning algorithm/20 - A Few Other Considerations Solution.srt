@@ -1,0 +1,118 @@
+1
+00:00:00,230 --> 00:00:01,890
+So, in terms of space for
+
+2
+00:00:01,890 --> 00:00:06,110
+saving the model, linear
+regression is a hands down winner.
+
+3
+00:00:06,110 --> 00:00:09,230
+For instance, if we're learning
+a third order polynomial,
+
+4
+00:00:09,230 --> 00:00:12,330
+we have to only store four numbers.
+
+5
+00:00:12,330 --> 00:00:15,470
+KNN, on the other hand,
+requires you to keep all the data, so
+
+6
+00:00:15,470 --> 00:00:18,760
+it could be megabytes or
+gigabytes of data.
+
+7
+00:00:18,760 --> 00:00:21,600
+So, KNN is bad in this regard.
+
+8
+00:00:21,600 --> 00:00:23,880
+Compute time to train.
+
+9
+00:00:23,880 --> 00:00:25,570
+KNN is much better in this case.
+
+10
+00:00:25,570 --> 00:00:29,420
+In fact,
+it takes zero time to train KNN.
+
+11
+00:00:29,420 --> 00:00:32,890
+You just stuff the model into
+a data store and you're done.
+
+12
+00:00:32,890 --> 00:00:36,170
+On the other hand, linear regression
+has to take all that data,
+
+13
+00:00:36,170 --> 00:00:38,980
+compute over it,
+to find those parameters.
+
+14
+00:00:38,980 --> 00:00:40,880
+Compute time to query.
+
+15
+00:00:40,880 --> 00:00:42,200
+LinReg wins hands down.
+
+16
+00:00:43,390 --> 00:00:48,740
+All you do is you plug your X in,
+multiply it out and that's the answer.
+
+17
+00:00:48,740 --> 00:00:51,350
+KNN requires quite a bit of time
+to query because you have to,
+
+18
+00:00:51,350 --> 00:00:55,220
+among other things,
+usually do a sort to cross all the data.
+
+19
+00:00:55,220 --> 00:00:57,190
+Ease to add new data.
+
+20
+00:00:57,190 --> 00:01:00,970
+KNN wins that because all you
+gotta do is just plop it in there,
+
+21
+00:01:00,970 --> 00:01:03,470
+you don't have to do any re-calculation.
+
+22
+00:01:03,470 --> 00:01:06,470
+With linear regression,
+you have to add the new data and
+
+23
+00:01:06,470 --> 00:01:08,480
+then recompute the factors.
+
+24
+00:01:08,480 --> 00:01:11,210
+Well, that's all for
+how to assess learning algorithms.
+
+25
+00:01:11,210 --> 00:01:13,320
+I will see you again soon.
+
+26
+00:01:13,320 --> 00:01:13,820
+Thank you.
+

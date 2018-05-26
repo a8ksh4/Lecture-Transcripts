@@ -1,0 +1,107 @@
+1
+00:00:00,370 --> 00:00:02,110
+Now let's do some plotting.
+
+2
+00:00:02,110 --> 00:00:04,939
+It's easy to plot data
+in the data frame.
+
+3
+00:00:04,939 --> 00:00:08,570
+Here's how you plot
+Apple's adjusted close.
+
+4
+00:00:08,570 --> 00:00:12,510
+First let's call a library
+that would help us to do this.
+
+5
+00:00:12,510 --> 00:00:15,200
+We import a library name, matplotlib.
+
+6
+00:00:15,200 --> 00:00:16,750
+Do not worry about the details.
+
+7
+00:00:16,750 --> 00:00:19,770
+You will learn them eventually
+in the further lessons.
+
+8
+00:00:19,770 --> 00:00:21,980
+But to plot the adjusting close,
+
+9
+00:00:21,980 --> 00:00:26,010
+we first need the adjusting
+close data from the data frame.
+
+10
+00:00:26,010 --> 00:00:28,740
+And, as you learned in
+the previous video,
+
+11
+00:00:28,740 --> 00:00:32,780
+we can slice over the column
+using the square brackets.
+
+12
+00:00:32,780 --> 00:00:38,100
+Plotting the adjusting close is as
+simple as calling a plot function.
+
+13
+00:00:38,100 --> 00:00:44,450
+To show the plot on your screen, we need
+to add one more line and this plot.show.
+
+14
+00:00:44,450 --> 00:00:46,460
+Now let's run this code.
+
+15
+00:00:46,460 --> 00:00:48,000
+Here's your first graph.
+
+16
+00:00:48,000 --> 00:00:54,850
+You can observe there is no x-axis
+label, no y-axis label, no header also
+
+17
+00:00:54,850 --> 00:00:59,640
+the data is printed in reverse order
+since the CSV is in the reverse order.
+
+18
+00:00:59,640 --> 00:01:03,840
+So the Apple prices are not moving down,
+they are just printed inversely.
+
+19
+00:01:03,840 --> 00:01:06,900
+In the coming lessons,
+you will learn how to fix it.
+
+20
+00:01:06,900 --> 00:01:10,170
+As of now,
+enjoy the power of the Python Pandas
+
+21
+00:01:10,170 --> 00:01:14,390
+that can plot information
+using just one line of code.
+
+22
+00:01:14,390 --> 00:01:17,400
+Get ready to plot some data by yourself.
+
+23
+00:01:17,400 --> 00:01:18,500
+I'll be back with a quiz.
+

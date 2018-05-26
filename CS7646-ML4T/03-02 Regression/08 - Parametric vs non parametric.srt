@@ -1,0 +1,194 @@
+1
+00:00:00,520 --> 00:00:07,270
+So in my view, this type of problem is
+best solved by a parametric learner,
+
+2
+00:00:07,270 --> 00:00:10,790
+and this sort of problem is best
+solved by a non-parametric learner.
+
+3
+00:00:10,790 --> 00:00:12,370
+And here's why.
+
+4
+00:00:12,370 --> 00:00:16,270
+For this problem,
+you can start with an equation,
+
+5
+00:00:16,270 --> 00:00:19,440
+you can look it up on the net or
+whatever.
+
+6
+00:00:19,440 --> 00:00:23,920
+That will express an estimate of how far
+a cannon ball will go given this angle.
+
+7
+00:00:23,920 --> 00:00:27,800
+What's missing are some
+parameters of that equation
+
+8
+00:00:27,800 --> 00:00:31,590
+that reflect the velocity of
+the cannon ball coming out and so on.
+
+9
+00:00:31,590 --> 00:00:36,690
+But just by taking certain measurements
+of how far the ball goes at different
+
+10
+00:00:36,690 --> 00:00:42,420
+angles, you can use a parametric
+learner to find those parameters.
+
+11
+00:00:42,420 --> 00:00:45,980
+The key thing here is that you
+can start with an estimate
+
+12
+00:00:45,980 --> 00:00:49,600
+of the underlying behavior of the system
+in terms of a mathematical equation that
+
+13
+00:00:49,600 --> 00:00:51,660
+expresses how it behaves.
+
+14
+00:00:51,660 --> 00:00:57,990
+Now, in the cases of the honey bees,
+we really don't know, we don't really
+
+15
+00:00:57,990 --> 00:01:02,310
+have a guess of what that underlying
+mathematical equation might look like.
+
+16
+00:01:02,310 --> 00:01:07,057
+And if you don't have a guess,
+it's better to use a non-parametric or
+
+17
+00:01:07,057 --> 00:01:11,530
+instance-based model because
+it can fit any sort of shape.
+
+18
+00:01:11,530 --> 00:01:16,600
+Another way to put that is
+that this model is biased, in
+
+19
+00:01:16,600 --> 00:01:22,600
+the sense that we have an initial guess
+of what the form of the equation is.
+
+20
+00:01:22,600 --> 00:01:26,100
+This solution is unbiased
+because we don't know.
+
+21
+00:01:26,100 --> 00:01:30,440
+Now, we're raised to think biased
+is a bad thing, but if you go into
+
+22
+00:01:30,440 --> 00:01:35,020
+the problem already knowing the form
+of the solution, it makes sense to take
+
+23
+00:01:35,020 --> 00:01:40,450
+advantage of that bias, and
+aim your solution toward that bias.
+
+24
+00:01:40,450 --> 00:01:43,890
+Let's reflect on the pros and
+cons of each approach.
+
+25
+00:01:43,890 --> 00:01:48,650
+For a parametric approach, we don't
+have to store the original data, so
+
+26
+00:01:48,650 --> 00:01:50,650
+it's very space efficient, but
+
+27
+00:01:50,650 --> 00:01:54,900
+we can't easily update the model
+as more data is gathered.
+
+28
+00:01:54,900 --> 00:01:58,730
+Usually we have to do a complete rerun
+of the learning algorithm to update
+
+29
+00:01:58,730 --> 00:02:02,820
+the model, thus for
+parametric approaches,
+
+30
+00:02:02,820 --> 00:02:07,400
+training is slow but querying is fast.
+
+31
+00:02:07,400 --> 00:02:10,882
+For non-parametric approaches,
+or instance-based,
+
+32
+00:02:10,882 --> 00:02:13,420
+we have to store all the data points.
+
+33
+00:02:13,420 --> 00:02:16,960
+So it's hard to apply when
+we have a huge data set, but
+
+34
+00:02:16,960 --> 00:02:21,890
+new evidence can be added easily since
+no perimeters need to be learned,
+
+35
+00:02:21,890 --> 00:02:26,850
+adding data points doesn't consume
+additional time, thus training is fast,
+
+36
+00:02:26,850 --> 00:02:29,510
+but querying is potentially slow.
+
+37
+00:02:29,510 --> 00:02:34,170
+Most importantly, these nonparametric
+approaches avoid having to assume
+
+38
+00:02:34,170 --> 00:02:38,980
+a certain type of model, whether
+it's linear or quadratic or so on.
+
+39
+00:02:38,980 --> 00:02:42,430
+And therefore, they're suitable
+to fit complex patterns where we
+
+40
+00:02:42,430 --> 00:02:46,310
+don't really know what
+the underlying model is like.
+

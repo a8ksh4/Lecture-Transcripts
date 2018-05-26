@@ -1,0 +1,156 @@
+1
+00:00:00,390 --> 00:00:02,990
+There's a number of places
+information can come from.
+
+2
+00:00:02,990 --> 00:00:09,670
+Let's step through a few of these sorted
+from most public to least public.
+
+3
+00:00:09,670 --> 00:00:13,100
+But even this is certainly
+not an exhaustive list.
+
+4
+00:00:13,100 --> 00:00:16,390
+There's many other places
+we can get information.
+
+5
+00:00:16,390 --> 00:00:18,410
+But let's step through them.
+
+6
+00:00:18,410 --> 00:00:21,290
+Price volume, this is public.
+
+7
+00:00:21,290 --> 00:00:24,080
+It's rapid, it's quick,
+everybody can see it.
+
+8
+00:00:25,290 --> 00:00:28,260
+This is the basis of technical analysis.
+
+9
+00:00:29,280 --> 00:00:30,440
+Fundamental data.
+
+10
+00:00:30,440 --> 00:00:35,110
+This is reported quarterly and
+everybody can see it as well.
+
+11
+00:00:35,110 --> 00:00:40,550
+It's public, but it points more to the
+root of the value of the company than
+
+12
+00:00:40,550 --> 00:00:41,910
+just the price volume.
+
+13
+00:00:43,320 --> 00:00:47,140
+Exogenous data, that's a fancy name for
+a simple concept.
+
+14
+00:00:47,140 --> 00:00:52,160
+It's just information about
+the world that effects the company.
+
+15
+00:00:52,160 --> 00:00:57,550
+As an example, if we were looking at
+an airline stock, an exogenous piece
+
+16
+00:00:57,550 --> 00:01:01,310
+of data that would effect the price of
+the airline stock is the price of oil.
+
+17
+00:01:01,310 --> 00:01:06,110
+If price of oil goes down,
+usually the price of the airline stock
+
+18
+00:01:06,110 --> 00:01:10,970
+goes up because energy is
+the number one cost for airlines.
+
+19
+00:01:10,970 --> 00:01:14,640
+A very important and
+
+20
+00:01:14,640 --> 00:01:19,980
+secretive type of information
+relates to company insiders.
+
+21
+00:01:19,980 --> 00:01:24,090
+So, let's suppose you're a CEO, and
+
+22
+00:01:24,090 --> 00:01:30,880
+you know that this drug that you've
+invented is about to be improved.
+
+23
+00:01:30,880 --> 00:01:35,390
+You might go buy shares of your
+stock because you think the price of
+
+24
+00:01:35,390 --> 00:01:38,710
+your stock is going to go up because
+that drug is going to be approved.
+
+25
+00:01:40,060 --> 00:01:46,180
+Now, depending on the circumstance
+it may or may not be legal, but this
+
+26
+00:01:46,180 --> 00:01:51,170
+reflects information that you have that
+people outside the company do not have.
+
+27
+00:01:52,550 --> 00:01:57,430
+And so this insider information
+is probably the least accessible
+
+28
+00:01:57,430 --> 00:02:02,200
+of all these types, of course, and of
+most other types of information as well.
+
+29
+00:02:02,200 --> 00:02:05,090
+Now, each of these types of information
+
+30
+00:02:05,090 --> 00:02:08,900
+has a relationship to
+the efficient markets hypothesis.
+
+31
+00:02:08,900 --> 00:02:14,050
+In particular there's three forms of
+the efficient markets hypothesis.
+
+32
+00:02:14,050 --> 00:02:19,040
+And these types of information
+relate to each of these three forms.
+
+33
+00:02:19,040 --> 00:02:20,560
+We'll get in to that in just a second.
+

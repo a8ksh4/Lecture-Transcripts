@@ -1,0 +1,90 @@
+1
+00:00:00,440 --> 00:00:05,510
+The idea for Sharp ratio is
+to consider our return, or
+
+2
+00:00:05,510 --> 00:00:09,390
+our rewards in the context of risk.
+
+3
+00:00:09,390 --> 00:00:11,400
+As we mentioned before,
+
+4
+00:00:11,400 --> 00:00:17,940
+most finance folks consider risk to
+be standard deviation or volatility.
+
+5
+00:00:17,940 --> 00:00:19,080
+We're looking for
+
+6
+00:00:19,080 --> 00:00:24,740
+a measure that essentially
+adjusts a return for that risk.
+
+7
+00:00:24,740 --> 00:00:27,965
+So, here are a couple of examples
+that I want you to think about,
+
+8
+00:00:27,965 --> 00:00:30,460
+and we'll have a little
+quiz associated with it.
+
+9
+00:00:30,460 --> 00:00:34,160
+But we have three example charts here,
+
+10
+00:00:34,160 --> 00:00:37,630
+where we're comparing two
+stocks against one another.
+
+11
+00:00:37,630 --> 00:00:43,120
+So in this first one we've got ABC and
+XYZ and both of them have about
+
+12
+00:00:43,120 --> 00:00:48,550
+the same volatility, except one returns
+a little bit more than the other.
+
+13
+00:00:48,550 --> 00:00:49,760
+In this next question,
+
+14
+00:00:49,760 --> 00:00:55,370
+question two, they both return
+exactly the same amount.
+
+15
+00:00:55,370 --> 00:00:57,610
+But one of them is more
+volatile than the other.
+
+16
+00:00:58,830 --> 00:01:03,560
+And finally,
+we have again these two stocks.
+
+17
+00:01:03,560 --> 00:01:11,710
+One, ABC, returns 11%, XYZ returns 9%,
+but ABC is much more volatile than XYZ.
+
+18
+00:01:11,710 --> 00:01:17,060
+So I want you to think about this and
+mark which portfolio or
+
+19
+00:01:17,060 --> 00:01:20,090
+stock you think is better in
+each one of these examples.
+

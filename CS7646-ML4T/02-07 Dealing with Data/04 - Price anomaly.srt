@@ -1,0 +1,42 @@
+1
+00:00:00,260 --> 00:00:03,750
+So the correct answer is stock split.
+
+2
+00:00:03,750 --> 00:00:07,530
+You might cry foul because I haven't
+told you yet what a stock split is.
+
+3
+00:00:07,530 --> 00:00:10,410
+But don't worry, we're getting there.
+
+4
+00:00:10,410 --> 00:00:14,750
+But just as advance warning,
+here's what it is.
+
+5
+00:00:14,750 --> 00:00:21,410
+What happened on this day is that the
+stock was selling at 300, and if you had
+
+6
+00:00:21,410 --> 00:00:26,760
+one share of the stock on this day, on
+the very next day, you had four shares.
+
+7
+00:00:26,760 --> 00:00:32,549
+So your total value was preserved,
+you still had $300 worth of IBM,
+
+8
+00:00:32,549 --> 00:00:35,970
+just now you had instead of one share,
+you had four shares.
+
+9
+00:00:35,970 --> 00:00:37,270
+That's called a stock split.
+

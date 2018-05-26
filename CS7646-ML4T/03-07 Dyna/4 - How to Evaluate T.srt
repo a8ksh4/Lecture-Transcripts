@@ -1,0 +1,34 @@
+1
+00:00:00,490 --> 00:00:06,752
+Okay, assume now we've been watching our
+interactions with the real world for
+
+2
+00:00:06,752 --> 00:00:10,688
+a while and
+we would like to consult our model of T.
+
+3
+00:00:10,688 --> 00:00:16,160
+I would like for
+you to write an expression for
+
+4
+00:00:16,160 --> 00:00:19,970
+T in terms of Tc or T count.
+
+5
+00:00:19,970 --> 00:00:25,137
+Okay, so
+fill in this text box with your opinion
+
+6
+00:00:25,137 --> 00:00:31,346
+of how we can compute T of s,
+a, s prime in terms of T sub c.
+
+7
+00:00:31,346 --> 00:00:36,950
+And remember T sub c is just the number
+of times each one of these has occurred.
+

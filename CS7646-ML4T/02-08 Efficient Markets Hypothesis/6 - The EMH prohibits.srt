@@ -1,0 +1,42 @@
+1
+00:00:00,400 --> 00:00:04,750
+The weak version prohibits us from
+profiting from technical analysis,
+
+2
+00:00:04,750 --> 00:00:06,570
+because the weak version says that,
+
+3
+00:00:06,570 --> 00:00:09,990
+you can't predict future
+prices from past prices.
+
+4
+00:00:09,990 --> 00:00:12,410
+But the weak version didn't say
+anything about fundamental or
+
+5
+00:00:12,410 --> 00:00:13,665
+insider information.
+
+6
+00:00:13,665 --> 00:00:20,920
+Semi-strong prohibits technical
+analysis, also fundamental.
+
+7
+00:00:22,070 --> 00:00:24,880
+But it's silent on insider.
+
+8
+00:00:24,880 --> 00:00:27,460
+And finally the strong
+versions says that,
+
+9
+00:00:27,460 --> 00:00:30,100
+you can't profit from any
+of those three types.
+

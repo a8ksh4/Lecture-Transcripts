@@ -1,0 +1,156 @@
+1
+00:00:00,180 --> 00:00:03,020
+Suppose now that instead of
+just looking at one stock,
+
+2
+00:00:03,020 --> 00:00:04,870
+you want to think about a portfolio.
+
+3
+00:00:04,870 --> 00:00:08,280
+And remember that a portfolio is
+defined by the various weights
+
+4
+00:00:08,280 --> 00:00:12,350
+that indicate how much of your funds
+you've allocated to each stock.
+
+5
+00:00:12,350 --> 00:00:16,390
+So recall that for
+an individual stock, i,
+
+6
+00:00:16,390 --> 00:00:20,850
+it's return on any particular day is
+Bi times return on the market for
+
+7
+00:00:20,850 --> 00:00:25,290
+that day plus alpha for
+that particular day.
+
+8
+00:00:25,290 --> 00:00:30,430
+So, to compute the return for the entire
+portfolio, we compute this return for
+
+9
+00:00:30,430 --> 00:00:34,970
+each individual stock, multiply it
+by the weight for that stock and
+
+10
+00:00:34,970 --> 00:00:37,790
+then we take the sum
+across all the stocks.
+
+11
+00:00:37,790 --> 00:00:40,730
+And that's what we get for
+the entire portfolio.
+
+12
+00:00:40,730 --> 00:00:44,410
+Now if you note we can
+calculate beta for
+
+13
+00:00:44,410 --> 00:00:49,290
+the entire portfolio
+simply by doing this.
+
+14
+00:00:49,290 --> 00:00:52,990
+Beta for the overall portfolio
+is simply a weighted sum
+
+15
+00:00:52,990 --> 00:00:55,190
+of the individual betas for
+each of the stocks.
+
+16
+00:00:56,360 --> 00:01:00,190
+So the capital assets pricing model
+tells us that we can simplify
+
+17
+00:01:00,190 --> 00:01:04,970
+the expected overall return for
+a portfolio by computing a beta for
+
+18
+00:01:04,970 --> 00:01:09,030
+that portfolio, multiplying it
+by the return on the market and
+
+19
+00:01:09,030 --> 00:01:10,080
+then there's some alpha.
+
+20
+00:01:10,080 --> 00:01:13,770
+So that alpha is composed
+of multiple example.
+
+21
+00:01:13,770 --> 00:01:18,300
+So this alpha, remember capital assets
+pricing models says that all of these
+
+22
+00:01:18,300 --> 00:01:22,260
+are on average going to be zero, so we
+don't need to bother necessarily adding
+
+23
+00:01:22,260 --> 00:01:25,250
+them up, we can just approximate
+it by an overall portfolio alpha.
+
+24
+00:01:26,610 --> 00:01:31,720
+So again, this is what the CAPM tells us
+we can expect on any particular day, and
+
+25
+00:01:31,720 --> 00:01:36,380
+again, CAPM asserts that this
+alpha is random with mean 0.
+
+26
+00:01:36,380 --> 00:01:41,140
+The active portfolio manager will say,
+okay, yes,
+
+27
+00:01:41,140 --> 00:01:47,860
+I agree that the beta component is
+the same as CAPM at pricing model says.
+
+28
+00:01:47,860 --> 00:01:51,940
+But I think I can find
+value in this alpha and
+
+29
+00:01:51,940 --> 00:01:54,080
+it needs to be broken out individually.
+
+30
+00:01:54,080 --> 00:01:57,510
+So the active portfolio manager
+is going to have this formulation
+
+31
+00:01:57,510 --> 00:02:01,980
+of what they could expect in return
+each day compared to the CAPM,
+
+32
+00:02:01,980 --> 00:02:03,070
+which is a little bit simpler.
+

@@ -1,0 +1,48 @@
+1
+00:00:00,230 --> 00:00:05,689
+Let's consider now a similar question,
+but now we're using parametric models,
+
+2
+00:00:05,689 --> 00:00:08,854
+a polynomial model of degree d.
+
+3
+00:00:08,854 --> 00:00:13,580
+Real quick, here's what we mean
+when we say polynomial of degree d.
+
+4
+00:00:13,580 --> 00:00:17,832
+So here's what our
+polynomial model looks like,
+
+5
+00:00:17,832 --> 00:00:23,415
+it's m1 times x, m2 times x squared,
+m3 times x cubed plus b.
+
+6
+00:00:23,415 --> 00:00:28,964
+This is a third order polynomial,
+or a polynomial of degree d so
+
+7
+00:00:28,964 --> 00:00:33,152
+I want you to consider d=1, d=2, d=3 and
+
+8
+00:00:33,152 --> 00:00:39,480
+I want you to select which model
+over here goes with that degree.
+
+9
+00:00:39,480 --> 00:00:41,130
+Then I want you to
+consider this question.
+
+10
+00:00:41,130 --> 00:00:45,160
+True or false, as we increase d
+we are more likely to overfit.
+

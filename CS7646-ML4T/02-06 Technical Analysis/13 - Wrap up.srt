@@ -1,0 +1,59 @@
+1
+00:00:00,380 --> 00:00:02,950
+Let's wrap up technical analysis now.
+
+2
+00:00:02,950 --> 00:00:07,840
+So to review, technical indicators
+are really heuristics that represent
+
+3
+00:00:07,840 --> 00:00:12,870
+someone's interpretation or
+hunch of how a statistical approach to
+
+4
+00:00:12,870 --> 00:00:17,730
+previous prices and volume might
+suggest future price movement.
+
+5
+00:00:17,730 --> 00:00:22,620
+The particular examples that I've
+provided here are my approach.
+
+6
+00:00:22,620 --> 00:00:27,340
+So if you go look up, for instance,
+on John Bollinger's website how to use
+
+7
+00:00:27,340 --> 00:00:30,670
+Bollinger Bands, you might discover
+his approach is slightly different.
+
+8
+00:00:31,770 --> 00:00:36,870
+I showed you specifically how I have
+found them to be useful in the past.
+
+9
+00:00:36,870 --> 00:00:40,910
+Finally, lots of times when people get
+exposed to technical analysis they get
+
+10
+00:00:40,910 --> 00:00:43,990
+really excited and
+they want to run off and start trading.
+
+11
+00:00:43,990 --> 00:00:46,475
+Well, hold your horses,
+there's a lot more to learn.
+
+12
+00:00:46,475 --> 00:00:48,700
+So stick with it, and
+we'll see you in the next lesson.
+

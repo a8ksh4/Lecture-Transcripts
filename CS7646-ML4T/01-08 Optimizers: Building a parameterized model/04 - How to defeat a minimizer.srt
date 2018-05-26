@@ -1,0 +1,47 @@
+1
+00:00:00,230 --> 00:00:03,580
+Now that you know how minimizers or
+optimizers work,
+
+2
+00:00:03,580 --> 00:00:06,740
+think a little bit about what
+might be hard for them to solve.
+
+3
+00:00:07,860 --> 00:00:12,700
+So I'm going to show you four
+example function shapes.
+
+4
+00:00:12,700 --> 00:00:16,290
+And I want you to consider whether
+these would be hard or easy for
+
+5
+00:00:16,290 --> 00:00:18,180
+the minimizer to solve.
+
+6
+00:00:18,180 --> 00:00:20,230
+Here are four function
+shapes to look at.
+
+7
+00:00:21,730 --> 00:00:26,330
+If you think that one would be hard for
+the minimizer we just talked about,
+
+8
+00:00:27,810 --> 00:00:30,500
+check the box next to it,
+and tell us why.
+
+9
+00:00:30,500 --> 00:00:32,810
+Type out a reason in the text box.
+
+10
+00:00:33,960 --> 00:00:34,700
+All right, have at it.
+

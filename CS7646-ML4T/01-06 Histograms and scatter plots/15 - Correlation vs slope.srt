@@ -1,0 +1,27 @@
+1
+00:00:00,530 --> 00:00:02,520
+This is the correct answer.
+
+2
+00:00:02,520 --> 00:00:06,360
+It's got higher beta because
+the slope is higher and
+
+3
+00:00:06,360 --> 00:00:10,990
+higher correlation because the dots
+are closer to the line that fits it.
+
+4
+00:00:10,990 --> 00:00:14,980
+Now, Dave is going to show you
+how to create scatter plots and
+
+5
+00:00:14,980 --> 00:00:17,620
+make these measurements in Python.
+
+6
+00:00:17,620 --> 00:00:18,390
+Here's to you, Dave.
+

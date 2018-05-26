@@ -1,0 +1,97 @@
+1
+00:00:00,500 --> 00:00:04,150
+Now, how does NumPy relate to Pandas?
+
+2
+00:00:04,150 --> 00:00:08,600
+Well, I said just a moment ago that
+NumPy is a wrapper for numerical
+
+3
+00:00:08,600 --> 00:00:14,710
+libraries, well it turns out that
+Pandas is a kind of wrapper for NumPy.
+
+4
+00:00:14,710 --> 00:00:19,090
+So remember our traditional data frame
+here, with our columns being symbols and
+
+5
+00:00:19,090 --> 00:00:20,660
+our rows being dates.
+
+6
+00:00:20,660 --> 00:00:25,800
+This data frame is just
+a wrapper around this ndarray,
+
+7
+00:00:25,800 --> 00:00:29,730
+access the columns with symbols and
+the rows by dates.
+
+8
+00:00:29,730 --> 00:00:35,337
+But you can, in fact, just treat this
+inside part as an ndarray directly.
+
+9
+00:00:36,400 --> 00:00:41,976
+If you use this syntax in Python,
+that pulls these values out and
+
+10
+00:00:41,976 --> 00:00:46,014
+lets you access it directly and
+then ndarray.
+
+11
+00:00:46,014 --> 00:00:50,299
+You don't really need to do that though,
+you can,
+
+12
+00:00:50,299 --> 00:00:55,200
+if you like, treat a data frame
+just like a NumPy ndarray.
+
+13
+00:00:55,200 --> 00:00:57,760
+And so we're going to assume
+in the rest of this lesson
+
+14
+00:00:57,760 --> 00:01:00,310
+that we're just working with an ndarray.
+
+15
+00:01:00,310 --> 00:01:04,300
+And like I said, you can use all of
+these mechanisms that we're going to
+
+16
+00:01:04,300 --> 00:01:09,100
+show you with ndarrays and
+with data frames directly.
+
+17
+00:01:09,100 --> 00:01:13,890
+What you get if you create something
+as a data frame, as we'll see in
+
+18
+00:01:13,890 --> 00:01:17,786
+a lesson a little bit later,
+you get many, many, many more routines.
+
+19
+00:01:17,786 --> 00:01:20,540
+And you can treat it, like I said,
+just like an ndarray but
+
+20
+00:01:20,540 --> 00:01:25,980
+you get a vast new number of
+statistical functions and so on.
+

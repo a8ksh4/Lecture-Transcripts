@@ -1,0 +1,50 @@
+1
+00:00:00,390 --> 00:00:03,560
+Remember that technical
+factors use only price or
+
+2
+00:00:03,560 --> 00:00:08,310
+volume, whereas fundamental
+factors use other components.
+
+3
+00:00:08,310 --> 00:00:13,650
+So moving average of price is only
+using price, so that one's technical.
+
+4
+00:00:15,310 --> 00:00:19,210
+Percent change in volume is only
+using volume and that's allowed for
+
+5
+00:00:19,210 --> 00:00:21,590
+technical factors, so
+that one's technical.
+
+6
+00:00:22,830 --> 00:00:26,450
+This one is using price,
+yes that's technical, but
+
+7
+00:00:26,450 --> 00:00:29,170
+it's also using earnings which
+is a fundamental factor, so
+
+8
+00:00:29,170 --> 00:00:32,110
+that makes this whole thing
+a fundamental factor.
+
+9
+00:00:33,480 --> 00:00:38,010
+So over here intrinsic value
+is based on dividends,
+
+10
+00:00:38,010 --> 00:00:40,960
+which is a fundamental, so
+this one is a fundamental indicator.
+

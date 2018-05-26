@@ -1,0 +1,111 @@
+1
+00:00:00,840 --> 00:00:03,780
+Note how we calculated the rolling mean.
+
+2
+00:00:03,780 --> 00:00:08,050
+The rolling standard deviation can
+be computed in a very similar way.
+
+3
+00:00:08,050 --> 00:00:13,520
+Pandas provide a function called
+rolling_std to do this job.
+
+4
+00:00:13,520 --> 00:00:17,093
+We simply pass in the values and
+the window size.
+
+5
+00:00:17,093 --> 00:00:19,392
+Now, onto Bollinger bands.
+
+6
+00:00:19,392 --> 00:00:24,477
+Recall that upper bound is two standard
+deviation above the rolling mean.
+
+7
+00:00:24,477 --> 00:00:26,613
+Let's type this in our code.
+
+8
+00:00:26,613 --> 00:00:31,265
+Here, we add 2 times the value of
+the rolling standard deviation to
+
+9
+00:00:31,265 --> 00:00:32,580
+the rolling mean.
+
+10
+00:00:32,580 --> 00:00:36,388
+Though the mean and the standard
+deviation values are in the form of
+
+11
+00:00:36,388 --> 00:00:38,641
+CD's, the mathematics still works.
+
+12
+00:00:38,641 --> 00:00:42,273
+It is similar to the arithmetic
+operation on numpy arrays,
+
+13
+00:00:42,273 --> 00:00:44,197
+which is done element-wise.
+
+14
+00:00:44,197 --> 00:00:48,220
+Next, let's calculate
+lower_band in a similar way.
+
+15
+00:00:48,220 --> 00:00:52,730
+Here, I subtracted 2 times the rolling
+standard deviation values from
+
+16
+00:00:52,730 --> 00:00:54,220
+the rolling mean.
+
+17
+00:00:54,220 --> 00:00:57,760
+Note that will return the values for
+the two bands together.
+
+18
+00:00:57,760 --> 00:01:00,807
+These are received back when
+the function is called.
+
+19
+00:01:00,807 --> 00:01:04,545
+Let's see if a function computes
+Bollinger bands correctly.
+
+20
+00:01:04,545 --> 00:01:06,280
+Looks good to me.
+
+21
+00:01:06,280 --> 00:01:09,150
+Observe the selling and
+the buying points.
+
+22
+00:01:09,150 --> 00:01:13,090
+You can play with the window size and
+see how the bands change.
+
+23
+00:01:13,090 --> 00:01:16,380
+You could also try computing
+bands at different deviation
+
+24
+00:01:16,380 --> 00:01:17,480
+away from the rolling mean.
+

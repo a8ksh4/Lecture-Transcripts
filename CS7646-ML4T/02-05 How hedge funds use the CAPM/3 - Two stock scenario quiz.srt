@@ -1,0 +1,29 @@
+1
+00:00:00,470 --> 00:00:02,784
+I'd like you to consider
+another scenario now.
+
+2
+00:00:02,784 --> 00:00:08,069
+Instead of the market staying flat,
+what if the market goes up 10%?
+
+3
+00:00:08,069 --> 00:00:12,697
+I want you, for stock A and
+stock B, to compute the expected
+
+4
+00:00:12,697 --> 00:00:17,337
+return pecentage-wise and
+then also in terms of dollars.
+
+5
+00:00:17,337 --> 00:00:22,334
+And then compute the total for both down
+here at the bottom or, in other words,
+
+6
+00:00:22,334 --> 00:00:24,845
+what's the return on your portfolio.
+

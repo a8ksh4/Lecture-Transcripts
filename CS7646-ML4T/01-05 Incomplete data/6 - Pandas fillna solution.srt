@@ -1,0 +1,14 @@
+1
+00:00:00,330 --> 00:00:01,930
+So here's the answer.
+
+2
+00:00:01,930 --> 00:00:08,500
+In order to fill forward missing values
+we need to specify the method ffill.
+
+3
+00:00:08,500 --> 00:00:14,000
+Note that the method value is a string,
+so it has to be enclosed in quotes.
+

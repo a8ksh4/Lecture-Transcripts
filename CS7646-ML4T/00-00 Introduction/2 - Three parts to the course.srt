@@ -1,0 +1,99 @@
+1
+00:00:00,200 --> 00:00:03,790
+The overall course is broken
+into three mini courses.
+
+2
+00:00:03,790 --> 00:00:07,520
+>> The first one is
+Manipulating Financial Data in Python.
+
+3
+00:00:07,520 --> 00:00:10,710
+>> In this first mini course, we show
+you how to read historical financial
+
+4
+00:00:10,710 --> 00:00:15,120
+data into Python and manipulate it
+using powerful statistical algorithms.
+
+5
+00:00:15,120 --> 00:00:17,830
+>> The second one is
+Computational Investing.
+
+6
+00:00:17,830 --> 00:00:21,220
+>> In the second mini course,
+we show you the algorithms, methods and
+
+7
+00:00:21,220 --> 00:00:25,330
+models used by hedge funds and
+investment banks to manipulate and
+
+8
+00:00:25,330 --> 00:00:26,610
+work with financial data.
+
+9
+00:00:26,610 --> 00:00:29,720
+>> And the last one is
+Learning Algorithms for Trading.
+
+10
+00:00:29,720 --> 00:00:32,700
+>> In this last mini course,
+we pull everything together.
+
+11
+00:00:32,700 --> 00:00:35,730
+We take what you learned in the first
+two mini courses, show you how to take
+
+12
+00:00:35,730 --> 00:00:40,360
+that data and use it with machine
+learning algorithms like Q learning and
+
+13
+00:00:40,360 --> 00:00:43,130
+random forests to build
+trading algorithms.
+
+14
+00:00:43,130 --> 00:00:46,970
+Now, our goal is that after you complete
+this course you'll be equipped to
+
+15
+00:00:46,970 --> 00:00:48,820
+join a trading system development team.
+
+16
+00:00:48,820 --> 00:00:51,190
+Say a hedge fund or an investment bank.
+
+17
+00:00:51,190 --> 00:00:55,872
+But I want to emphasize that you
+shouldn't immediately begin automatic
+
+18
+00:00:55,872 --> 00:00:57,000
+trading.
+
+19
+00:00:57,000 --> 00:00:59,820
+This course is just a starting point to
+teach you some of the things that you
+
+20
+00:00:59,820 --> 00:01:01,250
+need to do that well.
+
+21
+00:01:01,250 --> 00:01:02,730
+But, again, it's just a starting point.
+

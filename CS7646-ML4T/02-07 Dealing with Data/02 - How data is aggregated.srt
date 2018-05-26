@@ -1,0 +1,303 @@
+1
+00:00:00,310 --> 00:00:05,280
+Our first step in considering data is
+to think about how it's aggregated.
+
+2
+00:00:05,280 --> 00:00:07,310
+In other words, imagine that many,
+
+3
+00:00:07,310 --> 00:00:10,950
+many trades are happening
+on different exchanges.
+
+4
+00:00:10,950 --> 00:00:14,590
+How is all that data combined and
+how is is reported back to us so
+
+5
+00:00:14,590 --> 00:00:16,890
+that we can analyze it and use it.
+
+6
+00:00:16,890 --> 00:00:20,710
+The finest resolution of
+data is called a tick.
+
+7
+00:00:20,710 --> 00:00:26,780
+A tick represents a successful by cell
+match or a successful transaction.
+
+8
+00:00:26,780 --> 00:00:30,450
+So let's suppose that this time
+there's a successful transaction $100
+
+9
+00:00:30,450 --> 00:00:34,430
+was the price and 200 was the volume.
+
+10
+00:00:34,430 --> 00:00:37,430
+So we record that here
+with a single point.
+
+11
+00:00:37,430 --> 00:00:41,480
+A little bit later there was another
+transaction 9905, a 100 shares.
+
+12
+00:00:43,500 --> 00:00:48,840
+Now, something to keep in mind is
+each of these transactions happens at
+
+13
+00:00:48,840 --> 00:00:50,210
+no specific time.
+
+14
+00:00:50,210 --> 00:00:54,270
+It happens only when the buy and
+sell are matched.
+
+15
+00:00:54,270 --> 00:00:57,090
+So there's no guarantee
+that there's going to be
+
+16
+00:00:57,090 --> 00:01:00,750
+a trade in any particular minute or
+any particular hour.
+
+17
+00:01:00,750 --> 00:01:03,280
+It just happens when it happens.
+
+18
+00:01:03,280 --> 00:01:08,540
+Each exchange provides its own data
+feed regarding these transactions.
+
+19
+00:01:08,540 --> 00:01:11,070
+So you can subscribe to these feeds and
+
+20
+00:01:11,070 --> 00:01:15,650
+see at each tick when a transaction
+happens on any particular exchange.
+
+21
+00:01:15,650 --> 00:01:18,290
+So I've added some red
+dots here that represent
+
+22
+00:01:18,290 --> 00:01:21,920
+transactions that might be
+happening on another exchange.
+
+23
+00:01:21,920 --> 00:01:23,990
+Note that the prices
+are a little bit different,
+
+24
+00:01:23,990 --> 00:01:26,160
+the volumes of course
+might be different.
+
+25
+00:01:26,160 --> 00:01:28,840
+All of this happening simultaneously and
+
+26
+00:01:28,840 --> 00:01:32,030
+the prices of different exchanges aren't
+guaranteed to be exactly the same.
+
+27
+00:01:33,070 --> 00:01:37,700
+Now for highly liquid stocks,
+there may be hundreds or
+
+28
+00:01:37,700 --> 00:01:43,160
+thousands or hundreds of thousands of
+transactions like these every second.
+
+29
+00:01:43,160 --> 00:01:47,740
+Collecting and using all these ticks for
+all the exchanges over a long period of
+
+30
+00:01:47,740 --> 00:01:53,600
+time would result in a lot of data,
+and it becomes very complex.
+
+31
+00:01:53,600 --> 00:01:59,100
+Tick data is usually consolidated into
+minute by minute or hour by hour chunks.
+
+32
+00:01:59,100 --> 00:02:01,100
+So I've drawn some boundaries here.
+
+33
+00:02:01,100 --> 00:02:04,100
+Let's suppose those
+are minute boundaries, and
+
+34
+00:02:04,100 --> 00:02:08,229
+we collect all the data together
+within each minute, and
+
+35
+00:02:08,229 --> 00:02:12,490
+represent it as open, high,
+low, close and volume.
+
+36
+00:02:12,490 --> 00:02:17,250
+So the open is the first
+transaction within the time period.
+
+37
+00:02:17,250 --> 00:02:21,020
+So we came in here,
+we had a transaction at 100, so
+
+38
+00:02:21,020 --> 00:02:25,620
+our open value is 100
+within this time period.
+
+39
+00:02:25,620 --> 00:02:28,656
+High, well you look at
+the entire time period and
+
+40
+00:02:28,656 --> 00:02:30,890
+you see what was the highest price.
+
+41
+00:02:30,890 --> 00:02:33,600
+The highest price here was also 100.
+
+42
+00:02:33,600 --> 00:02:41,220
+Low was 99.05, close is the last
+transaction and that was 95.50.
+
+43
+00:02:41,220 --> 00:02:44,380
+And volume is just the total
+volume during that time period.
+
+44
+00:02:44,380 --> 00:02:49,130
+So it's 200 plus 100 plus 300,
+so 600 shares.
+
+45
+00:02:49,130 --> 00:02:52,600
+So for this minute of time
+we've consolidated all that
+
+46
+00:02:52,600 --> 00:02:56,730
+information into open, high,
+low, close, and volume.
+
+47
+00:02:56,730 --> 00:03:00,280
+Similarly we go to the next minute and
+consolidate it in the same way.
+
+48
+00:03:01,680 --> 00:03:07,520
+So in this next minute our open was 99,
+our close 99.95,
+
+49
+00:03:07,520 --> 00:03:12,600
+low is 99, high was 99.95 and
+our volume was 300.
+
+50
+00:03:12,600 --> 00:03:16,560
+And we will continue throughout
+the day to consolidate the data at
+
+51
+00:03:16,560 --> 00:03:18,420
+each minute like this.
+
+52
+00:03:18,420 --> 00:03:22,450
+And depending on your data feed,
+this might be the result say,
+
+53
+00:03:22,450 --> 00:03:26,090
+for one exchange or it might be
+combined across multiple exchanges.
+
+54
+00:03:27,180 --> 00:03:31,980
+In this course,
+these time boundaries are in days.
+
+55
+00:03:31,980 --> 00:03:34,920
+So the data we'll be
+working with is daily data.
+
+56
+00:03:34,920 --> 00:03:39,950
+And so we'll be looking at what is the
+data at the end of the day for each day.
+
+57
+00:03:39,950 --> 00:03:42,150
+Now, all of the concepts
+that we teach here,
+
+58
+00:03:42,150 --> 00:03:46,020
+you can just as easily apply
+at smaller time periods.
+
+59
+00:03:46,020 --> 00:03:51,150
+It just requires more computing,
+faster computing, more and
+
+60
+00:03:51,150 --> 00:03:53,830
+larger databases, and so on.
+
+61
+00:03:53,830 --> 00:03:56,527
+So that's why we look at
+daily data in this course,
+
+62
+00:03:56,527 --> 00:03:59,050
+is there's a little bit
+less data to work with.
+
+63
+00:03:59,050 --> 00:04:02,020
+It's easier for you to download and
+work with and so on.
+

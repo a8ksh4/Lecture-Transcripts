@@ -1,0 +1,23 @@
+1
+00:00:00,420 --> 00:00:02,435
+The answer is $1000.
+
+2
+00:00:02,435 --> 00:00:05,780
+For each $1 the stock drops in price,
+
+3
+00:00:05,780 --> 00:00:10,890
+you make $100 because
+you've got 100 shares.
+
+4
+00:00:10,890 --> 00:00:14,520
+So altogether,
+the stock dropped in price $10,
+
+5
+00:00:14,520 --> 00:00:19,639
+you had 100 shares so
+your net return is $1000.
+

@@ -1,0 +1,211 @@
+1
+00:00:00,320 --> 00:00:03,990
+As an illustration of how
+hedge funds use CAPM,
+
+2
+00:00:03,990 --> 00:00:06,240
+let's consider a two stock scenario.
+
+3
+00:00:06,240 --> 00:00:10,230
+So our hedge fund has done some research
+maybe they've used machine learning,
+
+4
+00:00:10,230 --> 00:00:14,110
+maybe they've used some other method or
+maybe they've just thought very hard and
+
+5
+00:00:14,110 --> 00:00:16,750
+for whatever reason
+they predict that stock
+
+6
+00:00:16,750 --> 00:00:22,340
+A is going to go up 1% over
+the market in the next ten days.
+
+7
+00:00:22,340 --> 00:00:26,739
+And they've looked backwards in history
+and observed that the beta for stock A,
+
+8
+00:00:26,739 --> 00:00:28,883
+with regard to the market, is 1.0.
+
+9
+00:00:28,883 --> 00:00:31,624
+So plus 1% beta of 1.0.
+
+10
+00:00:31,624 --> 00:00:36,361
+They've looked at another stock, B,
+which they predict to go down 1%
+
+11
+00:00:36,361 --> 00:00:40,680
+whichever way the market goes,
+it'll go 1% below it.
+
+12
+00:00:40,680 --> 00:00:43,260
+And the beta for stock B is 2.0.
+
+13
+00:00:43,260 --> 00:00:48,560
+So this introduces for the first time
+this idea of a long short portfolio.
+
+14
+00:00:48,560 --> 00:00:53,130
+In other words, we think that stock A's
+going to go up, so we should long it.
+
+15
+00:00:53,130 --> 00:00:55,660
+And we think stock B's going to go down,
+so we should short it.
+
+16
+00:00:55,660 --> 00:01:00,810
+And there's some strong advantages
+to this long short approach that'll
+
+17
+00:01:00,810 --> 00:01:03,670
+begin to emerge as we
+go through this lesson.
+
+18
+00:01:03,670 --> 00:01:06,160
+So we're going to talk
+a look at a couple scenarios
+
+19
+00:01:06,160 --> 00:01:11,180
+with these two stocks to see how we
+should best allocate between the two.
+
+20
+00:01:11,180 --> 00:01:14,310
+So looking back,
+this is what the S&P 500 has been doing.
+
+21
+00:01:15,430 --> 00:01:17,500
+Remember stock A has a beta of one,
+
+22
+00:01:17,500 --> 00:01:21,720
+so it follows what the S&P
+500 does pretty closely.
+
+23
+00:01:21,720 --> 00:01:25,800
+Stock B, on the other hand, has this
+beta of greater than one, or two.
+
+24
+00:01:25,800 --> 00:01:29,270
+And so it's reacting much
+more wildly than stock A.
+
+25
+00:01:29,270 --> 00:01:30,960
+Here's our first scenario.
+
+26
+00:01:30,960 --> 00:01:36,260
+Let's assume the market stays flat,
+in other words it returns 0% over
+
+27
+00:01:36,260 --> 00:01:41,140
+these following ten days, and that we
+enter our positions as of this day and
+
+28
+00:01:41,140 --> 00:01:46,158
+our positions are going to be
+a $50 long position in stock A and
+
+29
+00:01:46,158 --> 00:01:50,230
+a $50 short position in stock B.
+
+30
+00:01:50,230 --> 00:01:54,100
+Now assume going forward also
+that our predictions are perfect.
+
+31
+00:01:54,100 --> 00:01:59,230
+That A goes up 1% over the market and
+B goes down 1% below the market.
+
+32
+00:01:59,230 --> 00:02:00,020
+What will happen?
+
+33
+00:02:01,050 --> 00:02:05,035
+Well, if our predictions were perfect,
+stock B should go down
+
+34
+00:02:05,035 --> 00:02:09,680
+1% below the market, and stock
+A should go up 1% above the market.
+
+35
+00:02:09,680 --> 00:02:13,630
+What does that mean in terms of how
+much money we would see returned?
+
+36
+00:02:13,630 --> 00:02:18,380
+So if we look at stock A, and remember
+we're using the CAPM, we should expect
+
+37
+00:02:18,380 --> 00:02:24,640
+to see the return for A as beta of
+A times return on the market plus alpha.
+
+38
+00:02:25,640 --> 00:02:30,980
+So, the market didn't move at all so
+this gets nullified so alpha for
+
+39
+00:02:30,980 --> 00:02:36,325
+A is one percent and we invested
+$50 in that so our return is $0.50.
+
+40
+00:02:37,540 --> 00:02:43,270
+Similarly for B, this element is
+removed because our return was zero and
+
+41
+00:02:43,270 --> 00:02:45,600
+all we're left with is alpha.
+
+42
+00:02:45,600 --> 00:02:48,960
+Now essentially our alpha
+here was negative and
+
+43
+00:02:48,960 --> 00:02:53,544
+we made a negative bet,
+so our return is 0.5 or
+
+44
+00:02:53,544 --> 00:02:58,520
+altogether $1.0 or 1% for
+our total investment.
+

@@ -1,0 +1,29 @@
+1
+00:00:00,630 --> 00:00:04,660
+Note that we use two steps for
+combining the data frames.
+
+2
+00:00:04,660 --> 00:00:09,450
+That is left joining the empty
+data frame with dfSPY, and
+
+3
+00:00:09,450 --> 00:00:13,590
+then dropping the rows
+that SPY did not trade on.
+
+4
+00:00:13,590 --> 00:00:19,180
+This can be done in a single step using
+the how argument when calling join.
+
+5
+00:00:19,180 --> 00:00:23,770
+Can you figure out what the appropriate
+value of how should be?
+
+6
+00:00:23,770 --> 00:00:24,720
+Type it in the box.
+

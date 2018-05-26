@@ -1,0 +1,50 @@
+1
+00:00:00,180 --> 00:00:02,009
+Time for some coding quiz.
+
+2
+00:00:02,009 --> 00:00:02,630
+Okay.
+
+3
+00:00:02,630 --> 00:00:05,340
+Here's some code to read in our data for
+
+4
+00:00:05,340 --> 00:00:09,730
+multiple symbols during
+a specified period of time.
+
+5
+00:00:09,730 --> 00:00:15,010
+If you go ahead and plot this,
+you see where we have data missing for
+
+6
+00:00:15,010 --> 00:00:18,170
+JAVA, FAKE1, and FAKE2.
+
+7
+00:00:18,170 --> 00:00:22,200
+Your task is to fill these gaps
+using the filimon method and
+
+8
+00:00:22,200 --> 00:00:25,400
+yes, it can work for
+multiple stocks or in that case,
+
+9
+00:00:25,400 --> 00:00:27,880
+multiple columns of the data
+frame simultaneously.
+
+10
+00:00:27,880 --> 00:00:33,050
+You can refer to the documentation and
+the previous example if you need a que.
+
+11
+00:00:33,050 --> 00:00:33,550
+Good luck.
+

@@ -1,0 +1,29 @@
+1
+00:00:00,200 --> 00:00:04,410
+Now we've shown you how to
+address slices of ND arrays.
+
+2
+00:00:04,410 --> 00:00:08,029
+We're going to give you a little quiz
+to see if you can figure something out.
+
+3
+00:00:08,029 --> 00:00:10,808
+Suppose we have these two ND arrays,
+nd1 and nd2.
+
+4
+00:00:10,808 --> 00:00:15,340
+And we want to replace
+some of the values in nd1,
+
+5
+00:00:15,340 --> 00:00:17,950
+with these values from nd2.
+
+6
+00:00:17,950 --> 00:00:22,750
+Here are four alternatives, see which
+one you think makes the most sense.
+

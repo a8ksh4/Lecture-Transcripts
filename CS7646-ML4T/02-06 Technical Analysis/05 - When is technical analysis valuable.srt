@@ -1,0 +1,126 @@
+1
+00:00:00,260 --> 00:00:03,910
+So over the last few years I've been
+using technical analysis a lot.
+
+2
+00:00:03,910 --> 00:00:07,650
+I've also been using
+fundamental analysis.
+
+3
+00:00:07,650 --> 00:00:12,720
+And people often ask me well, you know,
+when is one valuable versus the other.
+
+4
+00:00:13,730 --> 00:00:17,920
+Let's look first at technical
+analysis and where it's effective.
+
+5
+00:00:17,920 --> 00:00:20,070
+Here's some rules of
+thumb that I've built for
+
+6
+00:00:20,070 --> 00:00:22,290
+myself over the last few years.
+
+7
+00:00:22,290 --> 00:00:28,260
+First is individual indicators,
+by themselves, are weakly predictive.
+
+8
+00:00:28,260 --> 00:00:29,720
+Now back in the 80's and
+
+9
+00:00:29,720 --> 00:00:34,230
+90s when some of these were creative,
+I believe they had stronger value.
+
+10
+00:00:34,230 --> 00:00:37,750
+But since that time, more and more
+people have been trading according to
+
+11
+00:00:37,750 --> 00:00:42,030
+them, and essentially the more people
+who are following a particular approach,
+
+12
+00:00:42,030 --> 00:00:46,380
+the less value is realized
+by any person by themselves.
+
+13
+00:00:46,380 --> 00:00:49,000
+So individual indicators are weak.
+
+14
+00:00:49,000 --> 00:00:52,850
+However, combining multiple
+indicators adds value.
+
+15
+00:00:52,850 --> 00:00:56,837
+I see over and over again that
+combinations of three to five different
+
+16
+00:00:56,837 --> 00:01:00,890
+indicators, in a machine learning
+context, provide a much stronger
+
+17
+00:01:00,890 --> 00:01:05,120
+predictive system than just
+an individual indicator.
+
+18
+00:01:05,120 --> 00:01:08,050
+Another useful approach is to look for
+contrasts.
+
+19
+00:01:08,050 --> 00:01:12,100
+In other words, look for one stock that
+has a strongly different indicator
+
+20
+00:01:12,100 --> 00:01:17,030
+than another stock, or a stock
+that is contrasting to the market.
+
+21
+00:01:18,080 --> 00:01:22,500
+In other words, if all stocks are
+behaving in the same way as the market,
+
+22
+00:01:22,500 --> 00:01:24,780
+there's no reason to pick any
+one stock over another, but
+
+23
+00:01:24,780 --> 00:01:27,630
+if you see certain stocks
+are behaving differently
+
+24
+00:01:28,770 --> 00:01:31,400
+than the market then they
+are worth a further look.
+
+25
+00:01:31,400 --> 00:01:34,230
+Finally, technical analysis generally
+
+26
+00:01:34,230 --> 00:01:37,440
+works better over shorter time
+periods than longer time periods.
+

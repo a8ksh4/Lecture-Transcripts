@@ -1,0 +1,99 @@
+1
+00:00:00,390 --> 00:00:02,110
+Most of these are hard.
+
+2
+00:00:02,110 --> 00:00:02,910
+This one's hard.
+
+3
+00:00:03,990 --> 00:00:09,120
+This one's hard, and this one,
+and let me explain why.
+
+4
+00:00:09,120 --> 00:00:12,900
+This one is hard because of
+this flat area here and here.
+
+5
+00:00:12,900 --> 00:00:17,965
+Suppose the minimizer tested this point
+here and then tried on either side.
+
+6
+00:00:17,965 --> 00:00:20,500
+It wouldn't be able to find
+any gradient to follow, so,
+
+7
+00:00:20,500 --> 00:00:21,870
+it wouldn't know which direction to go.
+
+8
+00:00:23,930 --> 00:00:27,700
+This one is difficult for
+at least two reasons.
+
+9
+00:00:27,700 --> 00:00:35,350
+One is it has several local minima that
+aren't necessarily the global minima.
+
+10
+00:00:35,350 --> 00:00:40,250
+So, it might iterate and
+find, say, this as a minima.
+
+11
+00:00:40,250 --> 00:00:45,755
+But notice that actually there's this
+other two that are actually smaller.
+
+12
+00:00:45,755 --> 00:00:50,102
+And then if these two have
+exactly the same value,
+
+13
+00:00:50,102 --> 00:00:53,680
+turns out we have two global minima.
+
+14
+00:00:53,680 --> 00:00:58,290
+So, those sorts of conditions are tough
+for these minimizers to solve.
+
+15
+00:00:59,640 --> 00:01:02,500
+This one is challenging A,
+
+16
+00:01:02,500 --> 00:01:07,680
+because of this flat area, but
+also because of this discontinuity.
+
+17
+00:01:07,680 --> 00:01:12,730
+So, four examples, three of them would
+be hard for our minimizer to solve.
+
+18
+00:01:12,730 --> 00:01:17,700
+Now, I'm not saying that these
+are not solvable by optimizers.
+
+19
+00:01:17,700 --> 00:01:20,330
+In fact, there are optimizers that
+
+20
+00:01:20,330 --> 00:01:23,860
+can solve these problems with
+varying degrees of success.
+
+21
+00:01:23,860 --> 00:01:29,780
+And they're likely to find a minima,
+just not guaranteed to find the minima.
+

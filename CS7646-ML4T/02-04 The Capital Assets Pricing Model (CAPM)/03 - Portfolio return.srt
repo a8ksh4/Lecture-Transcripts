@@ -1,0 +1,33 @@
+1
+00:00:00,520 --> 00:00:03,360
+Okay, let's suppose you've got
+two stocks in your portfolio.
+
+2
+00:00:03,360 --> 00:00:06,015
+Stock A and Stock B and
+
+3
+00:00:06,015 --> 00:00:11,820
+75% of your portfolio is in Stock A and
+-25% is in Stock B.
+
+4
+00:00:11,820 --> 00:00:17,680
+In other words, you've taken
+a short position in Stock B.
+
+5
+00:00:17,680 --> 00:00:22,578
+Now let's suppose on a particular
+day Stock A goes up 1%,
+
+6
+00:00:22,578 --> 00:00:26,490
+and stock B goes down 2%.
+
+7
+00:00:26,490 --> 00:00:30,100
+What's the return on your
+portfolio if this occurs
+

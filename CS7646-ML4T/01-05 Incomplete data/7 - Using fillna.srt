@@ -1,0 +1,103 @@
+1
+00:00:00,360 --> 00:00:02,310
+So, let's do some coding.
+
+2
+00:00:02,310 --> 00:00:06,514
+To start with, let's use an example
+stock with missing values.
+
+3
+00:00:06,514 --> 00:00:12,600
+We will be using fakedo.csv and this
+file is included in your data folder.
+
+4
+00:00:12,600 --> 00:00:18,120
+So as usual, we will be reading
+the csv into the data frame and
+
+5
+00:00:18,120 --> 00:00:19,279
+we will do some plotting.
+
+6
+00:00:20,290 --> 00:00:24,330
+So now let's go and
+plot this data and see what turns up.
+
+7
+00:00:25,430 --> 00:00:27,000
+So, here is the graph.
+
+8
+00:00:27,000 --> 00:00:30,818
+For the given range of dates,
+you can notice that there is a gap in
+
+9
+00:00:30,818 --> 00:00:34,525
+the beginning and also a gap at
+multiple places in the middle.
+
+10
+00:00:34,525 --> 00:00:36,550
+So now, let's try to fix this.
+
+11
+00:00:37,610 --> 00:00:42,160
+We only need to add a single
+statement to fill those gaps.
+
+12
+00:00:42,160 --> 00:00:44,887
+As you must have read
+in the documentation,
+
+13
+00:00:44,887 --> 00:00:47,908
+method ffill corresponds
+to forward filling and
+
+14
+00:00:47,908 --> 00:00:52,414
+inplace is equal to TRUE will save all
+the changes in the same data frame.
+
+15
+00:00:52,414 --> 00:00:55,604
+Try removing this and see what happens.
+
+16
+00:00:55,604 --> 00:00:59,210
+Now, let's plot and
+see how the graph looks now.
+
+17
+00:00:59,210 --> 00:01:00,358
+So here's the graph.
+
+18
+00:01:00,358 --> 00:01:04,090
+If you look closely, you will
+observe the forward filling effect.
+
+19
+00:01:05,430 --> 00:01:08,842
+The stock prices retained their
+previous values throughout.
+
+20
+00:01:08,842 --> 00:01:13,830
+However, note that the missing
+values at the beginning of the range
+
+21
+00:01:13,830 --> 00:01:15,500
+have not been filled.
+
+22
+00:01:16,500 --> 00:01:19,800
+Think about what you need
+to do to take care of that.
+

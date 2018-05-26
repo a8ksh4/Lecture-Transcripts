@@ -1,0 +1,261 @@
+1
+00:00:00,290 --> 00:00:02,680
+Consider an nd array, nd1.
+
+2
+00:00:02,680 --> 00:00:06,520
+I'm going to show you now how
+to access cells within that.
+
+3
+00:00:06,520 --> 00:00:09,880
+Now, the notation, at first,
+might seem sort of familiar, but
+
+4
+00:00:09,880 --> 00:00:13,170
+there's some new and different things
+that you probably haven't seen before.
+
+5
+00:00:13,170 --> 00:00:17,450
+So the usual syntax is
+the name of your nd array,
+
+6
+00:00:17,450 --> 00:00:20,490
+bracket, the row and the column.
+
+7
+00:00:20,490 --> 00:00:22,410
+So again, these are our rows.
+
+8
+00:00:22,410 --> 00:00:25,160
+So row indicates which row we're using.
+
+9
+00:00:25,160 --> 00:00:26,750
+Column, which column.
+
+10
+00:00:26,750 --> 00:00:32,380
+It's important to know that in NumPy,
+our columns and rows begin at 0.
+
+11
+00:00:32,380 --> 00:00:37,038
+So this element is nd1[0,0].
+
+12
+00:00:37,038 --> 00:00:41,838
+It then continues of course,
+1, 2, 3, 4 in the rows, and
+
+13
+00:00:41,838 --> 00:00:45,390
+in the columns, 0, 1, 2, 3.
+
+14
+00:00:45,390 --> 00:00:49,180
+Before I tell you, see if you can
+guess how to address this cell.
+
+15
+00:00:50,750 --> 00:00:56,368
+The answer is that
+this cell is nd1 [3,2],
+
+16
+00:00:56,368 --> 00:01:00,214
+0, 1, 2, 3, 0, 1, 2.
+
+17
+00:01:00,214 --> 00:01:03,290
+Now, this is probably the kind
+of stuff you've seen before.
+
+18
+00:01:03,290 --> 00:01:05,810
+It turns out, though,
+that the NumPy is much more powerful and
+
+19
+00:01:05,810 --> 00:01:09,680
+can do interesting and
+different kinds of slicing.
+
+20
+00:01:09,680 --> 00:01:10,480
+What if, for instance,
+
+21
+00:01:10,480 --> 00:01:14,800
+you wanted to address this
+sub portion of the nd array?
+
+22
+00:01:14,800 --> 00:01:16,587
+How could you indicate that?
+
+23
+00:01:16,587 --> 00:01:23,140
+NumPy uses a special symbol,
+the colon, to let you indicate ranges.
+
+24
+00:01:23,140 --> 00:01:28,012
+So we can indicate this
+range in rows with 0:3,
+
+25
+00:01:28,012 --> 00:01:34,630
+which indicates the zeroth to the,
+just before the third row.
+
+26
+00:01:34,630 --> 00:01:38,869
+And in the columns, we've got 01:3.
+
+27
+00:01:38,869 --> 00:01:44,099
+So this syntax indicates starting
+at the zeroth row to just
+
+28
+00:01:44,099 --> 00:01:50,320
+before the third and the first
+column to just before the third.
+
+29
+00:01:50,320 --> 00:01:53,810
+And in fact, captures this region.
+
+30
+00:01:53,810 --> 00:01:57,560
+The key thing to remember here
+that's a little bit tricky is that
+
+31
+00:01:57,560 --> 00:02:02,690
+this last value is one past the one
+that you actually want to include.
+
+32
+00:02:02,690 --> 00:02:10,130
+So, for instance, this is column 3,
+but it's not included.
+
+33
+00:02:10,130 --> 00:02:15,080
+Now, if we just use the colon by
+itself that indicates, for instance,
+
+34
+00:02:15,080 --> 00:02:20,340
+if we place it in the rows position,
+that we want all of the rows.
+
+35
+00:02:20,340 --> 00:02:23,370
+So you don't have to use the colon
+just to indicate a range.
+
+36
+00:02:23,370 --> 00:02:25,480
+You can use it by itself for
+all of them.
+
+37
+00:02:26,540 --> 00:02:29,480
+Now, look at this statement,
+see if you can figure out
+
+38
+00:02:29,480 --> 00:02:32,890
+which part of this nd array it
+refers to before I show you.
+
+39
+00:02:34,140 --> 00:02:36,500
+It is this region right here.
+
+40
+00:02:36,500 --> 00:02:41,218
+So it's all the rows and
+column 3, 0, 1, 2, 3.
+
+41
+00:02:41,218 --> 00:02:44,280
+So it's this section right here.
+
+42
+00:02:44,280 --> 00:02:46,850
+NumPy includes some
+special syntax that lets
+
+43
+00:02:46,850 --> 00:02:50,270
+you refer to the last row or column.
+
+44
+00:02:50,270 --> 00:02:54,877
+So, for instance, the last row here,
+you can indicate with
+
+45
+00:02:54,877 --> 00:03:00,040
+negative 1,
+second to last row would be negative 2.
+
+46
+00:03:00,040 --> 00:03:03,540
+So if we wanted to refer
+to these 2 cells here,
+
+47
+00:03:03,540 --> 00:03:06,550
+we would take advantage of
+this negative 1 syntax.
+
+48
+00:03:06,550 --> 00:03:09,380
+So a negative 1 indicates that last row.
+
+49
+00:03:09,380 --> 00:03:13,740
+And then to get these 2 columns,
+we would use 1:3.
+
+50
+00:03:13,740 --> 00:03:18,460
+0, 1, 2, and
+then we don't include the last 1 there.
+
+51
+00:03:18,460 --> 00:03:20,400
+There is a bunch of new syntax.
+
+52
+00:03:20,400 --> 00:03:22,320
+I hope that you find it exciting.
+
+53
+00:03:22,320 --> 00:03:27,360
+This is really one of the most
+powerful aspects of Python and NumPy.
+
+54
+00:03:27,360 --> 00:03:31,660
+And it really enables you to
+do some interesting things.
+
+55
+00:03:31,660 --> 00:03:35,450
+Now, we've got a quiz to see if you
+can figure out how to use this new
+
+56
+00:03:35,450 --> 00:03:36,280
+syntax yourself.
+

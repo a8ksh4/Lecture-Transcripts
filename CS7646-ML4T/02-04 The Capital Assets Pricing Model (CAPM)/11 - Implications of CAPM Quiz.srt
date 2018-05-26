@@ -1,0 +1,29 @@
+1
+00:00:00,520 --> 00:00:03,820
+So I want you to consider a little
+bit the implications of the CAPM, and
+
+2
+00:00:03,820 --> 00:00:09,310
+I want you to consider implications in
+upward markets and downward markets.
+
+3
+00:00:09,310 --> 00:00:10,150
+So here's the question.
+
+4
+00:00:10,150 --> 00:00:15,730
+If we're in upward markets, do you
+want a larger beta or a smaller beta?
+
+5
+00:00:15,730 --> 00:00:20,250
+And if we're in downward markets, do you
+want a larger beta or a smaller beta?
+
+6
+00:00:20,250 --> 00:00:22,910
+And remember,
+CAPM says that alpha doesn't matter.
+

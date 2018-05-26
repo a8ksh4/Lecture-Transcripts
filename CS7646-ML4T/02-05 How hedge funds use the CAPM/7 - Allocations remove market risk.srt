@@ -1,0 +1,88 @@
+1
+00:00:00,380 --> 00:00:03,870
+Okay, so we want to find two weights,
+A and B.
+
+2
+00:00:03,870 --> 00:00:09,880
+Such that when you multiply them by
+their betas, the sum turns out to be 0.
+
+3
+00:00:09,880 --> 00:00:14,820
+Now keep in mind,
+that we're going to short B, so
+
+4
+00:00:14,820 --> 00:00:17,070
+this one needs to be negative.
+
+5
+00:00:17,070 --> 00:00:19,590
+And we're going to long A, so
+this one needs to be positive.
+
+6
+00:00:19,590 --> 00:00:24,520
+Just keep that in mind as we go forward
+so, let's solve for A initially here.
+
+7
+00:00:24,520 --> 00:00:29,180
+So we know that the weight of A should
+be equal to -2 times the weight of B.
+
+8
+00:00:30,490 --> 00:00:33,880
+We also know that the sum of A and
+
+9
+00:00:33,880 --> 00:00:38,166
+B, well the sum of the absolute values
+of A and B, should be equal to 1.
+
+10
+00:00:38,166 --> 00:00:43,770
+If we plug thi minus 2 weight of B and
+
+11
+00:00:43,770 --> 00:00:48,780
+for weight of A we get this,
+or long story short.
+
+12
+00:00:48,780 --> 00:00:52,430
+The absolute value
+the weight of B = 1/3.
+
+13
+00:00:52,430 --> 00:00:55,640
+So I know the weight of B has to be
+negative, so we get minus one third for
+
+14
+00:00:55,640 --> 00:00:56,870
+the weight of B.
+
+15
+00:00:56,870 --> 00:00:59,170
+And coming all the way back up here,
+
+16
+00:00:59,170 --> 00:01:03,660
+we know that the weight of A is equal
+to Negative two times the weight of B.
+
+17
+00:01:03,660 --> 00:01:05,600
+So we get this.
+
+18
+00:01:05,600 --> 00:01:08,945
+So finally, the answers are: 2/3 for
+the weight of A.
+
+19
+00:01:08,945 --> 00:01:10,850
+-1/3 for the weight of B.
+

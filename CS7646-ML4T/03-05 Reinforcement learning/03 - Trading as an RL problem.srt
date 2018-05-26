@@ -1,0 +1,56 @@
+1
+00:00:00,350 --> 00:00:01,358
+Now as you know,
+
+2
+00:00:01,358 --> 00:00:05,330
+we want to use reinforcement
+learning algorithms to trade with.
+
+3
+00:00:05,330 --> 00:00:09,664
+So let's think now about how we can map
+the trading problem to reinforcement
+
+4
+00:00:09,664 --> 00:00:11,300
+learning.
+
+5
+00:00:11,300 --> 00:00:14,110
+Okay, so consider each of these factors.
+
+6
+00:00:14,110 --> 00:00:18,660
+Buy, sell, holding long, Bollinger
+value, return from trade, daily return.
+
+7
+00:00:18,660 --> 00:00:23,310
+And then consider,
+is that item a description of our state
+
+8
+00:00:23,310 --> 00:00:26,670
+that we ought to consider
+before we make a trade?
+
+9
+00:00:27,760 --> 00:00:34,970
+Is it an action that we give to
+the market to cause a trade to occur?
+
+10
+00:00:34,970 --> 00:00:41,000
+Or is it a potential reward that we
+would use to inform our algorithm for
+
+11
+00:00:41,000 --> 00:00:42,640
+learning how to trade.
+
+12
+00:00:42,640 --> 00:00:46,920
+And it's potentially the case that some
+of these may serve more than one role.
+

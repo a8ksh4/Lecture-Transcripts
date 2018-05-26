@@ -1,0 +1,104 @@
+1
+00:00:00,130 --> 00:00:03,050
+Let's consider now what
+happens to the model
+
+2
+00:00:03,050 --> 00:00:06,870
+that comes out when we
+change the value of k.
+
+3
+00:00:06,870 --> 00:00:10,866
+So we've got three k nearest
+neighbor models here.
+
+4
+00:00:10,866 --> 00:00:14,318
+Each one is using
+a different value of k, and
+
+5
+00:00:14,318 --> 00:00:19,730
+I want you to match the value
+of k to the output model here.
+
+6
+00:00:19,730 --> 00:00:22,780
+Okay, so I want you to look
+at these different charts.
+
+7
+00:00:22,780 --> 00:00:27,787
+Each one of these models shown in
+red is using a different value of k.
+
+8
+00:00:27,787 --> 00:00:30,332
+So I want you to fill
+in these little boxes,
+
+9
+00:00:30,332 --> 00:00:33,130
+which chart corresponds
+to the value of k.
+
+10
+00:00:33,130 --> 00:00:37,164
+So one of these charts
+was created with k=1,
+
+11
+00:00:37,164 --> 00:00:42,749
+one was created with k=3, and
+another was created with k=N,
+
+12
+00:00:42,749 --> 00:00:47,520
+where N is the total number
+of elements in the dataset.
+
+13
+00:00:47,520 --> 00:00:49,801
+And there's another question
+I want you to answer.
+
+14
+00:00:49,801 --> 00:00:54,500
+True or false, as we increase k
+we are more likely to overfit.
+
+15
+00:00:54,500 --> 00:00:58,900
+I haven't told you yet
+in too much detail what overfitting is.
+
+16
+00:00:58,900 --> 00:01:02,290
+Let me just give you a quick gist of
+it so you can answer the question.
+
+17
+00:01:02,290 --> 00:01:08,498
+An overfit model strives really
+hard to match the dataset exactly.
+
+18
+00:01:08,498 --> 00:01:11,970
+And then when we go on
+later to use new data or
+
+19
+00:01:11,970 --> 00:01:17,950
+test it with test data,
+it tends not to do so well.
+
+20
+00:01:17,950 --> 00:01:20,750
+So go for these two questions and
+I'll come back in a minute and
+
+21
+00:01:20,750 --> 00:01:21,360
+tell you the answer.
+

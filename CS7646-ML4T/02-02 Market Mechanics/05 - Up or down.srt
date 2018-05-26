@@ -1,0 +1,63 @@
+1
+00:00:00,430 --> 00:00:04,890
+The correct answer is that the stock
+is probably going to go down in price,
+
+2
+00:00:04,890 --> 00:00:08,290
+because there's much
+more selling pressure.
+
+3
+00:00:08,290 --> 00:00:12,950
+Imagine for
+a moment if we put in two market orders.
+
+4
+00:00:12,950 --> 00:00:18,740
+Suppose there was a market
+order to sell 500 shares.
+
+5
+00:00:18,740 --> 00:00:20,450
+What would happen?
+
+6
+00:00:20,450 --> 00:00:25,385
+Boom, you would sell 100 at 99.95,
+50 at 99.90 and
+
+7
+00:00:25,385 --> 00:00:28,685
+so on,
+the price would immediately go down.
+
+8
+00:00:28,685 --> 00:00:34,008
+Consider on the other hand if someone
+put in a market order to buy 500 shares,
+
+9
+00:00:34,008 --> 00:00:36,370
+well the price wouldn't budge.
+
+10
+00:00:36,370 --> 00:00:40,155
+You'd just get 500 of these 1000 for
+sale but
+
+11
+00:00:40,155 --> 00:00:44,812
+the price would still remain
+between $100 and 99.95.
+
+12
+00:00:44,812 --> 00:00:48,624
+I'll explain that a little bit more as
+we provide some specific examples on
+
+13
+00:00:48,624 --> 00:00:51,660
+what happens to the order book
+as different orders come in.
+

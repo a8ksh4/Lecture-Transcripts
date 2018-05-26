@@ -1,0 +1,118 @@
+1
+00:00:00,460 --> 00:00:02,968
+So in order to get to
+a dataframe like this,
+
+2
+00:00:02,968 --> 00:00:05,418
+we've got a couple of problems to solve.
+
+3
+00:00:05,418 --> 00:00:06,840
+And we're going to solve
+them in this lesson.
+
+4
+00:00:08,050 --> 00:00:11,610
+So one of the first issues is we want
+to be able to read in particular
+
+5
+00:00:11,610 --> 00:00:13,070
+date ranges.
+
+6
+00:00:13,070 --> 00:00:17,951
+So if you remember from the last lesson,
+we just read all of it in.
+
+7
+00:00:17,951 --> 00:00:21,469
+But what if we just want to
+read in a certain part of it,
+
+8
+00:00:21,469 --> 00:00:24,068
+instead of from 1995 to 2012.
+
+9
+00:00:24,068 --> 00:00:27,557
+What if we want, say, just 2010 to 2012?
+
+10
+00:00:27,557 --> 00:00:30,305
+Well, we gotta figure
+out how to solve that.
+
+11
+00:00:30,305 --> 00:00:35,309
+Something that's very special about
+Pandas, and one of the things
+
+12
+00:00:35,309 --> 00:00:40,330
+that makes it very powerful,
+is that we can index the rows by dates.
+
+13
+00:00:40,330 --> 00:00:44,840
+We don't have to just use a single
+number like zero for instance.
+
+14
+00:00:46,080 --> 00:00:51,120
+We need to be able to read in multiple
+stocks, instead of just, say having one.
+
+15
+00:00:51,120 --> 00:00:55,980
+We want to have SPY, IBM,
+Google, and Gold all at once.
+
+16
+00:00:57,970 --> 00:01:00,350
+We need to be able to align dates.
+
+17
+00:01:00,350 --> 00:01:04,530
+For instance,
+If GLD traded on particular days and
+
+18
+00:01:04,530 --> 00:01:09,200
+SPY traded on particular days we want
+to make sure that those line up, so
+
+19
+00:01:09,200 --> 00:01:14,300
+that for each row we have
+the correct information for
+
+20
+00:01:14,300 --> 00:01:18,140
+each equity on that particular date.
+
+21
+00:01:18,140 --> 00:01:23,150
+Finally, we need to undo that problem
+that we discovered in the last lesson.
+
+22
+00:01:23,150 --> 00:01:28,240
+Namely that these dates and the files
+we read them from are in reverse order.
+
+23
+00:01:28,240 --> 00:01:30,890
+So, we want to be sure that we have
+them in the right order when we're
+
+24
+00:01:30,890 --> 00:01:32,500
+processing them.
+
+25
+00:01:32,500 --> 00:01:35,790
+So, these are the tasks we're
+going to dig into in this lesson.
+

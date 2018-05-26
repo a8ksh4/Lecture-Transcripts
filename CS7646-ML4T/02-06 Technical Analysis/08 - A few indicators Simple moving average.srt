@@ -1,0 +1,269 @@
+1
+00:00:00,385 --> 00:00:02,950
+Our next indicator is simple
+moving average or SMA.
+
+2
+00:00:02,950 --> 00:00:09,360
+And again, it's indexed by n, which
+is how many days are we looking back.
+
+3
+00:00:09,360 --> 00:00:15,190
+So if we want to calculate the value of
+the simple moving average for this day,
+
+4
+00:00:15,190 --> 00:00:20,880
+we look back over n days, and
+this is called an n-day window.
+
+5
+00:00:20,880 --> 00:00:22,190
+So the SMA for
+
+6
+00:00:22,190 --> 00:00:28,140
+today is simply the average of
+the values over this look back period.
+
+7
+00:00:28,140 --> 00:00:30,100
+So it would be a value
+about right there.
+
+8
+00:00:30,100 --> 00:00:33,980
+And if we carry it forward,
+it'll look like this.
+
+9
+00:00:33,980 --> 00:00:38,270
+So, the SMA looks
+essentially like a smoothed
+
+10
+00:00:38,270 --> 00:00:42,540
+value of the price chart
+as it moves around.
+
+11
+00:00:42,540 --> 00:00:46,030
+And an important thing to note
+is it sort of lags the movement.
+
+12
+00:00:46,030 --> 00:00:49,400
+So as we started down here,
+it slowly started coming down,
+
+13
+00:00:49,400 --> 00:00:54,230
+and when we started up here,
+it lagged that movement upwards.
+
+14
+00:00:54,230 --> 00:00:57,190
+There are at least two different
+ways that technicians use
+
+15
+00:00:57,190 --> 00:01:00,560
+simple moving average as
+parts of trading strategies.
+
+16
+00:01:00,560 --> 00:01:02,920
+The first is they look for
+
+17
+00:01:02,920 --> 00:01:08,810
+places where the current price crosses
+through the simple moving average.
+
+18
+00:01:08,810 --> 00:01:12,740
+Those tend to be important events,
+especially if the average is over many,
+
+19
+00:01:12,740 --> 00:01:14,180
+many days.
+
+20
+00:01:14,180 --> 00:01:17,620
+If you combine that with momentum,
+in other words,
+
+21
+00:01:17,620 --> 00:01:19,700
+the price has strong momentum, and
+
+22
+00:01:19,700 --> 00:01:24,340
+it's crossing through that simple
+moving average, that can be a signal.
+
+23
+00:01:24,340 --> 00:01:26,220
+This particular crossing,
+
+24
+00:01:26,220 --> 00:01:29,790
+where the price goes through the simple
+moving average, doesn't really
+
+25
+00:01:29,790 --> 00:01:33,420
+illustrate strong momentum
+because it just started going up.
+
+26
+00:01:33,420 --> 00:01:37,770
+However, when you do see strong momentum
+crossing those lines, then again,
+
+27
+00:01:37,770 --> 00:01:40,190
+that can be a trading signal.
+
+28
+00:01:40,190 --> 00:01:46,140
+Another way that technicians use simple
+moving average is as a proxy for
+
+29
+00:01:46,140 --> 00:01:46,990
+underlying value.
+
+30
+00:01:46,990 --> 00:01:50,850
+In other words, if you look back
+over a certain period of time and
+
+31
+00:01:50,850 --> 00:01:55,798
+take that average price, that might
+represent the true value of the company.
+
+32
+00:01:55,798 --> 00:02:00,650
+And if we see a large excursion from
+that price, we should, for instance,
+
+33
+00:02:00,650 --> 00:02:04,790
+here and here, we should expect that
+
+34
+00:02:04,790 --> 00:02:08,080
+the price is eventually going to
+come back down to that average.
+
+35
+00:02:08,080 --> 00:02:09,690
+And so it's an arbitrage opportunity,
+
+36
+00:02:09,690 --> 00:02:12,700
+sort of like we saw with
+fundamental analysis.
+
+37
+00:02:12,700 --> 00:02:17,070
+And again, for example, there's a large
+excursion downward here, so this might
+
+38
+00:02:17,070 --> 00:02:22,280
+represent a buy opportunity, and these
+two might represent sell opportunities.
+
+39
+00:02:22,280 --> 00:02:27,280
+Because there was a strong
+diversion from that moving average.
+
+40
+00:02:27,280 --> 00:02:30,640
+Now we talked about earlier how
+every technical indicator has
+
+41
+00:02:30,640 --> 00:02:33,490
+a visual presentation like
+I'm showing you here, but
+
+42
+00:02:33,490 --> 00:02:36,800
+we also need a way to quantify it,
+to turn it into a number.
+
+43
+00:02:36,800 --> 00:02:41,620
+The way we do that is to compare
+the current price with the current
+
+44
+00:02:41,620 --> 00:02:45,200
+simple moving average,
+and construct a ratio.
+
+45
+00:02:45,200 --> 00:02:48,580
+So, in this case, we would look for
+a negative value.
+
+46
+00:02:49,870 --> 00:02:52,970
+And in these cases,
+we'd want to see positive values.
+
+47
+00:02:52,970 --> 00:02:57,100
+So, if we were to calculate, say, the
+value of the simple moving average on
+
+48
+00:02:57,100 --> 00:03:01,580
+this day, we take the price for
+that day, and
+
+49
+00:03:01,580 --> 00:03:07,270
+we compute the mean for
+the last n-days, which is here.
+
+50
+00:03:07,270 --> 00:03:12,850
+And remember, this is over
+a look back window of n-days.
+
+51
+00:03:12,850 --> 00:03:15,485
+Divide that into the price and
+subtract one.
+
+52
+00:03:15,485 --> 00:03:21,312
+So, if, for instance, the price is
+10% above the simple moving average,
+
+53
+00:03:21,312 --> 00:03:24,332
+we'd end up getting a positive 0.1.
+
+54
+00:03:24,332 --> 00:03:28,120
+If it were 10% below,
+we'd get a negative 0.1.
+
+55
+00:03:28,120 --> 00:03:35,410
+So similar to the momentum, we
+typically see values here ranging from,
+
+56
+00:03:35,410 --> 00:03:39,364
+at most, minus 50% to plus 50%.
+

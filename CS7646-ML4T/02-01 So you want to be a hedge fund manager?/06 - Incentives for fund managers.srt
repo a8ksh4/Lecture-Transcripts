@@ -1,0 +1,254 @@
+1
+00:00:00,300 --> 00:00:02,700
+We talked already about some
+of the differences between
+
+2
+00:00:02,700 --> 00:00:06,970
+Exchange Traded Funds,
+Mutual Funds, and Hedge Funds.
+
+3
+00:00:06,970 --> 00:00:10,090
+And those differences that we talked
+about are primarily having to do with
+
+4
+00:00:10,090 --> 00:00:16,059
+how they're traded and how visible, what
+their holding is to those who invest.
+
+5
+00:00:16,059 --> 00:00:19,700
+Another very,
+very important sort of difference is
+
+6
+00:00:19,700 --> 00:00:24,120
+how are the managers of
+these funds compensated?
+
+7
+00:00:24,120 --> 00:00:26,830
+In other words,
+there's some sort of rule for
+
+8
+00:00:26,830 --> 00:00:32,320
+each one that shows how
+the fund managers make money.
+
+9
+00:00:32,320 --> 00:00:37,740
+And that's very, very important because
+the manner in which they're paid
+
+10
+00:00:37,740 --> 00:00:42,220
+incentivizes them to trade or
+act in certain ways.
+
+11
+00:00:42,220 --> 00:00:44,720
+So let's talk about each
+one of these individually.
+
+12
+00:00:44,720 --> 00:00:48,830
+Before I get started, though,
+I have to introduce one concept here.
+
+13
+00:00:48,830 --> 00:00:53,554
+It's called assets under management or
+AUM.
+
+14
+00:00:53,554 --> 00:00:58,416
+And this is the buzz word that simply
+means how much money is being managed by
+
+15
+00:00:58,416 --> 00:00:59,950
+the fund?
+
+16
+00:00:59,950 --> 00:01:01,810
+It's important because for
+
+17
+00:01:01,810 --> 00:01:07,540
+all of these part of the compensation
+is a percentage of the AUM.
+
+18
+00:01:07,540 --> 00:01:12,700
+The managers of ETFs are compensated
+according to an expense ratio
+
+19
+00:01:12,700 --> 00:01:16,850
+which is simply some percentage of AUM.
+
+20
+00:01:16,850 --> 00:01:21,000
+Expenditure issues for
+ETFs are usually pretty low.
+
+21
+00:01:21,000 --> 00:01:23,200
+They vary from as low .01% or,
+
+22
+00:01:23,200 --> 00:01:29,080
+one bit as that might be called,
+to as high as 1%.
+
+23
+00:01:29,080 --> 00:01:35,740
+But one that's up to 1% is
+fairly high and pretty unusual.
+
+24
+00:01:35,740 --> 00:01:41,450
+Mutual fund managers are also
+compensated using an expense ratio.
+
+25
+00:01:41,450 --> 00:01:43,840
+These are somewhat higher than ETFs.
+
+26
+00:01:43,840 --> 00:01:48,409
+They range from a low of,
+typically, about 0.5%,
+
+27
+00:01:48,409 --> 00:01:52,046
+to some that are very high, up to 3%.
+
+28
+00:01:52,046 --> 00:01:55,540
+Now, what's the reason for
+this difference?
+
+29
+00:01:55,540 --> 00:01:57,780
+Well, mutual fund managers
+will tell you that
+
+30
+00:01:58,830 --> 00:02:03,320
+the way they manage funds
+requires much more skill.
+
+31
+00:02:03,320 --> 00:02:07,350
+They have much more discretion
+than those who are managing ETFs.
+
+32
+00:02:07,350 --> 00:02:10,788
+ETFs usually are tied to an index.
+
+33
+00:02:10,788 --> 00:02:18,650
+As an example, a popular ETF, SPY,
+is supposed to track the S&P 500.
+
+34
+00:02:18,650 --> 00:02:22,880
+And, all that an ETF manager
+has to do in that case
+
+35
+00:02:22,880 --> 00:02:27,390
+is just make sure that they are holding
+all the stocks and the S&P 500.
+
+36
+00:02:27,390 --> 00:02:32,340
+Mutual funds, on the other hand,
+supposedly use more skill and therefore,
+
+37
+00:02:32,340 --> 00:02:35,540
+they can charge a higher expense ratio
+
+38
+00:02:35,540 --> 00:02:41,380
+both were the cost of research and
+also for their skill.
+
+39
+00:02:41,380 --> 00:02:45,020
+Finally Hedge funds
+are completely different breed
+
+40
+00:02:45,020 --> 00:02:48,080
+in terms of how their
+manager's are compensated.
+
+41
+00:02:48,080 --> 00:02:52,515
+You follow the old model called two and
+twenty which means 2 or
+
+42
+00:02:52,515 --> 00:02:59,270
+2% of AUM, plus 20% of the profits.
+
+43
+00:02:59,270 --> 00:03:05,630
+So as you can see, it's higher
+than both of these other methods.
+
+44
+00:03:05,630 --> 00:03:10,981
+And most importantly, it includes this
+component relating to profits, that 20%.
+
+45
+00:03:10,981 --> 00:03:14,490
+Now, one or
+two other things to clarify here.
+
+46
+00:03:14,490 --> 00:03:19,280
+What I've been talking about is
+the way that the folks who manage
+
+47
+00:03:19,280 --> 00:03:21,530
+these funds are compensated.
+
+48
+00:03:21,530 --> 00:03:25,580
+Separately, if you are an investor in
+one of these funds, in other words you
+
+49
+00:03:25,580 --> 00:03:30,990
+give your money to one of these
+types of funds to be managed,
+
+50
+00:03:30,990 --> 00:03:37,180
+your return is based on how much
+the value of that fund increased and
+
+51
+00:03:37,180 --> 00:03:42,340
+in most cases that increase is subject
+to what happens to the economy or
+
+52
+00:03:42,340 --> 00:03:44,560
+what happens in the markets.
+
+53
+00:03:44,560 --> 00:03:48,860
+Let's look at a more detailed example
+of this two and twenty structure.
+

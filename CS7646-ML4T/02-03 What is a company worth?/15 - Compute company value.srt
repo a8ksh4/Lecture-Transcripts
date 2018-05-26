@@ -1,0 +1,47 @@
+1
+00:00:00,330 --> 00:00:00,940
+Okay, for
+
+2
+00:00:00,940 --> 00:00:06,440
+book value, brand name doesn't count
+because that's an intangible asset.
+
+3
+00:00:06,440 --> 00:00:10,260
+So we've got 10 airplanes at $10
+million each, that's $100 million.
+
+4
+00:00:10,260 --> 00:00:13,840
+And we've got a $20
+million loan liability.
+
+5
+00:00:13,840 --> 00:00:17,540
+That means the book value for
+this company is $80 million.
+
+6
+00:00:17,540 --> 00:00:21,040
+Intrinsic value,
+we calculated that before.
+
+7
+00:00:21,040 --> 00:00:24,970
+It's just $1 million divided by 5%.
+
+8
+00:00:24,970 --> 00:00:27,470
+The intrinsic value then is $20 million.
+
+9
+00:00:28,770 --> 00:00:32,430
+Finally, market capitalization, remember
+that's just the number of shares
+
+10
+00:00:32,430 --> 00:00:36,970
+outstanding times the stock price and
+in this case, that's $75 million.
+

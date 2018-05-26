@@ -1,0 +1,75 @@
+1
+00:00:00,490 --> 00:00:02,090
+As show in the previous demo,
+
+2
+00:00:02,090 --> 00:00:05,310
+there are three main steps to
+implement inside the for loop.
+
+3
+00:00:05,310 --> 00:00:08,970
+The first one is to read in
+the data from the symbol.
+
+4
+00:00:08,970 --> 00:00:12,050
+Make sure you specify
+all the parameters.
+
+5
+00:00:12,050 --> 00:00:16,090
+Also notice how I have used
+symbol_to_path function
+
+6
+00:00:16,090 --> 00:00:18,890
+to get the path to the CSV file.
+
+7
+00:00:18,890 --> 00:00:24,030
+The next step is to rename the adjacent
+close column to the symbol name.
+
+8
+00:00:24,030 --> 00:00:28,950
+And the last step is to join this
+new data with the new data frame.
+
+9
+00:00:28,950 --> 00:00:32,000
+Now, we have to take care
+of one important thing.
+
+10
+00:00:32,000 --> 00:00:34,740
+That is,
+dropping off the lines from the SPY.
+
+11
+00:00:35,760 --> 00:00:38,830
+Subset is equal to SPY will ensure that
+
+12
+00:00:38,830 --> 00:00:42,520
+only those rows will be
+dropped where SPY is none.
+
+13
+00:00:42,520 --> 00:00:46,910
+Also the statement ensures that
+SPY is used as a reference.
+
+14
+00:00:46,910 --> 00:00:51,230
+And that we do not have any
+non-values in the SPY column.
+
+15
+00:00:51,230 --> 00:00:52,860
+Let's run it.
+
+16
+00:00:52,860 --> 00:00:55,080
+So here's the output, same as before.
+

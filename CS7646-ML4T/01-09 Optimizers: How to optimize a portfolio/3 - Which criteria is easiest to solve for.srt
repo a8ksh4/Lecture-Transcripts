@@ -1,0 +1,30 @@
+1
+00:00:00,420 --> 00:00:02,680
+Suppose I were to give you
+the following problem.
+
+2
+00:00:02,680 --> 00:00:06,300
+Take these four stocks and
+over a particular time period,
+
+3
+00:00:06,300 --> 00:00:11,790
+I want you to find the optimal
+allocation to those four stocks.
+
+4
+00:00:11,790 --> 00:00:16,890
+I might ask you to find the optimal
+allocation that maximizes
+
+5
+00:00:16,890 --> 00:00:23,020
+cumulative return, minimizes volatility,
+or maximizes Sharpe ratio.
+
+6
+00:00:23,020 --> 00:00:27,110
+Which of these optimizers would
+be the easiest to write and why?
+

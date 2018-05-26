@@ -1,0 +1,85 @@
+1
+00:00:00,160 --> 00:00:05,020
+The answer is 120 million,
+so if Buffet trades only 120
+
+2
+00:00:05,020 --> 00:00:10,980
+times per year,
+Simons has to trade 120 million times.
+
+3
+00:00:10,980 --> 00:00:12,680
+So here's how I arrived at that.
+
+4
+00:00:12,680 --> 00:00:15,500
+We know that their information
+ratios are the same, so
+
+5
+00:00:15,500 --> 00:00:18,770
+we just set the equation
+equal to each other.
+
+6
+00:00:18,770 --> 00:00:21,680
+One for Simons and one for Buffet.
+
+7
+00:00:21,680 --> 00:00:25,310
+So the information coefficient for
+Buffet, times square to 120.
+
+8
+00:00:25,310 --> 00:00:28,660
+This is Buffet's information ratio.
+
+9
+00:00:28,660 --> 00:00:31,950
+Now this is Simon's information ratio.
+
+10
+00:00:31,950 --> 00:00:35,510
+It's his information coefficient
+times the square root of x,
+
+11
+00:00:35,510 --> 00:00:37,200
+which is what we're trying to find.
+
+12
+00:00:37,200 --> 00:00:42,169
+Now first thing we can do is replace
+ICS with what we know is that
+
+13
+00:00:42,169 --> 00:00:45,620
+it's one-one thousandth of Buffet's.
+
+14
+00:00:46,650 --> 00:00:50,360
+Now we can multiply both sides by 1,000.
+
+15
+00:00:50,360 --> 00:00:52,990
+And divide both sides by Buffet's IC.
+
+16
+00:00:52,990 --> 00:00:55,710
+And we get this.
+
+17
+00:00:55,710 --> 00:01:01,480
+And now we just square both sides and
+we're left with x or 120 million.
+
+18
+00:01:02,680 --> 00:01:07,760
+Okay, that's it for the fundamental
+law of active portfolio management.
+
+19
+00:01:07,760 --> 00:01:09,280
+I'll see you again soon, thanks.
+

@@ -1,0 +1,30 @@
+1
+00:00:00,050 --> 00:00:05,290
+We've identified that we want to use
+these three historical data points
+
+2
+00:00:05,290 --> 00:00:09,870
+in order to answer our query about
+how much rain we would expect if
+
+3
+00:00:09,870 --> 00:00:12,400
+barometric pressure
+drops five millimeters.
+
+4
+00:00:12,400 --> 00:00:15,790
+But what should we do with these
+data points to find that prediction?
+
+5
+00:00:16,840 --> 00:00:19,600
+Here are three alternatives for
+you to consider.
+
+6
+00:00:19,600 --> 00:00:22,810
+Take your time and check which one
+you think makes the most sense.
+

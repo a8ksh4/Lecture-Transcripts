@@ -1,0 +1,180 @@
+1
+00:00:00,250 --> 00:00:02,690
+Let's start by taking a look at stock A.
+
+2
+00:00:02,690 --> 00:00:05,920
+So, market one up 10%, we predicted
+
+3
+00:00:05,920 --> 00:00:10,320
+that A would go up one percent over
+the market and its beta is one.
+
+4
+00:00:10,320 --> 00:00:13,979
+So, we should see a return of about 11%.
+
+5
+00:00:13,979 --> 00:00:20,490
+So, we get 11% here and $5.50 here.
+
+6
+00:00:20,490 --> 00:00:22,260
+B is a little bit more tricky.
+
+7
+00:00:23,400 --> 00:00:25,020
+Remember, B has a beta of two.
+
+8
+00:00:25,020 --> 00:00:29,865
+The market went up 10%, so
+B's going to go up 20% minus
+
+9
+00:00:29,865 --> 00:00:35,740
+the one percent we thought it
+would do relative to the market.
+
+10
+00:00:35,740 --> 00:00:39,550
+So for B,
+the stock price went up 19% but,
+
+11
+00:00:39,550 --> 00:00:44,200
+we had a negative bet there,
+so we get negative 19% here.
+
+12
+00:00:44,200 --> 00:00:48,530
+So, we're going to
+lose $9.50 on that bet.
+
+13
+00:00:49,530 --> 00:00:52,810
+Now, to compute the totals here,
+let's do the dollars first.
+
+14
+00:00:52,810 --> 00:00:56,474
+So, we made $5.50 on stock A, but
+
+15
+00:00:56,474 --> 00:01:02,289
+we lost $9.50 on stock B,
+so altogether, we lost $4.
+
+16
+00:01:02,289 --> 00:01:06,640
+Now, when you calculate
+the total return here,
+
+17
+00:01:06,640 --> 00:01:10,480
+you can't just add these two up and
+get negative eight, because remember,
+
+18
+00:01:10,480 --> 00:01:15,820
+we only had .5 over allocation
+in each one of these.
+
+19
+00:01:15,820 --> 00:01:18,890
+So, to get the total,
+you multiply this return by .5,
+
+20
+00:01:18,890 --> 00:01:22,780
+that return by .5, And
+you get negative four.
+
+21
+00:01:22,780 --> 00:01:23,980
+Yes, it's a little bit tricky.
+
+22
+00:01:24,990 --> 00:01:28,800
+Let's run through one more example
+here just so we get it straight.
+
+23
+00:01:28,800 --> 00:01:31,250
+Let's assume now that
+the market goes down 10%.
+
+24
+00:01:31,250 --> 00:01:33,780
+How does this all work out?
+
+25
+00:01:33,780 --> 00:01:37,400
+Stock A should only go down nine
+percent, because we think it's going to
+
+26
+00:01:37,400 --> 00:01:41,340
+perform one percent over the market and
+it's beta is one.
+
+27
+00:01:41,340 --> 00:01:44,960
+Stock B is going to go down 20% and
+
+28
+00:01:44,960 --> 00:01:48,730
+minus that one percent that we think
+is going to go below the market.
+
+29
+00:01:48,730 --> 00:01:52,080
+So let's talk B is going to go down 21%.
+
+30
+00:01:52,080 --> 00:01:56,870
+So we're going to lose nine percent or
+$4.50 on stock A,
+
+31
+00:01:57,970 --> 00:02:00,870
+but we're going to really
+kick butt on stock B.
+
+32
+00:02:00,870 --> 00:02:04,674
+Stock B went down 21%, but
+remember we shorted it, so
+
+33
+00:02:04,674 --> 00:02:07,943
+we're going to get all together $10.50.
+
+34
+00:02:07,943 --> 00:02:12,443
+So all together we're going to
+win six dollars or six percent.
+
+35
+00:02:12,443 --> 00:02:14,330
+What's the take away here?
+
+36
+00:02:15,440 --> 00:02:20,350
+The take away is even if we have
+perfect alpha and perfect beta,
+
+37
+00:02:20,350 --> 00:02:24,830
+if we're not careful about how we
+allocate our money, we can still lose.
+
+38
+00:02:24,830 --> 00:02:26,430
+How can we fix this?
+
+39
+00:02:26,430 --> 00:02:27,550
+The CAPM can help.
+

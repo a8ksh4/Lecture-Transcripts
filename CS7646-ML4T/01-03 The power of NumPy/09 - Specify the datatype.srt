@@ -1,0 +1,83 @@
+1
+00:00:00,350 --> 00:00:03,250
+dtype is the parameter we
+passed to the function
+
+2
+00:00:03,250 --> 00:00:07,710
+to specify the type of the value
+we want in each array location.
+
+3
+00:00:07,710 --> 00:00:14,580
+Here we defined the values to be
+integers using NumPy data type np.int.
+
+4
+00:00:14,580 --> 00:00:16,250
+Just as a matter of fact,
+
+5
+00:00:16,250 --> 00:00:21,090
+NumPy supports a much greater variety
+of numerical types than Python.
+
+6
+00:00:21,090 --> 00:00:22,550
+Let's run this.
+
+7
+00:00:22,550 --> 00:00:23,570
+Here it is.
+
+8
+00:00:23,570 --> 00:00:25,980
+The array now has integer values.
+
+9
+00:00:25,980 --> 00:00:31,150
+And since we defined the array as ones,
+it has all the values as 1.
+
+10
+00:00:31,150 --> 00:00:33,370
+Just like function np and
+
+11
+00:00:33,370 --> 00:00:38,180
+ones, you can create an array full
+of zeroes using the zeroes function.
+
+12
+00:00:38,180 --> 00:00:41,730
+All these functions accept
+the dtype parameter.
+
+13
+00:00:41,730 --> 00:00:45,385
+Before moving forward, I would like
+to mention that we can also create
+
+14
+00:00:45,385 --> 00:00:50,370
+n-dimensional array using
+the low-level NumPy function ndarray.
+
+15
+00:00:50,370 --> 00:00:54,680
+But ones, zeroes and empty provide
+a more friendly interface for
+
+16
+00:00:54,680 --> 00:00:56,220
+creating arrays.
+
+17
+00:00:56,220 --> 00:00:58,810
+And are hence generally preferred.
+
+18
+00:00:58,810 --> 00:01:02,870
+Refer to the documentation links and
+instructor notes for more information.
+

@@ -1,0 +1,50 @@
+1
+00:00:00,310 --> 00:00:04,080
+I'd like you to consider
+these three portfolios.
+
+2
+00:00:04,080 --> 00:00:08,189
+Now, each of the green dots represents
+an asset that's in the portfolio.
+
+3
+00:00:08,189 --> 00:00:11,570
+And it's on this risk
+versus reward scatter plot.
+
+4
+00:00:11,570 --> 00:00:16,070
+We've indicated the weights of
+the assets by the size of the dots.
+
+5
+00:00:16,070 --> 00:00:22,284
+So for instance, this portfolio has most
+of its assets in these two equities,
+
+6
+00:00:22,284 --> 00:00:27,420
+whereas this one has most of
+its assets in these three.
+
+7
+00:00:27,420 --> 00:00:33,340
+Now, over here in this right column,
+I indicate with a big orange circle
+
+8
+00:00:33,340 --> 00:00:39,340
+the risk/return level for
+several different portfolios,
+
+9
+00:00:39,340 --> 00:00:46,600
+and what I want you to do is match these
+resulting portfolios to these weights.
+
+10
+00:00:46,600 --> 00:00:49,070
+So, give it a go and I'll come back and
+show you the answer.
+

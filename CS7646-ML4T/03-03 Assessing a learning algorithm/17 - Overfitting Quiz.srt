@@ -1,0 +1,59 @@
+1
+00:00:00,180 --> 00:00:03,600
+I want you now to consider
+overfitting in KNN.
+
+2
+00:00:03,600 --> 00:00:07,190
+So in this case our horizontal
+access will be K and
+
+3
+00:00:07,190 --> 00:00:11,935
+it could range again from 1 out to N,
+
+4
+00:00:11,935 --> 00:00:16,750
+the number of data points and
+then the vertical access will be error.
+
+5
+00:00:16,750 --> 00:00:21,680
+I'm going to draw three charts here
+showing N sample error as a factor of
+
+6
+00:00:21,680 --> 00:00:24,570
+K and
+out of sample error as a factor of K.
+
+7
+00:00:24,570 --> 00:00:28,390
+And I want you to look at each one of
+them and consider which one of them you
+
+8
+00:00:28,390 --> 00:00:33,210
+think is the proper representation of
+what that ought to look like for KNN.
+
+9
+00:00:33,210 --> 00:00:37,820
+Which of these three charts
+correctly represents the shape that
+
+10
+00:00:37,820 --> 00:00:42,240
+we would expect for out of sample
+error and in sample error for
+
+11
+00:00:42,240 --> 00:00:47,880
+KNN, as K increases this way and
+error increases that way.
+
+12
+00:00:47,880 --> 00:00:50,258
+So take a look and go ahead and
+fill in your answer over here.
+

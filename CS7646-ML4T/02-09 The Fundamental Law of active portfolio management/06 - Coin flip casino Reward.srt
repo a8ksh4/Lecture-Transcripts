@@ -1,0 +1,96 @@
+1
+00:00:00,270 --> 00:00:03,200
+To figure out which of
+these scenarios is best,
+
+2
+00:00:03,200 --> 00:00:06,850
+we need to consider reward and risk.
+
+3
+00:00:06,850 --> 00:00:09,600
+Let's start here first with reward.
+
+4
+00:00:09,600 --> 00:00:12,240
+So when we talk about
+reward in this situation,
+
+5
+00:00:12,240 --> 00:00:14,600
+we're talking about our expected return.
+
+6
+00:00:14,600 --> 00:00:17,750
+So in the single bet case,
+we bet 1000 chips at once.
+
+7
+00:00:17,750 --> 00:00:24,940
+Our expected return is the chance that
+we'll win the bet times the return
+
+8
+00:00:24,940 --> 00:00:30,950
+we get plus the chance that we would
+lose the bet times what we would lose.
+
+9
+00:00:30,950 --> 00:00:34,030
+So, the chance that we're
+going to win is 0.51.
+
+10
+00:00:34,030 --> 00:00:35,510
+Remember, it's a biased coin.
+
+11
+00:00:35,510 --> 00:00:41,410
+And we have the opportunity
+to win 1000 tokens or $1000.
+
+12
+00:00:41,410 --> 00:00:45,692
+The chance that we'll lose is 0.49 or
+49%.
+
+13
+00:00:45,692 --> 00:00:48,990
+And if we lose, we would lose a $1,000.
+
+14
+00:00:48,990 --> 00:00:50,580
+So if you multiply this all out and
+
+15
+00:00:50,580 --> 00:00:55,579
+add it up, you end up seeing
+that our expected return is $20.
+
+16
+00:00:55,579 --> 00:01:00,150
+I'd like for you now to figure
+out what's our expected return or
+
+17
+00:01:00,150 --> 00:01:03,230
+what's the reward in the multibet case
+
+18
+00:01:03,230 --> 00:01:08,360
+where we bet 1000 individual
+chips on 1000 different tables.
+
+19
+00:01:08,360 --> 00:01:11,390
+And all those coins are flipped at once.
+
+20
+00:01:11,390 --> 00:01:16,130
+All biased coins with a 51%
+chance of winning for us.
+
+21
+00:01:16,130 --> 00:01:17,960
+What's our expected return in that case?
+

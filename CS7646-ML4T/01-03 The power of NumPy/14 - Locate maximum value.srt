@@ -1,0 +1,55 @@
+1
+00:00:00,190 --> 00:00:05,150
+To get the maximum value in a given 1D
+array, you could loop through the array,
+
+2
+00:00:05,150 --> 00:00:08,310
+finding the maximum and
+keeping track of an index.
+
+3
+00:00:08,310 --> 00:00:11,960
+But numpy can help you do
+this in a single call.
+
+4
+00:00:11,960 --> 00:00:13,970
+You must have seen argmax and
+
+5
+00:00:13,970 --> 00:00:17,760
+argmin used to described
+optimization equations.
+
+6
+00:00:17,760 --> 00:00:19,300
+This is the same idea.
+
+7
+00:00:19,300 --> 00:00:20,488
+Let's check the output.
+
+8
+00:00:20,488 --> 00:00:26,920
+So the function returned us the maximum
+value, along with the index.
+
+9
+00:00:26,920 --> 00:00:29,710
+Now for multidimensional arrays,
+finding and
+
+10
+00:00:29,710 --> 00:00:32,870
+representing indices is a little tricky.
+
+11
+00:00:32,870 --> 00:00:36,789
+But numpy provides some
+utility functions like
+
+12
+00:00:36,789 --> 00:00:39,212
+underscore index to help you out.
+

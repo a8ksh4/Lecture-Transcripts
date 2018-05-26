@@ -1,0 +1,124 @@
+1
+00:00:00,450 --> 00:00:03,020
+Now before we close, there's one
+other thing I want to touch on.
+
+2
+00:00:03,020 --> 00:00:06,200
+It's called Arbitrage Pricing Theory.
+
+3
+00:00:06,200 --> 00:00:10,522
+Arbitrage Pricing Theory was
+developed by Stephen Ross and
+
+4
+00:00:10,522 --> 00:00:12,775
+first published in 1976.
+
+5
+00:00:12,775 --> 00:00:15,549
+So Dr. Ross observed the CAPM as it was.
+
+6
+00:00:16,680 --> 00:00:20,150
+But he said look,
+we have this single beta
+
+7
+00:00:20,150 --> 00:00:23,440
+that represents a particular
+stock's relationship to the market.
+
+8
+00:00:23,440 --> 00:00:25,454
+Maybe really we ought
+to have multiple betas.
+
+9
+00:00:25,454 --> 00:00:32,920
+The CAPM is really only allowing us to
+consider a stock in the entire ocean.
+
+10
+00:00:32,920 --> 00:00:36,400
+And his idea, if you continue the sort
+of analogy we've been doing in this
+
+11
+00:00:36,400 --> 00:00:41,000
+class, is that we ought to
+consider the different islands.
+
+12
+00:00:41,000 --> 00:00:41,600
+In other words,
+
+13
+00:00:41,600 --> 00:00:46,710
+a particular stock might have exposure
+to different aspects of the market.
+
+14
+00:00:47,870 --> 00:00:51,390
+So, the stock might have
+some exposure to finance, so
+
+15
+00:00:51,390 --> 00:00:56,300
+we could compute the component of
+return due to finance via the beta
+
+16
+00:00:56,300 --> 00:00:59,220
+with regard to finance and
+the return for finance of that day.
+
+17
+00:01:00,340 --> 00:01:06,720
+So we could compute for each stock,
+for each sector, and individual beta.
+
+18
+00:01:06,720 --> 00:01:11,160
+And so his assertion was that
+by breaking out the betas
+
+19
+00:01:11,160 --> 00:01:13,650
+into these different factors,
+
+20
+00:01:13,650 --> 00:01:17,860
+we could get a more accurate forecast of
+what the return's going to look like.
+
+21
+00:01:17,860 --> 00:01:20,890
+And of course we still
+have our alpha over here.
+
+22
+00:01:21,910 --> 00:01:26,290
+We're not going to use APT in this
+class, but since we've been going
+
+23
+00:01:26,290 --> 00:01:30,980
+forward with this analogy of oceans and
+islands and so on, I wanted to bring
+
+24
+00:01:30,980 --> 00:01:34,080
+it to your attention because I
+thought you might find it interesting.
+
+25
+00:01:34,080 --> 00:01:36,560
+Okay, that's it for
+the capital assets pricing model.
+
+26
+00:01:36,560 --> 00:01:37,530
+I'll see you again soon.
+

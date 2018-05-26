@@ -1,0 +1,20 @@
+1
+00:00:00,370 --> 00:00:02,200
+Now consider you were
+building a model and
+
+2
+00:00:02,200 --> 00:00:05,260
+we were going to use it
+in trading in some way.
+
+3
+00:00:05,260 --> 00:00:10,240
+Which factors might you consider
+as inputs or x's versus which of
+
+4
+00:00:10,240 --> 00:00:13,870
+these might be appropriate outputs or
+y's for our model?
+

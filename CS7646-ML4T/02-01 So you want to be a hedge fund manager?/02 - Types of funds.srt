@@ -1,0 +1,233 @@
+1
+00:00:00,610 --> 00:00:04,400
+As I mentioned, we're assuming that you
+want to be a portfolio manager of some
+
+2
+00:00:04,400 --> 00:00:09,610
+sort and there are several different
+sorts of portfolios you might manage.
+
+3
+00:00:09,610 --> 00:00:11,830
+So let's take a look at a few of those.
+
+4
+00:00:11,830 --> 00:00:14,450
+There are many different types of funds,
+of course, but
+
+5
+00:00:14,450 --> 00:00:18,702
+three broad classes that we'll
+take a look at are ETFs or
+
+6
+00:00:18,702 --> 00:00:23,880
+exchange-traded funds,
+mutual funds, and hedge funds.
+
+7
+00:00:23,880 --> 00:00:26,626
+Let's look at the differences
+between these.
+
+8
+00:00:26,626 --> 00:00:29,610
+ETFs, or exchange-traded funds,
+
+9
+00:00:29,610 --> 00:00:33,390
+are very much like stocks in the sense
+that you can buy and sell them.
+
+10
+00:00:33,390 --> 00:00:36,350
+You can observe their prices intraday.
+
+11
+00:00:36,350 --> 00:00:39,980
+You can trade them just like
+stocks on the stock exchange.
+
+12
+00:00:39,980 --> 00:00:42,600
+They represent baskets of stocks.
+
+13
+00:00:42,600 --> 00:00:46,630
+Sometimes they represent other
+instruments like bonds and so on.
+
+14
+00:00:46,630 --> 00:00:51,630
+But it's very well-known and
+they publish what it is they're holding.
+
+15
+00:00:51,630 --> 00:00:55,470
+Accordingly, ETFs are very
+transparent and they're very liquid.
+
+16
+00:00:56,650 --> 00:01:00,720
+Mutual funds are somewhat similar
+to ETFs in the sense that they have
+
+17
+00:01:00,720 --> 00:01:04,370
+a declared goal or mechanism.
+
+18
+00:01:04,370 --> 00:01:09,430
+In other words, they're, for instance,
+trying to track the S&P 500 or
+
+19
+00:01:09,430 --> 00:01:14,250
+some other such goal, but
+they're a little bit different.
+
+20
+00:01:14,250 --> 00:01:19,000
+First of all, you can only buy or
+sell mutual funds at the end of the day.
+
+21
+00:01:19,000 --> 00:01:23,090
+So at the end of the day they add
+up all the things they hold and
+
+22
+00:01:23,090 --> 00:01:26,120
+compute a net asset value, and
+
+23
+00:01:26,120 --> 00:01:31,090
+that's the value at which you can buy or
+sell shares of a mutual fund.
+
+24
+00:01:31,090 --> 00:01:36,120
+They don't disclose exactly what they're
+holding except once every quarter, so
+
+25
+00:01:36,120 --> 00:01:38,800
+they're accordingly less transparent.
+
+26
+00:01:38,800 --> 00:01:42,310
+They're less transparent because
+since their last disclosure,
+
+27
+00:01:42,310 --> 00:01:46,050
+you don't know exactly what
+they might have bought or sold.
+
+28
+00:01:46,050 --> 00:01:50,133
+Still, they're somewhat transparent
+because they have stated goals and
+
+29
+00:01:50,133 --> 00:01:53,500
+you know what they're trying to achieve,
+similar to, say,
+
+30
+00:01:53,500 --> 00:01:55,976
+an ETF that might represent the S&P 500.
+
+31
+00:01:55,976 --> 00:02:00,776
+There are also mutual funds
+that represent large cap stocks
+
+32
+00:02:00,776 --> 00:02:02,606
+like the S&P 500.
+
+33
+00:02:02,606 --> 00:02:07,090
+Hedge funds are even less
+transparent than mutual funds.
+
+34
+00:02:07,090 --> 00:02:10,830
+In fact,
+even to buy shares in a hedge fund,
+
+35
+00:02:10,830 --> 00:02:14,354
+you have to enter into an agreement
+that is usually secret in
+
+36
+00:02:14,354 --> 00:02:18,410
+the sense that you're not supposed to
+reveal the contents of that agreement.
+
+37
+00:02:18,410 --> 00:02:21,310
+It's hard to exit a hedge fund.
+
+38
+00:02:21,310 --> 00:02:24,950
+They usually require you
+to put your money in and
+
+39
+00:02:24,950 --> 00:02:29,950
+leave it there for some number
+of months, sometimes years, and
+
+40
+00:02:29,950 --> 00:02:34,040
+when you take it out, you can't
+necessarily take it out all at once.
+
+41
+00:02:34,040 --> 00:02:38,280
+Hedge funds don't ever have to
+disclose what they're holding,
+
+42
+00:02:38,280 --> 00:02:41,320
+not even to the investors
+in the hedge funds.
+
+43
+00:02:41,320 --> 00:02:44,490
+Now, that might dissuade
+you from wanting, say,
+
+44
+00:02:44,490 --> 00:02:47,570
+to invest in it if you don't
+know what they're holding.
+
+45
+00:02:47,570 --> 00:02:48,270
+On the other hand, you know,
+
+46
+00:02:48,270 --> 00:02:52,580
+if they show you a good performance,
+you might want to invest.
+
+47
+00:02:52,580 --> 00:02:57,440
+They will usually describe to clients
+what their strategy is and so
+
+48
+00:02:57,440 --> 00:03:00,650
+on to encourage clients to invest.
+
+49
+00:03:00,650 --> 00:03:03,620
+Accordingly, hedge funds
+are not transparent at all.
+

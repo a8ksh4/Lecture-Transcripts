@@ -1,0 +1,62 @@
+1
+00:00:00,330 --> 00:00:03,000
+This is the best answer, here's why.
+
+2
+00:00:03,000 --> 00:00:06,090
+First of all, observe that
+we're dividing by volatility
+
+3
+00:00:06,090 --> 00:00:07,320
+here on the bottom.
+
+4
+00:00:07,320 --> 00:00:11,240
+So as things become more volatile,
+the ratio goes down.
+
+5
+00:00:11,240 --> 00:00:14,000
+We've got return on
+portfolio here on the top.
+
+6
+00:00:14,000 --> 00:00:16,820
+So as return goes up,
+the metric goes up.
+
+7
+00:00:16,820 --> 00:00:20,150
+And finally,
+we subtract the risk free return here.
+
+8
+00:00:20,150 --> 00:00:26,470
+So as risk free return increases,
+the value of our metric decreases.
+
+9
+00:00:26,470 --> 00:00:30,940
+Meaning, essentially we need to have
+a higher return on our portfolio.
+
+10
+00:00:30,940 --> 00:00:34,660
+Than the risk free metric in order
+to have a positive number here.
+
+11
+00:00:34,660 --> 00:00:39,620
+This is indeed the form
+of the sharp ratio.
+
+12
+00:00:39,620 --> 00:00:41,665
+There are a few more details.
+
+13
+00:00:41,665 --> 00:00:46,090
+But this is essentially the ratio
+devised by William Sharpe
+

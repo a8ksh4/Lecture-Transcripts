@@ -1,0 +1,88 @@
+1
+00:00:00,450 --> 00:00:04,350
+In this lesson, we're going to take a
+look at the various kinds of statistics
+
+2
+00:00:04,350 --> 00:00:07,689
+that we can take on time series data.
+
+3
+00:00:07,689 --> 00:00:10,430
+Let's start first with
+global statistics.
+
+4
+00:00:10,430 --> 00:00:18,620
+Consider our trusty data frame DF1 with
+columns for SPY, XOM, Google, and Gold.
+
+5
+00:00:18,620 --> 00:00:21,330
+We can take the mean
+
+6
+00:00:21,330 --> 00:00:26,610
+of each of these columns very
+simply with a statement like this.
+
+7
+00:00:26,610 --> 00:00:29,980
+This statement will take
+the mean of each column and
+
+8
+00:00:29,980 --> 00:00:35,125
+put it in the appropriate location
+of a new one-dimensional or
+
+9
+00:00:35,125 --> 00:00:37,900
+row-wise of the array.
+
+10
+00:00:37,900 --> 00:00:40,890
+Now because this is a data frame,
+and remember,
+
+11
+00:00:40,890 --> 00:00:45,930
+a data frame augments NumPy and
+provides a lot more functionality.
+
+12
+00:00:45,930 --> 00:00:50,140
+It's sort of in the array on steroids.
+
+13
+00:00:50,140 --> 00:00:54,670
+Now we get lots and lots of
+functions we can access in this way.
+
+14
+00:00:54,670 --> 00:00:58,490
+We already mentioned mean in
+addition to mean we've got median,
+
+15
+00:00:58,490 --> 00:01:01,603
+standard deviation, sum, prod, mode.
+
+16
+00:01:01,603 --> 00:01:08,670
+All together there's at least 33 global
+statistics you can compute in this way.
+
+17
+00:01:08,670 --> 00:01:10,910
+And they're always adding more.
+
+18
+00:01:10,910 --> 00:01:12,600
+Let me hand it over to Dave and
+
+19
+00:01:12,600 --> 00:01:14,990
+she's going to show you
+how to do this in code.
+

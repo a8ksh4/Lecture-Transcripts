@@ -1,0 +1,130 @@
+1
+00:00:00,220 --> 00:00:03,890
+Before we leave technical analysis
+I want to bring up one more point
+
+2
+00:00:03,890 --> 00:00:05,570
+called normalization.
+
+3
+00:00:05,570 --> 00:00:10,200
+So, take a look at these different
+technical indicators we created here,
+
+4
+00:00:10,200 --> 00:00:13,410
+simple moving average,
+momentum, and Bollinger bands.
+
+5
+00:00:13,410 --> 00:00:17,100
+They have different ranges that they
+typically operate over, so, like I said
+
+6
+00:00:17,100 --> 00:00:24,710
+we would expect to see values of -.5
+to +.5 For simple moving average.
+
+7
+00:00:24,710 --> 00:00:27,530
+For momentum, similar kind of range.
+
+8
+00:00:27,530 --> 00:00:31,850
+Bollinger Band typically
+inhabits -1.0 to 1.0.
+
+9
+00:00:31,850 --> 00:00:35,940
+If we were to plug these values into
+some sort of machine learner we
+
+10
+00:00:35,940 --> 00:00:37,980
+would have a little bit of a problem.
+
+11
+00:00:37,980 --> 00:00:41,880
+And what would happen,
+we'll have to go into the details later.
+
+12
+00:00:41,880 --> 00:00:46,370
+But the Bollinger Band factor would tend
+to overwhelm these other factors and
+
+13
+00:00:46,370 --> 00:00:48,080
+become the most important one.
+
+14
+00:00:48,080 --> 00:00:52,500
+It might get even worse if we included
+fundamental factor like PE ratio
+
+15
+00:00:52,500 --> 00:00:55,410
+that can range from 1
+all the way up to 300.
+
+16
+00:00:55,410 --> 00:00:58,750
+The solution is something
+called normalization.
+
+17
+00:00:58,750 --> 00:01:02,530
+And what normalization does it
+takes each of these factors and
+
+18
+00:01:02,530 --> 00:01:05,780
+essentially compresses them or
+stretches them so
+
+19
+00:01:05,780 --> 00:01:10,120
+that they vary on average from -1 to +1.
+
+20
+00:01:10,120 --> 00:01:14,850
+Normalization is simple,
+you take your original values for
+
+21
+00:01:14,850 --> 00:01:19,240
+a particular factor subtract
+the mean from all of them,
+
+22
+00:01:19,240 --> 00:01:22,200
+then divide by the standard
+deviation of all of them.
+
+23
+00:01:22,200 --> 00:01:26,118
+This will give you a normed result that,
+on average,
+
+24
+00:01:26,118 --> 00:01:30,918
+is going to vary between -1 and
+1, and it'll have a mean of 0.
+
+25
+00:01:30,918 --> 00:01:34,345
+So remember this trick for
+later when we get to machine learning,
+
+26
+00:01:34,345 --> 00:01:38,272
+or if you're working with technical
+indicators yourself, you may want to
+
+27
+00:01:38,272 --> 00:01:42,160
+apply this normalization approach
+to the numbers you're working with.
+

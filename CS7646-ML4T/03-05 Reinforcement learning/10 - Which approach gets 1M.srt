@@ -1,0 +1,82 @@
+1
+00:00:00,220 --> 00:00:03,050
+So there are actually
+several that satisfy that.
+
+2
+00:00:03,050 --> 00:00:07,760
+Infinite horizon is a little bit iffy
+because the robot can go this way and
+
+3
+00:00:07,760 --> 00:00:11,420
+get a dollar on every other move and
+that will add up to infinity.
+
+4
+00:00:11,420 --> 00:00:14,800
+It can go here and get the $1 million
+and then come back and do that and
+
+5
+00:00:14,800 --> 00:00:16,000
+it will add up to infinity.
+
+6
+00:00:16,000 --> 00:00:20,090
+So it's possible that infinite
+horizon will cause it to do that but
+
+7
+00:00:20,090 --> 00:00:21,986
+there's two equivalent solutions.
+
+8
+00:00:21,986 --> 00:00:28,990
+Finite with n=4,
+no it won't get to that $1 million.
+
+9
+00:00:28,990 --> 00:00:33,330
+Because if it tries to go that way,
+it'll only get negative reward here, but
+
+10
+00:00:33,330 --> 00:00:35,690
+it'll get positive reward
+if it goes that way.
+
+11
+00:00:35,690 --> 00:00:41,760
+However, if we let n go out to 10,
+boom, it'll reach that $1 million.
+
+12
+00:00:41,760 --> 00:00:46,925
+And finally, discounted reward, where
+each dollar in the future is only worth
+
+13
+00:00:46,925 --> 00:00:53,120
+0.95, and that gets smaller as we get
+further and further into the future.
+
+14
+00:00:53,120 --> 00:00:59,370
+Still, by the time we get to the eight
+steps that it takes to reach this
+
+15
+00:00:59,370 --> 00:01:04,610
+reward It's still so huge that that's
+clearly the optimal thing to do.
+
+16
+00:01:04,610 --> 00:01:05,120
+Okay, so
+
+17
+00:01:05,120 --> 00:01:10,030
+those are the answers to which horizons
+will cause us to get to that $1 million.
+

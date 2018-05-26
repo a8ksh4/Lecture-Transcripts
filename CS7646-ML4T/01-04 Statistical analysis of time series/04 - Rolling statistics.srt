@@ -1,0 +1,201 @@
+1
+00:00:00,012 --> 00:00:05,430
+We're going to introduce a new kind of
+statistic now called rolling statistics,
+
+2
+00:00:05,430 --> 00:00:09,800
+and as opposed to just
+taking the mean across
+
+3
+00:00:09,800 --> 00:00:14,700
+the whole period of time we take
+sort of a snapshot over windows.
+
+4
+00:00:14,700 --> 00:00:17,342
+I'll show you what that
+means in just a moment.
+
+5
+00:00:17,342 --> 00:00:22,070
+Now on that last slide,
+we computed a global mean,
+
+6
+00:00:22,070 --> 00:00:26,650
+which would be something
+about like this on this data.
+
+7
+00:00:27,890 --> 00:00:31,610
+A rolling mean is a little bit
+different and here's how it works.
+
+8
+00:00:31,610 --> 00:00:36,118
+Let's suppose we're going to
+take a 20 day rolling mean.
+
+9
+00:00:36,118 --> 00:00:42,550
+We go, starting from here,
+20 days, it's right about here.
+
+10
+00:00:42,550 --> 00:00:46,950
+And then we take the mean
+of all that data behind us.
+
+11
+00:00:48,390 --> 00:00:49,830
+We can draw a little box around that.
+
+12
+00:00:51,760 --> 00:00:53,970
+This is called the window.
+
+13
+00:00:53,970 --> 00:00:56,500
+In our case, it's 20 days.
+
+14
+00:00:56,500 --> 00:01:02,020
+So we average all these values, and
+we get one mean, which is this point.
+
+15
+00:01:02,020 --> 00:01:06,800
+We then move the window forward
+one day and we take another mean.
+
+16
+00:01:06,800 --> 00:01:09,240
+Here's our next mean,
+which is a little bit higher.
+
+17
+00:01:09,240 --> 00:01:14,440
+Now if we do that everyday over
+this entire year, so this is S and
+
+18
+00:01:14,440 --> 00:01:20,430
+P 500 over the year 2012, we get
+something that looks about like this.
+
+19
+00:01:20,430 --> 00:01:25,920
+You can see essentially, that it's
+a line that follows the day-to-day
+
+20
+00:01:25,920 --> 00:01:30,110
+values of whatever it is we're tracking,
+but it lags a little bit.
+
+21
+00:01:30,110 --> 00:01:32,690
+It's sort of a smoothed and lagged line.
+
+22
+00:01:32,690 --> 00:01:35,060
+And this is called the rolling mean.
+
+23
+00:01:35,060 --> 00:01:39,300
+We can compute statistics like this,
+just like the rolling mean.
+
+24
+00:01:39,300 --> 00:01:41,570
+We could do standard deviation.
+
+25
+00:01:41,570 --> 00:01:45,560
+We could do mode, median and so on.
+
+26
+00:01:45,560 --> 00:01:49,187
+All of those statistics I
+showed you just a moment ago
+
+27
+00:01:49,187 --> 00:01:51,997
+can also be used as rolling statistics.
+
+28
+00:01:51,997 --> 00:01:56,757
+In the next mini course we are going to
+spend a lot of time talking about
+
+29
+00:01:56,757 --> 00:02:02,200
+technical indicators, and this is
+actually one of them this rolling mean,
+
+30
+00:02:02,200 --> 00:02:07,400
+it's called by technical
+analysts a simple moving average.
+
+31
+00:02:07,400 --> 00:02:10,970
+And one thing they
+look at is places where
+
+32
+00:02:10,970 --> 00:02:15,840
+the price crosses through
+the rolling average.
+
+33
+00:02:15,840 --> 00:02:21,980
+So, in this case, the price is
+moving down through the 20 day mean.
+
+34
+00:02:21,980 --> 00:02:26,740
+Now a hypothesis that I'm
+not saying I support, but
+
+35
+00:02:26,740 --> 00:02:33,190
+a hypothesis that many who
+conduct technical analysis,
+
+36
+00:02:33,190 --> 00:02:39,530
+is that this rolling mean may be a good
+representation of sort of the true
+
+37
+00:02:39,530 --> 00:02:44,010
+underlying price of a stock, and
+that significant deviations from that,
+
+38
+00:02:44,010 --> 00:02:48,780
+like this one here eventually
+result in a return to the mean.
+
+39
+00:02:48,780 --> 00:02:54,130
+So if you can look for, say
+significant deviations like this one,
+
+40
+00:02:54,130 --> 00:02:58,190
+you might find say
+a buying opportunity here.
+
+41
+00:02:58,190 --> 00:03:03,360
+A challenge though, is to know when
+is that deviation significant enough
+
+42
+00:03:03,360 --> 00:03:05,170
+that you should pay attention to it.
+

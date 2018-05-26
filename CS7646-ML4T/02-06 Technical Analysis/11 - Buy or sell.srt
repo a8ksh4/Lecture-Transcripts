@@ -1,0 +1,66 @@
+1
+00:00:00,590 --> 00:00:02,250
+Let's take a look at this first one.
+
+2
+00:00:02,250 --> 00:00:07,230
+So we went from outside the upper
+band and crossed down inside it.
+
+3
+00:00:07,230 --> 00:00:13,610
+That is a sell signal because we've gone
+very far from the moving average, and
+
+4
+00:00:13,610 --> 00:00:17,010
+we've validated now that we're moving
+back towards the moving average so
+
+5
+00:00:17,010 --> 00:00:18,110
+that's a sell.
+
+6
+00:00:19,130 --> 00:00:27,640
+Here, we've gone from inside to outside,
+and that is never a signal.
+
+7
+00:00:27,640 --> 00:00:29,730
+It does indicate, of course,
+
+8
+00:00:29,730 --> 00:00:33,490
+a significant excursion from the moving
+average, but we're looking for
+
+9
+00:00:33,490 --> 00:00:38,520
+the validation that it comes back
+inside, so this is not a signal at all.
+
+10
+00:00:39,560 --> 00:00:42,920
+Here however we've come back
+through that bottom band, and
+
+11
+00:00:42,920 --> 00:00:45,330
+that is a buy signal.
+
+12
+00:00:45,330 --> 00:00:49,220
+Finally for this last one, number four,
+we've gone outside the lower band and
+
+13
+00:00:49,220 --> 00:00:53,360
+we've transitioned up inside it,
+that is a buy signal.
+
+14
+00:00:53,360 --> 00:00:56,320
+So that's Bollinger bands and
+how you might use them.
+

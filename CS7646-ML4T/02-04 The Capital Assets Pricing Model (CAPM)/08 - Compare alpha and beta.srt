@@ -1,0 +1,34 @@
+1
+00:00:00,650 --> 00:00:05,340
+So recall that beta is
+the slope of the line and
+
+2
+00:00:05,340 --> 00:00:10,848
+alpha is where it hits
+the y-intercept there.
+
+3
+00:00:10,848 --> 00:00:11,913
+So, higher alpha.
+
+4
+00:00:11,913 --> 00:00:17,110
+Well ABC is intersecting
+the y-axis there
+
+5
+00:00:17,110 --> 00:00:24,390
+much further up than XYZ so
+ABC's got higher alpha.
+
+6
+00:00:24,390 --> 00:00:30,460
+In terms of beta, look,
+the slope of ABC is much higher than XYZ
+
+7
+00:00:30,460 --> 00:00:35,770
+so ABC also wins on
+the higher beta question.
+

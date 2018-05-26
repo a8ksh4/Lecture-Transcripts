@@ -1,0 +1,37 @@
+1
+00:00:00,470 --> 00:00:05,351
+Now we come to the last thing we need to
+solve in order to convert our trading
+
+2
+00:00:05,351 --> 00:00:09,869
+problem into a q learning problem,
+and that is to define our state.
+
+3
+00:00:09,869 --> 00:00:12,031
+I want you to consider these factors and
+
+4
+00:00:12,031 --> 00:00:15,970
+let me know which ones you think
+make sense to be in this state.
+
+5
+00:00:15,970 --> 00:00:19,400
+Okay, so here are a few factors.
+
+6
+00:00:19,400 --> 00:00:20,290
+Look at each one and
+
+7
+00:00:20,290 --> 00:00:24,165
+consider whether you think they
+make sense to be in state.
+
+8
+00:00:24,165 --> 00:00:27,620
+And check the ones that
+you think do make sense.
+

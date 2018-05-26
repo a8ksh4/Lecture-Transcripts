@@ -1,0 +1,20 @@
+1
+00:00:00,400 --> 00:00:04,460
+I want you to consider each
+of these optimizations and
+
+2
+00:00:04,460 --> 00:00:08,960
+answer which of those will
+get us to the $1 million.
+
+3
+00:00:08,960 --> 00:00:14,870
+In other words, if the robot is trying
+to maximize the sum over these horizons,
+
+4
+00:00:14,870 --> 00:00:20,080
+which ones will lead it to a policy
+that causes it to reach that $1 million?
+

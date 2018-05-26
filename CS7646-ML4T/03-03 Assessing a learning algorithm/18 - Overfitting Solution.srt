@@ -1,0 +1,63 @@
+1
+00:00:00,190 --> 00:00:02,770
+So the answer is b.
+
+2
+00:00:02,770 --> 00:00:07,370
+This is a little bit tricky because
+the relationship for k and n and error
+
+3
+00:00:07,370 --> 00:00:12,040
+is a little bit different than it is for
+polynomial degrees of freedom and error.
+
+4
+00:00:12,040 --> 00:00:18,160
+Remember that as we reduce k down to
+1 our in sample error approaches 0.
+
+5
+00:00:18,160 --> 00:00:22,430
+In fact it becomes a 0
+when k is equal to 1.
+
+6
+00:00:22,430 --> 00:00:27,610
+And similarly as we decrease k,
+our other sample error decreases.
+
+7
+00:00:27,610 --> 00:00:30,250
+But at some point it begins to increase.
+
+8
+00:00:30,250 --> 00:00:35,560
+This one is wrong because as we
+increase k, our error increases.
+
+9
+00:00:35,560 --> 00:00:38,570
+So this is not showing that
+relationship correctly.
+
+10
+00:00:38,570 --> 00:00:42,515
+And this is just garbage that I threw
+in there to see if anybody would bite.
+
+11
+00:00:42,515 --> 00:00:48,150
+[LAUGH] Now the region here in which
+overfitting is occurring is here,
+
+12
+00:00:48,150 --> 00:00:53,010
+because remember,
+as out of sample error increases, and
+
+13
+00:00:53,010 --> 00:00:56,850
+in sample error is decreasing,
+that's where overfitting occurs
+

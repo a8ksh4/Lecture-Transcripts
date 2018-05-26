@@ -1,0 +1,103 @@
+1
+00:00:00,380 --> 00:00:03,640
+Now I want you to try to pull all
+this together that we taught you so
+
+2
+00:00:03,640 --> 00:00:04,890
+far in this lesson.
+
+3
+00:00:04,890 --> 00:00:08,770
+I'm going to give you some specific
+details about a particular stock and
+
+4
+00:00:08,770 --> 00:00:12,860
+I want you to tell me if
+you would buy that stock.
+
+5
+00:00:12,860 --> 00:00:15,828
+And give you information
+about the company,
+
+6
+00:00:15,828 --> 00:00:20,290
+which has one value and the stock
+which is not necessarily the same.
+
+7
+00:00:20,290 --> 00:00:23,528
+And I want you to tell me,
+would you buy that stock.
+
+8
+00:00:23,528 --> 00:00:26,809
+We're going to break it into
+a few individual problems,
+
+9
+00:00:26,809 --> 00:00:30,814
+three little problems and then we're
+going to ask the big question.
+
+10
+00:00:30,814 --> 00:00:33,920
+We'll start with the three
+little problems.
+
+11
+00:00:33,920 --> 00:00:35,580
+Consider this company.
+
+12
+00:00:35,580 --> 00:00:36,780
+It's an airline.
+
+13
+00:00:36,780 --> 00:00:37,920
+It owns ten airlines.
+
+14
+00:00:37,920 --> 00:00:39,570
+Each of them is worth 10 million.
+
+15
+00:00:40,600 --> 00:00:45,110
+It's got a brand name that's worth
+10 million, and it's got a loan or
+
+16
+00:00:45,110 --> 00:00:47,840
+liability of 20 million.
+
+17
+00:00:47,840 --> 00:00:51,080
+All those go into the calculation
+of the book value.
+
+18
+00:00:51,080 --> 00:00:55,882
+With regard to intrinsic value,
+it pays $1 million
+
+19
+00:00:55,882 --> 00:01:00,700
+per year in dividends
+assuming a 5% discount rate.
+
+20
+00:01:00,700 --> 00:01:02,710
+What's that intrinsic value?
+
+21
+00:01:02,710 --> 00:01:05,910
+Finally, I want you to compute the
+market capitalization assuming there's
+
+22
+00:01:05,910 --> 00:01:10,160
+one million shares outstanding and
+$75 stock price.
+

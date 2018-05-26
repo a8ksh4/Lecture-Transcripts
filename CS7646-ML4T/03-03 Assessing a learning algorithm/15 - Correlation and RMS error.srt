@@ -1,0 +1,30 @@
+1
+00:00:00,080 --> 00:00:04,270
+So in most cases,
+in fact almost all cases,
+
+2
+00:00:04,270 --> 00:00:09,693
+as RMS error increases,
+correlation decreases.
+
+3
+00:00:09,693 --> 00:00:13,220
+So this would be
+a reasonably correct answer.
+
+4
+00:00:13,220 --> 00:00:18,250
+But it is possible to
+construct examples where
+
+5
+00:00:18,250 --> 00:00:23,200
+as RMS error increases,
+correlation might increase.
+
+6
+00:00:23,200 --> 00:00:29,350
+So that also lets you have it correct if
+you checked we can't be sure either way.
+

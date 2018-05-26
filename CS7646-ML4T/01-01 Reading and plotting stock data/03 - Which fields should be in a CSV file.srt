@@ -1,0 +1,27 @@
+1
+00:00:00,370 --> 00:00:03,510
+Which fields or items in a header row,
+
+2
+00:00:03,510 --> 00:00:08,250
+would you expect to see in a comma
+separated value file of stock data?
+
+3
+00:00:08,250 --> 00:00:10,100
+So here are the options.
+
+4
+00:00:10,100 --> 00:00:13,596
+Number of employees for
+the company, date/time,
+
+5
+00:00:13,596 --> 00:00:18,702
+company name, price of the stock,
+company's hometown.
+
+6
+00:00:18,702 --> 00:00:19,692
+Good luck.
+

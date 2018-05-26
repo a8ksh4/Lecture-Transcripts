@@ -1,0 +1,226 @@
+1
+00:00:00,560 --> 00:00:03,490
+Is the efficient markets
+hypothesis correct?
+
+2
+00:00:03,490 --> 00:00:05,520
+Well, if it is,
+
+3
+00:00:05,520 --> 00:00:10,150
+then a lot of what we're trying to
+do in this course is not possible.
+
+4
+00:00:10,150 --> 00:00:13,160
+Namely, we can't beat the market
+
+5
+00:00:13,160 --> 00:00:16,720
+using any of these strategies
+we might be looking at.
+
+6
+00:00:16,720 --> 00:00:19,640
+Now, I think there is evidence that
+
+7
+00:00:19,640 --> 00:00:24,040
+certain versions of
+the hypothesis are not correct.
+
+8
+00:00:24,040 --> 00:00:27,800
+And there are a number of very
+successful hedge funds out there
+
+9
+00:00:27,800 --> 00:00:33,150
+that would seem to indicate that
+you can make money in the market
+
+10
+00:00:33,150 --> 00:00:36,980
+by investing in things other
+than just the market portfolio.
+
+11
+00:00:36,980 --> 00:00:41,053
+I would say the strong version
+of the efficient markets
+
+12
+00:00:41,053 --> 00:00:45,370
+hypothesis is the least solid.
+
+13
+00:00:45,370 --> 00:00:46,030
+In other words,
+
+14
+00:00:46,030 --> 00:00:52,180
+the strong version says that you can't
+even profit from insider information.
+
+15
+00:00:52,180 --> 00:00:56,690
+The reason that I think that
+one is not true is because
+
+16
+00:00:56,690 --> 00:01:00,750
+we have seen people make money
+from insider information.
+
+17
+00:01:00,750 --> 00:01:04,319
+Some of them have gone to jail,
+but clearly,
+
+18
+00:01:04,319 --> 00:01:09,640
+it's a method that can provide profit,
+even though it might be illegal.
+
+19
+00:01:09,640 --> 00:01:12,760
+This is an interesting
+data set that seems to
+
+20
+00:01:12,760 --> 00:01:17,640
+refute the semi-strong version of the
+efficient markets hypothesis as well.
+
+21
+00:01:17,640 --> 00:01:23,140
+It's a little bit complex, so
+I'll step through it carefully.
+
+22
+00:01:23,140 --> 00:01:26,380
+So, let's look at the blue dots.
+
+23
+00:01:26,380 --> 00:01:31,270
+Each dot here represents the P/E ratio
+
+24
+00:01:31,270 --> 00:01:35,680
+on a particular date, so, for instance,
+
+25
+00:01:35,680 --> 00:01:41,420
+this stock had a P/E ratio of 20,
+that's price to earnings.
+
+26
+00:01:41,420 --> 00:01:45,050
+That's the horizontal
+component of its location.
+
+27
+00:01:45,050 --> 00:01:47,630
+The vertical location is
+
+28
+00:01:47,630 --> 00:01:52,920
+how much money did it make in
+terms of price over 20 years.
+
+29
+00:01:52,920 --> 00:01:58,310
+So for instance, this stock had
+a price/earnings ratio of 20.
+
+30
+00:01:58,310 --> 00:02:04,850
+And it made about 4% annualized returns.
+
+31
+00:02:04,850 --> 00:02:08,229
+As we go down this way,
+the P/E ratio is lower.
+
+32
+00:02:08,229 --> 00:02:10,780
+So lower numbers for
+P/E ratio are better.
+
+33
+00:02:10,780 --> 00:02:14,810
+If you think about it,
+price divided by earnings,
+
+34
+00:02:14,810 --> 00:02:18,729
+if it's a lower price and has higher
+earnings, you'll get a lower number.
+
+35
+00:02:19,770 --> 00:02:26,500
+So, presumably, lower values this way
+indicate higher value for a stock.
+
+36
+00:02:26,500 --> 00:02:29,200
+And each group of colors represents
+
+37
+00:02:30,360 --> 00:02:33,120
+different decade when
+the analysis was done.
+
+38
+00:02:33,120 --> 00:02:38,035
+So, for instance, this dark blue
+was an analysis based on what
+
+39
+00:02:38,035 --> 00:02:43,130
+the P/E ratios of stocks
+were in 1890 to 1910 and
+
+40
+00:02:43,130 --> 00:02:49,670
+all the way up to the red,
+which was 1970 through 1985.
+
+41
+00:02:49,670 --> 00:02:53,620
+Now for all of these decades,
+
+42
+00:02:54,680 --> 00:02:59,208
+we saw that at the beginning of
+the corresponding time period,
+
+43
+00:02:59,208 --> 00:03:05,840
+low P/E ratios corresponded
+with higher returns.
+
+44
+00:03:05,840 --> 00:03:12,100
+So this shows that price/earnings
+ratios are very predictive across many,
+
+45
+00:03:12,100 --> 00:03:16,380
+many decades of future returns, and
+
+46
+00:03:16,380 --> 00:03:20,960
+that tends to refute
+the semi-strong version of the EMH.
+
+47
+00:03:20,960 --> 00:03:23,490
+Okay, that's it for
+the efficient markets hypothesis.
+
+48
+00:03:23,490 --> 00:03:26,020
+I will see you again soon, bye, bye.
+

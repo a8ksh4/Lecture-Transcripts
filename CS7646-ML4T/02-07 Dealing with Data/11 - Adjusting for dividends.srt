@@ -1,0 +1,257 @@
+1
+00:00:00,370 --> 00:00:03,170
+So here I've redrawn that same scenario.
+
+2
+00:00:03,170 --> 00:00:07,820
+We've got the price of a stock,
+trundling along.
+
+3
+00:00:07,820 --> 00:00:13,410
+On this date, the dividend is announced
+that it will be paid on this date.
+
+4
+00:00:13,410 --> 00:00:17,780
+And so we see, in general,
+the price rising up until that date and
+
+5
+00:00:17,780 --> 00:00:19,850
+then a strong drop.
+
+6
+00:00:19,850 --> 00:00:25,795
+And again, the consensus value for
+the company is about $100.
+
+7
+00:00:25,795 --> 00:00:31,400
+Let's consider now how we might adjust
+historical prices for this situation.
+
+8
+00:00:32,540 --> 00:00:35,230
+Again, adjusted price as of today or
+
+9
+00:00:35,230 --> 00:00:40,370
+the latest day in our data,
+is always the same as the actual price.
+
+10
+00:00:40,370 --> 00:00:44,630
+And as we go back in time,
+it remains about the same
+
+11
+00:00:44,630 --> 00:00:48,440
+until we hit one of these events
+like a dividend or a split.
+
+12
+00:00:48,440 --> 00:00:52,760
+So we treat, historically, the price in
+the same way that we do with this split.
+
+13
+00:00:52,760 --> 00:00:56,780
+In other words,
+just before the dividend is paid,
+
+14
+00:00:56,780 --> 00:01:02,320
+we adjust all of these prices down
+by the proportion of the dividend.
+
+15
+00:01:02,320 --> 00:01:07,190
+So in this case we adjust
+everything down by about 1%,
+
+16
+00:01:07,190 --> 00:01:09,260
+all the way back in history.
+
+17
+00:01:09,260 --> 00:01:12,620
+So our adjusted price
+continues like this.
+
+18
+00:01:13,640 --> 00:01:17,380
+Now to double check this for
+rationality,
+
+19
+00:01:17,380 --> 00:01:20,320
+consider that you bought
+the stock around this date and
+
+20
+00:01:20,320 --> 00:01:24,730
+you held it all the way
+though the dividend payment
+
+21
+00:01:24,730 --> 00:01:30,330
+you would get an increase in value
+of your holding of about one dollar.
+
+22
+00:01:30,330 --> 00:01:33,330
+So the adjustment is
+achieving its purpose,
+
+23
+00:01:33,330 --> 00:01:38,780
+which is to allow us to not worry
+about dividends and splits.
+
+24
+00:01:38,780 --> 00:01:42,710
+Just go back in time, buy,
+and hold the share, and
+
+25
+00:01:42,710 --> 00:01:45,740
+see how much our value accumulates.
+
+26
+00:01:45,740 --> 00:01:49,694
+So for the data we'll be working
+with in this class, which are daily
+
+27
+00:01:49,694 --> 00:01:55,530
+close values, we have in our
+data both actual and adjusted.
+
+28
+00:01:55,530 --> 00:02:00,300
+And in almost every instance I
+will assume that we're using
+
+29
+00:02:00,300 --> 00:02:04,290
+adjusted closed prices
+in our calculations.
+
+30
+00:02:05,300 --> 00:02:10,750
+Another couple things to reiterate about
+adjustments is the last day in our file,
+
+31
+00:02:10,750 --> 00:02:16,560
+usually that's as of today, the adjusted
+and actual close value are the same.
+
+32
+00:02:17,690 --> 00:02:21,200
+So any day that you look,
+say you've gotta go to Yahoo Finance or
+
+33
+00:02:21,200 --> 00:02:24,620
+Google Finance and
+you get adjusted close and
+
+34
+00:02:24,620 --> 00:02:29,500
+actual close, you'll see that today
+they're exactly the same price, but
+
+35
+00:02:29,500 --> 00:02:33,740
+as you go back in time they
+will begin to diverge and
+
+36
+00:02:33,740 --> 00:02:38,140
+the prices we use are adjusted for
+both dividends and
+
+37
+00:02:38,140 --> 00:02:42,970
+splits, and it's very important
+that you always use adjusted close.
+
+38
+00:02:43,970 --> 00:02:51,810
+One other thing to mention is
+suppose we had this data as of 2012.
+
+39
+00:02:51,810 --> 00:02:58,300
+And so this last date here in our file
+is some date in 2012, and you go and
+
+40
+00:02:58,300 --> 00:03:04,240
+you look at the adjusted close,
+let's suppose this is some date in 2010.
+
+41
+00:03:04,240 --> 00:03:07,810
+That value, that adjusted close value,
+
+42
+00:03:07,810 --> 00:03:13,310
+will be different if you
+gather data from, say, 2015.
+
+43
+00:03:13,310 --> 00:03:16,510
+So if you go to Yahoo and
+
+44
+00:03:16,510 --> 00:03:21,377
+get today's adjusted close,
+there will certainly, for
+
+45
+00:03:21,377 --> 00:03:26,510
+most stocks, there will be dividends and
+splits that have occurred since 2012.
+
+46
+00:03:26,510 --> 00:03:31,575
+And so this adjusted close
+price today in Yahoo's data,
+
+47
+00:03:31,575 --> 00:03:37,378
+will be different, most likely
+lower than the adjusted close for
+
+48
+00:03:37,378 --> 00:03:41,613
+that date,
+if you had gathered it in 2012.
+
+49
+00:03:41,613 --> 00:03:45,868
+I know it's a little bit tricky,
+the key point is for
+
+50
+00:03:45,868 --> 00:03:52,760
+projects in this class you need to use
+the data that's provided for the class.
+
+51
+00:03:52,760 --> 00:03:55,890
+It was gathered as of 2012.
+
+52
+00:03:55,890 --> 00:03:59,340
+If you go to yahoo and get new data,
+you're going to get different answers
+
+53
+00:03:59,340 --> 00:04:01,930
+for the projects, so
+just keep that in mind.
+

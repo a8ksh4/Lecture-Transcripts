@@ -1,0 +1,100 @@
+1
+00:00:00,520 --> 00:00:01,800
+It's quiz time.
+
+2
+00:00:01,800 --> 00:00:04,750
+Professor explained to you how
+to get Bollinger Bands and
+
+3
+00:00:04,750 --> 00:00:07,660
+now you get to try it yourself.
+
+4
+00:00:07,660 --> 00:00:13,637
+Here's the data frame containing
+the stock prices for SPY for year 2012.
+
+5
+00:00:13,637 --> 00:00:18,080
+Now computing Bollinger Bands
+consists of three main steps.
+
+6
+00:00:18,080 --> 00:00:23,890
+First, compute rolling mean followed by
+computing rolling standard deviation.
+
+7
+00:00:23,890 --> 00:00:27,860
+And then, finally, computing the values
+for the upper and the lower bands.
+
+8
+00:00:27,860 --> 00:00:31,560
+We want you to implement
+one function for each step.
+
+9
+00:00:31,560 --> 00:00:33,950
+You can call each
+function in this manner.
+
+10
+00:00:35,020 --> 00:00:36,690
+Note that in this case,
+
+11
+00:00:36,690 --> 00:00:41,050
+we use a window size of 20 for
+calculating rolling statistics.
+
+12
+00:00:41,050 --> 00:00:43,780
+But we should be able to vary this.
+
+13
+00:00:43,780 --> 00:00:49,670
+Finally, we plot the original prices,
+rolling mean, and the Bollinger Bands.
+
+14
+00:00:49,670 --> 00:00:52,830
+Let me start you out with
+one of the functions.
+
+15
+00:00:52,830 --> 00:00:56,730
+Here is how I would
+implement get_rolling_mean.
+
+16
+00:00:56,730 --> 00:01:01,960
+Now go ahead and write code to compute
+the rolling standard deviation and
+
+17
+00:01:01,960 --> 00:01:05,540
+calculate the upper and
+the lower Bollinger Bands.
+
+18
+00:01:05,540 --> 00:01:08,600
+Wondering how to compute
+rolling standard deviation?
+
+19
+00:01:08,600 --> 00:01:11,780
+Check out the trusty panels
+documentation for that.
+
+20
+00:01:11,780 --> 00:01:14,700
+Now refer back to the previous
+video if you forgot how to
+
+21
+00:01:14,700 --> 00:01:16,140
+calculate Bollinger Bands.
+

@@ -1,0 +1,163 @@
+1
+00:00:00,300 --> 00:00:06,090
+Okay, let's suppose we have a nice
+big beautiful pandas dataframe and
+
+2
+00:00:06,090 --> 00:00:07,700
+this time read in a lot of data.
+
+3
+00:00:07,700 --> 00:00:12,340
+We didn't just focus on a few days,
+we've got the data all the way from
+
+4
+00:00:12,340 --> 00:00:19,240
+the beginning of 2010 to 2012 and we
+got data for SPY, IBM, Google and GLD.
+
+5
+00:00:19,240 --> 00:00:23,910
+Now suppose we want to focus
+on just a subset of that data.
+
+6
+00:00:23,910 --> 00:00:26,170
+In fact, we might call that a slice.
+
+7
+00:00:26,170 --> 00:00:31,634
+For instance, what if we wanted
+to look at just the values for
+
+8
+00:00:31,634 --> 00:00:36,457
+Google and GLD between these dates,
+February 13,
+
+9
+00:00:36,457 --> 00:00:40,960
+2010 through February 15, 2010, and
+
+10
+00:00:40,960 --> 00:00:44,839
+we want to again just look at Google and
+GLD.
+
+11
+00:00:44,839 --> 00:00:51,200
+Well there's very beautiful syntax in
+Pandas that allows you to do that.
+
+12
+00:00:51,200 --> 00:00:55,670
+So we're going to be learning a lot more
+about this syntax in a later lesson.
+
+13
+00:00:55,670 --> 00:00:59,550
+But this is sort of a preview of
+the very nice things you can do.
+
+14
+00:00:59,550 --> 00:01:03,882
+To select these rows we do a simple
+statement that they will show
+
+15
+00:01:03,882 --> 00:01:07,260
+you later to create a date time object.
+
+16
+00:01:07,260 --> 00:01:13,280
+And we just put the start
+date colon end date.
+
+17
+00:01:13,280 --> 00:01:21,690
+And if we just write df1[sd:ed] where
+this is start date and that's end date,
+
+18
+00:01:21,690 --> 00:01:28,470
+then we end up With these three rows,
+but we want to be more selective.
+
+19
+00:01:28,470 --> 00:01:33,220
+We want to focus on these three rows and
+these columns and
+
+20
+00:01:33,220 --> 00:01:38,290
+we need to add one more piece of
+syntax that indicates these columns.
+
+21
+00:01:38,290 --> 00:01:44,480
+So this statement will extract
+these rows and these columns,
+
+22
+00:01:44,480 --> 00:01:49,540
+and leave you just with this
+sub-portion or slice of df1.
+
+23
+00:01:50,870 --> 00:01:55,520
+So, if we were to execute
+the statement df2 equals df1,
+
+24
+00:01:55,520 --> 00:02:00,740
+and then this additional syntax,
+we will end up with this
+
+25
+00:02:00,740 --> 00:02:06,670
+little morsel of data right
+here in our new dataframe.
+
+26
+00:02:06,670 --> 00:02:09,810
+Now there's lots of different ways
+you can slice the data, you don't
+
+27
+00:02:09,810 --> 00:02:14,050
+have to take a group of pieces of data
+that are right next to each other.
+
+28
+00:02:14,050 --> 00:02:17,850
+You can grab any different columns you
+want and any different rows you want.
+
+29
+00:02:17,850 --> 00:02:23,340
+So you might build a new
+dataframe by taking GLD and IBM.
+
+30
+00:02:23,340 --> 00:02:28,210
+And it'll just take those two
+columns and splat them into df2.
+
+31
+00:02:28,210 --> 00:02:29,710
+So that's slicing.
+
+32
+00:02:29,710 --> 00:02:31,980
+This is just a brief introduction.
+
+33
+00:02:31,980 --> 00:02:34,740
+We're going to go into some
+deeper examples when we get
+
+34
+00:02:34,740 --> 00:02:36,390
+to the lesson on numbpie.
+

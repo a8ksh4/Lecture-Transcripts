@@ -1,0 +1,9 @@
+1
+00:00:00,000 --> 00:00:02,868
+The answer is rolling
+standard deviation, and
+
+2
+00:00:02,868 --> 00:00:05,100
+we'll show you why in the next note.
+

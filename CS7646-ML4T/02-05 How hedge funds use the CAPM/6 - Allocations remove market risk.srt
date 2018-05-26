@@ -1,0 +1,35 @@
+1
+00:00:00,360 --> 00:00:03,969
+Suppose we have two stocks,
+our stock A and our stock B.
+
+2
+00:00:03,969 --> 00:00:06,090
+These are the same two stocks
+we've been working with.
+
+3
+00:00:06,090 --> 00:00:13,000
+A has a beta of 1.0 and
+alpha, our prediction of +1%.
+
+4
+00:00:13,000 --> 00:00:17,200
+B has a beta of 2.0 and
+a forecast alpha of negative 1%.
+
+5
+00:00:17,200 --> 00:00:21,310
+So we want to go long on A and
+short on B.
+
+6
+00:00:21,310 --> 00:00:23,860
+The question is what
+should the weights be so
+
+7
+00:00:23,860 --> 00:00:26,930
+that we can minimize or
+eliminate market risk.
+

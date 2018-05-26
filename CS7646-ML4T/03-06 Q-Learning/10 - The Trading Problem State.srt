@@ -1,0 +1,112 @@
+1
+00:00:00,580 --> 00:00:06,667
+Adjusted close is not a good factor for
+learning,
+
+2
+00:00:06,667 --> 00:00:11,470
+because you're not able to
+generalize over different price
+
+3
+00:00:11,470 --> 00:00:16,620
+regimes for when the stock
+was low to when it was high.
+
+4
+00:00:16,620 --> 00:00:18,770
+Also, if you're trying
+to learn a model for
+
+5
+00:00:18,770 --> 00:00:23,250
+several stocks at once and
+they each hold very different prices,
+
+6
+00:00:23,250 --> 00:00:27,000
+adjusted close doesn't serve
+well to help you generalize.
+
+7
+00:00:27,000 --> 00:00:29,780
+Same thing is true for
+simple moving average.
+
+8
+00:00:29,780 --> 00:00:34,260
+However if you combine adjusted close
+and simple moving average together into
+
+9
+00:00:34,260 --> 00:00:40,410
+a ratio that makes a good
+factor to use in state.
+
+10
+00:00:40,410 --> 00:00:42,585
+Bollinger Band value is also good.
+
+11
+00:00:42,585 --> 00:00:44,814
+P/E ratio is good.
+
+12
+00:00:44,814 --> 00:00:49,157
+And a new kind of feature that we're
+considering here with reinforcement
+
+13
+00:00:49,157 --> 00:00:52,770
+learning, is whether we're
+holding the stock or not.
+
+14
+00:00:52,770 --> 00:00:56,470
+That's an important state to know,
+in other words,
+
+15
+00:00:56,470 --> 00:00:59,460
+if you're holding the stock it may
+be advantageous to get rid of it.
+
+16
+00:01:00,570 --> 00:01:06,120
+But if you're not holding it,
+you might not necessarily want to sell.
+
+17
+00:01:06,120 --> 00:01:09,630
+So this additional feature about
+what your situation is is useful.
+
+18
+00:01:10,940 --> 00:01:17,020
+Similarly, return since we entered
+the position might be useful.
+
+19
+00:01:17,020 --> 00:01:21,870
+In other words,
+this might help us set exit points for
+
+20
+00:01:21,870 --> 00:01:25,990
+instance, maybe we've made 10% on
+the stock since we bought it and
+
+21
+00:01:25,990 --> 00:01:28,270
+we should take our
+winnings while we can.
+
+22
+00:01:28,270 --> 00:01:30,980
+So both of these are important and
+
+23
+00:01:30,980 --> 00:01:33,140
+good factors to have
+an acute learning system.
+

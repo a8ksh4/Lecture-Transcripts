@@ -1,0 +1,981 @@
+1
+00:00:00,000 --> 00:00:01,319
+Hi there, I'm Tucker Balch.
+
+2
+00:00:01,319 --> 00:00:05,700
+I'm here with Tammer Kamel,
+he's founder of Quandl.
+
+3
+00:00:06,870 --> 00:00:12,330
+We're here at Quantcon, which is
+a conference organized by Quantopian.
+
+4
+00:00:12,330 --> 00:00:18,672
+So I want to talk with you now about
+your experience advising hedge funds.
+
+5
+00:00:18,672 --> 00:00:23,064
+I guess you have some experience
+actually managing money.
+
+6
+00:00:23,064 --> 00:00:27,878
+And students in the class are really
+interested to hear about real
+
+7
+00:00:27,878 --> 00:00:32,830
+live strategies that succeeded or
+failed or lessons learned.
+
+8
+00:00:32,830 --> 00:00:35,410
+So what is jump diffusion?
+
+9
+00:00:35,410 --> 00:00:39,643
+>> The jump diffusion
+was a model to try and
+
+10
+00:00:39,643 --> 00:00:43,110
+capture the sixth sigma event.
+
+11
+00:00:43,110 --> 00:00:47,026
+And the idea here was,
+it was a smart idea, and
+
+12
+00:00:47,026 --> 00:00:50,248
+I can't take credit for it entirely.
+
+13
+00:00:50,248 --> 00:00:54,024
+But the idea here was if you
+mix normal distributions and
+
+14
+00:00:54,024 --> 00:00:57,090
+drew from them at
+different probabilities.
+
+15
+00:00:57,090 --> 00:00:59,958
+So for example, you had a distribution
+with volatility of sigma.
+
+16
+00:00:59,958 --> 00:01:03,301
+>> I think I know what you're talking
+about, but I just want to review it,
+
+17
+00:01:03,301 --> 00:01:05,269
+in case folks there, so they can follow.
+
+18
+00:01:05,269 --> 00:01:09,562
+So you might have a distribution of
+returns for one strategy or one stock.
+
+19
+00:01:09,562 --> 00:01:10,202
+>> Right.
+
+20
+00:01:10,202 --> 00:01:15,150
+>> And so you're talking about
+the distributions for maybe different
+
+21
+00:01:15,150 --> 00:01:21,154
+strategies or different stocks and then
+potentially combining them in some way.
+
+22
+00:01:21,154 --> 00:01:21,771
+>> Yeah, exactly.
+
+23
+00:01:21,771 --> 00:01:24,590
+>> And everybody assumes those
+distributions are Gaussian, right?
+
+24
+00:01:24,590 --> 00:01:27,016
+So the bell curve-
+>> Right.
+
+25
+00:01:27,016 --> 00:01:30,800
+And so, Gaussian distributions are so
+delightful to work with, right?
+
+26
+00:01:30,800 --> 00:01:31,803
+>> [LAUGH]
+>> So,
+
+27
+00:01:31,803 --> 00:01:35,490
+the problem is that reality doesn't
+intersect with them that much, right?
+
+28
+00:01:35,490 --> 00:01:40,330
+But one nice thing you can do is you can
+actually simulate reality a little bit
+
+29
+00:01:40,330 --> 00:01:44,198
+better if you use not one, but
+two Gaussian distributions.
+
+30
+00:01:44,198 --> 00:01:46,861
+And as your random variable moves,
+
+31
+00:01:46,861 --> 00:01:50,954
+you draw usually from
+the first normal distribution.
+
+32
+00:01:50,954 --> 00:01:53,276
+But then with some random probability,
+
+33
+00:01:53,276 --> 00:01:57,450
+you draw from a distribution with
+a much higher standard deviation.
+
+34
+00:01:57,450 --> 00:02:00,666
+Thus simulating these rare events and
+creates the fatter tails, and
+
+35
+00:02:00,666 --> 00:02:02,116
+is great for risk management.
+
+36
+00:02:02,116 --> 00:02:07,580
+It's predicted power is minimal,
+because it's random so you don't.
+
+37
+00:02:07,580 --> 00:02:10,961
+But for risk management it really gives
+you a much better sense of the fact
+
+38
+00:02:10,961 --> 00:02:11,995
+that- [CROSSTALK]
+>> So
+
+39
+00:02:11,995 --> 00:02:15,073
+you might have a current portfolio and
+
+40
+00:02:15,073 --> 00:02:21,048
+do some sort of Monte Carlo simulation
+to see how risky that portfolio is.
+
+41
+00:02:21,048 --> 00:02:22,081
+>> That's exactly the use case.
+
+42
+00:02:22,081 --> 00:02:22,743
+>> Gotcha, gotcha.
+
+43
+00:02:22,743 --> 00:02:23,347
+Okay, okay.
+
+44
+00:02:23,347 --> 00:02:28,886
+So in one of your earlier careers
+[LAUGH], you advised hedge funds.
+
+45
+00:02:28,886 --> 00:02:34,191
+What sorts of strategies did
+your company generate and
+
+46
+00:02:34,191 --> 00:02:36,875
+advise the hedge funds on?
+
+47
+00:02:36,875 --> 00:02:41,645
+>> So I graduated from an engineering
+program at the university in
+
+48
+00:02:41,645 --> 00:02:42,817
+the mid 90s.
+
+49
+00:02:42,817 --> 00:02:46,330
+And I always call this sort of the
+golden age of quantitative financing.
+
+50
+00:02:46,330 --> 00:02:50,578
+It was an era when Wall Street was
+plucking young vulnerable engineers
+
+51
+00:02:50,578 --> 00:02:52,264
+like myself,
+>> [LAUGH]
+
+52
+00:02:52,264 --> 00:02:54,948
+>> And having us mathematically
+
+53
+00:02:54,948 --> 00:02:56,456
+model markets.
+
+54
+00:02:56,456 --> 00:03:01,450
+And back then there was all
+kinds of really fat opportunity.
+
+55
+00:03:01,450 --> 00:03:04,738
+The first thing we used to do was-
+>> Anybody with a computer could make
+
+56
+00:03:04,738 --> 00:03:05,500
+money, right?
+
+57
+00:03:05,500 --> 00:03:07,232
+[LAUGH]
+>> Well if you could do a bit of math
+
+58
+00:03:07,232 --> 00:03:08,239
+you really could, right.
+
+59
+00:03:08,239 --> 00:03:13,409
+There was this thing, we made a lot
+of money on was yield per arbitrage.
+
+60
+00:03:13,409 --> 00:03:18,211
+>> If you did just a [CROSSTALK]
+model the swap curve, for
+
+61
+00:03:18,211 --> 00:03:22,264
+example, with a two or
+three factor model.
+
+62
+00:03:22,264 --> 00:03:25,853
+And you would discover, a,
+that at any given time,
+
+63
+00:03:25,853 --> 00:03:29,853
+some deviation between a sensible
+looking yield curve and
+
+64
+00:03:29,853 --> 00:03:30,728
+what was-
+>> So
+
+65
+00:03:30,728 --> 00:03:34,789
+a particular asset would be currently
+priced in a such a way to be contrary to
+
+66
+00:03:34,789 --> 00:03:36,798
+what the yield curve would predict?
+
+67
+00:03:36,798 --> 00:03:41,208
+>> What it would come down to is it
+would be mis-priced relative to its
+
+68
+00:03:41,208 --> 00:03:43,589
+peers on that yield curve, right?
+
+69
+00:03:43,589 --> 00:03:47,370
+And backtesting would tell you,
+would confirm that time and again,
+
+70
+00:03:47,370 --> 00:03:51,036
+that anomaly would revert back
+to something more normal, right?
+
+71
+00:03:51,036 --> 00:03:55,510
+So you could make a lot of money by
+taking these reasonably sophisticated
+
+72
+00:03:55,510 --> 00:03:57,060
+yield curve positions.
+
+73
+00:03:57,060 --> 00:04:00,081
+Where you were long at two points of
+the curve, and short at two other
+
+74
+00:04:00,081 --> 00:04:03,636
+points of the curve, and you get these
+funky butterfly kind of trades, right?
+
+75
+00:04:03,636 --> 00:04:06,615
+But they'd be sort of neutral
+to the level of the curve, and
+
+76
+00:04:06,615 --> 00:04:10,012
+even neutral to the slope of the curve,
+but there's these third and
+
+77
+00:04:10,012 --> 00:04:12,820
+fourth factors that would
+be in revert all the time.
+
+78
+00:04:12,820 --> 00:04:16,882
+>> So, to take a short
+position in a fixed income,
+
+79
+00:04:16,882 --> 00:04:20,857
+you would have to be
+a credit swap of some sort?
+
+80
+00:04:20,857 --> 00:04:22,390
+Or how would you do that?
+
+81
+00:04:22,390 --> 00:04:23,660
+>> Many ways you can do that.
+
+82
+00:04:23,660 --> 00:04:25,130
+Credit swap certainly does it.
+
+83
+00:04:25,130 --> 00:04:28,120
+There was no such thing as a credit
+swap when we were doing this.
+
+84
+00:04:28,120 --> 00:04:31,283
+You could short a government bond,
+borrow it and
+
+85
+00:04:31,283 --> 00:04:33,064
+sell it in the repo market?
+
+86
+00:04:33,064 --> 00:04:37,365
+>> I just think of with the way you
+can trade today electronically,
+
+87
+00:04:37,365 --> 00:04:41,599
+you never really think about
+the borrowing and the reselling.
+
+88
+00:04:41,599 --> 00:04:42,678
+>> Right we used to
+worry about that stuff.
+
+89
+00:04:42,678 --> 00:04:44,419
+Yeah repo rates, and all of that.
+
+90
+00:04:44,419 --> 00:04:47,229
+But yeah, that's been extracted
+away to some extent, right?
+
+91
+00:04:47,229 --> 00:04:49,133
+But yeah, that's how we used to do it.
+
+92
+00:04:49,133 --> 00:04:51,954
+>> But, so you talked about
+looking at yield curves.
+
+93
+00:04:51,954 --> 00:04:55,150
+Did you all do anything in equities?
+
+94
+00:04:55,150 --> 00:04:57,583
+Or was it just primarily
+the fixed income?
+
+95
+00:04:57,583 --> 00:05:01,532
+>> We did, also in the 90s, stat arb and
+
+96
+00:05:01,532 --> 00:05:09,090
+even simple pair trades were very
+effective trading strategies, right?
+
+97
+00:05:09,090 --> 00:05:12,698
+There was a lot more
+inter-stock volatility.
+
+98
+00:05:12,698 --> 00:05:17,249
+A lot less correlation between the
+stocks, at least until the late 90s and
+
+99
+00:05:17,249 --> 00:05:18,170
+the crash.
+
+100
+00:05:18,170 --> 00:05:23,190
+And you could even do more sophisticated
+stuff like the stat arp stuff or
+
+101
+00:05:23,190 --> 00:05:25,830
+eigenvalue PCA analysis
+on stock markets and
+
+102
+00:05:25,830 --> 00:05:27,980
+do sort of payer trading
+strategies on these.
+
+103
+00:05:27,980 --> 00:05:30,010
+>> So a lot of that stuff
+doesn't work anymore.
+
+104
+00:05:30,010 --> 00:05:30,553
+>> No it doesn't.
+
+105
+00:05:30,553 --> 00:05:33,374
+>> [LAUGH]
+>> That's why I started a data company.
+
+106
+00:05:33,374 --> 00:05:34,547
+>> I see, okay.
+
+107
+00:05:34,547 --> 00:05:39,764
+Anyways, I wanted to ask
+to what do you attribute
+
+108
+00:05:39,764 --> 00:05:45,880
+the evaporation of alpha and
+these kinds of approaches?
+
+109
+00:05:45,880 --> 00:05:49,340
+>> I think there's a lot of
+interesting things going on, right?
+
+110
+00:05:49,340 --> 00:05:53,530
+There's no question that
+the number of participants
+
+111
+00:05:53,530 --> 00:05:56,190
+executing similar
+strategies is a factor.
+
+112
+00:05:56,190 --> 00:05:59,238
+Volatility is low these days, right?
+
+113
+00:05:59,238 --> 00:06:04,010
+And these strategies thrive in high
+volatility environments, right?
+
+114
+00:06:04,010 --> 00:06:07,281
+Like the 90s was a much higher
+volatility environment,
+
+115
+00:06:07,281 --> 00:06:08,558
+even in a bull market.
+
+116
+00:06:08,558 --> 00:06:13,112
+Another big advantage we had in the 90s
+was the phenomenon of the day trader,
+
+117
+00:06:13,112 --> 00:06:16,569
+which was for lack of a better term,
+incompetent trading.
+
+118
+00:06:16,569 --> 00:06:17,358
+>> Right.
+
+119
+00:06:17,358 --> 00:06:21,562
+>> Right, which would create all kinds
+of wacky, if the day traders woke up on
+
+120
+00:06:21,562 --> 00:06:25,260
+a Tuesday morning and they were
+all in love with Ebay for example.
+
+121
+00:06:25,260 --> 00:06:27,530
+Then everybody just went and
+bought that, and
+
+122
+00:06:27,530 --> 00:06:31,440
+it would create a mispricing in Ebay,
+right?
+
+123
+00:06:31,440 --> 00:06:34,771
+But what you don't have irrational
+actors in the marketplace,
+
+124
+00:06:34,771 --> 00:06:38,048
+it makes these relative value
+pair trades are harder to adapt.
+
+125
+00:06:38,048 --> 00:06:41,348
+>> And I guess at that time maybe the
+day traders were a higher percentage of
+
+126
+00:06:41,348 --> 00:06:42,344
+the volume, right?
+
+127
+00:06:42,344 --> 00:06:46,205
+>> It was definitely a large
+fraction of the volume, or
+
+128
+00:06:46,205 --> 00:06:48,939
+a meaningful faction of the volume.
+
+129
+00:06:48,939 --> 00:06:49,623
+>> Taking food from children's mouths.
+
+130
+00:06:49,623 --> 00:06:53,020
+[LAUGH]
+>> So if someone were,
+
+131
+00:06:53,020 --> 00:06:57,757
+some young whipper snapper
+wants to go out and
+
+132
+00:06:57,757 --> 00:07:03,119
+start creating some kind
+of systematic strategy,
+
+133
+00:07:03,119 --> 00:07:06,748
+is there any alpha left out there?
+
+134
+00:07:06,748 --> 00:07:10,550
+Or where should somebody
+like that start?
+
+135
+00:07:10,550 --> 00:07:12,850
+>> Oh, I'm sure there's all
+kinds of alpha to be had.
+
+136
+00:07:12,850 --> 00:07:17,380
+It's just you have to, don't look
+in the same old places because
+
+137
+00:07:17,380 --> 00:07:21,020
+everybody already has been there and
+there's only a bit.
+
+138
+00:07:21,020 --> 00:07:24,780
+I think there is all kinds
+
+139
+00:07:24,780 --> 00:07:29,100
+of opportunity if you find
+new information sources.
+
+140
+00:07:29,100 --> 00:07:32,710
+You hear great stories about
+little creative ideas where
+
+141
+00:07:33,860 --> 00:07:37,420
+you pay someone sitting in China to
+count trucks coming out of a factory.
+
+142
+00:07:37,420 --> 00:07:38,840
+>> Right, right.
+>> Right, you've heard this one.
+
+143
+00:07:38,840 --> 00:07:43,260
+And then you get a sense of how
+production is going for that company.
+
+144
+00:07:44,260 --> 00:07:46,308
+Very simple little
+information advantage.
+
+145
+00:07:46,308 --> 00:07:46,924
+>> Right.
+
+146
+00:07:46,924 --> 00:07:48,306
+Mechanical Turk like sorts of things.
+
+147
+00:07:48,306 --> 00:07:49,467
+>> Yeah, yeah, yeah.
+
+148
+00:07:49,467 --> 00:07:50,830
+There's all kinds of things
+you can do with that.
+
+149
+00:07:50,830 --> 00:07:52,170
+>> So I think that's fascinating.
+
+150
+00:07:52,170 --> 00:07:56,760
+The one thing I would say to sort
+of reinforce the kind of thing
+
+151
+00:07:56,760 --> 00:08:01,350
+that Quandl can offer is we often
+find that the combination of
+
+152
+00:08:01,350 --> 00:08:04,490
+different data sources adds value.
+
+153
+00:08:04,490 --> 00:08:07,878
+So as an example, maybe over simplified.
+
+154
+00:08:07,878 --> 00:08:12,868
+Back in the 90s, a strategy,
+say based on Bollinger Bands,
+
+155
+00:08:12,868 --> 00:08:18,380
+might have worked when you hit
+the top that could be a cell signal.
+
+156
+00:08:18,380 --> 00:08:21,834
+Nowadays, that just by itself,
+it doesn't work.
+
+157
+00:08:21,834 --> 00:08:26,675
+[LAUGH] But, a combination of multiple
+technical indicators plus some
+
+158
+00:08:26,675 --> 00:08:31,760
+fundamental data, putting all those
+together instead of just a simple,
+
+159
+00:08:31,760 --> 00:08:33,905
+single factor model can work.
+
+160
+00:08:33,905 --> 00:08:34,881
+>> Yeah, I know, I think so.
+
+161
+00:08:34,881 --> 00:08:37,522
+I still have,
+there's three rules of thumb for
+
+162
+00:08:37,522 --> 00:08:40,240
+building quantitative
+strategies these days.
+
+163
+00:08:40,240 --> 00:08:46,360
+I think one should look for
+theoretically sound ideas.
+
+164
+00:08:46,360 --> 00:08:49,700
+So don't bet on black box,
+neural net, kind of things,
+
+165
+00:08:49,700 --> 00:08:51,460
+because they always fall down, right?
+
+166
+00:08:51,460 --> 00:08:55,465
+But if something makes theoretical sense
+in an economics or financial sense,
+
+167
+00:08:55,465 --> 00:08:57,783
+it's a good chance
+you're onto something.
+
+168
+00:08:57,783 --> 00:09:01,530
+>> So it's a good intuitive
+story to start with.
+
+169
+00:09:01,530 --> 00:09:02,250
+>> Exactly,
+
+170
+00:09:02,250 --> 00:09:05,990
+it actually should make sense on
+a whiteboard to start with, right?
+
+171
+00:09:05,990 --> 00:09:08,480
+Grounded in some of the fundamental
+
+172
+00:09:08,480 --> 00:09:11,990
+principals that we know govern
+financial markets in economics right?
+
+173
+00:09:11,990 --> 00:09:13,960
+Number two is empirically tested, right?
+
+174
+00:09:13,960 --> 00:09:16,392
+So build something that's
+theoretically sound and
+
+175
+00:09:16,392 --> 00:09:19,716
+then show yourself empirically,
+with data, that this thing worked.
+
+176
+00:09:19,716 --> 00:09:22,596
+And then the final thing
+is be scared of complexity.
+
+177
+00:09:22,596 --> 00:09:28,239
+If it doesn't stay simple its a warning
+sign your probably over fitting and
+
+178
+00:09:28,239 --> 00:09:30,990
+getting yourself into a trap.
+
+179
+00:09:30,990 --> 00:09:34,224
+But if you devise a strategy
+that ticks these three boxes,
+
+180
+00:09:34,224 --> 00:09:38,978
+that it's sort of theoretically sound,
+empirically testable, and still simple,
+
+181
+00:09:38,978 --> 00:09:41,105
+you're probably on the right track.
+
+182
+00:09:41,105 --> 00:09:41,802
+>> Yeah.
+
+183
+00:09:41,802 --> 00:09:42,742
+[LAUGH] That's great.
+
+184
+00:09:42,742 --> 00:09:43,984
+I'm in total agreement with you.
+
+185
+00:09:43,984 --> 00:09:46,120
+So, one last question.
+
+186
+00:09:46,120 --> 00:09:51,610
+So we've talked about things to do or
+how to attack it.
+
+187
+00:09:51,610 --> 00:09:55,760
+What should people run from,
+[LAUGH] what should they be scared of?
+
+188
+00:09:55,760 --> 00:10:00,530
+>> Look I think the single biggest trap,
+and I've fallen into this thing myself,
+
+189
+00:10:00,530 --> 00:10:04,730
+right, is if you find yourself
+calibrating the same model
+
+190
+00:10:04,730 --> 00:10:05,519
+on the same data usually,
+and you calibrate it.
+
+191
+00:10:05,519 --> 00:10:06,742
+Oh, it doesn't quite work.
+
+192
+00:10:06,742 --> 00:10:09,710
+And then you turn a few knobs and
+it doesn't quite work.
+
+193
+00:10:09,710 --> 00:10:13,630
+And then the eighth time
+you finally turn the knobs
+
+194
+00:10:13,630 --> 00:10:14,793
+just right and it's working?
+
+195
+00:10:14,793 --> 00:10:18,239
+Odds are you've just curve fitted,
+right?.
+
+196
+00:10:18,239 --> 00:10:23,020
+Don't fall into that trap of
+endlessly iterating on the same data.
+
+197
+00:10:23,020 --> 00:10:24,802
+Because you're in for
+
+198
+00:10:24,802 --> 00:10:29,685
+unpleasant surprises once you get into,
+out of sample data.
+
+199
+00:10:29,685 --> 00:10:31,205
+>> Great.
+Yeah.
+
+200
+00:10:31,205 --> 00:10:34,959
+[LAUGH] You're totally going to
+reinforce the things I say in the class,
+
+201
+00:10:34,959 --> 00:10:36,317
+so that's awesome, but
+
+202
+00:10:36,317 --> 00:10:39,246
+they don't believe it when
+they hear it just from me.
+
+203
+00:10:39,246 --> 00:10:39,907
+>> Trust me.
+
+204
+00:10:39,907 --> 00:10:42,566
+I've lost a lot of my [LAUGH]
+>> Cool.
+
+205
+00:10:42,566 --> 00:10:43,785
+Well that's it.
+
+206
+00:10:43,785 --> 00:10:45,166
+Fantastic, great interview.
+
+207
+00:10:45,166 --> 00:10:46,503
+Thanks so much for your time Tammer.
+
+208
+00:10:46,503 --> 00:10:47,523
+>> The pleasure was mine Tucker,
+thank you.
+
+209
+00:10:47,523 --> 00:10:52,500
+>> And hope you all enjoyed it and
+I'll see you online.
+
+210
+00:10:52,500 --> 00:10:53,000
+So long.
+

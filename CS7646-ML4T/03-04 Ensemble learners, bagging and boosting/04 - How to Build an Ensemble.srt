@@ -1,0 +1,67 @@
+1
+00:00:00,190 --> 00:00:02,440
+Okay, let's step through
+these one by one.
+
+2
+00:00:02,440 --> 00:00:07,180
+A, Train several parameterized
+polynomials of differing degree.
+
+3
+00:00:07,180 --> 00:00:11,160
+Yes, we could use that to
+create an ensemble, but
+
+4
+00:00:11,160 --> 00:00:13,350
+that's not the best answer.
+
+5
+00:00:13,350 --> 00:00:18,250
+B, Train several KNN models
+using different subsets of data.
+
+6
+00:00:19,350 --> 00:00:23,840
+Yes, that's good too, but
+it's not yet the best answer.
+
+7
+00:00:23,840 --> 00:00:29,630
+C, Train several KNN models
+with randomized Y values.
+
+8
+00:00:29,630 --> 00:00:34,630
+This is, of course, a terrible idea and
+would give you mush.
+
+9
+00:00:34,630 --> 00:00:39,740
+D, Combine A and
+B into a super ensemble.
+
+10
+00:00:40,850 --> 00:00:43,080
+Yes, that is the best answer.
+
+11
+00:00:44,140 --> 00:00:45,682
+E, combine B and C.
+
+12
+00:00:45,682 --> 00:00:50,770
+And of course, that is mush as well and
+we're not going to do it.
+
+13
+00:00:50,770 --> 00:00:56,410
+Okay, we're actually going to look now
+at this method of creating an ensemble
+
+14
+00:00:56,410 --> 00:01:00,600
+of learners, training several KNN
+models using different subsets of data.
+

@@ -1,0 +1,218 @@
+1
+00:00:00,330 --> 00:00:04,350
+Any numpy array has a number of
+attributes that describes it.
+
+2
+00:00:04,350 --> 00:00:06,730
+In addition to the elements it contains.
+
+3
+00:00:06,730 --> 00:00:09,110
+One of the most useful one is shape.
+
+4
+00:00:09,110 --> 00:00:12,520
+Essentially a tuple containing
+the number of rows and
+
+5
+00:00:12,520 --> 00:00:15,340
+columns are height and
+width of the array.
+
+6
+00:00:15,340 --> 00:00:19,480
+We have already seen how to
+specify this when creating arrays.
+
+7
+00:00:19,480 --> 00:00:24,410
+The shape of the array A would
+be five rows and four columns.
+
+8
+00:00:24,410 --> 00:00:25,790
+So this is your array.
+
+9
+00:00:25,790 --> 00:00:29,850
+Now let's see how to access
+the shape of the given array
+
+10
+00:00:29,850 --> 00:00:31,430
+by using the shape attribute.
+
+11
+00:00:31,430 --> 00:00:34,686
+a.shape will give you
+the shape of the array.
+
+12
+00:00:34,686 --> 00:00:35,607
+Let's run it.
+
+13
+00:00:35,607 --> 00:00:40,365
+Array.shape will return you a tuple
+with the first value specifying
+
+14
+00:00:40,365 --> 00:00:42,620
+the number of rows.
+
+15
+00:00:42,620 --> 00:00:45,950
+And the second value specifying
+the number of columns.
+
+16
+00:00:45,950 --> 00:00:49,410
+Next we will learn how to
+individually access number of rows or
+
+17
+00:00:49,410 --> 00:00:50,425
+number of columns.
+
+18
+00:00:50,425 --> 00:00:54,865
+a.shape[0] would return
+the number of rows and
+
+19
+00:00:54,865 --> 00:00:57,890
+a.shape[1] would return
+the number of columns.
+
+20
+00:00:57,890 --> 00:00:58,750
+Let's check the output.
+
+21
+00:00:58,750 --> 00:01:03,720
+Here you will see that the number of
+rows are correctly extracted as five.
+
+22
+00:01:03,720 --> 00:01:05,590
+And number of columns as 4.
+
+23
+00:01:05,590 --> 00:01:07,450
+If you have more dimensions,
+
+24
+00:01:07,450 --> 00:01:10,380
+you will have additional
+elements in the shape tuple.
+
+25
+00:01:10,380 --> 00:01:14,370
+The number of dimensions in an array
+can be found by simply asking for
+
+26
+00:01:14,370 --> 00:01:15,545
+the length of this tuple.
+
+27
+00:01:15,545 --> 00:01:18,720
+a.shape will return a tuple and
+
+28
+00:01:18,720 --> 00:01:23,570
+the length of that tuple would inform
+us what is the dimension of the array.
+
+29
+00:01:23,570 --> 00:01:28,160
+It rightly tells us that the dimension
+of the defined array A is 2.
+
+30
+00:01:28,160 --> 00:01:32,050
+Okay, how about total number
+of elements in an array?
+
+31
+00:01:32,050 --> 00:01:36,650
+Yes for a 2D array, it will be the
+product of number of rows and columns.
+
+32
+00:01:36,650 --> 00:01:38,170
+But if you had more dimension,
+
+33
+00:01:38,170 --> 00:01:41,680
+this calculation could
+be a little complicated.
+
+34
+00:01:41,680 --> 00:01:45,690
+Fortunately we can retrieve
+the number of elements directly using
+
+35
+00:01:45,690 --> 00:01:46,805
+size attributes.
+
+36
+00:01:46,805 --> 00:01:51,900
+a.size will give us the number of
+elements present in the array A.
+
+37
+00:01:51,900 --> 00:01:55,920
+We can expect the output to be
+the product of the rows and
+
+38
+00:01:55,920 --> 00:01:58,460
+the columns which is 5 into 4,
+which is 20.
+
+39
+00:01:58,460 --> 00:02:00,480
+Let's check it.
+
+40
+00:02:00,480 --> 00:02:06,480
+As we expected, the output is 20 which
+means there are 20 values in the array.
+
+41
+00:02:06,480 --> 00:02:11,380
+Attributes like size and shape
+are very useful when you have to over
+
+42
+00:02:11,380 --> 00:02:14,360
+array elements to perform
+some computation.
+
+43
+00:02:14,360 --> 00:02:18,000
+You can also access the data
+type of each element using
+
+44
+00:02:18,000 --> 00:02:20,875
+the D type attribute of the array.
+
+45
+00:02:20,875 --> 00:02:24,790
+Let's check the data type of
+the values present in array A.
+
+46
+00:02:24,790 --> 00:02:28,480
+In this case, our array elements
+are of the type float64.
+
+47
+00:02:28,480 --> 00:02:32,250
+That is 64-bit floating point numbers.
+

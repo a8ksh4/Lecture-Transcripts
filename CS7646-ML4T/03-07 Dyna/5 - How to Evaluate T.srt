@@ -1,0 +1,74 @@
+1
+00:00:00,210 --> 00:00:05,566
+Okay, consider that state s and
+a are somewhat fixed.
+
+2
+00:00:05,566 --> 00:00:08,986
+What we're trying to find is given s and
+a,
+
+3
+00:00:08,986 --> 00:00:13,870
+what's the probability
+of a particular s prime?
+
+4
+00:00:13,870 --> 00:00:18,841
+So, we'll begin this by just
+consulting how many times
+
+5
+00:00:18,841 --> 00:00:21,392
+did this transition occur?
+
+6
+00:00:21,392 --> 00:00:25,317
+In other words, how many times when
+we were in state s did action a,
+
+7
+00:00:25,317 --> 00:00:27,390
+did we end up in s'?
+
+8
+00:00:27,390 --> 00:00:30,330
+So that's how many times this
+particular transition occurred.
+
+9
+00:00:30,330 --> 00:00:35,294
+Now we just need to divide it by the
+total number of times we were in state
+
+10
+00:00:35,294 --> 00:00:36,649
+s and did action a.
+
+11
+00:00:36,649 --> 00:00:40,090
+So essentially, it's the sum over i.
+
+12
+00:00:40,090 --> 00:00:46,520
+Where we have i iterate over all
+the possible states of T[s, a, i].
+
+13
+00:00:46,520 --> 00:00:50,260
+So this is the number of times in total
+
+14
+00:00:50,260 --> 00:00:54,940
+that we were in state s and
+executed action a.
+
+15
+00:00:54,940 --> 00:00:59,050
+And so this ratio ends up being
+the probability that will end up in s'
+
+16
+00:01:00,290 --> 00:01:02,290
+if we're in state s and take action a.
+

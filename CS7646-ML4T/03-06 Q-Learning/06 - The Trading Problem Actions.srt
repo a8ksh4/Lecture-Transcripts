@@ -1,0 +1,188 @@
+1
+00:00:00,280 --> 00:00:03,860
+Okay, now that you have a basic
+understanding of Q learning,
+
+2
+00:00:03,860 --> 00:00:07,939
+let's consider how we can turn
+the stock trading problem
+
+3
+00:00:07,939 --> 00:00:10,950
+into a problem that Q
+learning can solve.
+
+4
+00:00:10,950 --> 00:00:14,750
+To do that we need to
+define our actions,
+
+5
+00:00:14,750 --> 00:00:19,400
+we need to define our state, and
+we also need to define our rewards.
+
+6
+00:00:19,400 --> 00:00:21,139
+Let's start here first with actions.
+
+7
+00:00:22,170 --> 00:00:24,090
+It's actually pretty easy.
+
+8
+00:00:24,090 --> 00:00:28,860
+We just have three actions,
+buy, sell or do nothing.
+
+9
+00:00:28,860 --> 00:00:32,945
+So let's consider how that might
+play out with an actual stock, and
+
+10
+00:00:32,945 --> 00:00:38,390
+let's suppose we've already
+trained our Q learner what to do.
+
+11
+00:00:38,390 --> 00:00:39,746
+Let's see what's likely to happen.
+
+12
+00:00:39,746 --> 00:00:45,560
+So usually what's going to happen most
+frequently is that we do nothing.
+
+13
+00:00:45,560 --> 00:00:50,230
+There will occasionally be buys and
+sells, but usually nothing.
+
+14
+00:00:50,230 --> 00:00:52,600
+Well, at least, that's my expectation,
+
+15
+00:00:52,600 --> 00:00:56,170
+we'll have to see when we create
+these learners what actually happens.
+
+16
+00:00:56,170 --> 00:01:01,650
+So we are evaluating
+the factors of the stock.
+
+17
+00:01:01,650 --> 00:01:05,970
+In other words, we compute, say,
+several technical indicators.
+
+18
+00:01:05,970 --> 00:01:08,600
+That is our state.
+
+19
+00:01:08,600 --> 00:01:11,080
+We consider that state and
+we do nothing.
+
+20
+00:01:11,080 --> 00:01:14,020
+So let's suppose we do nothing for
+
+21
+00:01:14,020 --> 00:01:17,450
+quite a long period here,
+but somehow or another,
+
+22
+00:01:17,450 --> 00:01:21,500
+after a little while, boom, something
+triggers and says we should buy.
+
+23
+00:01:22,620 --> 00:01:25,540
+So we buy the stock
+here we're holding it.
+
+24
+00:01:25,540 --> 00:01:29,700
+We do nothing, nothing, nothing,
+nothing, nothing, nothing, and
+
+25
+00:01:29,700 --> 00:01:33,910
+boom, our very intelligent Q learner
+says, hey now is the time to sell.
+
+26
+00:01:34,960 --> 00:01:39,320
+And we continue like that through
+the rest of our time series.
+
+27
+00:01:39,320 --> 00:01:40,960
+Let's consider now what these buys and
+
+28
+00:01:40,960 --> 00:01:44,020
+sells, how they affect
+our portfolio value.
+
+29
+00:01:44,020 --> 00:01:47,620
+So we start out with whatever
+we've got in the bank and
+
+30
+00:01:47,620 --> 00:01:49,330
+there's no trading for a while.
+
+31
+00:01:49,330 --> 00:01:51,520
+Suddenly there's a buy, and
+
+32
+00:01:51,520 --> 00:01:55,250
+then we see an increase in our
+portfolio value until we hit that sell.
+
+33
+00:01:56,810 --> 00:01:57,890
+Then nothing.
+
+34
+00:01:59,420 --> 00:02:02,440
+Again, another buy, and a sell.
+
+35
+00:02:02,440 --> 00:02:03,250
+Then nothing.
+
+36
+00:02:03,250 --> 00:02:05,820
+So you see this sort
+of stepped behavior.
+
+37
+00:02:05,820 --> 00:02:09,289
+Now of course, because I was drawing
+this and I wanted us to look good,
+
+38
+00:02:09,289 --> 00:02:12,820
+I was choosing opportunistic
+times to buy and sell.
+
+39
+00:02:14,110 --> 00:02:17,980
+Your real strategy is
+probably not going to be so
+
+40
+00:02:17,980 --> 00:02:21,430
+good, but ideally this is the kind
+of thing we'd like to see.
+

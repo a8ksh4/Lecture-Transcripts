@@ -1,0 +1,117 @@
+1
+00:00:00,390 --> 00:00:05,000
+So pandis has many
+very powerful features,
+
+2
+00:00:05,000 --> 00:00:09,610
+among those features are the ability to
+
+3
+00:00:09,610 --> 00:00:14,800
+do many operations that you may
+be familiar with from databases.
+
+4
+00:00:14,800 --> 00:00:19,680
+In particular, one that we're
+going to leverage here is adjoin.
+
+5
+00:00:19,680 --> 00:00:25,264
+So we're going to join this data
+from SPY and our empty data frame.
+
+6
+00:00:25,264 --> 00:00:29,299
+And we're going to do a special
+join that says, look,
+
+7
+00:00:29,299 --> 00:00:34,725
+we're only interested in dates that
+are present both in SPY and df1.
+
+8
+00:00:34,725 --> 00:00:39,160
+And what happens is,
+we end up with this data.
+
+9
+00:00:39,160 --> 00:00:43,450
+According to its date and
+this position in our target dataframe,
+
+10
+00:00:43,450 --> 00:00:46,890
+and, of course,
+the other two rows as well.
+
+11
+00:00:46,890 --> 00:00:53,150
+But note, because of the join,
+these two days were missing from SPY and
+
+12
+00:00:53,150 --> 00:00:57,539
+the result of the join is they
+are eliminated from our dataframe.
+
+13
+00:00:58,700 --> 00:01:00,980
+They're eliminated
+because it's the weekend.
+
+14
+00:01:00,980 --> 00:01:05,509
+There was no trading, because we know
+that because SPY is our reference.
+
+15
+00:01:05,509 --> 00:01:11,198
+All right, so here's our original data
+frame now after we've loaded an SPY.
+
+16
+00:01:11,198 --> 00:01:16,970
+And those weekend days that were
+here are gone because of that join.
+
+17
+00:01:16,970 --> 00:01:22,030
+Now we can add more
+columns from other stocks,
+
+18
+00:01:22,030 --> 00:01:26,480
+here's one for instance, IBM,
+by performing additional joins.
+
+19
+00:01:27,680 --> 00:01:32,310
+So after this join with data frame IBM,
+bump,
+
+20
+00:01:32,310 --> 00:01:36,540
+we've got this new data over
+here in our empty data frame.
+
+21
+00:01:36,540 --> 00:01:40,830
+We can repeat this process for each
+additional symbol that we want to add.
+
+22
+00:01:40,830 --> 00:01:44,880
+So we'll add Google and GLD.
+
+23
+00:01:44,880 --> 00:01:48,130
+And again, Dave will show you
+the syntax for doing that and
+
+24
+00:01:48,130 --> 00:01:49,850
+pandis in just a few moments.
+

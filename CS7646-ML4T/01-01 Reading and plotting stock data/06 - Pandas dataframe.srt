@@ -1,0 +1,190 @@
+1
+00:00:00,330 --> 00:00:04,010
+We're going to make heavy use
+of a library called Pandas.
+
+2
+00:00:04,010 --> 00:00:09,480
+This library was created by
+Wes McKinney at a hedge fund call AQR.
+
+3
+00:00:09,480 --> 00:00:14,240
+It's used at many hedge funds and
+by many people in the finance industry.
+
+4
+00:00:14,240 --> 00:00:20,610
+One of the key components of Pandas
+is something called the dataframe.
+
+5
+00:00:20,610 --> 00:00:24,520
+And I'm going to show you a little
+bit about what that looks like.
+
+6
+00:00:24,520 --> 00:00:27,410
+So this is the basic
+layout of a dataframe.
+
+7
+00:00:27,410 --> 00:00:30,810
+We have our symbols along the top, so
+
+8
+00:00:30,810 --> 00:00:35,190
+our columns represent
+symbols in the stock market.
+
+9
+00:00:35,190 --> 00:00:40,330
+Like, SPY which is an ETF
+representing the S&P 500,
+
+10
+00:00:40,330 --> 00:00:47,750
+AAPL the symbol for Apple,
+GOOG for Google, GLD for Gold.
+
+11
+00:00:47,750 --> 00:00:51,714
+And the rows are the dates over time, so
+
+12
+00:00:51,714 --> 00:00:58,458
+we go back as far as 2000,
+then come all the way up to 2015.
+
+13
+00:00:58,458 --> 00:01:03,393
+So again, symbols from left to right,
+one column for each symbol,
+
+14
+00:01:03,393 --> 00:01:05,740
+and time coming down like this.
+
+15
+00:01:06,740 --> 00:01:11,010
+So here's our dataframe fleshed
+out with a little bit of data.
+
+16
+00:01:11,010 --> 00:01:16,700
+I made up some of these numbers,
+so it's not intended to be
+
+17
+00:01:16,700 --> 00:01:22,580
+gospel truth, but notice how we have,
+let's say this is closing prices.
+
+18
+00:01:22,580 --> 00:01:30,120
+So we see these numbers for
+SPY, Apple, Google, and GLD.
+
+19
+00:01:30,120 --> 00:01:35,310
+Now, there are some special or
+unusual values here.
+
+20
+00:01:35,310 --> 00:01:39,180
+NaN, that stands for
+not a number, and that's
+
+21
+00:01:40,240 --> 00:01:44,880
+Python's way of saying hey, I don't
+know, I don't have information for this.
+
+22
+00:01:44,880 --> 00:01:48,970
+The reason you see those values here is,
+back in 2000, Google
+
+23
+00:01:50,160 --> 00:01:55,040
+did not exist as a publicly traded
+company, and neither did the ETF GLD.
+
+24
+00:01:56,200 --> 00:02:00,840
+Now these NaN values can cause problems,
+and
+
+25
+00:02:00,840 --> 00:02:04,640
+we'll be talking about
+those in a later session.
+
+26
+00:02:04,640 --> 00:02:09,320
+Now as I said,
+this might represent closing prices, but
+
+27
+00:02:09,320 --> 00:02:14,970
+Pandas can also handle additional data
+in a sort of three dimensional sense.
+
+28
+00:02:14,970 --> 00:02:20,167
+So you can have a dataframe that
+represents, again in columns,
+
+29
+00:02:20,167 --> 00:02:24,790
+our particular symbols,
+and in rows, dates.
+
+30
+00:02:24,790 --> 00:02:28,970
+This one can be close,
+we can have another one that has, for
+
+31
+00:02:28,970 --> 00:02:33,940
+the same stocks and the same dates,
+volume on those dates, and
+
+32
+00:02:33,940 --> 00:02:36,470
+adjusted close, and so on.
+
+33
+00:02:36,470 --> 00:02:43,260
+So Pandas is a very flexible way to
+read in, manipulate, and plot data.
+
+34
+00:02:43,260 --> 00:02:46,750
+Now I've shown you,
+kind of at a high level,
+
+35
+00:02:46,750 --> 00:02:51,120
+what this data looks like and
+what Pandas looks like.
+
+36
+00:02:51,120 --> 00:02:53,490
+I'm going to hand it over to Dave now,
+and
+
+37
+00:02:53,490 --> 00:02:57,220
+she's going to show you some
+real live examples with Pandas.
+
+38
+00:02:57,220 --> 00:03:01,650
+She's going to show you how to read
+this data in, and plot it and so on.
+
+39
+00:03:01,650 --> 00:03:03,260
+So here's over to you, Dave.
+

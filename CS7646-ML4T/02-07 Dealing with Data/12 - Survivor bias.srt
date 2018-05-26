@@ -1,0 +1,171 @@
+1
+00:00:00,410 --> 00:00:03,690
+One of the things we do in this
+class is to simulate strategies that
+
+2
+00:00:03,690 --> 00:00:04,880
+we might develop.
+
+3
+00:00:04,880 --> 00:00:09,480
+We roll back time, and pretend that we
+traded on certain dates according to
+
+4
+00:00:09,480 --> 00:00:13,900
+certain signals, and we see what the
+result of our strategy might have been.
+
+5
+00:00:13,900 --> 00:00:18,400
+Now to do that, you have to start
+with some universal stocks.
+
+6
+00:00:18,400 --> 00:00:22,029
+One of the most common
+universes is the S&P 500.
+
+7
+00:00:22,029 --> 00:00:25,240
+When you simulate your trading,
+you roll back time and
+
+8
+00:00:25,240 --> 00:00:27,480
+you look at that universe of stocks.
+
+9
+00:00:27,480 --> 00:00:31,420
+You apply your algorithm to choose
+which stocks you might buy.
+
+10
+00:00:31,420 --> 00:00:34,190
+A very common mistake that people make
+
+11
+00:00:34,190 --> 00:00:39,340
+is that they look at the membership
+of that universe, as of today.
+
+12
+00:00:39,340 --> 00:00:44,200
+Then they go back in time and they use
+that list of stocks for their strategy.
+
+13
+00:00:44,200 --> 00:00:48,840
+So let's suppose we go back in time,
+we take the current list of the S&P 500,
+
+14
+00:00:48,840 --> 00:00:54,760
+and we run our strategy and
+our strategy is just doing great.
+
+15
+00:00:54,760 --> 00:00:57,680
+I'm going to call that
+the biased strategy.
+
+16
+00:00:57,680 --> 00:00:59,160
+So why is it biased?
+
+17
+00:00:59,160 --> 00:01:04,269
+Well, we're selecting from stocks
+way back here that we knew
+
+18
+00:01:04,269 --> 00:01:09,470
+were existing over here,
+so there's a built in bias
+
+19
+00:01:09,470 --> 00:01:14,520
+that these stocks are going to do well
+because they weathered the storm here.
+
+20
+00:01:14,520 --> 00:01:20,301
+Now consider, what if we use
+the S&P 500 as it was back in 2007?
+
+21
+00:01:21,400 --> 00:01:25,950
+So a lot of the stocks from
+back then did just fine,
+
+22
+00:01:25,950 --> 00:01:28,270
+they survived, but a lot didn't.
+
+23
+00:01:28,270 --> 00:01:34,730
+68 stocks from the S&P 500 died.
+
+24
+00:01:34,730 --> 00:01:39,544
+They completely went away,
+from 2007 to 2009.
+
+25
+00:01:40,610 --> 00:01:45,600
+So if you applied the same strategy
+that appears to be so awesome,
+
+26
+00:01:45,600 --> 00:01:49,710
+but you use the real members
+of the S&P 500 from back then,
+
+27
+00:01:49,710 --> 00:01:53,750
+you're probably going to have
+a significantly lower performance.
+
+28
+00:01:53,750 --> 00:01:58,700
+And the difference between
+these two is the bias.
+
+29
+00:01:58,700 --> 00:02:02,430
+The lesson learned is to use
+survivor bias free data and
+
+30
+00:02:02,430 --> 00:02:05,030
+that's available from
+a number of providers.
+
+31
+00:02:05,030 --> 00:02:09,620
+It's not usually free, but it's not
+necessarily that expensive either.
+
+32
+00:02:09,620 --> 00:02:14,660
+But if you do that, you'll avoid
+this sort of false optimism for
+
+33
+00:02:14,660 --> 00:02:16,910
+a strategy that you develop.
+
+34
+00:02:16,910 --> 00:02:20,220
+Okay, that's it for dealing with data.
+
+35
+00:02:20,220 --> 00:02:23,945
+I hope you found the lesson useful and
+we'll see you again soon.
+
+36
+00:02:23,945 --> 00:02:25,854
+Bye-bye.
+

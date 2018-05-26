@@ -1,0 +1,91 @@
+1
+00:00:00,520 --> 00:00:03,420
+Okay, let's step through
+these one at a time.
+
+2
+00:00:03,420 --> 00:00:06,070
+Buy and sell are actions.
+
+3
+00:00:06,070 --> 00:00:09,700
+So, those are directives
+we give to the market or
+
+4
+00:00:09,700 --> 00:00:14,390
+the environment to change it,
+and potentially change our state.
+
+5
+00:00:14,390 --> 00:00:16,340
+Holding long is a part of the state,
+
+6
+00:00:16,340 --> 00:00:18,720
+it tells us whether we
+are holding the stock or not.
+
+7
+00:00:18,720 --> 00:00:22,470
+We might also be holding short
+if we had shorted of the stock.
+
+8
+00:00:22,470 --> 00:00:24,240
+So holding long is a part of the state.
+
+9
+00:00:25,300 --> 00:00:27,930
+Bollinger value,
+that's a feature, a factor
+
+10
+00:00:27,930 --> 00:00:31,980
+that we can measure about a stock,
+and that's part of the state as well.
+
+11
+00:00:31,980 --> 00:00:36,030
+That would inform us whether we wanted
+to act on it in some way with an action.
+
+12
+00:00:37,330 --> 00:00:40,940
+Return from trade,
+when we finally exit a position.
+
+13
+00:00:40,940 --> 00:00:43,310
+That is our reward.
+
+14
+00:00:43,310 --> 00:00:46,680
+We might lose money, so it would be
+a negative reward if we lost money.
+
+15
+00:00:46,680 --> 00:00:52,580
+We might make money and that'd be
+a positive reward, so that's R a reward.
+
+16
+00:00:52,580 --> 00:00:55,300
+Daily return,
+that could be either a state,
+
+17
+00:00:55,300 --> 00:01:00,510
+in other words a factor we consider for
+deciding what to do,
+
+18
+00:01:00,510 --> 00:01:04,879
+but it could also be a reward,
+we'll get into that more later and
+
+19
+00:01:04,879 --> 00:01:06,470
+you'll see how it could be one or
+the other.
+

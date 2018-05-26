@@ -1,0 +1,147 @@
+1
+00:00:00,440 --> 00:00:04,440
+We're going to consider
+now the intrinsic value of
+
+2
+00:00:04,440 --> 00:00:06,380
+our one dollar machine.
+
+3
+00:00:06,380 --> 00:00:09,920
+In other words, this machine
+generates one dollar every year.
+
+4
+00:00:09,920 --> 00:00:11,540
+Now to understand that,
+
+5
+00:00:11,540 --> 00:00:16,520
+we need to think about what is
+the future value of a dollar.
+
+6
+00:00:16,520 --> 00:00:17,900
+What do I mean by that?
+
+7
+00:00:17,900 --> 00:00:22,440
+Well, let's suppose I told you,
+hey look, awesome student,
+
+8
+00:00:22,440 --> 00:00:24,840
+I promise I will give you $1 in a year.
+
+9
+00:00:26,290 --> 00:00:31,540
+How much would you pay me today
+on the basis of that promise?
+
+10
+00:00:31,540 --> 00:00:35,660
+In other words,
+maybe you would pay me 80 cents, and
+
+11
+00:00:35,660 --> 00:00:40,000
+then in a year I give you $1,
+maybe you would pay me more.
+
+12
+00:00:40,000 --> 00:00:42,620
+Think for
+a moment about how much you would pay me
+
+13
+00:00:42,620 --> 00:00:45,400
+given my promise that I'll give
+you a dollar a year from now.
+
+14
+00:00:47,210 --> 00:00:49,920
+Okay I want you to consider
+these three assets.
+
+15
+00:00:49,920 --> 00:00:52,970
+One of them is a dollar right now,
+in other words I
+
+16
+00:00:52,970 --> 00:00:57,857
+pull a dollar bill out of my pocket and
+I give it to you right now.
+
+17
+00:00:57,857 --> 00:01:05,360
+Another is, I, Tucker Balch,
+promise to give you a dollar in a year.
+
+18
+00:01:05,360 --> 00:01:09,580
+Now that's a promise you can abide by,
+you can trust me, I'm your professor,
+
+19
+00:01:09,580 --> 00:01:11,300
+I'm going to give you
+that dollar in a year.
+
+20
+00:01:11,300 --> 00:01:17,050
+But what you need to think about is,
+what's the value of that
+
+21
+00:01:17,050 --> 00:01:21,190
+promise or that bond, considering
+that it won't happen for a year.
+
+22
+00:01:22,290 --> 00:01:26,490
+And finally, consider this
+asset where the US government
+
+23
+00:01:26,490 --> 00:01:29,610
+promises to give you a dollar in a year.
+
+24
+00:01:29,610 --> 00:01:35,930
+Now I want you to rank each of
+these assets, a one dollar bill,
+
+25
+00:01:35,930 --> 00:01:40,090
+a United States of America bond,
+or a Balch promise,
+
+26
+00:01:40,090 --> 00:01:44,770
+a Balch bond, to pay you $1 in a year.
+
+27
+00:01:44,770 --> 00:01:48,730
+How would you rate these one through
+three where one is the best,
+
+28
+00:01:48,730 --> 00:01:50,240
+where three is the worst?
+
+29
+00:01:50,240 --> 00:01:52,420
+How would you rank these three assets?
+
+30
+00:01:52,420 --> 00:01:56,810
+In other words, which would you rather
+have if you had to choose one or
+
+31
+00:01:56,810 --> 00:02:00,270
+the other where one is the best and
+three is the worst?
+

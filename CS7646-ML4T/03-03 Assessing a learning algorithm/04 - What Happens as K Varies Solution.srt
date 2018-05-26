@@ -1,0 +1,71 @@
+1
+00:00:00,120 --> 00:00:02,910
+Alright, let's start with this one.
+
+2
+00:00:02,910 --> 00:00:07,895
+One of these models was created
+with k=N, and it's this one.
+
+3
+00:00:07,895 --> 00:00:13,960
+If we use all of the neighbors and all
+the data points, and take their average,
+
+4
+00:00:13,960 --> 00:00:17,300
+the value of our model will be
+the same at every single point.
+
+5
+00:00:17,300 --> 00:00:21,020
+Namely the mean of all the Y's
+of all the data points.
+
+6
+00:00:21,020 --> 00:00:24,740
+So this one is b, as in bravo.
+
+7
+00:00:24,740 --> 00:00:26,510
+Let's do this one next, K=1.
+
+8
+00:00:26,510 --> 00:00:32,430
+We know that this model is going
+to tag each point exactly,
+
+9
+00:00:32,430 --> 00:00:36,330
+because, when we're at that data point,
+we'll have exactly that value.
+
+10
+00:00:36,330 --> 00:00:42,800
+So this model steps up and down and
+tags each individual point exactly.
+
+11
+00:00:42,800 --> 00:00:48,200
+So that's a C, and this is, this one
+is K=3, which we already looked at, A.
+
+12
+00:00:49,290 --> 00:00:54,850
+Okay this next question, as we increase
+k we are more likely to overfit,
+
+13
+00:00:54,850 --> 00:00:57,060
+that is false.
+
+14
+00:00:57,060 --> 00:01:01,780
+In K and N, if K is equal to one,
+will have the most overfit model.
+
+15
+00:01:01,780 --> 00:01:06,520
+And as we increase K, we're less and
+less likely to overfit as we go forward.
+

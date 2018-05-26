@@ -1,0 +1,42 @@
+1
+00:00:00,380 --> 00:00:01,110
+Ta da!
+
+2
+00:00:01,110 --> 00:00:03,020
+It's quiz time again.
+
+3
+00:00:03,020 --> 00:00:06,700
+Can you write a function to
+compute daily return values?
+
+4
+00:00:06,700 --> 00:00:09,550
+It should take a data frame as input.
+
+5
+00:00:09,550 --> 00:00:12,860
+Apply the formula to
+calculate daily returns.
+
+6
+00:00:12,860 --> 00:00:17,510
+Use proper slicing and indexing to
+avoid having to loop over each value.
+
+7
+00:00:17,510 --> 00:00:21,700
+Note that the return data frame must
+contain the same column labels and
+
+8
+00:00:21,700 --> 00:00:24,590
+the same number of rows
+as the given data frame.
+
+9
+00:00:24,590 --> 00:00:29,430
+Which means if there are any missing or
+unknown values, replace them with zero.
+

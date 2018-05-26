@@ -1,0 +1,33 @@
+1
+00:00:00,330 --> 00:00:04,620
+To complete this, four slides using
+the notation you learned earlier.
+
+2
+00:00:05,640 --> 00:00:09,800
+Once you get the desired data set,
+the next step is to plot
+
+3
+00:00:09,800 --> 00:00:13,556
+by calling the plot and the score
+data function we defined earlier.
+
+4
+00:00:13,556 --> 00:00:21,260
+Recollect that, plot_data takes
+the parameter, data frame and title.
+
+5
+00:00:21,260 --> 00:00:22,440
+Let's see what we get now.
+
+6
+00:00:23,500 --> 00:00:27,750
+Here's the plot showing the changes
+in the stock prices for
+
+7
+00:00:27,750 --> 00:00:31,060
+SPY and IBM for the period of March.
+

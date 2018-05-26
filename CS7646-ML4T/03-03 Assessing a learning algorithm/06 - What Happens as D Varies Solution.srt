@@ -1,0 +1,111 @@
+1
+00:00:00,170 --> 00:00:02,350
+Okay, let's start with d=1.
+
+2
+00:00:02,350 --> 00:00:04,360
+Well, that's a linear model.
+
+3
+00:00:04,360 --> 00:00:06,870
+That includes just this component.
+
+4
+00:00:07,890 --> 00:00:10,920
+So of course, it must be a line,
+so it's gotta be this one.
+
+5
+00:00:10,920 --> 00:00:13,580
+That means the answer here is c.
+
+6
+00:00:13,580 --> 00:00:18,100
+Now we have order two and
+order three to choose from.
+
+7
+00:00:18,100 --> 00:00:22,170
+Two is a parabola, so
+it's including this component as well.
+
+8
+00:00:22,170 --> 00:00:24,670
+This one's a parabola of course.
+
+9
+00:00:24,670 --> 00:00:27,540
+And so the answer to that one is a.
+
+10
+00:00:28,620 --> 00:00:33,950
+And finally that leaves only b,
+but let's look at why that is.
+
+11
+00:00:33,950 --> 00:00:40,710
+When we have a cubed component, we can
+get this additional curl in there.
+
+12
+00:00:40,710 --> 00:00:49,180
+Now as you notice, as we increase from
+order one to order two to order three,
+
+13
+00:00:49,180 --> 00:00:53,490
+we're gradually getting closer and
+closer to tagging the actual data.
+
+14
+00:00:53,490 --> 00:00:55,480
+So we get to this question,
+
+15
+00:00:55,480 --> 00:00:59,680
+as we increase d we
+are more likely to overfit.
+
+16
+00:00:59,680 --> 00:01:01,870
+That is true.
+
+17
+00:01:01,870 --> 00:01:06,330
+And in fact, it can be shown
+with a polynomial like this that
+
+18
+00:01:06,330 --> 00:01:11,610
+as the order of the polynomial or
+d reaches in,
+
+19
+00:01:11,610 --> 00:01:16,410
+the total number of points, we actually
+can match the data at every point.
+
+20
+00:01:16,410 --> 00:01:18,820
+Now a couple things to note here.
+
+21
+00:01:18,820 --> 00:01:23,660
+One is as we go off the edge here for
+all these models,
+
+22
+00:01:23,660 --> 00:01:28,500
+we're able to extrapolate in
+the direction the data seem to be going.
+
+23
+00:01:28,500 --> 00:01:32,450
+And this is capability
+that parametric models or
+
+24
+00:01:32,450 --> 00:01:36,270
+these polynomial models
+have that KNN does not.
+

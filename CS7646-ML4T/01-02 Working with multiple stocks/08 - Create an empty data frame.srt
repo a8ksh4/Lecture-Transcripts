@@ -1,0 +1,140 @@
+1
+00:00:00,320 --> 00:00:03,630
+Let's try to build the data
+frame professor outline.
+
+2
+00:00:03,630 --> 00:00:07,770
+Starting with the things we need to
+populate the data frame with, r,
+
+3
+00:00:07,770 --> 00:00:09,150
+firstly dates.
+
+4
+00:00:09,150 --> 00:00:13,662
+We used pandas date range method
+which takes two parameters,
+
+5
+00:00:13,662 --> 00:00:15,665
+that is start and end date.
+
+6
+00:00:15,665 --> 00:00:20,660
+For this code,
+we will take a small date range that is
+
+7
+00:00:20,660 --> 00:00:25,442
+from 22nd Jan 2010 to 26th Jan 2010.
+
+8
+00:00:25,442 --> 00:00:29,130
+We then call the date range
+function as I mentioned before,
+
+9
+00:00:29,130 --> 00:00:32,540
+passing two parameters,
+start date and the end date.
+
+10
+00:00:33,550 --> 00:00:36,960
+Let's run this code to see
+what variable dates has in it.
+
+11
+00:00:38,230 --> 00:00:41,530
+The output you see is not
+the list of strings, but
+
+12
+00:00:41,530 --> 00:00:45,280
+the list of date time index objects.
+
+13
+00:00:45,280 --> 00:00:48,760
+Now, what do you mean by
+date time index object?
+
+14
+00:00:48,760 --> 00:00:52,160
+Let's extract the foremost
+element of this list.
+
+15
+00:00:52,160 --> 00:00:55,565
+You can get the forced element
+of the list by writing
+
+16
+00:00:55,565 --> 00:01:01,640
+dates[0] Let's go ahead and
+run this code.
+
+17
+00:01:01,640 --> 00:01:06,852
+This is the first element of the list
+which a date/time index object.
+
+18
+00:01:06,852 --> 00:01:12,950
+The trailing zero zeros for
+each object is the default time stamp.
+
+19
+00:01:12,950 --> 00:01:17,310
+The index for
+a stock data only consists of dates.
+
+20
+00:01:17,310 --> 00:01:19,240
+We can ignore the time stamps for now.
+
+21
+00:01:20,440 --> 00:01:26,360
+Next we define an empty dataframe
+df1 with these dates as index.
+
+22
+00:01:26,360 --> 00:01:30,030
+We use the parameter index
+to supply the dates.
+
+23
+00:01:30,030 --> 00:01:34,756
+Note that without this parameter the
+dataframe will have an index of integers
+
+24
+00:01:34,756 --> 00:01:37,800
+0,1,2 as seen before.
+
+25
+00:01:37,800 --> 00:01:39,610
+Let's print this now.
+
+26
+00:01:39,610 --> 00:01:42,470
+So here's your DataFrame, DF1.
+
+27
+00:01:42,470 --> 00:01:46,000
+It's an empty DataFrame with no columns.
+
+28
+00:01:46,000 --> 00:01:50,900
+However, as we pass the index parameter,
+we have an index as dates.
+
+29
+00:01:50,900 --> 00:01:55,030
+And you can see that it's
+a date time index object.
+
+30
+00:01:55,030 --> 00:01:57,180
+Two major steps have now been completed.
+

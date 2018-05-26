@@ -1,0 +1,155 @@
+1
+00:00:00,370 --> 00:00:04,840
+Before we launch into details of
+the capital assets pricing model,
+
+2
+00:00:04,840 --> 00:00:07,090
+we have to lay down
+a little bit of groundwork.
+
+3
+00:00:07,090 --> 00:00:09,420
+Let's start with
+the definition of a portfolio.
+
+4
+00:00:10,500 --> 00:00:14,400
+A portfolio is a weighted set of assets.
+
+5
+00:00:14,400 --> 00:00:18,480
+So as an example, let's suppose
+you've got a portfolio that's got
+
+6
+00:00:18,480 --> 00:00:22,430
+three different assets in it,
+Apple, Google, and Oracle.
+
+7
+00:00:22,430 --> 00:00:27,400
+And if you look at the entire value
+of your portfolio, let's suppose that
+
+8
+00:00:27,400 --> 00:00:32,030
+60% of it is in Apple,
+20% is in Google, and 20% is in Oracle.
+
+9
+00:00:33,160 --> 00:00:37,932
+If we consider this as a set of weights,
+that means we've got
+
+10
+00:00:37,932 --> 00:00:42,440
+0.6 in Apple, 0.2 in Google and
+0.3 in oracle.
+
+11
+00:00:42,440 --> 00:00:45,160
+So, the first part of our
+definition of a portfolio
+
+12
+00:00:45,160 --> 00:00:50,830
+is that w sub i is the proportion
+of funds that are an asset i.
+
+13
+00:00:50,830 --> 00:00:55,840
+We require that the sum of all
+these w sub i is equal to 1,
+
+14
+00:00:55,840 --> 00:00:59,510
+in other words they add up to 100%.
+
+15
+00:00:59,510 --> 00:01:03,990
+Now sometimes, for leveraged
+portfolios that we're not going to
+
+16
+00:01:03,990 --> 00:01:08,700
+cover in this class,
+this number might be greater than one.
+
+17
+00:01:08,700 --> 00:01:10,060
+But skip that for now.
+
+18
+00:01:11,110 --> 00:01:15,070
+We do allow that you
+might short some stocks.
+
+19
+00:01:15,070 --> 00:01:19,160
+So for instance,
+let's suppose you shorted Google.
+
+20
+00:01:20,340 --> 00:01:24,610
+Your allocation there would be,
+minus point two.
+
+21
+00:01:24,610 --> 00:01:27,920
+So, let's refine this
+equation a little bit and
+
+22
+00:01:27,920 --> 00:01:32,740
+require that the sum of the absolute
+value of the weights is equal to one.
+
+23
+00:01:32,740 --> 00:01:35,610
+So, some of them might be short,
+some of them might be long.
+
+24
+00:01:35,610 --> 00:01:38,565
+But, if you add up the absolute value
+their weights will require that to be
+
+25
+00:01:38,565 --> 00:01:39,980
+1.0.
+
+26
+00:01:39,980 --> 00:01:42,970
+So now that we've defined what
+a portfolio is, let's think for
+
+27
+00:01:42,970 --> 00:01:46,970
+a moment about what will the returns
+on a portfolio look like.
+
+28
+00:01:46,970 --> 00:01:49,420
+So, it's a simple equation, really.
+
+29
+00:01:49,420 --> 00:01:53,940
+It's the sum for
+each asset of the weight of
+
+30
+00:01:53,940 --> 00:01:59,600
+that asset in the portfolio, times
+the return for that day, of the asset.
+
+31
+00:01:59,600 --> 00:02:02,250
+We just add all those up,
+one by one, and boom,
+
+32
+00:02:02,250 --> 00:02:04,390
+that's the return on the portfolio for
+that day.
+

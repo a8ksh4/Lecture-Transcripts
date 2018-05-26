@@ -1,0 +1,70 @@
+1
+00:00:00,340 --> 00:00:03,810
+Of these four,
+this one is the right answer.
+
+2
+00:00:03,810 --> 00:00:05,280
+Here's why.
+
+3
+00:00:05,280 --> 00:00:09,270
+This is the only left-hand side that
+singles out these correct rows,
+
+4
+00:00:09,270 --> 00:00:12,470
+starting at zero, and ending at one.
+
+5
+00:00:12,470 --> 00:00:17,030
+And these correct columns, again
+starting at zero and ending at one.
+
+6
+00:00:17,030 --> 00:00:18,960
+If you look at the right hand side,
+
+7
+00:00:18,960 --> 00:00:21,579
+here is a little bit of new syntax
+that you hadn't seen before.
+
+8
+00:00:22,850 --> 00:00:27,680
+We indicate the rows
+second from last by a -2.
+
+9
+00:00:27,680 --> 00:00:29,930
+So that's what that -2 means.
+
+10
+00:00:29,930 --> 00:00:34,540
+And a colon with nothing after it
+means go all the way to the end.
+
+11
+00:00:34,540 --> 00:00:40,259
+So we've singled out these rows and
+this indicates these two columns.
+
+12
+00:00:41,630 --> 00:00:44,260
+So that's why this one
+is the correct answer.
+
+13
+00:00:44,260 --> 00:00:47,050
+Now, I'm going to hand it over to Dev,
+and
+
+14
+00:00:47,050 --> 00:00:50,960
+she is going to show you how to do all
+these things directly in Python syntax.
+
+15
+00:00:50,960 --> 00:00:52,674
+Here's to you Dev.
+

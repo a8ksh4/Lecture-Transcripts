@@ -1,0 +1,19 @@
+1
+00:00:00,430 --> 00:00:02,674
+The correct answer is bell curve.
+
+2
+00:00:02,674 --> 00:00:06,900
+[COUGH] That's what many,
+many distributions in nature.
+
+3
+00:00:06,900 --> 00:00:11,475
+And if you consider, [LAUGH] the stock
+market nature, is not unusual that
+
+4
+00:00:11,475 --> 00:00:15,450
+a histogram of daily returns ends
+up looking like a bell curve.
+

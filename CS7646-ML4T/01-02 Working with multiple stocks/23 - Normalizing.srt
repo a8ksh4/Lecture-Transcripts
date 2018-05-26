@@ -1,0 +1,113 @@
+1
+00:00:00,600 --> 00:00:04,510
+Let's analyze the graph that we
+had plotted for the four stocks.
+
+2
+00:00:05,580 --> 00:00:09,150
+You see the four stocks
+are all multiple ranges.
+
+3
+00:00:09,150 --> 00:00:11,970
+But we need to observe
+the movement of the stock.
+
+4
+00:00:11,970 --> 00:00:15,420
+By movement I mean how
+much the stock went up or
+
+5
+00:00:15,420 --> 00:00:17,640
+down as compared to the others.
+
+6
+00:00:17,640 --> 00:00:21,430
+To do this, we need to normalize
+the prices of all the stock.
+
+7
+00:00:21,430 --> 00:00:24,640
+We do this by dividing
+the values of each column.
+
+8
+00:00:24,640 --> 00:00:25,740
+By day one.
+
+9
+00:00:25,740 --> 00:00:29,840
+This will ensure that all
+the stocks will start with $1.
+
+10
+00:00:29,840 --> 00:00:34,190
+Power of pandas and Python is
+that we can do this in one line.
+
+11
+00:00:34,190 --> 00:00:34,800
+Let's add it.
+
+12
+00:00:35,990 --> 00:00:40,190
+We define the function: normalize data
+and pass the data frame through it.
+
+13
+00:00:40,190 --> 00:00:42,950
+First, we want all the values
+of the data frame.
+
+14
+00:00:42,950 --> 00:00:47,180
+Hence, we just type the name of
+the data frame, which is df.
+
+15
+00:00:47,180 --> 00:00:50,670
+Now we want to divide all
+the values of this data frame
+
+16
+00:00:50,670 --> 00:00:52,470
+by the first row of eight.
+
+17
+00:00:52,470 --> 00:00:55,020
+So we extract the first
+row using row slicing.
+
+18
+00:00:56,070 --> 00:00:58,310
+This will give us the first row.
+
+19
+00:00:58,310 --> 00:01:00,420
+Now we will just divide it.
+
+20
+00:01:00,420 --> 00:01:02,910
+Let's see how the graph changes.
+
+21
+00:01:02,910 --> 00:01:07,030
+Observe, all the stocks
+start with price one.
+
+22
+00:01:07,030 --> 00:01:11,190
+And now you can see the changes
+that is the stock movement.
+
+23
+00:01:11,190 --> 00:01:15,080
+That's it for now,
+I will be back soon with more coding.
+
+24
+00:01:15,080 --> 00:01:18,550
+Until then, enjoy the power of
+the Python and happy coding.
+

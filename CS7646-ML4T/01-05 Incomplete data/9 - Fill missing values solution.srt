@@ -1,0 +1,45 @@
+1
+00:00:00,230 --> 00:00:01,680
+So, here's the solution.
+
+2
+00:00:01,680 --> 00:00:06,390
+To solve this, you need to use
+both forward and backward fill.
+
+3
+00:00:06,390 --> 00:00:09,290
+The key is to use forward fill first,
+and
+
+4
+00:00:09,290 --> 00:00:14,330
+then the backward fill, to avoid peeping
+into the future as much as possible.
+
+5
+00:00:14,330 --> 00:00:17,170
+Now let's see how the graph looks now.
+
+6
+00:00:17,170 --> 00:00:19,250
+Here is the resulting graph.
+
+7
+00:00:19,250 --> 00:00:21,720
+Know the effects of
+the forward filling and
+
+8
+00:00:21,720 --> 00:00:25,040
+the backward filling in different
+segments of the missing data.
+
+9
+00:00:26,460 --> 00:00:27,640
+That's all for now.
+
+10
+00:00:27,640 --> 00:00:29,300
+Happy quoting till I get back to you.
+

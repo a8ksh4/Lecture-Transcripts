@@ -1,0 +1,40 @@
+1
+00:00:00,360 --> 00:00:04,990
+So here's the solution to find
+the mean volume for the given stroke.
+
+2
+00:00:04,990 --> 00:00:05,850
+As I explained,
+
+3
+00:00:05,850 --> 00:00:10,260
+the first step would be to extract
+the volume column from the data frame.
+
+4
+00:00:10,260 --> 00:00:12,630
+The next step is to find the mean.
+
+5
+00:00:12,630 --> 00:00:15,720
+It can be done by calling
+the mean function.
+
+6
+00:00:15,720 --> 00:00:17,380
+Let's run this code.
+
+7
+00:00:17,380 --> 00:00:18,510
+Here you go.
+
+8
+00:00:18,510 --> 00:00:22,870
+The mean value for Apple,
+and the mean value for IBM.
+
+9
+00:00:22,870 --> 00:00:24,250
+I hope you enjoyed the quiz.
+

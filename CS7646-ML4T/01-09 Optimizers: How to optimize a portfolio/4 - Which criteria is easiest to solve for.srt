@@ -1,0 +1,33 @@
+1
+00:00:00,250 --> 00:00:05,298
+The answer is, it would be easiest to
+write an optimizer that optimizes for
+
+2
+00:00:05,298 --> 00:00:06,750
+cumulative return.
+
+3
+00:00:06,750 --> 00:00:11,700
+Because all you have to do is find
+the single stock that maximized
+
+4
+00:00:11,700 --> 00:00:14,950
+return over that time period.
+
+5
+00:00:14,950 --> 00:00:19,340
+If you're going to optimize for
+minimum volatility or Sharpe ratio,
+
+6
+00:00:19,340 --> 00:00:23,880
+you actually have to evaluate various
+combinations of those stocks.
+
+7
+00:00:23,880 --> 00:00:28,260
+In this case the allocation would just
+be 100% to the highest returning stock.
+

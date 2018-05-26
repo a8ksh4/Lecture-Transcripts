@@ -1,0 +1,79 @@
+1
+00:00:00,210 --> 00:00:02,719
+Thanks, Professor,
+I'll take it from here.
+
+2
+00:00:02,719 --> 00:00:04,850
+So hello, everyone, and
+
+3
+00:00:04,850 --> 00:00:10,090
+we will be using Pandas fillna
+function to fill the missing data.
+
+4
+00:00:10,090 --> 00:00:15,485
+So let's find the documentation of this
+function, and let's go to this site.
+
+5
+00:00:15,485 --> 00:00:16,875
+So here it is.
+
+6
+00:00:16,875 --> 00:00:19,655
+The link is included in
+the instructor notes.
+
+7
+00:00:19,655 --> 00:00:21,965
+I encourage you to bookmark this site.
+
+8
+00:00:21,965 --> 00:00:27,075
+So it gives the usage for any function
+at a glance and it will help you a lot.
+
+9
+00:00:27,075 --> 00:00:29,535
+So let's scroll down and
+let's search for
+
+10
+00:00:29,535 --> 00:00:34,380
+a function using this small search box.
+
+11
+00:00:34,380 --> 00:00:35,660
+Let's search for fillna.
+
+12
+00:00:36,970 --> 00:00:41,838
+Here it is, DataFrame.fillna function,
+and we'll be using this.
+
+13
+00:00:41,838 --> 00:00:46,370
+Read and
+try to understand different options and
+
+14
+00:00:46,370 --> 00:00:50,880
+how to call this fillna function, and
+I'll be right back with a pop quiz.
+
+15
+00:00:52,090 --> 00:00:53,830
+So here's a question for you.
+
+16
+00:00:53,830 --> 00:00:58,320
+How would you call fillna() to
+fill forward missing values?
+
+17
+00:00:58,320 --> 00:01:00,830
+Go ahead and
+type your answer in this box.
+

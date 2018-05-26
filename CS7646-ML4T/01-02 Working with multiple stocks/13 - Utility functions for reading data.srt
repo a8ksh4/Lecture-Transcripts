@@ -1,0 +1,95 @@
+1
+00:00:00,530 --> 00:00:03,780
+You must have noticed how we
+are carrying out essentially the same
+
+2
+00:00:03,780 --> 00:00:06,240
+operation in different places.
+
+3
+00:00:06,240 --> 00:00:11,810
+Why not write some utility function
+that we can use going forward?
+
+4
+00:00:11,810 --> 00:00:16,400
+I have implemented one function for
+you, symbol_to_path.
+
+5
+00:00:16,400 --> 00:00:21,010
+It accepts a symbol name as a string and
+returns the path to the corresponding
+
+6
+00:00:21,010 --> 00:00:25,518
+CSV file, assuming it is
+stored under data by default.
+
+7
+00:00:25,518 --> 00:00:32,780
+For example, symbol_to_path
+IBM will return data/IBM.csv.
+
+8
+00:00:32,780 --> 00:00:35,750
+Can you finish the implementation for
+get_data?
+
+9
+00:00:35,750 --> 00:00:41,000
+It take a list of symbols and
+dates as index and is supposed to return
+
+10
+00:00:41,000 --> 00:00:46,620
+a data frame with stock data for
+each symbol within the given date range.
+
+11
+00:00:46,620 --> 00:00:48,510
+SPY is inserted into the list,
+
+12
+00:00:48,510 --> 00:00:52,720
+if not already present,
+in order to solve as a reference.
+
+13
+00:00:52,720 --> 00:00:58,290
+Note that you must ensure the column for
+SPY does not have any nulls.
+
+14
+00:00:58,290 --> 00:01:03,470
+That is, the data frame should only
+contain dates when SPY actually traded
+
+15
+00:01:03,470 --> 00:01:05,280
+in the given date range.
+
+16
+00:01:05,280 --> 00:01:06,700
+Type in your code here.
+
+17
+00:01:06,700 --> 00:01:10,370
+You can use test run to
+execute your code and
+
+18
+00:01:10,370 --> 00:01:14,950
+submit to evaluate it
+against our test cases.
+
+19
+00:01:14,950 --> 00:01:18,820
+Don't worry, there is no limit
+to how many times you can try.
+
+20
+00:01:18,820 --> 00:01:19,320
+Good luck.
+

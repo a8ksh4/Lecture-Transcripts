@@ -1,0 +1,53 @@
+1
+00:00:00,310 --> 00:00:03,420
+Now we're going to bring all
+these components together and
+
+2
+00:00:03,420 --> 00:00:05,750
+consider risk adjusted reward and
+
+3
+00:00:05,750 --> 00:00:09,940
+this is just like the sharp ratio that
+we've looked at in other contexts.
+
+4
+00:00:09,940 --> 00:00:15,320
+In the single bet case we can
+calculate this ratio easily like this.
+
+5
+00:00:15,320 --> 00:00:23,376
+So remember our reward or our expected
+return was $20 and our risk was $31.62.
+
+6
+00:00:23,376 --> 00:00:27,530
+So if we divide this out,
+we get our sharp ratio.
+
+7
+00:00:27,530 --> 00:00:31,420
+Or just the adjusted risk/reward
+ratio for this scenario.
+
+8
+00:00:31,420 --> 00:00:34,474
+And it turns out to be 0.63.
+
+9
+00:00:34,474 --> 00:00:37,815
+I'd like now for you to fill in
+the numbers for the multi bet case.
+
+10
+00:00:37,815 --> 00:00:42,835
+In other words, a case where we point
+one token on each of the 1,000 tables
+
+11
+00:00:42,835 --> 00:00:45,115
+and then get our return
+from that single event.
+

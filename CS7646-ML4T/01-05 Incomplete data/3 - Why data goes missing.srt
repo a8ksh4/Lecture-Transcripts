@@ -1,0 +1,292 @@
+1
+00:00:00,470 --> 00:00:02,640
+Okay, let's take a look
+at some examples so
+
+2
+00:00:02,640 --> 00:00:06,830
+we can see how prices
+are recorded over time.
+
+3
+00:00:06,830 --> 00:00:07,960
+We'll start with SPY.
+
+4
+00:00:07,960 --> 00:00:13,030
+This is showing a time series
+of that ETF over time.
+
+5
+00:00:13,030 --> 00:00:17,130
+This is the downturn in 2008, 2009.
+
+6
+00:00:17,130 --> 00:00:20,220
+SPY represents the S&P 500.
+
+7
+00:00:20,220 --> 00:00:25,270
+It's one of the most liquid and
+actively traded ETFs out there, and
+
+8
+00:00:25,270 --> 00:00:29,110
+we typically use it as a reference,
+a time and
+
+9
+00:00:29,110 --> 00:00:31,850
+date reference for other stocks.
+
+10
+00:00:31,850 --> 00:00:36,720
+Because we know if SPY was trading,
+the stock market was open and
+
+11
+00:00:36,720 --> 00:00:41,810
+we can use its time history as
+a reference in that regard.
+
+12
+00:00:41,810 --> 00:00:43,040
+It goes all the way back to 1993.
+
+13
+00:00:43,040 --> 00:00:46,970
+There are of course some
+stocks that go back further,
+
+14
+00:00:46,970 --> 00:00:49,730
+all the way to 1901 and so on.
+
+15
+00:00:49,730 --> 00:00:51,792
+But most of what we're going to do,
+
+16
+00:00:51,792 --> 00:00:55,410
+it's fine that we know it's
+been active since 1993.
+
+17
+00:00:55,410 --> 00:00:57,362
+Now Let's look at
+a couple more examples.
+
+18
+00:00:57,362 --> 00:01:03,500
+We'll add JAVA, J-A-V-A, and
+as you can see, it was trading
+
+19
+00:01:03,500 --> 00:01:09,130
+from the beginning here but for some
+reason or another, abruptly stopped.
+
+20
+00:01:09,130 --> 00:01:10,460
+Now what happened there?
+
+21
+00:01:10,460 --> 00:01:14,820
+Well, you may remember
+that Sun Microsystems,
+
+22
+00:01:14,820 --> 00:01:20,140
+which was trading under the ticker JAVA,
+was acquired by Oracle in 2010.
+
+23
+00:01:20,140 --> 00:01:24,370
+And on that date, that ticker went away.
+
+24
+00:01:24,370 --> 00:01:27,620
+So if you look at historical data for
+
+25
+00:01:27,620 --> 00:01:31,340
+JAVA, you'll see that it
+ends at sometime in 2010.
+
+26
+00:01:31,340 --> 00:01:36,070
+Something else that's interesting
+about this ticker JAVA,
+
+27
+00:01:36,070 --> 00:01:41,580
+is that before it was Sun Microsystems
+it was actually Mr. Coffee.
+
+28
+00:01:41,580 --> 00:01:44,690
+So if you look historically for data for
+
+29
+00:01:44,690 --> 00:01:47,390
+JAVA you'll find two
+different time series.
+
+30
+00:01:47,390 --> 00:01:51,320
+One for when it traded as Mr.
+Coffee and another
+
+31
+00:01:51,320 --> 00:01:55,470
+when it traded as Sun Microsystems,
+but it doesn't exist any longer.
+
+32
+00:01:55,470 --> 00:02:00,870
+So imagine if you're processing
+this time series data,
+
+33
+00:02:00,870 --> 00:02:05,130
+and you arrive at this abrupt end for
+JAVA, what's going to happen?
+
+34
+00:02:05,130 --> 00:02:08,560
+Well in the data you'll see NAN,
+
+35
+00:02:08,560 --> 00:02:11,530
+meaning not a number,
+meaning there's no data there.
+
+36
+00:02:11,530 --> 00:02:15,890
+And the focus of this lesson
+is what to do about that.
+
+37
+00:02:15,890 --> 00:02:18,400
+Let's take a look at another example.
+
+38
+00:02:18,400 --> 00:02:24,140
+Okay, we've added now an additional set
+of data, and as you can see we named
+
+39
+00:02:24,140 --> 00:02:30,960
+it FAKE meaning this example we invented
+for the purpose of this discussion.
+
+40
+00:02:30,960 --> 00:02:34,910
+Now, each of these symbols
+is available to you
+
+41
+00:02:34,910 --> 00:02:37,570
+in the data that we provide you for
+the class.
+
+42
+00:02:37,570 --> 00:02:41,200
+So you also will have this FAKE1.
+
+43
+00:02:41,200 --> 00:02:47,050
+Now, the data represented by FAKE1 is
+fairly common, and we only invented
+
+44
+00:02:47,050 --> 00:02:50,400
+it just so it would work out well in
+this chart that we're looking at.
+
+45
+00:02:50,400 --> 00:02:52,840
+Anyways, what's going on with FAKE1 is,
+
+46
+00:02:52,840 --> 00:02:57,160
+as you can see,
+it didn't exist before this time.
+
+47
+00:02:57,160 --> 00:03:02,900
+So instead of having, for instance,
+NAN values after a certain date,
+
+48
+00:03:02,900 --> 00:03:08,140
+this FAKE1 data is going to have
+NAN values before a certain date.
+
+49
+00:03:08,140 --> 00:03:11,950
+So we'll have a different kind of
+problem trying to process that data.
+
+50
+00:03:11,950 --> 00:03:16,570
+Now we'll look at one more example,
+and as you might have guessed,
+
+51
+00:03:16,570 --> 00:03:17,860
+we named that FAKE2.
+
+52
+00:03:17,860 --> 00:03:21,660
+Now what's special about this one,
+
+53
+00:03:21,660 --> 00:03:24,710
+is it's got all of the different
+kinds of problems at once.
+
+54
+00:03:24,710 --> 00:03:28,420
+So it didn't exist before this date,
+
+55
+00:03:28,420 --> 00:03:32,620
+data was absent in between
+these two dates, and so on.
+
+56
+00:03:32,620 --> 00:03:36,240
+This is not typical data for
+a very liquid,
+
+57
+00:03:36,240 --> 00:03:41,040
+very large stock, for
+instance like Google or Apple, but
+
+58
+00:03:41,040 --> 00:03:45,010
+indeed data like this exists for
+thinly traded stocks.
+
+59
+00:03:45,010 --> 00:03:50,910
+In other words, companies that don't
+have a high market capitalization,
+
+60
+00:03:50,910 --> 00:03:55,180
+and they trade very little
+if at all occasionally.
+
+61
+00:03:55,180 --> 00:04:00,315
+So we still have to be able to deal
+with data like this in our studies,
+
+62
+00:04:00,315 --> 00:04:03,810
+and so
+let's focus on this FAKE2 example.
+

@@ -1,0 +1,33 @@
+1
+00:00:00,340 --> 00:00:02,287
+The correct answer is 252.
+
+2
+00:00:02,287 --> 00:00:08,562
+The reason is, you need to
+factor in weekends and holidays.
+
+3
+00:00:08,562 --> 00:00:13,507
+And interestingly, the New York Stock
+Exchange has a set of holidays that
+
+4
+00:00:13,507 --> 00:00:17,750
+occasionally differ from
+the US Government holidays.
+
+5
+00:00:17,750 --> 00:00:23,040
+In almost all cases, almost every year,
+we've got 252 trading days and
+
+6
+00:00:23,040 --> 00:00:29,030
+this number is going to come up a lot,
+as we continue to look at days and
+
+7
+00:00:29,030 --> 00:00:31,780
+calculating statistics about stocks.
+

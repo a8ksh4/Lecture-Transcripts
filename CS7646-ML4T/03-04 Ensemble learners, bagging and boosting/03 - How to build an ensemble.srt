@@ -1,0 +1,40 @@
+1
+00:00:00,340 --> 00:00:03,030
+I want you to think about
+the tools that you have now.
+
+2
+00:00:03,030 --> 00:00:06,780
+You have a cannon learner, and
+you have a linear aggression learner.
+
+3
+00:00:06,780 --> 00:00:09,860
+And also,
+we've taught you a bit about how to use
+
+4
+00:00:09,860 --> 00:00:14,620
+the linear aggression like tools
+to build parameterized models.
+
+5
+00:00:14,620 --> 00:00:19,410
+With these tools, how could you
+go about building an ensemble?
+
+6
+00:00:19,410 --> 00:00:24,040
+Consider each of these approaches,
+A B C D and E, and
+
+7
+00:00:24,040 --> 00:00:28,590
+put a checkmark next to the one that
+you think is the best solution.
+
+8
+00:00:28,590 --> 00:00:31,940
+So some of these are okay, but
+I want you to pick the best answer.
+

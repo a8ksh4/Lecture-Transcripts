@@ -1,0 +1,24 @@
+1
+00:00:00,290 --> 00:00:02,590
+Consider this order book now for
+a moment.
+
+2
+00:00:02,590 --> 00:00:07,340
+Look at how many shares we have for sale
+and how many shares people want to buy.
+
+3
+00:00:08,500 --> 00:00:11,810
+Do you think the price of this stock,
+in the next few minutes,
+
+4
+00:00:11,810 --> 00:00:16,100
+assuming this order book,
+is the price going to go up or down?
+
+5
+00:00:16,100 --> 00:00:17,790
+Check the box that you think is correct.
+

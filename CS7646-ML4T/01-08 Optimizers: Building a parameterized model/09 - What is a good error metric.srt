@@ -1,0 +1,37 @@
+1
+00:00:00,240 --> 00:00:03,490
+So these two are reasonable answers.
+
+2
+00:00:03,490 --> 00:00:06,720
+The reason that this one
+
+3
+00:00:06,720 --> 00:00:11,290
+is not a good answer is because
+some of these e's may be negative.
+
+4
+00:00:11,290 --> 00:00:15,260
+In other words, this one is negative,
+these two are positive,
+
+5
+00:00:15,260 --> 00:00:20,110
+but you could end up with a negative
+error if you just added them up.
+
+6
+00:00:20,110 --> 00:00:26,840
+You can fix that by adding
+absolute value or by squaring it.
+
+7
+00:00:26,840 --> 00:00:29,800
+This measure here is one
+of the more famous one.
+
+8
+00:00:29,800 --> 00:00:31,610
+Of course it's squared error.
+
